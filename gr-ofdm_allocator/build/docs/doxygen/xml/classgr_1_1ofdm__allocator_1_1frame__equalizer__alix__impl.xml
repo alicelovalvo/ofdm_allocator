@@ -85,10 +85,10 @@
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
-      <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix__impl_1afdce4c4bee8f527c1521b319c4bed362" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix__impl_1a35bb85cf4bcb6e817610288eb4f2c512" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
         <definition>gr::ofdm_allocator::frame_equalizer_alix_impl::frame_equalizer_alix_impl</definition>
-        <argsstring>(ofdm_equalizer_base_alix::sptr equalizer, int vector_len, int cp_len, const std::string &amp;len_tag_key, bool propagate_channel_state, int fixed_frame_len)</argsstring>
+        <argsstring>(ofdm_equalizer_base_alix::sptr equalizer, int vector_len, int cp_len, const std::string &amp;tsb_key, bool propagate_channel_state, int fixed_frame_len)</argsstring>
         <name>frame_equalizer_alix_impl</name>
         <param>
           <type><ref refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__base__alix_1abe2c213a9836080a479aba4abc45e6ae" kindref="member">ofdm_equalizer_base_alix::sptr</ref></type>
@@ -104,7 +104,7 @@
         </param>
         <param>
           <type>const std::string &amp;</type>
-          <declname>len_tag_key</declname>
+          <declname>tsb_key</declname>
         </param>
         <param>
           <type>bool</type>
@@ -211,7 +211,7 @@
       <member refid="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix__impl_1a44125b825de6520c24a8160826a7f000" prot="private" virt="non-virtual"><scope>gr::ofdm_allocator::frame_equalizer_alix_impl</scope><name>d_fft_len</name></member>
       <member refid="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix__impl_1a9ead8a84def0c34dcbbcb81aba31e3cc" prot="private" virt="non-virtual"><scope>gr::ofdm_allocator::frame_equalizer_alix_impl</scope><name>d_fixed_frame_len</name></member>
       <member refid="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix__impl_1a825e4fa635e708cd38f369b977deec95" prot="private" virt="non-virtual"><scope>gr::ofdm_allocator::frame_equalizer_alix_impl</scope><name>d_propagate_channel_state</name></member>
-      <member refid="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix__impl_1afdce4c4bee8f527c1521b319c4bed362" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::frame_equalizer_alix_impl</scope><name>frame_equalizer_alix_impl</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix__impl_1a35bb85cf4bcb6e817610288eb4f2c512" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::frame_equalizer_alix_impl</scope><name>frame_equalizer_alix_impl</name></member>
       <member refid="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix_1a5e5ec1f902677990585cb6924d396298" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::frame_equalizer_alix_impl</scope><name>make</name></member>
       <member refid="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix_1a25ae200123440ea6c6e1ff089e095e2a" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::frame_equalizer_alix_impl</scope><name>sptr</name></member>
       <member refid="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix__impl_1ad7bca096abb8a1b37c67d70771ec38a1" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::frame_equalizer_alix_impl</scope><name>work</name></member>

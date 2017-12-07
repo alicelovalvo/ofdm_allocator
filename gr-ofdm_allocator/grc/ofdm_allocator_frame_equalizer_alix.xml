@@ -4,7 +4,7 @@
   <key>ofdm_allocator_frame_equalizer_alix</key>
   <category>OFDM ALLOCATOR</category>
   <import>import ofdm_allocator</import>
-  <make>ofdm_allocator.frame_equalizer_alix($equalizer, $vector_len, $cp_len, $len_tag_key, $propagate_channel_state, $fixed_frame_len)</make>
+  <make>ofdm_allocator.frame_equalizer_alix($equalizer, $vector_len, $cp_len, $tsb_key, $propagate_channel_state, $fixed_frame_len)</make>
   <param>
     <name>FFT length</name>
     <key>fft_len</key>
@@ -30,7 +30,7 @@
   </param>
   <param>
     <name>Length Tag Key</name>
-    <key>len_tag_key</key>
+    <key>tsb_key</key>
     <type>string</type>
   </param>
   <param>
@@ -61,7 +61,7 @@
   <sink>
     <name>in2</name>
     <type>int</type>
-    <vlen>$vlen</vlen>
+    <vlen>$vector_len</vlen>
   </sink>
   <source>
     <name>out</name>

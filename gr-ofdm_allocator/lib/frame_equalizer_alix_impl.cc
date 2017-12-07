@@ -61,6 +61,7 @@ namespace gr {
       int fixed_frame_len
     )
       : gr::tagged_stream_block("frame_equalizer_alix",
+              // gr::io_signature::make(1, 1, sizeof (gr_complex) * equalizer->fft_len()),
               gr::io_signature::make2(2, 2, sizeof (gr_complex) * equalizer->fft_len(), sizeof(int)*vector_len),
               gr::io_signature::make(1, 1, sizeof (gr_complex) * equalizer->fft_len()),
               tsb_key),
@@ -115,7 +116,7 @@ namespace gr {
                        gr_vector_void_star &output_items)
     {
       const gr_complex *in = (const gr_complex *) input_items[0];
-      int *in2 = (int *) input_items[1];
+      // int *in2 = (int *) input_items[1];
       gr_complex *out = (gr_complex *) output_items[0];
       int carrier_offset = 0;
       int frame_len = 0;
@@ -136,7 +137,7 @@ namespace gr {
       }
       // ***************************************************** //
       // get_tags_in_range(tags_2,)
-      std::cout << "/* ninpunt */" << ninput_items[1] << '\n';
+      // std::cout << "/* ninpunt */" << ninput_items[1] << '\n';
       int fft_shift_width = 0;
   //     if (input_is_shifted) {
 	// fft_shift_width = fft_len/2;

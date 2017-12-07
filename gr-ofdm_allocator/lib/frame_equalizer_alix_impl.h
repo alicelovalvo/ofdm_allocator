@@ -49,7 +49,7 @@ namespace gr {
         ofdm_equalizer_base_alix::sptr equalizer,
         int vector_len,
         int cp_len,
-        const std::string &len_tag_key,
+        const std::string &tsb_key,
         bool propagate_channel_state,
         int fixed_frame_len
       );

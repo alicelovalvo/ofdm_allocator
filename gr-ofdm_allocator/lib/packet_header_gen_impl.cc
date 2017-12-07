@@ -139,12 +139,12 @@ namespace gr {
       unsigned char *out = (unsigned char *) output_items[0];
       int *in2 = (int *) input_items[1];
 
-      std::cout << "/* message ninput_items */" << ninput_items[1] << '\n';
-      std::cout << "/* in2 */";
-      for(int j=0; j < ninput_items[1]; j++){
-        std::cout << in2[j] << ", ";
-      }
-      std::cout << '\n';
+      // std::cout << "/* message ninput_items */" << ninput_items[1] << '\n';
+      // std::cout << "/* in2 */";
+      // for(int j=0; j < ninput_items[1]; j++){
+      //   std::cout << in2[j] << ", ";
+      // }
+      // std::cout << '\n';
 
       std::vector<int> vector_sub;
       std::vector<std::vector<int> > vector_vector_sub;

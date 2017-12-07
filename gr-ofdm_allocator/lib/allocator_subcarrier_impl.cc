@@ -236,12 +236,12 @@ namespace gr {
       // int symbols_to_allocate = d_occupied_carriers[0].size();
       int symbols_to_allocate = vector_vector_sub[0].size();
       int symbols_allocated = 0;
-      std::cout << '\n' << "####### allocator ######" << '\n';
+      // std::cout << '\n' << "####### allocator ######" << '\n';
 
       for (int i = 0; i < ninput_items[0]; i++) {
 
 	if (symbols_allocated == 0) {
-    std::cout << "active_subcarrier : ";
+    // std::cout << "active_subcarrier : ";
 
       // std::cout << "d_occupied_carriers " << n_ofdm_symbols <<':';
 // std::cout << "/* tags.size() */" << tags.size() << '\n';
@@ -275,7 +275,7 @@ namespace gr {
   out[(n_ofdm_symbols-1) * d_fft_len + vector_vector_sub[curr_set][symbols_allocated]] = in[i];
 
    //std::cout << "in : " << vector_sub[symbols_allocated] - 32 << ',';
-  std::cout << (vector_vector_sub[curr_set][symbols_allocated] - 32) << ',';
+  // std::cout << (vector_vector_sub[curr_set][symbols_allocated] - 32) << ',';
 
 	symbols_allocated++;
 	if (symbols_allocated == symbols_to_allocate) {
@@ -286,11 +286,11 @@ namespace gr {
     // for (int i = 0; i < d_occupied_carriers[curr_set].size(); i++){
     //   std::cout << (d_occupied_carriers[curr_set][i] - 32) << ',';
     // }
-    std::cout << '\n';
+    // std::cout << '\n';
 	  symbols_allocated = 0;
 	}
   if (i == (ninput_items[0]-1)){
-    std::cout << '\n' << "####### end allocator ######" << '\n';
+    // std::cout << '\n' << "####### end allocator ######" << '\n';
   }
 }
       // Copy pilot symbols

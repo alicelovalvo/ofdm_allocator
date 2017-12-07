@@ -179,7 +179,7 @@
     <member refid="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix__impl_1a825e4fa635e708cd38f369b977deec95" kind="variable"><name>d_propagate_channel_state</name></member>
     <member refid="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix__impl_1a9ead8a84def0c34dcbbcb81aba31e3cc" kind="variable"><name>d_fixed_frame_len</name></member>
     <member refid="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix__impl_1ae4cc4c841e867358b10d29a0de44fcce" kind="variable"><name>d_channel_state</name></member>
-    <member refid="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix__impl_1afdce4c4bee8f527c1521b319c4bed362" kind="function"><name>frame_equalizer_alix_impl</name></member>
+    <member refid="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix__impl_1a35bb85cf4bcb6e817610288eb4f2c512" kind="function"><name>frame_equalizer_alix_impl</name></member>
     <member refid="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix__impl_1ac244d91b1d8f03d7c9eaca69e4a50706" kind="function"><name>~frame_equalizer_alix_impl</name></member>
     <member refid="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix__impl_1ad7bca096abb8a1b37c67d70771ec38a1" kind="function"><name>work</name></member>
   </compound>
