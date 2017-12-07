@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_6d79e6258ac0cf50683a82e1c876981f" kind="dir">
+    <compoundname>ofdm_allocator</compoundname>
+    <innerfile refid="allocator__subcarrier_8h">allocator_subcarrier.h</innerfile>
+    <innerfile refid="api_8h">api.h</innerfile>
+    <innerfile refid="constellation__alix_8h">constellation_alix.h</innerfile>
+    <innerfile refid="constellation__decoder__alix_8h">constellation_decoder_alix.h</innerfile>
+    <innerfile refid="frame__equalizer__alix_8h">frame_equalizer_alix.h</innerfile>
+    <innerfile refid="metric__type__alix_8h">metric_type_alix.h</innerfile>
+    <innerfile refid="ofdm__equalizer__base__alix_8h">ofdm_equalizer_base_alix.h</innerfile>
+    <innerfile refid="ofdm__equalizer__simpledfe__alix_8h">ofdm_equalizer_simpledfe_alix.h</innerfile>
+    <innerfile refid="packet__header__default__alix_8h">packet_header_default_alix.h</innerfile>
+    <innerfile refid="packet__header__gen_8h">packet_header_gen.h</innerfile>
+    <innerfile refid="packet__header__ofdm__alix_8h">packet_header_ofdm_alix.h</innerfile>
+    <innerfile refid="serializer__subcarrier_8h">serializer_subcarrier.h</innerfile>
+    <innerfile refid="vector__source__tagged_8h">vector_source_tagged.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/"/>
+  </compounddef>
+</doxygen>

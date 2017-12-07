@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1ofdm__allocator_1_1allocator__subcarrier" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>gr::ofdm_allocator::allocator_subcarrier</compoundname>
+    <basecompoundref prot="public" virt="virtual">tagged_stream_block</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1ofdm__allocator_1_1allocator__subcarrier__impl" prot="public" virt="non-virtual">gr::ofdm_allocator::allocator_subcarrier_impl</derivedcompoundref>
+    <includes refid="allocator__subcarrier_8h" local="no">allocator_subcarrier.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1ofdm__allocator_1_1allocator__subcarrier_1ab6e5771d0fd1f766fd39bff1ef41b6bf" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1ofdm__allocator_1_1allocator__subcarrier" kindref="compound">allocator_subcarrier</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;allocator_subcarrier&gt; gr::ofdm_allocator::allocator_subcarrier::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/allocator_subcarrier.h" line="39" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/allocator_subcarrier.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1allocator__subcarrier_1aa01c8a9ebe407e302e4307a7617ff43e" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>std::string</type>
+        <definition>virtual std::string gr::ofdm_allocator::allocator_subcarrier::len_tag_key</definition>
+        <argsstring>()=0</argsstring>
+        <name>len_tag_key</name>
+        <reimplementedby refid="classgr_1_1ofdm__allocator_1_1allocator__subcarrier__impl_1a8970f9b7e54cc5f39be354a3ac30cf8e">len_tag_key</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/allocator_subcarrier.h" line="41" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1allocator__subcarrier_1ac166debfd2b26e6ea9fc4b7de0471e1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>const int</type>
+        <definition>virtual const int gr::ofdm_allocator::allocator_subcarrier::fft_len</definition>
+        <argsstring>()=0</argsstring>
+        <name>fft_len</name>
+        <reimplementedby refid="classgr_1_1ofdm__allocator_1_1allocator__subcarrier__impl_1a6d6acedd576c3d60f07abe09807e0f81">fft_len</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/allocator_subcarrier.h" line="42" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1allocator__subcarrier_1a11ebbf592513f00f5fff6058dca29e0b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1ofdm__allocator_1_1allocator__subcarrier_1ab6e5771d0fd1f766fd39bff1ef41b6bf" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::ofdm_allocator::allocator_subcarrier::make</definition>
+        <argsstring>(int fft_len, int vector_len, const std::vector&lt; std::vector&lt; int &gt; &gt; &amp;pilot_carriers, const std::vector&lt; std::vector&lt; gr_complex &gt; &gt; &amp;pilot_symbols, const std::vector&lt; std::vector&lt; gr_complex &gt; &gt; &amp;sync_words, const std::string &amp;len_tag_key=&quot;packet_len&quot;, const bool output_is_shifted=true)</argsstring>
+        <name>make</name>
+        <param>
+          <type>int</type>
+          <declname>fft_len</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>vector_len</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; std::vector&lt; int &gt; &gt; &amp;</type>
+          <declname>pilot_carriers</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; std::vector&lt; gr_complex &gt; &gt; &amp;</type>
+          <declname>pilot_symbols</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; std::vector&lt; gr_complex &gt; &gt; &amp;</type>
+          <declname>sync_words</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>len_tag_key</declname>
+          <defval>&quot;packet_len&quot;</defval>
+        </param>
+        <param>
+          <type>const bool</type>
+          <declname>output_is_shifted</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1ofdm__allocator_1_1allocator__subcarrier" kindref="compound">ofdm_allocator::allocator_subcarrier</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1ofdm__allocator_1_1allocator__subcarrier" kindref="compound">ofdm_allocator::allocator_subcarrier</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1ofdm__allocator_1_1allocator__subcarrier_1a11ebbf592513f00f5fff6058dca29e0b" kindref="member">ofdm_allocator::allocator_subcarrier::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/allocator_subcarrier.h" line="54" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>gr::ofdm_allocator::allocator_subcarrier_impl</label>
+        <link refid="classgr_1_1ofdm__allocator_1_1allocator__subcarrier__impl"/>
+        <childnode refid="0" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>tagged_stream_block</label>
+      </node>
+      <node id="0">
+        <label>gr::ofdm_allocator::allocator_subcarrier</label>
+        <link refid="classgr_1_1ofdm__allocator_1_1allocator__subcarrier"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>tagged_stream_block</label>
+      </node>
+      <node id="3">
+        <label>gr::ofdm_allocator::allocator_subcarrier</label>
+        <link refid="classgr_1_1ofdm__allocator_1_1allocator__subcarrier"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/allocator_subcarrier.h" line="37" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/allocator_subcarrier.h" bodystart="36" bodyend="65"/>
+    <listofallmembers>
+      <member refid="classgr_1_1ofdm__allocator_1_1allocator__subcarrier_1ac166debfd2b26e6ea9fc4b7de0471e1d" prot="public" virt="pure-virtual"><scope>gr::ofdm_allocator::allocator_subcarrier</scope><name>fft_len</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1allocator__subcarrier_1aa01c8a9ebe407e302e4307a7617ff43e" prot="public" virt="pure-virtual"><scope>gr::ofdm_allocator::allocator_subcarrier</scope><name>len_tag_key</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1allocator__subcarrier_1a11ebbf592513f00f5fff6058dca29e0b" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::allocator_subcarrier</scope><name>make</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1allocator__subcarrier_1ab6e5771d0fd1f766fd39bff1ef41b6bf" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::allocator_subcarrier</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

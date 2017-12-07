@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="constellation__alix_8h" kind="file" language="C++">
+    <compoundname>constellation_alix.h</compoundname>
+    <includes refid="api_8h" local="no">ofdm_allocator/api.h</includes>
+    <includes refid="metric__type__alix_8h" local="no">ofdm_allocator/metric_type_alix.h</includes>
+    <includes local="no">boost/enable_shared_from_this.hpp</includes>
+    <includes local="no">boost/any.hpp</includes>
+    <includes local="no">gnuradio/gr_complex.h</includes>
+    <includes local="no">pmt/pmt.h</includes>
+    <includes local="no">vector</includes>
+    <includedby refid="constellation__decoder__alix_8h" local="no">constellation_decoder_alix.h</includedby>
+    <includedby refid="ofdm__equalizer__simpledfe__alix_8h" local="no">ofdm_equalizer_simpledfe_alix.h</includedby>
+    <incdepgraph>
+      <node id="34">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="32">
+        <label>constellation_alix.h</label>
+        <link refid="constellation_alix.h"/>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+      </node>
+      <node id="37">
+        <label>boost/any.hpp</label>
+      </node>
+      <node id="40">
+        <label>vector</label>
+      </node>
+      <node id="38">
+        <label>gnuradio/gr_complex.h</label>
+      </node>
+      <node id="39">
+        <label>pmt/pmt.h</label>
+      </node>
+      <node id="36">
+        <label>boost/enable_shared_from_this.hpp</label>
+      </node>
+      <node id="33">
+        <label>ofdm_allocator/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="34" relation="include">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>ofdm_allocator/metric_type_alix.h</label>
+        <link refid="metric__type__alix_8h"/>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="44">
+        <label>ofdm_equalizer_simpledfe_alix.h</label>
+        <link refid="ofdm__equalizer__simpledfe__alix_8h"/>
+      </node>
+      <node id="41">
+        <label>constellation_alix.h</label>
+        <link refid="constellation_alix.h"/>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="44" relation="include">
+        </childnode>
+      </node>
+      <node id="43">
+        <label>constellation_decoder_alix_impl.h</label>
+        <link refid="constellation__decoder__alix__impl_8h"/>
+      </node>
+      <node id="42">
+        <label>constellation_decoder_alix.h</label>
+        <link refid="constellation__decoder__alix_8h"/>
+        <childnode refid="43" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1ofdm__allocator_1_1constellation__alix" prot="public">gr::ofdm_allocator::constellation_alix</innerclass>
+    <innerclass refid="classgr_1_1ofdm__allocator_1_1constellation__calcdist" prot="public">gr::ofdm_allocator::constellation_calcdist</innerclass>
+    <innerclass refid="classgr_1_1ofdm__allocator_1_1constellation__sector" prot="public">gr::ofdm_allocator::constellation_sector</innerclass>
+    <innerclass refid="classgr_1_1ofdm__allocator_1_1constellation__rect" prot="public">gr::ofdm_allocator::constellation_rect</innerclass>
+    <innerclass refid="classgr_1_1ofdm__allocator_1_1constellation__expl__rect" prot="public">gr::ofdm_allocator::constellation_expl_rect</innerclass>
+    <innerclass refid="classgr_1_1ofdm__allocator_1_1constellation__psk" prot="public">gr::ofdm_allocator::constellation_psk</innerclass>
+    <innerclass refid="classgr_1_1ofdm__allocator_1_1constellation__bpsk" prot="public">gr::ofdm_allocator::constellation_bpsk</innerclass>
+    <innerclass refid="classgr_1_1ofdm__allocator_1_1constellation__qpsk" prot="public">gr::ofdm_allocator::constellation_qpsk</innerclass>
+    <innerclass refid="classgr_1_1ofdm__allocator_1_1constellation__dqpsk" prot="public">gr::ofdm_allocator::constellation_dqpsk</innerclass>
+    <innerclass refid="classgr_1_1ofdm__allocator_1_1constellation__8psk" prot="public">gr::ofdm_allocator::constellation_8psk</innerclass>
+    <innerclass refid="classgr_1_1ofdm__allocator_1_1constellation__8psk__natural" prot="public">gr::ofdm_allocator::constellation_8psk_natural</innerclass>
+    <innerclass refid="classgr_1_1ofdm__allocator_1_1constellation__16qam" prot="public">gr::ofdm_allocator::constellation_16qam</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1ofdm__allocator">gr::ofdm_allocator</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/constellation_alix.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1ofdm__allocator_1_1constellation__decoder__alix" kind="class" language="C++" prot="public">
+    <compoundname>gr::ofdm_allocator::constellation_decoder_alix</compoundname>
+    <basecompoundref prot="public" virt="virtual">block</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1ofdm__allocator_1_1constellation__decoder__alix__impl" prot="public" virt="non-virtual">gr::ofdm_allocator::constellation_decoder_alix_impl</derivedcompoundref>
+    <includes refid="constellation__decoder__alix_8h" local="no">constellation_decoder_alix.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1ofdm__allocator_1_1constellation__decoder__alix_1ac9388e9efb453d317cb6ce93e9a6d71e" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1ofdm__allocator_1_1constellation__decoder__alix" kindref="compound">constellation_decoder_alix</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;constellation_decoder_alix&gt; gr::ofdm_allocator::constellation_decoder_alix::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/constellation_decoder_alix.h" line="40" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/constellation_decoder_alix.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1constellation__decoder__alix_1ae3fa64f982e60459ef63809ae302f569" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1ofdm__allocator_1_1constellation__decoder__alix_1ac9388e9efb453d317cb6ce93e9a6d71e" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::ofdm_allocator::constellation_decoder_alix::make</definition>
+        <argsstring>(constellation_alix_sptr constellation)</argsstring>
+        <name>make</name>
+        <param>
+          <type>constellation_alix_sptr</type>
+          <declname>constellation</declname>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1ofdm__allocator_1_1constellation__decoder__alix" kindref="compound">ofdm_allocator::constellation_decoder_alix</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1ofdm__allocator_1_1constellation__decoder__alix" kindref="compound">ofdm_allocator::constellation_decoder_alix</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1ofdm__allocator_1_1constellation__decoder__alix_1ae3fa64f982e60459ef63809ae302f569" kindref="member">ofdm_allocator::constellation_decoder_alix::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/constellation_decoder_alix.h" line="50" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="76">
+        <label>gr::ofdm_allocator::constellation_decoder_alix_impl</label>
+        <link refid="classgr_1_1ofdm__allocator_1_1constellation__decoder__alix__impl"/>
+        <childnode refid="74" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="74">
+        <label>gr::ofdm_allocator::constellation_decoder_alix</label>
+        <link refid="classgr_1_1ofdm__allocator_1_1constellation__decoder__alix"/>
+        <childnode refid="75" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="75">
+        <label>gr::block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="77">
+        <label>gr::ofdm_allocator::constellation_decoder_alix</label>
+        <link refid="classgr_1_1ofdm__allocator_1_1constellation__decoder__alix"/>
+        <childnode refid="78" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="78">
+        <label>gr::block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/constellation_decoder_alix.h" line="38" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/constellation_decoder_alix.h" bodystart="37" bodyend="51"/>
+    <listofallmembers>
+      <member refid="classgr_1_1ofdm__allocator_1_1constellation__decoder__alix_1ae3fa64f982e60459ef63809ae302f569" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::constellation_decoder_alix</scope><name>make</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1constellation__decoder__alix_1ac9388e9efb453d317cb6ce93e9a6d71e" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::constellation_decoder_alix</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="api_8h" kind="file" language="C++">
+    <compoundname>api.h</compoundname>
+    <includes local="no">gnuradio/attributes.h</includes>
+    <includedby refid="allocator__subcarrier_8h" local="no">/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/allocator_subcarrier.h</includedby>
+    <includedby refid="constellation__alix_8h" local="no">/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/constellation_alix.h</includedby>
+    <includedby refid="constellation__decoder__alix_8h" local="no">/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/constellation_decoder_alix.h</includedby>
+    <includedby refid="frame__equalizer__alix_8h" local="no">/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/frame_equalizer_alix.h</includedby>
+    <includedby refid="ofdm__equalizer__base__alix_8h" local="no">/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/ofdm_equalizer_base_alix.h</includedby>
+    <includedby refid="ofdm__equalizer__simpledfe__alix_8h" local="no">/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/ofdm_equalizer_simpledfe_alix.h</includedby>
+    <includedby refid="packet__header__default__alix_8h" local="no">/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/packet_header_default_alix.h</includedby>
+    <includedby refid="packet__header__gen_8h" local="no">/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/packet_header_gen.h</includedby>
+    <includedby refid="packet__header__ofdm__alix_8h" local="no">/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h</includedby>
+    <includedby refid="serializer__subcarrier_8h" local="no">/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/serializer_subcarrier.h</includedby>
+    <includedby refid="vector__source__tagged_8h" local="no">/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/vector_source_tagged.h</includedby>
+    <incdepgraph>
+      <node id="6">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="5">
+        <label>/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/api.h</label>
+        <link refid="api.h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="15">
+        <label>/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/packet_header_gen.h</label>
+        <link refid="packet__header__gen_8h"/>
+      </node>
+      <node id="17">
+        <label>/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/serializer_subcarrier.h</label>
+        <link refid="serializer__subcarrier_8h"/>
+      </node>
+      <node id="11">
+        <label>/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/ofdm_equalizer_simpledfe_alix.h</label>
+        <link refid="ofdm__equalizer__simpledfe__alix_8h"/>
+      </node>
+      <node id="18">
+        <label>/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/vector_source_tagged.h</label>
+        <link refid="vector__source__tagged_8h"/>
+      </node>
+      <node id="13">
+        <label>/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/ofdm_equalizer_base_alix.h</label>
+        <link refid="ofdm__equalizer__base__alix_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/constellation_alix.h</label>
+        <link refid="constellation__alix_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/frame_equalizer_alix.h</label>
+        <link refid="frame__equalizer__alix_8h"/>
+      </node>
+      <node id="14">
+        <label>/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/packet_header_default_alix.h</label>
+        <link refid="packet__header__default__alix_8h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/api.h</label>
+        <link refid="api.h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/constellation_decoder_alix.h</label>
+        <link refid="constellation__decoder__alix_8h"/>
+      </node>
+      <node id="8">
+        <label>/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/allocator_subcarrier.h</label>
+        <link refid="allocator__subcarrier_8h"/>
+      </node>
+      <node id="16">
+        <label>/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h</label>
+        <link refid="packet__header__ofdm__alix_8h"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="api_8h_1a6bdf34825f6b4a40a71a2c4546136120" prot="public" static="no">
+        <name>OFDM_ALLOCATOR_API</name>
+        <initializer>__GR_ATTR_IMPORT</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/api.h" line="30" column="12" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/api.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>2011<sp/>Free<sp/>Software<sp/>Foundation,<sp/>Inc.</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>GNU<sp/>Radio</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>GNU<sp/>Radio<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>version<sp/>3,<sp/>or<sp/>(at<sp/>your<sp/>option)</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>GNU<sp/>Radio<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>along<sp/>with<sp/>GNU<sp/>Radio;<sp/>see<sp/>the<sp/>file<sp/>COPYING.<sp/><sp/>If<sp/>not,<sp/>write<sp/>to</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>the<sp/>Free<sp/>Software<sp/>Foundation,<sp/>Inc.,<sp/>51<sp/>Franklin<sp/>Street,</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*<sp/>Boston,<sp/>MA<sp/>02110-1301,<sp/>USA.</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>INCLUDED_OFDM_ALLOCATOR_API_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>INCLUDED_OFDM_ALLOCATOR_API_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gnuradio/attributes.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>gnuradio_ofdm_allocator_EXPORTS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>OFDM_ALLOCATOR_API<sp/>__GR_ATTR_EXPORT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="api_8h_1a6bdf34825f6b4a40a71a2c4546136120" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>OFDM_ALLOCATOR_API<sp/>__GR_ATTR_IMPORT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>INCLUDED_OFDM_ALLOCATOR_API_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/api.h"/>
+  </compounddef>
+</doxygen>

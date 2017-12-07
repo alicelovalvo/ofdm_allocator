@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<block>
+  <name>Pseudo-Random Generator</name>
+  <key>ofdm_allocator_vector_source_tagged</key>
+  <category>OFDM ALLOCATOR</category>
+  <import>import ofdm_allocator</import>
+  <make>ofdm_allocator.vector_source_tagged($data, $repeat, $vlen, $fixed, $length_tag_key, $tags)</make>
+  <callback>set_data($data, $tags)</callback>
+  <callback>set_random_vector()</callback>
+  <param>
+  <name>Fixed</name>
+  <key>fixed</key>
+  <value>False</value>
+  <type>enum</type>
+  <option>
+    <name>Yes</name>
+    <key>True</key>
+  </option>
+  <option>
+    <name>No</name>
+    <key>False</key>
+  </option>
+  </param>
+  <param>
+    <name>Vector</name>
+    <key>data</key>
+    <value>(0, 0, 0)</value>
+    <type>raw</type>
+  </param>
+  <param>
+		<name>Tags</name>
+		<key>tags</key>
+		<value>[]</value>
+		<type>raw</type>
+	</param>
+  <param>
+  <name>Repeat</name>
+  <key>repeat</key>
+  <value>True</value>
+  <type>enum</type>
+  <option>
+    <name>Yes</name>
+    <key>True</key>
+  </option>
+  <option>
+    <name>No</name>
+    <key>False</key>
+  </option>
+</param>
+<param>
+  <name>Vec Length</name>
+  <key>vlen</key>
+  <value>1</value>
+  <type>int</type>
+</param>
+<param>
+  <name>Length tag key</name>
+  <key>length_tag_key</key>
+  <value>"vector_len"</value>
+  <type>string</type>
+</param>
+<check>$vlen &gt; 0</check>
+  <source>
+    <name>out</name>
+    <type>int</type>
+    <vlen>$vlen</vlen>
+  </source>
+</block>

@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -DNDEBUG   CMakeFiles/_ofdm_allocator_swig_doc_tag.dir/_ofdm_allocator_swig_doc_tag.cpp.o  -o _ofdm_allocator_swig_doc_tag -rdynamic 

@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1ofdm__allocator_1_1serializer__subcarrier" kind="class" language="C++" prot="public">
+    <compoundname>gr::ofdm_allocator::serializer_subcarrier</compoundname>
+    <basecompoundref prot="public" virt="virtual">tagged_stream_block</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1ofdm__allocator_1_1serializer__subcarrier__impl" prot="public" virt="non-virtual">gr::ofdm_allocator::serializer_subcarrier_impl</derivedcompoundref>
+    <includes refid="serializer__subcarrier_8h" local="no">serializer_subcarrier.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1ofdm__allocator_1_1serializer__subcarrier_1a54dccc15bc1eb99dcb0919633f745913" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1ofdm__allocator_1_1serializer__subcarrier" kindref="compound">serializer_subcarrier</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;serializer_subcarrier&gt; gr::ofdm_allocator::serializer_subcarrier::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/serializer_subcarrier.h" line="39" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/serializer_subcarrier.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1serializer__subcarrier_1a6cabce7c2d2fd89e0322f7bda15e3fc4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1ofdm__allocator_1_1serializer__subcarrier_1a54dccc15bc1eb99dcb0919633f745913" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::ofdm_allocator::serializer_subcarrier::make</definition>
+        <argsstring>(int fft_len, int vector_len, const std::string &amp;len_tag_key=&quot;frame_len&quot;, const std::string &amp;packet_len_tag_key=&quot;&quot;, int symbols_skipped=0, const std::string &amp;carr_offset_key=&quot;&quot;, bool input_is_shifted=true)</argsstring>
+        <name>make</name>
+        <param>
+          <type>int</type>
+          <declname>fft_len</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>vector_len</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>len_tag_key</declname>
+          <defval>&quot;frame_len&quot;</defval>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>packet_len_tag_key</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>symbols_skipped</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>carr_offset_key</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>input_is_shifted</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1ofdm__allocator_1_1serializer__subcarrier" kindref="compound">ofdm_allocator::serializer_subcarrier</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1ofdm__allocator_1_1serializer__subcarrier" kindref="compound">ofdm_allocator::serializer_subcarrier</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1ofdm__allocator_1_1serializer__subcarrier_1a6cabce7c2d2fd89e0322f7bda15e3fc4" kindref="member">ofdm_allocator::serializer_subcarrier::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/serializer_subcarrier.h" line="49" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="218">
+        <label>gr::ofdm_allocator::serializer_subcarrier_impl</label>
+        <link refid="classgr_1_1ofdm__allocator_1_1serializer__subcarrier__impl"/>
+        <childnode refid="216" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="216">
+        <label>gr::ofdm_allocator::serializer_subcarrier</label>
+        <link refid="classgr_1_1ofdm__allocator_1_1serializer__subcarrier"/>
+        <childnode refid="217" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="217">
+        <label>tagged_stream_block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="219">
+        <label>gr::ofdm_allocator::serializer_subcarrier</label>
+        <link refid="classgr_1_1ofdm__allocator_1_1serializer__subcarrier"/>
+        <childnode refid="220" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="220">
+        <label>tagged_stream_block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/serializer_subcarrier.h" line="37" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/serializer_subcarrier.h" bodystart="36" bodyend="58"/>
+    <listofallmembers>
+      <member refid="classgr_1_1ofdm__allocator_1_1serializer__subcarrier_1a6cabce7c2d2fd89e0322f7bda15e3fc4" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::serializer_subcarrier</scope><name>make</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1serializer__subcarrier_1a54dccc15bc1eb99dcb0919633f745913" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::serializer_subcarrier</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="api_8h" kind="file" language="C++">
+    <compoundname>api.h</compoundname>
+    <includes local="no">gnuradio/attributes.h</includes>
+    <includedby refid="allocator__subcarrier_8h" local="no">allocator_subcarrier.h</includedby>
+    <includedby refid="constellation__alix_8h" local="no">constellation_alix.h</includedby>
+    <includedby refid="constellation__decoder__alix_8h" local="no">constellation_decoder_alix.h</includedby>
+    <includedby refid="frame__equalizer__alix_8h" local="no">frame_equalizer_alix.h</includedby>
+    <includedby refid="ofdm__equalizer__base__alix_8h" local="no">ofdm_equalizer_base_alix.h</includedby>
+    <includedby refid="ofdm__equalizer__simpledfe__alix_8h" local="no">ofdm_equalizer_simpledfe_alix.h</includedby>
+    <includedby refid="packet__header__default__alix_8h" local="no">packet_header_default_alix.h</includedby>
+    <includedby refid="packet__header__gen_8h" local="no">packet_header_gen.h</includedby>
+    <includedby refid="packet__header__ofdm__alix_8h" local="no">packet_header_ofdm_alix.h</includedby>
+    <includedby refid="serializer__subcarrier_8h" local="no">serializer_subcarrier.h</includedby>
+    <includedby refid="vector__source__tagged_8h" local="no">vector_source_tagged.h</includedby>
+    <incdepgraph>
+      <node id="13">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="12">
+        <label>api.h</label>
+        <link refid="api.h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="22">
+        <label>frame_equalizer_alix_impl.h</label>
+        <link refid="frame__equalizer__alix__impl_8h"/>
+      </node>
+      <node id="25">
+        <label>packet_header_gen.h</label>
+        <link refid="packet__header__gen_8h"/>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>serializer_subcarrier.h</label>
+        <link refid="serializer__subcarrier_8h"/>
+        <childnode refid="29" relation="include">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>vector_source_tagged_impl.h</label>
+        <link refid="vector__source__tagged__impl_8h"/>
+      </node>
+      <node id="20">
+        <label>ofdm_equalizer_simpledfe_alix.h</label>
+        <link refid="ofdm__equalizer__simpledfe__alix_8h"/>
+      </node>
+      <node id="30">
+        <label>vector_source_tagged.h</label>
+        <link refid="vector__source__tagged_8h"/>
+        <childnode refid="31" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>allocator_subcarrier_impl.h</label>
+        <link refid="allocator__subcarrier__impl_8h"/>
+      </node>
+      <node id="29">
+        <label>serializer_subcarrier_impl.h</label>
+        <link refid="serializer__subcarrier__impl_8h"/>
+      </node>
+      <node id="23">
+        <label>ofdm_equalizer_base_alix.h</label>
+        <link refid="ofdm__equalizer__base__alix_8h"/>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>constellation_alix.h</label>
+        <link refid="constellation__alix_8h"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>frame_equalizer_alix.h</label>
+        <link refid="frame__equalizer__alix_8h"/>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>constellation_decoder_alix_impl.h</label>
+        <link refid="constellation__decoder__alix__impl_8h"/>
+      </node>
+      <node id="24">
+        <label>packet_header_default_alix.h</label>
+        <link refid="packet__header__default__alix_8h"/>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>packet_header_gen_impl.h</label>
+        <link refid="packet__header__gen__impl_8h"/>
+      </node>
+      <node id="14">
+        <label>api.h</label>
+        <link refid="api.h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>constellation_decoder_alix.h</label>
+        <link refid="constellation__decoder__alix_8h"/>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>allocator_subcarrier.h</label>
+        <link refid="allocator__subcarrier_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>packet_header_ofdm_alix.h</label>
+        <link refid="packet__header__ofdm__alix_8h"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="api_8h_1a6bdf34825f6b4a40a71a2c4546136120" prot="public" static="no">
+        <name>OFDM_ALLOCATOR_API</name>
+        <initializer>__GR_ATTR_IMPORT</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/api.h" line="30" column="12" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/api.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/api.h"/>
+  </compounddef>
+</doxygen>

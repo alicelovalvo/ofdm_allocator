@@ -1,0 +1,30 @@
+INCLUDE(FindPkgConfig)
+PKG_CHECK_MODULES(PC_OFDM_ALLOCATOR ofdm_allocator)
+
+FIND_PATH(
+    OFDM_ALLOCATOR_INCLUDE_DIRS
+    NAMES ofdm_allocator/api.h
+    HINTS $ENV{OFDM_ALLOCATOR_DIR}/include
+        ${PC_OFDM_ALLOCATOR_INCLUDEDIR}
+    PATHS ${CMAKE_INSTALL_PREFIX}/include
+          /usr/local/include
+          /usr/include
+)
+
+FIND_LIBRARY(
+    OFDM_ALLOCATOR_LIBRARIES
+    NAMES gnuradio-ofdm_allocator
+    HINTS $ENV{OFDM_ALLOCATOR_DIR}/lib
+        ${PC_OFDM_ALLOCATOR_LIBDIR}
+    PATHS ${CMAKE_INSTALL_PREFIX}/lib
+          ${CMAKE_INSTALL_PREFIX}/lib64
+          /usr/local/lib
+          /usr/local/lib64
+          /usr/lib
+          /usr/lib64
+)
+
+INCLUDE(FindPackageHandleStandardArgs)
+FIND_PACKAGE_HANDLE_STANDARD_ARGS(OFDM_ALLOCATOR DEFAULT_MSG OFDM_ALLOCATOR_LIBRARIES OFDM_ALLOCATOR_INCLUDE_DIRS)
+MARK_AS_ADVANCED(OFDM_ALLOCATOR_LIBRARIES OFDM_ALLOCATOR_INCLUDE_DIRS)
+

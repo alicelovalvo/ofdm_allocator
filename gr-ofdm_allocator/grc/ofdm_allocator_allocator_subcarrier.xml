@@ -1,0 +1,72 @@
+<block>
+  <name>Allocator Subcarrier Alix</name>
+  <key>ofdm_allocator_allocator_subcarrier</key>
+  <category>OFDM ALLOCATOR</category>
+  <import>import ofdm_allocator</import>
+  <!-- <make>ofdm_allocator.allocator_subcarrier($fft_len, $vector_len, $occupied_carriers, $pilot_carriers, $pilot_symbols, $sync_words, $len_tag_key, $output_is_shifted)</make> -->
+  <make>ofdm_allocator.allocator_subcarrier($fft_len, $vector_len, $pilot_carriers, $pilot_symbols, $sync_words, $len_tag_key, $output_is_shifted)</make>
+  <param>
+    <name>FFT_len</name>
+    <key>fft_len</key>
+    <type>int</type>
+  </param>
+  <param>
+    <name>Vector_len</name>
+    <key>vector_len</key>
+    <type>int</type>
+  </param>
+  <!-- <param>
+    <name>Occupied_carriers</name>
+    <key>occupied_carriers</key>
+    <type>raw</type>
+  </param> -->
+  <param>
+    <name>Pilot_carriers</name>
+    <key>pilot_carriers</key>
+    <type>raw</type>
+  </param>
+  <param>
+    <name>Pilot_symbols</name>
+    <key>pilot_symbols</key>
+    <type>raw</type>
+  </param>
+  <param>
+    <name>Sync_words</name>
+    <key>sync_words</key>
+    <type>raw</type>
+  </param>
+  <param>
+    <name>Len_tag_key</name>
+    <key>len_tag_key</key>
+    <value> "packet_len"</value>
+    <type>string</type>
+  </param>
+  <param>
+    <name>Output_is_shifted</name>
+    <key>output_is_shifted</key>
+    <value>False</value>
+    <type>bool</type>
+    <option>
+      <name>Yes</name>
+      <key>True</key>
+    </option>
+    <option>
+      <name>No</name>
+      <key>False</key>
+    </option>
+  </param>
+  <sink>
+    <name>in</name>
+    <type>complex</type>
+  </sink>
+  <sink>
+    <name>in2</name>
+    <type>int</type>
+    <vlen>$vector_len</vlen>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>complex</type>
+    <vlen>$fft_len</vlen>
+  </source>
+</block>

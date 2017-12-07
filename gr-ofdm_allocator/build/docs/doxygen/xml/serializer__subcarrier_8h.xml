@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="serializer__subcarrier_8h" kind="file" language="C++">
+    <compoundname>serializer_subcarrier.h</compoundname>
+    <includes refid="api_8h" local="no">ofdm_allocator/api.h</includes>
+    <includes local="no">gnuradio/tagged_stream_block.h</includes>
+    <includedby refid="serializer__subcarrier__impl_8h" local="no">serializer_subcarrier_impl.h</includedby>
+    <incdepgraph>
+      <node id="163">
+        <label>serializer_subcarrier.h</label>
+        <link refid="serializer_subcarrier.h"/>
+        <childnode refid="164" relation="include">
+        </childnode>
+        <childnode refid="166" relation="include">
+        </childnode>
+      </node>
+      <node id="165">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="164">
+        <label>ofdm_allocator/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="165" relation="include">
+        </childnode>
+      </node>
+      <node id="166">
+        <label>gnuradio/tagged_stream_block.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="167">
+        <label>serializer_subcarrier.h</label>
+        <link refid="serializer_subcarrier.h"/>
+        <childnode refid="168" relation="include">
+        </childnode>
+      </node>
+      <node id="168">
+        <label>serializer_subcarrier_impl.h</label>
+        <link refid="serializer__subcarrier__impl_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1ofdm__allocator_1_1serializer__subcarrier" prot="public">gr::ofdm_allocator::serializer_subcarrier</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1ofdm__allocator">gr::ofdm_allocator</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/serializer_subcarrier.h"/>
+  </compounddef>
+</doxygen>

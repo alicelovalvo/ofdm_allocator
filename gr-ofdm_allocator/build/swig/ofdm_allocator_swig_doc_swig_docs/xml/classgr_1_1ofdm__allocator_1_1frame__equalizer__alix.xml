@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix" kind="class" language="C++" prot="public">
+    <compoundname>gr::ofdm_allocator::frame_equalizer_alix</compoundname>
+    <basecompoundref prot="public" virt="virtual">tagged_stream_block</basecompoundref>
+    <includes refid="frame__equalizer__alix_8h" local="no">frame_equalizer_alix.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix_1a25ae200123440ea6c6e1ff089e095e2a" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix" kindref="compound">frame_equalizer_alix</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;frame_equalizer_alix&gt; gr::ofdm_allocator::frame_equalizer_alix::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/frame_equalizer_alix.h" line="40" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/frame_equalizer_alix.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix_1a5e5ec1f902677990585cb6924d396298" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix_1a25ae200123440ea6c6e1ff089e095e2a" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::ofdm_allocator::frame_equalizer_alix::make</definition>
+        <argsstring>(ofdm_equalizer_base_alix::sptr equalizer, int vector_len, int cp_len, const std::string &amp;tsb_key=&quot;frame_len&quot;, bool propagate_channel_state=false, int fixed_frame_len=0)</argsstring>
+        <name>make</name>
+        <param>
+          <type><ref refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__base__alix_1abe2c213a9836080a479aba4abc45e6ae" kindref="member">ofdm_equalizer_base_alix::sptr</ref></type>
+          <declname>equalizer</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>vector_len</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>cp_len</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>tsb_key</declname>
+          <defval>&quot;frame_len&quot;</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>propagate_channel_state</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>fixed_frame_len</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix" kindref="compound">ofdm_allocator::frame_equalizer_alix</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix" kindref="compound">ofdm_allocator::frame_equalizer_alix</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix_1a5e5ec1f902677990585cb6924d396298" kindref="member">ofdm_allocator::frame_equalizer_alix::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/frame_equalizer_alix.h" line="50" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="137">
+        <label>gr::ofdm_allocator::frame_equalizer_alix</label>
+        <link refid="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix"/>
+        <childnode refid="138" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="138">
+        <label>gr::tagged_stream_block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="139">
+        <label>gr::ofdm_allocator::frame_equalizer_alix</label>
+        <link refid="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix"/>
+        <childnode refid="140" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="140">
+        <label>gr::tagged_stream_block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/frame_equalizer_alix.h" line="38" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/frame_equalizer_alix.h" bodystart="37" bodyend="57"/>
+    <listofallmembers>
+      <member refid="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix_1a5e5ec1f902677990585cb6924d396298" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::frame_equalizer_alix</scope><name>make</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix_1a25ae200123440ea6c6e1ff089e095e2a" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::frame_equalizer_alix</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

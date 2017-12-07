@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="packet__header__gen__impl_8h" kind="file" language="C++">
+    <compoundname>packet_header_gen_impl.h</compoundname>
+    <includes refid="packet__header__gen_8h" local="no">ofdm_allocator/packet_header_gen.h</includes>
+    <includes local="no">boost/crc.hpp</includes>
+    <incdepgraph>
+      <node id="145">
+        <label>ofdm_allocator/packet_header_gen.h</label>
+        <link refid="packet__header__gen_8h"/>
+        <childnode refid="146" relation="include">
+        </childnode>
+        <childnode refid="148" relation="include">
+        </childnode>
+        <childnode refid="149" relation="include">
+        </childnode>
+      </node>
+      <node id="150">
+        <label>gnuradio/tags.h</label>
+      </node>
+      <node id="147">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="149">
+        <label>ofdm_allocator/packet_header_default_alix.h</label>
+        <link refid="packet__header__default__alix_8h"/>
+        <childnode refid="150" relation="include">
+        </childnode>
+        <childnode refid="146" relation="include">
+        </childnode>
+        <childnode refid="151" relation="include">
+        </childnode>
+        <childnode refid="152" relation="include">
+        </childnode>
+      </node>
+      <node id="152">
+        <label>boost/crc.hpp</label>
+      </node>
+      <node id="144">
+        <label>packet_header_gen_impl.h</label>
+        <link refid="packet_header_gen_impl.h"/>
+        <childnode refid="145" relation="include">
+        </childnode>
+        <childnode refid="152" relation="include">
+        </childnode>
+      </node>
+      <node id="151">
+        <label>boost/enable_shared_from_this.hpp</label>
+      </node>
+      <node id="146">
+        <label>ofdm_allocator/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="147" relation="include">
+        </childnode>
+      </node>
+      <node id="148">
+        <label>gnuradio/tagged_stream_block.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1ofdm__allocator_1_1packet__header__gen__impl" prot="public">gr::ofdm_allocator::packet_header_gen_impl</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1ofdm__allocator">gr::ofdm_allocator</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/packet_header_gen_impl.h"/>
+  </compounddef>
+</doxygen>

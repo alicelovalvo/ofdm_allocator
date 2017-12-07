@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1ofdm__allocator_1_1vector__source__tagged" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>gr::ofdm_allocator::vector_source_tagged</compoundname>
+    <basecompoundref prot="public" virt="virtual">sync_block</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged__impl" prot="public" virt="non-virtual">gr::ofdm_allocator::vector_source_tagged_impl</derivedcompoundref>
+    <includes refid="vector__source__tagged_8h" local="no">vector_source_tagged.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1ofdm__allocator_1_1vector__source__tagged_1aebd68bd56130611327e2ff5f25b90eeb" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged" kindref="compound">vector_source_tagged</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;vector_source_tagged&gt; gr::ofdm_allocator::vector_source_tagged::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/vector_source_tagged.h" line="39" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/vector_source_tagged.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1vector__source__tagged_1aa62f11c1d20e3cd3730a4b1032a8683f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged_1aebd68bd56130611327e2ff5f25b90eeb" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::ofdm_allocator::vector_source_tagged::make</definition>
+        <argsstring>(const std::vector&lt; int &gt; &amp;data, bool repeat=false, int vlen=1, bool fixed=false, const std::string &amp;length_tag_key=&quot;vector_len&quot;, const std::vector&lt; tag_t &gt; &amp;tags=std::vector&lt; tag_t &gt;())</argsstring>
+        <name>make</name>
+        <param>
+          <type>const std::vector&lt; int &gt; &amp;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>repeat</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>vlen</declname>
+          <defval>1</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>fixed</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>length_tag_key</declname>
+          <defval>&quot;vector_len&quot;</defval>
+        </param>
+        <param>
+          <type>const std::vector&lt; tag_t &gt; &amp;</type>
+          <declname>tags</declname>
+          <defval>std::vector&lt; tag_t &gt;()</defval>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged" kindref="compound">ofdm_allocator::vector_source_tagged</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged" kindref="compound">ofdm_allocator::vector_source_tagged</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged_1aa62f11c1d20e3cd3730a4b1032a8683f" kindref="member">ofdm_allocator::vector_source_tagged::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/vector_source_tagged.h" line="49" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1vector__source__tagged_1a345a40ebd2fd2cac4c7ba45a5d9e32e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::ofdm_allocator::vector_source_tagged::rewind</definition>
+        <argsstring>()=0</argsstring>
+        <name>rewind</name>
+        <reimplementedby refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged__impl_1a4f54213a7fb4a6edfd2a9f478521b781">rewind</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/vector_source_tagged.h" line="54" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1vector__source__tagged_1aa42bbb1c80384ca617db6094b74a0d8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::ofdm_allocator::vector_source_tagged::set_data</definition>
+        <argsstring>(const std::vector&lt; int &gt; &amp;data, const std::vector&lt; tag_t &gt; &amp;tags=std::vector&lt; tag_t &gt;())=0</argsstring>
+        <name>set_data</name>
+        <reimplementedby refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged__impl_1aed37eafbb63cc37e53c4b8284bf2c5ad">set_data</reimplementedby>
+        <param>
+          <type>const std::vector&lt; int &gt; &amp;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; tag_t &gt; &amp;</type>
+          <declname>tags</declname>
+          <defval>std::vector&lt; tag_t &gt;()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/vector_source_tagged.h" line="55" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1vector__source__tagged_1a08ed605b70f688d13d22461aadc983ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::ofdm_allocator::vector_source_tagged::set_random_vector</definition>
+        <argsstring>()=0</argsstring>
+        <name>set_random_vector</name>
+        <reimplementedby refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged__impl_1a46f51f50c0e46f27ec2451267f9d2b5e">set_random_vector</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/vector_source_tagged.h" line="58" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1vector__source__tagged_1aad1f50b85cfc3d57e89739c4a154a632" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::ofdm_allocator::vector_source_tagged::set_repeat</definition>
+        <argsstring>(bool repeat)=0</argsstring>
+        <name>set_repeat</name>
+        <reimplementedby refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged__impl_1add56d67f2dc6f82bff9a7a83d8e7c092">set_repeat</reimplementedby>
+        <param>
+          <type>bool</type>
+          <declname>repeat</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/vector_source_tagged.h" line="59" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="229">
+        <label>gr::ofdm_allocator::vector_source_tagged_impl</label>
+        <link refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged__impl"/>
+        <childnode refid="227" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="228">
+        <label>gr::sync_block</label>
+      </node>
+      <node id="227">
+        <label>gr::ofdm_allocator::vector_source_tagged</label>
+        <link refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged"/>
+        <childnode refid="228" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="231">
+        <label>gr::sync_block</label>
+      </node>
+      <node id="230">
+        <label>gr::ofdm_allocator::vector_source_tagged</label>
+        <link refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged"/>
+        <childnode refid="231" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/vector_source_tagged.h" line="37" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/vector_source_tagged.h" bodystart="36" bodyend="59"/>
+    <listofallmembers>
+      <member refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged_1aa62f11c1d20e3cd3730a4b1032a8683f" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::vector_source_tagged</scope><name>make</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged_1a345a40ebd2fd2cac4c7ba45a5d9e32e0" prot="public" virt="pure-virtual"><scope>gr::ofdm_allocator::vector_source_tagged</scope><name>rewind</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged_1aa42bbb1c80384ca617db6094b74a0d8f" prot="public" virt="pure-virtual"><scope>gr::ofdm_allocator::vector_source_tagged</scope><name>set_data</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged_1a08ed605b70f688d13d22461aadc983ea" prot="public" virt="pure-virtual"><scope>gr::ofdm_allocator::vector_source_tagged</scope><name>set_random_vector</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged_1aad1f50b85cfc3d57e89739c4a154a632" prot="public" virt="pure-virtual"><scope>gr::ofdm_allocator::vector_source_tagged</scope><name>set_repeat</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged_1aebd68bd56130611327e2ff5f25b90eeb" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::vector_source_tagged</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

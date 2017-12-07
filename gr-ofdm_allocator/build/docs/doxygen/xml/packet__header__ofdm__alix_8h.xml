@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="packet__header__ofdm__alix_8h" kind="file" language="C++">
+    <compoundname>packet_header_ofdm_alix.h</compoundname>
+    <includes local="no">vector</includes>
+    <includes refid="api_8h" local="no">ofdm_allocator/api.h</includes>
+    <includes refid="packet__header__default__alix_8h" local="no">ofdm_allocator/packet_header_default_alix.h</includes>
+    <incdepgraph>
+      <node id="159">
+        <label>gnuradio/tags.h</label>
+      </node>
+      <node id="157">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="158">
+        <label>ofdm_allocator/packet_header_default_alix.h</label>
+        <link refid="packet__header__default__alix_8h"/>
+        <childnode refid="159" relation="include">
+        </childnode>
+        <childnode refid="156" relation="include">
+        </childnode>
+        <childnode refid="160" relation="include">
+        </childnode>
+        <childnode refid="161" relation="include">
+        </childnode>
+      </node>
+      <node id="161">
+        <label>boost/crc.hpp</label>
+      </node>
+      <node id="155">
+        <label>vector</label>
+      </node>
+      <node id="160">
+        <label>boost/enable_shared_from_this.hpp</label>
+      </node>
+      <node id="156">
+        <label>ofdm_allocator/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="157" relation="include">
+        </childnode>
+      </node>
+      <node id="154">
+        <label>packet_header_ofdm_alix.h</label>
+        <link refid="packet_header_ofdm_alix.h"/>
+        <childnode refid="155" relation="include">
+        </childnode>
+        <childnode refid="156" relation="include">
+        </childnode>
+        <childnode refid="158" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1ofdm__allocator_1_1packet__header__ofdm__alix" prot="public">gr::ofdm_allocator::packet_header_ofdm_alix</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1ofdm__allocator">gr::ofdm_allocator</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h"/>
+  </compounddef>
+</doxygen>

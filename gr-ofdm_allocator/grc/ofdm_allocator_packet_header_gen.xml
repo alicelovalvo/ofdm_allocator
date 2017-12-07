@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<block>
+  <name>Packet Header Generator Alix</name>
+  <key>ofdm_allocator_packet_header_gen</key>
+  <category>OFDM ALLOCATOR</category>
+  <import>import ofdm_allocator</import>
+  <make>ofdm_allocator.packet_header_gen($header_formatter, $vector_len, $len_tag_key)</make>
+  <callback>set_header_formatter($header_formatter)</callback>
+  <param>
+    <name>Formatter Object</name>
+    <key>header_formatter</key>
+    <type>raw</type>
+  </param>
+  <param>
+    <name>Vector_len</name>
+    <key>vector_len</key>
+    <type>int</type>
+  </param>
+  <param>
+    <name>Length Tag Name</name>
+    <key>len_tag_key</key>
+    <value>"packet_len"</value>
+    <type>string</type>
+  </param>
+  <sink>
+    <name>in</name>
+    <type>byte</type>
+  </sink>
+  <sink>
+    <name>in2</name>
+    <type>int</type>
+    <vlen>$vector_len</vlen>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>byte</type>
+  </source>
+</block>

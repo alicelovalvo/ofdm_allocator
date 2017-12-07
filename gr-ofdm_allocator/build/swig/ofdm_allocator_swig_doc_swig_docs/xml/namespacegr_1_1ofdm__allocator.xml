@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="namespacegr_1_1ofdm__allocator" kind="namespace" language="C++">
+    <compoundname>gr::ofdm_allocator</compoundname>
+    <innerclass refid="classgr_1_1ofdm__allocator_1_1allocator__subcarrier" prot="public">gr::ofdm_allocator::allocator_subcarrier</innerclass>
+    <innerclass refid="classgr_1_1ofdm__allocator_1_1constellation__16qam" prot="public">gr::ofdm_allocator::constellation_16qam</innerclass>
+    <innerclass refid="classgr_1_1ofdm__allocator_1_1constellation__8psk" prot="public">gr::ofdm_allocator::constellation_8psk</innerclass>
+    <innerclass refid="classgr_1_1ofdm__allocator_1_1constellation__8psk__natural" prot="public">gr::ofdm_allocator::constellation_8psk_natural</innerclass>
+    <innerclass refid="classgr_1_1ofdm__allocator_1_1constellation__alix" prot="public">gr::ofdm_allocator::constellation_alix</innerclass>
+    <innerclass refid="classgr_1_1ofdm__allocator_1_1constellation__bpsk" prot="public">gr::ofdm_allocator::constellation_bpsk</innerclass>
+    <innerclass refid="classgr_1_1ofdm__allocator_1_1constellation__calcdist" prot="public">gr::ofdm_allocator::constellation_calcdist</innerclass>
+    <innerclass refid="classgr_1_1ofdm__allocator_1_1constellation__decoder__alix" prot="public">gr::ofdm_allocator::constellation_decoder_alix</innerclass>
+    <innerclass refid="classgr_1_1ofdm__allocator_1_1constellation__dqpsk" prot="public">gr::ofdm_allocator::constellation_dqpsk</innerclass>
+    <innerclass refid="classgr_1_1ofdm__allocator_1_1constellation__expl__rect" prot="public">gr::ofdm_allocator::constellation_expl_rect</innerclass>
+    <innerclass refid="classgr_1_1ofdm__allocator_1_1constellation__psk" prot="public">gr::ofdm_allocator::constellation_psk</innerclass>
+    <innerclass refid="classgr_1_1ofdm__allocator_1_1constellation__qpsk" prot="public">gr::ofdm_allocator::constellation_qpsk</innerclass>
+    <innerclass refid="classgr_1_1ofdm__allocator_1_1constellation__rect" prot="public">gr::ofdm_allocator::constellation_rect</innerclass>
+    <innerclass refid="classgr_1_1ofdm__allocator_1_1constellation__sector" prot="public">gr::ofdm_allocator::constellation_sector</innerclass>
+    <innerclass refid="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix" prot="public">gr::ofdm_allocator::frame_equalizer_alix</innerclass>
+    <innerclass refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix" prot="public">gr::ofdm_allocator::ofdm_equalizer_1d_pilots_alix</innerclass>
+    <innerclass refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__base__alix" prot="public">gr::ofdm_allocator::ofdm_equalizer_base_alix</innerclass>
+    <innerclass refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__simpledfe__alix" prot="public">gr::ofdm_allocator::ofdm_equalizer_simpledfe_alix</innerclass>
+    <innerclass refid="classgr_1_1ofdm__allocator_1_1packet__header__default__alix" prot="public">gr::ofdm_allocator::packet_header_default_alix</innerclass>
+    <innerclass refid="classgr_1_1ofdm__allocator_1_1packet__header__gen" prot="public">gr::ofdm_allocator::packet_header_gen</innerclass>
+    <innerclass refid="classgr_1_1ofdm__allocator_1_1packet__header__ofdm__alix" prot="public">gr::ofdm_allocator::packet_header_ofdm_alix</innerclass>
+    <innerclass refid="classgr_1_1ofdm__allocator_1_1serializer__subcarrier" prot="public">gr::ofdm_allocator::serializer_subcarrier</innerclass>
+    <innerclass refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged" prot="public">gr::ofdm_allocator::vector_source_tagged</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespacegr_1_1ofdm__allocator_1a686db2c580324a03c3adbb7e666d2aed" prot="public" static="no">
+        <name>trellis_metric_type_t</name>
+        <enumvalue id="namespacegr_1_1ofdm__allocator_1a686db2c580324a03c3adbb7e666d2aedae6fd3f94bac37abe3bb7421ff1ed8fb6" prot="public">
+          <name>TRELLIS_EUCLIDEAN</name>
+          <initializer>= 200</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1ofdm__allocator_1a686db2c580324a03c3adbb7e666d2aeda922d68fac197f322c355e02568c5c2b5" prot="public">
+          <name>TRELLIS_HARD_SYMBOL</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1ofdm__allocator_1a686db2c580324a03c3adbb7e666d2aeda74467ebf835b83aaa413dd058eb05f4c" prot="public">
+          <name>TRELLIS_HARD_BIT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/metric_type_alix.h" line="30" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/metric_type_alix.h" bodystart="30" bodyend="32"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespacegr_1_1ofdm__allocator_1aeb321a37e38e2d5d20bde3a35bd677c7" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1ofdm__allocator_1_1constellation__alix" kindref="compound">constellation_alix</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;constellation_alix&gt; gr::ofdm_allocator::constellation_alix_sptr</definition>
+        <argsstring></argsstring>
+        <name>constellation_alix_sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/constellation_alix.h" line="41" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/constellation_alix.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/allocator_subcarrier.h" line="29" column="1"/>
+  </compounddef>
+</doxygen>

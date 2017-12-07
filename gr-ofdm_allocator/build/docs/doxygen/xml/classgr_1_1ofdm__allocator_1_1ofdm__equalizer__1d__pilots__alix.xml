@@ -1,0 +1,282 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix" kind="class" language="C++" prot="public">
+    <compoundname>gr::ofdm_allocator::ofdm_equalizer_1d_pilots_alix</compoundname>
+    <basecompoundref refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__base__alix" prot="public" virt="non-virtual">gr::ofdm_allocator::ofdm_equalizer_base_alix</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__simpledfe__alix" prot="public" virt="non-virtual">gr::ofdm_allocator::ofdm_equalizer_simpledfe_alix</derivedcompoundref>
+    <includes refid="ofdm__equalizer__base__alix_8h" local="no">ofdm_equalizer_base_alix.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix_1aa2a54b796f4d9911ec91435b59a1987e" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix" kindref="compound">ofdm_equalizer_1d_pilots_alix</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;ofdm_equalizer_1d_pilots_alix&gt; gr::ofdm_allocator::ofdm_equalizer_1d_pilots_alix::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/ofdm_equalizer_base_alix.h" line="91" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/ofdm_equalizer_base_alix.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix_1a67fbf4d451253ad82c07b046d774b3b3" prot="protected" static="no" mutable="no">
+        <type>std::vector&lt; bool &gt;</type>
+        <definition>std::vector&lt;bool&gt; gr::ofdm_allocator::ofdm_equalizer_1d_pilots_alix::d_occupied_carriers</definition>
+        <argsstring></argsstring>
+        <name>d_occupied_carriers</name>
+        <briefdescription>
+<para>If <computeroutput>d_occupied_carriers</computeroutput>[k][l] is true, symbol k, carrier l is carrying data. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/ofdm_equalizer_base_alix.h" line="76" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/ofdm_equalizer_base_alix.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix_1a210620287ce954d0ecc4a56416fe2a7b" prot="protected" static="no" mutable="no">
+        <type>std::vector&lt; std::vector&lt; bool &gt; &gt;</type>
+        <definition>std::vector&lt;std::vector&lt;bool&gt; &gt; gr::ofdm_allocator::ofdm_equalizer_1d_pilots_alix::d_pilot_carriers</definition>
+        <argsstring></argsstring>
+        <name>d_pilot_carriers</name>
+        <briefdescription>
+<para>If <computeroutput>d_pilot_carriers</computeroutput>[k][l] is true, symbol k, carrier l is carrying data. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/ofdm_equalizer_base_alix.h" line="79" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/ofdm_equalizer_base_alix.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix_1a7cc369365e82378964c38490dbb72a4c" prot="protected" static="no" mutable="no">
+        <type>std::vector&lt; std::vector&lt; gr_complex &gt; &gt;</type>
+        <definition>std::vector&lt;std::vector&lt;gr_complex&gt; &gt; gr::ofdm_allocator::ofdm_equalizer_1d_pilots_alix::d_pilot_symbols</definition>
+        <argsstring></argsstring>
+        <name>d_pilot_symbols</name>
+        <briefdescription>
+<para>If <computeroutput>d_pilot_carriers</computeroutput>[k][l] is true, d_pilot_symbols[k][l] is its tx&apos;d value. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/ofdm_equalizer_base_alix.h" line="82" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/ofdm_equalizer_base_alix.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix_1a7344a8919f08e12c7025b6f9ac89392d" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::ofdm_allocator::ofdm_equalizer_1d_pilots_alix::d_symbols_skipped</definition>
+        <argsstring></argsstring>
+        <name>d_symbols_skipped</name>
+        <briefdescription>
+<para>In case the frame doesn&apos;t begin with OFDM symbol 0, this is the index of the first symbol. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/ofdm_equalizer_base_alix.h" line="84" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/ofdm_equalizer_base_alix.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix_1a24151393c1f8f190eb9a15a71ff7cd56" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::ofdm_allocator::ofdm_equalizer_1d_pilots_alix::d_pilot_carr_set</definition>
+        <argsstring></argsstring>
+        <name>d_pilot_carr_set</name>
+        <briefdescription>
+<para>The current position in the set of pilot symbols. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/ofdm_equalizer_base_alix.h" line="86" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/ofdm_equalizer_base_alix.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix_1adc166f8c1c006ceee9742a618fffd535" prot="protected" static="no" mutable="no">
+        <type>std::vector&lt; gr_complex &gt;</type>
+        <definition>std::vector&lt;gr_complex&gt; gr::ofdm_allocator::ofdm_equalizer_1d_pilots_alix::d_channel_state</definition>
+        <argsstring></argsstring>
+        <name>d_channel_state</name>
+        <briefdescription>
+<para>Vector of length d_fft_len saving the current channel state (on the occupied carriers) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/ofdm_equalizer_base_alix.h" line="88" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/ofdm_equalizer_base_alix.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix_1a7c83cbeb0eecb2be763928c59d1d6d74" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::ofdm_allocator::ofdm_equalizer_1d_pilots_alix::ofdm_equalizer_1d_pilots_alix</definition>
+        <argsstring>(int fft_len, const std::vector&lt; std::vector&lt; int &gt; &gt; &amp;occupied_carriers, const std::vector&lt; std::vector&lt; int &gt; &gt; &amp;pilot_carriers, const std::vector&lt; std::vector&lt; gr_complex &gt; &gt; &amp;pilot_symbols, int symbols_skipped, bool input_is_shifted)</argsstring>
+        <name>ofdm_equalizer_1d_pilots_alix</name>
+        <param>
+          <type>int</type>
+          <declname>fft_len</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; std::vector&lt; int &gt; &gt; &amp;</type>
+          <declname>occupied_carriers</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; std::vector&lt; int &gt; &gt; &amp;</type>
+          <declname>pilot_carriers</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; std::vector&lt; gr_complex &gt; &gt; &amp;</type>
+          <declname>pilot_symbols</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>symbols_skipped</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>input_is_shifted</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/ofdm_equalizer_base_alix.h" line="93" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix_1a3c03f6dfbf4987274cf9bdf4f5b97de1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::ofdm_allocator::ofdm_equalizer_1d_pilots_alix::~ofdm_equalizer_1d_pilots_alix</definition>
+        <argsstring>()</argsstring>
+        <name>~ofdm_equalizer_1d_pilots_alix</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/ofdm_equalizer_base_alix.h" line="100" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix_1ae14ec945bc49a7199fd392f1e0e5f79f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void gr::ofdm_allocator::ofdm_equalizer_1d_pilots_alix::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <reimplements refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__base__alix_1a15c852308caf8571770bb6a5a87cf3b7">reset</reimplements>
+        <briefdescription>
+<para>Reset the channel information state knowledge. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/ofdm_equalizer_base_alix.h" line="102" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix_1a3e8be9537e42e836734c52b1153d5814" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void gr::ofdm_allocator::ofdm_equalizer_1d_pilots_alix::get_channel_state</definition>
+        <argsstring>(std::vector&lt; gr_complex &gt; &amp;taps)</argsstring>
+        <name>get_channel_state</name>
+        <reimplements refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__base__alix_1a179d8dc94cc6a0a71399c52d8d67873f">get_channel_state</reimplements>
+        <param>
+          <type>std::vector&lt; gr_complex &gt; &amp;</type>
+          <declname>taps</declname>
+        </param>
+        <briefdescription>
+<para>Return the current channel state. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/ofdm_equalizer_base_alix.h" line="103" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="164">
+        <label>boost::enable_shared_from_this&lt; ofdm_equalizer_base_alix &gt;</label>
+      </node>
+      <node id="165">
+        <label>gr::ofdm_allocator::ofdm_equalizer_simpledfe_alix</label>
+        <link refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__simpledfe__alix"/>
+        <childnode refid="162" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="163">
+        <label>gr::ofdm_allocator::ofdm_equalizer_base_alix</label>
+        <link refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__base__alix"/>
+        <childnode refid="164" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="162">
+        <label>gr::ofdm_allocator::ofdm_equalizer_1d_pilots_alix</label>
+        <link refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix"/>
+        <childnode refid="163" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="171">
+        <label>std::vector&lt; gr_complex &gt;</label>
+      </node>
+      <node id="168">
+        <label>boost::enable_shared_from_this&lt; ofdm_equalizer_base_alix &gt;</label>
+      </node>
+      <node id="170">
+        <label>std::vector&lt; bool &gt;</label>
+      </node>
+      <node id="169">
+        <label>std::vector&lt; std::vector&lt; bool &gt; &gt;</label>
+        <childnode refid="170" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="172">
+        <label>std::vector&lt; std::vector&lt; gr_complex &gt; &gt;</label>
+        <childnode refid="171" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="167">
+        <label>gr::ofdm_allocator::ofdm_equalizer_base_alix</label>
+        <link refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__base__alix"/>
+        <childnode refid="168" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="166">
+        <label>gr::ofdm_allocator::ofdm_equalizer_1d_pilots_alix</label>
+        <link refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix"/>
+        <childnode refid="167" relation="public-inheritance">
+        </childnode>
+        <childnode refid="169" relation="usage">
+          <edgelabel>d_pilot_carriers</edgelabel>
+        </childnode>
+        <childnode refid="170" relation="usage">
+          <edgelabel>d_occupied_carriers</edgelabel>
+        </childnode>
+        <childnode refid="171" relation="usage">
+          <edgelabel>d_channel_state</edgelabel>
+        </childnode>
+        <childnode refid="172" relation="usage">
+          <edgelabel>d_pilot_symbols</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/ofdm_equalizer_base_alix.h" line="72" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/ofdm_equalizer_base_alix.h" bodystart="71" bodyend="104"/>
+    <listofallmembers>
+      <member refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__base__alix_1a67e1b0098c9bd45f690b2585ef97f8a2" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::ofdm_equalizer_1d_pilots_alix</scope><name>base</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix_1adc166f8c1c006ceee9742a618fffd535" prot="protected" virt="non-virtual"><scope>gr::ofdm_allocator::ofdm_equalizer_1d_pilots_alix</scope><name>d_channel_state</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__base__alix_1a033c8cdd57f3f64e4400f020a6e5a873" prot="protected" virt="non-virtual"><scope>gr::ofdm_allocator::ofdm_equalizer_1d_pilots_alix</scope><name>d_fft_len</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix_1a67fbf4d451253ad82c07b046d774b3b3" prot="protected" virt="non-virtual"><scope>gr::ofdm_allocator::ofdm_equalizer_1d_pilots_alix</scope><name>d_occupied_carriers</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix_1a24151393c1f8f190eb9a15a71ff7cd56" prot="protected" virt="non-virtual"><scope>gr::ofdm_allocator::ofdm_equalizer_1d_pilots_alix</scope><name>d_pilot_carr_set</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix_1a210620287ce954d0ecc4a56416fe2a7b" prot="protected" virt="non-virtual"><scope>gr::ofdm_allocator::ofdm_equalizer_1d_pilots_alix</scope><name>d_pilot_carriers</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix_1a7cc369365e82378964c38490dbb72a4c" prot="protected" virt="non-virtual"><scope>gr::ofdm_allocator::ofdm_equalizer_1d_pilots_alix</scope><name>d_pilot_symbols</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix_1a7344a8919f08e12c7025b6f9ac89392d" prot="protected" virt="non-virtual"><scope>gr::ofdm_allocator::ofdm_equalizer_1d_pilots_alix</scope><name>d_symbols_skipped</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__base__alix_1a451826624c3152e1a798a9383db000fb" prot="public" virt="pure-virtual"><scope>gr::ofdm_allocator::ofdm_equalizer_1d_pilots_alix</scope><name>equalize</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__base__alix_1a4d8e3789a81c714a1c21e02e190ba9cc" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::ofdm_equalizer_1d_pilots_alix</scope><name>fft_len</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix_1a3e8be9537e42e836734c52b1153d5814" prot="public" virt="virtual"><scope>gr::ofdm_allocator::ofdm_equalizer_1d_pilots_alix</scope><name>get_channel_state</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix_1a7c83cbeb0eecb2be763928c59d1d6d74" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::ofdm_equalizer_1d_pilots_alix</scope><name>ofdm_equalizer_1d_pilots_alix</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__base__alix_1a2d1ecc940a342274daf8e967fb02e6bf" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::ofdm_equalizer_1d_pilots_alix</scope><name>ofdm_equalizer_base_alix</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix_1ae14ec945bc49a7199fd392f1e0e5f79f" prot="public" virt="virtual"><scope>gr::ofdm_allocator::ofdm_equalizer_1d_pilots_alix</scope><name>reset</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix_1aa2a54b796f4d9911ec91435b59a1987e" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::ofdm_equalizer_1d_pilots_alix</scope><name>sptr</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix_1a3c03f6dfbf4987274cf9bdf4f5b97de1" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::ofdm_equalizer_1d_pilots_alix</scope><name>~ofdm_equalizer_1d_pilots_alix</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__base__alix_1ad7f89b48ec0bcb6785451d2138639905" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::ofdm_equalizer_1d_pilots_alix</scope><name>~ofdm_equalizer_base_alix</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

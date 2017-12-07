@@ -1,0 +1,277 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1ofdm__allocator_1_1allocator__subcarrier__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::ofdm_allocator::allocator_subcarrier_impl</compoundname>
+    <basecompoundref refid="classgr_1_1ofdm__allocator_1_1allocator__subcarrier" prot="public" virt="non-virtual">gr::ofdm_allocator::allocator_subcarrier</basecompoundref>
+    <includes refid="allocator__subcarrier__impl_8h" local="no">allocator_subcarrier_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1allocator__subcarrier__impl_1a62723c4a038c5230bc8624523beb3a39" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::ofdm_allocator::allocator_subcarrier_impl::d_fft_len</definition>
+        <argsstring></argsstring>
+        <name>d_fft_len</name>
+        <briefdescription>
+<para>FFT length. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/allocator_subcarrier_impl.h" line="33" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/allocator_subcarrier_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1allocator__subcarrier__impl_1a96bbe9516e81ce60a77f9eb9fb8e3227" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; std::vector&lt; int &gt; &gt;</type>
+        <definition>std::vector&lt;std::vector&lt;int&gt; &gt; gr::ofdm_allocator::allocator_subcarrier_impl::d_pilot_carriers</definition>
+        <argsstring></argsstring>
+        <name>d_pilot_carriers</name>
+        <briefdescription>
+<para>Which carriers/symbols carry data. </para>        </briefdescription>
+        <detaileddescription>
+<para>Which carriers/symbols carry pilots symbols </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/allocator_subcarrier_impl.h" line="38" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/allocator_subcarrier_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1allocator__subcarrier__impl_1ada32de18fe34e2e962ae1564a5ca76c9" prot="private" static="no" mutable="no">
+        <type>const std::vector&lt; std::vector&lt; gr_complex &gt; &gt;</type>
+        <definition>const std::vector&lt;std::vector&lt;gr_complex&gt; &gt; gr::ofdm_allocator::allocator_subcarrier_impl::d_pilot_symbols</definition>
+        <argsstring></argsstring>
+        <name>d_pilot_symbols</name>
+        <briefdescription>
+<para>Value of said pilot symbols. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/allocator_subcarrier_impl.h" line="40" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/allocator_subcarrier_impl.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1allocator__subcarrier__impl_1a59dd38ba5a1232f49023275eda279b54" prot="private" static="no" mutable="no">
+        <type>const std::vector&lt; std::vector&lt; gr_complex &gt; &gt;</type>
+        <definition>const std::vector&lt;std::vector&lt;gr_complex&gt; &gt; gr::ofdm_allocator::allocator_subcarrier_impl::d_sync_words</definition>
+        <argsstring></argsstring>
+        <name>d_sync_words</name>
+        <briefdescription>
+<para>Synch words. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/allocator_subcarrier_impl.h" line="42" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/allocator_subcarrier_impl.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1allocator__subcarrier__impl_1addbac333895b970fc03a7b9b9ec0297e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::ofdm_allocator::allocator_subcarrier_impl::d_symbols_per_set</definition>
+        <argsstring></argsstring>
+        <name>d_symbols_per_set</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/allocator_subcarrier_impl.h" line="43" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/allocator_subcarrier_impl.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1allocator__subcarrier__impl_1a06f22bdcb9f913ab1d3ab0d868d1213e" prot="private" static="no" mutable="no">
+        <type>const bool</type>
+        <definition>const bool gr::ofdm_allocator::allocator_subcarrier_impl::d_output_is_shifted</definition>
+        <argsstring></argsstring>
+        <name>d_output_is_shifted</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/allocator_subcarrier_impl.h" line="44" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/allocator_subcarrier_impl.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1allocator__subcarrier__impl_1ac95f61bd4b6d58f6dec0a51b2ed5af79" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::ofdm_allocator::allocator_subcarrier_impl::calculate_output_stream_length</definition>
+        <argsstring>(const gr_vector_int &amp;ninput_items)</argsstring>
+        <name>calculate_output_stream_length</name>
+        <param>
+          <type>const gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/allocator_subcarrier_impl.h" line="48" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1allocator__subcarrier__impl_1ab048ccd96cb9f3c3f7df95f8c9ca49a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::ofdm_allocator::allocator_subcarrier_impl::allocator_subcarrier_impl</definition>
+        <argsstring>(int fft_len, int vector_len, const std::vector&lt; std::vector&lt; int &gt; &gt; &amp;pilot_carriers, const std::vector&lt; std::vector&lt; gr_complex &gt; &gt; &amp;pilot_symbols, const std::vector&lt; std::vector&lt; gr_complex &gt; &gt; &amp;sync_words, const std::string &amp;len_tag_key, const bool output_is_shifted)</argsstring>
+        <name>allocator_subcarrier_impl</name>
+        <param>
+          <type>int</type>
+          <declname>fft_len</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>vector_len</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; std::vector&lt; int &gt; &gt; &amp;</type>
+          <declname>pilot_carriers</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; std::vector&lt; gr_complex &gt; &gt; &amp;</type>
+          <declname>pilot_symbols</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; std::vector&lt; gr_complex &gt; &gt; &amp;</type>
+          <declname>sync_words</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>len_tag_key</declname>
+        </param>
+        <param>
+          <type>const bool</type>
+          <declname>output_is_shifted</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/allocator_subcarrier_impl.h" line="52" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1allocator__subcarrier__impl_1a7f52af8f0f634091ad929912b045f2ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::ofdm_allocator::allocator_subcarrier_impl::~allocator_subcarrier_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~allocator_subcarrier_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/allocator_subcarrier_impl.h" line="62" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1allocator__subcarrier__impl_1a8970f9b7e54cc5f39be354a3ac30cf8e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>std::string</type>
+        <definition>std::string gr::ofdm_allocator::allocator_subcarrier_impl::len_tag_key</definition>
+        <argsstring>()</argsstring>
+        <name>len_tag_key</name>
+        <reimplements refid="classgr_1_1ofdm__allocator_1_1allocator__subcarrier_1aa01c8a9ebe407e302e4307a7617ff43e">len_tag_key</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/allocator_subcarrier_impl.h" line="65" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/allocator_subcarrier_impl.h" bodystart="65" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1allocator__subcarrier__impl_1a6d6acedd576c3d60f07abe09807e0f81" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>const int</type>
+        <definition>const int gr::ofdm_allocator::allocator_subcarrier_impl::fft_len</definition>
+        <argsstring>()</argsstring>
+        <name>fft_len</name>
+        <reimplements refid="classgr_1_1ofdm__allocator_1_1allocator__subcarrier_1ac166debfd2b26e6ea9fc4b7de0471e1d">fft_len</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/allocator_subcarrier_impl.h" line="68" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/allocator_subcarrier_impl.h" bodystart="68" bodyend="68"/>
+        <references refid="classgr_1_1ofdm__allocator_1_1allocator__subcarrier__impl_1a495db36eaffe4cdc7451bfd8146b4710">work</references>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1allocator__subcarrier__impl_1a495db36eaffe4cdc7451bfd8146b4710" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::ofdm_allocator::allocator_subcarrier_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/allocator_subcarrier_impl.h" line="72" column="1"/>
+        <referencedby refid="classgr_1_1ofdm__allocator_1_1allocator__subcarrier__impl_1a6d6acedd576c3d60f07abe09807e0f81" compoundref="allocator__subcarrier__impl_8h" startline="68" endline="68">fft_len</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="5">
+        <label>gr::ofdm_allocator::allocator_subcarrier_impl</label>
+        <link refid="classgr_1_1ofdm__allocator_1_1allocator__subcarrier__impl"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>tagged_stream_block</label>
+      </node>
+      <node id="6">
+        <label>gr::ofdm_allocator::allocator_subcarrier</label>
+        <link refid="classgr_1_1ofdm__allocator_1_1allocator__subcarrier"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="8">
+        <label>gr::ofdm_allocator::allocator_subcarrier_impl</label>
+        <link refid="classgr_1_1ofdm__allocator_1_1allocator__subcarrier__impl"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>tagged_stream_block</label>
+      </node>
+      <node id="9">
+        <label>gr::ofdm_allocator::allocator_subcarrier</label>
+        <link refid="classgr_1_1ofdm__allocator_1_1allocator__subcarrier"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/allocator_subcarrier_impl.h" line="30" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/allocator_subcarrier_impl.h" bodystart="29" bodyend="76"/>
+    <listofallmembers>
+      <member refid="classgr_1_1ofdm__allocator_1_1allocator__subcarrier__impl_1ab048ccd96cb9f3c3f7df95f8c9ca49a8" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::allocator_subcarrier_impl</scope><name>allocator_subcarrier_impl</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1allocator__subcarrier__impl_1ac95f61bd4b6d58f6dec0a51b2ed5af79" prot="protected" virt="non-virtual"><scope>gr::ofdm_allocator::allocator_subcarrier_impl</scope><name>calculate_output_stream_length</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1allocator__subcarrier__impl_1a62723c4a038c5230bc8624523beb3a39" prot="private" virt="non-virtual"><scope>gr::ofdm_allocator::allocator_subcarrier_impl</scope><name>d_fft_len</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1allocator__subcarrier__impl_1a06f22bdcb9f913ab1d3ab0d868d1213e" prot="private" virt="non-virtual"><scope>gr::ofdm_allocator::allocator_subcarrier_impl</scope><name>d_output_is_shifted</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1allocator__subcarrier__impl_1a96bbe9516e81ce60a77f9eb9fb8e3227" prot="private" virt="non-virtual"><scope>gr::ofdm_allocator::allocator_subcarrier_impl</scope><name>d_pilot_carriers</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1allocator__subcarrier__impl_1ada32de18fe34e2e962ae1564a5ca76c9" prot="private" virt="non-virtual"><scope>gr::ofdm_allocator::allocator_subcarrier_impl</scope><name>d_pilot_symbols</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1allocator__subcarrier__impl_1addbac333895b970fc03a7b9b9ec0297e" prot="private" virt="non-virtual"><scope>gr::ofdm_allocator::allocator_subcarrier_impl</scope><name>d_symbols_per_set</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1allocator__subcarrier__impl_1a59dd38ba5a1232f49023275eda279b54" prot="private" virt="non-virtual"><scope>gr::ofdm_allocator::allocator_subcarrier_impl</scope><name>d_sync_words</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1allocator__subcarrier__impl_1a6d6acedd576c3d60f07abe09807e0f81" prot="public" virt="virtual"><scope>gr::ofdm_allocator::allocator_subcarrier_impl</scope><name>fft_len</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1allocator__subcarrier__impl_1a8970f9b7e54cc5f39be354a3ac30cf8e" prot="public" virt="virtual"><scope>gr::ofdm_allocator::allocator_subcarrier_impl</scope><name>len_tag_key</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1allocator__subcarrier_1a11ebbf592513f00f5fff6058dca29e0b" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::allocator_subcarrier_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1allocator__subcarrier_1ab6e5771d0fd1f766fd39bff1ef41b6bf" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::allocator_subcarrier_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1allocator__subcarrier__impl_1a495db36eaffe4cdc7451bfd8146b4710" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::allocator_subcarrier_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1allocator__subcarrier__impl_1a7f52af8f0f634091ad929912b045f2ea" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::allocator_subcarrier_impl</scope><name>~allocator_subcarrier_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

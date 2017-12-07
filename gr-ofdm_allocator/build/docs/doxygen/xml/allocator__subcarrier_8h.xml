@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="allocator__subcarrier_8h" kind="file" language="C++">
+    <compoundname>allocator_subcarrier.h</compoundname>
+    <includes refid="api_8h" local="no">ofdm_allocator/api.h</includes>
+    <includes local="no">gnuradio/tagged_stream_block.h</includes>
+    <includedby refid="allocator__subcarrier__impl_8h" local="no">allocator_subcarrier_impl.h</includedby>
+    <incdepgraph>
+      <node id="2">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="1">
+        <label>ofdm_allocator/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gnuradio/tagged_stream_block.h</label>
+      </node>
+      <node id="0">
+        <label>allocator_subcarrier.h</label>
+        <link refid="allocator_subcarrier.h"/>
+        <childnode refid="1" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="5">
+        <label>allocator_subcarrier_impl.h</label>
+        <link refid="allocator__subcarrier__impl_8h"/>
+      </node>
+      <node id="4">
+        <label>allocator_subcarrier.h</label>
+        <link refid="allocator_subcarrier.h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1ofdm__allocator_1_1allocator__subcarrier" prot="public">gr::ofdm_allocator::allocator_subcarrier</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1ofdm__allocator">gr::ofdm_allocator</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/allocator_subcarrier.h"/>
+  </compounddef>
+</doxygen>
