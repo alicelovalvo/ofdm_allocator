@@ -20,10 +20,10 @@
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix_1a5e5ec1f902677990585cb6924d396298" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix_1aeb1a1a063cd2217a436758b816e0d7ab" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix_1a25ae200123440ea6c6e1ff089e095e2a" kindref="member">sptr</ref></type>
         <definition>static sptr gr::ofdm_allocator::frame_equalizer_alix::make</definition>
-        <argsstring>(ofdm_equalizer_base_alix::sptr equalizer, int vector_len, int cp_len, const std::string &amp;tsb_key=&quot;frame_len&quot;, bool propagate_channel_state=false, int fixed_frame_len=0)</argsstring>
+        <argsstring>(ofdm_equalizer_base_alix::sptr equalizer, int vector_len, int cp_len, bool fixed_pilot, int max_len_data_subcarr, int max_len_pilot_subcarr, int max_vector_pilot_subcarr, const std::string &amp;tsb_key=&quot;frame_len&quot;, bool propagate_channel_state=false, int fixed_frame_len=0, bool input_is_shifted=true)</argsstring>
         <name>make</name>
         <param>
           <type><ref refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__base__alix_1abe2c213a9836080a479aba4abc45e6ae" kindref="member">ofdm_equalizer_base_alix::sptr</ref></type>
@@ -36,6 +36,22 @@
         <param>
           <type>int</type>
           <declname>cp_len</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>fixed_pilot</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>max_len_data_subcarr</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>max_len_pilot_subcarr</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>max_vector_pilot_subcarr</declname>
         </param>
         <param>
           <type>const std::string &amp;</type>
@@ -52,10 +68,15 @@
           <declname>fixed_frame_len</declname>
           <defval>0</defval>
         </param>
+        <param>
+          <type>bool</type>
+          <declname>input_is_shifted</declname>
+          <defval>true</defval>
+        </param>
         <briefdescription>
 <para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix" kindref="compound">ofdm_allocator::frame_equalizer_alix</ref>. </para>        </briefdescription>
         <detaileddescription>
-<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix" kindref="compound">ofdm_allocator::frame_equalizer_alix</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix_1a5e5ec1f902677990585cb6924d396298" kindref="member">ofdm_allocator::frame_equalizer_alix::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix" kindref="compound">ofdm_allocator::frame_equalizer_alix</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix_1aeb1a1a063cd2217a436758b816e0d7ab" kindref="member">ofdm_allocator::frame_equalizer_alix::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/frame_equalizer_alix.h" line="50" column="1"/>
@@ -87,9 +108,9 @@
         <label>gr::tagged_stream_block</label>
       </node>
     </collaborationgraph>
-    <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/frame_equalizer_alix.h" line="38" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/frame_equalizer_alix.h" bodystart="37" bodyend="57"/>
+    <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/frame_equalizer_alix.h" line="38" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/frame_equalizer_alix.h" bodystart="37" bodyend="61"/>
     <listofallmembers>
-      <member refid="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix_1a5e5ec1f902677990585cb6924d396298" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::frame_equalizer_alix</scope><name>make</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix_1aeb1a1a063cd2217a436758b816e0d7ab" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::frame_equalizer_alix</scope><name>make</name></member>
       <member refid="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix_1a25ae200123440ea6c6e1ff089e095e2a" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::frame_equalizer_alix</scope><name>sptr</name></member>
     </listofallmembers>
   </compounddef>

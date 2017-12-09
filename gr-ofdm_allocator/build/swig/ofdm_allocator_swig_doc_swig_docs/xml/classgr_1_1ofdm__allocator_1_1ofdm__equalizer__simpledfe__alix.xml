@@ -112,12 +112,12 @@
         </inbodydescription>
         <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/ofdm_equalizer_simpledfe_alix.h" line="51" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__simpledfe__alix_1a56b238b0776058463f3bf4f6074f0fbf" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+      <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__simpledfe__alix_1a0fa218fdc2984f3cb028985ffa441cd3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
         <definition>void gr::ofdm_allocator::ofdm_equalizer_simpledfe_alix::equalize</definition>
-        <argsstring>(gr_complex *frame, int n_sym, const std::vector&lt; gr_complex &gt; &amp;initial_taps=std::vector&lt; gr_complex &gt;(), const std::vector&lt; tag_t &gt; &amp;tags=std::vector&lt; tag_t &gt;())</argsstring>
+        <argsstring>(gr_complex *frame, int n_sym, const std::vector&lt; gr_complex &gt; &amp;initial_taps=std::vector&lt; gr_complex &gt;(), const std::vector&lt; bool &gt; &amp;occupied_carriers=std::vector&lt; bool &gt;(), const std::vector&lt; tag_t &gt; &amp;tags=std::vector&lt; tag_t &gt;())</argsstring>
         <name>equalize</name>
-        <reimplements refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__base__alix_1a451826624c3152e1a798a9383db000fb">equalize</reimplements>
+        <reimplements refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__base__alix_1a8e8d476b0c145a0a6fb442ea7335cd71">equalize</reimplements>
         <param>
           <type>gr_complex *</type>
           <declname>frame</declname>
@@ -130,6 +130,11 @@
           <type>const std::vector&lt; gr_complex &gt; &amp;</type>
           <declname>initial_taps</declname>
           <defval>std::vector&lt; gr_complex &gt;()</defval>
+        </param>
+        <param>
+          <type>const std::vector&lt; bool &gt; &amp;</type>
+          <declname>occupied_carriers</declname>
+          <defval>std::vector&lt; bool &gt;()</defval>
         </param>
         <param>
           <type>const std::vector&lt; tag_t &gt; &amp;</type>
@@ -290,7 +295,7 @@
       <member refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix_1a210620287ce954d0ecc4a56416fe2a7b" prot="protected" virt="non-virtual"><scope>gr::ofdm_allocator::ofdm_equalizer_simpledfe_alix</scope><name>d_pilot_carriers</name></member>
       <member refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix_1a7cc369365e82378964c38490dbb72a4c" prot="protected" virt="non-virtual"><scope>gr::ofdm_allocator::ofdm_equalizer_simpledfe_alix</scope><name>d_pilot_symbols</name></member>
       <member refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix_1a7344a8919f08e12c7025b6f9ac89392d" prot="protected" virt="non-virtual"><scope>gr::ofdm_allocator::ofdm_equalizer_simpledfe_alix</scope><name>d_symbols_skipped</name></member>
-      <member refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__simpledfe__alix_1a56b238b0776058463f3bf4f6074f0fbf" prot="public" virt="virtual"><scope>gr::ofdm_allocator::ofdm_equalizer_simpledfe_alix</scope><name>equalize</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__simpledfe__alix_1a0fa218fdc2984f3cb028985ffa441cd3" prot="public" virt="virtual"><scope>gr::ofdm_allocator::ofdm_equalizer_simpledfe_alix</scope><name>equalize</name></member>
       <member refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__base__alix_1a4d8e3789a81c714a1c21e02e190ba9cc" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::ofdm_equalizer_simpledfe_alix</scope><name>fft_len</name></member>
       <member refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix_1a3e8be9537e42e836734c52b1153d5814" prot="public" virt="virtual"><scope>gr::ofdm_allocator::ofdm_equalizer_simpledfe_alix</scope><name>get_channel_state</name></member>
       <member refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__simpledfe__alix_1ae32da57bff762088607de50113ba3f91" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::ofdm_equalizer_simpledfe_alix</scope><name>make</name></member>

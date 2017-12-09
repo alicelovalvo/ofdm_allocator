@@ -53,8 +53,8 @@ namespace gr {
       void equalize(gr_complex *frame,
 		      int n_sym,
 		      const std::vector<gr_complex> &initial_taps = std::vector<gr_complex>(),
-		      const std::vector<tag_t> &tags = std::vector<tag_t>());//,
-          // const std::vector<bool> occupied_carriers = std::vector<bool> ());
+		      const std::vector<bool> &occupied_carriers = std::vector<bool> (),
+		      const std::vector<tag_t> &tags = std::vector<tag_t>());
 
 
       // float get_distance(unsigned int index, const gr_complex *sample);

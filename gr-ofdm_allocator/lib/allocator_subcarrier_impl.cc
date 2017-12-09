@@ -35,6 +35,9 @@ namespace gr {
     allocator_subcarrier::make(
   int fft_len,
   int vector_len,
+  bool fixed_data, bool fixed_pilot,
+  int max_len_data_subcarr, int max_len_pilot_subcarr,
+  int max_vector_data_subcarr, int max_vector_pilot_subcarr,
 	const std::vector<std::vector<int> > &pilot_carriers,
 	const std::vector<std::vector<gr_complex> > &pilot_symbols,
 	const std::vector<std::vector<gr_complex> > &sync_words,
@@ -46,6 +49,12 @@ namespace gr {
     new allocator_subcarrier_impl(
      fft_len,
      vector_len,
+     fixed_data,
+     fixed_pilot,
+     max_len_data_subcarr,
+     max_len_pilot_subcarr,
+     max_vector_data_subcarr,
+     max_vector_pilot_subcarr,
      pilot_carriers,
      pilot_symbols,
      sync_words,
@@ -61,6 +70,9 @@ namespace gr {
     allocator_subcarrier_impl::allocator_subcarrier_impl(
    int fft_len,
    int vector_len,
+   bool fixed_data, bool fixed_pilot,
+   int max_len_data_subcarr, int max_len_pilot_subcarr,
+   int max_vector_data_subcarr, int max_vector_pilot_subcarr,
    const std::vector<std::vector<int> > &pilot_carriers,
    const std::vector<std::vector<gr_complex> > &pilot_symbols,
    const std::vector<std::vector<gr_complex> > &sync_words,
@@ -72,6 +84,12 @@ namespace gr {
               gr::io_signature::make(1, 1, sizeof(gr_complex) * fft_len), len_tag_key),
     d_fft_len(fft_len),
     // d_vector_len(vector_len),
+    d_fixed_data(fixed_data),
+    d_fixed_pilot(fixed_pilot),
+    d_data_sub(max_len_data_subcarr),
+    d_pilot_sub(max_len_pilot_subcarr),
+    d_vector_data(max_vector_data_subcarr),
+    d_vector_pilot(max_vector_pilot_subcarr),
     d_pilot_carriers(pilot_carriers),
     d_pilot_symbols(pilot_symbols),
     d_sync_words(sync_words),
@@ -126,112 +144,117 @@ namespace gr {
     /*
      * Our virtual destructor.
      */
-    allocator_subcarrier_impl::~allocator_subcarrier_impl()
-    {
-    }
+     allocator_subcarrier_impl::~allocator_subcarrier_impl()
+     {
+     }
 
-    int
-    allocator_subcarrier_impl::calculate_output_stream_length(const gr_vector_int &ninput_items)
-    {
-      // int nin = ninput_items[0];
-      // int nout = (nin / d_symbols_per_set) * d_occupied_carriers.size();
-      // int k = 0;
-  //     for (int i = 0; i < nin % d_symbols_per_set; k++) {
-	// nout++;
-	// i += d_occupied_carriers[k % d_occupied_carriers.size()].size();
-  //     }
-      // return nout + d_sync_words.size();
-      int nout = 0;
-  //     for (unsigned i = 0; i < ninput_items.size(); i++) {
-	// nout += ninput_items[i];
-  //     }
-      return nout;
-        }
+     int
+     allocator_subcarrier_impl::calculate_output_stream_length(const gr_vector_int &ninput_items)
+     {
+       // int nin = ninput_items[0];
+       // int nout = (nin / d_symbols_per_set) * d_occupied_carriers.size();
+       // int k = 0;
+       //     for (int i = 0; i < nin % d_symbols_per_set; k++) {
+       // nout++;
+       // i += d_occupied_carriers[k % d_occupied_carriers.size()].size();
+       //     }
+       // return nout + d_sync_words.size();
+       int nout = 0;
+       //     for (unsigned i = 0; i < ninput_items.size(); i++) {
+       // nout += ninput_items[i];
+       //     }
+       return nout;
+     }
 
-    int
-    allocator_subcarrier_impl::work (int noutput_items,
-                       gr_vector_int &ninput_items,
-                       gr_vector_const_void_star &input_items,
-                       gr_vector_void_star &output_items)
-    {
-      const gr_complex *in = (const gr_complex *) input_items[0];
-      int *in2 = (int *) input_items[1];
-      gr_complex *out = (gr_complex *) output_items[0];
-      std::vector<tag_t> tags;
+     int
+     allocator_subcarrier_impl::work (int noutput_items,
+       gr_vector_int &ninput_items,
+       gr_vector_const_void_star &input_items,
+       gr_vector_void_star &output_items)
+       {
+         const gr_complex *in = (const gr_complex *) input_items[0];
+         int *in2 = (int *) input_items[1];
+         gr_complex *out = (gr_complex *) output_items[0];
+         std::vector<tag_t> tags;
 
-      set_relative_rate(ninput_items.size());
+         set_relative_rate(ninput_items.size());
 
-	    // get_tags_in_range(tags, 1, nitems_read(1), nitems_read(1)+ninput_items[1]);
+         // get_tags_in_range(tags, 1, nitems_read(1), nitems_read(1)+ninput_items[1]);
 
-      memset((void *) out, 0x00, sizeof(gr_complex) * d_fft_len * noutput_items);
+         memset((void *) out, 0x00, sizeof(gr_complex) * d_fft_len * noutput_items);
 
 
-        d_symbols_per_set = 0;
+         d_symbols_per_set = 0;
 
-      // Copy Sync word
-      for (unsigned i = 0; i < d_sync_words.size(); i++) {
-	       memcpy((void *) out, (void *) &d_sync_words[i][0], sizeof(gr_complex) * d_fft_len);
-	       out += d_fft_len;
-      }
-      // std::cout << "in2";
-      // for(int i=0; i<ninput_items[1]; i++){
-      //
-      //   std::cout << in2[i] << ", ";
-      // }
-      // std::cout << '\n';
-      std::vector<int> vector_sub;
-      std::vector<std::vector<int> > vector_vector_sub;
+         // Copy Sync word
+         for (unsigned i = 0; i < d_sync_words.size(); i++) {
+           memcpy((void *) out, (void *) &d_sync_words[i][0], sizeof(gr_complex) * d_fft_len);
+           out += d_fft_len;
+         }
+             //   std::cout << "input length" << ninput_items[1] << '\n';
+             //   std::cout << "in2";
+             // for(int i=0; i<ninput_items[1]; i++){
+             //
+             //     std::cout << in2[i] << ", ";
+             //   }
+             //   std::cout << '\n';
+         std::vector<int> vector_sub;
+         std::vector<std::vector<int> > vector_vector_sub;
+         int interval = (ninput_items[1]-d_pilot_sub)/d_data_sub;
+         if (!d_fixed_pilot){
+           interval = (ninput_items[1]-(d_pilot_sub*d_vector_pilot))/d_data_sub;
+         }
+         //       std::cout << "interval" << interval << '\n';
 
-      // std::cout << ninput_items[1] <<"/* message */" << '\n';
-
-        for (int i=0; i< (ninput_items[1]/48); i++){
-          // std::cout << "in2 : " ;
-         for(int j=0; j < 48; j++){
-           int cycle = i*48;
-           if (in2[j+cycle] == 0){
-             continue;
-          }
-          else{
-           if(in2[j+cycle] < 0){
-             in2[j+cycle] += d_fft_len;
+         for (int i=0; i< interval; i++){
+           // std::cout << "in2 : " ;
+           for(int j=0; j < d_data_sub; j++){
+             int cycle = i*d_data_sub;
+             if (in2[j+cycle] == 0){
+               continue;
+             }
+             else{
+               if(in2[j+cycle] < 0){
+                 in2[j+cycle] += d_fft_len;
+               }
+               if (in2[j+cycle] > d_fft_len || in2[j+cycle] < 0) {
+                 std::cout << "in2 " << in2[j+cycle] << '\n';
+                 throw std::invalid_argument("data carrier index out of bounds");
+               }
+               if (d_output_is_shifted) {
+                 in2[j+cycle] = (in2[j+cycle] + d_fft_len/2) % d_fft_len;
+               }
+               //   std::cout << "j: " <<j << '\n';
+               //  // for(int i=0; i < in2[j].size(); i++){
+               // std::cout << in2[j+cycle] - 32 <<", ";
+               //   // }
+               // std::fill (vector_sub.begin()+j,vector_sub.begin()+j+1,in2[j]);
+               vector_sub.push_back(in2[j+cycle]);
+             }
            }
-           if (in2[j+cycle] > d_fft_len || in2[j+cycle] < 0) {
-             throw std::invalid_argument("data carrier index out of bounds");
+           if (vector_sub.size()!=0){
+             vector_vector_sub.push_back(vector_sub);
+             // std::cout << "##############################" << '\n';
+             vector_sub.erase(vector_sub.begin(),vector_sub.end());
            }
-           if (d_output_is_shifted) {
-             in2[j+cycle] = (in2[j+cycle] + d_fft_len/2) % d_fft_len;
-           }
-        //   std::cout << "j: " <<j << '\n';
-        //  // for(int i=0; i < in2[j].size(); i++){
-           // std::cout << in2[j+cycle] - 32 <<", ";
-        //   // }
-          // std::fill (vector_sub.begin()+j,vector_sub.begin()+j+1,in2[j]);
-          vector_sub.push_back(in2[j+cycle]);
-          }
-        }
-        if (vector_sub.size()!=0){
-          vector_vector_sub.push_back(vector_sub);
-          // std::cout << "##############################" << '\n';
-          vector_sub.erase(vector_sub.begin(),vector_sub.end());
-        }
-      }
-      // for (int l=0; l<vector_vector_sub.size();l++){
-      //   // std::cout << "/* in2_vector: */";
-      //   for (int i=0; i<vector_vector_sub[l].size(); i++){
-      //     std::cout << vector_vector_sub[l][i] - 32 << ", ";
-      //   }
-      //   // std::cout << '\n';
-      // }
-        //std::cout << "/* vector_sub */" << vector_sub.size() << '\n';
-        //for (int i=0; i < vector_sub.size(); i++){
-        //  std::cout << vector_sub[i] - 32 << ", ";
-        //}
-      // std::cout << "size : ";
-      // std::cout << ninput_items[1];
-      //std::cout <<'\n';
-      // }
-      // Copy data symbols
-      long n_ofdm_symbols = 0; // Number of output items
+         }
+         // for (int l=0; l<vector_vector_sub.size();l++){
+         //   std::cout << "/* in2_vector: */";
+         //   for (int i=0; i<vector_vector_sub[l].size(); i++){
+         //     std::cout << vector_vector_sub[l][i] - 32 << ", ";
+         //   }
+         //   std::cout << '\n';
+         // }
+         //std::cout << "/* vector_sub */" << vector_sub.size() << '\n';
+         //for (int i=0; i < vector_sub.size(); i++){
+         //  std::cout << vector_sub[i] - 32 << ", ";
+         //}
+         // std::cout << "size : ";
+         // std::cout << ninput_items[1];
+         //std::cout <<'\n';
+         // }
+         // Copy data symbols
+         long n_ofdm_symbols = 0; // Number of output items
       int curr_set = 0;
       // int symbols_to_allocate = d_occupied_carriers[0].size();
       int symbols_to_allocate = vector_vector_sub[0].size();

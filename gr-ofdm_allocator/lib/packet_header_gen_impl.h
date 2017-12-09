@@ -34,6 +34,11 @@ namespace gr {
        int d_bits_per_byte;
        unsigned d_header_number;
        unsigned d_mask;
+       int d_data_sub;
+       int d_pilot_sub;
+       int d_vector_data;
+       int d_vector_pilot;
+       bool d_fixed_pilot;
        boost::crc_optimal<8, 0x07, 0xFF, 0x00, false, false>  d_crc_impl;
 
       // Nothing to declare in this block.
@@ -41,6 +46,9 @@ namespace gr {
     public:
      packet_header_gen_impl(
     const packet_header_default_alix::sptr &header_formatter,
+    int max_len_data_subcarr, int max_len_pilot_subcarr,
+    int max_vector_data_subcarr, int max_vector_pilot_subcarr,
+    bool fixed_pilot,
     int vector_len,
     const std::string &len_tag_key
      );

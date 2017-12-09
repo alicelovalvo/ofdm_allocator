@@ -33,6 +33,11 @@ namespace gr {
        const int d_cp_len;
        ofdm_equalizer_base_alix::sptr d_eq;
        bool d_propagate_channel_state;
+       bool d_fixed_pilot;
+       int d_pilot_sub;
+       int d_data_sub;
+       int d_vector_pilot;
+       bool d_input_is_shifted;
        const int d_fixed_frame_len;
        std::vector<gr_complex> d_channel_state;
        // Nothing to declare in this block.
@@ -49,9 +54,13 @@ namespace gr {
         ofdm_equalizer_base_alix::sptr equalizer,
         int vector_len,
         int cp_len,
+        bool fixed_pilot,
+        int max_len_data_subcarr, int max_len_pilot_subcarr,
+        int max_vector_pilot_subcarr,
         const std::string &tsb_key,
         bool propagate_channel_state,
-        int fixed_frame_len
+        int fixed_frame_len,
+        bool input_is_shifted
       );
       ~frame_equalizer_alix_impl();
 

@@ -85,16 +85,20 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a345a40ebd2fd2cac4c7ba45a5d9e32e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa42bbb1c80384ca617db6094b74a0d8f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgr_1_1ofdm__allocator_1_1vector__source__tagged.html#aa42bbb1c80384ca617db6094b74a0d8f">set_data</a> (const std::vector&lt; int &gt; &amp;data, const std::vector&lt; tag_t &gt; &amp;tags=std::vector&lt; tag_t &gt;())=0</td></tr>
 <tr class="separator:aa42bbb1c80384ca617db6094b74a0d8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a08ed605b70f688d13d22461aadc983ea"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgr_1_1ofdm__allocator_1_1vector__source__tagged.html#a08ed605b70f688d13d22461aadc983ea">set_random_vector</a> ()=0</td></tr>
-<tr class="separator:a08ed605b70f688d13d22461aadc983ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a322223aecfc7f4495152a1d650c4f8a8"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgr_1_1ofdm__allocator_1_1vector__source__tagged.html#a322223aecfc7f4495152a1d650c4f8a8">final_update</a> ()=0</td></tr>
+<tr class="separator:a322223aecfc7f4495152a1d650c4f8a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28340b49bc65cecf0db484a142694aa5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgr_1_1ofdm__allocator_1_1vector__source__tagged.html#a28340b49bc65cecf0db484a142694aa5">set_random_vector_data</a> ()=0</td></tr>
+<tr class="separator:a28340b49bc65cecf0db484a142694aa5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a472a1eab6aea19fe5b3ac6e76ab66e81"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgr_1_1ofdm__allocator_1_1vector__source__tagged.html#a472a1eab6aea19fe5b3ac6e76ab66e81">set_random_vector_pilot</a> ()=0</td></tr>
+<tr class="separator:a472a1eab6aea19fe5b3ac6e76ab66e81"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad1f50b85cfc3d57e89739c4a154a632"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgr_1_1ofdm__allocator_1_1vector__source__tagged.html#aad1f50b85cfc3d57e89739c4a154a632">set_repeat</a> (bool repeat)=0</td></tr>
 <tr class="separator:aad1f50b85cfc3d57e89739c4a154a632"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:aa62f11c1d20e3cd3730a4b1032a8683f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classgr_1_1ofdm__allocator_1_1vector__source__tagged.html#aebd68bd56130611327e2ff5f25b90eeb">sptr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgr_1_1ofdm__allocator_1_1vector__source__tagged.html#aa62f11c1d20e3cd3730a4b1032a8683f">make</a> (const std::vector&lt; int &gt; &amp;data, bool repeat=false, int vlen=1, bool fixed=false, const std::string &amp;length_tag_key=&quot;vector_len&quot;, const std::vector&lt; tag_t &gt; &amp;tags=std::vector&lt; tag_t &gt;())</td></tr>
-<tr class="memdesc:aa62f11c1d20e3cd3730a4b1032a8683f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a shared_ptr to a new instance of <a class="el" href="classgr_1_1ofdm__allocator_1_1vector__source__tagged.html" title="&lt;+description of block+&gt; ">ofdm_allocator::vector_source_tagged</a>.  <a href="#aa62f11c1d20e3cd3730a4b1032a8683f">More...</a><br /></td></tr>
-<tr class="separator:aa62f11c1d20e3cd3730a4b1032a8683f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abce033ad8733c61bad3b37ceafbbe0fb"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classgr_1_1ofdm__allocator_1_1vector__source__tagged.html#aebd68bd56130611327e2ff5f25b90eeb">sptr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgr_1_1ofdm__allocator_1_1vector__source__tagged.html#abce033ad8733c61bad3b37ceafbbe0fb">make</a> (const std::vector&lt; int &gt; &amp;data, bool repeat=false, int vlen=1, bool fixed_data=false, int fft_len=64, int max_len_data_subcarr=48, int max_len_pilot_subcarr=10, int max_vector_data_subcarr=4, int max_vector_pilot_subcarr=1, bool fixed_pilot=false, const std::vector&lt; int &gt; &amp;pilot=std::vector&lt; int &gt;(), const std::string &amp;length_tag_key=&quot;vector_len&quot;, const std::vector&lt; tag_t &gt; &amp;tags=std::vector&lt; tag_t &gt;())</td></tr>
+<tr class="memdesc:abce033ad8733c61bad3b37ceafbbe0fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a shared_ptr to a new instance of <a class="el" href="classgr_1_1ofdm__allocator_1_1vector__source__tagged.html" title="&lt;+description of block+&gt; ">ofdm_allocator::vector_source_tagged</a>.  <a href="#abce033ad8733c61bad3b37ceafbbe0fb">More...</a><br /></td></tr>
+<tr class="separator:abce033ad8733c61bad3b37ceafbbe0fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>&lt;+description of block+&gt; </p>
@@ -112,7 +116,32 @@ Static Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="aa62f11c1d20e3cd3730a4b1032a8683f"></a>
+<a class="anchor" id="a322223aecfc7f4495152a1d650c4f8a8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void gr::ofdm_allocator::vector_source_tagged::final_update </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="classgr_1_1ofdm__allocator_1_1vector__source__tagged__impl.html#a19f1192c8bb2cc72005ec11c7b670a74">gr::ofdm_allocator::vector_source_tagged_impl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="abce033ad8733c61bad3b37ceafbbe0fb"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -141,7 +170,49 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>fixed</em> = <code>false</code>, </td>
+          <td class="paramname"><em>fixed_data</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>fft_len</em> = <code>64</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>max_len_data_subcarr</em> = <code>48</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>max_len_pilot_subcarr</em> = <code>10</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>max_vector_data_subcarr</em> = <code>4</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>max_vector_pilot_subcarr</em> = <code>1</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>fixed_pilot</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; int &gt; &amp;&#160;</td>
+          <td class="paramname"><em>pilot</em> = <code>std::vector&lt;&#160;int&#160;&gt;()</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -169,7 +240,7 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Return a shared_ptr to a new instance of <a class="el" href="classgr_1_1ofdm__allocator_1_1vector__source__tagged.html" title="&lt;+description of block+&gt; ">ofdm_allocator::vector_source_tagged</a>. </p>
-<p>To avoid accidental use of raw pointers, <a class="el" href="classgr_1_1ofdm__allocator_1_1vector__source__tagged.html" title="&lt;+description of block+&gt; ">ofdm_allocator::vector_source_tagged</a>'s constructor is in a private implementation class. <a class="el" href="classgr_1_1ofdm__allocator_1_1vector__source__tagged.html#aa62f11c1d20e3cd3730a4b1032a8683f" title="Return a shared_ptr to a new instance of ofdm_allocator::vector_source_tagged. ">ofdm_allocator::vector_source_tagged::make</a> is the public interface for creating new instances. </p>
+<p>To avoid accidental use of raw pointers, <a class="el" href="classgr_1_1ofdm__allocator_1_1vector__source__tagged.html" title="&lt;+description of block+&gt; ">ofdm_allocator::vector_source_tagged</a>'s constructor is in a private implementation class. <a class="el" href="classgr_1_1ofdm__allocator_1_1vector__source__tagged.html#abce033ad8733c61bad3b37ceafbbe0fb" title="Return a shared_ptr to a new instance of ofdm_allocator::vector_source_tagged. ">ofdm_allocator::vector_source_tagged::make</a> is the public interface for creating new instances. </p>
 
 </div>
 </div>
@@ -234,7 +305,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a08ed605b70f688d13d22461aadc983ea"></a>
+<a class="anchor" id="a28340b49bc65cecf0db484a142694aa5"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -242,7 +313,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void gr::ofdm_allocator::vector_source_tagged::set_random_vector </td>
+          <td class="memname">virtual void gr::ofdm_allocator::vector_source_tagged::set_random_vector_data </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -255,7 +326,32 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classgr_1_1ofdm__allocator_1_1vector__source__tagged__impl.html#a46f51f50c0e46f27ec2451267f9d2b5e">gr::ofdm_allocator::vector_source_tagged_impl</a>.</p>
+<p>Implemented in <a class="el" href="classgr_1_1ofdm__allocator_1_1vector__source__tagged__impl.html#a064b34b2b7c62f5b7cdf3de8dc668372">gr::ofdm_allocator::vector_source_tagged_impl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a472a1eab6aea19fe5b3ac6e76ab66e81"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void gr::ofdm_allocator::vector_source_tagged::set_random_vector_pilot </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="classgr_1_1ofdm__allocator_1_1vector__source__tagged__impl.html#a37f006aadfc8523e42c1b1da948b3d39">gr::ofdm_allocator::vector_source_tagged_impl</a>.</p>
 
 </div>
 </div>
@@ -294,7 +390,7 @@ Static Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacegr.html">gr</a></li><li class="navelem"><a class="el" href="namespacegr_1_1ofdm__allocator.html">ofdm_allocator</a></li><li class="navelem"><a class="el" href="classgr_1_1ofdm__allocator_1_1vector__source__tagged.html">vector_source_tagged</a></li>
-    <li class="footer">Generated on Thu Dec 7 2017 14:24:20 for GNU Radio&#39;s OFDM_ALLOCATOR Package by
+    <li class="footer">Generated on Sat Dec 9 2017 11:50:06 for GNU Radio&#39;s OFDM_ALLOCATOR Package by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

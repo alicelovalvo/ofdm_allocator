@@ -77,7 +77,8 @@ namespace gr {
     ofdm_equalizer_simpledfe_alix::equalize(gr_complex *frame,
 	      int n_sym,
 	      const std::vector<gr_complex> &initial_taps,
-	      const std::vector<tag_t> &tags)//, const std::vector<bool> occupied_carriers)
+	      const std::vector<bool> &occupied_carriers,
+	      const std::vector<tag_t> &tags)
     {
       if (!initial_taps.empty()) {
 	d_channel_state = initial_taps;
@@ -86,7 +87,7 @@ namespace gr {
 
       for (int i = 0; i < n_sym; i++) {
 	for (int k = 0; k < d_fft_len; k++) {
-	  if (!d_occupied_carriers[k]) {
+	  if (!occupied_carriers[k]) {
 	    continue;
 	  }
 	  if (!d_pilot_carriers.empty() && d_pilot_carriers[d_pilot_carr_set][k]) {

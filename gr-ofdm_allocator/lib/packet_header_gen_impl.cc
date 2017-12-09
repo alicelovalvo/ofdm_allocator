@@ -32,17 +32,23 @@ namespace gr {
     packet_header_gen::sptr
     packet_header_gen::make(
     const packet_header_default_alix::sptr &header_formatter,
+    int max_len_data_subcarr, int max_len_pilot_subcarr,
+    int max_vector_data_subcarr, int max_vector_pilot_subcarr,
+    bool fixed_pilot,
     int vector_len,
     const std::string &len_tag_key
     )
     {
-      return gnuradio::get_initial_sptr (new packet_header_gen_impl(header_formatter, vector_len, len_tag_key));
+      return gnuradio::get_initial_sptr (new packet_header_gen_impl(header_formatter, max_len_data_subcarr, max_len_pilot_subcarr, max_vector_data_subcarr, max_vector_pilot_subcarr, fixed_pilot, vector_len, len_tag_key));
     }
 
 
     packet_header_gen::sptr
     packet_header_gen::make(
       long header_len,
+      int max_len_data_subcarr, int max_len_pilot_subcarr,
+      int max_vector_data_subcarr, int max_vector_pilot_subcarr,
+      bool fixed_pilot,
       int vector_len,
       const std::string &len_tag_key
     )
@@ -50,12 +56,15 @@ namespace gr {
       const packet_header_default_alix::sptr header_formatter(
     new packet_header_default_alix(header_len, len_tag_key)
       );
-      return gnuradio::get_initial_sptr (new packet_header_gen_impl(header_formatter, vector_len, len_tag_key));
+      return gnuradio::get_initial_sptr (new packet_header_gen_impl(header_formatter, max_len_data_subcarr, max_len_pilot_subcarr, max_vector_data_subcarr, max_vector_pilot_subcarr, fixed_pilot, vector_len, len_tag_key));
     }
 
     const unsigned MASK_LUT[9] = {0x00, 0x01, 0x03, 0x07, 0x0F, 0x1F, 0x2F, 0x7F, 0xFF};
     packet_header_gen_impl::packet_header_gen_impl(
         const gr::ofdm_allocator::packet_header_default_alix::sptr &header_formatter,
+        int max_len_data_subcarr, int max_len_pilot_subcarr,
+        int max_vector_data_subcarr, int max_vector_pilot_subcarr,
+        bool fixed_pilot,
         int vector_len,
         const std::string &len_tag_key
         )
@@ -64,6 +73,11 @@ namespace gr {
            io_signature::make(1, 1, sizeof (char)),
            len_tag_key),
       d_formatter(header_formatter),
+      d_fixed_pilot(fixed_pilot),
+      d_data_sub(max_len_data_subcarr),
+      d_pilot_sub(max_len_pilot_subcarr),
+      d_vector_data(max_vector_data_subcarr),
+      d_vector_pilot(max_vector_pilot_subcarr),
       d_bits_per_byte(1),//bits_per_header_sym),
       d_header_number(0)
     {
@@ -148,11 +162,15 @@ namespace gr {
 
       std::vector<int> vector_sub;
       std::vector<std::vector<int> > vector_vector_sub;
+      int interval = (ninput_items[1]-4)/d_data_sub;
+      if (!d_fixed_pilot){
+        interval = (ninput_items[1]-(d_pilot_sub*d_vector_pilot))/d_data_sub;
+      }
 
-      for (int i=0; i< (ninput_items[1]/48); i++){
+      for (int i=0; i< interval; i++){
         // std::cout << "in2 : " ;
-       for(int j=0; j < 48; j++){
-         int cycle = i*48;
+       for(int j=0; j < d_data_sub; j++){
+         int cycle = i*d_data_sub;
          if (in2[j+cycle] == 0){
            continue;
         }

@@ -31,12 +31,20 @@ namespace gr {
      private:
       // Nothing to declare in this block.
       std::vector<int> d_data;
+      std::vector<int> d_pilot;
       bool d_repeat;
-      bool d_fixed;
+      bool d_fixed_data;
+      bool d_fixed_pilot;
       unsigned int d_offset;
       int d_vlen;
       int d_i;
+      std::vector<int> d_final_subcarrier;
       int d_size;
+      int d_fft_len;
+      int d_data_sub;
+      int d_pilot_sub;
+      int d_vector_data;
+      int d_vector_pilot;
       pmt::pmt_t d_len_tag_key; //!< Key of length tag
       bool d_settags;
       std::vector<tag_t> d_tags;
@@ -44,7 +52,10 @@ namespace gr {
 
      public:
       vector_source_tagged_impl(const std::vector<int> &data,
-                  bool repeat, int vlen, bool fixed,
+                  bool repeat, int vlen, bool fixed_data, int fft_len,
+                  int max_len_data_subcarr, int max_len_pilot_subcarr,
+                  int max_vector_data_subcarr, int max_vector_pilot_subcarr,
+                  bool fixed_pilot, const std::vector<int> &pilot,
                   const std::string &length_tag_key,
                   const std::vector<tag_t> &tags);
       ~vector_source_tagged_impl();
@@ -53,7 +64,9 @@ namespace gr {
       void set_data(const std::vector<int> &data,
                     const std::vector<tag_t> &tags);
 
-      void set_random_vector();
+      void final_update();
+      void set_random_vector_data();
+      void set_random_vector_pilot();
       void set_repeat(bool repeat) { d_repeat=repeat; };
 
       // Where all the action really happens

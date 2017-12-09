@@ -4,7 +4,7 @@
     <member refid="classgr_1_1ofdm__allocator_1_1allocator__subcarrier_1ab6e5771d0fd1f766fd39bff1ef41b6bf" kind="typedef"><name>sptr</name></member>
     <member refid="classgr_1_1ofdm__allocator_1_1allocator__subcarrier_1aa01c8a9ebe407e302e4307a7617ff43e" kind="function"><name>len_tag_key</name></member>
     <member refid="classgr_1_1ofdm__allocator_1_1allocator__subcarrier_1ac166debfd2b26e6ea9fc4b7de0471e1d" kind="function"><name>fft_len</name></member>
-    <member refid="classgr_1_1ofdm__allocator_1_1allocator__subcarrier_1a11ebbf592513f00f5fff6058dca29e0b" kind="function"><name>make</name></member>
+    <member refid="classgr_1_1ofdm__allocator_1_1allocator__subcarrier_1a4aced0322685e3f09c49f43725546e70" kind="function"><name>make</name></member>
   </compound>
   <compound refid="classgr_1_1ofdm__allocator_1_1constellation__16qam" kind="class"><name>gr::ofdm_allocator::constellation_16qam</name>
     <member refid="classgr_1_1ofdm__allocator_1_1constellation__16qam_1aae8c0d7fbf1c7e97d770acf70de6665d" kind="typedef"><name>sptr</name></member>
@@ -148,7 +148,7 @@
   </compound>
   <compound refid="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix" kind="class"><name>gr::ofdm_allocator::frame_equalizer_alix</name>
     <member refid="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix_1a25ae200123440ea6c6e1ff089e095e2a" kind="typedef"><name>sptr</name></member>
-    <member refid="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix_1a5e5ec1f902677990585cb6924d396298" kind="function"><name>make</name></member>
+    <member refid="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix_1aeb1a1a063cd2217a436758b816e0d7ab" kind="function"><name>make</name></member>
   </compound>
   <compound refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix" kind="class"><name>gr::ofdm_allocator::ofdm_equalizer_1d_pilots_alix</name>
     <member refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix_1aa2a54b796f4d9911ec91435b59a1987e" kind="typedef"><name>sptr</name></member>
@@ -169,7 +169,7 @@
     <member refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__base__alix_1a2d1ecc940a342274daf8e967fb02e6bf" kind="function"><name>ofdm_equalizer_base_alix</name></member>
     <member refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__base__alix_1ad7f89b48ec0bcb6785451d2138639905" kind="function"><name>~ofdm_equalizer_base_alix</name></member>
     <member refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__base__alix_1a15c852308caf8571770bb6a5a87cf3b7" kind="function"><name>reset</name></member>
-    <member refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__base__alix_1a451826624c3152e1a798a9383db000fb" kind="function"><name>equalize</name></member>
+    <member refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__base__alix_1a8e8d476b0c145a0a6fb442ea7335cd71" kind="function"><name>equalize</name></member>
     <member refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__base__alix_1a179d8dc94cc6a0a71399c52d8d67873f" kind="function"><name>get_channel_state</name></member>
     <member refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__base__alix_1a4d8e3789a81c714a1c21e02e190ba9cc" kind="function"><name>fft_len</name></member>
     <member refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__base__alix_1a67e1b0098c9bd45f690b2585ef97f8a2" kind="function"><name>base</name></member>
@@ -180,7 +180,7 @@
     <member refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__simpledfe__alix_1a523b938e3a769980894a76d2d5504787" kind="variable"><name>d_alpha</name></member>
     <member refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__simpledfe__alix_1a462bba10b515370242c81b8c9b12e277" kind="function"><name>ofdm_equalizer_simpledfe_alix</name></member>
     <member refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__simpledfe__alix_1a53c6b9abae5eca5139b02f477d694ef4" kind="function"><name>~ofdm_equalizer_simpledfe_alix</name></member>
-    <member refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__simpledfe__alix_1a56b238b0776058463f3bf4f6074f0fbf" kind="function"><name>equalize</name></member>
+    <member refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__simpledfe__alix_1a0fa218fdc2984f3cb028985ffa441cd3" kind="function"><name>equalize</name></member>
     <member refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__simpledfe__alix_1ae32da57bff762088607de50113ba3f91" kind="function"><name>make</name></member>
   </compound>
   <compound refid="classgr_1_1ofdm__allocator_1_1packet__header__default__alix" kind="class"><name>gr::ofdm_allocator::packet_header_default_alix</name>
@@ -205,8 +205,8 @@
   </compound>
   <compound refid="classgr_1_1ofdm__allocator_1_1packet__header__gen" kind="class"><name>gr::ofdm_allocator::packet_header_gen</name>
     <member refid="classgr_1_1ofdm__allocator_1_1packet__header__gen_1aa30f99e378b5245ce5038866b0d8ad49" kind="typedef"><name>sptr</name></member>
-    <member refid="classgr_1_1ofdm__allocator_1_1packet__header__gen_1afef596c626724720ca7f5c80aa414f46" kind="function"><name>make</name></member>
-    <member refid="classgr_1_1ofdm__allocator_1_1packet__header__gen_1a553d6473bd91bc101c2b14b8a54cda7b" kind="function"><name>make</name></member>
+    <member refid="classgr_1_1ofdm__allocator_1_1packet__header__gen_1a0296c6000e86d66bd967b312c19cec8f" kind="function"><name>make</name></member>
+    <member refid="classgr_1_1ofdm__allocator_1_1packet__header__gen_1a223cd66e3896c06e43156cf5c4e65564" kind="function"><name>make</name></member>
     <member refid="classgr_1_1ofdm__allocator_1_1packet__header__gen_1a5c7fba3cc96dc414310b6942800212da" kind="function"><name>set_header_formatter</name></member>
   </compound>
   <compound refid="classgr_1_1ofdm__allocator_1_1packet__header__ofdm__alix" kind="class"><name>gr::ofdm_allocator::packet_header_ofdm_alix</name>
@@ -228,10 +228,12 @@
   </compound>
   <compound refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged" kind="class"><name>gr::ofdm_allocator::vector_source_tagged</name>
     <member refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged_1aebd68bd56130611327e2ff5f25b90eeb" kind="typedef"><name>sptr</name></member>
-    <member refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged_1aa62f11c1d20e3cd3730a4b1032a8683f" kind="function"><name>make</name></member>
+    <member refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged_1abce033ad8733c61bad3b37ceafbbe0fb" kind="function"><name>make</name></member>
     <member refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged_1a345a40ebd2fd2cac4c7ba45a5d9e32e0" kind="function"><name>rewind</name></member>
     <member refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged_1aa42bbb1c80384ca617db6094b74a0d8f" kind="function"><name>set_data</name></member>
-    <member refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged_1a08ed605b70f688d13d22461aadc983ea" kind="function"><name>set_random_vector</name></member>
+    <member refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged_1a322223aecfc7f4495152a1d650c4f8a8" kind="function"><name>final_update</name></member>
+    <member refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged_1a28340b49bc65cecf0db484a142694aa5" kind="function"><name>set_random_vector_data</name></member>
+    <member refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged_1a472a1eab6aea19fe5b3ac6e76ab66e81" kind="function"><name>set_random_vector_pilot</name></member>
     <member refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged_1aad1f50b85cfc3d57e89739c4a154a632" kind="function"><name>set_repeat</name></member>
   </compound>
   <compound refid="namespacegr" kind="namespace"><name>gr</name>

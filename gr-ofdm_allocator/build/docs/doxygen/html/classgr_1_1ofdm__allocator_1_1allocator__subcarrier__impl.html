@@ -72,8 +72,8 @@ Inheritance diagram for gr::ofdm_allocator::allocator_subcarrier_impl:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ab048ccd96cb9f3c3f7df95f8c9ca49a8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgr_1_1ofdm__allocator_1_1allocator__subcarrier__impl.html#ab048ccd96cb9f3c3f7df95f8c9ca49a8">allocator_subcarrier_impl</a> (int <a class="el" href="classgr_1_1ofdm__allocator_1_1allocator__subcarrier__impl.html#a6d6acedd576c3d60f07abe09807e0f81">fft_len</a>, int vector_len, const std::vector&lt; std::vector&lt; int &gt; &gt; &amp;pilot_carriers, const std::vector&lt; std::vector&lt; gr_complex &gt; &gt; &amp;pilot_symbols, const std::vector&lt; std::vector&lt; gr_complex &gt; &gt; &amp;sync_words, const std::string &amp;<a class="el" href="classgr_1_1ofdm__allocator_1_1allocator__subcarrier__impl.html#a8970f9b7e54cc5f39be354a3ac30cf8e">len_tag_key</a>, const bool output_is_shifted)</td></tr>
-<tr class="separator:ab048ccd96cb9f3c3f7df95f8c9ca49a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d2523105e6dcc848977ae74090315b3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgr_1_1ofdm__allocator_1_1allocator__subcarrier__impl.html#a0d2523105e6dcc848977ae74090315b3">allocator_subcarrier_impl</a> (int <a class="el" href="classgr_1_1ofdm__allocator_1_1allocator__subcarrier__impl.html#a6d6acedd576c3d60f07abe09807e0f81">fft_len</a>, int vector_len, bool fixed_data, bool fixed_pilot, int max_len_data_subcarr, int max_len_pilot_subcarr, int max_vector_data_subcarr, int max_vector_pilot_subcarr, const std::vector&lt; std::vector&lt; int &gt; &gt; &amp;pilot_carriers, const std::vector&lt; std::vector&lt; gr_complex &gt; &gt; &amp;pilot_symbols, const std::vector&lt; std::vector&lt; gr_complex &gt; &gt; &amp;sync_words, const std::string &amp;<a class="el" href="classgr_1_1ofdm__allocator_1_1allocator__subcarrier__impl.html#a8970f9b7e54cc5f39be354a3ac30cf8e">len_tag_key</a>, const bool output_is_shifted)</td></tr>
+<tr class="separator:a0d2523105e6dcc848977ae74090315b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f52af8f0f634091ad929912b045f2ea"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgr_1_1ofdm__allocator_1_1allocator__subcarrier__impl.html#a7f52af8f0f634091ad929912b045f2ea">~allocator_subcarrier_impl</a> ()</td></tr>
 <tr class="separator:a7f52af8f0f634091ad929912b045f2ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8970f9b7e54cc5f39be354a3ac30cf8e"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgr_1_1ofdm__allocator_1_1allocator__subcarrier__impl.html#a8970f9b7e54cc5f39be354a3ac30cf8e">len_tag_key</a> ()</td></tr>
@@ -94,12 +94,12 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ab6e5771d0fd1f766fd39bff1ef41b6bf inherit pub_types_classgr_1_1ofdm__allocator_1_1allocator__subcarrier"><td class="memItemLeft" align="right" valign="top">typedef boost::shared_ptr&lt; <a class="el" href="classgr_1_1ofdm__allocator_1_1allocator__subcarrier.html">allocator_subcarrier</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgr_1_1ofdm__allocator_1_1allocator__subcarrier.html#ab6e5771d0fd1f766fd39bff1ef41b6bf">sptr</a></td></tr>
 <tr class="separator:ab6e5771d0fd1f766fd39bff1ef41b6bf inherit pub_types_classgr_1_1ofdm__allocator_1_1allocator__subcarrier"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_static_methods_classgr_1_1ofdm__allocator_1_1allocator__subcarrier"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_classgr_1_1ofdm__allocator_1_1allocator__subcarrier')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="classgr_1_1ofdm__allocator_1_1allocator__subcarrier.html">gr::ofdm_allocator::allocator_subcarrier</a></td></tr>
-<tr class="memitem:a11ebbf592513f00f5fff6058dca29e0b inherit pub_static_methods_classgr_1_1ofdm__allocator_1_1allocator__subcarrier"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classgr_1_1ofdm__allocator_1_1allocator__subcarrier.html#ab6e5771d0fd1f766fd39bff1ef41b6bf">sptr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgr_1_1ofdm__allocator_1_1allocator__subcarrier.html#a11ebbf592513f00f5fff6058dca29e0b">make</a> (int <a class="el" href="classgr_1_1ofdm__allocator_1_1allocator__subcarrier.html#ac166debfd2b26e6ea9fc4b7de0471e1d">fft_len</a>, int vector_len, const std::vector&lt; std::vector&lt; int &gt; &gt; &amp;pilot_carriers, const std::vector&lt; std::vector&lt; gr_complex &gt; &gt; &amp;pilot_symbols, const std::vector&lt; std::vector&lt; gr_complex &gt; &gt; &amp;sync_words, const std::string &amp;<a class="el" href="classgr_1_1ofdm__allocator_1_1allocator__subcarrier.html#aa01c8a9ebe407e302e4307a7617ff43e">len_tag_key</a>=&quot;packet_len&quot;, const bool output_is_shifted=true)</td></tr>
-<tr class="memdesc:a11ebbf592513f00f5fff6058dca29e0b inherit pub_static_methods_classgr_1_1ofdm__allocator_1_1allocator__subcarrier"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a shared_ptr to a new instance of <a class="el" href="classgr_1_1ofdm__allocator_1_1allocator__subcarrier.html" title="&lt;+description of block+&gt; ">ofdm_allocator::allocator_subcarrier</a>.  <a href="#a11ebbf592513f00f5fff6058dca29e0b">More...</a><br /></td></tr>
-<tr class="separator:a11ebbf592513f00f5fff6058dca29e0b inherit pub_static_methods_classgr_1_1ofdm__allocator_1_1allocator__subcarrier"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4aced0322685e3f09c49f43725546e70 inherit pub_static_methods_classgr_1_1ofdm__allocator_1_1allocator__subcarrier"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classgr_1_1ofdm__allocator_1_1allocator__subcarrier.html#ab6e5771d0fd1f766fd39bff1ef41b6bf">sptr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgr_1_1ofdm__allocator_1_1allocator__subcarrier.html#a4aced0322685e3f09c49f43725546e70">make</a> (int <a class="el" href="classgr_1_1ofdm__allocator_1_1allocator__subcarrier.html#ac166debfd2b26e6ea9fc4b7de0471e1d">fft_len</a>, int vector_len, bool fixed_data, bool fixed_pilot, int max_len_data_subcarr, int max_len_pilot_subcarr, int max_vector_data_subcarr, int max_vector_pilot_subcarr, const std::vector&lt; std::vector&lt; int &gt; &gt; &amp;pilot_carriers, const std::vector&lt; std::vector&lt; gr_complex &gt; &gt; &amp;pilot_symbols, const std::vector&lt; std::vector&lt; gr_complex &gt; &gt; &amp;sync_words, const std::string &amp;<a class="el" href="classgr_1_1ofdm__allocator_1_1allocator__subcarrier.html#aa01c8a9ebe407e302e4307a7617ff43e">len_tag_key</a>=&quot;packet_len&quot;, const bool output_is_shifted=true)</td></tr>
+<tr class="memdesc:a4aced0322685e3f09c49f43725546e70 inherit pub_static_methods_classgr_1_1ofdm__allocator_1_1allocator__subcarrier"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a shared_ptr to a new instance of <a class="el" href="classgr_1_1ofdm__allocator_1_1allocator__subcarrier.html" title="&lt;+description of block+&gt; ">ofdm_allocator::allocator_subcarrier</a>.  <a href="#a4aced0322685e3f09c49f43725546e70">More...</a><br /></td></tr>
+<tr class="separator:a4aced0322685e3f09c49f43725546e70 inherit pub_static_methods_classgr_1_1ofdm__allocator_1_1allocator__subcarrier"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="ab048ccd96cb9f3c3f7df95f8c9ca49a8"></a>
+<a class="anchor" id="a0d2523105e6dcc848977ae74090315b3"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -114,6 +114,42 @@ Additional Inherited Members</h2></td></tr>
           <td></td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>vector_len</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>fixed_data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>fixed_pilot</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>max_len_data_subcarr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>max_len_pilot_subcarr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>max_vector_data_subcarr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>max_vector_pilot_subcarr</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -296,7 +332,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacegr.html">gr</a></li><li class="navelem"><a class="el" href="namespacegr_1_1ofdm__allocator.html">ofdm_allocator</a></li><li class="navelem"><a class="el" href="classgr_1_1ofdm__allocator_1_1allocator__subcarrier__impl.html">allocator_subcarrier_impl</a></li>
-    <li class="footer">Generated on Thu Dec 7 2017 14:24:20 for GNU Radio&#39;s OFDM_ALLOCATOR Package by
+    <li class="footer">Generated on Sat Dec 9 2017 11:50:06 for GNU Radio&#39;s OFDM_ALLOCATOR Package by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

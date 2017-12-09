@@ -88,9 +88,9 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a11ebbf592513f00f5fff6058dca29e0b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classgr_1_1ofdm__allocator_1_1allocator__subcarrier.html#ab6e5771d0fd1f766fd39bff1ef41b6bf">sptr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgr_1_1ofdm__allocator_1_1allocator__subcarrier.html#a11ebbf592513f00f5fff6058dca29e0b">make</a> (int <a class="el" href="classgr_1_1ofdm__allocator_1_1allocator__subcarrier.html#ac166debfd2b26e6ea9fc4b7de0471e1d">fft_len</a>, int vector_len, const std::vector&lt; std::vector&lt; int &gt; &gt; &amp;pilot_carriers, const std::vector&lt; std::vector&lt; gr_complex &gt; &gt; &amp;pilot_symbols, const std::vector&lt; std::vector&lt; gr_complex &gt; &gt; &amp;sync_words, const std::string &amp;<a class="el" href="classgr_1_1ofdm__allocator_1_1allocator__subcarrier.html#aa01c8a9ebe407e302e4307a7617ff43e">len_tag_key</a>=&quot;packet_len&quot;, const bool output_is_shifted=true)</td></tr>
-<tr class="memdesc:a11ebbf592513f00f5fff6058dca29e0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a shared_ptr to a new instance of <a class="el" href="classgr_1_1ofdm__allocator_1_1allocator__subcarrier.html" title="&lt;+description of block+&gt; ">ofdm_allocator::allocator_subcarrier</a>.  <a href="#a11ebbf592513f00f5fff6058dca29e0b">More...</a><br /></td></tr>
-<tr class="separator:a11ebbf592513f00f5fff6058dca29e0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4aced0322685e3f09c49f43725546e70"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classgr_1_1ofdm__allocator_1_1allocator__subcarrier.html#ab6e5771d0fd1f766fd39bff1ef41b6bf">sptr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgr_1_1ofdm__allocator_1_1allocator__subcarrier.html#a4aced0322685e3f09c49f43725546e70">make</a> (int <a class="el" href="classgr_1_1ofdm__allocator_1_1allocator__subcarrier.html#ac166debfd2b26e6ea9fc4b7de0471e1d">fft_len</a>, int vector_len, bool fixed_data, bool fixed_pilot, int max_len_data_subcarr, int max_len_pilot_subcarr, int max_vector_data_subcarr, int max_vector_pilot_subcarr, const std::vector&lt; std::vector&lt; int &gt; &gt; &amp;pilot_carriers, const std::vector&lt; std::vector&lt; gr_complex &gt; &gt; &amp;pilot_symbols, const std::vector&lt; std::vector&lt; gr_complex &gt; &gt; &amp;sync_words, const std::string &amp;<a class="el" href="classgr_1_1ofdm__allocator_1_1allocator__subcarrier.html#aa01c8a9ebe407e302e4307a7617ff43e">len_tag_key</a>=&quot;packet_len&quot;, const bool output_is_shifted=true)</td></tr>
+<tr class="memdesc:a4aced0322685e3f09c49f43725546e70"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a shared_ptr to a new instance of <a class="el" href="classgr_1_1ofdm__allocator_1_1allocator__subcarrier.html" title="&lt;+description of block+&gt; ">ofdm_allocator::allocator_subcarrier</a>.  <a href="#a4aced0322685e3f09c49f43725546e70">More...</a><br /></td></tr>
+<tr class="separator:a4aced0322685e3f09c49f43725546e70"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>&lt;+description of block+&gt; </p>
@@ -158,7 +158,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a11ebbf592513f00f5fff6058dca29e0b"></a>
+<a class="anchor" id="a4aced0322685e3f09c49f43725546e70"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -176,6 +176,42 @@ Static Public Member Functions</h2></td></tr>
           <td></td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>vector_len</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>fixed_data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>fixed_pilot</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>max_len_data_subcarr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>max_len_pilot_subcarr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>max_vector_data_subcarr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>max_vector_pilot_subcarr</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -221,7 +257,7 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Return a shared_ptr to a new instance of <a class="el" href="classgr_1_1ofdm__allocator_1_1allocator__subcarrier.html" title="&lt;+description of block+&gt; ">ofdm_allocator::allocator_subcarrier</a>. </p>
-<p>To avoid accidental use of raw pointers, <a class="el" href="classgr_1_1ofdm__allocator_1_1allocator__subcarrier.html" title="&lt;+description of block+&gt; ">ofdm_allocator::allocator_subcarrier</a>'s constructor is in a private implementation class. <a class="el" href="classgr_1_1ofdm__allocator_1_1allocator__subcarrier.html#a11ebbf592513f00f5fff6058dca29e0b" title="Return a shared_ptr to a new instance of ofdm_allocator::allocator_subcarrier. ">ofdm_allocator::allocator_subcarrier::make</a> is the public interface for creating new instances. </p>
+<p>To avoid accidental use of raw pointers, <a class="el" href="classgr_1_1ofdm__allocator_1_1allocator__subcarrier.html" title="&lt;+description of block+&gt; ">ofdm_allocator::allocator_subcarrier</a>'s constructor is in a private implementation class. <a class="el" href="classgr_1_1ofdm__allocator_1_1allocator__subcarrier.html#a4aced0322685e3f09c49f43725546e70" title="Return a shared_ptr to a new instance of ofdm_allocator::allocator_subcarrier. ">ofdm_allocator::allocator_subcarrier::make</a> is the public interface for creating new instances. </p>
 
 </div>
 </div>
@@ -234,7 +270,7 @@ Static Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacegr.html">gr</a></li><li class="navelem"><a class="el" href="namespacegr_1_1ofdm__allocator.html">ofdm_allocator</a></li><li class="navelem"><a class="el" href="classgr_1_1ofdm__allocator_1_1allocator__subcarrier.html">allocator_subcarrier</a></li>
-    <li class="footer">Generated on Thu Dec 7 2017 14:24:20 for GNU Radio&#39;s OFDM_ALLOCATOR Package by
+    <li class="footer">Generated on Sat Dec 9 2017 11:50:06 for GNU Radio&#39;s OFDM_ALLOCATOR Package by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

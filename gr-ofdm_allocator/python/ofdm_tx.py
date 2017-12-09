@@ -117,6 +117,12 @@ class ofdm_tx(gr.hier_block2):
                  packet_length_tag_key=_def_packet_length_tag_key,
                  pilot_carriers=_def_pilot_carriers,
                  pilot_symbols=_def_pilot_symbols,
+                 max_len_data_subcarr=48,
+                 max_len_pilot_subcarr=4,
+                 max_vector_data_subcarr=10,
+                 max_vector_pilot_subcarr=1,
+                 fixed_data=True,
+                 fixed_pilot=True,
                  bps_header=1,
                  bps_payload=1,
                  sync_word1=None,
@@ -138,7 +144,13 @@ class ofdm_tx(gr.hier_block2):
         self.pilot_symbols     = pilot_symbols
         self.bps_header        = bps_header
         self.bps_payload       = bps_payload
-        self.sync_word1 = sync_word1
+        self.sync_word1        = sync_word1
+        self.max_len_data_subcarr = max_len_data_subcarr
+        self.max_len_pilot_subcarr = max_len_pilot_subcarr
+        self.max_vector_data_subcarr = max_vector_data_subcarr
+        self.max_vector_pilot_subcarr = max_vector_pilot_subcarr
+        self.fixed_data = fixed_data
+        self.fixed_pilot = fixed_pilot
 
         if sync_word1 is None:
             self.sync_word1 = _make_sync_word1(fft_len, (vector_0,), pilot_carriers)
@@ -179,7 +191,7 @@ class ofdm_tx(gr.hier_block2):
         )
 
         # header_gen = digital.packet_headergenerator_bb(formatter_object.base(), self.packet_length_tag_key)
-        header_gen = ofdm_allocator.packet_header_gen(formatter_object.base(), 1, self.packet_length_tag_key)
+        header_gen = ofdm_allocator.packet_header_gen(formatter_object.base(), self.max_len_data_subcarr, self.max_len_pilot_subcarr, self.max_vector_data_subcarr, self.max_vector_pilot_subcarr, self.fixed_pilot, 1, self.packet_length_tag_key)
         header_payload_mux = blocks.tagged_stream_mux(
                 itemsize=gr.sizeof_gr_complex*1,
                 lengthtagname=self.packet_length_tag_key,
@@ -223,6 +235,12 @@ class ofdm_tx(gr.hier_block2):
         allocator = ofdm_allocator.allocator_subcarrier(
             self.fft_len,
             vector_len=1,
+            fixed_data = self.fixed_data,
+            fixed_pilot = self.fixed_pilot,
+            max_len_data_subcarr = self.max_len_data_subcarr,
+            max_len_pilot_subcarr = self.max_len_pilot_subcarr,
+            max_vector_data_subcarr = self.max_vector_data_subcarr,
+            max_vector_pilot_subcarr = self.max_vector_pilot_subcarr,
             pilot_carriers=self.pilot_carriers,
             pilot_symbols=self.pilot_symbols,
             sync_words=self.sync_words,

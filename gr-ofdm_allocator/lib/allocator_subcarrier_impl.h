@@ -40,6 +40,12 @@ namespace gr {
        const std::vector<std::vector<gr_complex> > d_pilot_symbols;
        //! Synch words
        const std::vector<std::vector<gr_complex> > d_sync_words;
+       int d_data_sub;
+       int d_pilot_sub;
+       int d_vector_data;
+       int d_vector_pilot;
+       bool d_fixed_data;
+       bool d_fixed_pilot;
        int d_symbols_per_set;
        const bool d_output_is_shifted;
 
@@ -52,6 +58,9 @@ namespace gr {
       allocator_subcarrier_impl(
         int fft_len,
         int vector_len,
+        bool fixed_data, bool fixed_pilot,
+        int max_len_data_subcarr, int max_len_pilot_subcarr,
+        int max_vector_data_subcarr, int max_vector_pilot_subcarr,
     	  // const std::vector<std::vector<int> > &occupied_carriers,
     	  const std::vector<std::vector<int> > &pilot_carriers,
     	  const std::vector<std::vector<gr_complex> > &pilot_symbols,

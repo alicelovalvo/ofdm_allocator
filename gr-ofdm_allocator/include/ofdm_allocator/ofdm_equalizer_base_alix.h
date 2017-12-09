@@ -55,8 +55,8 @@ namespace gr {
          gr_complex *frame,
          int n_sym,
          const std::vector<gr_complex> &initial_taps = std::vector<gr_complex>(),
+  	 const std::vector<bool> &occupied_carriers = std::vector<bool> (),
          const std::vector<tag_t> &tags = std::vector<tag_t>()) = 0;
-         // const std::vector<bool> occupied_carriers = std::vector<bool> ()) = 0;
      //! Return the current channel state
      virtual void get_channel_state(std::vector<gr_complex> &taps) = 0;
      int fft_len() { return d_fft_len; };

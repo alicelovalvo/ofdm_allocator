@@ -4,7 +4,7 @@
   <category>OFDM ALLOCATOR</category>
   <import>import ofdm_allocator</import>
   <!-- <make>ofdm_allocator.allocator_subcarrier($fft_len, $vector_len, $occupied_carriers, $pilot_carriers, $pilot_symbols, $sync_words, $len_tag_key, $output_is_shifted)</make> -->
-  <make>ofdm_allocator.allocator_subcarrier($fft_len, $vector_len, $pilot_carriers, $pilot_symbols, $sync_words, $len_tag_key, $output_is_shifted)</make>
+  <make>ofdm_allocator.allocator_subcarrier($fft_len, $vector_len, $fixed_data, $fixed_pilot, $max_len_data_subcarr, $max_len_pilot_subcarr, $max_vector_data_subcarr, $max_vector_pilot_subcarr, $pilot_carriers, $pilot_symbols, $sync_words, $len_tag_key, $output_is_shifted)</make>
   <param>
     <name>FFT_len</name>
     <key>fft_len</key>
@@ -14,6 +14,54 @@
     <name>Vector_len</name>
     <key>vector_len</key>
     <type>int</type>
+  </param>
+  <param>
+    <name>Max Length Data</name>
+    <key>max_len_data_subcarr</key>
+    <type>int</type>
+  </param>
+  <param>
+    <name>Max Length Pilot</name>
+    <key>max_len_pilot_subcarr</key>
+    <type>int</type>
+  </param>
+  <param>
+    <name>Max Length Data Vector</name>
+    <key>max_vector_data_subcarr</key>
+    <type>int</type>
+  </param>
+  <param>
+    <name>Max Length Pilot Vector</name>
+    <key>max_vector_pilot_subcarr</key>
+    <type>int</type>
+  </param>
+  <param>
+  <name>Fixed Data</name>
+  <key>fixed_data</key>
+  <value>False</value>
+  <type>enum</type>
+  <option>
+    <name>Yes</name>
+    <key>True</key>
+  </option>
+  <option>
+    <name>No</name>
+    <key>False</key>
+  </option>
+  </param>
+  <param>
+  <name>Fixed Pilot</name>
+  <key>fixed_pilot</key>
+  <value>False</value>
+  <type>enum</type>
+  <option>
+    <name>Yes</name>
+    <key>True</key>
+  </option>
+  <option>
+    <name>No</name>
+    <key>False</key>
+  </option>
   </param>
   <!-- <param>
     <name>Occupied_carriers</name>

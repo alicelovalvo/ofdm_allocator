@@ -57,8 +57,8 @@ $(document).ready(function(){initNavTree('classgr_1_1ofdm__allocator_1_1packet__
 
 <p>This is the complete list of members for <a class="el" href="classgr_1_1ofdm__allocator_1_1packet__header__gen.html">gr::ofdm_allocator::packet_header_gen</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="classgr_1_1ofdm__allocator_1_1packet__header__gen.html#afef596c626724720ca7f5c80aa414f46">make</a>(const packet_header_default_alix::sptr &amp;header_formatter, int vector_len, const std::string &amp;len_tag_key=&quot;packet_len&quot;)</td><td class="entry"><a class="el" href="classgr_1_1ofdm__allocator_1_1packet__header__gen.html">gr::ofdm_allocator::packet_header_gen</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr><td class="entry"><a class="el" href="classgr_1_1ofdm__allocator_1_1packet__header__gen.html#a553d6473bd91bc101c2b14b8a54cda7b">make</a>(long header_len, int vector_len, const std::string &amp;len_tag_key=&quot;packet_len&quot;)</td><td class="entry"><a class="el" href="classgr_1_1ofdm__allocator_1_1packet__header__gen.html">gr::ofdm_allocator::packet_header_gen</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classgr_1_1ofdm__allocator_1_1packet__header__gen.html#a0296c6000e86d66bd967b312c19cec8f">make</a>(const packet_header_default_alix::sptr &amp;header_formatter, int max_len_data_subcarr, int max_len_pilot_subcarr, int max_vector_data_subcarr, int max_vector_pilot_subcarr, bool fixed_pilot, int vector_len, const std::string &amp;len_tag_key=&quot;packet_len&quot;)</td><td class="entry"><a class="el" href="classgr_1_1ofdm__allocator_1_1packet__header__gen.html">gr::ofdm_allocator::packet_header_gen</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classgr_1_1ofdm__allocator_1_1packet__header__gen.html#a223cd66e3896c06e43156cf5c4e65564">make</a>(long header_len, int max_len_data_subcarr, int max_len_pilot_subcarr, int max_vector_data_subcarr, int max_vector_pilot_subcarr, bool fixed_pilot, int vector_len, const std::string &amp;len_tag_key=&quot;packet_len&quot;)</td><td class="entry"><a class="el" href="classgr_1_1ofdm__allocator_1_1packet__header__gen.html">gr::ofdm_allocator::packet_header_gen</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classgr_1_1ofdm__allocator_1_1packet__header__gen.html#a5c7fba3cc96dc414310b6942800212da">set_header_formatter</a>(packet_header_default_alix::sptr header_formatter)=0</td><td class="entry"><a class="el" href="classgr_1_1ofdm__allocator_1_1packet__header__gen.html">gr::ofdm_allocator::packet_header_gen</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
   <tr><td class="entry"><a class="el" href="classgr_1_1ofdm__allocator_1_1packet__header__gen.html#aa30f99e378b5245ce5038866b0d8ad49">sptr</a> typedef</td><td class="entry"><a class="el" href="classgr_1_1ofdm__allocator_1_1packet__header__gen.html">gr::ofdm_allocator::packet_header_gen</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->
@@ -66,7 +66,7 @@ $(document).ready(function(){initNavTree('classgr_1_1ofdm__allocator_1_1packet__
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Dec 7 2017 14:24:20 for GNU Radio&#39;s OFDM_ALLOCATOR Package by
+    <li class="footer">Generated on Sat Dec 9 2017 11:50:06 for GNU Radio&#39;s OFDM_ALLOCATOR Package by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

@@ -12,6 +12,12 @@
     #if $pilot_carriers()
     pilot_symbols=$pilot_symbols,
     #end if
+    max_len_data_subcarr=$max_len_data_subcarr,
+    max_len_pilot_subcarr=$max_len_pilot_subcarr,
+    max_vector_data_subcarr=$max_vector_data_subcarr,
+    max_vector_pilot_subcarr=$max_vector_pilot_subcarr,
+    fixed_data=$fixed_data,
+    fixed_pilot=$fixed_pilot,
     #if $sync_word1()
     sync_word1=$sync_word1,
     #end if
@@ -67,6 +73,54 @@
           part
         #end if
       </hide>
+    </param>
+    <param>
+      <name>Max Length Data</name>
+      <key>max_len_data_subcarr</key>
+      <type>int</type>
+    </param>
+    <param>
+      <name>Max Length Pilot</name>
+      <key>max_len_pilot_subcarr</key>
+      <type>int</type>
+    </param>
+    <param>
+      <name>Max Length Data Vector</name>
+      <key>max_vector_data_subcarr</key>
+      <type>int</type>
+    </param>
+    <param>
+      <name>Max Length Pilot Vector</name>
+      <key>max_vector_pilot_subcarr</key>
+      <type>int</type>
+    </param>
+    <param>
+    <name>Fixed Data</name>
+    <key>fixed_data</key>
+    <value>False</value>
+    <type>enum</type>
+    <option>
+      <name>Yes</name>
+      <key>True</key>
+    </option>
+    <option>
+      <name>No</name>
+      <key>False</key>
+    </option>
+    </param>
+    <param>
+    <name>Fixed Pilot</name>
+    <key>fixed_pilot</key>
+    <value>False</value>
+    <type>enum</type>
+    <option>
+      <name>Yes</name>
+      <key>True</key>
+    </option>
+    <option>
+      <name>No</name>
+      <key>False</key>
+    </option>
     </param>
     <param>
       <name>Sync Word 1</name>

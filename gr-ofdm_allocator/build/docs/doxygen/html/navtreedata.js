@@ -31,7 +31,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "allocator__subcarrier_8h.html",
-"constellation__alix_8h_source.html"
+"classgr_1_1ofdm__allocator_1_1vector__source__tagged__impl.html#ab4b6fa6be1c6529b93d3855094ab5921"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

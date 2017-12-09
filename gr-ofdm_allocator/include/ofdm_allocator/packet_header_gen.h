@@ -50,6 +50,9 @@ namespace gr {
        */
        static sptr make(
        const packet_header_default_alix::sptr &header_formatter,
+       int max_len_data_subcarr, int max_len_pilot_subcarr,
+       int max_vector_data_subcarr, int max_vector_pilot_subcarr,
+       bool fixed_pilot,
        int vector_len,
        const std::string &len_tag_key="packet_len"
        );
@@ -61,6 +64,9 @@ namespace gr {
         */
        static sptr make(
        long header_len,
+       int max_len_data_subcarr, int max_len_pilot_subcarr,
+       int max_vector_data_subcarr, int max_vector_pilot_subcarr,
+       bool fixed_pilot,
        int vector_len,
        const std::string &len_tag_key = "packet_len");
 

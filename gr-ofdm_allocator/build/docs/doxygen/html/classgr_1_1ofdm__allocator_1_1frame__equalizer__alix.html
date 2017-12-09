@@ -80,9 +80,9 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a5e5ec1f902677990585cb6924d396298"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix.html#a25ae200123440ea6c6e1ff089e095e2a">sptr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix.html#a5e5ec1f902677990585cb6924d396298">make</a> (<a class="el" href="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__base__alix.html#abe2c213a9836080a479aba4abc45e6ae">ofdm_equalizer_base_alix::sptr</a> equalizer, int vector_len, int cp_len, const std::string &amp;tsb_key=&quot;frame_len&quot;, bool propagate_channel_state=false, int fixed_frame_len=0)</td></tr>
-<tr class="memdesc:a5e5ec1f902677990585cb6924d396298"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a shared_ptr to a new instance of <a class="el" href="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix.html" title="&lt;+description of block+&gt; ">ofdm_allocator::frame_equalizer_alix</a>.  <a href="#a5e5ec1f902677990585cb6924d396298">More...</a><br /></td></tr>
-<tr class="separator:a5e5ec1f902677990585cb6924d396298"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb1a1a063cd2217a436758b816e0d7ab"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix.html#a25ae200123440ea6c6e1ff089e095e2a">sptr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix.html#aeb1a1a063cd2217a436758b816e0d7ab">make</a> (<a class="el" href="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__base__alix.html#abe2c213a9836080a479aba4abc45e6ae">ofdm_equalizer_base_alix::sptr</a> equalizer, int vector_len, int cp_len, bool fixed_pilot, int max_len_data_subcarr, int max_len_pilot_subcarr, int max_vector_pilot_subcarr, const std::string &amp;tsb_key=&quot;frame_len&quot;, bool propagate_channel_state=false, int fixed_frame_len=0, bool input_is_shifted=true)</td></tr>
+<tr class="memdesc:aeb1a1a063cd2217a436758b816e0d7ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a shared_ptr to a new instance of <a class="el" href="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix.html" title="&lt;+description of block+&gt; ">ofdm_allocator::frame_equalizer_alix</a>.  <a href="#aeb1a1a063cd2217a436758b816e0d7ab">More...</a><br /></td></tr>
+<tr class="separator:aeb1a1a063cd2217a436758b816e0d7ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>&lt;+description of block+&gt; </p>
@@ -100,7 +100,7 @@ Static Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a5e5ec1f902677990585cb6924d396298"></a>
+<a class="anchor" id="aeb1a1a063cd2217a436758b816e0d7ab"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -128,6 +128,30 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>fixed_pilot</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>max_len_data_subcarr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>max_len_pilot_subcarr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>max_vector_pilot_subcarr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>tsb_key</em> = <code>&quot;frame_len&quot;</code>, </td>
         </tr>
@@ -141,7 +165,13 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>fixed_frame_len</em> = <code>0</code>&#160;</td>
+          <td class="paramname"><em>fixed_frame_len</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>input_is_shifted</em> = <code>true</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -157,7 +187,7 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Return a shared_ptr to a new instance of <a class="el" href="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix.html" title="&lt;+description of block+&gt; ">ofdm_allocator::frame_equalizer_alix</a>. </p>
-<p>To avoid accidental use of raw pointers, <a class="el" href="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix.html" title="&lt;+description of block+&gt; ">ofdm_allocator::frame_equalizer_alix</a>'s constructor is in a private implementation class. <a class="el" href="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix.html#a5e5ec1f902677990585cb6924d396298" title="Return a shared_ptr to a new instance of ofdm_allocator::frame_equalizer_alix. ">ofdm_allocator::frame_equalizer_alix::make</a> is the public interface for creating new instances. </p>
+<p>To avoid accidental use of raw pointers, <a class="el" href="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix.html" title="&lt;+description of block+&gt; ">ofdm_allocator::frame_equalizer_alix</a>'s constructor is in a private implementation class. <a class="el" href="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix.html#aeb1a1a063cd2217a436758b816e0d7ab" title="Return a shared_ptr to a new instance of ofdm_allocator::frame_equalizer_alix. ">ofdm_allocator::frame_equalizer_alix::make</a> is the public interface for creating new instances. </p>
 
 </div>
 </div>
@@ -170,7 +200,7 @@ Static Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacegr.html">gr</a></li><li class="navelem"><a class="el" href="namespacegr_1_1ofdm__allocator.html">ofdm_allocator</a></li><li class="navelem"><a class="el" href="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix.html">frame_equalizer_alix</a></li>
-    <li class="footer">Generated on Thu Dec 7 2017 14:24:20 for GNU Radio&#39;s OFDM_ALLOCATOR Package by
+    <li class="footer">Generated on Sat Dec 9 2017 11:50:06 for GNU Radio&#39;s OFDM_ALLOCATOR Package by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

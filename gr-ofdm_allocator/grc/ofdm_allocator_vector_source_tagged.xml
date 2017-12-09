@@ -4,12 +4,37 @@
   <key>ofdm_allocator_vector_source_tagged</key>
   <category>OFDM ALLOCATOR</category>
   <import>import ofdm_allocator</import>
-  <make>ofdm_allocator.vector_source_tagged($data, $repeat, $vlen, $fixed, $length_tag_key, $tags)</make>
+  <make>ofdm_allocator.vector_source_tagged($data, $repeat, $vlen, $fixed_data, $fft_len, $max_len_data_subcarr, $max_len_pilot_subcarr, $max_vector_data_subcarr, $max_vector_pilot_subcarr, $fixed_pilot, $pilot, $length_tag_key, $tags)</make>
   <callback>set_data($data, $tags)</callback>
   <callback>set_random_vector()</callback>
   <param>
-  <name>Fixed</name>
-  <key>fixed</key>
+    <name>FFT_len</name>
+    <key>fft_len</key>
+    <type>int</type>
+  </param>
+  <param>
+    <name>Max Length Data</name>
+    <key>max_len_data_subcarr</key>
+    <type>int</type>
+  </param>
+  <param>
+    <name>Max Length Pilot</name>
+    <key>max_len_pilot_subcarr</key>
+    <type>int</type>
+  </param>
+  <param>
+    <name>Max Length Data Vector</name>
+    <key>max_vector_data_subcarr</key>
+    <type>int</type>
+  </param>
+  <param>
+    <name>Max Length Pilot Vector</name>
+    <key>max_vector_pilot_subcarr</key>
+    <type>int</type>
+  </param>
+  <param>
+  <name>Fixed Data</name>
+  <key>fixed_data</key>
   <value>False</value>
   <type>enum</type>
   <option>
@@ -22,8 +47,28 @@
   </option>
   </param>
   <param>
-    <name>Vector</name>
+    <name>Vector Data</name>
     <key>data</key>
+    <value>(0, 0, 0)</value>
+    <type>raw</type>
+  </param>
+  <param>
+  <name>Fixed Pilot</name>
+  <key>fixed_pilot</key>
+  <value>False</value>
+  <type>enum</type>
+  <option>
+    <name>Yes</name>
+    <key>True</key>
+  </option>
+  <option>
+    <name>No</name>
+    <key>False</key>
+  </option>
+  </param>
+  <param>
+    <name>Vector Pilot</name>
+    <key>pilot</key>
     <value>(0, 0, 0)</value>
     <type>raw</type>
   </param>

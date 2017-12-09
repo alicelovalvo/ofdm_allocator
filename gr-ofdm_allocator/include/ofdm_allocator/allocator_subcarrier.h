@@ -54,7 +54,10 @@ namespace gr {
       static sptr make(
         int fft_len,
         int vector_len,
+        bool fixed_data, bool fixed_pilot,
     	  // const std::vector<std::vector<int> > &occupied_carriers,
+        int max_len_data_subcarr, int max_len_pilot_subcarr,
+        int max_vector_data_subcarr, int max_vector_pilot_subcarr,
     	  const std::vector<std::vector<int> > &pilot_carriers,
     	  const std::vector<std::vector<gr_complex> > &pilot_symbols,
     	  const std::vector<std::vector<gr_complex> > &sync_words,

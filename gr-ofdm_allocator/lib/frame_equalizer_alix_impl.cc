@@ -39,14 +39,18 @@ namespace gr {
       ofdm_equalizer_base_alix::sptr equalizer,
       int vector_len,
       int cp_len,
+      bool fixed_pilot,
+      int max_len_data_subcarr, int max_len_pilot_subcarr,
+      int max_vector_pilot_subcarr,
       const std::string &tsb_key,
       bool propagate_channel_state,
-      int fixed_frame_len
+      int fixed_frame_len,
+      bool input_is_shifted
     )
     {
       return gnuradio::get_initial_sptr
         (new frame_equalizer_alix_impl(
-    	    equalizer, vector_len, cp_len, tsb_key, propagate_channel_state, fixed_frame_len));
+    	    equalizer, vector_len, cp_len, fixed_pilot, max_len_data_subcarr, max_len_pilot_subcarr, max_vector_pilot_subcarr, tsb_key, propagate_channel_state, fixed_frame_len, input_is_shifted));
     }
 
     /*
@@ -56,9 +60,13 @@ namespace gr {
       ofdm_equalizer_base_alix::sptr equalizer,
       int vector_len,
       int cp_len,
+      bool fixed_pilot,
+      int max_len_data_subcarr, int max_len_pilot_subcarr,
+      int max_vector_pilot_subcarr,
       const std::string &tsb_key,
       bool propagate_channel_state,
-      int fixed_frame_len
+      int fixed_frame_len,
+      bool input_is_shifted
     )
       : gr::tagged_stream_block("frame_equalizer_alix",
               // gr::io_signature::make(1, 1, sizeof (gr_complex) * equalizer->fft_len()),
@@ -68,6 +76,11 @@ namespace gr {
         d_fft_len(equalizer->fft_len()),
         d_cp_len(cp_len),
         d_eq(equalizer),
+        d_input_is_shifted(input_is_shifted),
+        d_fixed_pilot(fixed_pilot),
+        d_pilot_sub(max_len_pilot_subcarr),
+        d_vector_pilot(max_vector_pilot_subcarr),
+        d_data_sub(max_len_data_subcarr),
         d_propagate_channel_state(propagate_channel_state),
         d_fixed_frame_len(fixed_frame_len),
         d_channel_state(equalizer->fft_len(), gr_complex(1, 0))
@@ -100,10 +113,19 @@ namespace gr {
     ) {
       if (d_fixed_frame_len) {
         n_input_items_reqd[0] = d_fixed_frame_len;
-      } else {
+        for (unsigned k = 0; k < tags[1].size(); k++) {
+          if (tags[1][k].key == pmt::string_to_symbol(d_length_tag_key_str)) {
+            n_input_items_reqd[1] = pmt::to_long(tags[1][k].value);
+          }
+        }      } else {
         for (unsigned k = 0; k < tags[0].size(); k++) {
           if (tags[0][k].key == pmt::string_to_symbol(d_length_tag_key_str)) {
             n_input_items_reqd[0] = pmt::to_long(tags[0][k].value);
+          }
+        }
+        for (unsigned k = 0; k < tags[1].size(); k++) {
+          if (tags[1][k].key == pmt::string_to_symbol(d_length_tag_key_str)) {
+            n_input_items_reqd[1] = pmt::to_long(tags[1][k].value);
           }
         }
       }
@@ -116,7 +138,7 @@ namespace gr {
                        gr_vector_void_star &output_items)
     {
       const gr_complex *in = (const gr_complex *) input_items[0];
-      // int *in2 = (int *) input_items[1];
+      int *in2 = (int *) input_items[1];
       gr_complex *out = (gr_complex *) output_items[0];
       int carrier_offset = 0;
       int frame_len = 0;
@@ -136,28 +158,60 @@ namespace gr {
         }
       }
       // ***************************************************** //
-      // get_tags_in_range(tags_2,)
-      // std::cout << "/* ninpunt */" << ninput_items[1] << '\n';
-      int fft_shift_width = 0;
-  //     if (input_is_shifted) {
-	// fft_shift_width = fft_len/2;
-  //     }
-  //     if (!occupied_carriers.size()) {
-	// std::fill(d_occupied_carriers.begin(), d_occupied_carriers.end(), true);
-  //     } else {
-	// for (unsigned i = 0; i < occupied_carriers.size(); i++) {
-	//   for (unsigned k = 0; k < occupied_carriers[i].size(); k++) {
-	//     int carr_index = occupied_carriers[i][k];
-	//     if (occupied_carriers[i][k] < 0) {
-	//       carr_index += fft_len;
-	//     }
-	//     if (carr_index >= fft_len || carr_index < 0) {
-	//       throw std::invalid_argument("data carrier index out of bounds.");
-	//     }
-	//     d_occupied_carriers[(carr_index + fft_shift_width) % fft_len] = true;
-	//   }
-	// }
-  //     }
+      std::vector<bool> data_carriers(d_fft_len, false);
+      std::vector<int> vector_sub;
+      std::vector<std::vector<int> > vector_vector_sub;
+       int fft_shift_width = 0;
+       int interval = (ninput_items[1]-d_pilot_sub);
+       if (!d_fixed_pilot){
+         interval = (ninput_items[1]-(d_pilot_sub*d_vector_pilot));
+       }
+      if (d_input_is_shifted) {
+        fft_shift_width = d_fft_len/2;
+      }
+      // if (!occupied_carriers.size()) {
+      if (!ninput_items[1]){
+          std::fill(data_carriers.begin(), data_carriers.end(), true);
+        // }
+        //   std::fill(d_occupied_carriers.begin(), d_occupied_carriers.end(), true);
+      } else {
+        for (int i=0; i< interval; i++){
+          // std::cout << "in2 : " ;
+          for(int j=0; j < d_data_sub; j++){
+            int cycle = i*d_data_sub;
+            if (in2[j+cycle] == 0){
+              continue;
+            }
+            else{
+
+              //   std::cout << "j: " <<j << '\n';
+              //  // for(int i=0; i < in2[j].size(); i++){
+              // std::cout << in2[j+cycle] - 32 <<", ";
+              //   // }
+              // std::fill (vector_sub.begin()+j,vector_sub.begin()+j+1,in2[j]);
+              vector_sub.push_back(in2[j+cycle]);
+            }
+          }
+          if (vector_sub.size()!=0){
+            vector_vector_sub.push_back(vector_sub);
+            // std::cout << "##############################" << '\n';
+            vector_sub.erase(vector_sub.begin(),vector_sub.end());
+          }
+        }
+
+        for (unsigned i = 0; i < vector_vector_sub.size(); i++) {
+          for (unsigned k = 0; k < vector_vector_sub[i].size(); k++) {
+            int carr_index = vector_vector_sub[i][k];
+            if (vector_vector_sub[i][k] < 0) {
+              carr_index += d_fft_len;
+            }
+            if (carr_index >= d_fft_len || carr_index < 0) {
+              throw std::invalid_argument("data carrier index out of bounds.");
+            }
+            data_carriers[(carr_index + fft_shift_width) % d_fft_len] = true;
+          }
+        }
+      }
 
       // *************************************************** //
 
@@ -187,7 +241,7 @@ namespace gr {
 
       // Do the equalizing
       d_eq->reset();
-      d_eq->equalize(out, frame_len, d_channel_state);
+      d_eq->equalize(out, frame_len, d_channel_state,data_carriers);
       d_eq->get_channel_state(d_channel_state);
 
       // Update the channel state regarding the frequency offset

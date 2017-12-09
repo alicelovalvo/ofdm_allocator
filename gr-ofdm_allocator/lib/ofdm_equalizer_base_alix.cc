@@ -60,22 +60,22 @@ namespace gr {
       if (input_is_shifted) {
 	fft_shift_width = fft_len/2;
       }
-      if (!occupied_carriers.size()) {
-	std::fill(d_occupied_carriers.begin(), d_occupied_carriers.end(), true);
-      } else {
-	for (unsigned i = 0; i < occupied_carriers.size(); i++) {
-	  for (unsigned k = 0; k < occupied_carriers[i].size(); k++) {
-	    int carr_index = occupied_carriers[i][k];
-	    if (occupied_carriers[i][k] < 0) {
-	      carr_index += fft_len;
-	    }
-	    if (carr_index >= fft_len || carr_index < 0) {
-	      throw std::invalid_argument("data carrier index out of bounds.");
-	    }
-	    d_occupied_carriers[(carr_index + fft_shift_width) % fft_len] = true;
-	  }
-	}
-      }
+//      if (!occupied_carriers.size()) {
+//	std::fill(d_occupied_carriers.begin(), d_occupied_carriers.end(), true);
+//      } else {
+//	for (unsigned i = 0; i < occupied_carriers.size(); i++) {
+//	  for (unsigned k = 0; k < occupied_carriers[i].size(); k++) {
+//	    int carr_index = occupied_carriers[i][k];
+//	    if (occupied_carriers[i][k] < 0) {
+//	      carr_index += fft_len;
+//	    }
+//	    if (carr_index >= fft_len || carr_index < 0) {
+//	      throw std::invalid_argument("data carrier index out of bounds.");
+//	    }
+//	    d_occupied_carriers[(carr_index + fft_shift_width) % fft_len] = true;
+//	  }
+//	}
+//      }
       if (pilot_carriers.size()) {
 	for (unsigned i = 0; i < pilot_carriers.size(); i++) {
 	  if (pilot_carriers[i].size() != pilot_symbols[i].size()) {

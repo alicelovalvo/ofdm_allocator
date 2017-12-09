@@ -126,13 +126,13 @@ class vector_source_tagged(object):
 
     def make(*args, **kwargs):
         """
-        make(std::vector< int,std::allocator< int > > const & data, bool repeat=False, int vlen=1, bool fixed=False, std::string const & length_tag_key, tags_vector_t tags) -> vector_source_tagged_sptr
+        make(std::vector< int,std::allocator< int > > const & data, bool repeat=False, int vlen=1, bool fixed_data=False, int fft_len=64, int max_len_data_subcarr=48, int max_len_pilot_subcarr=10, int max_vector_data_subcarr=4, int max_vector_pilot_subcarr=1, bool fixed_pilot=False, std::vector< int,std::allocator< int > > const & pilot, std::string const & length_tag_key, tags_vector_t tags) -> vector_source_tagged_sptr
 
         Return a shared_ptr to a new instance of ofdm_allocator::vector_source_tagged.
 
         To avoid accidental use of raw pointers, ofdm_allocator::vector_source_tagged's constructor is in a private implementation class. ofdm_allocator::vector_source_tagged::make is the public interface for creating new instances.
 
-        Params: (data, repeat, vlen, fixed, length_tag_key, tags)
+        Params: (data, repeat, vlen, fixed_data, fft_len, max_len_data_subcarr, max_len_pilot_subcarr, max_vector_data_subcarr, max_vector_pilot_subcarr, fixed_pilot, pilot, length_tag_key, tags)
         """
         return _ofdm_allocator_swig.vector_source_tagged_make(*args, **kwargs)
 
@@ -160,15 +160,37 @@ class vector_source_tagged(object):
         return _ofdm_allocator_swig.vector_source_tagged_set_data(self, *args, **kwargs)
 
 
-    def set_random_vector(self):
+    def final_update(self):
         """
-        set_random_vector(vector_source_tagged self)
+        final_update(vector_source_tagged self)
 
 
 
         Params: (NONE)
         """
-        return _ofdm_allocator_swig.vector_source_tagged_set_random_vector(self)
+        return _ofdm_allocator_swig.vector_source_tagged_final_update(self)
+
+
+    def set_random_vector_data(self):
+        """
+        set_random_vector_data(vector_source_tagged self)
+
+
+
+        Params: (NONE)
+        """
+        return _ofdm_allocator_swig.vector_source_tagged_set_random_vector_data(self)
+
+
+    def set_random_vector_pilot(self):
+        """
+        set_random_vector_pilot(vector_source_tagged self)
+
+
+
+        Params: (NONE)
+        """
+        return _ofdm_allocator_swig.vector_source_tagged_set_random_vector_pilot(self)
 
 
     def set_repeat(self, repeat):
@@ -188,13 +210,13 @@ vector_source_tagged_swigregister(vector_source_tagged)
 
 def vector_source_tagged_make(*args, **kwargs):
     """
-    vector_source_tagged_make(std::vector< int,std::allocator< int > > const & data, bool repeat=False, int vlen=1, bool fixed=False, std::string const & length_tag_key, tags_vector_t tags) -> vector_source_tagged_sptr
+    vector_source_tagged_make(std::vector< int,std::allocator< int > > const & data, bool repeat=False, int vlen=1, bool fixed_data=False, int fft_len=64, int max_len_data_subcarr=48, int max_len_pilot_subcarr=10, int max_vector_data_subcarr=4, int max_vector_pilot_subcarr=1, bool fixed_pilot=False, std::vector< int,std::allocator< int > > const & pilot, std::string const & length_tag_key, tags_vector_t tags) -> vector_source_tagged_sptr
 
     Return a shared_ptr to a new instance of ofdm_allocator::vector_source_tagged.
 
     To avoid accidental use of raw pointers, ofdm_allocator::vector_source_tagged's constructor is in a private implementation class. ofdm_allocator::vector_source_tagged::make is the public interface for creating new instances.
 
-    Params: (data, repeat, vlen, fixed, length_tag_key, tags)
+    Params: (data, repeat, vlen, fixed_data, fft_len, max_len_data_subcarr, max_len_pilot_subcarr, max_vector_data_subcarr, max_vector_pilot_subcarr, fixed_pilot, pilot, length_tag_key, tags)
     """
     return _ofdm_allocator_swig.vector_source_tagged_make(*args, **kwargs)
 
@@ -224,13 +246,13 @@ class vector_source_tagged_sptr(object):
 
     def make(self, *args, **kwargs):
         """
-        make(vector_source_tagged_sptr self, std::vector< int,std::allocator< int > > const & data, bool repeat=False, int vlen=1, bool fixed=False, std::string const & length_tag_key, tags_vector_t tags) -> vector_source_tagged_sptr
+        make(vector_source_tagged_sptr self, std::vector< int,std::allocator< int > > const & data, bool repeat=False, int vlen=1, bool fixed_data=False, int fft_len=64, int max_len_data_subcarr=48, int max_len_pilot_subcarr=10, int max_vector_data_subcarr=4, int max_vector_pilot_subcarr=1, bool fixed_pilot=False, std::vector< int,std::allocator< int > > const & pilot, std::string const & length_tag_key, tags_vector_t tags) -> vector_source_tagged_sptr
 
         Return a shared_ptr to a new instance of ofdm_allocator::vector_source_tagged.
 
         To avoid accidental use of raw pointers, ofdm_allocator::vector_source_tagged's constructor is in a private implementation class. ofdm_allocator::vector_source_tagged::make is the public interface for creating new instances.
 
-        Params: (data, repeat, vlen, fixed, length_tag_key, tags)
+        Params: (data, repeat, vlen, fixed_data, fft_len, max_len_data_subcarr, max_len_pilot_subcarr, max_vector_data_subcarr, max_vector_pilot_subcarr, fixed_pilot, pilot, length_tag_key, tags)
         """
         return _ofdm_allocator_swig.vector_source_tagged_sptr_make(self, *args, **kwargs)
 
@@ -257,15 +279,37 @@ class vector_source_tagged_sptr(object):
         return _ofdm_allocator_swig.vector_source_tagged_sptr_set_data(self, *args, **kwargs)
 
 
-    def set_random_vector(self):
+    def final_update(self):
         """
-        set_random_vector(vector_source_tagged_sptr self)
+        final_update(vector_source_tagged_sptr self)
 
 
 
         Params: (NONE)
         """
-        return _ofdm_allocator_swig.vector_source_tagged_sptr_set_random_vector(self)
+        return _ofdm_allocator_swig.vector_source_tagged_sptr_final_update(self)
+
+
+    def set_random_vector_data(self):
+        """
+        set_random_vector_data(vector_source_tagged_sptr self)
+
+
+
+        Params: (NONE)
+        """
+        return _ofdm_allocator_swig.vector_source_tagged_sptr_set_random_vector_data(self)
+
+
+    def set_random_vector_pilot(self):
+        """
+        set_random_vector_pilot(vector_source_tagged_sptr self)
+
+
+
+        Params: (NONE)
+        """
+        return _ofdm_allocator_swig.vector_source_tagged_sptr_set_random_vector_pilot(self)
 
 
     def set_repeat(self, repeat):
@@ -620,13 +664,13 @@ class allocator_subcarrier(object):
 
     def make(*args, **kwargs):
         """
-        make(int fft_len, int vector_len, std::vector< std::vector< int,std::allocator< int > >,std::allocator< std::vector< int,std::allocator< int > > > > const & pilot_carriers, gr_vector_vector_complexf pilot_symbols, gr_vector_vector_complexf sync_words, std::string const & len_tag_key, bool const output_is_shifted=True) -> allocator_subcarrier_sptr
+        make(int fft_len, int vector_len, bool fixed_data, bool fixed_pilot, int max_len_data_subcarr, int max_len_pilot_subcarr, int max_vector_data_subcarr, int max_vector_pilot_subcarr, std::vector< std::vector< int,std::allocator< int > >,std::allocator< std::vector< int,std::allocator< int > > > > const & pilot_carriers, gr_vector_vector_complexf pilot_symbols, gr_vector_vector_complexf sync_words, std::string const & len_tag_key, bool const output_is_shifted=True) -> allocator_subcarrier_sptr
 
         Return a shared_ptr to a new instance of ofdm_allocator::allocator_subcarrier.
 
         To avoid accidental use of raw pointers, ofdm_allocator::allocator_subcarrier's constructor is in a private implementation class. ofdm_allocator::allocator_subcarrier::make is the public interface for creating new instances.
 
-        Params: (fft_len, vector_len, pilot_carriers, pilot_symbols, sync_words, len_tag_key, output_is_shifted)
+        Params: (fft_len, vector_len, fixed_data, fixed_pilot, max_len_data_subcarr, max_len_pilot_subcarr, max_vector_data_subcarr, max_vector_pilot_subcarr, pilot_carriers, pilot_symbols, sync_words, len_tag_key, output_is_shifted)
         """
         return _ofdm_allocator_swig.allocator_subcarrier_make(*args, **kwargs)
 
@@ -638,13 +682,13 @@ allocator_subcarrier_swigregister(allocator_subcarrier)
 
 def allocator_subcarrier_make(*args, **kwargs):
     """
-    allocator_subcarrier_make(int fft_len, int vector_len, std::vector< std::vector< int,std::allocator< int > >,std::allocator< std::vector< int,std::allocator< int > > > > const & pilot_carriers, gr_vector_vector_complexf pilot_symbols, gr_vector_vector_complexf sync_words, std::string const & len_tag_key, bool const output_is_shifted=True) -> allocator_subcarrier_sptr
+    allocator_subcarrier_make(int fft_len, int vector_len, bool fixed_data, bool fixed_pilot, int max_len_data_subcarr, int max_len_pilot_subcarr, int max_vector_data_subcarr, int max_vector_pilot_subcarr, std::vector< std::vector< int,std::allocator< int > >,std::allocator< std::vector< int,std::allocator< int > > > > const & pilot_carriers, gr_vector_vector_complexf pilot_symbols, gr_vector_vector_complexf sync_words, std::string const & len_tag_key, bool const output_is_shifted=True) -> allocator_subcarrier_sptr
 
     Return a shared_ptr to a new instance of ofdm_allocator::allocator_subcarrier.
 
     To avoid accidental use of raw pointers, ofdm_allocator::allocator_subcarrier's constructor is in a private implementation class. ofdm_allocator::allocator_subcarrier::make is the public interface for creating new instances.
 
-    Params: (fft_len, vector_len, pilot_carriers, pilot_symbols, sync_words, len_tag_key, output_is_shifted)
+    Params: (fft_len, vector_len, fixed_data, fixed_pilot, max_len_data_subcarr, max_len_pilot_subcarr, max_vector_data_subcarr, max_vector_pilot_subcarr, pilot_carriers, pilot_symbols, sync_words, len_tag_key, output_is_shifted)
     """
     return _ofdm_allocator_swig.allocator_subcarrier_make(*args, **kwargs)
 
@@ -696,13 +740,13 @@ class allocator_subcarrier_sptr(object):
 
     def make(self, *args, **kwargs):
         """
-        make(allocator_subcarrier_sptr self, int fft_len, int vector_len, std::vector< std::vector< int,std::allocator< int > >,std::allocator< std::vector< int,std::allocator< int > > > > const & pilot_carriers, gr_vector_vector_complexf pilot_symbols, gr_vector_vector_complexf sync_words, std::string const & len_tag_key, bool const output_is_shifted=True) -> allocator_subcarrier_sptr
+        make(allocator_subcarrier_sptr self, int fft_len, int vector_len, bool fixed_data, bool fixed_pilot, int max_len_data_subcarr, int max_len_pilot_subcarr, int max_vector_data_subcarr, int max_vector_pilot_subcarr, std::vector< std::vector< int,std::allocator< int > >,std::allocator< std::vector< int,std::allocator< int > > > > const & pilot_carriers, gr_vector_vector_complexf pilot_symbols, gr_vector_vector_complexf sync_words, std::string const & len_tag_key, bool const output_is_shifted=True) -> allocator_subcarrier_sptr
 
         Return a shared_ptr to a new instance of ofdm_allocator::allocator_subcarrier.
 
         To avoid accidental use of raw pointers, ofdm_allocator::allocator_subcarrier's constructor is in a private implementation class. ofdm_allocator::allocator_subcarrier::make is the public interface for creating new instances.
 
-        Params: (fft_len, vector_len, pilot_carriers, pilot_symbols, sync_words, len_tag_key, output_is_shifted)
+        Params: (fft_len, vector_len, fixed_data, fixed_pilot, max_len_data_subcarr, max_len_pilot_subcarr, max_vector_data_subcarr, max_vector_pilot_subcarr, pilot_carriers, pilot_symbols, sync_words, len_tag_key, output_is_shifted)
         """
         return _ofdm_allocator_swig.allocator_subcarrier_sptr_make(self, *args, **kwargs)
 
@@ -1541,14 +1585,14 @@ class packet_header_gen(object):
 
     def make(*args):
         """
-        make(packet_header_default_alix_sptr header_formatter, int vector_len, std::string const & len_tag_key) -> packet_header_gen_sptr
-        make(long header_len, int vector_len, std::string const & len_tag_key) -> packet_header_gen_sptr
+        make(packet_header_default_alix_sptr header_formatter, int max_len_data_subcarr, int max_len_pilot_subcarr, int max_vector_data_subcarr, int max_vector_pilot_subcarr, bool fixed_pilot, int vector_len, std::string const & len_tag_key) -> packet_header_gen_sptr
+        make(long header_len, int max_len_data_subcarr, int max_len_pilot_subcarr, int max_vector_data_subcarr, int max_vector_pilot_subcarr, bool fixed_pilot, int vector_len, std::string const & len_tag_key) -> packet_header_gen_sptr
 
         Return a shared_ptr to a new instance of ofdm_allocator::packet_header_gen.
 
         To avoid accidental use of raw pointers, ofdm_allocator::packet_header_gen's constructor is in a private implementation class. ofdm_allocator::packet_header_gen::make is the public interface for creating new instances.
 
-        Params: (header_formatter, vector_len, len_tag_key)
+        Params: (header_formatter, max_len_data_subcarr, max_len_pilot_subcarr, max_vector_data_subcarr, max_vector_pilot_subcarr, fixed_pilot, vector_len, len_tag_key)
         """
         return _ofdm_allocator_swig.packet_header_gen_make(*args)
 
@@ -1571,14 +1615,14 @@ packet_header_gen_swigregister(packet_header_gen)
 
 def packet_header_gen_make(*args):
     """
-    make(packet_header_default_alix_sptr header_formatter, int vector_len, std::string const & len_tag_key) -> packet_header_gen_sptr
-    packet_header_gen_make(long header_len, int vector_len, std::string const & len_tag_key) -> packet_header_gen_sptr
+    make(packet_header_default_alix_sptr header_formatter, int max_len_data_subcarr, int max_len_pilot_subcarr, int max_vector_data_subcarr, int max_vector_pilot_subcarr, bool fixed_pilot, int vector_len, std::string const & len_tag_key) -> packet_header_gen_sptr
+    packet_header_gen_make(long header_len, int max_len_data_subcarr, int max_len_pilot_subcarr, int max_vector_data_subcarr, int max_vector_pilot_subcarr, bool fixed_pilot, int vector_len, std::string const & len_tag_key) -> packet_header_gen_sptr
 
     Return a shared_ptr to a new instance of ofdm_allocator::packet_header_gen.
 
     To avoid accidental use of raw pointers, ofdm_allocator::packet_header_gen's constructor is in a private implementation class. ofdm_allocator::packet_header_gen::make is the public interface for creating new instances.
 
-    Params: (header_formatter, vector_len, len_tag_key)
+    Params: (header_formatter, max_len_data_subcarr, max_len_pilot_subcarr, max_vector_data_subcarr, max_vector_pilot_subcarr, fixed_pilot, vector_len, len_tag_key)
     """
     return _ofdm_allocator_swig.packet_header_gen_make(*args)
 
@@ -1608,14 +1652,14 @@ class packet_header_gen_sptr(object):
 
     def make(self, *args):
         """
-        make(packet_header_gen_sptr self, packet_header_default_alix_sptr header_formatter, int vector_len, std::string const & len_tag_key) -> packet_header_gen_sptr
-        make(packet_header_gen_sptr self, long header_len, int vector_len, std::string const & len_tag_key) -> packet_header_gen_sptr
+        make(packet_header_gen_sptr self, packet_header_default_alix_sptr header_formatter, int max_len_data_subcarr, int max_len_pilot_subcarr, int max_vector_data_subcarr, int max_vector_pilot_subcarr, bool fixed_pilot, int vector_len, std::string const & len_tag_key) -> packet_header_gen_sptr
+        make(packet_header_gen_sptr self, long header_len, int max_len_data_subcarr, int max_len_pilot_subcarr, int max_vector_data_subcarr, int max_vector_pilot_subcarr, bool fixed_pilot, int vector_len, std::string const & len_tag_key) -> packet_header_gen_sptr
 
         Return a shared_ptr to a new instance of ofdm_allocator::packet_header_gen.
 
         To avoid accidental use of raw pointers, ofdm_allocator::packet_header_gen's constructor is in a private implementation class. ofdm_allocator::packet_header_gen::make is the public interface for creating new instances.
 
-        Params: (header_formatter, vector_len, len_tag_key)
+        Params: (header_formatter, max_len_data_subcarr, max_len_pilot_subcarr, max_vector_data_subcarr, max_vector_pilot_subcarr, fixed_pilot, vector_len, len_tag_key)
         """
         return _ofdm_allocator_swig.packet_header_gen_sptr_make(self, *args)
 
@@ -2009,11 +2053,11 @@ class ofdm_equalizer_base_alix(object):
 
     def equalize(self, *args, **kwargs):
         """
-        equalize(ofdm_equalizer_base_alix self, gr_complex * frame, int n_sym, pmt_vector_cfloat initial_taps, tags_vector_t tags)
+        equalize(ofdm_equalizer_base_alix self, gr_complex * frame, int n_sym, pmt_vector_cfloat initial_taps, std::vector< bool,std::allocator< bool > > const & occupied_carriers, tags_vector_t tags)
 
         Run the actual equalization.
 
-        Params: (frame, n_sym, initial_taps, tags)
+        Params: (frame, n_sym, initial_taps, occupied_carriers, tags)
         """
         return _ofdm_allocator_swig.ofdm_equalizer_base_alix_equalize(self, *args, **kwargs)
 
@@ -2077,13 +2121,13 @@ class frame_equalizer_alix(object):
 
     def make(*args, **kwargs):
         """
-        make(ofdm_equalizer_base_alix_sptr equalizer, int vector_len, int cp_len, std::string const & tsb_key, bool propagate_channel_state=False, int fixed_frame_len=0) -> frame_equalizer_alix_sptr
+        make(ofdm_equalizer_base_alix_sptr equalizer, int vector_len, int cp_len, bool fixed_pilot, int max_len_data_subcarr, int max_len_pilot_subcarr, int max_vector_pilot_subcarr, std::string const & tsb_key, bool propagate_channel_state=False, int fixed_frame_len=0, bool input_is_shifted=True) -> frame_equalizer_alix_sptr
 
         Return a shared_ptr to a new instance of ofdm_allocator::frame_equalizer_alix.
 
         To avoid accidental use of raw pointers, ofdm_allocator::frame_equalizer_alix's constructor is in a private implementation class. ofdm_allocator::frame_equalizer_alix::make is the public interface for creating new instances.
 
-        Params: (equalizer, vector_len, cp_len, tsb_key, propagate_channel_state, fixed_frame_len)
+        Params: (equalizer, vector_len, cp_len, fixed_pilot, max_len_data_subcarr, max_len_pilot_subcarr, max_vector_pilot_subcarr, tsb_key, propagate_channel_state, fixed_frame_len, input_is_shifted)
         """
         return _ofdm_allocator_swig.frame_equalizer_alix_make(*args, **kwargs)
 
@@ -2095,13 +2139,13 @@ frame_equalizer_alix_swigregister(frame_equalizer_alix)
 
 def frame_equalizer_alix_make(*args, **kwargs):
     """
-    frame_equalizer_alix_make(ofdm_equalizer_base_alix_sptr equalizer, int vector_len, int cp_len, std::string const & tsb_key, bool propagate_channel_state=False, int fixed_frame_len=0) -> frame_equalizer_alix_sptr
+    frame_equalizer_alix_make(ofdm_equalizer_base_alix_sptr equalizer, int vector_len, int cp_len, bool fixed_pilot, int max_len_data_subcarr, int max_len_pilot_subcarr, int max_vector_pilot_subcarr, std::string const & tsb_key, bool propagate_channel_state=False, int fixed_frame_len=0, bool input_is_shifted=True) -> frame_equalizer_alix_sptr
 
     Return a shared_ptr to a new instance of ofdm_allocator::frame_equalizer_alix.
 
     To avoid accidental use of raw pointers, ofdm_allocator::frame_equalizer_alix's constructor is in a private implementation class. ofdm_allocator::frame_equalizer_alix::make is the public interface for creating new instances.
 
-    Params: (equalizer, vector_len, cp_len, tsb_key, propagate_channel_state, fixed_frame_len)
+    Params: (equalizer, vector_len, cp_len, fixed_pilot, max_len_data_subcarr, max_len_pilot_subcarr, max_vector_pilot_subcarr, tsb_key, propagate_channel_state, fixed_frame_len, input_is_shifted)
     """
     return _ofdm_allocator_swig.frame_equalizer_alix_make(*args, **kwargs)
 
@@ -2131,13 +2175,13 @@ class frame_equalizer_alix_sptr(object):
 
     def make(self, *args, **kwargs):
         """
-        make(frame_equalizer_alix_sptr self, ofdm_equalizer_base_alix_sptr equalizer, int vector_len, int cp_len, std::string const & tsb_key, bool propagate_channel_state=False, int fixed_frame_len=0) -> frame_equalizer_alix_sptr
+        make(frame_equalizer_alix_sptr self, ofdm_equalizer_base_alix_sptr equalizer, int vector_len, int cp_len, bool fixed_pilot, int max_len_data_subcarr, int max_len_pilot_subcarr, int max_vector_pilot_subcarr, std::string const & tsb_key, bool propagate_channel_state=False, int fixed_frame_len=0, bool input_is_shifted=True) -> frame_equalizer_alix_sptr
 
         Return a shared_ptr to a new instance of ofdm_allocator::frame_equalizer_alix.
 
         To avoid accidental use of raw pointers, ofdm_allocator::frame_equalizer_alix's constructor is in a private implementation class. ofdm_allocator::frame_equalizer_alix::make is the public interface for creating new instances.
 
-        Params: (equalizer, vector_len, cp_len, tsb_key, propagate_channel_state, fixed_frame_len)
+        Params: (equalizer, vector_len, cp_len, fixed_pilot, max_len_data_subcarr, max_len_pilot_subcarr, max_vector_pilot_subcarr, tsb_key, propagate_channel_state, fixed_frame_len, input_is_shifted)
         """
         return _ofdm_allocator_swig.frame_equalizer_alix_sptr_make(self, *args, **kwargs)
 
@@ -2785,11 +2829,11 @@ class ofdm_equalizer_base_alix_sptr(object):
 
     def equalize(self, *args, **kwargs):
         """
-        equalize(ofdm_equalizer_base_alix_sptr self, gr_complex * frame, int n_sym, pmt_vector_cfloat initial_taps, tags_vector_t tags)
+        equalize(ofdm_equalizer_base_alix_sptr self, gr_complex * frame, int n_sym, pmt_vector_cfloat initial_taps, std::vector< bool,std::allocator< bool > > const & occupied_carriers, tags_vector_t tags)
 
         Run the actual equalization.
 
-        Params: (frame, n_sym, initial_taps, tags)
+        Params: (frame, n_sym, initial_taps, occupied_carriers, tags)
         """
         return _ofdm_allocator_swig.ofdm_equalizer_base_alix_sptr_equalize(self, *args, **kwargs)
 
@@ -2866,11 +2910,11 @@ class ofdm_equalizer_1d_pilots_alix_sptr(object):
 
     def equalize(self, *args, **kwargs):
         """
-        equalize(ofdm_equalizer_1d_pilots_alix_sptr self, gr_complex * frame, int n_sym, pmt_vector_cfloat initial_taps, tags_vector_t tags)
+        equalize(ofdm_equalizer_1d_pilots_alix_sptr self, gr_complex * frame, int n_sym, pmt_vector_cfloat initial_taps, std::vector< bool,std::allocator< bool > > const & occupied_carriers, tags_vector_t tags)
 
         Run the actual equalization.
 
-        Params: (frame, n_sym, initial_taps, tags)
+        Params: (frame, n_sym, initial_taps, occupied_carriers, tags)
         """
         return _ofdm_allocator_swig.ofdm_equalizer_1d_pilots_alix_sptr_equalize(self, *args, **kwargs)
 
@@ -2961,11 +3005,11 @@ class ofdm_equalizer_simpledfe_alix_sptr(object):
 
     def equalize(self, *args, **kwargs):
         """
-        equalize(ofdm_equalizer_simpledfe_alix_sptr self, gr_complex * frame, int n_sym, pmt_vector_cfloat initial_taps, tags_vector_t tags)
+        equalize(ofdm_equalizer_simpledfe_alix_sptr self, gr_complex * frame, int n_sym, pmt_vector_cfloat initial_taps, std::vector< bool,std::allocator< bool > > const & occupied_carriers, tags_vector_t tags)
 
         Run the actual equalization.
 
-        Params: (frame, n_sym, initial_taps, tags)
+        Params: (frame, n_sym, initial_taps, occupied_carriers, tags)
         """
         return _ofdm_allocator_swig.ofdm_equalizer_simpledfe_alix_sptr_equalize(self, *args, **kwargs)
 

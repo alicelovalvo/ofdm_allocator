@@ -47,7 +47,10 @@ namespace gr {
        * creating new instances.
        */
        static sptr make(const std::vector<int> &data,
-                       bool repeat=false, int vlen=1, bool fixed=false,
+                       bool repeat=false, int vlen=1, bool fixed_data=false, int fft_len=64,
+                       int max_len_data_subcarr=48, int max_len_pilot_subcarr=10,
+                       int max_vector_data_subcarr=4, int max_vector_pilot_subcarr=1,
+                       bool fixed_pilot=false, const std::vector<int> &pilot=std::vector<int>(),
                        const std::string &length_tag_key="vector_len",
                        const std::vector<tag_t> &tags=std::vector<tag_t>());
 
@@ -55,7 +58,9 @@ namespace gr {
       virtual void set_data(const std::vector<int> &data,
                             const std::vector<tag_t> &tags=std::vector<tag_t>()) = 0;
 
-      virtual void set_random_vector() = 0;
+      virtual void final_update() = 0;
+      virtual void set_random_vector_data() = 0;
+      virtual void set_random_vector_pilot() = 0;
       virtual void set_repeat(bool repeat) = 0;    };
 
   } // namespace ofdm_allocator

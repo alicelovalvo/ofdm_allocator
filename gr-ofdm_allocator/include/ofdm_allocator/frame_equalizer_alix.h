@@ -51,9 +51,13 @@ namespace gr {
            ofdm_equalizer_base_alix::sptr equalizer,
            int vector_len,
            int cp_len,
+           bool fixed_pilot,
+           int max_len_data_subcarr, int max_len_pilot_subcarr,
+           int max_vector_pilot_subcarr,
            const std::string &tsb_key="frame_len",
            bool propagate_channel_state=false,
-           int fixed_frame_len=0
+           int fixed_frame_len=0,
+           bool input_is_shifted=true
        );    };
 
   } // namespace ofdm_allocator

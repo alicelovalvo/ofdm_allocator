@@ -57,6 +57,71 @@
         </inbodydescription>
         <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/packet_header_gen_impl.h" line="36" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/packet_header_gen_impl.h" bodystart="36" bodyend="-1"/>
       </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1packet__header__gen__impl_1a014ccfcdf03ec3f1b4c724c399644379" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::ofdm_allocator::packet_header_gen_impl::d_data_sub</definition>
+        <argsstring></argsstring>
+        <name>d_data_sub</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/packet_header_gen_impl.h" line="37" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/packet_header_gen_impl.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1packet__header__gen__impl_1ad3c5a0cb532ed90883358b1f17b7226d" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::ofdm_allocator::packet_header_gen_impl::d_pilot_sub</definition>
+        <argsstring></argsstring>
+        <name>d_pilot_sub</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/packet_header_gen_impl.h" line="38" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/packet_header_gen_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1packet__header__gen__impl_1a03997dda1fab00f4f70fa24421e54b5b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::ofdm_allocator::packet_header_gen_impl::d_vector_data</definition>
+        <argsstring></argsstring>
+        <name>d_vector_data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/packet_header_gen_impl.h" line="39" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/packet_header_gen_impl.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1packet__header__gen__impl_1a0207a8c89f5c4e52e1a4cb2bbf6d4dbc" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::ofdm_allocator::packet_header_gen_impl::d_vector_pilot</definition>
+        <argsstring></argsstring>
+        <name>d_vector_pilot</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/packet_header_gen_impl.h" line="40" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/packet_header_gen_impl.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1packet__header__gen__impl_1a6d2187a6a95f2e6068089377727ae693" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::ofdm_allocator::packet_header_gen_impl::d_fixed_pilot</definition>
+        <argsstring></argsstring>
+        <name>d_fixed_pilot</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/packet_header_gen_impl.h" line="41" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/packet_header_gen_impl.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
       <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1packet__header__gen__impl_1aae36dec56ce0997b68709a1f42ac8b02" prot="private" static="no" mutable="no">
         <type>boost::crc_optimal&lt; 8, 0x07, 0xFF, 0x00, false, false &gt;</type>
         <definition>boost::crc_optimal&lt;8, 0x07, 0xFF, 0x00, false, false&gt; gr::ofdm_allocator::packet_header_gen_impl::d_crc_impl</definition>
@@ -68,18 +133,38 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/packet_header_gen_impl.h" line="37" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/packet_header_gen_impl.h" bodystart="37" bodyend="-1"/>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/packet_header_gen_impl.h" line="42" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/packet_header_gen_impl.h" bodystart="42" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
-      <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1packet__header__gen__impl_1ae2076c52717bbe8ad462a207af385247" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1packet__header__gen__impl_1afd3049ea97ac36abbe1a5337225d8345" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
         <definition>gr::ofdm_allocator::packet_header_gen_impl::packet_header_gen_impl</definition>
-        <argsstring>(const packet_header_default_alix::sptr &amp;header_formatter, int vector_len, const std::string &amp;len_tag_key)</argsstring>
+        <argsstring>(const packet_header_default_alix::sptr &amp;header_formatter, int max_len_data_subcarr, int max_len_pilot_subcarr, int max_vector_data_subcarr, int max_vector_pilot_subcarr, bool fixed_pilot, int vector_len, const std::string &amp;len_tag_key)</argsstring>
         <name>packet_header_gen_impl</name>
         <param>
           <type>const <ref refid="classgr_1_1ofdm__allocator_1_1packet__header__default__alix_1ad85cda2d2a111ccdd8ec5fc892fd6413" kindref="member">packet_header_default_alix::sptr</ref> &amp;</type>
           <declname>header_formatter</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>max_len_data_subcarr</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>max_len_pilot_subcarr</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>max_vector_data_subcarr</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>max_vector_pilot_subcarr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>fixed_pilot</declname>
         </param>
         <param>
           <type>int</type>
@@ -95,7 +180,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/packet_header_gen_impl.h" line="42" column="1"/>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/packet_header_gen_impl.h" line="47" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1packet__header__gen__impl_1a4b11c599e1c2600d04506045799967fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -108,7 +193,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/packet_header_gen_impl.h" line="47" column="1"/>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/packet_header_gen_impl.h" line="55" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1packet__header__gen__impl_1a131f0e0e5f9383889fc104adcf6fb913" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -129,7 +214,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/packet_header_gen_impl.h" line="49" column="1"/>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/packet_header_gen_impl.h" line="57" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1packet__header__gen__impl_1accf4daacd0b0dd52fdc56f554f243142" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -158,7 +243,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/packet_header_gen_impl.h" line="50" column="1"/>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/packet_header_gen_impl.h" line="58" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1packet__header__gen__impl_1a650c98765641bfbcc8c9970fd54d5657" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -176,7 +261,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/packet_header_gen_impl.h" line="51" column="1"/>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/packet_header_gen_impl.h" line="59" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1packet__header__gen__impl_1af863c6a7bc6dcc1965bf9320aed0fd51" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -193,7 +278,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/packet_header_gen_impl.h" line="53" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/packet_header_gen_impl.h" bodystart="53" bodyend="53"/>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/packet_header_gen_impl.h" line="61" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/packet_header_gen_impl.h" bodystart="61" bodyend="61"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1packet__header__gen__impl_1abc84c9b1c280f5fb614eaf0f353fb628" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>int</type>
@@ -210,7 +295,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/packet_header_gen_impl.h" line="54" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/packet_header_gen_impl.h" bodystart="54" bodyend="54"/>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/packet_header_gen_impl.h" line="62" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/packet_header_gen_impl.h" bodystart="62" bodyend="62"/>
         <references refid="classgr_1_1ofdm__allocator_1_1packet__header__gen__impl_1a0b7be4aee43a02a999c574c98fe98259">work</references>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1packet__header__gen__impl_1a0b7be4aee43a02a999c574c98fe98259" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -240,8 +325,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/packet_header_gen_impl.h" line="56" column="1"/>
-        <referencedby refid="classgr_1_1ofdm__allocator_1_1packet__header__gen__impl_1abc84c9b1c280f5fb614eaf0f353fb628" compoundref="packet__header__gen__impl_8h" startline="54" endline="54">calculate_output_stream_length</referencedby>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/packet_header_gen_impl.h" line="64" column="1"/>
+        <referencedby refid="classgr_1_1ofdm__allocator_1_1packet__header__gen__impl_1abc84c9b1c280f5fb614eaf0f353fb628" compoundref="packet__header__gen__impl_8h" startline="62" endline="62">calculate_output_stream_length</referencedby>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -282,19 +367,24 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/packet_header_gen_impl.h" line="31" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/packet_header_gen_impl.h" bodystart="30" bodyend="60"/>
+    <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/packet_header_gen_impl.h" line="31" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/packet_header_gen_impl.h" bodystart="30" bodyend="68"/>
     <listofallmembers>
       <member refid="classgr_1_1ofdm__allocator_1_1packet__header__gen__impl_1abc84c9b1c280f5fb614eaf0f353fb628" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::packet_header_gen_impl</scope><name>calculate_output_stream_length</name></member>
       <member refid="classgr_1_1ofdm__allocator_1_1packet__header__gen__impl_1a0182dc0b837ef22d28c2cef40b7ffd85" prot="private" virt="non-virtual"><scope>gr::ofdm_allocator::packet_header_gen_impl</scope><name>d_bits_per_byte</name></member>
       <member refid="classgr_1_1ofdm__allocator_1_1packet__header__gen__impl_1aae36dec56ce0997b68709a1f42ac8b02" prot="private" virt="non-virtual"><scope>gr::ofdm_allocator::packet_header_gen_impl</scope><name>d_crc_impl</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1packet__header__gen__impl_1a014ccfcdf03ec3f1b4c724c399644379" prot="private" virt="non-virtual"><scope>gr::ofdm_allocator::packet_header_gen_impl</scope><name>d_data_sub</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1packet__header__gen__impl_1a6d2187a6a95f2e6068089377727ae693" prot="private" virt="non-virtual"><scope>gr::ofdm_allocator::packet_header_gen_impl</scope><name>d_fixed_pilot</name></member>
       <member refid="classgr_1_1ofdm__allocator_1_1packet__header__gen__impl_1a2352f77dacb3a2203e8d9d33af8e2d4c" prot="private" virt="non-virtual"><scope>gr::ofdm_allocator::packet_header_gen_impl</scope><name>d_formatter</name></member>
       <member refid="classgr_1_1ofdm__allocator_1_1packet__header__gen__impl_1a28b3b012180266673689e01a43482567" prot="private" virt="non-virtual"><scope>gr::ofdm_allocator::packet_header_gen_impl</scope><name>d_header_number</name></member>
       <member refid="classgr_1_1ofdm__allocator_1_1packet__header__gen__impl_1a502d56d6e9706bc9454dddffc2318cdc" prot="private" virt="non-virtual"><scope>gr::ofdm_allocator::packet_header_gen_impl</scope><name>d_mask</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1packet__header__gen__impl_1ad3c5a0cb532ed90883358b1f17b7226d" prot="private" virt="non-virtual"><scope>gr::ofdm_allocator::packet_header_gen_impl</scope><name>d_pilot_sub</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1packet__header__gen__impl_1a03997dda1fab00f4f70fa24421e54b5b" prot="private" virt="non-virtual"><scope>gr::ofdm_allocator::packet_header_gen_impl</scope><name>d_vector_data</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1packet__header__gen__impl_1a0207a8c89f5c4e52e1a4cb2bbf6d4dbc" prot="private" virt="non-virtual"><scope>gr::ofdm_allocator::packet_header_gen_impl</scope><name>d_vector_pilot</name></member>
       <member refid="classgr_1_1ofdm__allocator_1_1packet__header__gen__impl_1a131f0e0e5f9383889fc104adcf6fb913" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::packet_header_gen_impl</scope><name>get_header_len_from_occupied_carriers</name></member>
       <member refid="classgr_1_1ofdm__allocator_1_1packet__header__gen__impl_1accf4daacd0b0dd52fdc56f554f243142" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::packet_header_gen_impl</scope><name>header_formatter_alix</name></member>
-      <member refid="classgr_1_1ofdm__allocator_1_1packet__header__gen_1afef596c626724720ca7f5c80aa414f46" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::packet_header_gen_impl</scope><name>make</name></member>
-      <member refid="classgr_1_1ofdm__allocator_1_1packet__header__gen_1a553d6473bd91bc101c2b14b8a54cda7b" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::packet_header_gen_impl</scope><name>make</name></member>
-      <member refid="classgr_1_1ofdm__allocator_1_1packet__header__gen__impl_1ae2076c52717bbe8ad462a207af385247" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::packet_header_gen_impl</scope><name>packet_header_gen_impl</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1packet__header__gen_1a0296c6000e86d66bd967b312c19cec8f" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::packet_header_gen_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1packet__header__gen_1a223cd66e3896c06e43156cf5c4e65564" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::packet_header_gen_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1packet__header__gen__impl_1afd3049ea97ac36abbe1a5337225d8345" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::packet_header_gen_impl</scope><name>packet_header_gen_impl</name></member>
       <member refid="classgr_1_1ofdm__allocator_1_1packet__header__gen__impl_1af863c6a7bc6dcc1965bf9320aed0fd51" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::packet_header_gen_impl</scope><name>remove_length_tags</name></member>
       <member refid="classgr_1_1ofdm__allocator_1_1packet__header__gen__impl_1a650c98765641bfbcc8c9970fd54d5657" prot="public" virt="virtual"><scope>gr::ofdm_allocator::packet_header_gen_impl</scope><name>set_header_formatter</name></member>
       <member refid="classgr_1_1ofdm__allocator_1_1packet__header__gen_1aa30f99e378b5245ce5038866b0d8ad49" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::packet_header_gen_impl</scope><name>sptr</name></member>
