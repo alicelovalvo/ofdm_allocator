@@ -33,5 +33,6 @@ install(FILES
     frame_equalizer_alix.h
     constellation_alix.h
     metric_type_alix.h
-    constellation_decoder_alix.h DESTINATION include/ofdm_allocator
+    constellation_decoder_alix.h
+    packet_header_parser_alix.h DESTINATION include/ofdm_allocator
 )

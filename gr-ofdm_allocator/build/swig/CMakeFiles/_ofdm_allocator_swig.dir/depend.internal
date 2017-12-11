@@ -13,6 +13,7 @@ swig/CMakeFiles/_ofdm_allocator_swig.dir/ofdm_allocator_swigPYTHON_wrap.cxx.o
  ../include/ofdm_allocator/packet_header_default_alix.h
  ../include/ofdm_allocator/packet_header_gen.h
  ../include/ofdm_allocator/packet_header_ofdm_alix.h
+ ../include/ofdm_allocator/packet_header_parser_alix.h
  ../include/ofdm_allocator/serializer_subcarrier.h
  ../include/ofdm_allocator/vector_source_tagged.h
  /home/alice/rfnoc/src/gr-ofdm_allocator/build/swig/ofdm_allocator_swigPYTHON_wrap.cxx

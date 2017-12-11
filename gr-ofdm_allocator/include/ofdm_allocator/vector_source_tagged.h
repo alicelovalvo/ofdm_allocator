@@ -52,6 +52,7 @@ namespace gr {
                        int max_vector_data_subcarr=4, int max_vector_pilot_subcarr=1,
                        bool fixed_pilot=false, const std::vector<int> &pilot=std::vector<int>(),
                        const std::string &length_tag_key="vector_len",
+		       const std::string &length_tag_key_2="packet_len",
                        const std::vector<tag_t> &tags=std::vector<tag_t>());
 
       virtual void rewind() = 0;

@@ -126,13 +126,13 @@ class vector_source_tagged(object):
 
     def make(*args, **kwargs):
         """
-        make(std::vector< int,std::allocator< int > > const & data, bool repeat=False, int vlen=1, bool fixed_data=False, int fft_len=64, int max_len_data_subcarr=48, int max_len_pilot_subcarr=10, int max_vector_data_subcarr=4, int max_vector_pilot_subcarr=1, bool fixed_pilot=False, std::vector< int,std::allocator< int > > const & pilot, std::string const & length_tag_key, tags_vector_t tags) -> vector_source_tagged_sptr
+        make(std::vector< int,std::allocator< int > > const & data, bool repeat=False, int vlen=1, bool fixed_data=False, int fft_len=64, int max_len_data_subcarr=48, int max_len_pilot_subcarr=10, int max_vector_data_subcarr=4, int max_vector_pilot_subcarr=1, bool fixed_pilot=False, std::vector< int,std::allocator< int > > const & pilot, std::string const & length_tag_key, std::string const & length_tag_key_2, tags_vector_t tags) -> vector_source_tagged_sptr
 
         Return a shared_ptr to a new instance of ofdm_allocator::vector_source_tagged.
 
         To avoid accidental use of raw pointers, ofdm_allocator::vector_source_tagged's constructor is in a private implementation class. ofdm_allocator::vector_source_tagged::make is the public interface for creating new instances.
 
-        Params: (data, repeat, vlen, fixed_data, fft_len, max_len_data_subcarr, max_len_pilot_subcarr, max_vector_data_subcarr, max_vector_pilot_subcarr, fixed_pilot, pilot, length_tag_key, tags)
+        Params: (data, repeat, vlen, fixed_data, fft_len, max_len_data_subcarr, max_len_pilot_subcarr, max_vector_data_subcarr, max_vector_pilot_subcarr, fixed_pilot, pilot, length_tag_key, length_tag_key_2, tags)
         """
         return _ofdm_allocator_swig.vector_source_tagged_make(*args, **kwargs)
 
@@ -210,13 +210,13 @@ vector_source_tagged_swigregister(vector_source_tagged)
 
 def vector_source_tagged_make(*args, **kwargs):
     """
-    vector_source_tagged_make(std::vector< int,std::allocator< int > > const & data, bool repeat=False, int vlen=1, bool fixed_data=False, int fft_len=64, int max_len_data_subcarr=48, int max_len_pilot_subcarr=10, int max_vector_data_subcarr=4, int max_vector_pilot_subcarr=1, bool fixed_pilot=False, std::vector< int,std::allocator< int > > const & pilot, std::string const & length_tag_key, tags_vector_t tags) -> vector_source_tagged_sptr
+    vector_source_tagged_make(std::vector< int,std::allocator< int > > const & data, bool repeat=False, int vlen=1, bool fixed_data=False, int fft_len=64, int max_len_data_subcarr=48, int max_len_pilot_subcarr=10, int max_vector_data_subcarr=4, int max_vector_pilot_subcarr=1, bool fixed_pilot=False, std::vector< int,std::allocator< int > > const & pilot, std::string const & length_tag_key, std::string const & length_tag_key_2, tags_vector_t tags) -> vector_source_tagged_sptr
 
     Return a shared_ptr to a new instance of ofdm_allocator::vector_source_tagged.
 
     To avoid accidental use of raw pointers, ofdm_allocator::vector_source_tagged's constructor is in a private implementation class. ofdm_allocator::vector_source_tagged::make is the public interface for creating new instances.
 
-    Params: (data, repeat, vlen, fixed_data, fft_len, max_len_data_subcarr, max_len_pilot_subcarr, max_vector_data_subcarr, max_vector_pilot_subcarr, fixed_pilot, pilot, length_tag_key, tags)
+    Params: (data, repeat, vlen, fixed_data, fft_len, max_len_data_subcarr, max_len_pilot_subcarr, max_vector_data_subcarr, max_vector_pilot_subcarr, fixed_pilot, pilot, length_tag_key, length_tag_key_2, tags)
     """
     return _ofdm_allocator_swig.vector_source_tagged_make(*args, **kwargs)
 
@@ -246,13 +246,13 @@ class vector_source_tagged_sptr(object):
 
     def make(self, *args, **kwargs):
         """
-        make(vector_source_tagged_sptr self, std::vector< int,std::allocator< int > > const & data, bool repeat=False, int vlen=1, bool fixed_data=False, int fft_len=64, int max_len_data_subcarr=48, int max_len_pilot_subcarr=10, int max_vector_data_subcarr=4, int max_vector_pilot_subcarr=1, bool fixed_pilot=False, std::vector< int,std::allocator< int > > const & pilot, std::string const & length_tag_key, tags_vector_t tags) -> vector_source_tagged_sptr
+        make(vector_source_tagged_sptr self, std::vector< int,std::allocator< int > > const & data, bool repeat=False, int vlen=1, bool fixed_data=False, int fft_len=64, int max_len_data_subcarr=48, int max_len_pilot_subcarr=10, int max_vector_data_subcarr=4, int max_vector_pilot_subcarr=1, bool fixed_pilot=False, std::vector< int,std::allocator< int > > const & pilot, std::string const & length_tag_key, std::string const & length_tag_key_2, tags_vector_t tags) -> vector_source_tagged_sptr
 
         Return a shared_ptr to a new instance of ofdm_allocator::vector_source_tagged.
 
         To avoid accidental use of raw pointers, ofdm_allocator::vector_source_tagged's constructor is in a private implementation class. ofdm_allocator::vector_source_tagged::make is the public interface for creating new instances.
 
-        Params: (data, repeat, vlen, fixed_data, fft_len, max_len_data_subcarr, max_len_pilot_subcarr, max_vector_data_subcarr, max_vector_pilot_subcarr, fixed_pilot, pilot, length_tag_key, tags)
+        Params: (data, repeat, vlen, fixed_data, fft_len, max_len_data_subcarr, max_len_pilot_subcarr, max_vector_data_subcarr, max_vector_pilot_subcarr, fixed_pilot, pilot, length_tag_key, length_tag_key_2, tags)
         """
         return _ofdm_allocator_swig.vector_source_tagged_sptr_make(self, *args, **kwargs)
 
@@ -1070,13 +1070,13 @@ class serializer_subcarrier(object):
 
     def make(*args, **kwargs):
         """
-        make(int fft_len, int vector_len, std::string const & len_tag_key, std::string const & packet_len_tag_key, int symbols_skipped=0, std::string const & carr_offset_key, bool input_is_shifted=True) -> serializer_subcarrier_sptr
+        make(int fft_len, int vector_len, bool fixed_pilot=True, bool fixed_data=True, int max_len_data_subcarr=48, int max_len_pilot_subcarr=4, int max_vector_data_subcarr=1, int max_vector_pilot_subcarr=1, std::string const & len_tag_key, std::string const & packet_len_tag_key, int symbols_skipped=0, std::string const & carr_offset_key, bool input_is_shifted=True) -> serializer_subcarrier_sptr
 
         Return a shared_ptr to a new instance of ofdm_allocator::serializer_subcarrier.
 
         To avoid accidental use of raw pointers, ofdm_allocator::serializer_subcarrier's constructor is in a private implementation class. ofdm_allocator::serializer_subcarrier::make is the public interface for creating new instances.
 
-        Params: (fft_len, vector_len, len_tag_key, packet_len_tag_key, symbols_skipped, carr_offset_key, input_is_shifted)
+        Params: (fft_len, vector_len, fixed_pilot, fixed_data, max_len_data_subcarr, max_len_pilot_subcarr, max_vector_data_subcarr, max_vector_pilot_subcarr, len_tag_key, packet_len_tag_key, symbols_skipped, carr_offset_key, input_is_shifted)
         """
         return _ofdm_allocator_swig.serializer_subcarrier_make(*args, **kwargs)
 
@@ -1088,13 +1088,13 @@ serializer_subcarrier_swigregister(serializer_subcarrier)
 
 def serializer_subcarrier_make(*args, **kwargs):
     """
-    serializer_subcarrier_make(int fft_len, int vector_len, std::string const & len_tag_key, std::string const & packet_len_tag_key, int symbols_skipped=0, std::string const & carr_offset_key, bool input_is_shifted=True) -> serializer_subcarrier_sptr
+    serializer_subcarrier_make(int fft_len, int vector_len, bool fixed_pilot=True, bool fixed_data=True, int max_len_data_subcarr=48, int max_len_pilot_subcarr=4, int max_vector_data_subcarr=1, int max_vector_pilot_subcarr=1, std::string const & len_tag_key, std::string const & packet_len_tag_key, int symbols_skipped=0, std::string const & carr_offset_key, bool input_is_shifted=True) -> serializer_subcarrier_sptr
 
     Return a shared_ptr to a new instance of ofdm_allocator::serializer_subcarrier.
 
     To avoid accidental use of raw pointers, ofdm_allocator::serializer_subcarrier's constructor is in a private implementation class. ofdm_allocator::serializer_subcarrier::make is the public interface for creating new instances.
 
-    Params: (fft_len, vector_len, len_tag_key, packet_len_tag_key, symbols_skipped, carr_offset_key, input_is_shifted)
+    Params: (fft_len, vector_len, fixed_pilot, fixed_data, max_len_data_subcarr, max_len_pilot_subcarr, max_vector_data_subcarr, max_vector_pilot_subcarr, len_tag_key, packet_len_tag_key, symbols_skipped, carr_offset_key, input_is_shifted)
     """
     return _ofdm_allocator_swig.serializer_subcarrier_make(*args, **kwargs)
 
@@ -1124,13 +1124,13 @@ class serializer_subcarrier_sptr(object):
 
     def make(self, *args, **kwargs):
         """
-        make(serializer_subcarrier_sptr self, int fft_len, int vector_len, std::string const & len_tag_key, std::string const & packet_len_tag_key, int symbols_skipped=0, std::string const & carr_offset_key, bool input_is_shifted=True) -> serializer_subcarrier_sptr
+        make(serializer_subcarrier_sptr self, int fft_len, int vector_len, bool fixed_pilot=True, bool fixed_data=True, int max_len_data_subcarr=48, int max_len_pilot_subcarr=4, int max_vector_data_subcarr=1, int max_vector_pilot_subcarr=1, std::string const & len_tag_key, std::string const & packet_len_tag_key, int symbols_skipped=0, std::string const & carr_offset_key, bool input_is_shifted=True) -> serializer_subcarrier_sptr
 
         Return a shared_ptr to a new instance of ofdm_allocator::serializer_subcarrier.
 
         To avoid accidental use of raw pointers, ofdm_allocator::serializer_subcarrier's constructor is in a private implementation class. ofdm_allocator::serializer_subcarrier::make is the public interface for creating new instances.
 
-        Params: (fft_len, vector_len, len_tag_key, packet_len_tag_key, symbols_skipped, carr_offset_key, input_is_shifted)
+        Params: (fft_len, vector_len, fixed_pilot, fixed_data, max_len_data_subcarr, max_len_pilot_subcarr, max_vector_data_subcarr, max_vector_pilot_subcarr, len_tag_key, packet_len_tag_key, symbols_skipped, carr_offset_key, input_is_shifted)
         """
         return _ofdm_allocator_swig.serializer_subcarrier_sptr_make(self, *args, **kwargs)
 
@@ -1520,6 +1520,17 @@ class packet_header_default_alix(object):
         return _ofdm_allocator_swig.packet_header_default_alix_len_tag_key(self)
 
 
+    def num_tag_key(self):
+        """
+        num_tag_key(packet_header_default_alix self) -> swig_int_ptr
+
+
+
+        Params: (NONE)
+        """
+        return _ofdm_allocator_swig.packet_header_default_alix_num_tag_key(self)
+
+
     def header_formatter(self, *args, **kwargs):
         """
         header_formatter(packet_header_default_alix self, long packet_len, unsigned char * out, tags_vector_t tags) -> bool
@@ -1537,17 +1548,17 @@ class packet_header_default_alix(object):
         return _ofdm_allocator_swig.packet_header_default_alix_header_formatter(self, *args, **kwargs)
 
 
-    def header_parser(self, header, tags):
+    def header_parser(self, header, header_length, tags):
         """
-        header_parser(packet_header_default_alix self, unsigned char const * header, tags_vector_t tags) -> bool
+        header_parser(packet_header_default_alix self, unsigned char const * header, int header_length, tags_vector_t tags) -> bool
 
         Inverse function to header_formatter().
 
         Reads the bit stream in  and writes a corresponding tag into .
 
-        Params: (header, tags)
+        Params: (header, header_length, tags)
         """
-        return _ofdm_allocator_swig.packet_header_default_alix_header_parser(self, header, tags)
+        return _ofdm_allocator_swig.packet_header_default_alix_header_parser(self, header, header_length, tags)
 
 
     def make(*args, **kwargs):
@@ -2040,24 +2051,24 @@ class ofdm_equalizer_base_alix(object):
     __swig_destroy__ = _ofdm_allocator_swig.delete_ofdm_equalizer_base_alix
     __del__ = lambda self: None
 
-    def reset(self):
+    def reset(self, pilot_carriers):
         """
-        reset(ofdm_equalizer_base_alix self)
+        reset(ofdm_equalizer_base_alix self, std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const & pilot_carriers)
 
         Reset the channel information state knowledge.
 
-        Params: (NONE)
+        Params: (pilot_carriers)
         """
-        return _ofdm_allocator_swig.ofdm_equalizer_base_alix_reset(self)
+        return _ofdm_allocator_swig.ofdm_equalizer_base_alix_reset(self, pilot_carriers)
 
 
     def equalize(self, *args, **kwargs):
         """
-        equalize(ofdm_equalizer_base_alix self, gr_complex * frame, int n_sym, pmt_vector_cfloat initial_taps, std::vector< bool,std::allocator< bool > > const & occupied_carriers, tags_vector_t tags)
+        equalize(ofdm_equalizer_base_alix self, gr_complex * frame, int n_sym, pmt_vector_cfloat initial_taps, std::vector< bool,std::allocator< bool > > const & occupied_carriers, std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const & pilot_carriers, gr_vector_vector_complexf pilot_symbols, tags_vector_t tags)
 
         Run the actual equalization.
 
-        Params: (frame, n_sym, initial_taps, occupied_carriers, tags)
+        Params: (frame, n_sym, initial_taps, occupied_carriers, pilot_carriers, pilot_symbols, tags)
         """
         return _ofdm_allocator_swig.ofdm_equalizer_base_alix_equalize(self, *args, **kwargs)
 
@@ -2121,13 +2132,13 @@ class frame_equalizer_alix(object):
 
     def make(*args, **kwargs):
         """
-        make(ofdm_equalizer_base_alix_sptr equalizer, int vector_len, int cp_len, bool fixed_pilot, int max_len_data_subcarr, int max_len_pilot_subcarr, int max_vector_pilot_subcarr, std::string const & tsb_key, bool propagate_channel_state=False, int fixed_frame_len=0, bool input_is_shifted=True) -> frame_equalizer_alix_sptr
+        make(ofdm_equalizer_base_alix_sptr equalizer, int vector_len, int cp_len, bool fixed_data, bool fixed_pilot, int max_len_data_subcarr, int max_len_pilot_subcarr, int max_vector_data_subcarr, int max_vector_pilot_subcarr, gr_vector_vector_complexf pilot_symbols, std::string const & tsb_key, bool propagate_channel_state=False, int fixed_frame_len=0, bool input_is_shifted=True) -> frame_equalizer_alix_sptr
 
         Return a shared_ptr to a new instance of ofdm_allocator::frame_equalizer_alix.
 
         To avoid accidental use of raw pointers, ofdm_allocator::frame_equalizer_alix's constructor is in a private implementation class. ofdm_allocator::frame_equalizer_alix::make is the public interface for creating new instances.
 
-        Params: (equalizer, vector_len, cp_len, fixed_pilot, max_len_data_subcarr, max_len_pilot_subcarr, max_vector_pilot_subcarr, tsb_key, propagate_channel_state, fixed_frame_len, input_is_shifted)
+        Params: (equalizer, vector_len, cp_len, fixed_data, fixed_pilot, max_len_data_subcarr, max_len_pilot_subcarr, max_vector_data_subcarr, max_vector_pilot_subcarr, pilot_symbols, tsb_key, propagate_channel_state, fixed_frame_len, input_is_shifted)
         """
         return _ofdm_allocator_swig.frame_equalizer_alix_make(*args, **kwargs)
 
@@ -2139,13 +2150,13 @@ frame_equalizer_alix_swigregister(frame_equalizer_alix)
 
 def frame_equalizer_alix_make(*args, **kwargs):
     """
-    frame_equalizer_alix_make(ofdm_equalizer_base_alix_sptr equalizer, int vector_len, int cp_len, bool fixed_pilot, int max_len_data_subcarr, int max_len_pilot_subcarr, int max_vector_pilot_subcarr, std::string const & tsb_key, bool propagate_channel_state=False, int fixed_frame_len=0, bool input_is_shifted=True) -> frame_equalizer_alix_sptr
+    frame_equalizer_alix_make(ofdm_equalizer_base_alix_sptr equalizer, int vector_len, int cp_len, bool fixed_data, bool fixed_pilot, int max_len_data_subcarr, int max_len_pilot_subcarr, int max_vector_data_subcarr, int max_vector_pilot_subcarr, gr_vector_vector_complexf pilot_symbols, std::string const & tsb_key, bool propagate_channel_state=False, int fixed_frame_len=0, bool input_is_shifted=True) -> frame_equalizer_alix_sptr
 
     Return a shared_ptr to a new instance of ofdm_allocator::frame_equalizer_alix.
 
     To avoid accidental use of raw pointers, ofdm_allocator::frame_equalizer_alix's constructor is in a private implementation class. ofdm_allocator::frame_equalizer_alix::make is the public interface for creating new instances.
 
-    Params: (equalizer, vector_len, cp_len, fixed_pilot, max_len_data_subcarr, max_len_pilot_subcarr, max_vector_pilot_subcarr, tsb_key, propagate_channel_state, fixed_frame_len, input_is_shifted)
+    Params: (equalizer, vector_len, cp_len, fixed_data, fixed_pilot, max_len_data_subcarr, max_len_pilot_subcarr, max_vector_data_subcarr, max_vector_pilot_subcarr, pilot_symbols, tsb_key, propagate_channel_state, fixed_frame_len, input_is_shifted)
     """
     return _ofdm_allocator_swig.frame_equalizer_alix_make(*args, **kwargs)
 
@@ -2175,13 +2186,13 @@ class frame_equalizer_alix_sptr(object):
 
     def make(self, *args, **kwargs):
         """
-        make(frame_equalizer_alix_sptr self, ofdm_equalizer_base_alix_sptr equalizer, int vector_len, int cp_len, bool fixed_pilot, int max_len_data_subcarr, int max_len_pilot_subcarr, int max_vector_pilot_subcarr, std::string const & tsb_key, bool propagate_channel_state=False, int fixed_frame_len=0, bool input_is_shifted=True) -> frame_equalizer_alix_sptr
+        make(frame_equalizer_alix_sptr self, ofdm_equalizer_base_alix_sptr equalizer, int vector_len, int cp_len, bool fixed_data, bool fixed_pilot, int max_len_data_subcarr, int max_len_pilot_subcarr, int max_vector_data_subcarr, int max_vector_pilot_subcarr, gr_vector_vector_complexf pilot_symbols, std::string const & tsb_key, bool propagate_channel_state=False, int fixed_frame_len=0, bool input_is_shifted=True) -> frame_equalizer_alix_sptr
 
         Return a shared_ptr to a new instance of ofdm_allocator::frame_equalizer_alix.
 
         To avoid accidental use of raw pointers, ofdm_allocator::frame_equalizer_alix's constructor is in a private implementation class. ofdm_allocator::frame_equalizer_alix::make is the public interface for creating new instances.
 
-        Params: (equalizer, vector_len, cp_len, fixed_pilot, max_len_data_subcarr, max_len_pilot_subcarr, max_vector_pilot_subcarr, tsb_key, propagate_channel_state, fixed_frame_len, input_is_shifted)
+        Params: (equalizer, vector_len, cp_len, fixed_data, fixed_pilot, max_len_data_subcarr, max_len_pilot_subcarr, max_vector_data_subcarr, max_vector_pilot_subcarr, pilot_symbols, tsb_key, propagate_channel_state, fixed_frame_len, input_is_shifted)
         """
         return _ofdm_allocator_swig.frame_equalizer_alix_sptr_make(self, *args, **kwargs)
 
@@ -2619,6 +2630,17 @@ class packet_header_default_alix_sptr(object):
         return _ofdm_allocator_swig.packet_header_default_alix_sptr_len_tag_key(self)
 
 
+    def num_tag_key(self):
+        """
+        num_tag_key(packet_header_default_alix_sptr self) -> swig_int_ptr
+
+
+
+        Params: (NONE)
+        """
+        return _ofdm_allocator_swig.packet_header_default_alix_sptr_num_tag_key(self)
+
+
     def header_formatter(self, *args, **kwargs):
         """
         header_formatter(packet_header_default_alix_sptr self, long packet_len, unsigned char * out, tags_vector_t tags) -> bool
@@ -2636,17 +2658,17 @@ class packet_header_default_alix_sptr(object):
         return _ofdm_allocator_swig.packet_header_default_alix_sptr_header_formatter(self, *args, **kwargs)
 
 
-    def header_parser(self, header, tags):
+    def header_parser(self, header, header_length, tags):
         """
-        header_parser(packet_header_default_alix_sptr self, unsigned char const * header, tags_vector_t tags) -> bool
+        header_parser(packet_header_default_alix_sptr self, unsigned char const * header, int header_length, tags_vector_t tags) -> bool
 
         Inverse function to header_formatter().
 
         Reads the bit stream in  and writes a corresponding tag into .
 
-        Params: (header, tags)
+        Params: (header, header_length, tags)
         """
-        return _ofdm_allocator_swig.packet_header_default_alix_sptr_header_parser(self, header, tags)
+        return _ofdm_allocator_swig.packet_header_default_alix_sptr_header_parser(self, header, header_length, tags)
 
 
     def make(self, *args, **kwargs):
@@ -2756,6 +2778,17 @@ class packet_header_ofdm_alix_sptr(object):
         return _ofdm_allocator_swig.packet_header_ofdm_alix_sptr_len_tag_key(self)
 
 
+    def num_tag_key(self):
+        """
+        num_tag_key(packet_header_ofdm_alix_sptr self) -> swig_int_ptr
+
+
+
+        Params: (NONE)
+        """
+        return _ofdm_allocator_swig.packet_header_ofdm_alix_sptr_num_tag_key(self)
+
+
     def header_formatter(self, *args, **kwargs):
         """
         header_formatter(packet_header_ofdm_alix_sptr self, long packet_len, unsigned char * out, tags_vector_t tags) -> bool
@@ -2773,17 +2806,17 @@ class packet_header_ofdm_alix_sptr(object):
         return _ofdm_allocator_swig.packet_header_ofdm_alix_sptr_header_formatter(self, *args, **kwargs)
 
 
-    def header_parser(self, header, tags):
+    def header_parser(self, header, header_length, tags):
         """
-        header_parser(packet_header_ofdm_alix_sptr self, unsigned char const * header, tags_vector_t tags) -> bool
+        header_parser(packet_header_ofdm_alix_sptr self, unsigned char const * header, int header_length, tags_vector_t tags) -> bool
 
         Inverse function to header_formatter().
 
         Reads the bit stream in  and writes a corresponding tag into .
 
-        Params: (header, tags)
+        Params: (header, header_length, tags)
         """
-        return _ofdm_allocator_swig.packet_header_ofdm_alix_sptr_header_parser(self, header, tags)
+        return _ofdm_allocator_swig.packet_header_ofdm_alix_sptr_header_parser(self, header, header_length, tags)
 
 packet_header_ofdm_alix_sptr_swigregister = _ofdm_allocator_swig.packet_header_ofdm_alix_sptr_swigregister
 packet_header_ofdm_alix_sptr_swigregister(packet_header_ofdm_alix_sptr)
@@ -2816,24 +2849,24 @@ class ofdm_equalizer_base_alix_sptr(object):
     __swig_destroy__ = _ofdm_allocator_swig.delete_ofdm_equalizer_base_alix_sptr
     __del__ = lambda self: None
 
-    def reset(self):
+    def reset(self, pilot_carriers):
         """
-        reset(ofdm_equalizer_base_alix_sptr self)
+        reset(ofdm_equalizer_base_alix_sptr self, std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const & pilot_carriers)
 
         Reset the channel information state knowledge.
 
-        Params: (NONE)
+        Params: (pilot_carriers)
         """
-        return _ofdm_allocator_swig.ofdm_equalizer_base_alix_sptr_reset(self)
+        return _ofdm_allocator_swig.ofdm_equalizer_base_alix_sptr_reset(self, pilot_carriers)
 
 
     def equalize(self, *args, **kwargs):
         """
-        equalize(ofdm_equalizer_base_alix_sptr self, gr_complex * frame, int n_sym, pmt_vector_cfloat initial_taps, std::vector< bool,std::allocator< bool > > const & occupied_carriers, tags_vector_t tags)
+        equalize(ofdm_equalizer_base_alix_sptr self, gr_complex * frame, int n_sym, pmt_vector_cfloat initial_taps, std::vector< bool,std::allocator< bool > > const & occupied_carriers, std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const & pilot_carriers, gr_vector_vector_complexf pilot_symbols, tags_vector_t tags)
 
         Run the actual equalization.
 
-        Params: (frame, n_sym, initial_taps, occupied_carriers, tags)
+        Params: (frame, n_sym, initial_taps, occupied_carriers, pilot_carriers, pilot_symbols, tags)
         """
         return _ofdm_allocator_swig.ofdm_equalizer_base_alix_sptr_equalize(self, *args, **kwargs)
 
@@ -2897,24 +2930,24 @@ class ofdm_equalizer_1d_pilots_alix_sptr(object):
     __swig_destroy__ = _ofdm_allocator_swig.delete_ofdm_equalizer_1d_pilots_alix_sptr
     __del__ = lambda self: None
 
-    def reset(self):
+    def reset(self, pilot_carriers):
         """
-        reset(ofdm_equalizer_1d_pilots_alix_sptr self)
+        reset(ofdm_equalizer_1d_pilots_alix_sptr self, std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const & pilot_carriers)
 
         Reset the channel information state knowledge.
 
-        Params: (NONE)
+        Params: (pilot_carriers)
         """
-        return _ofdm_allocator_swig.ofdm_equalizer_1d_pilots_alix_sptr_reset(self)
+        return _ofdm_allocator_swig.ofdm_equalizer_1d_pilots_alix_sptr_reset(self, pilot_carriers)
 
 
     def equalize(self, *args, **kwargs):
         """
-        equalize(ofdm_equalizer_1d_pilots_alix_sptr self, gr_complex * frame, int n_sym, pmt_vector_cfloat initial_taps, std::vector< bool,std::allocator< bool > > const & occupied_carriers, tags_vector_t tags)
+        equalize(ofdm_equalizer_1d_pilots_alix_sptr self, gr_complex * frame, int n_sym, pmt_vector_cfloat initial_taps, std::vector< bool,std::allocator< bool > > const & occupied_carriers, std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const & pilot_carriers, gr_vector_vector_complexf pilot_symbols, tags_vector_t tags)
 
         Run the actual equalization.
 
-        Params: (frame, n_sym, initial_taps, occupied_carriers, tags)
+        Params: (frame, n_sym, initial_taps, occupied_carriers, pilot_carriers, pilot_symbols, tags)
         """
         return _ofdm_allocator_swig.ofdm_equalizer_1d_pilots_alix_sptr_equalize(self, *args, **kwargs)
 
@@ -2992,24 +3025,24 @@ class ofdm_equalizer_simpledfe_alix_sptr(object):
         return _ofdm_allocator_swig.ofdm_equalizer_simpledfe_alix_sptr_make(self, *args, **kwargs)
 
 
-    def reset(self):
+    def reset(self, pilot_carriers):
         """
-        reset(ofdm_equalizer_simpledfe_alix_sptr self)
+        reset(ofdm_equalizer_simpledfe_alix_sptr self, std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const & pilot_carriers)
 
         Reset the channel information state knowledge.
 
-        Params: (NONE)
+        Params: (pilot_carriers)
         """
-        return _ofdm_allocator_swig.ofdm_equalizer_simpledfe_alix_sptr_reset(self)
+        return _ofdm_allocator_swig.ofdm_equalizer_simpledfe_alix_sptr_reset(self, pilot_carriers)
 
 
     def equalize(self, *args, **kwargs):
         """
-        equalize(ofdm_equalizer_simpledfe_alix_sptr self, gr_complex * frame, int n_sym, pmt_vector_cfloat initial_taps, std::vector< bool,std::allocator< bool > > const & occupied_carriers, tags_vector_t tags)
+        equalize(ofdm_equalizer_simpledfe_alix_sptr self, gr_complex * frame, int n_sym, pmt_vector_cfloat initial_taps, std::vector< bool,std::allocator< bool > > const & occupied_carriers, std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const & pilot_carriers, gr_vector_vector_complexf pilot_symbols, tags_vector_t tags)
 
         Run the actual equalization.
 
-        Params: (frame, n_sym, initial_taps, occupied_carriers, tags)
+        Params: (frame, n_sym, initial_taps, occupied_carriers, pilot_carriers, pilot_symbols, tags)
         """
         return _ofdm_allocator_swig.ofdm_equalizer_simpledfe_alix_sptr_equalize(self, *args, **kwargs)
 
@@ -7961,6 +7994,393 @@ constellation_decoder_alix_sptr_swigregister(constellation_decoder_alix_sptr)
 
 constellation_decoder_alix_sptr.__repr__ = lambda self: "<gr_block %s (%d)>" % (self.name(), self.unique_id())
 constellation_decoder_alix = constellation_decoder_alix.make;
+
+class packet_header_parser_alix(object):
+    """<+description of block+>"""
+
+    thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
+
+    def __init__(self, *args, **kwargs):
+        raise AttributeError("No constructor defined")
+    __repr__ = _swig_repr
+
+    def make(*args):
+        """
+        make(packet_header_default_alix_sptr header_formatter, std::string const & len_tag_key, std::string const & num_tag_key) -> packet_header_parser_alix_sptr
+        make(long header_len, std::string const & len_tag_key, std::string const & num_tag_key) -> packet_header_parser_alix_sptr
+
+        Return a shared_ptr to a new instance of ofdm_allocator::packet_header_parser_alix.
+
+        To avoid accidental use of raw pointers, ofdm_allocator::packet_header_parser_alix's constructor is in a private implementation class. ofdm_allocator::packet_header_parser_alix::make is the public interface for creating new instances.
+
+        Params: (header_formatter, len_tag_key, num_tag_key)
+        """
+        return _ofdm_allocator_swig.packet_header_parser_alix_make(*args)
+
+    make = staticmethod(make)
+    __swig_destroy__ = _ofdm_allocator_swig.delete_packet_header_parser_alix
+    __del__ = lambda self: None
+packet_header_parser_alix_swigregister = _ofdm_allocator_swig.packet_header_parser_alix_swigregister
+packet_header_parser_alix_swigregister(packet_header_parser_alix)
+
+def packet_header_parser_alix_make(*args):
+    """
+    make(packet_header_default_alix_sptr header_formatter, std::string const & len_tag_key, std::string const & num_tag_key) -> packet_header_parser_alix_sptr
+    packet_header_parser_alix_make(long header_len, std::string const & len_tag_key, std::string const & num_tag_key) -> packet_header_parser_alix_sptr
+
+    Return a shared_ptr to a new instance of ofdm_allocator::packet_header_parser_alix.
+
+    To avoid accidental use of raw pointers, ofdm_allocator::packet_header_parser_alix's constructor is in a private implementation class. ofdm_allocator::packet_header_parser_alix::make is the public interface for creating new instances.
+
+    Params: (header_formatter, len_tag_key, num_tag_key)
+    """
+    return _ofdm_allocator_swig.packet_header_parser_alix_make(*args)
+
+class packet_header_parser_alix_sptr(object):
+    """Proxy of C++ boost::shared_ptr<(gr::ofdm_allocator::packet_header_parser_alix)> class."""
+
+    thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
+    __repr__ = _swig_repr
+
+    def __init__(self, *args):
+        """
+        __init__(boost::shared_ptr<(gr::ofdm_allocator::packet_header_parser_alix)> self) -> packet_header_parser_alix_sptr
+        __init__(boost::shared_ptr<(gr::ofdm_allocator::packet_header_parser_alix)> self, packet_header_parser_alix p) -> packet_header_parser_alix_sptr
+        """
+        this = _ofdm_allocator_swig.new_packet_header_parser_alix_sptr(*args)
+        try:
+            self.this.append(this)
+        except Exception:
+            self.this = this
+
+    def __deref__(self):
+        """__deref__(packet_header_parser_alix_sptr self) -> packet_header_parser_alix"""
+        return _ofdm_allocator_swig.packet_header_parser_alix_sptr___deref__(self)
+
+    __swig_destroy__ = _ofdm_allocator_swig.delete_packet_header_parser_alix_sptr
+    __del__ = lambda self: None
+
+    def make(self, *args):
+        """
+        make(packet_header_parser_alix_sptr self, packet_header_default_alix_sptr header_formatter, std::string const & len_tag_key, std::string const & num_tag_key) -> packet_header_parser_alix_sptr
+        make(packet_header_parser_alix_sptr self, long header_len, std::string const & len_tag_key, std::string const & num_tag_key) -> packet_header_parser_alix_sptr
+
+        Return a shared_ptr to a new instance of ofdm_allocator::packet_header_parser_alix.
+
+        To avoid accidental use of raw pointers, ofdm_allocator::packet_header_parser_alix's constructor is in a private implementation class. ofdm_allocator::packet_header_parser_alix::make is the public interface for creating new instances.
+
+        Params: (header_formatter, len_tag_key, num_tag_key)
+        """
+        return _ofdm_allocator_swig.packet_header_parser_alix_sptr_make(self, *args)
+
+
+    def history(self):
+        """history(packet_header_parser_alix_sptr self) -> unsigned int"""
+        return _ofdm_allocator_swig.packet_header_parser_alix_sptr_history(self)
+
+
+    def declare_sample_delay(self, *args):
+        """
+        declare_sample_delay(packet_header_parser_alix_sptr self, int which, int delay)
+        declare_sample_delay(packet_header_parser_alix_sptr self, unsigned int delay)
+        """
+        return _ofdm_allocator_swig.packet_header_parser_alix_sptr_declare_sample_delay(self, *args)
+
+
+    def sample_delay(self, which):
+        """sample_delay(packet_header_parser_alix_sptr self, int which) -> unsigned int"""
+        return _ofdm_allocator_swig.packet_header_parser_alix_sptr_sample_delay(self, which)
+
+
+    def output_multiple(self):
+        """output_multiple(packet_header_parser_alix_sptr self) -> int"""
+        return _ofdm_allocator_swig.packet_header_parser_alix_sptr_output_multiple(self)
+
+
+    def relative_rate(self):
+        """relative_rate(packet_header_parser_alix_sptr self) -> double"""
+        return _ofdm_allocator_swig.packet_header_parser_alix_sptr_relative_rate(self)
+
+
+    def start(self):
+        """start(packet_header_parser_alix_sptr self) -> bool"""
+        return _ofdm_allocator_swig.packet_header_parser_alix_sptr_start(self)
+
+
+    def stop(self):
+        """stop(packet_header_parser_alix_sptr self) -> bool"""
+        return _ofdm_allocator_swig.packet_header_parser_alix_sptr_stop(self)
+
+
+    def nitems_read(self, which_input):
+        """nitems_read(packet_header_parser_alix_sptr self, unsigned int which_input) -> uint64_t"""
+        return _ofdm_allocator_swig.packet_header_parser_alix_sptr_nitems_read(self, which_input)
+
+
+    def nitems_written(self, which_output):
+        """nitems_written(packet_header_parser_alix_sptr self, unsigned int which_output) -> uint64_t"""
+        return _ofdm_allocator_swig.packet_header_parser_alix_sptr_nitems_written(self, which_output)
+
+
+    def max_noutput_items(self):
+        """max_noutput_items(packet_header_parser_alix_sptr self) -> int"""
+        return _ofdm_allocator_swig.packet_header_parser_alix_sptr_max_noutput_items(self)
+
+
+    def set_max_noutput_items(self, m):
+        """set_max_noutput_items(packet_header_parser_alix_sptr self, int m)"""
+        return _ofdm_allocator_swig.packet_header_parser_alix_sptr_set_max_noutput_items(self, m)
+
+
+    def unset_max_noutput_items(self):
+        """unset_max_noutput_items(packet_header_parser_alix_sptr self)"""
+        return _ofdm_allocator_swig.packet_header_parser_alix_sptr_unset_max_noutput_items(self)
+
+
+    def is_set_max_noutput_items(self):
+        """is_set_max_noutput_items(packet_header_parser_alix_sptr self) -> bool"""
+        return _ofdm_allocator_swig.packet_header_parser_alix_sptr_is_set_max_noutput_items(self)
+
+
+    def set_min_noutput_items(self, m):
+        """set_min_noutput_items(packet_header_parser_alix_sptr self, int m)"""
+        return _ofdm_allocator_swig.packet_header_parser_alix_sptr_set_min_noutput_items(self, m)
+
+
+    def min_noutput_items(self):
+        """min_noutput_items(packet_header_parser_alix_sptr self) -> int"""
+        return _ofdm_allocator_swig.packet_header_parser_alix_sptr_min_noutput_items(self)
+
+
+    def max_output_buffer(self, i):
+        """max_output_buffer(packet_header_parser_alix_sptr self, int i) -> long"""
+        return _ofdm_allocator_swig.packet_header_parser_alix_sptr_max_output_buffer(self, i)
+
+
+    def set_max_output_buffer(self, *args):
+        """
+        set_max_output_buffer(packet_header_parser_alix_sptr self, long max_output_buffer)
+        set_max_output_buffer(packet_header_parser_alix_sptr self, int port, long max_output_buffer)
+        """
+        return _ofdm_allocator_swig.packet_header_parser_alix_sptr_set_max_output_buffer(self, *args)
+
+
+    def min_output_buffer(self, i):
+        """min_output_buffer(packet_header_parser_alix_sptr self, int i) -> long"""
+        return _ofdm_allocator_swig.packet_header_parser_alix_sptr_min_output_buffer(self, i)
+
+
+    def set_min_output_buffer(self, *args):
+        """
+        set_min_output_buffer(packet_header_parser_alix_sptr self, long min_output_buffer)
+        set_min_output_buffer(packet_header_parser_alix_sptr self, int port, long min_output_buffer)
+        """
+        return _ofdm_allocator_swig.packet_header_parser_alix_sptr_set_min_output_buffer(self, *args)
+
+
+    def pc_noutput_items(self):
+        """pc_noutput_items(packet_header_parser_alix_sptr self) -> float"""
+        return _ofdm_allocator_swig.packet_header_parser_alix_sptr_pc_noutput_items(self)
+
+
+    def pc_noutput_items_avg(self):
+        """pc_noutput_items_avg(packet_header_parser_alix_sptr self) -> float"""
+        return _ofdm_allocator_swig.packet_header_parser_alix_sptr_pc_noutput_items_avg(self)
+
+
+    def pc_noutput_items_var(self):
+        """pc_noutput_items_var(packet_header_parser_alix_sptr self) -> float"""
+        return _ofdm_allocator_swig.packet_header_parser_alix_sptr_pc_noutput_items_var(self)
+
+
+    def pc_nproduced(self):
+        """pc_nproduced(packet_header_parser_alix_sptr self) -> float"""
+        return _ofdm_allocator_swig.packet_header_parser_alix_sptr_pc_nproduced(self)
+
+
+    def pc_nproduced_avg(self):
+        """pc_nproduced_avg(packet_header_parser_alix_sptr self) -> float"""
+        return _ofdm_allocator_swig.packet_header_parser_alix_sptr_pc_nproduced_avg(self)
+
+
+    def pc_nproduced_var(self):
+        """pc_nproduced_var(packet_header_parser_alix_sptr self) -> float"""
+        return _ofdm_allocator_swig.packet_header_parser_alix_sptr_pc_nproduced_var(self)
+
+
+    def pc_input_buffers_full(self, *args):
+        """
+        pc_input_buffers_full(packet_header_parser_alix_sptr self, int which) -> float
+        pc_input_buffers_full(packet_header_parser_alix_sptr self) -> pmt_vector_float
+        """
+        return _ofdm_allocator_swig.packet_header_parser_alix_sptr_pc_input_buffers_full(self, *args)
+
+
+    def pc_input_buffers_full_avg(self, *args):
+        """
+        pc_input_buffers_full_avg(packet_header_parser_alix_sptr self, int which) -> float
+        pc_input_buffers_full_avg(packet_header_parser_alix_sptr self) -> pmt_vector_float
+        """
+        return _ofdm_allocator_swig.packet_header_parser_alix_sptr_pc_input_buffers_full_avg(self, *args)
+
+
+    def pc_input_buffers_full_var(self, *args):
+        """
+        pc_input_buffers_full_var(packet_header_parser_alix_sptr self, int which) -> float
+        pc_input_buffers_full_var(packet_header_parser_alix_sptr self) -> pmt_vector_float
+        """
+        return _ofdm_allocator_swig.packet_header_parser_alix_sptr_pc_input_buffers_full_var(self, *args)
+
+
+    def pc_output_buffers_full(self, *args):
+        """
+        pc_output_buffers_full(packet_header_parser_alix_sptr self, int which) -> float
+        pc_output_buffers_full(packet_header_parser_alix_sptr self) -> pmt_vector_float
+        """
+        return _ofdm_allocator_swig.packet_header_parser_alix_sptr_pc_output_buffers_full(self, *args)
+
+
+    def pc_output_buffers_full_avg(self, *args):
+        """
+        pc_output_buffers_full_avg(packet_header_parser_alix_sptr self, int which) -> float
+        pc_output_buffers_full_avg(packet_header_parser_alix_sptr self) -> pmt_vector_float
+        """
+        return _ofdm_allocator_swig.packet_header_parser_alix_sptr_pc_output_buffers_full_avg(self, *args)
+
+
+    def pc_output_buffers_full_var(self, *args):
+        """
+        pc_output_buffers_full_var(packet_header_parser_alix_sptr self, int which) -> float
+        pc_output_buffers_full_var(packet_header_parser_alix_sptr self) -> pmt_vector_float
+        """
+        return _ofdm_allocator_swig.packet_header_parser_alix_sptr_pc_output_buffers_full_var(self, *args)
+
+
+    def pc_work_time(self):
+        """pc_work_time(packet_header_parser_alix_sptr self) -> float"""
+        return _ofdm_allocator_swig.packet_header_parser_alix_sptr_pc_work_time(self)
+
+
+    def pc_work_time_avg(self):
+        """pc_work_time_avg(packet_header_parser_alix_sptr self) -> float"""
+        return _ofdm_allocator_swig.packet_header_parser_alix_sptr_pc_work_time_avg(self)
+
+
+    def pc_work_time_var(self):
+        """pc_work_time_var(packet_header_parser_alix_sptr self) -> float"""
+        return _ofdm_allocator_swig.packet_header_parser_alix_sptr_pc_work_time_var(self)
+
+
+    def pc_work_time_total(self):
+        """pc_work_time_total(packet_header_parser_alix_sptr self) -> float"""
+        return _ofdm_allocator_swig.packet_header_parser_alix_sptr_pc_work_time_total(self)
+
+
+    def pc_throughput_avg(self):
+        """pc_throughput_avg(packet_header_parser_alix_sptr self) -> float"""
+        return _ofdm_allocator_swig.packet_header_parser_alix_sptr_pc_throughput_avg(self)
+
+
+    def set_processor_affinity(self, mask):
+        """set_processor_affinity(packet_header_parser_alix_sptr self, std::vector< int,std::allocator< int > > const & mask)"""
+        return _ofdm_allocator_swig.packet_header_parser_alix_sptr_set_processor_affinity(self, mask)
+
+
+    def unset_processor_affinity(self):
+        """unset_processor_affinity(packet_header_parser_alix_sptr self)"""
+        return _ofdm_allocator_swig.packet_header_parser_alix_sptr_unset_processor_affinity(self)
+
+
+    def processor_affinity(self):
+        """processor_affinity(packet_header_parser_alix_sptr self) -> std::vector< int,std::allocator< int > >"""
+        return _ofdm_allocator_swig.packet_header_parser_alix_sptr_processor_affinity(self)
+
+
+    def active_thread_priority(self):
+        """active_thread_priority(packet_header_parser_alix_sptr self) -> int"""
+        return _ofdm_allocator_swig.packet_header_parser_alix_sptr_active_thread_priority(self)
+
+
+    def thread_priority(self):
+        """thread_priority(packet_header_parser_alix_sptr self) -> int"""
+        return _ofdm_allocator_swig.packet_header_parser_alix_sptr_thread_priority(self)
+
+
+    def set_thread_priority(self, priority):
+        """set_thread_priority(packet_header_parser_alix_sptr self, int priority) -> int"""
+        return _ofdm_allocator_swig.packet_header_parser_alix_sptr_set_thread_priority(self, priority)
+
+
+    def name(self):
+        """name(packet_header_parser_alix_sptr self) -> std::string"""
+        return _ofdm_allocator_swig.packet_header_parser_alix_sptr_name(self)
+
+
+    def symbol_name(self):
+        """symbol_name(packet_header_parser_alix_sptr self) -> std::string"""
+        return _ofdm_allocator_swig.packet_header_parser_alix_sptr_symbol_name(self)
+
+
+    def input_signature(self):
+        """input_signature(packet_header_parser_alix_sptr self) -> io_signature_sptr"""
+        return _ofdm_allocator_swig.packet_header_parser_alix_sptr_input_signature(self)
+
+
+    def output_signature(self):
+        """output_signature(packet_header_parser_alix_sptr self) -> io_signature_sptr"""
+        return _ofdm_allocator_swig.packet_header_parser_alix_sptr_output_signature(self)
+
+
+    def unique_id(self):
+        """unique_id(packet_header_parser_alix_sptr self) -> long"""
+        return _ofdm_allocator_swig.packet_header_parser_alix_sptr_unique_id(self)
+
+
+    def to_basic_block(self):
+        """to_basic_block(packet_header_parser_alix_sptr self) -> basic_block_sptr"""
+        return _ofdm_allocator_swig.packet_header_parser_alix_sptr_to_basic_block(self)
+
+
+    def check_topology(self, ninputs, noutputs):
+        """check_topology(packet_header_parser_alix_sptr self, int ninputs, int noutputs) -> bool"""
+        return _ofdm_allocator_swig.packet_header_parser_alix_sptr_check_topology(self, ninputs, noutputs)
+
+
+    def alias(self):
+        """alias(packet_header_parser_alix_sptr self) -> std::string"""
+        return _ofdm_allocator_swig.packet_header_parser_alix_sptr_alias(self)
+
+
+    def set_block_alias(self, name):
+        """set_block_alias(packet_header_parser_alix_sptr self, std::string name)"""
+        return _ofdm_allocator_swig.packet_header_parser_alix_sptr_set_block_alias(self, name)
+
+
+    def _post(self, which_port, msg):
+        """_post(packet_header_parser_alix_sptr self, swig_int_ptr which_port, swig_int_ptr msg)"""
+        return _ofdm_allocator_swig.packet_header_parser_alix_sptr__post(self, which_port, msg)
+
+
+    def message_ports_in(self):
+        """message_ports_in(packet_header_parser_alix_sptr self) -> swig_int_ptr"""
+        return _ofdm_allocator_swig.packet_header_parser_alix_sptr_message_ports_in(self)
+
+
+    def message_ports_out(self):
+        """message_ports_out(packet_header_parser_alix_sptr self) -> swig_int_ptr"""
+        return _ofdm_allocator_swig.packet_header_parser_alix_sptr_message_ports_out(self)
+
+
+    def message_subscribers(self, which_port):
+        """message_subscribers(packet_header_parser_alix_sptr self, swig_int_ptr which_port) -> swig_int_ptr"""
+        return _ofdm_allocator_swig.packet_header_parser_alix_sptr_message_subscribers(self, which_port)
+
+packet_header_parser_alix_sptr_swigregister = _ofdm_allocator_swig.packet_header_parser_alix_sptr_swigregister
+packet_header_parser_alix_sptr_swigregister(packet_header_parser_alix_sptr)
+
+
+packet_header_parser_alix_sptr.__repr__ = lambda self: "<gr_block %s (%d)>" % (self.name(), self.unique_id())
+packet_header_parser_alix = packet_header_parser_alix.make;
 
 
 

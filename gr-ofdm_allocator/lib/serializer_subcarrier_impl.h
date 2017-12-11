@@ -36,6 +36,12 @@ namespace gr {
        pmt::pmt_t d_carr_offset_key; //!< Key of the carrier offset tag
        int d_curr_set; //!< Current position in d_occupied_carriers
        int d_symbols_per_set;
+        bool d_fixed_pilot;
+        bool d_fixed_data;
+        int d_pilot_sub;
+        int d_vector_pilot;
+        int d_data_sub;
+        int d_vector_data;
        int d_input_is_shifted;
 
      protected:
@@ -46,6 +52,10 @@ namespace gr {
       serializer_subcarrier_impl(
 	  int fft_len,
     int vector_len,
+      bool fixed_pilot,
+      bool fixed_data,
+      int max_len_data_subcarr, int max_len_pilot_subcarr,
+      int max_vector_data_subcarr, int max_vector_pilot_subcarr,
 	  const std::string &len_tag_key,
 	  const std::string &packet_len_tag_key,
 	  int symbols_skipped,

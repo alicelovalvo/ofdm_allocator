@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <block>
-  <name>Constellation Decoder</name>
+  <name>Constellation Decoder Alix</name>
   <key>ofdm_allocator_constellation_decoder_alix</key>
   <category>OFDM ALLOCATOR</category>
   <import>import ofdm_allocator</import>

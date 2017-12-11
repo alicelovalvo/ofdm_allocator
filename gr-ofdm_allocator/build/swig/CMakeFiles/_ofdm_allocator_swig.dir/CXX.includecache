@@ -94,6 +94,14 @@ ofdm_allocator/api.h
 ofdm_allocator/packet_header_default_alix.h
 -
 
+../include/ofdm_allocator/packet_header_parser_alix.h
+ofdm_allocator/api.h
+-
+gnuradio/sync_block.h
+-
+ofdm_allocator/packet_header_default_alix.h
+-
+
 ../include/ofdm_allocator/serializer_subcarrier.h
 ofdm_allocator/api.h
 -
@@ -175,6 +183,8 @@ ofdm_allocator/metric_type_alix.h
 /home/alice/rfnoc/src/gr-ofdm_allocator/build/swig/ofdm_allocator/metric_type_alix.h
 ofdm_allocator/constellation_decoder_alix.h
 /home/alice/rfnoc/src/gr-ofdm_allocator/build/swig/ofdm_allocator/constellation_decoder_alix.h
+ofdm_allocator/packet_header_parser_alix.h
+/home/alice/rfnoc/src/gr-ofdm_allocator/build/swig/ofdm_allocator/packet_header_parser_alix.h
 float.h
 -
 math.h

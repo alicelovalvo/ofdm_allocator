@@ -96,9 +96,9 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:abce033ad8733c61bad3b37ceafbbe0fb"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classgr_1_1ofdm__allocator_1_1vector__source__tagged.html#aebd68bd56130611327e2ff5f25b90eeb">sptr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgr_1_1ofdm__allocator_1_1vector__source__tagged.html#abce033ad8733c61bad3b37ceafbbe0fb">make</a> (const std::vector&lt; int &gt; &amp;data, bool repeat=false, int vlen=1, bool fixed_data=false, int fft_len=64, int max_len_data_subcarr=48, int max_len_pilot_subcarr=10, int max_vector_data_subcarr=4, int max_vector_pilot_subcarr=1, bool fixed_pilot=false, const std::vector&lt; int &gt; &amp;pilot=std::vector&lt; int &gt;(), const std::string &amp;length_tag_key=&quot;vector_len&quot;, const std::vector&lt; tag_t &gt; &amp;tags=std::vector&lt; tag_t &gt;())</td></tr>
-<tr class="memdesc:abce033ad8733c61bad3b37ceafbbe0fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a shared_ptr to a new instance of <a class="el" href="classgr_1_1ofdm__allocator_1_1vector__source__tagged.html" title="&lt;+description of block+&gt; ">ofdm_allocator::vector_source_tagged</a>.  <a href="#abce033ad8733c61bad3b37ceafbbe0fb">More...</a><br /></td></tr>
-<tr class="separator:abce033ad8733c61bad3b37ceafbbe0fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5530376837aeb110794df61213911ff1"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classgr_1_1ofdm__allocator_1_1vector__source__tagged.html#aebd68bd56130611327e2ff5f25b90eeb">sptr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgr_1_1ofdm__allocator_1_1vector__source__tagged.html#a5530376837aeb110794df61213911ff1">make</a> (const std::vector&lt; int &gt; &amp;data, bool repeat=false, int vlen=1, bool fixed_data=false, int fft_len=64, int max_len_data_subcarr=48, int max_len_pilot_subcarr=10, int max_vector_data_subcarr=4, int max_vector_pilot_subcarr=1, bool fixed_pilot=false, const std::vector&lt; int &gt; &amp;pilot=std::vector&lt; int &gt;(), const std::string &amp;length_tag_key=&quot;vector_len&quot;, const std::string &amp;length_tag_key_2=&quot;packet_len&quot;, const std::vector&lt; tag_t &gt; &amp;tags=std::vector&lt; tag_t &gt;())</td></tr>
+<tr class="memdesc:a5530376837aeb110794df61213911ff1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a shared_ptr to a new instance of <a class="el" href="classgr_1_1ofdm__allocator_1_1vector__source__tagged.html" title="&lt;+description of block+&gt; ">ofdm_allocator::vector_source_tagged</a>.  <a href="#a5530376837aeb110794df61213911ff1">More...</a><br /></td></tr>
+<tr class="separator:a5530376837aeb110794df61213911ff1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>&lt;+description of block+&gt; </p>
@@ -141,7 +141,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="abce033ad8733c61bad3b37ceafbbe0fb"></a>
+<a class="anchor" id="a5530376837aeb110794df61213911ff1"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -223,6 +223,12 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>length_tag_key_2</em> = <code>&quot;packet_len&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">const std::vector&lt; tag_t &gt; &amp;&#160;</td>
           <td class="paramname"><em>tags</em> = <code>std::vector&lt;&#160;tag_t&#160;&gt;()</code>&#160;</td>
         </tr>
@@ -240,7 +246,7 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Return a shared_ptr to a new instance of <a class="el" href="classgr_1_1ofdm__allocator_1_1vector__source__tagged.html" title="&lt;+description of block+&gt; ">ofdm_allocator::vector_source_tagged</a>. </p>
-<p>To avoid accidental use of raw pointers, <a class="el" href="classgr_1_1ofdm__allocator_1_1vector__source__tagged.html" title="&lt;+description of block+&gt; ">ofdm_allocator::vector_source_tagged</a>'s constructor is in a private implementation class. <a class="el" href="classgr_1_1ofdm__allocator_1_1vector__source__tagged.html#abce033ad8733c61bad3b37ceafbbe0fb" title="Return a shared_ptr to a new instance of ofdm_allocator::vector_source_tagged. ">ofdm_allocator::vector_source_tagged::make</a> is the public interface for creating new instances. </p>
+<p>To avoid accidental use of raw pointers, <a class="el" href="classgr_1_1ofdm__allocator_1_1vector__source__tagged.html" title="&lt;+description of block+&gt; ">ofdm_allocator::vector_source_tagged</a>'s constructor is in a private implementation class. <a class="el" href="classgr_1_1ofdm__allocator_1_1vector__source__tagged.html#a5530376837aeb110794df61213911ff1" title="Return a shared_ptr to a new instance of ofdm_allocator::vector_source_tagged. ">ofdm_allocator::vector_source_tagged::make</a> is the public interface for creating new instances. </p>
 
 </div>
 </div>
@@ -390,7 +396,7 @@ Static Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacegr.html">gr</a></li><li class="navelem"><a class="el" href="namespacegr_1_1ofdm__allocator.html">ofdm_allocator</a></li><li class="navelem"><a class="el" href="classgr_1_1ofdm__allocator_1_1vector__source__tagged.html">vector_source_tagged</a></li>
-    <li class="footer">Generated on Sat Dec 9 2017 11:50:06 for GNU Radio&#39;s OFDM_ALLOCATOR Package by
+    <li class="footer">Generated on Mon Dec 11 2017 16:44:13 for GNU Radio&#39;s OFDM_ALLOCATOR Package by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

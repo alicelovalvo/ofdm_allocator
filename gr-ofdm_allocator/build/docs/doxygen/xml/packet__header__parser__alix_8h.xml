@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="packet__header__parser__alix_8h" kind="file" language="C++">
+    <compoundname>packet_header_parser_alix.h</compoundname>
+    <includes refid="api_8h" local="no">ofdm_allocator/api.h</includes>
+    <includes local="no">gnuradio/sync_block.h</includes>
+    <includes refid="packet__header__default__alix_8h" local="no">ofdm_allocator/packet_header_default_alix.h</includes>
+    <includedby refid="packet__header__parser__alix__impl_8h" local="no">packet_header_parser_alix_impl.h</includedby>
+    <incdepgraph>
+      <node id="167">
+        <label>packet_header_parser_alix.h</label>
+        <link refid="packet_header_parser_alix.h"/>
+        <childnode refid="168" relation="include">
+        </childnode>
+        <childnode refid="170" relation="include">
+        </childnode>
+        <childnode refid="171" relation="include">
+        </childnode>
+      </node>
+      <node id="170">
+        <label>gnuradio/sync_block.h</label>
+      </node>
+      <node id="172">
+        <label>gnuradio/tags.h</label>
+      </node>
+      <node id="169">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="171">
+        <label>ofdm_allocator/packet_header_default_alix.h</label>
+        <link refid="packet__header__default__alix_8h"/>
+        <childnode refid="172" relation="include">
+        </childnode>
+        <childnode refid="168" relation="include">
+        </childnode>
+        <childnode refid="173" relation="include">
+        </childnode>
+        <childnode refid="174" relation="include">
+        </childnode>
+      </node>
+      <node id="174">
+        <label>boost/crc.hpp</label>
+      </node>
+      <node id="173">
+        <label>boost/enable_shared_from_this.hpp</label>
+      </node>
+      <node id="168">
+        <label>ofdm_allocator/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="169" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="175">
+        <label>packet_header_parser_alix.h</label>
+        <link refid="packet_header_parser_alix.h"/>
+        <childnode refid="176" relation="include">
+        </childnode>
+      </node>
+      <node id="176">
+        <label>packet_header_parser_alix_impl.h</label>
+        <link refid="packet__header__parser__alix__impl_8h_source"/>
+      </node>
+    </invincdepgraph>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1ofdm__allocator">gr::ofdm_allocator</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/packet_header_parser_alix.h"/>
+  </compounddef>
+</doxygen>

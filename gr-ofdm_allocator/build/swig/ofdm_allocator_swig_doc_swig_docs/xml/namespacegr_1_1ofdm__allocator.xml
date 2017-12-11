@@ -23,6 +23,7 @@
     <innerclass refid="classgr_1_1ofdm__allocator_1_1packet__header__default__alix" prot="public">gr::ofdm_allocator::packet_header_default_alix</innerclass>
     <innerclass refid="classgr_1_1ofdm__allocator_1_1packet__header__gen" prot="public">gr::ofdm_allocator::packet_header_gen</innerclass>
     <innerclass refid="classgr_1_1ofdm__allocator_1_1packet__header__ofdm__alix" prot="public">gr::ofdm_allocator::packet_header_ofdm_alix</innerclass>
+    <innerclass refid="classgr_1_1ofdm__allocator_1_1packet__header__parser__alix" prot="public">gr::ofdm_allocator::packet_header_parser_alix</innerclass>
     <innerclass refid="classgr_1_1ofdm__allocator_1_1serializer__subcarrier" prot="public">gr::ofdm_allocator::serializer_subcarrier</innerclass>
     <innerclass refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged" prot="public">gr::ofdm_allocator::vector_source_tagged</innerclass>
       <sectiondef kind="enum">

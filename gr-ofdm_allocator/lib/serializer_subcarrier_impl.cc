@@ -32,6 +32,10 @@ namespace gr {
     serializer_subcarrier::make(
       int fft_len,
       int vector_len,
+      bool fixed_pilot,
+      bool fixed_data,
+      int max_len_data_subcarr, int max_len_pilot_subcarr,
+      int max_vector_data_subcarr, int max_vector_pilot_subcarr,
       const std::string &len_tag_key,
       const std::string &packet_len_tag_key,
       int symbols_skipped,
@@ -43,6 +47,7 @@ namespace gr {
         new serializer_subcarrier_impl(
           fft_len,
           vector_len,
+	  fixed_pilot, fixed_data, max_len_data_subcarr, max_len_pilot_subcarr, max_vector_data_subcarr, max_vector_pilot_subcarr,
 		      len_tag_key, packet_len_tag_key,
 		      symbols_skipped,
 		      carr_offset_key,
@@ -57,6 +62,10 @@ namespace gr {
     serializer_subcarrier_impl::serializer_subcarrier_impl(
       int fft_len,
       int vector_len,
+      bool fixed_pilot,
+      bool fixed_data,
+      int max_len_data_subcarr, int max_len_pilot_subcarr,
+      int max_vector_data_subcarr, int max_vector_pilot_subcarr,
       const std::string &len_tag_key,
       const std::string &packet_len_tag_key,
       int symbols_skipped,
@@ -65,7 +74,7 @@ namespace gr {
     )
       : gr::tagged_stream_block("serializer_subcarrier",
               gr::io_signature::make2(2, 2, sizeof (gr_complex) * fft_len, sizeof(int)*vector_len),
-              gr::io_signature::make(1, 1, sizeof (gr_complex)),
+              gr::io_signature::make2(2, 2, sizeof (gr_complex), sizeof(int)),
               len_tag_key),
       d_fft_len(fft_len),
       // d_occupied_carriers(occupied_carriers),
@@ -75,6 +84,12 @@ namespace gr {
       d_carr_offset_key(pmt::string_to_symbol(carr_offset_key)),
       d_curr_set(0),//symbols_skipped % occupied_carriers.size()),
       d_symbols_per_set(0),
+      d_fixed_pilot(fixed_pilot),
+      d_fixed_data(fixed_data),
+      d_pilot_sub(max_len_pilot_subcarr),
+      d_vector_pilot(max_vector_pilot_subcarr),
+      d_data_sub(max_len_data_subcarr),
+      d_vector_data(max_vector_data_subcarr),
       d_input_is_shifted(input_is_shifted)
     {
   //     for (unsigned i = 0; i < d_occupied_carriers.size(); i++) {
@@ -134,6 +149,7 @@ namespace gr {
       const gr_complex *in = (const gr_complex *) input_items[0];
       int *in2 = (int *) input_items[1];
       gr_complex *out = (gr_complex *) output_items[0];
+      int *out2 = (int *) output_items[1];
       long frame_length = ninput_items[0]; // Input frame
       long packet_length = 0; // Output frame
       int carr_offset = 0;
@@ -142,17 +158,21 @@ namespace gr {
       // set_relative_rate(ninput_items.size());
       set_tag_propagation_policy(TPP_DONT);
 
-      std::cout << "/* ninput */" << ninput_items[1] << '\n';
+//      std::cout << "/* ninput */" << ninput_items[1] << '\n';
       d_symbols_per_set = ninput_items[1];
 
       std::vector<int> vector_sub;
       std::vector<std::vector<int> > vector_vector_sub;
-
-
-        for (int i=0; i< (ninput_items[1]/48); i++){
-          // std::cout << "in2 : " ;
-         for(int j=0; j < 48; j++){
-           int cycle = i*48;
+	int header_len;
+         int interval = (ninput_items[1]-d_pilot_sub)/d_data_sub;
+         if (!d_fixed_pilot){
+           interval = (ninput_items[1]-(d_pilot_sub*d_vector_pilot))/d_data_sub;
+         }
+	// std::cout << "interval " << interval << '\n';
+        for (int i=0; i< interval; i++){
+           // std::cout << "in2 : " ;
+         for(int j=0; j < d_data_sub; j++){
+           int cycle = i*d_data_sub;
            if (in2[j+cycle] == 0){
              continue;
           } else{
@@ -171,25 +191,31 @@ namespace gr {
          }
         //   std::cout << "j: " <<j << '\n';
         //  // for(int i=0; i < in2[j].size(); i++){
-           // std::cout << in2[j+cycle] - 32 <<", ";
+            // std::cout << in2[j+cycle] - 32 <<", ";
         //   // }
           // std::fill (vector_sub.begin()+j,vector_sub.begin()+j+1,in2[j]);
           vector_sub.push_back(in2[j+cycle]);
           }
         }
+	if (i==0){
+	   header_len = vector_sub.size();
+	   std::cout << "header_len: " << header_len << '\n';
+	}
         if (vector_sub.size()!=0){
           vector_vector_sub.push_back(vector_sub);
           // std::cout << "##############################" << '\n';
           vector_sub.erase(vector_sub.begin(),vector_sub.end());
         }
       }
-      for (int l=0; l<vector_vector_sub.size();l++){
-        std::cout << "/* in2_vector: */";
-        for (int i=0; i<vector_vector_sub[l].size(); i++){
-          std::cout << vector_vector_sub[l][i] - 32 << ", ";
-        }
-        std::cout << '\n';
-      }
+//	std::cout << "vector_vector_sub.size" << vector_vector_sub.size() << '\n';
+//      for (int l=0; l<vector_vector_sub.size();l++){
+//        std::cout << "vector_vector_sub " << l << ": " << vector_vector_sub[l].size() << '\n';
+//        std::cout << "/* in2_vector: */";
+//        for (int i=0; i<vector_vector_sub[l].size(); i++){
+//          std::cout << vector_vector_sub[l][i] - 32 << ", ";
+//        }
+//        std::cout << '\n';
+//      }
       // std::cout << vector_vector_sub.size() <<"/* message */" << '\n';
 
       // Packet mode
@@ -234,6 +260,7 @@ namespace gr {
         }
         for (unsigned k = 0; k < vector_vector_sub[d_curr_set].size(); k++) {
           out[n_out_symbols++] = in[i * d_fft_len + vector_vector_sub[d_curr_set][k] + carr_offset];
+	  out2[k] = header_len;
         }
         if (packet_length && n_out_symbols > packet_length) {
           n_out_symbols = packet_length;

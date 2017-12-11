@@ -94,6 +94,14 @@ ofdm_allocator/api.h
 ofdm_allocator/packet_header_default_alix.h
 -
 
+../include/ofdm_allocator/packet_header_parser_alix.h
+ofdm_allocator/api.h
+-
+gnuradio/sync_block.h
+-
+ofdm_allocator/packet_header_default_alix.h
+-
+
 ../include/ofdm_allocator/serializer_subcarrier.h
 ofdm_allocator/api.h
 -
@@ -193,6 +201,8 @@ config.h
 /home/alice/rfnoc/src/gr-ofdm_allocator/lib/config.h
 string.h
 -
+iostream
+-
 ofdm_allocator/packet_header_default_alix.h
 -
 
@@ -217,9 +227,27 @@ config.h
 /home/alice/rfnoc/src/gr-ofdm_allocator/lib/config.h
 gnuradio/io_signature.h
 -
+iostream
+-
 ofdm_allocator/packet_header_ofdm_alix.h
 -
 gnuradio/digital/lfsr.h
+-
+
+/home/alice/rfnoc/src/gr-ofdm_allocator/lib/packet_header_parser_alix_impl.cc
+config.h
+/home/alice/rfnoc/src/gr-ofdm_allocator/lib/config.h
+boost/format.hpp
+-
+gnuradio/io_signature.h
+-
+packet_header_parser_alix_impl.h
+/home/alice/rfnoc/src/gr-ofdm_allocator/lib/packet_header_parser_alix_impl.h
+
+/home/alice/rfnoc/src/gr-ofdm_allocator/lib/packet_header_parser_alix_impl.h
+ofdm_allocator/packet_header_parser_alix.h
+-
+boost/crc.hpp
 -
 
 /home/alice/rfnoc/src/gr-ofdm_allocator/lib/serializer_subcarrier_impl.cc

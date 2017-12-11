@@ -23,6 +23,7 @@
 #endif
 
 #include <gnuradio/io_signature.h>
+#include <iostream>
 #include <ofdm_allocator/packet_header_ofdm_alix.h>
 #include <gnuradio/digital/lfsr.h>
 
@@ -109,13 +110,16 @@ namespace gr {
 
     bool packet_header_ofdm_alix::header_parser(
 	const unsigned char *in,
+  int header_length,
 	std::vector<tag_t> &tags)
     {
-      std::vector<unsigned char> in_descrambled(d_header_len, 0);
-      for (int i = 0; i < d_header_len; i++) {
+      // std::cout << "/* message */" << d_num_tag_key << '\n';
+
+      std::vector<unsigned char> in_descrambled(header_length, 0);
+      for (int i = 0; i < header_length; i++) {
       	in_descrambled[i] = in[i] ^ d_scramble_mask[i];
       }
-      if (!packet_header_default_alix::header_parser(&in_descrambled[0], tags)) {
+      if (!packet_header_default_alix::header_parser(&in_descrambled[0], header_length, tags)) {
 	return false;
       }
       int packet_len = 0; // # of bytes in this frame
@@ -137,7 +141,7 @@ namespace gr {
       int i = frame_len * d_syms_per_set;
       while (i < packet_len) {
 	frame_len++;
-	i += d_occupied_carriers[k].size();
+	i += header_length; //d_occupied_carriers[k].size(); //header_length;
       }
       tag_t tag;
       tag.key = d_frame_len_tag_key;

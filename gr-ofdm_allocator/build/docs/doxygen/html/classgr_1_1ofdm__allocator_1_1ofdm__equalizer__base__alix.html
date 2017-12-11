@@ -86,12 +86,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a2d1ecc940a342274daf8e967fb02e6bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad7f89b48ec0bcb6785451d2138639905"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__base__alix.html#ad7f89b48ec0bcb6785451d2138639905">~ofdm_equalizer_base_alix</a> ()</td></tr>
 <tr class="separator:ad7f89b48ec0bcb6785451d2138639905"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a15c852308caf8571770bb6a5a87cf3b7"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__base__alix.html#a15c852308caf8571770bb6a5a87cf3b7">reset</a> ()=0</td></tr>
-<tr class="memdesc:a15c852308caf8571770bb6a5a87cf3b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset the channel information state knowledge.  <a href="#a15c852308caf8571770bb6a5a87cf3b7">More...</a><br /></td></tr>
-<tr class="separator:a15c852308caf8571770bb6a5a87cf3b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e8d476b0c145a0a6fb442ea7335cd71"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__base__alix.html#a8e8d476b0c145a0a6fb442ea7335cd71">equalize</a> (gr_complex *frame, int n_sym, const std::vector&lt; gr_complex &gt; &amp;initial_taps=std::vector&lt; gr_complex &gt;(), const std::vector&lt; bool &gt; &amp;occupied_carriers=std::vector&lt; bool &gt;(), const std::vector&lt; tag_t &gt; &amp;tags=std::vector&lt; tag_t &gt;())=0</td></tr>
-<tr class="memdesc:a8e8d476b0c145a0a6fb442ea7335cd71"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run the actual equalization.  <a href="#a8e8d476b0c145a0a6fb442ea7335cd71">More...</a><br /></td></tr>
-<tr class="separator:a8e8d476b0c145a0a6fb442ea7335cd71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad302ebfdd8ec2a1c1b2b18ed0a35fdcb"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__base__alix.html#ad302ebfdd8ec2a1c1b2b18ed0a35fdcb">reset</a> (const std::vector&lt; std::vector&lt; bool &gt; &gt; &amp;pilot_carriers)=0</td></tr>
+<tr class="memdesc:ad302ebfdd8ec2a1c1b2b18ed0a35fdcb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset the channel information state knowledge.  <a href="#ad302ebfdd8ec2a1c1b2b18ed0a35fdcb">More...</a><br /></td></tr>
+<tr class="separator:ad302ebfdd8ec2a1c1b2b18ed0a35fdcb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb307145957c3710a16f3c682088cd4d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__base__alix.html#abb307145957c3710a16f3c682088cd4d">equalize</a> (gr_complex *frame, int n_sym, const std::vector&lt; gr_complex &gt; &amp;initial_taps=std::vector&lt; gr_complex &gt;(), const std::vector&lt; bool &gt; &amp;occupied_carriers=std::vector&lt; bool &gt;(), const std::vector&lt; std::vector&lt; bool &gt; &gt; &amp;pilot_carriers=std::vector&lt; std::vector&lt; bool &gt; &gt;(), const std::vector&lt; std::vector&lt; gr_complex &gt; &gt; &amp;pilot_symbols=std::vector&lt; std::vector&lt; gr_complex &gt; &gt;(), const std::vector&lt; tag_t &gt; &amp;tags=std::vector&lt; tag_t &gt;())=0</td></tr>
+<tr class="memdesc:abb307145957c3710a16f3c682088cd4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run the actual equalization.  <a href="#abb307145957c3710a16f3c682088cd4d">More...</a><br /></td></tr>
+<tr class="separator:abb307145957c3710a16f3c682088cd4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a179d8dc94cc6a0a71399c52d8d67873f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__base__alix.html#a179d8dc94cc6a0a71399c52d8d67873f">get_channel_state</a> (std::vector&lt; gr_complex &gt; &amp;taps)=0</td></tr>
 <tr class="memdesc:a179d8dc94cc6a0a71399c52d8d67873f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the current channel state.  <a href="#a179d8dc94cc6a0a71399c52d8d67873f">More...</a><br /></td></tr>
 <tr class="separator:a179d8dc94cc6a0a71399c52d8d67873f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -176,7 +176,7 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a8e8d476b0c145a0a6fb442ea7335cd71"></a>
+<a class="anchor" id="abb307145957c3710a16f3c682088cd4d"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -210,6 +210,18 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const std::vector&lt; std::vector&lt; bool &gt; &gt; &amp;&#160;</td>
+          <td class="paramname"><em>pilot_carriers</em> = <code>std::vector&lt;&#160;std::vector&lt;&#160;bool&#160;&gt;&#160;&gt;()</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; std::vector&lt; gr_complex &gt; &gt; &amp;&#160;</td>
+          <td class="paramname"><em>pilot_symbols</em> = <code>std::vector&lt;&#160;std::vector&lt;&#160;gr_complex&#160;&gt;&#160;&gt;()</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">const std::vector&lt; tag_t &gt; &amp;&#160;</td>
           <td class="paramname"><em>tags</em> = <code>std::vector&lt;&#160;tag_t&#160;&gt;()</code>&#160;</td>
         </tr>
@@ -228,7 +240,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Run the actual equalization. </p>
 
-<p>Implemented in <a class="el" href="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__simpledfe__alix.html#a0fa218fdc2984f3cb028985ffa441cd3">gr::ofdm_allocator::ofdm_equalizer_simpledfe_alix</a>.</p>
+<p>Implemented in <a class="el" href="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__simpledfe__alix.html#a9e94b48df3035dbb52c54ceb5cb9c6f4">gr::ofdm_allocator::ofdm_equalizer_simpledfe_alix</a>.</p>
 
 </div>
 </div>
@@ -283,7 +295,7 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a15c852308caf8571770bb6a5a87cf3b7"></a>
+<a class="anchor" id="ad302ebfdd8ec2a1c1b2b18ed0a35fdcb"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -293,7 +305,8 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="memname">virtual void gr::ofdm_allocator::ofdm_equalizer_base_alix::reset </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">const std::vector&lt; std::vector&lt; bool &gt; &gt; &amp;&#160;</td>
+          <td class="paramname"><em>pilot_carriers</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -306,7 +319,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Reset the channel information state knowledge. </p>
 
-<p>Implemented in <a class="el" href="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix.html#ae14ec945bc49a7199fd392f1e0e5f79f">gr::ofdm_allocator::ofdm_equalizer_1d_pilots_alix</a>.</p>
+<p>Implemented in <a class="el" href="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix.html#a4d84a70e07e536ee41799877b419c6b3">gr::ofdm_allocator::ofdm_equalizer_1d_pilots_alix</a>.</p>
 
 </div>
 </div>
@@ -340,7 +353,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacegr.html">gr</a></li><li class="navelem"><a class="el" href="namespacegr_1_1ofdm__allocator.html">ofdm_allocator</a></li><li class="navelem"><a class="el" href="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__base__alix.html">ofdm_equalizer_base_alix</a></li>
-    <li class="footer">Generated on Sat Dec 9 2017 11:50:06 for GNU Radio&#39;s OFDM_ALLOCATOR Package by
+    <li class="footer">Generated on Mon Dec 11 2017 16:44:13 for GNU Radio&#39;s OFDM_ALLOCATOR Package by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

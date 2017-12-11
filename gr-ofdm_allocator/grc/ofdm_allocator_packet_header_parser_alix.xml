@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<block>
+  <name>Packet Header Parser Alix</name>
+  <key>ofdm_allocator_packet_header_parser_alix</key>
+  <category>OFDM ALLOCATOR</category>
+  <import>import ofdm_allocator</import>
+  <make>ofdm_allocator.packet_header_parser_alix($header_formatter, $len_tag_key, $num_tag_key)</make>
+  <param>
+    <name>Formatter Object</name>
+    <key>header_formatter</key>
+    <type>raw</type>
+  </param>
+  <param>
+    <name>Len_tag_key</name>
+    <key>len_tag_key</key>
+    <value> "packet_len"</value>
+    <type>string</type>
+  </param>
+  <param>
+    <name>Num_tag_key</name>
+    <key>num_tag_key</key>
+    <value> "packet_len"</value>
+    <type>string</type>
+  </param>
+  <sink>
+    <name>in</name>
+    <type>byte</type>
+  </sink>
+  <sink>
+    <name>in2</name>
+    <type>int</type>
+  </sink>
+  <source>
+    <name>header_data</name>
+    <type>message</type>
+  </source>
+</block>

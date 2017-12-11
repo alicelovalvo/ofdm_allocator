@@ -49,6 +49,10 @@ namespace gr {
       static sptr make(
   	  int fft_len,
       int vector_len,
+      bool fixed_pilot=true,
+      bool fixed_data=true,
+      int max_len_data_subcarr=48, int max_len_pilot_subcarr=4,
+      int max_vector_data_subcarr=1, int max_vector_pilot_subcarr=1,
   	  const std::string &len_tag_key="frame_len",
   	  const std::string &packet_len_tag_key="",
   	  int symbols_skipped=0,

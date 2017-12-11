@@ -6,6 +6,7 @@
     <innerfile refid="constellation__decoder__alix__impl_8h">constellation_decoder_alix_impl.h</innerfile>
     <innerfile refid="frame__equalizer__alix__impl_8h">frame_equalizer_alix_impl.h</innerfile>
     <innerfile refid="packet__header__gen__impl_8h">packet_header_gen_impl.h</innerfile>
+    <innerfile refid="packet__header__parser__alix__impl_8h">packet_header_parser_alix_impl.h</innerfile>
     <innerfile refid="serializer__subcarrier__impl_8h">serializer_subcarrier_impl.h</innerfile>
     <innerfile refid="vector__source__tagged__impl_8h">vector_source_tagged_impl.h</innerfile>
     <briefdescription>

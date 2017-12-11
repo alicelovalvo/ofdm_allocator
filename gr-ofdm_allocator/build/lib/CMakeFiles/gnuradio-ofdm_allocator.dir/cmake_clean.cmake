@@ -10,6 +10,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/gnuradio-ofdm_allocator.dir/frame_equalizer_alix_impl.cc.o"
   "CMakeFiles/gnuradio-ofdm_allocator.dir/constellation_alix.cc.o"
   "CMakeFiles/gnuradio-ofdm_allocator.dir/constellation_decoder_alix_impl.cc.o"
+  "CMakeFiles/gnuradio-ofdm_allocator.dir/packet_header_parser_alix_impl.cc.o"
   "libgnuradio-ofdm_allocator.pdb"
   "libgnuradio-ofdm_allocator.so"
 )

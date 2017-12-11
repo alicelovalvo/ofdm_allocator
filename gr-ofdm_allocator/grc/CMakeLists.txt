@@ -29,5 +29,6 @@ install(FILES
     ofdm_allocator_frame_equalizer_alix.xml
     ofdm_allocator_constellation_alix.xml
     ofdm_allocator_metric_type_alix.xml
-    ofdm_allocator_constellation_decoder_alix.xml DESTINATION share/gnuradio/grc/blocks
+    ofdm_allocator_constellation_decoder_alix.xml
+    ofdm_allocator_packet_header_parser_alix.xml DESTINATION share/gnuradio/grc/blocks
 )

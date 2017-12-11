@@ -9,51 +9,51 @@
     <includedby refid="frame__equalizer__alix_8h" local="no">/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/frame_equalizer_alix.h</includedby>
     <includedby refid="ofdm__equalizer__simpledfe__alix_8h" local="no">/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/ofdm_equalizer_simpledfe_alix.h</includedby>
     <incdepgraph>
-      <node id="60">
+      <node id="61">
         <label>gnuradio/tags.h</label>
       </node>
-      <node id="59">
+      <node id="60">
         <label>gnuradio/attributes.h</label>
       </node>
-      <node id="57">
+      <node id="58">
         <label>/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/ofdm_equalizer_base_alix.h</label>
         <link refid="ofdm_equalizer_base_alix.h"/>
-        <childnode refid="58" relation="include">
-        </childnode>
-        <childnode refid="60" relation="include">
+        <childnode refid="59" relation="include">
         </childnode>
         <childnode refid="61" relation="include">
         </childnode>
         <childnode refid="62" relation="include">
         </childnode>
-      </node>
-      <node id="61">
-        <label>gnuradio/gr_complex.h</label>
+        <childnode refid="63" relation="include">
+        </childnode>
       </node>
       <node id="62">
+        <label>gnuradio/gr_complex.h</label>
+      </node>
+      <node id="63">
         <label>boost/enable_shared_from_this.hpp</label>
       </node>
-      <node id="58">
+      <node id="59">
         <label>ofdm_allocator/api.h</label>
         <link refid="api_8h"/>
-        <childnode refid="59" relation="include">
+        <childnode refid="60" relation="include">
         </childnode>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="65">
+      <node id="66">
         <label>/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/ofdm_equalizer_simpledfe_alix.h</label>
         <link refid="ofdm__equalizer__simpledfe__alix_8h"/>
       </node>
-      <node id="63">
+      <node id="64">
         <label>/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/ofdm_equalizer_base_alix.h</label>
         <link refid="ofdm_equalizer_base_alix.h"/>
-        <childnode refid="64" relation="include">
-        </childnode>
         <childnode refid="65" relation="include">
         </childnode>
+        <childnode refid="66" relation="include">
+        </childnode>
       </node>
-      <node id="64">
+      <node id="65">
         <label>/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/frame_equalizer_alix.h</label>
         <link refid="frame__equalizer__alix_8h"/>
       </node>
@@ -113,56 +113,58 @@
 <codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>virtual<sp/>~ofdm_equalizer_base_alix();</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>~<ref refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__base__alix" kindref="compound">ofdm_equalizer_base_alix</ref>();</highlight></codeline>
 <codeline lineno="50"><highlight class="normal"></highlight></codeline>
-<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>reset()<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>reset(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;std::vector&lt;bool&gt;<sp/>&gt;<sp/>&amp;pilot_carriers)<sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>equalize(</highlight></codeline>
 <codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>gr_complex<sp/>*frame,</highlight></codeline>
 <codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>n_sym,</highlight></codeline>
 <codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;gr_complex&gt;<sp/>&amp;initial_taps<sp/>=<sp/>std::vector&lt;gr_complex&gt;(),</highlight></codeline>
 <codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;bool&gt;<sp/>&amp;occupied_carriers<sp/>=<sp/>std::vector&lt;bool&gt;<sp/>(),</highlight></codeline>
-<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;tag_t&gt;<sp/>&amp;tags<sp/>=<sp/>std::vector&lt;tag_t&gt;())<sp/>=<sp/>0;</highlight></codeline>
-<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>get_channel_state(std::vector&lt;gr_complex&gt;<sp/>&amp;taps)<sp/>=<sp/>0;</highlight></codeline>
-<codeline lineno="62" refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__base__alix_1a4d8e3789a81c714a1c21e02e190ba9cc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__base__alix_1a4d8e3789a81c714a1c21e02e190ba9cc" kindref="member">fft_len</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d_fft_len;<sp/>};</highlight></codeline>
-<codeline lineno="63" refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__base__alix_1a67e1b0098c9bd45f690b2585ef97f8a2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>sptr<sp/><ref refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__base__alix_1a67e1b0098c9bd45f690b2585ef97f8a2" kindref="member">base</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>shared_from_this();<sp/>};</highlight></codeline>
-<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/>};</highlight></codeline>
-<codeline lineno="65"><highlight class="normal"></highlight></codeline>
-<codeline lineno="66"><highlight class="normal"></highlight></codeline>
-<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>\brief<sp/>Base<sp/>class<sp/>for<sp/>implementation<sp/>details<sp/>of<sp/>1-dimensional<sp/>OFDM<sp/>FDEs<sp/>which<sp/>use<sp/>pilot<sp/>tones.</highlight></codeline>
-<codeline lineno="68"><highlight class="comment"><sp/><sp/><sp/><sp/>*<sp/>\ingroup<sp/>digital</highlight></codeline>
-<codeline lineno="69"><highlight class="comment"><sp/><sp/><sp/><sp/>*</highlight></codeline>
-<codeline lineno="70"><highlight class="comment"><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="71" refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix" refkind="compound"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="api_8h_1a6bdf34825f6b4a40a71a2c4546136120" kindref="member">OFDM_ALLOCATOR_API</ref><sp/><ref refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix" kindref="compound">ofdm_equalizer_1d_pilots_alix</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__base__alix" kindref="compound">ofdm_equalizer_base_alix</ref></highlight></codeline>
-<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>(this<sp/>is<sp/>a<sp/>different<sp/>format<sp/>than<sp/>occupied_carriers!)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="76" refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix_1a67fbf4d451253ad82c07b046d774b3b3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>std::vector&lt;bool&gt;<sp/><ref refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix_1a67fbf4d451253ad82c07b046d774b3b3" kindref="member">d_occupied_carriers</ref>;</highlight></codeline>
-<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>(this<sp/>is<sp/>a<sp/>different<sp/>format<sp/>than<sp/>pilot_carriers!)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="79" refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix_1a210620287ce954d0ecc4a56416fe2a7b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>std::vector&lt;std::vector&lt;bool&gt;<sp/>&gt;<sp/><ref refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix_1a210620287ce954d0ecc4a56416fe2a7b" kindref="member">d_pilot_carriers</ref>;</highlight></codeline>
-<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>(this<sp/>is<sp/>a<sp/>different<sp/>format<sp/>than<sp/>pilot_symbols!)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="82" refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix_1a7cc369365e82378964c38490dbb72a4c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>std::vector&lt;std::vector&lt;gr_complex&gt;<sp/>&gt;<sp/><ref refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix_1a7cc369365e82378964c38490dbb72a4c" kindref="member">d_pilot_symbols</ref>;</highlight></codeline>
-<codeline lineno="84" refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix_1a7344a8919f08e12c7025b6f9ac89392d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix_1a7344a8919f08e12c7025b6f9ac89392d" kindref="member">d_symbols_skipped</ref>;</highlight></codeline>
-<codeline lineno="86" refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix_1a24151393c1f8f190eb9a15a71ff7cd56" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix_1a24151393c1f8f190eb9a15a71ff7cd56" kindref="member">d_pilot_carr_set</ref>;</highlight></codeline>
-<codeline lineno="88" refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix_1adc166f8c1c006ceee9742a618fffd535" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>std::vector&lt;gr_complex&gt;<sp/><ref refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix_1adc166f8c1c006ceee9742a618fffd535" kindref="member">d_channel_state</ref>;</highlight></codeline>
-<codeline lineno="89"><highlight class="normal"></highlight></codeline>
-<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="91" refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix_1aa2a54b796f4d9911ec91435b59a1987e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>boost::shared_ptr&lt;ofdm_equalizer_1d_pilots_alix&gt;<sp/><ref refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix_1aa2a54b796f4d9911ec91435b59a1987e" kindref="member">sptr</ref>;</highlight></codeline>
-<codeline lineno="92"><highlight class="normal"></highlight></codeline>
-<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix" kindref="compound">ofdm_equalizer_1d_pilots_alix</ref>(</highlight></codeline>
-<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>fft_len,</highlight></codeline>
-<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;std::vector&lt;int&gt;<sp/>&gt;<sp/>&amp;occupied_carriers,</highlight></codeline>
-<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;std::vector&lt;int&gt;<sp/>&gt;<sp/>&amp;pilot_carriers,</highlight></codeline>
-<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;std::vector&lt;gr_complex&gt;<sp/>&gt;<sp/>&amp;pilot_symbols,</highlight></codeline>
-<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>symbols_skipped,</highlight></codeline>
-<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>input_is_shifted);</highlight></codeline>
-<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>~<ref refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix" kindref="compound">ofdm_equalizer_1d_pilots_alix</ref>();</highlight></codeline>
-<codeline lineno="101"><highlight class="normal"></highlight></codeline>
-<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>reset();</highlight></codeline>
-<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>get_channel_state(std::vector&lt;gr_complex&gt;<sp/>&amp;taps);</highlight></codeline>
-<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/>};</highlight></codeline>
-<codeline lineno="105"><highlight class="normal"></highlight></codeline>
-<codeline lineno="106"><highlight class="normal"><sp/><sp/>}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>ofdm_allocator</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="107"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>gr</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="108"><highlight class="normal"></highlight></codeline>
-<codeline lineno="109"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>INCLUDED_OFDM_ALLOCATOR_OFDM_EQUALIZER_BASE_ALIX_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;std::vector&lt;bool&gt;<sp/>&gt;<sp/>&amp;pilot_carriers<sp/>=<sp/>std::vector&lt;std::vector&lt;bool&gt;<sp/>&gt;<sp/>(),</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;std::vector&lt;gr_complex&gt;<sp/>&gt;<sp/>&amp;pilot_symbols<sp/>=<sp/>std::vector&lt;std::vector&lt;gr_complex&gt;<sp/>&gt;(),</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;tag_t&gt;<sp/>&amp;tags<sp/>=<sp/>std::vector&lt;tag_t&gt;())<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>get_channel_state(std::vector&lt;gr_complex&gt;<sp/>&amp;taps)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="64" refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__base__alix_1a4d8e3789a81c714a1c21e02e190ba9cc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__base__alix_1a4d8e3789a81c714a1c21e02e190ba9cc" kindref="member">fft_len</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d_fft_len;<sp/>};</highlight></codeline>
+<codeline lineno="65" refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__base__alix_1a67e1b0098c9bd45f690b2585ef97f8a2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>sptr<sp/><ref refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__base__alix_1a67e1b0098c9bd45f690b2585ef97f8a2" kindref="member">base</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>shared_from_this();<sp/>};</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>\brief<sp/>Base<sp/>class<sp/>for<sp/>implementation<sp/>details<sp/>of<sp/>1-dimensional<sp/>OFDM<sp/>FDEs<sp/>which<sp/>use<sp/>pilot<sp/>tones.</highlight></codeline>
+<codeline lineno="70"><highlight class="comment"><sp/><sp/><sp/><sp/>*<sp/>\ingroup<sp/>digital</highlight></codeline>
+<codeline lineno="71"><highlight class="comment"><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="72"><highlight class="comment"><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix" refkind="compound"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="api_8h_1a6bdf34825f6b4a40a71a2c4546136120" kindref="member">OFDM_ALLOCATOR_API</ref><sp/><ref refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix" kindref="compound">ofdm_equalizer_1d_pilots_alix</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__base__alix" kindref="compound">ofdm_equalizer_base_alix</ref></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>(this<sp/>is<sp/>a<sp/>different<sp/>format<sp/>than<sp/>occupied_carriers!)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix_1a67fbf4d451253ad82c07b046d774b3b3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>std::vector&lt;bool&gt;<sp/><ref refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix_1a67fbf4d451253ad82c07b046d774b3b3" kindref="member">d_occupied_carriers</ref>;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>(this<sp/>is<sp/>a<sp/>different<sp/>format<sp/>than<sp/>pilot_carriers!)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81" refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix_1a210620287ce954d0ecc4a56416fe2a7b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>std::vector&lt;std::vector&lt;bool&gt;<sp/>&gt;<sp/><ref refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix_1a210620287ce954d0ecc4a56416fe2a7b" kindref="member">d_pilot_carriers</ref>;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>(this<sp/>is<sp/>a<sp/>different<sp/>format<sp/>than<sp/>pilot_symbols!)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84" refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix_1a7cc369365e82378964c38490dbb72a4c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>std::vector&lt;std::vector&lt;gr_complex&gt;<sp/>&gt;<sp/><ref refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix_1a7cc369365e82378964c38490dbb72a4c" kindref="member">d_pilot_symbols</ref>;</highlight></codeline>
+<codeline lineno="86" refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix_1a7344a8919f08e12c7025b6f9ac89392d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix_1a7344a8919f08e12c7025b6f9ac89392d" kindref="member">d_symbols_skipped</ref>;</highlight></codeline>
+<codeline lineno="88" refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix_1a24151393c1f8f190eb9a15a71ff7cd56" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix_1a24151393c1f8f190eb9a15a71ff7cd56" kindref="member">d_pilot_carr_set</ref>;</highlight></codeline>
+<codeline lineno="90" refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix_1adc166f8c1c006ceee9742a618fffd535" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>std::vector&lt;gr_complex&gt;<sp/><ref refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix_1adc166f8c1c006ceee9742a618fffd535" kindref="member">d_channel_state</ref>;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="93" refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix_1aa2a54b796f4d9911ec91435b59a1987e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>boost::shared_ptr&lt;ofdm_equalizer_1d_pilots_alix&gt;<sp/><ref refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix_1aa2a54b796f4d9911ec91435b59a1987e" kindref="member">sptr</ref>;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix" kindref="compound">ofdm_equalizer_1d_pilots_alix</ref>(</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>fft_len,</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;std::vector&lt;int&gt;<sp/>&gt;<sp/>&amp;occupied_carriers,</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;std::vector&lt;int&gt;<sp/>&gt;<sp/>&amp;pilot_carriers,</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;std::vector&lt;gr_complex&gt;<sp/>&gt;<sp/>&amp;pilot_symbols,</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>symbols_skipped,</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>input_is_shifted);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>~<ref refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix" kindref="compound">ofdm_equalizer_1d_pilots_alix</ref>();</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>reset(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;std::vector&lt;bool&gt;<sp/>&gt;<sp/>&amp;pilot_carriers);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>get_channel_state(std::vector&lt;gr_complex&gt;<sp/>&amp;taps);</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/>}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>ofdm_allocator</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>gr</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>INCLUDED_OFDM_ALLOCATOR_OFDM_EQUALIZER_BASE_ALIX_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
     </programlisting>
     <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/ofdm_equalizer_base_alix.h"/>
   </compounddef>

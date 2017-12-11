@@ -438,6 +438,33 @@ packet_header_ofdm_alix.cc.s:
 	cd /home/alice/rfnoc/src/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/packet_header_ofdm_alix.cc.s
 .PHONY : packet_header_ofdm_alix.cc.s
 
+packet_header_parser_alix_impl.o: packet_header_parser_alix_impl.cc.o
+
+.PHONY : packet_header_parser_alix_impl.o
+
+# target to build an object file
+packet_header_parser_alix_impl.cc.o:
+	cd /home/alice/rfnoc/src/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/packet_header_parser_alix_impl.cc.o
+.PHONY : packet_header_parser_alix_impl.cc.o
+
+packet_header_parser_alix_impl.i: packet_header_parser_alix_impl.cc.i
+
+.PHONY : packet_header_parser_alix_impl.i
+
+# target to preprocess a source file
+packet_header_parser_alix_impl.cc.i:
+	cd /home/alice/rfnoc/src/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/packet_header_parser_alix_impl.cc.i
+.PHONY : packet_header_parser_alix_impl.cc.i
+
+packet_header_parser_alix_impl.s: packet_header_parser_alix_impl.cc.s
+
+.PHONY : packet_header_parser_alix_impl.s
+
+# target to generate assembly for a file
+packet_header_parser_alix_impl.cc.s:
+	cd /home/alice/rfnoc/src/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/packet_header_parser_alix_impl.cc.s
+.PHONY : packet_header_parser_alix_impl.cc.s
+
 qa_ofdm_allocator.o: qa_ofdm_allocator.cc.o
 
 .PHONY : qa_ofdm_allocator.o
@@ -588,6 +615,9 @@ help:
 	@echo "... packet_header_ofdm_alix.o"
 	@echo "... packet_header_ofdm_alix.i"
 	@echo "... packet_header_ofdm_alix.s"
+	@echo "... packet_header_parser_alix_impl.o"
+	@echo "... packet_header_parser_alix_impl.i"
+	@echo "... packet_header_parser_alix_impl.s"
 	@echo "... qa_ofdm_allocator.o"
 	@echo "... qa_ofdm_allocator.i"
 	@echo "... qa_ofdm_allocator.s"

@@ -76,24 +76,24 @@ namespace gr {
 //	  }
 //	}
 //      }
-      if (pilot_carriers.size()) {
-	for (unsigned i = 0; i < pilot_carriers.size(); i++) {
-	  if (pilot_carriers[i].size() != pilot_symbols[i].size()) {
-	    throw std::invalid_argument("pilot carriers and -symbols do not match.");
-	  }
-	  for (unsigned k = 0; k < pilot_carriers[i].size(); k++) {
-	    int carr_index = pilot_carriers[i][k];
-	    if (pilot_carriers[i][k] < 0) {
-	      carr_index += fft_len;
-	    }
-	    if (carr_index >= fft_len || carr_index < 0) {
-	      throw std::invalid_argument("pilot carrier index out of bounds.");
-	    }
-	    d_pilot_carriers[i][(carr_index + fft_shift_width) % fft_len] = true;
-	    d_pilot_symbols[i][(carr_index + fft_shift_width) % fft_len] = pilot_symbols[i][k];
-	  }
-	}
-      }
+//      if (pilot_carriers.size()) {
+//	for (unsigned i = 0; i < pilot_carriers.size(); i++) {
+//	  if (pilot_carriers[i].size() != pilot_symbols[i].size()) {
+//	    throw std::invalid_argument("pilot carriers and -symbols do not match.");
+//	  }
+//	  for (unsigned k = 0; k < pilot_carriers[i].size(); k++) {
+//	    int carr_index = pilot_carriers[i][k];
+//	    if (pilot_carriers[i][k] < 0) {
+//	      carr_index += fft_len;
+//	    }
+//	    if (carr_index >= fft_len || carr_index < 0) {
+//	      throw std::invalid_argument("pilot carrier index out of bounds.");
+//	    }
+//	    d_pilot_carriers[i][(carr_index + fft_shift_width) % fft_len] = true;
+//	    d_pilot_symbols[i][(carr_index + fft_shift_width) % fft_len] = pilot_symbols[i][k];
+//	  }
+//	}
+//    }
     }
 
 
@@ -103,10 +103,10 @@ namespace gr {
 
 
     void
-    ofdm_equalizer_1d_pilots_alix::reset()
+    ofdm_equalizer_1d_pilots_alix::reset(const std::vector<std::vector<bool> > &pilot_carriers)
     {
       std::fill(d_channel_state.begin(), d_channel_state.end(), gr_complex(1, 0));
-      d_pilot_carr_set = d_pilot_carriers.empty() ? 0 : d_symbols_skipped % d_pilot_carriers.size();
+      d_pilot_carr_set = pilot_carriers.empty() ? 0 : d_symbols_skipped % pilot_carriers.size();
     }
 
 

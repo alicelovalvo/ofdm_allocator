@@ -34,9 +34,13 @@ namespace gr {
        ofdm_equalizer_base_alix::sptr d_eq;
        bool d_propagate_channel_state;
        bool d_fixed_pilot;
+       bool d_fixed_data;
        int d_pilot_sub;
        int d_data_sub;
+       int d_vector_data;
        int d_vector_pilot;
+       std::vector<std::vector<gr_complex> > d_pilot_symbols_input;
+       std::vector<std::vector<gr_complex> > d_pilot_symbols;
        bool d_input_is_shifted;
        const int d_fixed_frame_len;
        std::vector<gr_complex> d_channel_state;
@@ -55,8 +59,10 @@ namespace gr {
         int vector_len,
         int cp_len,
         bool fixed_pilot,
+	bool fixed_data,
         int max_len_data_subcarr, int max_len_pilot_subcarr,
-        int max_vector_pilot_subcarr,
+        int max_vector_data_subcarrier, int max_vector_pilot_subcarr,
+	const std::vector<std::vector<gr_complex> > &pilot_symbols,
         const std::string &tsb_key,
         bool propagate_channel_state,
         int fixed_frame_len,

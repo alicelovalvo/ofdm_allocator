@@ -4,7 +4,7 @@
   <key>ofdm_allocator_vector_source_tagged</key>
   <category>OFDM ALLOCATOR</category>
   <import>import ofdm_allocator</import>
-  <make>ofdm_allocator.vector_source_tagged($data, $repeat, $vlen, $fixed_data, $fft_len, $max_len_data_subcarr, $max_len_pilot_subcarr, $max_vector_data_subcarr, $max_vector_pilot_subcarr, $fixed_pilot, $pilot, $length_tag_key, $tags)</make>
+  <make>ofdm_allocator.vector_source_tagged($data, $repeat, $vlen, $fixed_data, $fft_len, $max_len_data_subcarr, $max_len_pilot_subcarr, $max_vector_data_subcarr, $max_vector_pilot_subcarr, $fixed_pilot, $pilot, $length_tag_key, $length_tag_key_2, $tags)</make>
   <callback>set_data($data, $tags)</callback>
   <callback>set_random_vector()</callback>
   <param>
@@ -102,6 +102,12 @@
   <name>Length tag key</name>
   <key>length_tag_key</key>
   <value>"vector_len"</value>
+  <type>string</type>
+</param>
+<param>
+  <name>Length tag key 2</name>
+  <key>length_tag_key_2</key>
+  <value>"packet_len"</value>
   <type>string</type>
 </param>
 <check>$vlen &gt; 0</check>

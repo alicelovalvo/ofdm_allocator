@@ -40,8 +40,10 @@ namespace gr {
       int vector_len,
       int cp_len,
       bool fixed_pilot,
+      bool fixed_data,
       int max_len_data_subcarr, int max_len_pilot_subcarr,
-      int max_vector_pilot_subcarr,
+      int max_vector_data_subcarr, int max_vector_pilot_subcarr,
+      const std::vector<std::vector<gr_complex> > &pilot_symbols,
       const std::string &tsb_key,
       bool propagate_channel_state,
       int fixed_frame_len,
@@ -50,7 +52,7 @@ namespace gr {
     {
       return gnuradio::get_initial_sptr
         (new frame_equalizer_alix_impl(
-    	    equalizer, vector_len, cp_len, fixed_pilot, max_len_data_subcarr, max_len_pilot_subcarr, max_vector_pilot_subcarr, tsb_key, propagate_channel_state, fixed_frame_len, input_is_shifted));
+    	    equalizer, vector_len, cp_len, fixed_pilot, fixed_data, max_len_data_subcarr, max_len_pilot_subcarr, max_vector_data_subcarr, max_vector_pilot_subcarr, pilot_symbols, tsb_key, propagate_channel_state, fixed_frame_len, input_is_shifted));
     }
 
     /*
@@ -61,8 +63,10 @@ namespace gr {
       int vector_len,
       int cp_len,
       bool fixed_pilot,
+      bool fixed_data,
       int max_len_data_subcarr, int max_len_pilot_subcarr,
-      int max_vector_pilot_subcarr,
+      int max_vector_data_subcarr, int max_vector_pilot_subcarr,
+      const std::vector<std::vector<gr_complex> > &pilot_symbols,
       const std::string &tsb_key,
       bool propagate_channel_state,
       int fixed_frame_len,
@@ -78,9 +82,13 @@ namespace gr {
         d_eq(equalizer),
         d_input_is_shifted(input_is_shifted),
         d_fixed_pilot(fixed_pilot),
+	d_fixed_data(fixed_data),
         d_pilot_sub(max_len_pilot_subcarr),
         d_vector_pilot(max_vector_pilot_subcarr),
         d_data_sub(max_len_data_subcarr),
+	d_vector_data(max_vector_data_subcarr),
+	d_pilot_symbols_input(pilot_symbols),
+	d_pilot_symbols(pilot_symbols.size(), std::vector<gr_complex>(d_fft_len, gr_complex(0, 0))),
         d_propagate_channel_state(propagate_channel_state),
         d_fixed_frame_len(fixed_frame_len),
         d_channel_state(equalizer->fft_len(), gr_complex(1, 0))
@@ -116,6 +124,7 @@ namespace gr {
         for (unsigned k = 0; k < tags[1].size(); k++) {
           if (tags[1][k].key == pmt::string_to_symbol(d_length_tag_key_str)) {
             n_input_items_reqd[1] = pmt::to_long(tags[1][k].value);
+		remove_item_tag(1, tags[1][k]);
           }
         }      } else {
         for (unsigned k = 0; k < tags[0].size(); k++) {
@@ -126,6 +135,7 @@ namespace gr {
         for (unsigned k = 0; k < tags[1].size(); k++) {
           if (tags[1][k].key == pmt::string_to_symbol(d_length_tag_key_str)) {
             n_input_items_reqd[1] = pmt::to_long(tags[1][k].value);
+	remove_item_tag(1, tags[1][k]);
           }
         }
       }
@@ -160,23 +170,28 @@ namespace gr {
       // ***************************************************** //
       std::vector<bool> data_carriers(d_fft_len, false);
       std::vector<int> vector_sub;
+      std::vector<int> vector_sub_pilot;
       std::vector<std::vector<int> > vector_vector_sub;
+      std::vector<std::vector<int> > vector_vector_sub_pilot;
        int fft_shift_width = 0;
-       int interval = (ninput_items[1]-d_pilot_sub);
+       int interval = (ninput_items[1]-d_pilot_sub)/d_data_sub;
        if (!d_fixed_pilot){
-         interval = (ninput_items[1]-(d_pilot_sub*d_vector_pilot));
+         interval = (ninput_items[1]-(d_pilot_sub*d_vector_pilot))/d_data_sub;
        }
+	std::cout << "ninput: " << ninput_items[1] << '\n';
+	std::cout << "interval" << interval << '\n';
       if (d_input_is_shifted) {
         fft_shift_width = d_fft_len/2;
       }
       // if (!occupied_carriers.size()) {
+	//TODO: sistemare questo controllo -non proprio corretto
       if (!ninput_items[1]){
           std::fill(data_carriers.begin(), data_carriers.end(), true);
         // }
         //   std::fill(d_occupied_carriers.begin(), d_occupied_carriers.end(), true);
       } else {
         for (int i=0; i< interval; i++){
-          // std::cout << "in2 : " ;
+           std::cout << i << " in2 aaaa: " ;
           for(int j=0; j < d_data_sub; j++){
             int cycle = i*d_data_sub;
             if (in2[j+cycle] == 0){
@@ -186,12 +201,13 @@ namespace gr {
 
               //   std::cout << "j: " <<j << '\n';
               //  // for(int i=0; i < in2[j].size(); i++){
-              // std::cout << in2[j+cycle] - 32 <<", ";
+               std::cout << in2[j+cycle]  <<", ";
               //   // }
               // std::fill (vector_sub.begin()+j,vector_sub.begin()+j+1,in2[j]);
               vector_sub.push_back(in2[j+cycle]);
             }
           }
+	std::cout << '\n';
           if (vector_sub.size()!=0){
             vector_vector_sub.push_back(vector_sub);
             // std::cout << "##############################" << '\n';
@@ -210,6 +226,76 @@ namespace gr {
             }
             data_carriers[(carr_index + fft_shift_width) % d_fft_len] = true;
           }
+        }
+      }
+	// std::cout << "data_carriers: ";
+	// for(int i=0; i<data_carriers.size(); i++){
+	// std::cout << data_carriers[i] << ", ";
+  //
+	// }
+	// std::cout << '\n';
+      int interval_pilot = (ninput_items[1]-d_data_sub)/d_pilot_sub;;
+      if (!d_fixed_data){
+         interval_pilot = (ninput_items[1]-(d_data_sub*d_vector_data))/d_pilot_sub;
+       }
+      std::vector<std::vector<bool> > pilot_carriers(interval_pilot, std::vector<bool>(d_fft_len, false));
+
+      //TODO: sistemare questo controllo -non proprio corretto
+      if (ninput_items[1]) {
+        for (unsigned i = 0; i < interval_pilot; i++) {
+	// std::cout << "in2 pilot aaa: ";
+	for(int j=0; j < d_pilot_sub; j++){
+            int cycle = i*d_pilot_sub;
+            if (in2[j+cycle+(d_data_sub*d_vector_data)] == 0){
+              continue;
+            }
+            else{
+
+//                 std::cout << "j: " <<j << '\n';
+                // for(int i=0; i < in2[j].size(); i++){
+               // std::cout << in2[j+cycle+(d_data_sub*d_vector_data)] <<", ";
+                 // }
+              // std::fill (vector_sub.begin()+j,vector_sub.begin()+j+1,in2[j]);
+              vector_sub_pilot.push_back(in2[j+cycle+(d_data_sub*d_vector_data)]);
+            }
+          }
+	// std::cout << '\n' << "vector_sub_pilot: ";
+	// for(int f=0; f<vector_sub_pilot.size(); f++){
+	// 	std::cout << vector_sub_pilot[f] << ", ";
+	// }
+	// std::cout << '\n';
+          if (vector_sub_pilot.size()!=0){
+            vector_vector_sub_pilot.push_back(vector_sub_pilot);
+            // std::cout << "##############################" << '\n';
+            vector_sub_pilot.erase(vector_sub_pilot.begin(),vector_sub_pilot.end());
+          }
+//	 std::cout << vector_vector_sub_pilot.size() << "size_vector_vector" << '\n';
+//	std::cout << vector_vector_sub_pilot[i].size() << "size_vector_i" << '\n';
+//	std::cout << d_pilot_symbols_input[i].size() << "size_pilot_symbols" << '\n';
+//        }
+          if (vector_vector_sub_pilot[i].size() != d_pilot_symbols_input[i].size()) {
+            throw std::invalid_argument("pilot carriers and -symbols do not match.");
+          }
+          for (unsigned k = 0; k < vector_vector_sub_pilot[i].size(); k++) {
+            int carr_index = vector_vector_sub_pilot[i][k];
+            if (vector_vector_sub_pilot[i][k] < 0) {
+              carr_index += d_fft_len;
+            }
+            if (carr_index >= d_fft_len || carr_index < 0) {
+              throw std::invalid_argument("pilot carrier index out of bounds.");
+            }
+            pilot_carriers[i][(carr_index + 32) % d_fft_len] = true;
+            d_pilot_symbols[i][(carr_index + 32) % d_fft_len] = d_pilot_symbols[i][k];
+//            pilot_carriers[i][(carr_index + fft_shift_width) % d_fft_len] = true;
+//            d_pilot_symbols[i][(carr_index + fft_shift_width) % d_fft_len] = d_pilot_symbols[i][k];
+          }
+	//         std::cout << "pilot_carriers: ";
+  //       for(int i=0; i<pilot_carriers.size(); i++){
+	// 	for(int l=0; l<pilot_carriers[i].size(); l++){
+  //      std::cout << pilot_carriers[i][l] << ", ";
+	// 	}
+  //       }
+	// std::cout << '\n';
         }
       }
 
@@ -240,8 +326,8 @@ namespace gr {
       }
 
       // Do the equalizing
-      d_eq->reset();
-      d_eq->equalize(out, frame_len, d_channel_state,data_carriers);
+      d_eq->reset(pilot_carriers);
+      d_eq->equalize(out, frame_len, d_channel_state, data_carriers, pilot_carriers, d_pilot_symbols);
       d_eq->get_channel_state(d_channel_state);
 
       // Update the channel state regarding the frequency offset

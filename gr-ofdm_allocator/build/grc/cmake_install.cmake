@@ -47,6 +47,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
     "/home/alice/rfnoc/src/gr-ofdm_allocator/grc/ofdm_allocator_constellation_alix.xml"
     "/home/alice/rfnoc/src/gr-ofdm_allocator/grc/ofdm_allocator_metric_type_alix.xml"
     "/home/alice/rfnoc/src/gr-ofdm_allocator/grc/ofdm_allocator_constellation_decoder_alix.xml"
+    "/home/alice/rfnoc/src/gr-ofdm_allocator/grc/ofdm_allocator_packet_header_parser_alix.xml"
     )
 endif()
 

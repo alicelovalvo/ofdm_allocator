@@ -35,10 +35,11 @@ namespace gr {
                  int max_vector_data_subcarr, int max_vector_pilot_subcarr,
                  bool fixed_pilot, const std::vector<int> &pilot,
                  const std::string &length_tag_key,
+		 const std::string &length_tag_key_2,
                  const std::vector<tag_t> &tags)
     {
       return gnuradio::get_initial_sptr
-        (new vector_source_tagged_impl(data, repeat, vlen, fixed_data, fft_len, max_len_data_subcarr, max_len_pilot_subcarr, max_vector_data_subcarr, max_vector_pilot_subcarr, fixed_pilot, pilot, length_tag_key, tags));
+        (new vector_source_tagged_impl(data, repeat, vlen, fixed_data, fft_len, max_len_data_subcarr, max_len_pilot_subcarr, max_vector_data_subcarr, max_vector_pilot_subcarr, fixed_pilot, pilot, length_tag_key, length_tag_key_2, tags));
     }
 
     /*
@@ -51,10 +52,12 @@ namespace gr {
       int max_vector_data_subcarr, int max_vector_pilot_subcarr,
       bool fixed_pilot, const std::vector<int> &pilot,
       const std::string &length_tag_key,
+      const std::string &length_tag_key_2,
       const std::vector<tag_t> &tags
     )
       : gr::sync_block("vector_source_tagged",
               gr::io_signature::make(0, 0, 0),
+              // gr::io_signature::make(1, 1, sizeof(int)*vlen)),
               gr::io_signature::make(1, 1, sizeof(int)*vlen)),
       d_data(data),
       d_pilot(pilot),
@@ -71,6 +74,7 @@ namespace gr {
       d_i(0),
       d_size(0),
       d_len_tag_key(pmt::string_to_symbol(length_tag_key)),
+      d_len_tag_key_2(pmt::string_to_symbol(length_tag_key_2)),
       d_tags(tags),
       d_tagpos(0)
     {
@@ -86,7 +90,7 @@ namespace gr {
       // std::cout << "/* message */" << d_vector_data << '\n';
       // std::cout << "/* message */" << d_pilot_sub << '\n';
       // std::cout << "/* message */" << d_vector_pilot << '\n';
-
+//	set_relative_rate((double) 2.0);
       // if((d_data.size() % vlen) != 0)
       //   throw std::invalid_argument("data length must be a multiple of vlen");
     }
@@ -123,6 +127,7 @@ namespace gr {
       for(int j=0; j<d_pilot.size(); j++){
         d_final_subcarrier.push_back(d_pilot[j]);
       }
+      d_vector_len_pmt = pmt::from_long(d_final_subcarrier.size());
       // std::cout << "/* d_final_subcarrier */ " << '\n';
       // for(int j=0; j<d_final_subcarrier.size(); j++){
       //   std::cout << d_final_subcarrier[j];
@@ -224,8 +229,8 @@ namespace gr {
                   // # print"-------"
                 }
               }
-                for(int j = 0; j<4; j++){
-                  if (d_pilot[(f*4)+j] == temp){
+                for(int j = 0; j<d_pilot_sub; j++){
+                  if (d_pilot[(f*d_pilot_sub)+j] == temp){
                     temp_2 = 1;
                   }
                 }
@@ -247,12 +252,12 @@ namespace gr {
           }
         }
         d_data = sub_vec_vec;
-        //std::cout << "/* sub_vec_vec */ ";
-        //for (int i = 0; i < sub_vec_vec.size(); i++){
-        //  // for (int j=0; j<sub_vec_vec[i].size(); j++){
+        // std::cout << "/* sub_vec_vec */ ";
+        // for (int i = 0; i < sub_vec_vec.size(); i++){
+        // //  // for (int j=0; j<sub_vec_vec[i].size(); j++){
         //  std::cout << sub_vec_vec[i] << ", ";
-        //}
-        //std::cout << '\n';
+        // }
+        // std::cout << '\n';
       }
 
       // std::cout << "/* sub_vec_vec */" << sub_vec_vec.size() << '\n';
@@ -271,6 +276,10 @@ namespace gr {
 
       int *optr = (int *) output_items[0];
 
+
+//     for (size_t i = 0; i < noutput_items; i++){
+//       optr_2 = ((int *) output_items[1])[i];
+//     }
 
       // set_relative_rate((double) 2.0);
 
@@ -318,6 +327,10 @@ namespace gr {
         //         d_size += size;
         //   }
         // }
+        unsigned int size = d_data.size();
+        unsigned int size_pilot = d_pilot.size();
+        d_vector_len_pmt = pmt::from_long(size+size_pilot);
+
         if(!d_fixed_pilot){
           vector_source_tagged_impl::set_random_vector_pilot();
         }
@@ -326,9 +339,7 @@ namespace gr {
         }
         vector_source_tagged_impl::final_update();
 
-        unsigned int size = d_data.size();
-        unsigned int size_pilot = d_pilot.size();
-        pmt::pmt_t d_vector_len_pmt = pmt::from_long(size+size_pilot);
+
         // std::cout << "/* length */" << d_data.size() <<'\n';
         //         for(int i=0; i<d_data.size(); i++){
         //           for (int j=0; j < d_data[i].size(); j++){
@@ -352,13 +363,14 @@ namespace gr {
         // std::cout << "/* size_pilot */" << size_pilot << '\n';
         // std::cout << "/* noutput_items */" << noutput_items << '\n';
         //
-        // std::cout << "/* optr1 */ ";
+        //std::cout << "/* optr1 */ ";
         int i;
         for(i = 0; i < noutput_items*d_vlen; i++) {
           // d_vector_len_pmt = pmt::from_long(d_data[i].size());
           //for(int i = 0; i < d_data.size(); i++) {
           optr[i] = d_final_subcarrier[offset_final++];
 
+          // std::cout << "/* message */" << optr_2[i] << '\n';
           if(offset_final>size){
             offset_pilot++;
           }
@@ -368,7 +380,7 @@ namespace gr {
           }
           //pilot_sub[i] = d_pilot[offset_pilot++];
 
-          // std::cout << optr[i] << ", ";
+          //std::cout << optr[i] << ", ";
           if(offset_pilot >= size_pilot) {
             offset_pilot = 0;
             //std::cout << '\n';
@@ -391,7 +403,7 @@ namespace gr {
 
             if(offset_final>=(size_pilot+size)){
               offset_final = 0;
-              // std::cout << '\n';
+            //  std::cout << '\n';
               // std::cout << "/* optr */ ";
             }
             add_item_tag(0, nitems_written(0) + i, d_len_tag_key, d_vector_len_pmt);

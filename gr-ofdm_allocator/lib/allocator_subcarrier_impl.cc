@@ -177,7 +177,7 @@ namespace gr {
          gr_complex *out = (gr_complex *) output_items[0];
          std::vector<tag_t> tags;
 
-         set_relative_rate(ninput_items.size());
+//         set_relative_rate(ninput_items.size());
 
          // get_tags_in_range(tags, 1, nitems_read(1), nitems_read(1)+ninput_items[1]);
 
@@ -185,7 +185,7 @@ namespace gr {
 
 
          d_symbols_per_set = 0;
-
+//	std::cout << "ninput_allocator" << ninput_items[1] << '\n';
          // Copy Sync word
          for (unsigned i = 0; i < d_sync_words.size(); i++) {
            memcpy((void *) out, (void *) &d_sync_words[i][0], sizeof(gr_complex) * d_fft_len);
@@ -218,7 +218,7 @@ namespace gr {
                  in2[j+cycle] += d_fft_len;
                }
                if (in2[j+cycle] > d_fft_len || in2[j+cycle] < 0) {
-                 std::cout << "in2 " << in2[j+cycle] << '\n';
+             //    std::cout << "in2 " << in2[j+cycle] << '\n';
                  throw std::invalid_argument("data carrier index out of bounds");
                }
                if (d_output_is_shifted) {
@@ -259,12 +259,12 @@ namespace gr {
       // int symbols_to_allocate = d_occupied_carriers[0].size();
       int symbols_to_allocate = vector_vector_sub[0].size();
       int symbols_allocated = 0;
-      // std::cout << '\n' << "####### allocator ######" << '\n';
+//       std::cout << '\n' << "####### allocator ######" << '\n';
 
       for (int i = 0; i < ninput_items[0]; i++) {
 
 	if (symbols_allocated == 0) {
-    // std::cout << "active_subcarrier : ";
+  //   std::cout << "active_subcarrier : ";
 
       // std::cout << "d_occupied_carriers " << n_ofdm_symbols <<':';
 // std::cout << "/* tags.size() */" << tags.size() << '\n';
@@ -298,7 +298,7 @@ namespace gr {
   out[(n_ofdm_symbols-1) * d_fft_len + vector_vector_sub[curr_set][symbols_allocated]] = in[i];
 
    //std::cout << "in : " << vector_sub[symbols_allocated] - 32 << ',';
-  // std::cout << (vector_vector_sub[curr_set][symbols_allocated] - 32) << ',';
+//   std::cout << (vector_vector_sub[curr_set][symbols_allocated] - 32) << ',';
 
 	symbols_allocated++;
 	if (symbols_allocated == symbols_to_allocate) {
@@ -309,7 +309,7 @@ namespace gr {
     // for (int i = 0; i < d_occupied_carriers[curr_set].size(); i++){
     //   std::cout << (d_occupied_carriers[curr_set][i] - 32) << ',';
     // }
-    // std::cout << '\n';
+   //  std::cout << '\n';
 	  symbols_allocated = 0;
 	}
   if (i == (ninput_items[0]-1)){
@@ -326,7 +326,7 @@ namespace gr {
       d_symbols_per_set = ninput_items[1];
       set_tag_propagation_policy(TPP_DONT);
       // set_relative_rate((double) d_symbols_per_set);
-      set_relative_rate((double) d_symbols_per_set / vector_vector_sub.size());
+ //     set_relative_rate((double) d_symbols_per_set / vector_vector_sub.size());
 
       // std::cout << '\n';
 

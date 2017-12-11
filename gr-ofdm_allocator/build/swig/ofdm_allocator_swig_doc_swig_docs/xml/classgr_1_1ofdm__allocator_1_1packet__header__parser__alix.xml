@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1ofdm__allocator_1_1packet__header__parser__alix" kind="class" language="C++" prot="public">
+    <compoundname>gr::ofdm_allocator::packet_header_parser_alix</compoundname>
+    <basecompoundref prot="public" virt="virtual">sync_block</basecompoundref>
+    <includes refid="packet__header__parser__alix_8h" local="no">packet_header_parser_alix.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1ofdm__allocator_1_1packet__header__parser__alix_1afc60af9b3bcd0ea32393df8d5bc21f0b" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1ofdm__allocator_1_1packet__header__parser__alix" kindref="compound">packet_header_parser_alix</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;packet_header_parser_alix&gt; gr::ofdm_allocator::packet_header_parser_alix::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/packet_header_parser_alix.h" line="41" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/packet_header_parser_alix.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1packet__header__parser__alix_1abc2c4ac9e8a752c1de9d8e9ecffbd43e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1ofdm__allocator_1_1packet__header__parser__alix_1afc60af9b3bcd0ea32393df8d5bc21f0b" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::ofdm_allocator::packet_header_parser_alix::make</definition>
+        <argsstring>(const gr::ofdm_allocator::packet_header_default_alix::sptr &amp;header_formatter, const std::string &amp;len_tag_key, const std::string &amp;num_tag_key)</argsstring>
+        <name>make</name>
+        <param>
+          <type>const <ref refid="classgr_1_1ofdm__allocator_1_1packet__header__default__alix_1ad85cda2d2a111ccdd8ec5fc892fd6413" kindref="member">gr::ofdm_allocator::packet_header_default_alix::sptr</ref> &amp;</type>
+          <declname>header_formatter</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>len_tag_key</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>num_tag_key</declname>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1ofdm__allocator_1_1packet__header__parser__alix" kindref="compound">ofdm_allocator::packet_header_parser_alix</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1ofdm__allocator_1_1packet__header__parser__alix" kindref="compound">ofdm_allocator::packet_header_parser_alix</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1ofdm__allocator_1_1packet__header__parser__alix_1abc2c4ac9e8a752c1de9d8e9ecffbd43e" kindref="member">ofdm_allocator::packet_header_parser_alix::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/packet_header_parser_alix.h" line="51" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1packet__header__parser__alix_1a11e39e4a1c912ebf79ecdddf48ff9a17" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1ofdm__allocator_1_1packet__header__parser__alix_1afc60af9b3bcd0ea32393df8d5bc21f0b" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::ofdm_allocator::packet_header_parser_alix::make</definition>
+        <argsstring>(long header_len, const std::string &amp;len_tag_key, const std::string &amp;num_tag_key)</argsstring>
+        <name>make</name>
+        <param>
+          <type>long</type>
+          <declname>header_len</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>len_tag_key</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>num_tag_key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>header_len</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Number of bytes per header </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>len_tag_key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Length Tag Key </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/packet_header_parser_alix.h" line="57" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="189">
+        <label>gr::sync_block</label>
+      </node>
+      <node id="188">
+        <label>gr::ofdm_allocator::packet_header_parser_alix</label>
+        <link refid="classgr_1_1ofdm__allocator_1_1packet__header__parser__alix"/>
+        <childnode refid="189" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="191">
+        <label>gr::sync_block</label>
+      </node>
+      <node id="190">
+        <label>gr::ofdm_allocator::packet_header_parser_alix</label>
+        <link refid="classgr_1_1ofdm__allocator_1_1packet__header__parser__alix"/>
+        <childnode refid="191" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/packet_header_parser_alix.h" line="39" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/packet_header_parser_alix.h" bodystart="38" bodyend="59"/>
+    <listofallmembers>
+      <member refid="classgr_1_1ofdm__allocator_1_1packet__header__parser__alix_1abc2c4ac9e8a752c1de9d8e9ecffbd43e" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::packet_header_parser_alix</scope><name>make</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1packet__header__parser__alix_1a11e39e4a1c912ebf79ecdddf48ff9a17" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::packet_header_parser_alix</scope><name>make</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1packet__header__parser__alix_1afc60af9b3bcd0ea32393df8d5bc21f0b" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::packet_header_parser_alix</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

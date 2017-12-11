@@ -433,7 +433,7 @@ Params: (NONE)"
 
 To avoid accidental use of raw pointers, ofdm_allocator::frame_equalizer_alix's constructor is in a private implementation class. ofdm_allocator::frame_equalizer_alix::make is the public interface for creating new instances.
 
-Params: (equalizer, vector_len, cp_len, fixed_pilot, max_len_data_subcarr, max_len_pilot_subcarr, max_vector_pilot_subcarr, tsb_key, propagate_channel_state, fixed_frame_len, input_is_shifted)"
+Params: (equalizer, vector_len, cp_len, fixed_data, fixed_pilot, max_len_data_subcarr, max_len_pilot_subcarr, max_vector_data_subcarr, max_vector_pilot_subcarr, pilot_symbols, tsb_key, propagate_channel_state, fixed_frame_len, input_is_shifted)"
 
 
 
@@ -447,7 +447,7 @@ Params: (NONE)"
 
 %feature("docstring") gr::ofdm_allocator::ofdm_equalizer_1d_pilots_alix::reset "Reset the channel information state knowledge.
 
-Params: (NONE)"
+Params: (pilot_carriers)"
 
 %feature("docstring") gr::ofdm_allocator::ofdm_equalizer_1d_pilots_alix::get_channel_state "Return the current channel state.
 
@@ -465,11 +465,11 @@ Params: (NONE)"
 
 %feature("docstring") gr::ofdm_allocator::ofdm_equalizer_base_alix::reset "Reset the channel information state knowledge.
 
-Params: (NONE)"
+Params: (pilot_carriers)"
 
 %feature("docstring") gr::ofdm_allocator::ofdm_equalizer_base_alix::equalize "Run the actual equalization.
 
-Params: (frame, n_sym, initial_taps, occupied_carriers, tags)"
+Params: (frame, n_sym, initial_taps, occupied_carriers, pilot_carriers, pilot_symbols, tags)"
 
 %feature("docstring") gr::ofdm_allocator::ofdm_equalizer_base_alix::get_channel_state "Return the current channel state.
 
@@ -495,7 +495,7 @@ Params: (NONE)"
 
 %feature("docstring") gr::ofdm_allocator::ofdm_equalizer_simpledfe_alix::equalize "Run the actual equalization.
 
-Params: (frame, n_sym, initial_taps, occupied_carriers, tags)"
+Params: (frame, n_sym, initial_taps, occupied_carriers, pilot_carriers, pilot_symbols, tags)"
 
 %feature("docstring") gr::ofdm_allocator::ofdm_equalizer_simpledfe_alix::make "
 
@@ -531,6 +531,10 @@ Params: (NONE)"
 
 Params: (NONE)"
 
+%feature("docstring") gr::ofdm_allocator::packet_header_default_alix::num_tag_key "
+
+Params: (NONE)"
+
 %feature("docstring") gr::ofdm_allocator::packet_header_default_alix::header_formatter "Encodes the header information in the given tags into bits and places them into .
 
 Uses the following header format: Bits 0-11: The packet length (what was stored in the tag with key ) Bits 12-23: The header number (counts up everytime this function is called) Bit 24-31: 8-Bit CRC All other bits: Are set to zero
@@ -545,7 +549,7 @@ Params: (packet_len, out, tags)"
 
 Reads the bit stream in  and writes a corresponding tag into .
 
-Params: (header, tags)"
+Params: (header, header_length, tags)"
 
 %feature("docstring") gr::ofdm_allocator::packet_header_default_alix::make "
 
@@ -583,11 +587,19 @@ Params: (packet_len, out, tags)"
 
 Does the same as packet_header_default::header_parser(), but adds another tag that stores the number of OFDM symbols in the packet. Note that there is usually no linear connection between the number of OFDM symbols and the packet length because a packet might finish mid-OFDM-symbol.
 
-Params: (header, tags)"
+Params: (header, header_length, tags)"
 
 %feature("docstring") gr::ofdm_allocator::packet_header_ofdm_alix::make "
 
 Params: (occupied_carriers, n_syms, len_tag_key, frame_len_tag_key, num_tag_key, bits_per_header_sym, bits_per_payload_sym, scramble_header)"
+
+%feature("docstring") gr::ofdm_allocator::packet_header_parser_alix "<+description of block+>"
+
+%feature("docstring") gr::ofdm_allocator::packet_header_parser_alix::make "Return a shared_ptr to a new instance of ofdm_allocator::packet_header_parser_alix.
+
+To avoid accidental use of raw pointers, ofdm_allocator::packet_header_parser_alix's constructor is in a private implementation class. ofdm_allocator::packet_header_parser_alix::make is the public interface for creating new instances.
+
+Params: (header_formatter, len_tag_key, num_tag_key)"
 
 %feature("docstring") gr::ofdm_allocator::serializer_subcarrier "<+description of block+>"
 
@@ -595,7 +607,7 @@ Params: (occupied_carriers, n_syms, len_tag_key, frame_len_tag_key, num_tag_key,
 
 To avoid accidental use of raw pointers, ofdm_allocator::serializer_subcarrier's constructor is in a private implementation class. ofdm_allocator::serializer_subcarrier::make is the public interface for creating new instances.
 
-Params: (fft_len, vector_len, len_tag_key, packet_len_tag_key, symbols_skipped, carr_offset_key, input_is_shifted)"
+Params: (fft_len, vector_len, fixed_pilot, fixed_data, max_len_data_subcarr, max_len_pilot_subcarr, max_vector_data_subcarr, max_vector_pilot_subcarr, len_tag_key, packet_len_tag_key, symbols_skipped, carr_offset_key, input_is_shifted)"
 
 %feature("docstring") gr::ofdm_allocator::vector_source_tagged "<+description of block+>"
 
@@ -603,7 +615,7 @@ Params: (fft_len, vector_len, len_tag_key, packet_len_tag_key, symbols_skipped, 
 
 To avoid accidental use of raw pointers, ofdm_allocator::vector_source_tagged's constructor is in a private implementation class. ofdm_allocator::vector_source_tagged::make is the public interface for creating new instances.
 
-Params: (data, repeat, vlen, fixed_data, fft_len, max_len_data_subcarr, max_len_pilot_subcarr, max_vector_data_subcarr, max_vector_pilot_subcarr, fixed_pilot, pilot, length_tag_key, tags)"
+Params: (data, repeat, vlen, fixed_data, fft_len, max_len_data_subcarr, max_len_pilot_subcarr, max_vector_data_subcarr, max_vector_pilot_subcarr, fixed_pilot, pilot, length_tag_key, length_tag_key_2, tags)"
 
 %feature("docstring") gr::ofdm_allocator::vector_source_tagged::rewind "
 

@@ -46,6 +46,8 @@ namespace gr {
       int d_vector_data;
       int d_vector_pilot;
       pmt::pmt_t d_len_tag_key; //!< Key of length tag
+      pmt::pmt_t d_len_tag_key_2; //!< Key of length tag
+      pmt::pmt_t d_vector_len_pmt;
       bool d_settags;
       std::vector<tag_t> d_tags;
       unsigned int d_tagpos;
@@ -57,6 +59,7 @@ namespace gr {
                   int max_vector_data_subcarr, int max_vector_pilot_subcarr,
                   bool fixed_pilot, const std::vector<int> &pilot,
                   const std::string &length_tag_key,
+                  const std::string &length_tag_key_2,
                   const std::vector<tag_t> &tags);
       ~vector_source_tagged_impl();
 

@@ -53,6 +53,8 @@ var files =
     [ "packet_header_ofdm_alix.h", "packet__header__ofdm__alix_8h.html", [
       [ "packet_header_ofdm_alix", "classgr_1_1ofdm__allocator_1_1packet__header__ofdm__alix.html", "classgr_1_1ofdm__allocator_1_1packet__header__ofdm__alix" ]
     ] ],
+    [ "packet_header_parser_alix.h", "packet__header__parser__alix_8h.html", null ],
+    [ "packet_header_parser_alix_impl.h", "packet__header__parser__alix__impl_8h.html", null ],
     [ "serializer_subcarrier.h", "serializer__subcarrier_8h.html", [
       [ "serializer_subcarrier", "classgr_1_1ofdm__allocator_1_1serializer__subcarrier.html", "classgr_1_1ofdm__allocator_1_1serializer__subcarrier" ]
     ] ],

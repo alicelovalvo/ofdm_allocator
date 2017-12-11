@@ -8,52 +8,59 @@
     <includes local="no">boost/crc.hpp</includes>
     <includedby refid="packet__header__gen_8h" local="no">/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/packet_header_gen.h</includedby>
     <includedby refid="packet__header__ofdm__alix_8h" local="no">/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h</includedby>
+    <includedby refid="packet__header__parser__alix_8h" local="no">/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/packet_header_parser_alix.h</includedby>
     <incdepgraph>
-      <node id="80">
+      <node id="81">
         <label>gnuradio/tags.h</label>
       </node>
-      <node id="82">
+      <node id="83">
         <label>gnuradio/attributes.h</label>
       </node>
-      <node id="79">
+      <node id="80">
         <label>/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/packet_header_default_alix.h</label>
         <link refid="packet_header_default_alix.h"/>
-        <childnode refid="80" relation="include">
-        </childnode>
         <childnode refid="81" relation="include">
         </childnode>
-        <childnode refid="83" relation="include">
+        <childnode refid="82" relation="include">
         </childnode>
         <childnode refid="84" relation="include">
         </childnode>
+        <childnode refid="85" relation="include">
+        </childnode>
       </node>
-      <node id="84">
+      <node id="85">
         <label>boost/crc.hpp</label>
       </node>
-      <node id="83">
+      <node id="84">
         <label>boost/enable_shared_from_this.hpp</label>
       </node>
-      <node id="81">
+      <node id="82">
         <label>ofdm_allocator/api.h</label>
         <link refid="api_8h"/>
-        <childnode refid="82" relation="include">
+        <childnode refid="83" relation="include">
         </childnode>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="86">
+      <node id="87">
         <label>/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/packet_header_gen.h</label>
         <link refid="packet__header__gen_8h"/>
       </node>
-      <node id="85">
+      <node id="89">
+        <label>/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/packet_header_parser_alix.h</label>
+        <link refid="packet__header__parser__alix_8h"/>
+      </node>
+      <node id="86">
         <label>/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/packet_header_default_alix.h</label>
         <link refid="packet_header_default_alix.h"/>
-        <childnode refid="86" relation="include">
-        </childnode>
         <childnode refid="87" relation="include">
         </childnode>
+        <childnode refid="88" relation="include">
+        </childnode>
+        <childnode refid="89" relation="include">
+        </childnode>
       </node>
-      <node id="87">
+      <node id="88">
         <label>/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h</label>
         <link refid="packet__header__ofdm__alix_8h"/>
       </node>
@@ -116,34 +123,36 @@
 <codeline lineno="52" refid="classgr_1_1ofdm__allocator_1_1packet__header__default__alix_1a912954afd7ee3a1dd897d4e36195d278" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgr_1_1ofdm__allocator_1_1packet__header__default__alix_1a912954afd7ee3a1dd897d4e36195d278" kindref="member">set_header_num</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/>header_num)<sp/>{<sp/>d_header_number<sp/>=<sp/>header_num;<sp/>};</highlight></codeline>
 <codeline lineno="53" refid="classgr_1_1ofdm__allocator_1_1packet__header__default__alix_1aaa7f0eef5f08301ed2a970de42446762" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="classgr_1_1ofdm__allocator_1_1packet__header__default__alix_1aaa7f0eef5f08301ed2a970de42446762" kindref="member">header_len</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d_header_len;<sp/>};</highlight></codeline>
 <codeline lineno="54" refid="classgr_1_1ofdm__allocator_1_1packet__header__default__alix_1acc47acfcf676ea3c279de79ef35aff19" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>pmt::pmt_t<sp/><ref refid="classgr_1_1ofdm__allocator_1_1packet__header__default__alix_1acc47acfcf676ea3c279de79ef35aff19" kindref="member">len_tag_key</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d_len_tag_key;<sp/>};</highlight></codeline>
-<codeline lineno="55"><highlight class="normal"></highlight></codeline>
-<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>header_formatter(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>packet_len,</highlight></codeline>
-<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*out,</highlight></codeline>
-<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;tag_t&gt;<sp/>&amp;tags=std::vector&lt;tag_t&gt;());</highlight></codeline>
-<codeline lineno="74"><highlight class="normal"></highlight></codeline>
-<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>header_parser(</highlight></codeline>
-<codeline lineno="81"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*header,</highlight></codeline>
-<codeline lineno="82"><highlight class="normal">std::vector&lt;tag_t&gt;<sp/>&amp;tags);</highlight></codeline>
-<codeline lineno="83"><highlight class="normal"></highlight></codeline>
-<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>sptr<sp/>make(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>header_len,</highlight></codeline>
-<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;len_tag_key=</highlight><highlight class="stringliteral">&quot;packet_len&quot;</highlight><highlight class="normal">,</highlight></codeline>
-<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;num_tag_key=</highlight><highlight class="stringliteral">&quot;packet_num&quot;</highlight><highlight class="normal">,</highlight></codeline>
-<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>bits_per_byte=1);</highlight></codeline>
-<codeline lineno="88"><highlight class="normal"></highlight></codeline>
-<codeline lineno="89"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="90" refid="classgr_1_1ofdm__allocator_1_1packet__header__default__alix_1a1fef50286cb15644ed2d5a602466e443" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="classgr_1_1ofdm__allocator_1_1packet__header__default__alix_1a1fef50286cb15644ed2d5a602466e443" kindref="member">d_header_len</ref>;</highlight></codeline>
-<codeline lineno="91" refid="classgr_1_1ofdm__allocator_1_1packet__header__default__alix_1af59debf9b19e5f6d7a3b44769c8671b3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>pmt::pmt_t<sp/><ref refid="classgr_1_1ofdm__allocator_1_1packet__header__default__alix_1af59debf9b19e5f6d7a3b44769c8671b3" kindref="member">d_len_tag_key</ref>;</highlight></codeline>
-<codeline lineno="92" refid="classgr_1_1ofdm__allocator_1_1packet__header__default__alix_1a3a1a6d4c2fca0fd9e7be9311cc7c3c1f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>pmt::pmt_t<sp/><ref refid="classgr_1_1ofdm__allocator_1_1packet__header__default__alix_1a3a1a6d4c2fca0fd9e7be9311cc7c3c1f" kindref="member">d_num_tag_key</ref>;</highlight></codeline>
-<codeline lineno="93" refid="classgr_1_1ofdm__allocator_1_1packet__header__default__alix_1abb6cbe76b5a7e377e03feaa8bc07de0f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classgr_1_1ofdm__allocator_1_1packet__header__default__alix_1abb6cbe76b5a7e377e03feaa8bc07de0f" kindref="member">d_bits_per_byte</ref>;</highlight></codeline>
-<codeline lineno="94" refid="classgr_1_1ofdm__allocator_1_1packet__header__default__alix_1ac52a44d001e2169cb24a5d577a7ec996" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/><ref refid="classgr_1_1ofdm__allocator_1_1packet__header__default__alix_1ac52a44d001e2169cb24a5d577a7ec996" kindref="member">d_header_number</ref>;</highlight></codeline>
-<codeline lineno="95" refid="classgr_1_1ofdm__allocator_1_1packet__header__default__alix_1a78bdad7331eb6cd672e17ff3a4c64103" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/><ref refid="classgr_1_1ofdm__allocator_1_1packet__header__default__alix_1a78bdad7331eb6cd672e17ff3a4c64103" kindref="member">d_mask</ref>;</highlight></codeline>
-<codeline lineno="96" refid="classgr_1_1ofdm__allocator_1_1packet__header__default__alix_1a6675a5eb3baee0b8358e0b56c7a18293" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>boost::crc_optimal&lt;8,<sp/>0x07,<sp/>0xFF,<sp/>0x00,<sp/>false,<sp/>false&gt;<sp/><sp/><ref refid="classgr_1_1ofdm__allocator_1_1packet__header__default__alix_1a6675a5eb3baee0b8358e0b56c7a18293" kindref="member">d_crc_impl</ref>;</highlight></codeline>
-<codeline lineno="97"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
-<codeline lineno="98"><highlight class="normal"></highlight></codeline>
-<codeline lineno="99"><highlight class="normal"><sp/><sp/>}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>ofdm_allocator</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="100"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>gr</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="101"><highlight class="normal"></highlight></codeline>
-<codeline lineno="102"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>INCLUDED_OFDM_ALLOCATOR_PACKET_HEADER_DEFAULT_ALIX_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="55" refid="classgr_1_1ofdm__allocator_1_1packet__header__default__alix_1ab40f7869460e1475c3d4f7ff0f598bf0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>pmt::pmt_t<sp/><ref refid="classgr_1_1ofdm__allocator_1_1packet__header__default__alix_1ab40f7869460e1475c3d4f7ff0f598bf0" kindref="member">num_tag_key</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d_num_tag_key;<sp/>};</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>header_formatter(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>packet_len,</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*out,</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;tag_t&gt;<sp/>&amp;tags=std::vector&lt;tag_t&gt;());</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>header_parser(</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*header,</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>header_length,</highlight></codeline>
+<codeline lineno="84"><highlight class="normal">std::vector&lt;tag_t&gt;<sp/>&amp;tags);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>sptr<sp/>make(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>header_len,</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;len_tag_key=</highlight><highlight class="stringliteral">&quot;packet_len&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;num_tag_key=</highlight><highlight class="stringliteral">&quot;packet_num&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>bits_per_byte=1);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="92" refid="classgr_1_1ofdm__allocator_1_1packet__header__default__alix_1a1fef50286cb15644ed2d5a602466e443" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="classgr_1_1ofdm__allocator_1_1packet__header__default__alix_1a1fef50286cb15644ed2d5a602466e443" kindref="member">d_header_len</ref>;</highlight></codeline>
+<codeline lineno="93" refid="classgr_1_1ofdm__allocator_1_1packet__header__default__alix_1af59debf9b19e5f6d7a3b44769c8671b3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>pmt::pmt_t<sp/><ref refid="classgr_1_1ofdm__allocator_1_1packet__header__default__alix_1af59debf9b19e5f6d7a3b44769c8671b3" kindref="member">d_len_tag_key</ref>;</highlight></codeline>
+<codeline lineno="94" refid="classgr_1_1ofdm__allocator_1_1packet__header__default__alix_1a3a1a6d4c2fca0fd9e7be9311cc7c3c1f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>pmt::pmt_t<sp/><ref refid="classgr_1_1ofdm__allocator_1_1packet__header__default__alix_1a3a1a6d4c2fca0fd9e7be9311cc7c3c1f" kindref="member">d_num_tag_key</ref>;</highlight></codeline>
+<codeline lineno="95" refid="classgr_1_1ofdm__allocator_1_1packet__header__default__alix_1abb6cbe76b5a7e377e03feaa8bc07de0f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classgr_1_1ofdm__allocator_1_1packet__header__default__alix_1abb6cbe76b5a7e377e03feaa8bc07de0f" kindref="member">d_bits_per_byte</ref>;</highlight></codeline>
+<codeline lineno="96" refid="classgr_1_1ofdm__allocator_1_1packet__header__default__alix_1ac52a44d001e2169cb24a5d577a7ec996" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/><ref refid="classgr_1_1ofdm__allocator_1_1packet__header__default__alix_1ac52a44d001e2169cb24a5d577a7ec996" kindref="member">d_header_number</ref>;</highlight></codeline>
+<codeline lineno="97" refid="classgr_1_1ofdm__allocator_1_1packet__header__default__alix_1a78bdad7331eb6cd672e17ff3a4c64103" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/><ref refid="classgr_1_1ofdm__allocator_1_1packet__header__default__alix_1a78bdad7331eb6cd672e17ff3a4c64103" kindref="member">d_mask</ref>;</highlight></codeline>
+<codeline lineno="98" refid="classgr_1_1ofdm__allocator_1_1packet__header__default__alix_1a6675a5eb3baee0b8358e0b56c7a18293" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>boost::crc_optimal&lt;8,<sp/>0x07,<sp/>0xFF,<sp/>0x00,<sp/>false,<sp/>false&gt;<sp/><sp/><ref refid="classgr_1_1ofdm__allocator_1_1packet__header__default__alix_1a6675a5eb3baee0b8358e0b56c7a18293" kindref="member">d_crc_impl</ref>;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/>}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>ofdm_allocator</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>gr</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>INCLUDED_OFDM_ALLOCATOR_PACKET_HEADER_DEFAULT_ALIX_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
     </programlisting>
     <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/packet_header_default_alix.h"/>
   </compounddef>

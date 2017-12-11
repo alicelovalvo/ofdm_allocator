@@ -50,6 +50,12 @@ lib/CMakeFiles/gnuradio-ofdm_allocator.dir/packet_header_ofdm_alix.cc.o: ../incl
 lib/CMakeFiles/gnuradio-ofdm_allocator.dir/packet_header_ofdm_alix.cc.o: ../include/ofdm_allocator/packet_header_ofdm_alix.h
 lib/CMakeFiles/gnuradio-ofdm_allocator.dir/packet_header_ofdm_alix.cc.o: ../lib/packet_header_ofdm_alix.cc
 
+lib/CMakeFiles/gnuradio-ofdm_allocator.dir/packet_header_parser_alix_impl.cc.o: ../include/ofdm_allocator/api.h
+lib/CMakeFiles/gnuradio-ofdm_allocator.dir/packet_header_parser_alix_impl.cc.o: ../include/ofdm_allocator/packet_header_default_alix.h
+lib/CMakeFiles/gnuradio-ofdm_allocator.dir/packet_header_parser_alix_impl.cc.o: ../include/ofdm_allocator/packet_header_parser_alix.h
+lib/CMakeFiles/gnuradio-ofdm_allocator.dir/packet_header_parser_alix_impl.cc.o: ../lib/packet_header_parser_alix_impl.cc
+lib/CMakeFiles/gnuradio-ofdm_allocator.dir/packet_header_parser_alix_impl.cc.o: ../lib/packet_header_parser_alix_impl.h
+
 lib/CMakeFiles/gnuradio-ofdm_allocator.dir/serializer_subcarrier_impl.cc.o: ../include/ofdm_allocator/api.h
 lib/CMakeFiles/gnuradio-ofdm_allocator.dir/serializer_subcarrier_impl.cc.o: ../include/ofdm_allocator/serializer_subcarrier.h
 lib/CMakeFiles/gnuradio-ofdm_allocator.dir/serializer_subcarrier_impl.cc.o: ../lib/serializer_subcarrier_impl.cc

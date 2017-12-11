@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <block>
-  <name>frame_equalizer_alix</name>
+  <name>Frame Equalizer Alix</name>
   <key>ofdm_allocator_frame_equalizer_alix</key>
   <category>OFDM ALLOCATOR</category>
   <import>import ofdm_allocator</import>
-  <make>ofdm_allocator.frame_equalizer_alix($equalizer, $vector_len, $cp_len, $fixed_pilot, $max_len_data_subcarr, $max_len_pilot_subcarr, $max_vector_pilot_subcarr, $tsb_key, $propagate_channel_state, $fixed_frame_len, $input_is_shifted)</make>
+  <make>ofdm_allocator.frame_equalizer_alix($equalizer, $vector_len, $cp_len, $fixed_pilot, $fixed_data, $max_len_data_subcarr, $max_len_pilot_subcarr, $max_vector_data_subcarr, $max_vector_pilot_subcarr, $pilot_symbols, $tsb_key, $propagate_channel_state, $fixed_frame_len, $input_is_shifted)</make>
   <param>
     <name>FFT length</name>
     <key>fft_len</key>
@@ -24,6 +24,12 @@
     <type>int</type>
   </param>
   <param>
+    <name>Pilot Symbols</name>
+    <key>pilot_symbols</key>
+    <value>()</value>
+    <type>raw</type>
+  </param>
+  <param>
     <name>Max Length Data</name>
     <key>max_len_data_subcarr</key>
     <type>int</type>
@@ -34,9 +40,28 @@
     <type>int</type>
   </param>
   <param>
+    <name>Max Length Data Vector</name>
+    <key>max_vector_data_subcarr</key>
+    <type>int</type>
+  </param>
+  <param>
     <name>Max Length Pilot Vector</name>
     <key>max_vector_pilot_subcarr</key>
     <type>int</type>
+  </param>
+  <param>
+  <name>Fixed Data</name>
+  <key>fixed_data</key>
+  <value>False</value>
+  <type>enum</type>
+  <option>
+    <name>Yes</name>
+    <key>True</key>
+  </option>
+  <option>
+    <name>No</name>
+    <key>False</key>
+  </option>
   </param>
   <param>
   <name>Fixed Pilot</name>

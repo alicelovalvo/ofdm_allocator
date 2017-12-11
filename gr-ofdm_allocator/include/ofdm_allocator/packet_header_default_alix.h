@@ -52,6 +52,7 @@ namespace gr {
     void set_header_num(unsigned header_num) { d_header_number = header_num; };
     long header_len() { return d_header_len; };
     pmt::pmt_t len_tag_key() { return d_len_tag_key; };
+    pmt::pmt_t num_tag_key() { return d_num_tag_key; };
 
     /*!
      * \brief Encodes the header information in the given tags into bits and places them into \p out
@@ -79,6 +80,7 @@ namespace gr {
      */
     virtual bool header_parser(
 const unsigned char *header,
+int header_length,
 std::vector<tag_t> &tags);
 
     static sptr make(long header_len,

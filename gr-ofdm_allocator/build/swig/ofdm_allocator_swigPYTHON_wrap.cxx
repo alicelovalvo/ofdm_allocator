@@ -3040,67 +3040,70 @@ SWIG_Python_NonDynamicSetAttr(PyObject *obj, PyObject *name, PyObject *value) {
 #define SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_default_alix_t swig_types[28]
 #define SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_gen_t swig_types[29]
 #define SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_ofdm_alix_t swig_types[30]
-#define SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__serializer_subcarrier_t swig_types[31]
-#define SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__vector_source_tagged_t swig_types[32]
-#define SWIGTYPE_p_boost__shared_ptrT_gr__top_block_t swig_types[33]
-#define SWIGTYPE_p_char swig_types[34]
-#define SWIGTYPE_p_const_reference swig_types[35]
-#define SWIGTYPE_p_difference_type swig_types[36]
-#define SWIGTYPE_p_float swig_types[37]
-#define SWIGTYPE_p_gr__basic_block swig_types[38]
-#define SWIGTYPE_p_gr__block swig_types[39]
-#define SWIGTYPE_p_gr__block_gateway swig_types[40]
-#define SWIGTYPE_p_gr__endianness_t swig_types[41]
-#define SWIGTYPE_p_gr__hier_block2 swig_types[42]
-#define SWIGTYPE_p_gr__ofdm_allocator__allocator_subcarrier swig_types[43]
-#define SWIGTYPE_p_gr__ofdm_allocator__constellation_16qam swig_types[44]
-#define SWIGTYPE_p_gr__ofdm_allocator__constellation_8psk swig_types[45]
-#define SWIGTYPE_p_gr__ofdm_allocator__constellation_8psk_natural swig_types[46]
-#define SWIGTYPE_p_gr__ofdm_allocator__constellation_alix swig_types[47]
-#define SWIGTYPE_p_gr__ofdm_allocator__constellation_bpsk swig_types[48]
-#define SWIGTYPE_p_gr__ofdm_allocator__constellation_calcdist swig_types[49]
-#define SWIGTYPE_p_gr__ofdm_allocator__constellation_decoder_alix swig_types[50]
-#define SWIGTYPE_p_gr__ofdm_allocator__constellation_dqpsk swig_types[51]
-#define SWIGTYPE_p_gr__ofdm_allocator__constellation_expl_rect swig_types[52]
-#define SWIGTYPE_p_gr__ofdm_allocator__constellation_psk swig_types[53]
-#define SWIGTYPE_p_gr__ofdm_allocator__constellation_qpsk swig_types[54]
-#define SWIGTYPE_p_gr__ofdm_allocator__constellation_rect swig_types[55]
-#define SWIGTYPE_p_gr__ofdm_allocator__constellation_sector swig_types[56]
-#define SWIGTYPE_p_gr__ofdm_allocator__frame_equalizer_alix swig_types[57]
-#define SWIGTYPE_p_gr__ofdm_allocator__ofdm_equalizer_1d_pilots_alix swig_types[58]
-#define SWIGTYPE_p_gr__ofdm_allocator__ofdm_equalizer_base_alix swig_types[59]
-#define SWIGTYPE_p_gr__ofdm_allocator__ofdm_equalizer_simpledfe_alix swig_types[60]
-#define SWIGTYPE_p_gr__ofdm_allocator__packet_header_default_alix swig_types[61]
-#define SWIGTYPE_p_gr__ofdm_allocator__packet_header_gen swig_types[62]
-#define SWIGTYPE_p_gr__ofdm_allocator__packet_header_ofdm_alix swig_types[63]
-#define SWIGTYPE_p_gr__ofdm_allocator__serializer_subcarrier swig_types[64]
-#define SWIGTYPE_p_gr__ofdm_allocator__trellis_metric_type_t swig_types[65]
-#define SWIGTYPE_p_gr__ofdm_allocator__vector_source_tagged swig_types[66]
-#define SWIGTYPE_p_gr__rt_status_t swig_types[67]
-#define SWIGTYPE_p_gr__sync_block swig_types[68]
-#define SWIGTYPE_p_gr__sync_decimator swig_types[69]
-#define SWIGTYPE_p_gr__sync_interpolator swig_types[70]
-#define SWIGTYPE_p_gr__tagged_stream_block swig_types[71]
-#define SWIGTYPE_p_gr__top_block swig_types[72]
-#define SWIGTYPE_p_int swig_types[73]
-#define SWIGTYPE_p_long_long swig_types[74]
-#define SWIGTYPE_p_reference swig_types[75]
-#define SWIGTYPE_p_short swig_types[76]
-#define SWIGTYPE_p_signed_char swig_types[77]
-#define SWIGTYPE_p_size_type swig_types[78]
-#define SWIGTYPE_p_sptr swig_types[79]
-#define SWIGTYPE_p_std__complexT_double_t swig_types[80]
-#define SWIGTYPE_p_std__complexT_float_t swig_types[81]
-#define SWIGTYPE_p_std__vectorT_bool_std__allocatorT_bool_t_t swig_types[82]
-#define SWIGTYPE_p_std__vectorT_gr__tag_t_std__allocatorT_gr__tag_t_t_t swig_types[83]
-#define SWIGTYPE_p_std__vectorT_std__complexT_float_t_std__allocatorT_std__complexT_float_t_t_t swig_types[84]
-#define SWIGTYPE_p_unsigned_char swig_types[85]
-#define SWIGTYPE_p_unsigned_int swig_types[86]
-#define SWIGTYPE_p_unsigned_long_long swig_types[87]
-#define SWIGTYPE_p_unsigned_short swig_types[88]
-#define SWIGTYPE_p_value_type swig_types[89]
-static swig_type_info *swig_types[91];
-static swig_module_info swig_module = {swig_types, 90, 0, 0, 0, 0};
+#define SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t swig_types[31]
+#define SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__serializer_subcarrier_t swig_types[32]
+#define SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__vector_source_tagged_t swig_types[33]
+#define SWIGTYPE_p_boost__shared_ptrT_gr__top_block_t swig_types[34]
+#define SWIGTYPE_p_char swig_types[35]
+#define SWIGTYPE_p_const_reference swig_types[36]
+#define SWIGTYPE_p_difference_type swig_types[37]
+#define SWIGTYPE_p_float swig_types[38]
+#define SWIGTYPE_p_gr__basic_block swig_types[39]
+#define SWIGTYPE_p_gr__block swig_types[40]
+#define SWIGTYPE_p_gr__block_gateway swig_types[41]
+#define SWIGTYPE_p_gr__endianness_t swig_types[42]
+#define SWIGTYPE_p_gr__hier_block2 swig_types[43]
+#define SWIGTYPE_p_gr__ofdm_allocator__allocator_subcarrier swig_types[44]
+#define SWIGTYPE_p_gr__ofdm_allocator__constellation_16qam swig_types[45]
+#define SWIGTYPE_p_gr__ofdm_allocator__constellation_8psk swig_types[46]
+#define SWIGTYPE_p_gr__ofdm_allocator__constellation_8psk_natural swig_types[47]
+#define SWIGTYPE_p_gr__ofdm_allocator__constellation_alix swig_types[48]
+#define SWIGTYPE_p_gr__ofdm_allocator__constellation_bpsk swig_types[49]
+#define SWIGTYPE_p_gr__ofdm_allocator__constellation_calcdist swig_types[50]
+#define SWIGTYPE_p_gr__ofdm_allocator__constellation_decoder_alix swig_types[51]
+#define SWIGTYPE_p_gr__ofdm_allocator__constellation_dqpsk swig_types[52]
+#define SWIGTYPE_p_gr__ofdm_allocator__constellation_expl_rect swig_types[53]
+#define SWIGTYPE_p_gr__ofdm_allocator__constellation_psk swig_types[54]
+#define SWIGTYPE_p_gr__ofdm_allocator__constellation_qpsk swig_types[55]
+#define SWIGTYPE_p_gr__ofdm_allocator__constellation_rect swig_types[56]
+#define SWIGTYPE_p_gr__ofdm_allocator__constellation_sector swig_types[57]
+#define SWIGTYPE_p_gr__ofdm_allocator__frame_equalizer_alix swig_types[58]
+#define SWIGTYPE_p_gr__ofdm_allocator__ofdm_equalizer_1d_pilots_alix swig_types[59]
+#define SWIGTYPE_p_gr__ofdm_allocator__ofdm_equalizer_base_alix swig_types[60]
+#define SWIGTYPE_p_gr__ofdm_allocator__ofdm_equalizer_simpledfe_alix swig_types[61]
+#define SWIGTYPE_p_gr__ofdm_allocator__packet_header_default_alix swig_types[62]
+#define SWIGTYPE_p_gr__ofdm_allocator__packet_header_gen swig_types[63]
+#define SWIGTYPE_p_gr__ofdm_allocator__packet_header_ofdm_alix swig_types[64]
+#define SWIGTYPE_p_gr__ofdm_allocator__packet_header_parser_alix swig_types[65]
+#define SWIGTYPE_p_gr__ofdm_allocator__serializer_subcarrier swig_types[66]
+#define SWIGTYPE_p_gr__ofdm_allocator__trellis_metric_type_t swig_types[67]
+#define SWIGTYPE_p_gr__ofdm_allocator__vector_source_tagged swig_types[68]
+#define SWIGTYPE_p_gr__rt_status_t swig_types[69]
+#define SWIGTYPE_p_gr__sync_block swig_types[70]
+#define SWIGTYPE_p_gr__sync_decimator swig_types[71]
+#define SWIGTYPE_p_gr__sync_interpolator swig_types[72]
+#define SWIGTYPE_p_gr__tagged_stream_block swig_types[73]
+#define SWIGTYPE_p_gr__top_block swig_types[74]
+#define SWIGTYPE_p_int swig_types[75]
+#define SWIGTYPE_p_long_long swig_types[76]
+#define SWIGTYPE_p_reference swig_types[77]
+#define SWIGTYPE_p_short swig_types[78]
+#define SWIGTYPE_p_signed_char swig_types[79]
+#define SWIGTYPE_p_size_type swig_types[80]
+#define SWIGTYPE_p_sptr swig_types[81]
+#define SWIGTYPE_p_std__complexT_double_t swig_types[82]
+#define SWIGTYPE_p_std__complexT_float_t swig_types[83]
+#define SWIGTYPE_p_std__vectorT_bool_std__allocatorT_bool_t_t swig_types[84]
+#define SWIGTYPE_p_std__vectorT_gr__tag_t_std__allocatorT_gr__tag_t_t_t swig_types[85]
+#define SWIGTYPE_p_std__vectorT_std__complexT_float_t_std__allocatorT_std__complexT_float_t_t_t swig_types[86]
+#define SWIGTYPE_p_std__vectorT_std__vectorT_bool_std__allocatorT_bool_t_t_std__allocatorT_std__vectorT_bool_std__allocatorT_bool_t_t_t_t swig_types[87]
+#define SWIGTYPE_p_unsigned_char swig_types[88]
+#define SWIGTYPE_p_unsigned_int swig_types[89]
+#define SWIGTYPE_p_unsigned_long_long swig_types[90]
+#define SWIGTYPE_p_unsigned_short swig_types[91]
+#define SWIGTYPE_p_value_type swig_types[92]
+static swig_type_info *swig_types[94];
+static swig_module_info swig_module = {swig_types, 93, 0, 0, 0, 0};
 #define SWIG_TypeQuery(name) SWIG_TypeQueryModule(&swig_module, &swig_module, name)
 #define SWIG_MangledTypeQuery(name) SWIG_MangledTypeQueryModule(&swig_module, &swig_module, name)
 
@@ -4427,6 +4430,7 @@ SWIG_From_long_SS_long  (long long value)
 #include "ofdm_allocator/constellation_alix.h"
 #include "ofdm_allocator/metric_type_alix.h"
 #include "ofdm_allocator/constellation_decoder_alix.h"
+#include "ofdm_allocator/packet_header_parser_alix.h"
 
 
 SWIGINTERN int
@@ -5316,8 +5320,10 @@ SWIGINTERN PyObject *_wrap_vector_source_tagged_make(PyObject *SWIGUNUSEDPARM(se
   std::vector< int,std::allocator< int > > *arg11 = (std::vector< int,std::allocator< int > > *) &arg11_defvalue ;
   std::string const &arg12_defvalue = "vector_len" ;
   std::string *arg12 = (std::string *) &arg12_defvalue ;
-  std::vector< gr::tag_t,std::allocator< gr::tag_t > > const &arg13_defvalue = std::vector< gr::tag_t >() ;
-  std::vector< gr::tag_t,std::allocator< gr::tag_t > > *arg13 = (std::vector< gr::tag_t,std::allocator< gr::tag_t > > *) &arg13_defvalue ;
+  std::string const &arg13_defvalue = "packet_len" ;
+  std::string *arg13 = (std::string *) &arg13_defvalue ;
+  std::vector< gr::tag_t,std::allocator< gr::tag_t > > const &arg14_defvalue = std::vector< gr::tag_t >() ;
+  std::vector< gr::tag_t,std::allocator< gr::tag_t > > *arg14 = (std::vector< gr::tag_t,std::allocator< gr::tag_t > > *) &arg14_defvalue ;
   int res1 = SWIG_OLDOBJ ;
   bool val2 ;
   int ecode2 = 0 ;
@@ -5340,6 +5346,7 @@ SWIGINTERN PyObject *_wrap_vector_source_tagged_make(PyObject *SWIGUNUSEDPARM(se
   int res11 = SWIG_OLDOBJ ;
   int res12 = SWIG_OLDOBJ ;
   int res13 = SWIG_OLDOBJ ;
+  int res14 = SWIG_OLDOBJ ;
   PyObject * obj0 = 0 ;
   PyObject * obj1 = 0 ;
   PyObject * obj2 = 0 ;
@@ -5353,12 +5360,13 @@ SWIGINTERN PyObject *_wrap_vector_source_tagged_make(PyObject *SWIGUNUSEDPARM(se
   PyObject * obj10 = 0 ;
   PyObject * obj11 = 0 ;
   PyObject * obj12 = 0 ;
+  PyObject * obj13 = 0 ;
   char *  kwnames[] = {
-    (char *) "data",(char *) "repeat",(char *) "vlen",(char *) "fixed_data",(char *) "fft_len",(char *) "max_len_data_subcarr",(char *) "max_len_pilot_subcarr",(char *) "max_vector_data_subcarr",(char *) "max_vector_pilot_subcarr",(char *) "fixed_pilot",(char *) "pilot",(char *) "length_tag_key",(char *) "tags", NULL 
+    (char *) "data",(char *) "repeat",(char *) "vlen",(char *) "fixed_data",(char *) "fft_len",(char *) "max_len_data_subcarr",(char *) "max_len_pilot_subcarr",(char *) "max_vector_data_subcarr",(char *) "max_vector_pilot_subcarr",(char *) "fixed_pilot",(char *) "pilot",(char *) "length_tag_key",(char *) "length_tag_key_2",(char *) "tags", NULL 
   };
   gr::ofdm_allocator::vector_source_tagged::sptr result;
   
-  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"O|OOOOOOOOOOOO:vector_source_tagged_make",kwnames,&obj0,&obj1,&obj2,&obj3,&obj4,&obj5,&obj6,&obj7,&obj8,&obj9,&obj10,&obj11,&obj12)) SWIG_fail;
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"O|OOOOOOOOOOOOO:vector_source_tagged_make",kwnames,&obj0,&obj1,&obj2,&obj3,&obj4,&obj5,&obj6,&obj7,&obj8,&obj9,&obj10,&obj11,&obj12,&obj13)) SWIG_fail;
   {
     std::vector< int,std::allocator< int > > *ptr = (std::vector< int,std::allocator< int > > *)0;
     res1 = swig::asptr(obj0, &ptr);
@@ -5461,20 +5469,33 @@ SWIGINTERN PyObject *_wrap_vector_source_tagged_make(PyObject *SWIGUNUSEDPARM(se
   }
   if (obj12) {
     {
-      std::vector< gr::tag_t,std::allocator< gr::tag_t > > *ptr = (std::vector< gr::tag_t,std::allocator< gr::tag_t > > *)0;
-      res13 = swig::asptr(obj12, &ptr);
+      std::string *ptr = (std::string *)0;
+      res13 = SWIG_AsPtr_std_string(obj12, &ptr);
       if (!SWIG_IsOK(res13)) {
-        SWIG_exception_fail(SWIG_ArgError(res13), "in method '" "vector_source_tagged_make" "', argument " "13"" of type '" "std::vector< gr::tag_t,std::allocator< gr::tag_t > > const &""'"); 
+        SWIG_exception_fail(SWIG_ArgError(res13), "in method '" "vector_source_tagged_make" "', argument " "13"" of type '" "std::string const &""'"); 
       }
       if (!ptr) {
-        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "vector_source_tagged_make" "', argument " "13"" of type '" "std::vector< gr::tag_t,std::allocator< gr::tag_t > > const &""'"); 
+        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "vector_source_tagged_make" "', argument " "13"" of type '" "std::string const &""'"); 
       }
       arg13 = ptr;
     }
   }
+  if (obj13) {
+    {
+      std::vector< gr::tag_t,std::allocator< gr::tag_t > > *ptr = (std::vector< gr::tag_t,std::allocator< gr::tag_t > > *)0;
+      res14 = swig::asptr(obj13, &ptr);
+      if (!SWIG_IsOK(res14)) {
+        SWIG_exception_fail(SWIG_ArgError(res14), "in method '" "vector_source_tagged_make" "', argument " "14"" of type '" "std::vector< gr::tag_t,std::allocator< gr::tag_t > > const &""'"); 
+      }
+      if (!ptr) {
+        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "vector_source_tagged_make" "', argument " "14"" of type '" "std::vector< gr::tag_t,std::allocator< gr::tag_t > > const &""'"); 
+      }
+      arg14 = ptr;
+    }
+  }
   {
     try {
-      result = gr::ofdm_allocator::vector_source_tagged::make((std::vector< int,std::allocator< int > > const &)*arg1,arg2,arg3,arg4,arg5,arg6,arg7,arg8,arg9,arg10,(std::vector< int,std::allocator< int > > const &)*arg11,(std::string const &)*arg12,(std::vector< gr::tag_t,std::allocator< gr::tag_t > > const &)*arg13);
+      result = gr::ofdm_allocator::vector_source_tagged::make((std::vector< int,std::allocator< int > > const &)*arg1,arg2,arg3,arg4,arg5,arg6,arg7,arg8,arg9,arg10,(std::vector< int,std::allocator< int > > const &)*arg11,(std::string const &)*arg12,(std::string const &)*arg13,(std::vector< gr::tag_t,std::allocator< gr::tag_t > > const &)*arg14);
     }
     catch(std::exception &e) {
       SWIG_exception(SWIG_RuntimeError, e.what());
@@ -5489,12 +5510,14 @@ SWIGINTERN PyObject *_wrap_vector_source_tagged_make(PyObject *SWIGUNUSEDPARM(se
   if (SWIG_IsNewObj(res11)) delete arg11;
   if (SWIG_IsNewObj(res12)) delete arg12;
   if (SWIG_IsNewObj(res13)) delete arg13;
+  if (SWIG_IsNewObj(res14)) delete arg14;
   return resultobj;
 fail:
   if (SWIG_IsNewObj(res1)) delete arg1;
   if (SWIG_IsNewObj(res11)) delete arg11;
   if (SWIG_IsNewObj(res12)) delete arg12;
   if (SWIG_IsNewObj(res13)) delete arg13;
+  if (SWIG_IsNewObj(res14)) delete arg14;
   return NULL;
 }
 
@@ -5953,8 +5976,10 @@ SWIGINTERN PyObject *_wrap_vector_source_tagged_sptr_make(PyObject *SWIGUNUSEDPA
   std::vector< int,std::allocator< int > > *arg12 = (std::vector< int,std::allocator< int > > *) &arg12_defvalue ;
   std::string const &arg13_defvalue = "vector_len" ;
   std::string *arg13 = (std::string *) &arg13_defvalue ;
-  std::vector< gr::tag_t,std::allocator< gr::tag_t > > const &arg14_defvalue = std::vector< gr::tag_t >() ;
-  std::vector< gr::tag_t,std::allocator< gr::tag_t > > *arg14 = (std::vector< gr::tag_t,std::allocator< gr::tag_t > > *) &arg14_defvalue ;
+  std::string const &arg14_defvalue = "packet_len" ;
+  std::string *arg14 = (std::string *) &arg14_defvalue ;
+  std::vector< gr::tag_t,std::allocator< gr::tag_t > > const &arg15_defvalue = std::vector< gr::tag_t >() ;
+  std::vector< gr::tag_t,std::allocator< gr::tag_t > > *arg15 = (std::vector< gr::tag_t,std::allocator< gr::tag_t > > *) &arg15_defvalue ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   int res2 = SWIG_OLDOBJ ;
@@ -5979,6 +6004,7 @@ SWIGINTERN PyObject *_wrap_vector_source_tagged_sptr_make(PyObject *SWIGUNUSEDPA
   int res12 = SWIG_OLDOBJ ;
   int res13 = SWIG_OLDOBJ ;
   int res14 = SWIG_OLDOBJ ;
+  int res15 = SWIG_OLDOBJ ;
   PyObject * obj0 = 0 ;
   PyObject * obj1 = 0 ;
   PyObject * obj2 = 0 ;
@@ -5993,12 +6019,13 @@ SWIGINTERN PyObject *_wrap_vector_source_tagged_sptr_make(PyObject *SWIGUNUSEDPA
   PyObject * obj11 = 0 ;
   PyObject * obj12 = 0 ;
   PyObject * obj13 = 0 ;
+  PyObject * obj14 = 0 ;
   char *  kwnames[] = {
-    (char *) "self",(char *) "data",(char *) "repeat",(char *) "vlen",(char *) "fixed_data",(char *) "fft_len",(char *) "max_len_data_subcarr",(char *) "max_len_pilot_subcarr",(char *) "max_vector_data_subcarr",(char *) "max_vector_pilot_subcarr",(char *) "fixed_pilot",(char *) "pilot",(char *) "length_tag_key",(char *) "tags", NULL 
+    (char *) "self",(char *) "data",(char *) "repeat",(char *) "vlen",(char *) "fixed_data",(char *) "fft_len",(char *) "max_len_data_subcarr",(char *) "max_len_pilot_subcarr",(char *) "max_vector_data_subcarr",(char *) "max_vector_pilot_subcarr",(char *) "fixed_pilot",(char *) "pilot",(char *) "length_tag_key",(char *) "length_tag_key_2",(char *) "tags", NULL 
   };
   gr::ofdm_allocator::vector_source_tagged::sptr result;
   
-  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO|OOOOOOOOOOOO:vector_source_tagged_sptr_make",kwnames,&obj0,&obj1,&obj2,&obj3,&obj4,&obj5,&obj6,&obj7,&obj8,&obj9,&obj10,&obj11,&obj12,&obj13)) SWIG_fail;
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO|OOOOOOOOOOOOO:vector_source_tagged_sptr_make",kwnames,&obj0,&obj1,&obj2,&obj3,&obj4,&obj5,&obj6,&obj7,&obj8,&obj9,&obj10,&obj11,&obj12,&obj13,&obj14)) SWIG_fail;
   res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__vector_source_tagged_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vector_source_tagged_sptr_make" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::vector_source_tagged > *""'"); 
@@ -6106,20 +6133,33 @@ SWIGINTERN PyObject *_wrap_vector_source_tagged_sptr_make(PyObject *SWIGUNUSEDPA
   }
   if (obj13) {
     {
-      std::vector< gr::tag_t,std::allocator< gr::tag_t > > *ptr = (std::vector< gr::tag_t,std::allocator< gr::tag_t > > *)0;
-      res14 = swig::asptr(obj13, &ptr);
+      std::string *ptr = (std::string *)0;
+      res14 = SWIG_AsPtr_std_string(obj13, &ptr);
       if (!SWIG_IsOK(res14)) {
-        SWIG_exception_fail(SWIG_ArgError(res14), "in method '" "vector_source_tagged_sptr_make" "', argument " "14"" of type '" "std::vector< gr::tag_t,std::allocator< gr::tag_t > > const &""'"); 
+        SWIG_exception_fail(SWIG_ArgError(res14), "in method '" "vector_source_tagged_sptr_make" "', argument " "14"" of type '" "std::string const &""'"); 
       }
       if (!ptr) {
-        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "vector_source_tagged_sptr_make" "', argument " "14"" of type '" "std::vector< gr::tag_t,std::allocator< gr::tag_t > > const &""'"); 
+        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "vector_source_tagged_sptr_make" "', argument " "14"" of type '" "std::string const &""'"); 
       }
       arg14 = ptr;
     }
   }
+  if (obj14) {
+    {
+      std::vector< gr::tag_t,std::allocator< gr::tag_t > > *ptr = (std::vector< gr::tag_t,std::allocator< gr::tag_t > > *)0;
+      res15 = swig::asptr(obj14, &ptr);
+      if (!SWIG_IsOK(res15)) {
+        SWIG_exception_fail(SWIG_ArgError(res15), "in method '" "vector_source_tagged_sptr_make" "', argument " "15"" of type '" "std::vector< gr::tag_t,std::allocator< gr::tag_t > > const &""'"); 
+      }
+      if (!ptr) {
+        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "vector_source_tagged_sptr_make" "', argument " "15"" of type '" "std::vector< gr::tag_t,std::allocator< gr::tag_t > > const &""'"); 
+      }
+      arg15 = ptr;
+    }
+  }
   {
     try {
-      result = (*arg1)->make((std::vector< int,std::allocator< int > > const &)*arg2,arg3,arg4,arg5,arg6,arg7,arg8,arg9,arg10,arg11,(std::vector< int,std::allocator< int > > const &)*arg12,(std::string const &)*arg13,(std::vector< gr::tag_t,std::allocator< gr::tag_t > > const &)*arg14);
+      result = (*arg1)->make((std::vector< int,std::allocator< int > > const &)*arg2,arg3,arg4,arg5,arg6,arg7,arg8,arg9,arg10,arg11,(std::vector< int,std::allocator< int > > const &)*arg12,(std::string const &)*arg13,(std::string const &)*arg14,(std::vector< gr::tag_t,std::allocator< gr::tag_t > > const &)*arg15);
     }
     catch(std::exception &e) {
       SWIG_exception(SWIG_RuntimeError, e.what());
@@ -6134,12 +6174,14 @@ SWIGINTERN PyObject *_wrap_vector_source_tagged_sptr_make(PyObject *SWIGUNUSEDPA
   if (SWIG_IsNewObj(res12)) delete arg12;
   if (SWIG_IsNewObj(res13)) delete arg13;
   if (SWIG_IsNewObj(res14)) delete arg14;
+  if (SWIG_IsNewObj(res15)) delete arg15;
   return resultobj;
 fail:
   if (SWIG_IsNewObj(res2)) delete arg2;
   if (SWIG_IsNewObj(res12)) delete arg12;
   if (SWIG_IsNewObj(res13)) delete arg13;
   if (SWIG_IsNewObj(res14)) delete arg14;
+  if (SWIG_IsNewObj(res15)) delete arg15;
   return NULL;
 }
 
@@ -12876,25 +12918,43 @@ SWIGINTERN PyObject *_wrap_serializer_subcarrier_make(PyObject *SWIGUNUSEDPARM(s
   PyObject *resultobj = 0;
   int arg1 ;
   int arg2 ;
-  std::string const &arg3_defvalue = "frame_len" ;
-  std::string *arg3 = (std::string *) &arg3_defvalue ;
-  std::string const &arg4_defvalue = "" ;
-  std::string *arg4 = (std::string *) &arg4_defvalue ;
-  int arg5 = (int) 0 ;
-  std::string const &arg6_defvalue = "" ;
-  std::string *arg6 = (std::string *) &arg6_defvalue ;
-  bool arg7 = (bool) true ;
+  bool arg3 = (bool) true ;
+  bool arg4 = (bool) true ;
+  int arg5 = (int) 48 ;
+  int arg6 = (int) 4 ;
+  int arg7 = (int) 1 ;
+  int arg8 = (int) 1 ;
+  std::string const &arg9_defvalue = "frame_len" ;
+  std::string *arg9 = (std::string *) &arg9_defvalue ;
+  std::string const &arg10_defvalue = "" ;
+  std::string *arg10 = (std::string *) &arg10_defvalue ;
+  int arg11 = (int) 0 ;
+  std::string const &arg12_defvalue = "" ;
+  std::string *arg12 = (std::string *) &arg12_defvalue ;
+  bool arg13 = (bool) true ;
   int val1 ;
   int ecode1 = 0 ;
   int val2 ;
   int ecode2 = 0 ;
-  int res3 = SWIG_OLDOBJ ;
-  int res4 = SWIG_OLDOBJ ;
+  bool val3 ;
+  int ecode3 = 0 ;
+  bool val4 ;
+  int ecode4 = 0 ;
   int val5 ;
   int ecode5 = 0 ;
-  int res6 = SWIG_OLDOBJ ;
-  bool val7 ;
+  int val6 ;
+  int ecode6 = 0 ;
+  int val7 ;
   int ecode7 = 0 ;
+  int val8 ;
+  int ecode8 = 0 ;
+  int res9 = SWIG_OLDOBJ ;
+  int res10 = SWIG_OLDOBJ ;
+  int val11 ;
+  int ecode11 = 0 ;
+  int res12 = SWIG_OLDOBJ ;
+  bool val13 ;
+  int ecode13 = 0 ;
   PyObject * obj0 = 0 ;
   PyObject * obj1 = 0 ;
   PyObject * obj2 = 0 ;
@@ -12902,12 +12962,18 @@ SWIGINTERN PyObject *_wrap_serializer_subcarrier_make(PyObject *SWIGUNUSEDPARM(s
   PyObject * obj4 = 0 ;
   PyObject * obj5 = 0 ;
   PyObject * obj6 = 0 ;
+  PyObject * obj7 = 0 ;
+  PyObject * obj8 = 0 ;
+  PyObject * obj9 = 0 ;
+  PyObject * obj10 = 0 ;
+  PyObject * obj11 = 0 ;
+  PyObject * obj12 = 0 ;
   char *  kwnames[] = {
-    (char *) "fft_len",(char *) "vector_len",(char *) "len_tag_key",(char *) "packet_len_tag_key",(char *) "symbols_skipped",(char *) "carr_offset_key",(char *) "input_is_shifted", NULL 
+    (char *) "fft_len",(char *) "vector_len",(char *) "fixed_pilot",(char *) "fixed_data",(char *) "max_len_data_subcarr",(char *) "max_len_pilot_subcarr",(char *) "max_vector_data_subcarr",(char *) "max_vector_pilot_subcarr",(char *) "len_tag_key",(char *) "packet_len_tag_key",(char *) "symbols_skipped",(char *) "carr_offset_key",(char *) "input_is_shifted", NULL 
   };
   gr::ofdm_allocator::serializer_subcarrier::sptr result;
   
-  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO|OOOOO:serializer_subcarrier_make",kwnames,&obj0,&obj1,&obj2,&obj3,&obj4,&obj5,&obj6)) SWIG_fail;
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO|OOOOOOOOOOO:serializer_subcarrier_make",kwnames,&obj0,&obj1,&obj2,&obj3,&obj4,&obj5,&obj6,&obj7,&obj8,&obj9,&obj10,&obj11,&obj12)) SWIG_fail;
   ecode1 = SWIG_AsVal_int(obj0, &val1);
   if (!SWIG_IsOK(ecode1)) {
     SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "serializer_subcarrier_make" "', argument " "1"" of type '" "int""'");
@@ -12919,30 +12985,18 @@ SWIGINTERN PyObject *_wrap_serializer_subcarrier_make(PyObject *SWIGUNUSEDPARM(s
   } 
   arg2 = static_cast< int >(val2);
   if (obj2) {
-    {
-      std::string *ptr = (std::string *)0;
-      res3 = SWIG_AsPtr_std_string(obj2, &ptr);
-      if (!SWIG_IsOK(res3)) {
-        SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "serializer_subcarrier_make" "', argument " "3"" of type '" "std::string const &""'"); 
-      }
-      if (!ptr) {
-        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "serializer_subcarrier_make" "', argument " "3"" of type '" "std::string const &""'"); 
-      }
-      arg3 = ptr;
-    }
+    ecode3 = SWIG_AsVal_bool(obj2, &val3);
+    if (!SWIG_IsOK(ecode3)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "serializer_subcarrier_make" "', argument " "3"" of type '" "bool""'");
+    } 
+    arg3 = static_cast< bool >(val3);
   }
   if (obj3) {
-    {
-      std::string *ptr = (std::string *)0;
-      res4 = SWIG_AsPtr_std_string(obj3, &ptr);
-      if (!SWIG_IsOK(res4)) {
-        SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "serializer_subcarrier_make" "', argument " "4"" of type '" "std::string const &""'"); 
-      }
-      if (!ptr) {
-        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "serializer_subcarrier_make" "', argument " "4"" of type '" "std::string const &""'"); 
-      }
-      arg4 = ptr;
-    }
+    ecode4 = SWIG_AsVal_bool(obj3, &val4);
+    if (!SWIG_IsOK(ecode4)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode4), "in method '" "serializer_subcarrier_make" "', argument " "4"" of type '" "bool""'");
+    } 
+    arg4 = static_cast< bool >(val4);
   }
   if (obj4) {
     ecode5 = SWIG_AsVal_int(obj4, &val5);
@@ -12952,28 +13006,82 @@ SWIGINTERN PyObject *_wrap_serializer_subcarrier_make(PyObject *SWIGUNUSEDPARM(s
     arg5 = static_cast< int >(val5);
   }
   if (obj5) {
-    {
-      std::string *ptr = (std::string *)0;
-      res6 = SWIG_AsPtr_std_string(obj5, &ptr);
-      if (!SWIG_IsOK(res6)) {
-        SWIG_exception_fail(SWIG_ArgError(res6), "in method '" "serializer_subcarrier_make" "', argument " "6"" of type '" "std::string const &""'"); 
-      }
-      if (!ptr) {
-        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "serializer_subcarrier_make" "', argument " "6"" of type '" "std::string const &""'"); 
-      }
-      arg6 = ptr;
-    }
+    ecode6 = SWIG_AsVal_int(obj5, &val6);
+    if (!SWIG_IsOK(ecode6)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode6), "in method '" "serializer_subcarrier_make" "', argument " "6"" of type '" "int""'");
+    } 
+    arg6 = static_cast< int >(val6);
   }
   if (obj6) {
-    ecode7 = SWIG_AsVal_bool(obj6, &val7);
+    ecode7 = SWIG_AsVal_int(obj6, &val7);
     if (!SWIG_IsOK(ecode7)) {
-      SWIG_exception_fail(SWIG_ArgError(ecode7), "in method '" "serializer_subcarrier_make" "', argument " "7"" of type '" "bool""'");
+      SWIG_exception_fail(SWIG_ArgError(ecode7), "in method '" "serializer_subcarrier_make" "', argument " "7"" of type '" "int""'");
     } 
-    arg7 = static_cast< bool >(val7);
+    arg7 = static_cast< int >(val7);
+  }
+  if (obj7) {
+    ecode8 = SWIG_AsVal_int(obj7, &val8);
+    if (!SWIG_IsOK(ecode8)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode8), "in method '" "serializer_subcarrier_make" "', argument " "8"" of type '" "int""'");
+    } 
+    arg8 = static_cast< int >(val8);
+  }
+  if (obj8) {
+    {
+      std::string *ptr = (std::string *)0;
+      res9 = SWIG_AsPtr_std_string(obj8, &ptr);
+      if (!SWIG_IsOK(res9)) {
+        SWIG_exception_fail(SWIG_ArgError(res9), "in method '" "serializer_subcarrier_make" "', argument " "9"" of type '" "std::string const &""'"); 
+      }
+      if (!ptr) {
+        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "serializer_subcarrier_make" "', argument " "9"" of type '" "std::string const &""'"); 
+      }
+      arg9 = ptr;
+    }
+  }
+  if (obj9) {
+    {
+      std::string *ptr = (std::string *)0;
+      res10 = SWIG_AsPtr_std_string(obj9, &ptr);
+      if (!SWIG_IsOK(res10)) {
+        SWIG_exception_fail(SWIG_ArgError(res10), "in method '" "serializer_subcarrier_make" "', argument " "10"" of type '" "std::string const &""'"); 
+      }
+      if (!ptr) {
+        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "serializer_subcarrier_make" "', argument " "10"" of type '" "std::string const &""'"); 
+      }
+      arg10 = ptr;
+    }
+  }
+  if (obj10) {
+    ecode11 = SWIG_AsVal_int(obj10, &val11);
+    if (!SWIG_IsOK(ecode11)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode11), "in method '" "serializer_subcarrier_make" "', argument " "11"" of type '" "int""'");
+    } 
+    arg11 = static_cast< int >(val11);
+  }
+  if (obj11) {
+    {
+      std::string *ptr = (std::string *)0;
+      res12 = SWIG_AsPtr_std_string(obj11, &ptr);
+      if (!SWIG_IsOK(res12)) {
+        SWIG_exception_fail(SWIG_ArgError(res12), "in method '" "serializer_subcarrier_make" "', argument " "12"" of type '" "std::string const &""'"); 
+      }
+      if (!ptr) {
+        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "serializer_subcarrier_make" "', argument " "12"" of type '" "std::string const &""'"); 
+      }
+      arg12 = ptr;
+    }
+  }
+  if (obj12) {
+    ecode13 = SWIG_AsVal_bool(obj12, &val13);
+    if (!SWIG_IsOK(ecode13)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode13), "in method '" "serializer_subcarrier_make" "', argument " "13"" of type '" "bool""'");
+    } 
+    arg13 = static_cast< bool >(val13);
   }
   {
     try {
-      result = gr::ofdm_allocator::serializer_subcarrier::make(arg1,arg2,(std::string const &)*arg3,(std::string const &)*arg4,arg5,(std::string const &)*arg6,arg7);
+      result = gr::ofdm_allocator::serializer_subcarrier::make(arg1,arg2,arg3,arg4,arg5,arg6,arg7,arg8,(std::string const &)*arg9,(std::string const &)*arg10,arg11,(std::string const &)*arg12,arg13);
     }
     catch(std::exception &e) {
       SWIG_exception(SWIG_RuntimeError, e.what());
@@ -12984,14 +13092,14 @@ SWIGINTERN PyObject *_wrap_serializer_subcarrier_make(PyObject *SWIGUNUSEDPARM(s
     
   }
   resultobj = SWIG_NewPointerObj((new gr::ofdm_allocator::serializer_subcarrier::sptr(static_cast< const gr::ofdm_allocator::serializer_subcarrier::sptr& >(result))), SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__serializer_subcarrier_t, SWIG_POINTER_OWN |  0 );
-  if (SWIG_IsNewObj(res3)) delete arg3;
-  if (SWIG_IsNewObj(res4)) delete arg4;
-  if (SWIG_IsNewObj(res6)) delete arg6;
+  if (SWIG_IsNewObj(res9)) delete arg9;
+  if (SWIG_IsNewObj(res10)) delete arg10;
+  if (SWIG_IsNewObj(res12)) delete arg12;
   return resultobj;
 fail:
-  if (SWIG_IsNewObj(res3)) delete arg3;
-  if (SWIG_IsNewObj(res4)) delete arg4;
-  if (SWIG_IsNewObj(res6)) delete arg6;
+  if (SWIG_IsNewObj(res9)) delete arg9;
+  if (SWIG_IsNewObj(res10)) delete arg10;
+  if (SWIG_IsNewObj(res12)) delete arg12;
   return NULL;
 }
 
@@ -13196,27 +13304,45 @@ SWIGINTERN PyObject *_wrap_serializer_subcarrier_sptr_make(PyObject *SWIGUNUSEDP
   boost::shared_ptr< gr::ofdm_allocator::serializer_subcarrier > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::serializer_subcarrier > *) 0 ;
   int arg2 ;
   int arg3 ;
-  std::string const &arg4_defvalue = "frame_len" ;
-  std::string *arg4 = (std::string *) &arg4_defvalue ;
-  std::string const &arg5_defvalue = "" ;
-  std::string *arg5 = (std::string *) &arg5_defvalue ;
-  int arg6 = (int) 0 ;
-  std::string const &arg7_defvalue = "" ;
-  std::string *arg7 = (std::string *) &arg7_defvalue ;
-  bool arg8 = (bool) true ;
+  bool arg4 = (bool) true ;
+  bool arg5 = (bool) true ;
+  int arg6 = (int) 48 ;
+  int arg7 = (int) 4 ;
+  int arg8 = (int) 1 ;
+  int arg9 = (int) 1 ;
+  std::string const &arg10_defvalue = "frame_len" ;
+  std::string *arg10 = (std::string *) &arg10_defvalue ;
+  std::string const &arg11_defvalue = "" ;
+  std::string *arg11 = (std::string *) &arg11_defvalue ;
+  int arg12 = (int) 0 ;
+  std::string const &arg13_defvalue = "" ;
+  std::string *arg13 = (std::string *) &arg13_defvalue ;
+  bool arg14 = (bool) true ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   int val2 ;
   int ecode2 = 0 ;
   int val3 ;
   int ecode3 = 0 ;
-  int res4 = SWIG_OLDOBJ ;
-  int res5 = SWIG_OLDOBJ ;
+  bool val4 ;
+  int ecode4 = 0 ;
+  bool val5 ;
+  int ecode5 = 0 ;
   int val6 ;
   int ecode6 = 0 ;
-  int res7 = SWIG_OLDOBJ ;
-  bool val8 ;
+  int val7 ;
+  int ecode7 = 0 ;
+  int val8 ;
   int ecode8 = 0 ;
+  int val9 ;
+  int ecode9 = 0 ;
+  int res10 = SWIG_OLDOBJ ;
+  int res11 = SWIG_OLDOBJ ;
+  int val12 ;
+  int ecode12 = 0 ;
+  int res13 = SWIG_OLDOBJ ;
+  bool val14 ;
+  int ecode14 = 0 ;
   PyObject * obj0 = 0 ;
   PyObject * obj1 = 0 ;
   PyObject * obj2 = 0 ;
@@ -13225,12 +13351,18 @@ SWIGINTERN PyObject *_wrap_serializer_subcarrier_sptr_make(PyObject *SWIGUNUSEDP
   PyObject * obj5 = 0 ;
   PyObject * obj6 = 0 ;
   PyObject * obj7 = 0 ;
+  PyObject * obj8 = 0 ;
+  PyObject * obj9 = 0 ;
+  PyObject * obj10 = 0 ;
+  PyObject * obj11 = 0 ;
+  PyObject * obj12 = 0 ;
+  PyObject * obj13 = 0 ;
   char *  kwnames[] = {
-    (char *) "self",(char *) "fft_len",(char *) "vector_len",(char *) "len_tag_key",(char *) "packet_len_tag_key",(char *) "symbols_skipped",(char *) "carr_offset_key",(char *) "input_is_shifted", NULL 
+    (char *) "self",(char *) "fft_len",(char *) "vector_len",(char *) "fixed_pilot",(char *) "fixed_data",(char *) "max_len_data_subcarr",(char *) "max_len_pilot_subcarr",(char *) "max_vector_data_subcarr",(char *) "max_vector_pilot_subcarr",(char *) "len_tag_key",(char *) "packet_len_tag_key",(char *) "symbols_skipped",(char *) "carr_offset_key",(char *) "input_is_shifted", NULL 
   };
   gr::ofdm_allocator::serializer_subcarrier::sptr result;
   
-  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OOO|OOOOO:serializer_subcarrier_sptr_make",kwnames,&obj0,&obj1,&obj2,&obj3,&obj4,&obj5,&obj6,&obj7)) SWIG_fail;
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OOO|OOOOOOOOOOO:serializer_subcarrier_sptr_make",kwnames,&obj0,&obj1,&obj2,&obj3,&obj4,&obj5,&obj6,&obj7,&obj8,&obj9,&obj10,&obj11,&obj12,&obj13)) SWIG_fail;
   res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__serializer_subcarrier_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "serializer_subcarrier_sptr_make" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::serializer_subcarrier > *""'"); 
@@ -13247,30 +13379,18 @@ SWIGINTERN PyObject *_wrap_serializer_subcarrier_sptr_make(PyObject *SWIGUNUSEDP
   } 
   arg3 = static_cast< int >(val3);
   if (obj3) {
-    {
-      std::string *ptr = (std::string *)0;
-      res4 = SWIG_AsPtr_std_string(obj3, &ptr);
-      if (!SWIG_IsOK(res4)) {
-        SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "serializer_subcarrier_sptr_make" "', argument " "4"" of type '" "std::string const &""'"); 
-      }
-      if (!ptr) {
-        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "serializer_subcarrier_sptr_make" "', argument " "4"" of type '" "std::string const &""'"); 
-      }
-      arg4 = ptr;
-    }
+    ecode4 = SWIG_AsVal_bool(obj3, &val4);
+    if (!SWIG_IsOK(ecode4)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode4), "in method '" "serializer_subcarrier_sptr_make" "', argument " "4"" of type '" "bool""'");
+    } 
+    arg4 = static_cast< bool >(val4);
   }
   if (obj4) {
-    {
-      std::string *ptr = (std::string *)0;
-      res5 = SWIG_AsPtr_std_string(obj4, &ptr);
-      if (!SWIG_IsOK(res5)) {
-        SWIG_exception_fail(SWIG_ArgError(res5), "in method '" "serializer_subcarrier_sptr_make" "', argument " "5"" of type '" "std::string const &""'"); 
-      }
-      if (!ptr) {
-        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "serializer_subcarrier_sptr_make" "', argument " "5"" of type '" "std::string const &""'"); 
-      }
-      arg5 = ptr;
-    }
+    ecode5 = SWIG_AsVal_bool(obj4, &val5);
+    if (!SWIG_IsOK(ecode5)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode5), "in method '" "serializer_subcarrier_sptr_make" "', argument " "5"" of type '" "bool""'");
+    } 
+    arg5 = static_cast< bool >(val5);
   }
   if (obj5) {
     ecode6 = SWIG_AsVal_int(obj5, &val6);
@@ -13280,28 +13400,82 @@ SWIGINTERN PyObject *_wrap_serializer_subcarrier_sptr_make(PyObject *SWIGUNUSEDP
     arg6 = static_cast< int >(val6);
   }
   if (obj6) {
-    {
-      std::string *ptr = (std::string *)0;
-      res7 = SWIG_AsPtr_std_string(obj6, &ptr);
-      if (!SWIG_IsOK(res7)) {
-        SWIG_exception_fail(SWIG_ArgError(res7), "in method '" "serializer_subcarrier_sptr_make" "', argument " "7"" of type '" "std::string const &""'"); 
-      }
-      if (!ptr) {
-        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "serializer_subcarrier_sptr_make" "', argument " "7"" of type '" "std::string const &""'"); 
-      }
-      arg7 = ptr;
-    }
+    ecode7 = SWIG_AsVal_int(obj6, &val7);
+    if (!SWIG_IsOK(ecode7)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode7), "in method '" "serializer_subcarrier_sptr_make" "', argument " "7"" of type '" "int""'");
+    } 
+    arg7 = static_cast< int >(val7);
   }
   if (obj7) {
-    ecode8 = SWIG_AsVal_bool(obj7, &val8);
+    ecode8 = SWIG_AsVal_int(obj7, &val8);
     if (!SWIG_IsOK(ecode8)) {
-      SWIG_exception_fail(SWIG_ArgError(ecode8), "in method '" "serializer_subcarrier_sptr_make" "', argument " "8"" of type '" "bool""'");
+      SWIG_exception_fail(SWIG_ArgError(ecode8), "in method '" "serializer_subcarrier_sptr_make" "', argument " "8"" of type '" "int""'");
     } 
-    arg8 = static_cast< bool >(val8);
+    arg8 = static_cast< int >(val8);
+  }
+  if (obj8) {
+    ecode9 = SWIG_AsVal_int(obj8, &val9);
+    if (!SWIG_IsOK(ecode9)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode9), "in method '" "serializer_subcarrier_sptr_make" "', argument " "9"" of type '" "int""'");
+    } 
+    arg9 = static_cast< int >(val9);
+  }
+  if (obj9) {
+    {
+      std::string *ptr = (std::string *)0;
+      res10 = SWIG_AsPtr_std_string(obj9, &ptr);
+      if (!SWIG_IsOK(res10)) {
+        SWIG_exception_fail(SWIG_ArgError(res10), "in method '" "serializer_subcarrier_sptr_make" "', argument " "10"" of type '" "std::string const &""'"); 
+      }
+      if (!ptr) {
+        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "serializer_subcarrier_sptr_make" "', argument " "10"" of type '" "std::string const &""'"); 
+      }
+      arg10 = ptr;
+    }
+  }
+  if (obj10) {
+    {
+      std::string *ptr = (std::string *)0;
+      res11 = SWIG_AsPtr_std_string(obj10, &ptr);
+      if (!SWIG_IsOK(res11)) {
+        SWIG_exception_fail(SWIG_ArgError(res11), "in method '" "serializer_subcarrier_sptr_make" "', argument " "11"" of type '" "std::string const &""'"); 
+      }
+      if (!ptr) {
+        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "serializer_subcarrier_sptr_make" "', argument " "11"" of type '" "std::string const &""'"); 
+      }
+      arg11 = ptr;
+    }
+  }
+  if (obj11) {
+    ecode12 = SWIG_AsVal_int(obj11, &val12);
+    if (!SWIG_IsOK(ecode12)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode12), "in method '" "serializer_subcarrier_sptr_make" "', argument " "12"" of type '" "int""'");
+    } 
+    arg12 = static_cast< int >(val12);
+  }
+  if (obj12) {
+    {
+      std::string *ptr = (std::string *)0;
+      res13 = SWIG_AsPtr_std_string(obj12, &ptr);
+      if (!SWIG_IsOK(res13)) {
+        SWIG_exception_fail(SWIG_ArgError(res13), "in method '" "serializer_subcarrier_sptr_make" "', argument " "13"" of type '" "std::string const &""'"); 
+      }
+      if (!ptr) {
+        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "serializer_subcarrier_sptr_make" "', argument " "13"" of type '" "std::string const &""'"); 
+      }
+      arg13 = ptr;
+    }
+  }
+  if (obj13) {
+    ecode14 = SWIG_AsVal_bool(obj13, &val14);
+    if (!SWIG_IsOK(ecode14)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode14), "in method '" "serializer_subcarrier_sptr_make" "', argument " "14"" of type '" "bool""'");
+    } 
+    arg14 = static_cast< bool >(val14);
   }
   {
     try {
-      result = (*arg1)->make(arg2,arg3,(std::string const &)*arg4,(std::string const &)*arg5,arg6,(std::string const &)*arg7,arg8);
+      result = (*arg1)->make(arg2,arg3,arg4,arg5,arg6,arg7,arg8,arg9,(std::string const &)*arg10,(std::string const &)*arg11,arg12,(std::string const &)*arg13,arg14);
     }
     catch(std::exception &e) {
       SWIG_exception(SWIG_RuntimeError, e.what());
@@ -13312,14 +13486,14 @@ SWIGINTERN PyObject *_wrap_serializer_subcarrier_sptr_make(PyObject *SWIGUNUSEDP
     
   }
   resultobj = SWIG_NewPointerObj((new gr::ofdm_allocator::serializer_subcarrier::sptr(static_cast< const gr::ofdm_allocator::serializer_subcarrier::sptr& >(result))), SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__serializer_subcarrier_t, SWIG_POINTER_OWN |  0 );
-  if (SWIG_IsNewObj(res4)) delete arg4;
-  if (SWIG_IsNewObj(res5)) delete arg5;
-  if (SWIG_IsNewObj(res7)) delete arg7;
+  if (SWIG_IsNewObj(res10)) delete arg10;
+  if (SWIG_IsNewObj(res11)) delete arg11;
+  if (SWIG_IsNewObj(res13)) delete arg13;
   return resultobj;
 fail:
-  if (SWIG_IsNewObj(res4)) delete arg4;
-  if (SWIG_IsNewObj(res5)) delete arg5;
-  if (SWIG_IsNewObj(res7)) delete arg7;
+  if (SWIG_IsNewObj(res10)) delete arg10;
+  if (SWIG_IsNewObj(res11)) delete arg11;
+  if (SWIG_IsNewObj(res13)) delete arg13;
   return NULL;
 }
 
@@ -16515,6 +16689,39 @@ fail:
 }
 
 
+SWIGINTERN PyObject *_wrap_packet_header_default_alix_num_tag_key(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  gr::ofdm_allocator::packet_header_default_alix *arg1 = (gr::ofdm_allocator::packet_header_default_alix *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  pmt::pmt_t result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"packet_header_default_alix_num_tag_key",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_gr__ofdm_allocator__packet_header_default_alix, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "packet_header_default_alix_num_tag_key" "', argument " "1"" of type '" "gr::ofdm_allocator::packet_header_default_alix *""'"); 
+  }
+  arg1 = reinterpret_cast< gr::ofdm_allocator::packet_header_default_alix * >(argp1);
+  {
+    try {
+      result = (arg1)->num_tag_key();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new pmt::pmt_t(static_cast< const pmt::pmt_t& >(result))), SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
 SWIGINTERN PyObject *_wrap_packet_header_default_alix_header_formatter(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
   PyObject *resultobj = 0;
   gr::ofdm_allocator::packet_header_default_alix *arg1 = (gr::ofdm_allocator::packet_header_default_alix *) 0 ;
@@ -16592,22 +16799,26 @@ SWIGINTERN PyObject *_wrap_packet_header_default_alix_header_parser(PyObject *SW
   PyObject *resultobj = 0;
   gr::ofdm_allocator::packet_header_default_alix *arg1 = (gr::ofdm_allocator::packet_header_default_alix *) 0 ;
   unsigned char *arg2 = (unsigned char *) 0 ;
-  std::vector< gr::tag_t,std::allocator< gr::tag_t > > *arg3 = 0 ;
+  int arg3 ;
+  std::vector< gr::tag_t,std::allocator< gr::tag_t > > *arg4 = 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   void *argp2 = 0 ;
   int res2 = 0 ;
-  void *argp3 = 0 ;
-  int res3 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  void *argp4 = 0 ;
+  int res4 = 0 ;
   PyObject * obj0 = 0 ;
   PyObject * obj1 = 0 ;
   PyObject * obj2 = 0 ;
+  PyObject * obj3 = 0 ;
   char *  kwnames[] = {
-    (char *) "self",(char *) "header",(char *) "tags", NULL 
+    (char *) "self",(char *) "header",(char *) "header_length",(char *) "tags", NULL 
   };
   bool result;
   
-  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OOO:packet_header_default_alix_header_parser",kwnames,&obj0,&obj1,&obj2)) SWIG_fail;
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OOOO:packet_header_default_alix_header_parser",kwnames,&obj0,&obj1,&obj2,&obj3)) SWIG_fail;
   res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_gr__ofdm_allocator__packet_header_default_alix, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "packet_header_default_alix_header_parser" "', argument " "1"" of type '" "gr::ofdm_allocator::packet_header_default_alix *""'"); 
@@ -16618,17 +16829,22 @@ SWIGINTERN PyObject *_wrap_packet_header_default_alix_header_parser(PyObject *SW
     SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "packet_header_default_alix_header_parser" "', argument " "2"" of type '" "unsigned char const *""'"); 
   }
   arg2 = reinterpret_cast< unsigned char * >(argp2);
-  res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_std__vectorT_gr__tag_t_std__allocatorT_gr__tag_t_t_t,  0 );
-  if (!SWIG_IsOK(res3)) {
-    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "packet_header_default_alix_header_parser" "', argument " "3"" of type '" "std::vector< gr::tag_t,std::allocator< gr::tag_t > > &""'"); 
+  ecode3 = SWIG_AsVal_int(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "packet_header_default_alix_header_parser" "', argument " "3"" of type '" "int""'");
+  } 
+  arg3 = static_cast< int >(val3);
+  res4 = SWIG_ConvertPtr(obj3, &argp4, SWIGTYPE_p_std__vectorT_gr__tag_t_std__allocatorT_gr__tag_t_t_t,  0 );
+  if (!SWIG_IsOK(res4)) {
+    SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "packet_header_default_alix_header_parser" "', argument " "4"" of type '" "std::vector< gr::tag_t,std::allocator< gr::tag_t > > &""'"); 
   }
-  if (!argp3) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "packet_header_default_alix_header_parser" "', argument " "3"" of type '" "std::vector< gr::tag_t,std::allocator< gr::tag_t > > &""'"); 
+  if (!argp4) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "packet_header_default_alix_header_parser" "', argument " "4"" of type '" "std::vector< gr::tag_t,std::allocator< gr::tag_t > > &""'"); 
   }
-  arg3 = reinterpret_cast< std::vector< gr::tag_t,std::allocator< gr::tag_t > > * >(argp3);
+  arg4 = reinterpret_cast< std::vector< gr::tag_t,std::allocator< gr::tag_t > > * >(argp4);
   {
     try {
-      result = (bool)(arg1)->header_parser((unsigned char const *)arg2,*arg3);
+      result = (bool)(arg1)->header_parser((unsigned char const *)arg2,arg3,*arg4);
     }
     catch(std::exception &e) {
       SWIG_exception(SWIG_RuntimeError, e.what());
@@ -20984,22 +21200,37 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_ofdm_equalizer_base_alix_reset(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_ofdm_equalizer_base_alix_reset(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
   PyObject *resultobj = 0;
   gr::ofdm_allocator::ofdm_equalizer_base_alix *arg1 = (gr::ofdm_allocator::ofdm_equalizer_base_alix *) 0 ;
+  std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > *arg2 = 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
   PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "pilot_carriers", NULL 
+  };
   
-  if(!PyArg_UnpackTuple(args,(char *)"ofdm_equalizer_base_alix_reset",1,1,&obj0)) SWIG_fail;
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:ofdm_equalizer_base_alix_reset",kwnames,&obj0,&obj1)) SWIG_fail;
   res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_gr__ofdm_allocator__ofdm_equalizer_base_alix, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ofdm_equalizer_base_alix_reset" "', argument " "1"" of type '" "gr::ofdm_allocator::ofdm_equalizer_base_alix *""'"); 
   }
   arg1 = reinterpret_cast< gr::ofdm_allocator::ofdm_equalizer_base_alix * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_std__vectorT_std__vectorT_bool_std__allocatorT_bool_t_t_std__allocatorT_std__vectorT_bool_std__allocatorT_bool_t_t_t_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ofdm_equalizer_base_alix_reset" "', argument " "2"" of type '" "std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ofdm_equalizer_base_alix_reset" "', argument " "2"" of type '" "std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const &""'"); 
+  }
+  arg2 = reinterpret_cast< std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > * >(argp2);
   {
     try {
-      (arg1)->reset();
+      (arg1)->reset((std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const &)*arg2);
     }
     catch(std::exception &e) {
       SWIG_exception(SWIG_RuntimeError, e.what());
@@ -21025,8 +21256,12 @@ SWIGINTERN PyObject *_wrap_ofdm_equalizer_base_alix_equalize(PyObject *SWIGUNUSE
   std::vector< gr_complex,std::allocator< gr_complex > > *arg4 = (std::vector< gr_complex,std::allocator< gr_complex > > *) &arg4_defvalue ;
   std::vector< bool,std::allocator< bool > > const &arg5_defvalue = std::vector< bool >() ;
   std::vector< bool,std::allocator< bool > > *arg5 = (std::vector< bool,std::allocator< bool > > *) &arg5_defvalue ;
-  std::vector< gr::tag_t,std::allocator< gr::tag_t > > const &arg6_defvalue = std::vector< gr::tag_t >() ;
-  std::vector< gr::tag_t,std::allocator< gr::tag_t > > *arg6 = (std::vector< gr::tag_t,std::allocator< gr::tag_t > > *) &arg6_defvalue ;
+  std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const &arg6_defvalue = std::vector< std::vector< bool > >() ;
+  std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > *arg6 = (std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > *) &arg6_defvalue ;
+  std::vector< std::vector< gr_complex,std::allocator< gr_complex > >,std::allocator< std::vector< gr_complex,std::allocator< gr_complex > > > > const &arg7_defvalue = std::vector< std::vector< gr_complex > >() ;
+  std::vector< std::vector< gr_complex,std::allocator< gr_complex > >,std::allocator< std::vector< gr_complex,std::allocator< gr_complex > > > > *arg7 = (std::vector< std::vector< gr_complex,std::allocator< gr_complex > >,std::allocator< std::vector< gr_complex,std::allocator< gr_complex > > > > *) &arg7_defvalue ;
+  std::vector< gr::tag_t,std::allocator< gr::tag_t > > const &arg8_defvalue = std::vector< gr::tag_t >() ;
+  std::vector< gr::tag_t,std::allocator< gr::tag_t > > *arg8 = (std::vector< gr::tag_t,std::allocator< gr::tag_t > > *) &arg8_defvalue ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   void *argp2 = 0 ;
@@ -21036,18 +21271,23 @@ SWIGINTERN PyObject *_wrap_ofdm_equalizer_base_alix_equalize(PyObject *SWIGUNUSE
   int res4 = SWIG_OLDOBJ ;
   void *argp5 = 0 ;
   int res5 = 0 ;
-  int res6 = SWIG_OLDOBJ ;
+  void *argp6 = 0 ;
+  int res6 = 0 ;
+  int res7 = SWIG_OLDOBJ ;
+  int res8 = SWIG_OLDOBJ ;
   PyObject * obj0 = 0 ;
   PyObject * obj1 = 0 ;
   PyObject * obj2 = 0 ;
   PyObject * obj3 = 0 ;
   PyObject * obj4 = 0 ;
   PyObject * obj5 = 0 ;
+  PyObject * obj6 = 0 ;
+  PyObject * obj7 = 0 ;
   char *  kwnames[] = {
-    (char *) "self",(char *) "frame",(char *) "n_sym",(char *) "initial_taps",(char *) "occupied_carriers",(char *) "tags", NULL 
+    (char *) "self",(char *) "frame",(char *) "n_sym",(char *) "initial_taps",(char *) "occupied_carriers",(char *) "pilot_carriers",(char *) "pilot_symbols",(char *) "tags", NULL 
   };
   
-  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OOO|OOO:ofdm_equalizer_base_alix_equalize",kwnames,&obj0,&obj1,&obj2,&obj3,&obj4,&obj5)) SWIG_fail;
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OOO|OOOOO:ofdm_equalizer_base_alix_equalize",kwnames,&obj0,&obj1,&obj2,&obj3,&obj4,&obj5,&obj6,&obj7)) SWIG_fail;
   res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_gr__ofdm_allocator__ofdm_equalizer_base_alix, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ofdm_equalizer_base_alix_equalize" "', argument " "1"" of type '" "gr::ofdm_allocator::ofdm_equalizer_base_alix *""'"); 
@@ -21087,21 +21327,44 @@ SWIGINTERN PyObject *_wrap_ofdm_equalizer_base_alix_equalize(PyObject *SWIGUNUSE
     arg5 = reinterpret_cast< std::vector< bool,std::allocator< bool > > * >(argp5);
   }
   if (obj5) {
+    res6 = SWIG_ConvertPtr(obj5, &argp6, SWIGTYPE_p_std__vectorT_std__vectorT_bool_std__allocatorT_bool_t_t_std__allocatorT_std__vectorT_bool_std__allocatorT_bool_t_t_t_t,  0  | 0);
+    if (!SWIG_IsOK(res6)) {
+      SWIG_exception_fail(SWIG_ArgError(res6), "in method '" "ofdm_equalizer_base_alix_equalize" "', argument " "6"" of type '" "std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const &""'"); 
+    }
+    if (!argp6) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ofdm_equalizer_base_alix_equalize" "', argument " "6"" of type '" "std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const &""'"); 
+    }
+    arg6 = reinterpret_cast< std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > * >(argp6);
+  }
+  if (obj6) {
     {
-      std::vector< gr::tag_t,std::allocator< gr::tag_t > > *ptr = (std::vector< gr::tag_t,std::allocator< gr::tag_t > > *)0;
-      res6 = swig::asptr(obj5, &ptr);
-      if (!SWIG_IsOK(res6)) {
-        SWIG_exception_fail(SWIG_ArgError(res6), "in method '" "ofdm_equalizer_base_alix_equalize" "', argument " "6"" of type '" "std::vector< gr::tag_t,std::allocator< gr::tag_t > > const &""'"); 
+      std::vector< std::vector< std::complex< float >,std::allocator< std::complex< float > > >,std::allocator< std::vector< std::complex< float >,std::allocator< std::complex< float > > > > > *ptr = (std::vector< std::vector< std::complex< float >,std::allocator< std::complex< float > > >,std::allocator< std::vector< std::complex< float >,std::allocator< std::complex< float > > > > > *)0;
+      res7 = swig::asptr(obj6, &ptr);
+      if (!SWIG_IsOK(res7)) {
+        SWIG_exception_fail(SWIG_ArgError(res7), "in method '" "ofdm_equalizer_base_alix_equalize" "', argument " "7"" of type '" "std::vector< std::vector< gr_complex,std::allocator< gr_complex > >,std::allocator< std::vector< gr_complex,std::allocator< gr_complex > > > > const &""'"); 
       }
       if (!ptr) {
-        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ofdm_equalizer_base_alix_equalize" "', argument " "6"" of type '" "std::vector< gr::tag_t,std::allocator< gr::tag_t > > const &""'"); 
+        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ofdm_equalizer_base_alix_equalize" "', argument " "7"" of type '" "std::vector< std::vector< gr_complex,std::allocator< gr_complex > >,std::allocator< std::vector< gr_complex,std::allocator< gr_complex > > > > const &""'"); 
       }
-      arg6 = ptr;
+      arg7 = ptr;
+    }
+  }
+  if (obj7) {
+    {
+      std::vector< gr::tag_t,std::allocator< gr::tag_t > > *ptr = (std::vector< gr::tag_t,std::allocator< gr::tag_t > > *)0;
+      res8 = swig::asptr(obj7, &ptr);
+      if (!SWIG_IsOK(res8)) {
+        SWIG_exception_fail(SWIG_ArgError(res8), "in method '" "ofdm_equalizer_base_alix_equalize" "', argument " "8"" of type '" "std::vector< gr::tag_t,std::allocator< gr::tag_t > > const &""'"); 
+      }
+      if (!ptr) {
+        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ofdm_equalizer_base_alix_equalize" "', argument " "8"" of type '" "std::vector< gr::tag_t,std::allocator< gr::tag_t > > const &""'"); 
+      }
+      arg8 = ptr;
     }
   }
   {
     try {
-      (arg1)->equalize(arg2,arg3,(std::vector< gr_complex,std::allocator< gr_complex > > const &)*arg4,(std::vector< bool,std::allocator< bool > > const &)*arg5,(std::vector< gr::tag_t,std::allocator< gr::tag_t > > const &)*arg6);
+      (arg1)->equalize(arg2,arg3,(std::vector< gr_complex,std::allocator< gr_complex > > const &)*arg4,(std::vector< bool,std::allocator< bool > > const &)*arg5,(std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const &)*arg6,(std::vector< std::vector< gr_complex,std::allocator< gr_complex > >,std::allocator< std::vector< gr_complex,std::allocator< gr_complex > > > > const &)*arg7,(std::vector< gr::tag_t,std::allocator< gr::tag_t > > const &)*arg8);
     }
     catch(std::exception &e) {
       SWIG_exception(SWIG_RuntimeError, e.what());
@@ -21113,11 +21376,13 @@ SWIGINTERN PyObject *_wrap_ofdm_equalizer_base_alix_equalize(PyObject *SWIGUNUSE
   }
   resultobj = SWIG_Py_Void();
   if (SWIG_IsNewObj(res4)) delete arg4;
-  if (SWIG_IsNewObj(res6)) delete arg6;
+  if (SWIG_IsNewObj(res7)) delete arg7;
+  if (SWIG_IsNewObj(res8)) delete arg8;
   return resultobj;
 fail:
   if (SWIG_IsNewObj(res4)) delete arg4;
-  if (SWIG_IsNewObj(res6)) delete arg6;
+  if (SWIG_IsNewObj(res7)) delete arg7;
+  if (SWIG_IsNewObj(res8)) delete arg8;
   return NULL;
 }
 
@@ -21287,14 +21552,17 @@ SWIGINTERN PyObject *_wrap_frame_equalizer_alix_make(PyObject *SWIGUNUSEDPARM(se
   int arg2 ;
   int arg3 ;
   bool arg4 ;
-  int arg5 ;
+  bool arg5 ;
   int arg6 ;
   int arg7 ;
-  std::string const &arg8_defvalue = "frame_len" ;
-  std::string *arg8 = (std::string *) &arg8_defvalue ;
-  bool arg9 = (bool) false ;
-  int arg10 = (int) 0 ;
-  bool arg11 = (bool) true ;
+  int arg8 ;
+  int arg9 ;
+  std::vector< std::vector< gr_complex,std::allocator< gr_complex > >,std::allocator< std::vector< gr_complex,std::allocator< gr_complex > > > > *arg10 = 0 ;
+  std::string const &arg11_defvalue = "frame_len" ;
+  std::string *arg11 = (std::string *) &arg11_defvalue ;
+  bool arg12 = (bool) false ;
+  int arg13 = (int) 0 ;
+  bool arg14 = (bool) true ;
   void *argp1 ;
   int res1 = 0 ;
   int val2 ;
@@ -21303,19 +21571,24 @@ SWIGINTERN PyObject *_wrap_frame_equalizer_alix_make(PyObject *SWIGUNUSEDPARM(se
   int ecode3 = 0 ;
   bool val4 ;
   int ecode4 = 0 ;
-  int val5 ;
+  bool val5 ;
   int ecode5 = 0 ;
   int val6 ;
   int ecode6 = 0 ;
   int val7 ;
   int ecode7 = 0 ;
-  int res8 = SWIG_OLDOBJ ;
-  bool val9 ;
+  int val8 ;
+  int ecode8 = 0 ;
+  int val9 ;
   int ecode9 = 0 ;
-  int val10 ;
-  int ecode10 = 0 ;
-  bool val11 ;
-  int ecode11 = 0 ;
+  int res10 = SWIG_OLDOBJ ;
+  int res11 = SWIG_OLDOBJ ;
+  bool val12 ;
+  int ecode12 = 0 ;
+  int val13 ;
+  int ecode13 = 0 ;
+  bool val14 ;
+  int ecode14 = 0 ;
   PyObject * obj0 = 0 ;
   PyObject * obj1 = 0 ;
   PyObject * obj2 = 0 ;
@@ -21327,12 +21600,15 @@ SWIGINTERN PyObject *_wrap_frame_equalizer_alix_make(PyObject *SWIGUNUSEDPARM(se
   PyObject * obj8 = 0 ;
   PyObject * obj9 = 0 ;
   PyObject * obj10 = 0 ;
+  PyObject * obj11 = 0 ;
+  PyObject * obj12 = 0 ;
+  PyObject * obj13 = 0 ;
   char *  kwnames[] = {
-    (char *) "equalizer",(char *) "vector_len",(char *) "cp_len",(char *) "fixed_pilot",(char *) "max_len_data_subcarr",(char *) "max_len_pilot_subcarr",(char *) "max_vector_pilot_subcarr",(char *) "tsb_key",(char *) "propagate_channel_state",(char *) "fixed_frame_len",(char *) "input_is_shifted", NULL 
+    (char *) "equalizer",(char *) "vector_len",(char *) "cp_len",(char *) "fixed_data",(char *) "fixed_pilot",(char *) "max_len_data_subcarr",(char *) "max_len_pilot_subcarr",(char *) "max_vector_data_subcarr",(char *) "max_vector_pilot_subcarr",(char *) "pilot_symbols",(char *) "tsb_key",(char *) "propagate_channel_state",(char *) "fixed_frame_len",(char *) "input_is_shifted", NULL 
   };
   gr::ofdm_allocator::frame_equalizer_alix::sptr result;
   
-  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OOOOOOO|OOOO:frame_equalizer_alix_make",kwnames,&obj0,&obj1,&obj2,&obj3,&obj4,&obj5,&obj6,&obj7,&obj8,&obj9,&obj10)) SWIG_fail;
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OOOOOOOOOO|OOOO:frame_equalizer_alix_make",kwnames,&obj0,&obj1,&obj2,&obj3,&obj4,&obj5,&obj6,&obj7,&obj8,&obj9,&obj10,&obj11,&obj12,&obj13)) SWIG_fail;
   {
     res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__ofdm_equalizer_base_alix_t,  0  | 0);
     if (!SWIG_IsOK(res1)) {
@@ -21361,11 +21637,11 @@ SWIGINTERN PyObject *_wrap_frame_equalizer_alix_make(PyObject *SWIGUNUSEDPARM(se
     SWIG_exception_fail(SWIG_ArgError(ecode4), "in method '" "frame_equalizer_alix_make" "', argument " "4"" of type '" "bool""'");
   } 
   arg4 = static_cast< bool >(val4);
-  ecode5 = SWIG_AsVal_int(obj4, &val5);
+  ecode5 = SWIG_AsVal_bool(obj4, &val5);
   if (!SWIG_IsOK(ecode5)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode5), "in method '" "frame_equalizer_alix_make" "', argument " "5"" of type '" "int""'");
+    SWIG_exception_fail(SWIG_ArgError(ecode5), "in method '" "frame_equalizer_alix_make" "', argument " "5"" of type '" "bool""'");
   } 
-  arg5 = static_cast< int >(val5);
+  arg5 = static_cast< bool >(val5);
   ecode6 = SWIG_AsVal_int(obj5, &val6);
   if (!SWIG_IsOK(ecode6)) {
     SWIG_exception_fail(SWIG_ArgError(ecode6), "in method '" "frame_equalizer_alix_make" "', argument " "6"" of type '" "int""'");
@@ -21376,43 +21652,64 @@ SWIGINTERN PyObject *_wrap_frame_equalizer_alix_make(PyObject *SWIGUNUSEDPARM(se
     SWIG_exception_fail(SWIG_ArgError(ecode7), "in method '" "frame_equalizer_alix_make" "', argument " "7"" of type '" "int""'");
   } 
   arg7 = static_cast< int >(val7);
-  if (obj7) {
-    {
-      std::string *ptr = (std::string *)0;
-      res8 = SWIG_AsPtr_std_string(obj7, &ptr);
-      if (!SWIG_IsOK(res8)) {
-        SWIG_exception_fail(SWIG_ArgError(res8), "in method '" "frame_equalizer_alix_make" "', argument " "8"" of type '" "std::string const &""'"); 
-      }
-      if (!ptr) {
-        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "frame_equalizer_alix_make" "', argument " "8"" of type '" "std::string const &""'"); 
-      }
-      arg8 = ptr;
+  ecode8 = SWIG_AsVal_int(obj7, &val8);
+  if (!SWIG_IsOK(ecode8)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode8), "in method '" "frame_equalizer_alix_make" "', argument " "8"" of type '" "int""'");
+  } 
+  arg8 = static_cast< int >(val8);
+  ecode9 = SWIG_AsVal_int(obj8, &val9);
+  if (!SWIG_IsOK(ecode9)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode9), "in method '" "frame_equalizer_alix_make" "', argument " "9"" of type '" "int""'");
+  } 
+  arg9 = static_cast< int >(val9);
+  {
+    std::vector< std::vector< std::complex< float >,std::allocator< std::complex< float > > >,std::allocator< std::vector< std::complex< float >,std::allocator< std::complex< float > > > > > *ptr = (std::vector< std::vector< std::complex< float >,std::allocator< std::complex< float > > >,std::allocator< std::vector< std::complex< float >,std::allocator< std::complex< float > > > > > *)0;
+    res10 = swig::asptr(obj9, &ptr);
+    if (!SWIG_IsOK(res10)) {
+      SWIG_exception_fail(SWIG_ArgError(res10), "in method '" "frame_equalizer_alix_make" "', argument " "10"" of type '" "std::vector< std::vector< gr_complex,std::allocator< gr_complex > >,std::allocator< std::vector< gr_complex,std::allocator< gr_complex > > > > const &""'"); 
     }
-  }
-  if (obj8) {
-    ecode9 = SWIG_AsVal_bool(obj8, &val9);
-    if (!SWIG_IsOK(ecode9)) {
-      SWIG_exception_fail(SWIG_ArgError(ecode9), "in method '" "frame_equalizer_alix_make" "', argument " "9"" of type '" "bool""'");
-    } 
-    arg9 = static_cast< bool >(val9);
-  }
-  if (obj9) {
-    ecode10 = SWIG_AsVal_int(obj9, &val10);
-    if (!SWIG_IsOK(ecode10)) {
-      SWIG_exception_fail(SWIG_ArgError(ecode10), "in method '" "frame_equalizer_alix_make" "', argument " "10"" of type '" "int""'");
-    } 
-    arg10 = static_cast< int >(val10);
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "frame_equalizer_alix_make" "', argument " "10"" of type '" "std::vector< std::vector< gr_complex,std::allocator< gr_complex > >,std::allocator< std::vector< gr_complex,std::allocator< gr_complex > > > > const &""'"); 
+    }
+    arg10 = ptr;
   }
   if (obj10) {
-    ecode11 = SWIG_AsVal_bool(obj10, &val11);
-    if (!SWIG_IsOK(ecode11)) {
-      SWIG_exception_fail(SWIG_ArgError(ecode11), "in method '" "frame_equalizer_alix_make" "', argument " "11"" of type '" "bool""'");
+    {
+      std::string *ptr = (std::string *)0;
+      res11 = SWIG_AsPtr_std_string(obj10, &ptr);
+      if (!SWIG_IsOK(res11)) {
+        SWIG_exception_fail(SWIG_ArgError(res11), "in method '" "frame_equalizer_alix_make" "', argument " "11"" of type '" "std::string const &""'"); 
+      }
+      if (!ptr) {
+        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "frame_equalizer_alix_make" "', argument " "11"" of type '" "std::string const &""'"); 
+      }
+      arg11 = ptr;
+    }
+  }
+  if (obj11) {
+    ecode12 = SWIG_AsVal_bool(obj11, &val12);
+    if (!SWIG_IsOK(ecode12)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode12), "in method '" "frame_equalizer_alix_make" "', argument " "12"" of type '" "bool""'");
     } 
-    arg11 = static_cast< bool >(val11);
+    arg12 = static_cast< bool >(val12);
+  }
+  if (obj12) {
+    ecode13 = SWIG_AsVal_int(obj12, &val13);
+    if (!SWIG_IsOK(ecode13)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode13), "in method '" "frame_equalizer_alix_make" "', argument " "13"" of type '" "int""'");
+    } 
+    arg13 = static_cast< int >(val13);
+  }
+  if (obj13) {
+    ecode14 = SWIG_AsVal_bool(obj13, &val14);
+    if (!SWIG_IsOK(ecode14)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode14), "in method '" "frame_equalizer_alix_make" "', argument " "14"" of type '" "bool""'");
+    } 
+    arg14 = static_cast< bool >(val14);
   }
   {
     try {
-      result = gr::ofdm_allocator::frame_equalizer_alix::make(arg1,arg2,arg3,arg4,arg5,arg6,arg7,(std::string const &)*arg8,arg9,arg10,arg11);
+      result = gr::ofdm_allocator::frame_equalizer_alix::make(arg1,arg2,arg3,arg4,arg5,arg6,arg7,arg8,arg9,(std::vector< std::vector< std::complex< float >,std::allocator< std::complex< float > > >,std::allocator< std::vector< std::complex< float >,std::allocator< std::complex< float > > > > > const &)*arg10,(std::string const &)*arg11,arg12,arg13,arg14);
     }
     catch(std::exception &e) {
       SWIG_exception(SWIG_RuntimeError, e.what());
@@ -21423,10 +21720,12 @@ SWIGINTERN PyObject *_wrap_frame_equalizer_alix_make(PyObject *SWIGUNUSEDPARM(se
     
   }
   resultobj = SWIG_NewPointerObj((new gr::ofdm_allocator::frame_equalizer_alix::sptr(static_cast< const gr::ofdm_allocator::frame_equalizer_alix::sptr& >(result))), SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__frame_equalizer_alix_t, SWIG_POINTER_OWN |  0 );
-  if (SWIG_IsNewObj(res8)) delete arg8;
+  if (SWIG_IsNewObj(res10)) delete arg10;
+  if (SWIG_IsNewObj(res11)) delete arg11;
   return resultobj;
 fail:
-  if (SWIG_IsNewObj(res8)) delete arg8;
+  if (SWIG_IsNewObj(res10)) delete arg10;
+  if (SWIG_IsNewObj(res11)) delete arg11;
   return NULL;
 }
 
@@ -21633,14 +21932,17 @@ SWIGINTERN PyObject *_wrap_frame_equalizer_alix_sptr_make(PyObject *SWIGUNUSEDPA
   int arg3 ;
   int arg4 ;
   bool arg5 ;
-  int arg6 ;
+  bool arg6 ;
   int arg7 ;
   int arg8 ;
-  std::string const &arg9_defvalue = "frame_len" ;
-  std::string *arg9 = (std::string *) &arg9_defvalue ;
-  bool arg10 = (bool) false ;
-  int arg11 = (int) 0 ;
-  bool arg12 = (bool) true ;
+  int arg9 ;
+  int arg10 ;
+  std::vector< std::vector< gr_complex,std::allocator< gr_complex > >,std::allocator< std::vector< gr_complex,std::allocator< gr_complex > > > > *arg11 = 0 ;
+  std::string const &arg12_defvalue = "frame_len" ;
+  std::string *arg12 = (std::string *) &arg12_defvalue ;
+  bool arg13 = (bool) false ;
+  int arg14 = (int) 0 ;
+  bool arg15 = (bool) true ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   void *argp2 ;
@@ -21651,19 +21953,24 @@ SWIGINTERN PyObject *_wrap_frame_equalizer_alix_sptr_make(PyObject *SWIGUNUSEDPA
   int ecode4 = 0 ;
   bool val5 ;
   int ecode5 = 0 ;
-  int val6 ;
+  bool val6 ;
   int ecode6 = 0 ;
   int val7 ;
   int ecode7 = 0 ;
   int val8 ;
   int ecode8 = 0 ;
-  int res9 = SWIG_OLDOBJ ;
-  bool val10 ;
+  int val9 ;
+  int ecode9 = 0 ;
+  int val10 ;
   int ecode10 = 0 ;
-  int val11 ;
-  int ecode11 = 0 ;
-  bool val12 ;
-  int ecode12 = 0 ;
+  int res11 = SWIG_OLDOBJ ;
+  int res12 = SWIG_OLDOBJ ;
+  bool val13 ;
+  int ecode13 = 0 ;
+  int val14 ;
+  int ecode14 = 0 ;
+  bool val15 ;
+  int ecode15 = 0 ;
   PyObject * obj0 = 0 ;
   PyObject * obj1 = 0 ;
   PyObject * obj2 = 0 ;
@@ -21676,12 +21983,15 @@ SWIGINTERN PyObject *_wrap_frame_equalizer_alix_sptr_make(PyObject *SWIGUNUSEDPA
   PyObject * obj9 = 0 ;
   PyObject * obj10 = 0 ;
   PyObject * obj11 = 0 ;
+  PyObject * obj12 = 0 ;
+  PyObject * obj13 = 0 ;
+  PyObject * obj14 = 0 ;
   char *  kwnames[] = {
-    (char *) "self",(char *) "equalizer",(char *) "vector_len",(char *) "cp_len",(char *) "fixed_pilot",(char *) "max_len_data_subcarr",(char *) "max_len_pilot_subcarr",(char *) "max_vector_pilot_subcarr",(char *) "tsb_key",(char *) "propagate_channel_state",(char *) "fixed_frame_len",(char *) "input_is_shifted", NULL 
+    (char *) "self",(char *) "equalizer",(char *) "vector_len",(char *) "cp_len",(char *) "fixed_data",(char *) "fixed_pilot",(char *) "max_len_data_subcarr",(char *) "max_len_pilot_subcarr",(char *) "max_vector_data_subcarr",(char *) "max_vector_pilot_subcarr",(char *) "pilot_symbols",(char *) "tsb_key",(char *) "propagate_channel_state",(char *) "fixed_frame_len",(char *) "input_is_shifted", NULL 
   };
   gr::ofdm_allocator::frame_equalizer_alix::sptr result;
   
-  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OOOOOOOO|OOOO:frame_equalizer_alix_sptr_make",kwnames,&obj0,&obj1,&obj2,&obj3,&obj4,&obj5,&obj6,&obj7,&obj8,&obj9,&obj10,&obj11)) SWIG_fail;
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OOOOOOOOOOO|OOOO:frame_equalizer_alix_sptr_make",kwnames,&obj0,&obj1,&obj2,&obj3,&obj4,&obj5,&obj6,&obj7,&obj8,&obj9,&obj10,&obj11,&obj12,&obj13,&obj14)) SWIG_fail;
   res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__frame_equalizer_alix_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "frame_equalizer_alix_sptr_make" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::frame_equalizer_alix > *""'"); 
@@ -21715,11 +22025,11 @@ SWIGINTERN PyObject *_wrap_frame_equalizer_alix_sptr_make(PyObject *SWIGUNUSEDPA
     SWIG_exception_fail(SWIG_ArgError(ecode5), "in method '" "frame_equalizer_alix_sptr_make" "', argument " "5"" of type '" "bool""'");
   } 
   arg5 = static_cast< bool >(val5);
-  ecode6 = SWIG_AsVal_int(obj5, &val6);
+  ecode6 = SWIG_AsVal_bool(obj5, &val6);
   if (!SWIG_IsOK(ecode6)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode6), "in method '" "frame_equalizer_alix_sptr_make" "', argument " "6"" of type '" "int""'");
+    SWIG_exception_fail(SWIG_ArgError(ecode6), "in method '" "frame_equalizer_alix_sptr_make" "', argument " "6"" of type '" "bool""'");
   } 
-  arg6 = static_cast< int >(val6);
+  arg6 = static_cast< bool >(val6);
   ecode7 = SWIG_AsVal_int(obj6, &val7);
   if (!SWIG_IsOK(ecode7)) {
     SWIG_exception_fail(SWIG_ArgError(ecode7), "in method '" "frame_equalizer_alix_sptr_make" "', argument " "7"" of type '" "int""'");
@@ -21730,43 +22040,64 @@ SWIGINTERN PyObject *_wrap_frame_equalizer_alix_sptr_make(PyObject *SWIGUNUSEDPA
     SWIG_exception_fail(SWIG_ArgError(ecode8), "in method '" "frame_equalizer_alix_sptr_make" "', argument " "8"" of type '" "int""'");
   } 
   arg8 = static_cast< int >(val8);
-  if (obj8) {
-    {
-      std::string *ptr = (std::string *)0;
-      res9 = SWIG_AsPtr_std_string(obj8, &ptr);
-      if (!SWIG_IsOK(res9)) {
-        SWIG_exception_fail(SWIG_ArgError(res9), "in method '" "frame_equalizer_alix_sptr_make" "', argument " "9"" of type '" "std::string const &""'"); 
-      }
-      if (!ptr) {
-        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "frame_equalizer_alix_sptr_make" "', argument " "9"" of type '" "std::string const &""'"); 
-      }
-      arg9 = ptr;
+  ecode9 = SWIG_AsVal_int(obj8, &val9);
+  if (!SWIG_IsOK(ecode9)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode9), "in method '" "frame_equalizer_alix_sptr_make" "', argument " "9"" of type '" "int""'");
+  } 
+  arg9 = static_cast< int >(val9);
+  ecode10 = SWIG_AsVal_int(obj9, &val10);
+  if (!SWIG_IsOK(ecode10)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode10), "in method '" "frame_equalizer_alix_sptr_make" "', argument " "10"" of type '" "int""'");
+  } 
+  arg10 = static_cast< int >(val10);
+  {
+    std::vector< std::vector< std::complex< float >,std::allocator< std::complex< float > > >,std::allocator< std::vector< std::complex< float >,std::allocator< std::complex< float > > > > > *ptr = (std::vector< std::vector< std::complex< float >,std::allocator< std::complex< float > > >,std::allocator< std::vector< std::complex< float >,std::allocator< std::complex< float > > > > > *)0;
+    res11 = swig::asptr(obj10, &ptr);
+    if (!SWIG_IsOK(res11)) {
+      SWIG_exception_fail(SWIG_ArgError(res11), "in method '" "frame_equalizer_alix_sptr_make" "', argument " "11"" of type '" "std::vector< std::vector< gr_complex,std::allocator< gr_complex > >,std::allocator< std::vector< gr_complex,std::allocator< gr_complex > > > > const &""'"); 
     }
-  }
-  if (obj9) {
-    ecode10 = SWIG_AsVal_bool(obj9, &val10);
-    if (!SWIG_IsOK(ecode10)) {
-      SWIG_exception_fail(SWIG_ArgError(ecode10), "in method '" "frame_equalizer_alix_sptr_make" "', argument " "10"" of type '" "bool""'");
-    } 
-    arg10 = static_cast< bool >(val10);
-  }
-  if (obj10) {
-    ecode11 = SWIG_AsVal_int(obj10, &val11);
-    if (!SWIG_IsOK(ecode11)) {
-      SWIG_exception_fail(SWIG_ArgError(ecode11), "in method '" "frame_equalizer_alix_sptr_make" "', argument " "11"" of type '" "int""'");
-    } 
-    arg11 = static_cast< int >(val11);
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "frame_equalizer_alix_sptr_make" "', argument " "11"" of type '" "std::vector< std::vector< gr_complex,std::allocator< gr_complex > >,std::allocator< std::vector< gr_complex,std::allocator< gr_complex > > > > const &""'"); 
+    }
+    arg11 = ptr;
   }
   if (obj11) {
-    ecode12 = SWIG_AsVal_bool(obj11, &val12);
-    if (!SWIG_IsOK(ecode12)) {
-      SWIG_exception_fail(SWIG_ArgError(ecode12), "in method '" "frame_equalizer_alix_sptr_make" "', argument " "12"" of type '" "bool""'");
+    {
+      std::string *ptr = (std::string *)0;
+      res12 = SWIG_AsPtr_std_string(obj11, &ptr);
+      if (!SWIG_IsOK(res12)) {
+        SWIG_exception_fail(SWIG_ArgError(res12), "in method '" "frame_equalizer_alix_sptr_make" "', argument " "12"" of type '" "std::string const &""'"); 
+      }
+      if (!ptr) {
+        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "frame_equalizer_alix_sptr_make" "', argument " "12"" of type '" "std::string const &""'"); 
+      }
+      arg12 = ptr;
+    }
+  }
+  if (obj12) {
+    ecode13 = SWIG_AsVal_bool(obj12, &val13);
+    if (!SWIG_IsOK(ecode13)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode13), "in method '" "frame_equalizer_alix_sptr_make" "', argument " "13"" of type '" "bool""'");
     } 
-    arg12 = static_cast< bool >(val12);
+    arg13 = static_cast< bool >(val13);
+  }
+  if (obj13) {
+    ecode14 = SWIG_AsVal_int(obj13, &val14);
+    if (!SWIG_IsOK(ecode14)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode14), "in method '" "frame_equalizer_alix_sptr_make" "', argument " "14"" of type '" "int""'");
+    } 
+    arg14 = static_cast< int >(val14);
+  }
+  if (obj14) {
+    ecode15 = SWIG_AsVal_bool(obj14, &val15);
+    if (!SWIG_IsOK(ecode15)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode15), "in method '" "frame_equalizer_alix_sptr_make" "', argument " "15"" of type '" "bool""'");
+    } 
+    arg15 = static_cast< bool >(val15);
   }
   {
     try {
-      result = (*arg1)->make(arg2,arg3,arg4,arg5,arg6,arg7,arg8,(std::string const &)*arg9,arg10,arg11,arg12);
+      result = (*arg1)->make(arg2,arg3,arg4,arg5,arg6,arg7,arg8,arg9,arg10,(std::vector< std::vector< gr_complex,std::allocator< gr_complex > >,std::allocator< std::vector< gr_complex,std::allocator< gr_complex > > > > const &)*arg11,(std::string const &)*arg12,arg13,arg14,arg15);
     }
     catch(std::exception &e) {
       SWIG_exception(SWIG_RuntimeError, e.what());
@@ -21777,10 +22108,12 @@ SWIGINTERN PyObject *_wrap_frame_equalizer_alix_sptr_make(PyObject *SWIGUNUSEDPA
     
   }
   resultobj = SWIG_NewPointerObj((new gr::ofdm_allocator::frame_equalizer_alix::sptr(static_cast< const gr::ofdm_allocator::frame_equalizer_alix::sptr& >(result))), SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__frame_equalizer_alix_t, SWIG_POINTER_OWN |  0 );
-  if (SWIG_IsNewObj(res9)) delete arg9;
+  if (SWIG_IsNewObj(res11)) delete arg11;
+  if (SWIG_IsNewObj(res12)) delete arg12;
   return resultobj;
 fail:
-  if (SWIG_IsNewObj(res9)) delete arg9;
+  if (SWIG_IsNewObj(res11)) delete arg11;
+  if (SWIG_IsNewObj(res12)) delete arg12;
   return NULL;
 }
 
@@ -25330,6 +25663,39 @@ fail:
 }
 
 
+SWIGINTERN PyObject *_wrap_packet_header_default_alix_sptr_num_tag_key(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::ofdm_allocator::packet_header_default_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::packet_header_default_alix > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  pmt::pmt_t result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"packet_header_default_alix_sptr_num_tag_key",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_default_alix_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "packet_header_default_alix_sptr_num_tag_key" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::packet_header_default_alix > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::ofdm_allocator::packet_header_default_alix > * >(argp1);
+  {
+    try {
+      result = (*arg1)->num_tag_key();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new pmt::pmt_t(static_cast< const pmt::pmt_t& >(result))), SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
 SWIGINTERN PyObject *_wrap_packet_header_default_alix_sptr_header_formatter(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
   PyObject *resultobj = 0;
   boost::shared_ptr< gr::ofdm_allocator::packet_header_default_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::packet_header_default_alix > *) 0 ;
@@ -25407,22 +25773,26 @@ SWIGINTERN PyObject *_wrap_packet_header_default_alix_sptr_header_parser(PyObjec
   PyObject *resultobj = 0;
   boost::shared_ptr< gr::ofdm_allocator::packet_header_default_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::packet_header_default_alix > *) 0 ;
   unsigned char *arg2 = (unsigned char *) 0 ;
-  std::vector< gr::tag_t,std::allocator< gr::tag_t > > *arg3 = 0 ;
+  int arg3 ;
+  std::vector< gr::tag_t,std::allocator< gr::tag_t > > *arg4 = 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   void *argp2 = 0 ;
   int res2 = 0 ;
-  void *argp3 = 0 ;
-  int res3 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  void *argp4 = 0 ;
+  int res4 = 0 ;
   PyObject * obj0 = 0 ;
   PyObject * obj1 = 0 ;
   PyObject * obj2 = 0 ;
+  PyObject * obj3 = 0 ;
   char *  kwnames[] = {
-    (char *) "self",(char *) "header",(char *) "tags", NULL 
+    (char *) "self",(char *) "header",(char *) "header_length",(char *) "tags", NULL 
   };
   bool result;
   
-  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OOO:packet_header_default_alix_sptr_header_parser",kwnames,&obj0,&obj1,&obj2)) SWIG_fail;
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OOOO:packet_header_default_alix_sptr_header_parser",kwnames,&obj0,&obj1,&obj2,&obj3)) SWIG_fail;
   res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_default_alix_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "packet_header_default_alix_sptr_header_parser" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::packet_header_default_alix > *""'"); 
@@ -25433,17 +25803,22 @@ SWIGINTERN PyObject *_wrap_packet_header_default_alix_sptr_header_parser(PyObjec
     SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "packet_header_default_alix_sptr_header_parser" "', argument " "2"" of type '" "unsigned char const *""'"); 
   }
   arg2 = reinterpret_cast< unsigned char * >(argp2);
-  res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_std__vectorT_gr__tag_t_std__allocatorT_gr__tag_t_t_t,  0 );
-  if (!SWIG_IsOK(res3)) {
-    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "packet_header_default_alix_sptr_header_parser" "', argument " "3"" of type '" "std::vector< gr::tag_t,std::allocator< gr::tag_t > > &""'"); 
+  ecode3 = SWIG_AsVal_int(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "packet_header_default_alix_sptr_header_parser" "', argument " "3"" of type '" "int""'");
+  } 
+  arg3 = static_cast< int >(val3);
+  res4 = SWIG_ConvertPtr(obj3, &argp4, SWIGTYPE_p_std__vectorT_gr__tag_t_std__allocatorT_gr__tag_t_t_t,  0 );
+  if (!SWIG_IsOK(res4)) {
+    SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "packet_header_default_alix_sptr_header_parser" "', argument " "4"" of type '" "std::vector< gr::tag_t,std::allocator< gr::tag_t > > &""'"); 
   }
-  if (!argp3) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "packet_header_default_alix_sptr_header_parser" "', argument " "3"" of type '" "std::vector< gr::tag_t,std::allocator< gr::tag_t > > &""'"); 
+  if (!argp4) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "packet_header_default_alix_sptr_header_parser" "', argument " "4"" of type '" "std::vector< gr::tag_t,std::allocator< gr::tag_t > > &""'"); 
   }
-  arg3 = reinterpret_cast< std::vector< gr::tag_t,std::allocator< gr::tag_t > > * >(argp3);
+  arg4 = reinterpret_cast< std::vector< gr::tag_t,std::allocator< gr::tag_t > > * >(argp4);
   {
     try {
-      result = (bool)(*arg1)->header_parser((unsigned char const *)arg2,*arg3);
+      result = (bool)(*arg1)->header_parser((unsigned char const *)arg2,arg3,*arg4);
     }
     catch(std::exception &e) {
       SWIG_exception(SWIG_RuntimeError, e.what());
@@ -26044,6 +26419,39 @@ fail:
 }
 
 
+SWIGINTERN PyObject *_wrap_packet_header_ofdm_alix_sptr_num_tag_key(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::ofdm_allocator::packet_header_ofdm_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::packet_header_ofdm_alix > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  pmt::pmt_t result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"packet_header_ofdm_alix_sptr_num_tag_key",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_ofdm_alix_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "packet_header_ofdm_alix_sptr_num_tag_key" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::packet_header_ofdm_alix > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::ofdm_allocator::packet_header_ofdm_alix > * >(argp1);
+  {
+    try {
+      result = (*arg1)->num_tag_key();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new pmt::pmt_t(static_cast< const pmt::pmt_t& >(result))), SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
 SWIGINTERN PyObject *_wrap_packet_header_ofdm_alix_sptr_header_formatter(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
   PyObject *resultobj = 0;
   boost::shared_ptr< gr::ofdm_allocator::packet_header_ofdm_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::packet_header_ofdm_alix > *) 0 ;
@@ -26121,22 +26529,26 @@ SWIGINTERN PyObject *_wrap_packet_header_ofdm_alix_sptr_header_parser(PyObject *
   PyObject *resultobj = 0;
   boost::shared_ptr< gr::ofdm_allocator::packet_header_ofdm_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::packet_header_ofdm_alix > *) 0 ;
   unsigned char *arg2 = (unsigned char *) 0 ;
-  std::vector< gr::tag_t,std::allocator< gr::tag_t > > *arg3 = 0 ;
+  int arg3 ;
+  std::vector< gr::tag_t,std::allocator< gr::tag_t > > *arg4 = 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   void *argp2 = 0 ;
   int res2 = 0 ;
-  void *argp3 = 0 ;
-  int res3 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  void *argp4 = 0 ;
+  int res4 = 0 ;
   PyObject * obj0 = 0 ;
   PyObject * obj1 = 0 ;
   PyObject * obj2 = 0 ;
+  PyObject * obj3 = 0 ;
   char *  kwnames[] = {
-    (char *) "self",(char *) "header",(char *) "tags", NULL 
+    (char *) "self",(char *) "header",(char *) "header_length",(char *) "tags", NULL 
   };
   bool result;
   
-  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OOO:packet_header_ofdm_alix_sptr_header_parser",kwnames,&obj0,&obj1,&obj2)) SWIG_fail;
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OOOO:packet_header_ofdm_alix_sptr_header_parser",kwnames,&obj0,&obj1,&obj2,&obj3)) SWIG_fail;
   res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_ofdm_alix_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "packet_header_ofdm_alix_sptr_header_parser" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::packet_header_ofdm_alix > *""'"); 
@@ -26147,17 +26559,22 @@ SWIGINTERN PyObject *_wrap_packet_header_ofdm_alix_sptr_header_parser(PyObject *
     SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "packet_header_ofdm_alix_sptr_header_parser" "', argument " "2"" of type '" "unsigned char const *""'"); 
   }
   arg2 = reinterpret_cast< unsigned char * >(argp2);
-  res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_std__vectorT_gr__tag_t_std__allocatorT_gr__tag_t_t_t,  0 );
-  if (!SWIG_IsOK(res3)) {
-    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "packet_header_ofdm_alix_sptr_header_parser" "', argument " "3"" of type '" "std::vector< gr::tag_t,std::allocator< gr::tag_t > > &""'"); 
+  ecode3 = SWIG_AsVal_int(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "packet_header_ofdm_alix_sptr_header_parser" "', argument " "3"" of type '" "int""'");
+  } 
+  arg3 = static_cast< int >(val3);
+  res4 = SWIG_ConvertPtr(obj3, &argp4, SWIGTYPE_p_std__vectorT_gr__tag_t_std__allocatorT_gr__tag_t_t_t,  0 );
+  if (!SWIG_IsOK(res4)) {
+    SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "packet_header_ofdm_alix_sptr_header_parser" "', argument " "4"" of type '" "std::vector< gr::tag_t,std::allocator< gr::tag_t > > &""'"); 
   }
-  if (!argp3) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "packet_header_ofdm_alix_sptr_header_parser" "', argument " "3"" of type '" "std::vector< gr::tag_t,std::allocator< gr::tag_t > > &""'"); 
+  if (!argp4) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "packet_header_ofdm_alix_sptr_header_parser" "', argument " "4"" of type '" "std::vector< gr::tag_t,std::allocator< gr::tag_t > > &""'"); 
   }
-  arg3 = reinterpret_cast< std::vector< gr::tag_t,std::allocator< gr::tag_t > > * >(argp3);
+  arg4 = reinterpret_cast< std::vector< gr::tag_t,std::allocator< gr::tag_t > > * >(argp4);
   {
     try {
-      result = (bool)(*arg1)->header_parser((unsigned char const *)arg2,*arg3);
+      result = (bool)(*arg1)->header_parser((unsigned char const *)arg2,arg3,*arg4);
     }
     catch(std::exception &e) {
       SWIG_exception(SWIG_RuntimeError, e.what());
@@ -26337,22 +26754,37 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_ofdm_equalizer_base_alix_sptr_reset(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_ofdm_equalizer_base_alix_sptr_reset(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
   PyObject *resultobj = 0;
   boost::shared_ptr< gr::ofdm_allocator::ofdm_equalizer_base_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::ofdm_equalizer_base_alix > *) 0 ;
+  std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > *arg2 = 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
   PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "pilot_carriers", NULL 
+  };
   
-  if(!PyArg_UnpackTuple(args,(char *)"ofdm_equalizer_base_alix_sptr_reset",1,1,&obj0)) SWIG_fail;
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:ofdm_equalizer_base_alix_sptr_reset",kwnames,&obj0,&obj1)) SWIG_fail;
   res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__ofdm_equalizer_base_alix_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ofdm_equalizer_base_alix_sptr_reset" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::ofdm_equalizer_base_alix > *""'"); 
   }
   arg1 = reinterpret_cast< boost::shared_ptr< gr::ofdm_allocator::ofdm_equalizer_base_alix > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_std__vectorT_std__vectorT_bool_std__allocatorT_bool_t_t_std__allocatorT_std__vectorT_bool_std__allocatorT_bool_t_t_t_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ofdm_equalizer_base_alix_sptr_reset" "', argument " "2"" of type '" "std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ofdm_equalizer_base_alix_sptr_reset" "', argument " "2"" of type '" "std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const &""'"); 
+  }
+  arg2 = reinterpret_cast< std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > * >(argp2);
   {
     try {
-      (*arg1)->reset();
+      (*arg1)->reset((std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const &)*arg2);
     }
     catch(std::exception &e) {
       SWIG_exception(SWIG_RuntimeError, e.what());
@@ -26378,8 +26810,12 @@ SWIGINTERN PyObject *_wrap_ofdm_equalizer_base_alix_sptr_equalize(PyObject *SWIG
   std::vector< gr_complex,std::allocator< gr_complex > > *arg4 = (std::vector< gr_complex,std::allocator< gr_complex > > *) &arg4_defvalue ;
   std::vector< bool,std::allocator< bool > > const &arg5_defvalue = std::vector< bool >() ;
   std::vector< bool,std::allocator< bool > > *arg5 = (std::vector< bool,std::allocator< bool > > *) &arg5_defvalue ;
-  std::vector< gr::tag_t,std::allocator< gr::tag_t > > const &arg6_defvalue = std::vector< gr::tag_t >() ;
-  std::vector< gr::tag_t,std::allocator< gr::tag_t > > *arg6 = (std::vector< gr::tag_t,std::allocator< gr::tag_t > > *) &arg6_defvalue ;
+  std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const &arg6_defvalue = std::vector< std::vector< bool > >() ;
+  std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > *arg6 = (std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > *) &arg6_defvalue ;
+  std::vector< std::vector< gr_complex,std::allocator< gr_complex > >,std::allocator< std::vector< gr_complex,std::allocator< gr_complex > > > > const &arg7_defvalue = std::vector< std::vector< gr_complex > >() ;
+  std::vector< std::vector< gr_complex,std::allocator< gr_complex > >,std::allocator< std::vector< gr_complex,std::allocator< gr_complex > > > > *arg7 = (std::vector< std::vector< gr_complex,std::allocator< gr_complex > >,std::allocator< std::vector< gr_complex,std::allocator< gr_complex > > > > *) &arg7_defvalue ;
+  std::vector< gr::tag_t,std::allocator< gr::tag_t > > const &arg8_defvalue = std::vector< gr::tag_t >() ;
+  std::vector< gr::tag_t,std::allocator< gr::tag_t > > *arg8 = (std::vector< gr::tag_t,std::allocator< gr::tag_t > > *) &arg8_defvalue ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   void *argp2 = 0 ;
@@ -26389,18 +26825,23 @@ SWIGINTERN PyObject *_wrap_ofdm_equalizer_base_alix_sptr_equalize(PyObject *SWIG
   int res4 = SWIG_OLDOBJ ;
   void *argp5 = 0 ;
   int res5 = 0 ;
-  int res6 = SWIG_OLDOBJ ;
+  void *argp6 = 0 ;
+  int res6 = 0 ;
+  int res7 = SWIG_OLDOBJ ;
+  int res8 = SWIG_OLDOBJ ;
   PyObject * obj0 = 0 ;
   PyObject * obj1 = 0 ;
   PyObject * obj2 = 0 ;
   PyObject * obj3 = 0 ;
   PyObject * obj4 = 0 ;
   PyObject * obj5 = 0 ;
+  PyObject * obj6 = 0 ;
+  PyObject * obj7 = 0 ;
   char *  kwnames[] = {
-    (char *) "self",(char *) "frame",(char *) "n_sym",(char *) "initial_taps",(char *) "occupied_carriers",(char *) "tags", NULL 
+    (char *) "self",(char *) "frame",(char *) "n_sym",(char *) "initial_taps",(char *) "occupied_carriers",(char *) "pilot_carriers",(char *) "pilot_symbols",(char *) "tags", NULL 
   };
   
-  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OOO|OOO:ofdm_equalizer_base_alix_sptr_equalize",kwnames,&obj0,&obj1,&obj2,&obj3,&obj4,&obj5)) SWIG_fail;
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OOO|OOOOO:ofdm_equalizer_base_alix_sptr_equalize",kwnames,&obj0,&obj1,&obj2,&obj3,&obj4,&obj5,&obj6,&obj7)) SWIG_fail;
   res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__ofdm_equalizer_base_alix_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ofdm_equalizer_base_alix_sptr_equalize" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::ofdm_equalizer_base_alix > *""'"); 
@@ -26440,21 +26881,44 @@ SWIGINTERN PyObject *_wrap_ofdm_equalizer_base_alix_sptr_equalize(PyObject *SWIG
     arg5 = reinterpret_cast< std::vector< bool,std::allocator< bool > > * >(argp5);
   }
   if (obj5) {
+    res6 = SWIG_ConvertPtr(obj5, &argp6, SWIGTYPE_p_std__vectorT_std__vectorT_bool_std__allocatorT_bool_t_t_std__allocatorT_std__vectorT_bool_std__allocatorT_bool_t_t_t_t,  0  | 0);
+    if (!SWIG_IsOK(res6)) {
+      SWIG_exception_fail(SWIG_ArgError(res6), "in method '" "ofdm_equalizer_base_alix_sptr_equalize" "', argument " "6"" of type '" "std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const &""'"); 
+    }
+    if (!argp6) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ofdm_equalizer_base_alix_sptr_equalize" "', argument " "6"" of type '" "std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const &""'"); 
+    }
+    arg6 = reinterpret_cast< std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > * >(argp6);
+  }
+  if (obj6) {
     {
-      std::vector< gr::tag_t,std::allocator< gr::tag_t > > *ptr = (std::vector< gr::tag_t,std::allocator< gr::tag_t > > *)0;
-      res6 = swig::asptr(obj5, &ptr);
-      if (!SWIG_IsOK(res6)) {
-        SWIG_exception_fail(SWIG_ArgError(res6), "in method '" "ofdm_equalizer_base_alix_sptr_equalize" "', argument " "6"" of type '" "std::vector< gr::tag_t,std::allocator< gr::tag_t > > const &""'"); 
+      std::vector< std::vector< std::complex< float >,std::allocator< std::complex< float > > >,std::allocator< std::vector< std::complex< float >,std::allocator< std::complex< float > > > > > *ptr = (std::vector< std::vector< std::complex< float >,std::allocator< std::complex< float > > >,std::allocator< std::vector< std::complex< float >,std::allocator< std::complex< float > > > > > *)0;
+      res7 = swig::asptr(obj6, &ptr);
+      if (!SWIG_IsOK(res7)) {
+        SWIG_exception_fail(SWIG_ArgError(res7), "in method '" "ofdm_equalizer_base_alix_sptr_equalize" "', argument " "7"" of type '" "std::vector< std::vector< gr_complex,std::allocator< gr_complex > >,std::allocator< std::vector< gr_complex,std::allocator< gr_complex > > > > const &""'"); 
       }
       if (!ptr) {
-        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ofdm_equalizer_base_alix_sptr_equalize" "', argument " "6"" of type '" "std::vector< gr::tag_t,std::allocator< gr::tag_t > > const &""'"); 
+        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ofdm_equalizer_base_alix_sptr_equalize" "', argument " "7"" of type '" "std::vector< std::vector< gr_complex,std::allocator< gr_complex > >,std::allocator< std::vector< gr_complex,std::allocator< gr_complex > > > > const &""'"); 
       }
-      arg6 = ptr;
+      arg7 = ptr;
+    }
+  }
+  if (obj7) {
+    {
+      std::vector< gr::tag_t,std::allocator< gr::tag_t > > *ptr = (std::vector< gr::tag_t,std::allocator< gr::tag_t > > *)0;
+      res8 = swig::asptr(obj7, &ptr);
+      if (!SWIG_IsOK(res8)) {
+        SWIG_exception_fail(SWIG_ArgError(res8), "in method '" "ofdm_equalizer_base_alix_sptr_equalize" "', argument " "8"" of type '" "std::vector< gr::tag_t,std::allocator< gr::tag_t > > const &""'"); 
+      }
+      if (!ptr) {
+        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ofdm_equalizer_base_alix_sptr_equalize" "', argument " "8"" of type '" "std::vector< gr::tag_t,std::allocator< gr::tag_t > > const &""'"); 
+      }
+      arg8 = ptr;
     }
   }
   {
     try {
-      (*arg1)->equalize(arg2,arg3,(std::vector< gr_complex,std::allocator< gr_complex > > const &)*arg4,(std::vector< bool,std::allocator< bool > > const &)*arg5,(std::vector< gr::tag_t,std::allocator< gr::tag_t > > const &)*arg6);
+      (*arg1)->equalize(arg2,arg3,(std::vector< gr_complex,std::allocator< gr_complex > > const &)*arg4,(std::vector< bool,std::allocator< bool > > const &)*arg5,(std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const &)*arg6,(std::vector< std::vector< gr_complex,std::allocator< gr_complex > >,std::allocator< std::vector< gr_complex,std::allocator< gr_complex > > > > const &)*arg7,(std::vector< gr::tag_t,std::allocator< gr::tag_t > > const &)*arg8);
     }
     catch(std::exception &e) {
       SWIG_exception(SWIG_RuntimeError, e.what());
@@ -26466,11 +26930,13 @@ SWIGINTERN PyObject *_wrap_ofdm_equalizer_base_alix_sptr_equalize(PyObject *SWIG
   }
   resultobj = SWIG_Py_Void();
   if (SWIG_IsNewObj(res4)) delete arg4;
-  if (SWIG_IsNewObj(res6)) delete arg6;
+  if (SWIG_IsNewObj(res7)) delete arg7;
+  if (SWIG_IsNewObj(res8)) delete arg8;
   return resultobj;
 fail:
   if (SWIG_IsNewObj(res4)) delete arg4;
-  if (SWIG_IsNewObj(res6)) delete arg6;
+  if (SWIG_IsNewObj(res7)) delete arg7;
+  if (SWIG_IsNewObj(res8)) delete arg8;
   return NULL;
 }
 
@@ -26751,22 +27217,37 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_ofdm_equalizer_1d_pilots_alix_sptr_reset(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_ofdm_equalizer_1d_pilots_alix_sptr_reset(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
   PyObject *resultobj = 0;
   boost::shared_ptr< gr::ofdm_allocator::ofdm_equalizer_1d_pilots_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::ofdm_equalizer_1d_pilots_alix > *) 0 ;
+  std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > *arg2 = 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
   PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "pilot_carriers", NULL 
+  };
   
-  if(!PyArg_UnpackTuple(args,(char *)"ofdm_equalizer_1d_pilots_alix_sptr_reset",1,1,&obj0)) SWIG_fail;
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:ofdm_equalizer_1d_pilots_alix_sptr_reset",kwnames,&obj0,&obj1)) SWIG_fail;
   res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__ofdm_equalizer_1d_pilots_alix_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ofdm_equalizer_1d_pilots_alix_sptr_reset" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::ofdm_equalizer_1d_pilots_alix > *""'"); 
   }
   arg1 = reinterpret_cast< boost::shared_ptr< gr::ofdm_allocator::ofdm_equalizer_1d_pilots_alix > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_std__vectorT_std__vectorT_bool_std__allocatorT_bool_t_t_std__allocatorT_std__vectorT_bool_std__allocatorT_bool_t_t_t_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ofdm_equalizer_1d_pilots_alix_sptr_reset" "', argument " "2"" of type '" "std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ofdm_equalizer_1d_pilots_alix_sptr_reset" "', argument " "2"" of type '" "std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const &""'"); 
+  }
+  arg2 = reinterpret_cast< std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > * >(argp2);
   {
     try {
-      (*arg1)->reset();
+      (*arg1)->reset((std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const &)*arg2);
     }
     catch(std::exception &e) {
       SWIG_exception(SWIG_RuntimeError, e.what());
@@ -26792,8 +27273,12 @@ SWIGINTERN PyObject *_wrap_ofdm_equalizer_1d_pilots_alix_sptr_equalize(PyObject 
   std::vector< gr_complex,std::allocator< gr_complex > > *arg4 = (std::vector< gr_complex,std::allocator< gr_complex > > *) &arg4_defvalue ;
   std::vector< bool,std::allocator< bool > > const &arg5_defvalue = std::vector< bool >() ;
   std::vector< bool,std::allocator< bool > > *arg5 = (std::vector< bool,std::allocator< bool > > *) &arg5_defvalue ;
-  std::vector< gr::tag_t,std::allocator< gr::tag_t > > const &arg6_defvalue = std::vector< gr::tag_t >() ;
-  std::vector< gr::tag_t,std::allocator< gr::tag_t > > *arg6 = (std::vector< gr::tag_t,std::allocator< gr::tag_t > > *) &arg6_defvalue ;
+  std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const &arg6_defvalue = std::vector< std::vector< bool > >() ;
+  std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > *arg6 = (std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > *) &arg6_defvalue ;
+  std::vector< std::vector< gr_complex,std::allocator< gr_complex > >,std::allocator< std::vector< gr_complex,std::allocator< gr_complex > > > > const &arg7_defvalue = std::vector< std::vector< gr_complex > >() ;
+  std::vector< std::vector< gr_complex,std::allocator< gr_complex > >,std::allocator< std::vector< gr_complex,std::allocator< gr_complex > > > > *arg7 = (std::vector< std::vector< gr_complex,std::allocator< gr_complex > >,std::allocator< std::vector< gr_complex,std::allocator< gr_complex > > > > *) &arg7_defvalue ;
+  std::vector< gr::tag_t,std::allocator< gr::tag_t > > const &arg8_defvalue = std::vector< gr::tag_t >() ;
+  std::vector< gr::tag_t,std::allocator< gr::tag_t > > *arg8 = (std::vector< gr::tag_t,std::allocator< gr::tag_t > > *) &arg8_defvalue ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   void *argp2 = 0 ;
@@ -26803,18 +27288,23 @@ SWIGINTERN PyObject *_wrap_ofdm_equalizer_1d_pilots_alix_sptr_equalize(PyObject 
   int res4 = SWIG_OLDOBJ ;
   void *argp5 = 0 ;
   int res5 = 0 ;
-  int res6 = SWIG_OLDOBJ ;
+  void *argp6 = 0 ;
+  int res6 = 0 ;
+  int res7 = SWIG_OLDOBJ ;
+  int res8 = SWIG_OLDOBJ ;
   PyObject * obj0 = 0 ;
   PyObject * obj1 = 0 ;
   PyObject * obj2 = 0 ;
   PyObject * obj3 = 0 ;
   PyObject * obj4 = 0 ;
   PyObject * obj5 = 0 ;
+  PyObject * obj6 = 0 ;
+  PyObject * obj7 = 0 ;
   char *  kwnames[] = {
-    (char *) "self",(char *) "frame",(char *) "n_sym",(char *) "initial_taps",(char *) "occupied_carriers",(char *) "tags", NULL 
+    (char *) "self",(char *) "frame",(char *) "n_sym",(char *) "initial_taps",(char *) "occupied_carriers",(char *) "pilot_carriers",(char *) "pilot_symbols",(char *) "tags", NULL 
   };
   
-  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OOO|OOO:ofdm_equalizer_1d_pilots_alix_sptr_equalize",kwnames,&obj0,&obj1,&obj2,&obj3,&obj4,&obj5)) SWIG_fail;
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OOO|OOOOO:ofdm_equalizer_1d_pilots_alix_sptr_equalize",kwnames,&obj0,&obj1,&obj2,&obj3,&obj4,&obj5,&obj6,&obj7)) SWIG_fail;
   res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__ofdm_equalizer_1d_pilots_alix_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ofdm_equalizer_1d_pilots_alix_sptr_equalize" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::ofdm_equalizer_1d_pilots_alix > *""'"); 
@@ -26854,21 +27344,44 @@ SWIGINTERN PyObject *_wrap_ofdm_equalizer_1d_pilots_alix_sptr_equalize(PyObject 
     arg5 = reinterpret_cast< std::vector< bool,std::allocator< bool > > * >(argp5);
   }
   if (obj5) {
+    res6 = SWIG_ConvertPtr(obj5, &argp6, SWIGTYPE_p_std__vectorT_std__vectorT_bool_std__allocatorT_bool_t_t_std__allocatorT_std__vectorT_bool_std__allocatorT_bool_t_t_t_t,  0  | 0);
+    if (!SWIG_IsOK(res6)) {
+      SWIG_exception_fail(SWIG_ArgError(res6), "in method '" "ofdm_equalizer_1d_pilots_alix_sptr_equalize" "', argument " "6"" of type '" "std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const &""'"); 
+    }
+    if (!argp6) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ofdm_equalizer_1d_pilots_alix_sptr_equalize" "', argument " "6"" of type '" "std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const &""'"); 
+    }
+    arg6 = reinterpret_cast< std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > * >(argp6);
+  }
+  if (obj6) {
     {
-      std::vector< gr::tag_t,std::allocator< gr::tag_t > > *ptr = (std::vector< gr::tag_t,std::allocator< gr::tag_t > > *)0;
-      res6 = swig::asptr(obj5, &ptr);
-      if (!SWIG_IsOK(res6)) {
-        SWIG_exception_fail(SWIG_ArgError(res6), "in method '" "ofdm_equalizer_1d_pilots_alix_sptr_equalize" "', argument " "6"" of type '" "std::vector< gr::tag_t,std::allocator< gr::tag_t > > const &""'"); 
+      std::vector< std::vector< std::complex< float >,std::allocator< std::complex< float > > >,std::allocator< std::vector< std::complex< float >,std::allocator< std::complex< float > > > > > *ptr = (std::vector< std::vector< std::complex< float >,std::allocator< std::complex< float > > >,std::allocator< std::vector< std::complex< float >,std::allocator< std::complex< float > > > > > *)0;
+      res7 = swig::asptr(obj6, &ptr);
+      if (!SWIG_IsOK(res7)) {
+        SWIG_exception_fail(SWIG_ArgError(res7), "in method '" "ofdm_equalizer_1d_pilots_alix_sptr_equalize" "', argument " "7"" of type '" "std::vector< std::vector< gr_complex,std::allocator< gr_complex > >,std::allocator< std::vector< gr_complex,std::allocator< gr_complex > > > > const &""'"); 
       }
       if (!ptr) {
-        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ofdm_equalizer_1d_pilots_alix_sptr_equalize" "', argument " "6"" of type '" "std::vector< gr::tag_t,std::allocator< gr::tag_t > > const &""'"); 
+        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ofdm_equalizer_1d_pilots_alix_sptr_equalize" "', argument " "7"" of type '" "std::vector< std::vector< gr_complex,std::allocator< gr_complex > >,std::allocator< std::vector< gr_complex,std::allocator< gr_complex > > > > const &""'"); 
       }
-      arg6 = ptr;
+      arg7 = ptr;
+    }
+  }
+  if (obj7) {
+    {
+      std::vector< gr::tag_t,std::allocator< gr::tag_t > > *ptr = (std::vector< gr::tag_t,std::allocator< gr::tag_t > > *)0;
+      res8 = swig::asptr(obj7, &ptr);
+      if (!SWIG_IsOK(res8)) {
+        SWIG_exception_fail(SWIG_ArgError(res8), "in method '" "ofdm_equalizer_1d_pilots_alix_sptr_equalize" "', argument " "8"" of type '" "std::vector< gr::tag_t,std::allocator< gr::tag_t > > const &""'"); 
+      }
+      if (!ptr) {
+        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ofdm_equalizer_1d_pilots_alix_sptr_equalize" "', argument " "8"" of type '" "std::vector< gr::tag_t,std::allocator< gr::tag_t > > const &""'"); 
+      }
+      arg8 = ptr;
     }
   }
   {
     try {
-      (*arg1)->equalize(arg2,arg3,(std::vector< gr_complex,std::allocator< gr_complex > > const &)*arg4,(std::vector< bool,std::allocator< bool > > const &)*arg5,(std::vector< gr::tag_t,std::allocator< gr::tag_t > > const &)*arg6);
+      (*arg1)->equalize(arg2,arg3,(std::vector< gr_complex,std::allocator< gr_complex > > const &)*arg4,(std::vector< bool,std::allocator< bool > > const &)*arg5,(std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const &)*arg6,(std::vector< std::vector< gr_complex,std::allocator< gr_complex > >,std::allocator< std::vector< gr_complex,std::allocator< gr_complex > > > > const &)*arg7,(std::vector< gr::tag_t,std::allocator< gr::tag_t > > const &)*arg8);
     }
     catch(std::exception &e) {
       SWIG_exception(SWIG_RuntimeError, e.what());
@@ -26880,11 +27393,13 @@ SWIGINTERN PyObject *_wrap_ofdm_equalizer_1d_pilots_alix_sptr_equalize(PyObject 
   }
   resultobj = SWIG_Py_Void();
   if (SWIG_IsNewObj(res4)) delete arg4;
-  if (SWIG_IsNewObj(res6)) delete arg6;
+  if (SWIG_IsNewObj(res7)) delete arg7;
+  if (SWIG_IsNewObj(res8)) delete arg8;
   return resultobj;
 fail:
   if (SWIG_IsNewObj(res4)) delete arg4;
-  if (SWIG_IsNewObj(res6)) delete arg6;
+  if (SWIG_IsNewObj(res7)) delete arg7;
+  if (SWIG_IsNewObj(res8)) delete arg8;
   return NULL;
 }
 
@@ -27312,22 +27827,37 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_ofdm_equalizer_simpledfe_alix_sptr_reset(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_ofdm_equalizer_simpledfe_alix_sptr_reset(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
   PyObject *resultobj = 0;
   boost::shared_ptr< gr::ofdm_allocator::ofdm_equalizer_simpledfe_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::ofdm_equalizer_simpledfe_alix > *) 0 ;
+  std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > *arg2 = 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
   PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "pilot_carriers", NULL 
+  };
   
-  if(!PyArg_UnpackTuple(args,(char *)"ofdm_equalizer_simpledfe_alix_sptr_reset",1,1,&obj0)) SWIG_fail;
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:ofdm_equalizer_simpledfe_alix_sptr_reset",kwnames,&obj0,&obj1)) SWIG_fail;
   res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__ofdm_equalizer_simpledfe_alix_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ofdm_equalizer_simpledfe_alix_sptr_reset" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::ofdm_equalizer_simpledfe_alix > *""'"); 
   }
   arg1 = reinterpret_cast< boost::shared_ptr< gr::ofdm_allocator::ofdm_equalizer_simpledfe_alix > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_std__vectorT_std__vectorT_bool_std__allocatorT_bool_t_t_std__allocatorT_std__vectorT_bool_std__allocatorT_bool_t_t_t_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ofdm_equalizer_simpledfe_alix_sptr_reset" "', argument " "2"" of type '" "std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ofdm_equalizer_simpledfe_alix_sptr_reset" "', argument " "2"" of type '" "std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const &""'"); 
+  }
+  arg2 = reinterpret_cast< std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > * >(argp2);
   {
     try {
-      (*arg1)->reset();
+      (*arg1)->reset((std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const &)*arg2);
     }
     catch(std::exception &e) {
       SWIG_exception(SWIG_RuntimeError, e.what());
@@ -27353,8 +27883,12 @@ SWIGINTERN PyObject *_wrap_ofdm_equalizer_simpledfe_alix_sptr_equalize(PyObject 
   std::vector< gr_complex,std::allocator< gr_complex > > *arg4 = (std::vector< gr_complex,std::allocator< gr_complex > > *) &arg4_defvalue ;
   std::vector< bool,std::allocator< bool > > const &arg5_defvalue = std::vector< bool >() ;
   std::vector< bool,std::allocator< bool > > *arg5 = (std::vector< bool,std::allocator< bool > > *) &arg5_defvalue ;
-  std::vector< gr::tag_t,std::allocator< gr::tag_t > > const &arg6_defvalue = std::vector< gr::tag_t >() ;
-  std::vector< gr::tag_t,std::allocator< gr::tag_t > > *arg6 = (std::vector< gr::tag_t,std::allocator< gr::tag_t > > *) &arg6_defvalue ;
+  std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const &arg6_defvalue = std::vector< std::vector< bool > >() ;
+  std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > *arg6 = (std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > *) &arg6_defvalue ;
+  std::vector< std::vector< gr_complex,std::allocator< gr_complex > >,std::allocator< std::vector< gr_complex,std::allocator< gr_complex > > > > const &arg7_defvalue = std::vector< std::vector< gr_complex > >() ;
+  std::vector< std::vector< gr_complex,std::allocator< gr_complex > >,std::allocator< std::vector< gr_complex,std::allocator< gr_complex > > > > *arg7 = (std::vector< std::vector< gr_complex,std::allocator< gr_complex > >,std::allocator< std::vector< gr_complex,std::allocator< gr_complex > > > > *) &arg7_defvalue ;
+  std::vector< gr::tag_t,std::allocator< gr::tag_t > > const &arg8_defvalue = std::vector< gr::tag_t >() ;
+  std::vector< gr::tag_t,std::allocator< gr::tag_t > > *arg8 = (std::vector< gr::tag_t,std::allocator< gr::tag_t > > *) &arg8_defvalue ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   void *argp2 = 0 ;
@@ -27364,18 +27898,23 @@ SWIGINTERN PyObject *_wrap_ofdm_equalizer_simpledfe_alix_sptr_equalize(PyObject 
   int res4 = SWIG_OLDOBJ ;
   void *argp5 = 0 ;
   int res5 = 0 ;
-  int res6 = SWIG_OLDOBJ ;
+  void *argp6 = 0 ;
+  int res6 = 0 ;
+  int res7 = SWIG_OLDOBJ ;
+  int res8 = SWIG_OLDOBJ ;
   PyObject * obj0 = 0 ;
   PyObject * obj1 = 0 ;
   PyObject * obj2 = 0 ;
   PyObject * obj3 = 0 ;
   PyObject * obj4 = 0 ;
   PyObject * obj5 = 0 ;
+  PyObject * obj6 = 0 ;
+  PyObject * obj7 = 0 ;
   char *  kwnames[] = {
-    (char *) "self",(char *) "frame",(char *) "n_sym",(char *) "initial_taps",(char *) "occupied_carriers",(char *) "tags", NULL 
+    (char *) "self",(char *) "frame",(char *) "n_sym",(char *) "initial_taps",(char *) "occupied_carriers",(char *) "pilot_carriers",(char *) "pilot_symbols",(char *) "tags", NULL 
   };
   
-  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OOO|OOO:ofdm_equalizer_simpledfe_alix_sptr_equalize",kwnames,&obj0,&obj1,&obj2,&obj3,&obj4,&obj5)) SWIG_fail;
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OOO|OOOOO:ofdm_equalizer_simpledfe_alix_sptr_equalize",kwnames,&obj0,&obj1,&obj2,&obj3,&obj4,&obj5,&obj6,&obj7)) SWIG_fail;
   res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__ofdm_equalizer_simpledfe_alix_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ofdm_equalizer_simpledfe_alix_sptr_equalize" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::ofdm_equalizer_simpledfe_alix > *""'"); 
@@ -27415,21 +27954,44 @@ SWIGINTERN PyObject *_wrap_ofdm_equalizer_simpledfe_alix_sptr_equalize(PyObject 
     arg5 = reinterpret_cast< std::vector< bool,std::allocator< bool > > * >(argp5);
   }
   if (obj5) {
+    res6 = SWIG_ConvertPtr(obj5, &argp6, SWIGTYPE_p_std__vectorT_std__vectorT_bool_std__allocatorT_bool_t_t_std__allocatorT_std__vectorT_bool_std__allocatorT_bool_t_t_t_t,  0  | 0);
+    if (!SWIG_IsOK(res6)) {
+      SWIG_exception_fail(SWIG_ArgError(res6), "in method '" "ofdm_equalizer_simpledfe_alix_sptr_equalize" "', argument " "6"" of type '" "std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const &""'"); 
+    }
+    if (!argp6) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ofdm_equalizer_simpledfe_alix_sptr_equalize" "', argument " "6"" of type '" "std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const &""'"); 
+    }
+    arg6 = reinterpret_cast< std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > * >(argp6);
+  }
+  if (obj6) {
     {
-      std::vector< gr::tag_t,std::allocator< gr::tag_t > > *ptr = (std::vector< gr::tag_t,std::allocator< gr::tag_t > > *)0;
-      res6 = swig::asptr(obj5, &ptr);
-      if (!SWIG_IsOK(res6)) {
-        SWIG_exception_fail(SWIG_ArgError(res6), "in method '" "ofdm_equalizer_simpledfe_alix_sptr_equalize" "', argument " "6"" of type '" "std::vector< gr::tag_t,std::allocator< gr::tag_t > > const &""'"); 
+      std::vector< std::vector< std::complex< float >,std::allocator< std::complex< float > > >,std::allocator< std::vector< std::complex< float >,std::allocator< std::complex< float > > > > > *ptr = (std::vector< std::vector< std::complex< float >,std::allocator< std::complex< float > > >,std::allocator< std::vector< std::complex< float >,std::allocator< std::complex< float > > > > > *)0;
+      res7 = swig::asptr(obj6, &ptr);
+      if (!SWIG_IsOK(res7)) {
+        SWIG_exception_fail(SWIG_ArgError(res7), "in method '" "ofdm_equalizer_simpledfe_alix_sptr_equalize" "', argument " "7"" of type '" "std::vector< std::vector< gr_complex,std::allocator< gr_complex > >,std::allocator< std::vector< gr_complex,std::allocator< gr_complex > > > > const &""'"); 
       }
       if (!ptr) {
-        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ofdm_equalizer_simpledfe_alix_sptr_equalize" "', argument " "6"" of type '" "std::vector< gr::tag_t,std::allocator< gr::tag_t > > const &""'"); 
+        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ofdm_equalizer_simpledfe_alix_sptr_equalize" "', argument " "7"" of type '" "std::vector< std::vector< gr_complex,std::allocator< gr_complex > >,std::allocator< std::vector< gr_complex,std::allocator< gr_complex > > > > const &""'"); 
       }
-      arg6 = ptr;
+      arg7 = ptr;
+    }
+  }
+  if (obj7) {
+    {
+      std::vector< gr::tag_t,std::allocator< gr::tag_t > > *ptr = (std::vector< gr::tag_t,std::allocator< gr::tag_t > > *)0;
+      res8 = swig::asptr(obj7, &ptr);
+      if (!SWIG_IsOK(res8)) {
+        SWIG_exception_fail(SWIG_ArgError(res8), "in method '" "ofdm_equalizer_simpledfe_alix_sptr_equalize" "', argument " "8"" of type '" "std::vector< gr::tag_t,std::allocator< gr::tag_t > > const &""'"); 
+      }
+      if (!ptr) {
+        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ofdm_equalizer_simpledfe_alix_sptr_equalize" "', argument " "8"" of type '" "std::vector< gr::tag_t,std::allocator< gr::tag_t > > const &""'"); 
+      }
+      arg8 = ptr;
     }
   }
   {
     try {
-      (*arg1)->equalize(arg2,arg3,(std::vector< gr_complex,std::allocator< gr_complex > > const &)*arg4,(std::vector< bool,std::allocator< bool > > const &)*arg5,(std::vector< gr::tag_t,std::allocator< gr::tag_t > > const &)*arg6);
+      (*arg1)->equalize(arg2,arg3,(std::vector< gr_complex,std::allocator< gr_complex > > const &)*arg4,(std::vector< bool,std::allocator< bool > > const &)*arg5,(std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const &)*arg6,(std::vector< std::vector< gr_complex,std::allocator< gr_complex > >,std::allocator< std::vector< gr_complex,std::allocator< gr_complex > > > > const &)*arg7,(std::vector< gr::tag_t,std::allocator< gr::tag_t > > const &)*arg8);
     }
     catch(std::exception &e) {
       SWIG_exception(SWIG_RuntimeError, e.what());
@@ -27441,11 +28003,13 @@ SWIGINTERN PyObject *_wrap_ofdm_equalizer_simpledfe_alix_sptr_equalize(PyObject 
   }
   resultobj = SWIG_Py_Void();
   if (SWIG_IsNewObj(res4)) delete arg4;
-  if (SWIG_IsNewObj(res6)) delete arg6;
+  if (SWIG_IsNewObj(res7)) delete arg7;
+  if (SWIG_IsNewObj(res8)) delete arg8;
   return resultobj;
 fail:
   if (SWIG_IsNewObj(res4)) delete arg4;
-  if (SWIG_IsNewObj(res6)) delete arg6;
+  if (SWIG_IsNewObj(res7)) delete arg7;
+  if (SWIG_IsNewObj(res8)) delete arg8;
   return NULL;
 }
 
@@ -47292,6 +47856,3505 @@ SWIGINTERN PyObject *constellation_decoder_alix_sptr_swigregister(PyObject *SWIG
   return SWIG_Py_Void();
 }
 
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_make__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  gr::ofdm_allocator::packet_header_default_alix::sptr *arg1 = 0 ;
+  std::string *arg2 = 0 ;
+  std::string *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  int res3 = SWIG_OLDOBJ ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  gr::ofdm_allocator::packet_header_parser_alix::sptr result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"packet_header_parser_alix_make",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_default_alix_t,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "packet_header_parser_alix_make" "', argument " "1"" of type '" "gr::ofdm_allocator::packet_header_default_alix::sptr const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "packet_header_parser_alix_make" "', argument " "1"" of type '" "gr::ofdm_allocator::packet_header_default_alix::sptr const &""'"); 
+  }
+  arg1 = reinterpret_cast< gr::ofdm_allocator::packet_header_default_alix::sptr * >(argp1);
+  {
+    std::string *ptr = (std::string *)0;
+    res2 = SWIG_AsPtr_std_string(obj1, &ptr);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "packet_header_parser_alix_make" "', argument " "2"" of type '" "std::string const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "packet_header_parser_alix_make" "', argument " "2"" of type '" "std::string const &""'"); 
+    }
+    arg2 = ptr;
+  }
+  {
+    std::string *ptr = (std::string *)0;
+    res3 = SWIG_AsPtr_std_string(obj2, &ptr);
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "packet_header_parser_alix_make" "', argument " "3"" of type '" "std::string const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "packet_header_parser_alix_make" "', argument " "3"" of type '" "std::string const &""'"); 
+    }
+    arg3 = ptr;
+  }
+  {
+    try {
+      result = gr::ofdm_allocator::packet_header_parser_alix::make((boost::shared_ptr< gr::ofdm_allocator::packet_header_default_alix > const &)*arg1,(std::string const &)*arg2,(std::string const &)*arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new gr::ofdm_allocator::packet_header_parser_alix::sptr(static_cast< const gr::ofdm_allocator::packet_header_parser_alix::sptr& >(result))), SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, SWIG_POINTER_OWN |  0 );
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_make__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  long arg1 ;
+  std::string *arg2 = 0 ;
+  std::string *arg3 = 0 ;
+  long val1 ;
+  int ecode1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  int res3 = SWIG_OLDOBJ ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  gr::ofdm_allocator::packet_header_parser_alix::sptr result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"packet_header_parser_alix_make",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  ecode1 = SWIG_AsVal_long(obj0, &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "packet_header_parser_alix_make" "', argument " "1"" of type '" "long""'");
+  } 
+  arg1 = static_cast< long >(val1);
+  {
+    std::string *ptr = (std::string *)0;
+    res2 = SWIG_AsPtr_std_string(obj1, &ptr);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "packet_header_parser_alix_make" "', argument " "2"" of type '" "std::string const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "packet_header_parser_alix_make" "', argument " "2"" of type '" "std::string const &""'"); 
+    }
+    arg2 = ptr;
+  }
+  {
+    std::string *ptr = (std::string *)0;
+    res3 = SWIG_AsPtr_std_string(obj2, &ptr);
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "packet_header_parser_alix_make" "', argument " "3"" of type '" "std::string const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "packet_header_parser_alix_make" "', argument " "3"" of type '" "std::string const &""'"); 
+    }
+    arg3 = ptr;
+  }
+  {
+    try {
+      result = gr::ofdm_allocator::packet_header_parser_alix::make(arg1,(std::string const &)*arg2,(std::string const &)*arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new gr::ofdm_allocator::packet_header_parser_alix::sptr(static_cast< const gr::ofdm_allocator::packet_header_parser_alix::sptr& >(result))), SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, SWIG_POINTER_OWN |  0 );
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_make(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[4] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 3) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 3) {
+    int _v;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_default_alix_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_AsPtr_std_string(argv[1], (std::string**)(0));
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        int res = SWIG_AsPtr_std_string(argv[2], (std::string**)(0));
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_packet_header_parser_alix_make__SWIG_0(self, args);
+        }
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    {
+      int res = SWIG_AsVal_long(argv[0], NULL);
+      _v = SWIG_CheckState(res);
+    }
+    if (_v) {
+      int res = SWIG_AsPtr_std_string(argv[1], (std::string**)(0));
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        int res = SWIG_AsPtr_std_string(argv[2], (std::string**)(0));
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_packet_header_parser_alix_make__SWIG_1(self, args);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'packet_header_parser_alix_make'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::ofdm_allocator::packet_header_parser_alix::make(gr::ofdm_allocator::packet_header_default_alix::sptr const &,std::string const &,std::string const &)\n"
+    "    gr::ofdm_allocator::packet_header_parser_alix::make(long,std::string const &,std::string const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_packet_header_parser_alix(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  gr::ofdm_allocator::packet_header_parser_alix *arg1 = (gr::ofdm_allocator::packet_header_parser_alix *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"delete_packet_header_parser_alix",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_gr__ofdm_allocator__packet_header_parser_alix, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_packet_header_parser_alix" "', argument " "1"" of type '" "gr::ofdm_allocator::packet_header_parser_alix *""'"); 
+  }
+  arg1 = reinterpret_cast< gr::ofdm_allocator::packet_header_parser_alix * >(argp1);
+  {
+    try {
+      delete arg1;
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *packet_header_parser_alix_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!PyArg_UnpackTuple(args,(char*)"swigregister", 1, 1,&obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_gr__ofdm_allocator__packet_header_parser_alix, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *_wrap_new_packet_header_parser_alix_sptr__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"new_packet_header_parser_alix_sptr",0,0)) SWIG_fail;
+  {
+    try {
+      result = (boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *)new boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix >();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_packet_header_parser_alix_sptr__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  gr::ofdm_allocator::packet_header_parser_alix *arg1 = (gr::ofdm_allocator::packet_header_parser_alix *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"new_packet_header_parser_alix_sptr",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_gr__ofdm_allocator__packet_header_parser_alix, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "new_packet_header_parser_alix_sptr" "', argument " "1"" of type '" "gr::ofdm_allocator::packet_header_parser_alix *""'"); 
+  }
+  arg1 = reinterpret_cast< gr::ofdm_allocator::packet_header_parser_alix * >(argp1);
+  {
+    try {
+      result = (boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *)new boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix >(arg1);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_packet_header_parser_alix_sptr(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[2] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 1) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 0) {
+    return _wrap_new_packet_header_parser_alix_sptr__SWIG_0(self, args);
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_gr__ofdm_allocator__packet_header_parser_alix, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_new_packet_header_parser_alix_sptr__SWIG_1(self, args);
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'new_packet_header_parser_alix_sptr'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix >::shared_ptr()\n"
+    "    boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix >::shared_ptr(gr::ofdm_allocator::packet_header_parser_alix *)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr___deref__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  gr::ofdm_allocator::packet_header_parser_alix *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"packet_header_parser_alix_sptr___deref__",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "packet_header_parser_alix_sptr___deref__" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > * >(argp1);
+  {
+    try {
+      result = (gr::ofdm_allocator::packet_header_parser_alix *)(arg1)->operator ->();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_gr__ofdm_allocator__packet_header_parser_alix, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_packet_header_parser_alix_sptr(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"delete_packet_header_parser_alix_sptr",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_packet_header_parser_alix_sptr" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > * >(argp1);
+  {
+    try {
+      delete arg1;
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr_make__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *) 0 ;
+  gr::ofdm_allocator::packet_header_default_alix::sptr *arg2 = 0 ;
+  std::string *arg3 = 0 ;
+  std::string *arg4 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  int res3 = SWIG_OLDOBJ ;
+  int res4 = SWIG_OLDOBJ ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  PyObject * obj3 = 0 ;
+  gr::ofdm_allocator::packet_header_parser_alix::sptr result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"packet_header_parser_alix_sptr_make",4,4,&obj0,&obj1,&obj2,&obj3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "packet_header_parser_alix_sptr_make" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_default_alix_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "packet_header_parser_alix_sptr_make" "', argument " "2"" of type '" "gr::ofdm_allocator::packet_header_default_alix::sptr const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "packet_header_parser_alix_sptr_make" "', argument " "2"" of type '" "gr::ofdm_allocator::packet_header_default_alix::sptr const &""'"); 
+  }
+  arg2 = reinterpret_cast< gr::ofdm_allocator::packet_header_default_alix::sptr * >(argp2);
+  {
+    std::string *ptr = (std::string *)0;
+    res3 = SWIG_AsPtr_std_string(obj2, &ptr);
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "packet_header_parser_alix_sptr_make" "', argument " "3"" of type '" "std::string const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "packet_header_parser_alix_sptr_make" "', argument " "3"" of type '" "std::string const &""'"); 
+    }
+    arg3 = ptr;
+  }
+  {
+    std::string *ptr = (std::string *)0;
+    res4 = SWIG_AsPtr_std_string(obj3, &ptr);
+    if (!SWIG_IsOK(res4)) {
+      SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "packet_header_parser_alix_sptr_make" "', argument " "4"" of type '" "std::string const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "packet_header_parser_alix_sptr_make" "', argument " "4"" of type '" "std::string const &""'"); 
+    }
+    arg4 = ptr;
+  }
+  {
+    try {
+      result = (*arg1)->make((gr::ofdm_allocator::packet_header_default_alix::sptr const &)*arg2,(std::string const &)*arg3,(std::string const &)*arg4);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new gr::ofdm_allocator::packet_header_parser_alix::sptr(static_cast< const gr::ofdm_allocator::packet_header_parser_alix::sptr& >(result))), SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, SWIG_POINTER_OWN |  0 );
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  if (SWIG_IsNewObj(res4)) delete arg4;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  if (SWIG_IsNewObj(res4)) delete arg4;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr_make__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *) 0 ;
+  long arg2 ;
+  std::string *arg3 = 0 ;
+  std::string *arg4 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  long val2 ;
+  int ecode2 = 0 ;
+  int res3 = SWIG_OLDOBJ ;
+  int res4 = SWIG_OLDOBJ ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  PyObject * obj3 = 0 ;
+  gr::ofdm_allocator::packet_header_parser_alix::sptr result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"packet_header_parser_alix_sptr_make",4,4,&obj0,&obj1,&obj2,&obj3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "packet_header_parser_alix_sptr_make" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > * >(argp1);
+  ecode2 = SWIG_AsVal_long(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "packet_header_parser_alix_sptr_make" "', argument " "2"" of type '" "long""'");
+  } 
+  arg2 = static_cast< long >(val2);
+  {
+    std::string *ptr = (std::string *)0;
+    res3 = SWIG_AsPtr_std_string(obj2, &ptr);
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "packet_header_parser_alix_sptr_make" "', argument " "3"" of type '" "std::string const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "packet_header_parser_alix_sptr_make" "', argument " "3"" of type '" "std::string const &""'"); 
+    }
+    arg3 = ptr;
+  }
+  {
+    std::string *ptr = (std::string *)0;
+    res4 = SWIG_AsPtr_std_string(obj3, &ptr);
+    if (!SWIG_IsOK(res4)) {
+      SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "packet_header_parser_alix_sptr_make" "', argument " "4"" of type '" "std::string const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "packet_header_parser_alix_sptr_make" "', argument " "4"" of type '" "std::string const &""'"); 
+    }
+    arg4 = ptr;
+  }
+  {
+    try {
+      result = (*arg1)->make(arg2,(std::string const &)*arg3,(std::string const &)*arg4);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new gr::ofdm_allocator::packet_header_parser_alix::sptr(static_cast< const gr::ofdm_allocator::packet_header_parser_alix::sptr& >(result))), SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, SWIG_POINTER_OWN |  0 );
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  if (SWIG_IsNewObj(res4)) delete arg4;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  if (SWIG_IsNewObj(res4)) delete arg4;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr_make(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[5] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 4) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 4) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_default_alix_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        int res = SWIG_AsPtr_std_string(argv[2], (std::string**)(0));
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          int res = SWIG_AsPtr_std_string(argv[3], (std::string**)(0));
+          _v = SWIG_CheckState(res);
+          if (_v) {
+            return _wrap_packet_header_parser_alix_sptr_make__SWIG_0(self, args);
+          }
+        }
+      }
+    }
+  }
+  if (argc == 4) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_long(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        int res = SWIG_AsPtr_std_string(argv[2], (std::string**)(0));
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          int res = SWIG_AsPtr_std_string(argv[3], (std::string**)(0));
+          _v = SWIG_CheckState(res);
+          if (_v) {
+            return _wrap_packet_header_parser_alix_sptr_make__SWIG_1(self, args);
+          }
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'packet_header_parser_alix_sptr_make'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::ofdm_allocator::packet_header_parser_alix::make(gr::ofdm_allocator::packet_header_default_alix::sptr const &,std::string const &,std::string const &)\n"
+    "    gr::ofdm_allocator::packet_header_parser_alix::make(long,std::string const &,std::string const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr_history(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  unsigned int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"packet_header_parser_alix_sptr_history",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "packet_header_parser_alix_sptr_history" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > * >(argp1);
+  {
+    try {
+      result = (unsigned int)(*arg1)->history();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_unsigned_SS_int(static_cast< unsigned int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr_declare_sample_delay__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *) 0 ;
+  int arg2 ;
+  int arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"packet_header_parser_alix_sptr_declare_sample_delay",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "packet_header_parser_alix_sptr_declare_sample_delay" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "packet_header_parser_alix_sptr_declare_sample_delay" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_int(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "packet_header_parser_alix_sptr_declare_sample_delay" "', argument " "3"" of type '" "int""'");
+  } 
+  arg3 = static_cast< int >(val3);
+  {
+    try {
+      (*arg1)->declare_sample_delay(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr_declare_sample_delay__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *) 0 ;
+  unsigned int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"packet_header_parser_alix_sptr_declare_sample_delay",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "packet_header_parser_alix_sptr_declare_sample_delay" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "packet_header_parser_alix_sptr_declare_sample_delay" "', argument " "2"" of type '" "unsigned int""'");
+  } 
+  arg2 = static_cast< unsigned int >(val2);
+  {
+    try {
+      (*arg1)->declare_sample_delay(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr_declare_sample_delay(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[4] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 3) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_unsigned_SS_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_packet_header_parser_alix_sptr_declare_sample_delay__SWIG_1(self, args);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_int(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_packet_header_parser_alix_sptr_declare_sample_delay__SWIG_0(self, args);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'packet_header_parser_alix_sptr_declare_sample_delay'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::declare_sample_delay(int,int)\n"
+    "    gr::block::declare_sample_delay(unsigned int)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr_sample_delay(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "which", NULL 
+  };
+  unsigned int result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:packet_header_parser_alix_sptr_sample_delay",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "packet_header_parser_alix_sptr_sample_delay" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "packet_header_parser_alix_sptr_sample_delay" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (unsigned int)(*arg1)->sample_delay(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_unsigned_SS_int(static_cast< unsigned int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr_output_multiple(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"packet_header_parser_alix_sptr_output_multiple",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "packet_header_parser_alix_sptr_output_multiple" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > * >(argp1);
+  {
+    try {
+      result = (int)(*arg1)->output_multiple();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr_relative_rate(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  double result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"packet_header_parser_alix_sptr_relative_rate",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "packet_header_parser_alix_sptr_relative_rate" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > * >(argp1);
+  {
+    try {
+      result = (double)(*arg1)->relative_rate();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr_start(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"packet_header_parser_alix_sptr_start",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "packet_header_parser_alix_sptr_start" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > * >(argp1);
+  {
+    try {
+      result = (bool)(*arg1)->start();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr_stop(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"packet_header_parser_alix_sptr_stop",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "packet_header_parser_alix_sptr_stop" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > * >(argp1);
+  {
+    try {
+      result = (bool)(*arg1)->stop();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr_nitems_read(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *) 0 ;
+  unsigned int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "which_input", NULL 
+  };
+  uint64_t result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:packet_header_parser_alix_sptr_nitems_read",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "packet_header_parser_alix_sptr_nitems_read" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "packet_header_parser_alix_sptr_nitems_read" "', argument " "2"" of type '" "unsigned int""'");
+  } 
+  arg2 = static_cast< unsigned int >(val2);
+  {
+    try {
+      result = (uint64_t)(*arg1)->nitems_read(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_unsigned_SS_long_SS_long(static_cast< unsigned long long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr_nitems_written(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *) 0 ;
+  unsigned int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "which_output", NULL 
+  };
+  uint64_t result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:packet_header_parser_alix_sptr_nitems_written",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "packet_header_parser_alix_sptr_nitems_written" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "packet_header_parser_alix_sptr_nitems_written" "', argument " "2"" of type '" "unsigned int""'");
+  } 
+  arg2 = static_cast< unsigned int >(val2);
+  {
+    try {
+      result = (uint64_t)(*arg1)->nitems_written(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_unsigned_SS_long_SS_long(static_cast< unsigned long long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr_max_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"packet_header_parser_alix_sptr_max_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "packet_header_parser_alix_sptr_max_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > * >(argp1);
+  {
+    try {
+      result = (int)(*arg1)->max_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr_set_max_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "m", NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:packet_header_parser_alix_sptr_set_max_noutput_items",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "packet_header_parser_alix_sptr_set_max_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "packet_header_parser_alix_sptr_set_max_noutput_items" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      (*arg1)->set_max_noutput_items(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr_unset_max_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"packet_header_parser_alix_sptr_unset_max_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "packet_header_parser_alix_sptr_unset_max_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > * >(argp1);
+  {
+    try {
+      (*arg1)->unset_max_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr_is_set_max_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"packet_header_parser_alix_sptr_is_set_max_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "packet_header_parser_alix_sptr_is_set_max_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > * >(argp1);
+  {
+    try {
+      result = (bool)(*arg1)->is_set_max_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr_set_min_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "m", NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:packet_header_parser_alix_sptr_set_min_noutput_items",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "packet_header_parser_alix_sptr_set_min_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "packet_header_parser_alix_sptr_set_min_noutput_items" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      (*arg1)->set_min_noutput_items(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr_min_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"packet_header_parser_alix_sptr_min_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "packet_header_parser_alix_sptr_min_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > * >(argp1);
+  {
+    try {
+      result = (int)(*arg1)->min_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr_max_output_buffer(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "i", NULL 
+  };
+  long result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:packet_header_parser_alix_sptr_max_output_buffer",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "packet_header_parser_alix_sptr_max_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "packet_header_parser_alix_sptr_max_output_buffer" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (long)(*arg1)->max_output_buffer(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_long(static_cast< long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr_set_max_output_buffer__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *) 0 ;
+  long arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  long val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"packet_header_parser_alix_sptr_set_max_output_buffer",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "packet_header_parser_alix_sptr_set_max_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > * >(argp1);
+  ecode2 = SWIG_AsVal_long(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "packet_header_parser_alix_sptr_set_max_output_buffer" "', argument " "2"" of type '" "long""'");
+  } 
+  arg2 = static_cast< long >(val2);
+  {
+    try {
+      (*arg1)->set_max_output_buffer(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr_set_max_output_buffer__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *) 0 ;
+  int arg2 ;
+  long arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  long val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"packet_header_parser_alix_sptr_set_max_output_buffer",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "packet_header_parser_alix_sptr_set_max_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "packet_header_parser_alix_sptr_set_max_output_buffer" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_long(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "packet_header_parser_alix_sptr_set_max_output_buffer" "', argument " "3"" of type '" "long""'");
+  } 
+  arg3 = static_cast< long >(val3);
+  {
+    try {
+      (*arg1)->set_max_output_buffer(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr_set_max_output_buffer(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[4] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 3) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_long(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_packet_header_parser_alix_sptr_set_max_output_buffer__SWIG_0(self, args);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_long(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_packet_header_parser_alix_sptr_set_max_output_buffer__SWIG_1(self, args);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'packet_header_parser_alix_sptr_set_max_output_buffer'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::set_max_output_buffer(long)\n"
+    "    gr::block::set_max_output_buffer(int,long)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr_min_output_buffer(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "i", NULL 
+  };
+  long result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:packet_header_parser_alix_sptr_min_output_buffer",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "packet_header_parser_alix_sptr_min_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "packet_header_parser_alix_sptr_min_output_buffer" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (long)(*arg1)->min_output_buffer(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_long(static_cast< long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr_set_min_output_buffer__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *) 0 ;
+  long arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  long val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"packet_header_parser_alix_sptr_set_min_output_buffer",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "packet_header_parser_alix_sptr_set_min_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > * >(argp1);
+  ecode2 = SWIG_AsVal_long(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "packet_header_parser_alix_sptr_set_min_output_buffer" "', argument " "2"" of type '" "long""'");
+  } 
+  arg2 = static_cast< long >(val2);
+  {
+    try {
+      (*arg1)->set_min_output_buffer(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr_set_min_output_buffer__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *) 0 ;
+  int arg2 ;
+  long arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  long val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"packet_header_parser_alix_sptr_set_min_output_buffer",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "packet_header_parser_alix_sptr_set_min_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "packet_header_parser_alix_sptr_set_min_output_buffer" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_long(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "packet_header_parser_alix_sptr_set_min_output_buffer" "', argument " "3"" of type '" "long""'");
+  } 
+  arg3 = static_cast< long >(val3);
+  {
+    try {
+      (*arg1)->set_min_output_buffer(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr_set_min_output_buffer(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[4] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 3) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_long(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_packet_header_parser_alix_sptr_set_min_output_buffer__SWIG_0(self, args);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_long(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_packet_header_parser_alix_sptr_set_min_output_buffer__SWIG_1(self, args);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'packet_header_parser_alix_sptr_set_min_output_buffer'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::set_min_output_buffer(long)\n"
+    "    gr::block::set_min_output_buffer(int,long)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr_pc_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"packet_header_parser_alix_sptr_pc_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "packet_header_parser_alix_sptr_pc_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr_pc_noutput_items_avg(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"packet_header_parser_alix_sptr_pc_noutput_items_avg",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "packet_header_parser_alix_sptr_pc_noutput_items_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_noutput_items_avg();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr_pc_noutput_items_var(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"packet_header_parser_alix_sptr_pc_noutput_items_var",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "packet_header_parser_alix_sptr_pc_noutput_items_var" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_noutput_items_var();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr_pc_nproduced(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"packet_header_parser_alix_sptr_pc_nproduced",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "packet_header_parser_alix_sptr_pc_nproduced" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_nproduced();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr_pc_nproduced_avg(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"packet_header_parser_alix_sptr_pc_nproduced_avg",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "packet_header_parser_alix_sptr_pc_nproduced_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_nproduced_avg();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr_pc_nproduced_var(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"packet_header_parser_alix_sptr_pc_nproduced_var",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "packet_header_parser_alix_sptr_pc_nproduced_var" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_nproduced_var();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr_pc_input_buffers_full__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"packet_header_parser_alix_sptr_pc_input_buffers_full",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "packet_header_parser_alix_sptr_pc_input_buffers_full" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "packet_header_parser_alix_sptr_pc_input_buffers_full" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (float)(*arg1)->pc_input_buffers_full(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr_pc_input_buffers_full__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< float,std::allocator< float > > result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"packet_header_parser_alix_sptr_pc_input_buffers_full",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "packet_header_parser_alix_sptr_pc_input_buffers_full" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > * >(argp1);
+  {
+    try {
+      result = (*arg1)->pc_input_buffers_full();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = swig::from(static_cast< std::vector< float,std::allocator< float > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr_pc_input_buffers_full(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_packet_header_parser_alix_sptr_pc_input_buffers_full__SWIG_1(self, args);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_packet_header_parser_alix_sptr_pc_input_buffers_full__SWIG_0(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'packet_header_parser_alix_sptr_pc_input_buffers_full'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::pc_input_buffers_full(int)\n"
+    "    gr::block::pc_input_buffers_full()\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr_pc_input_buffers_full_avg__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"packet_header_parser_alix_sptr_pc_input_buffers_full_avg",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "packet_header_parser_alix_sptr_pc_input_buffers_full_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "packet_header_parser_alix_sptr_pc_input_buffers_full_avg" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (float)(*arg1)->pc_input_buffers_full_avg(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr_pc_input_buffers_full_avg__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< float,std::allocator< float > > result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"packet_header_parser_alix_sptr_pc_input_buffers_full_avg",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "packet_header_parser_alix_sptr_pc_input_buffers_full_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > * >(argp1);
+  {
+    try {
+      result = (*arg1)->pc_input_buffers_full_avg();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = swig::from(static_cast< std::vector< float,std::allocator< float > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr_pc_input_buffers_full_avg(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_packet_header_parser_alix_sptr_pc_input_buffers_full_avg__SWIG_1(self, args);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_packet_header_parser_alix_sptr_pc_input_buffers_full_avg__SWIG_0(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'packet_header_parser_alix_sptr_pc_input_buffers_full_avg'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::pc_input_buffers_full_avg(int)\n"
+    "    gr::block::pc_input_buffers_full_avg()\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr_pc_input_buffers_full_var__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"packet_header_parser_alix_sptr_pc_input_buffers_full_var",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "packet_header_parser_alix_sptr_pc_input_buffers_full_var" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "packet_header_parser_alix_sptr_pc_input_buffers_full_var" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (float)(*arg1)->pc_input_buffers_full_var(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr_pc_input_buffers_full_var__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< float,std::allocator< float > > result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"packet_header_parser_alix_sptr_pc_input_buffers_full_var",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "packet_header_parser_alix_sptr_pc_input_buffers_full_var" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > * >(argp1);
+  {
+    try {
+      result = (*arg1)->pc_input_buffers_full_var();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = swig::from(static_cast< std::vector< float,std::allocator< float > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr_pc_input_buffers_full_var(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_packet_header_parser_alix_sptr_pc_input_buffers_full_var__SWIG_1(self, args);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_packet_header_parser_alix_sptr_pc_input_buffers_full_var__SWIG_0(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'packet_header_parser_alix_sptr_pc_input_buffers_full_var'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::pc_input_buffers_full_var(int)\n"
+    "    gr::block::pc_input_buffers_full_var()\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr_pc_output_buffers_full__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"packet_header_parser_alix_sptr_pc_output_buffers_full",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "packet_header_parser_alix_sptr_pc_output_buffers_full" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "packet_header_parser_alix_sptr_pc_output_buffers_full" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (float)(*arg1)->pc_output_buffers_full(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr_pc_output_buffers_full__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< float,std::allocator< float > > result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"packet_header_parser_alix_sptr_pc_output_buffers_full",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "packet_header_parser_alix_sptr_pc_output_buffers_full" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > * >(argp1);
+  {
+    try {
+      result = (*arg1)->pc_output_buffers_full();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = swig::from(static_cast< std::vector< float,std::allocator< float > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr_pc_output_buffers_full(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_packet_header_parser_alix_sptr_pc_output_buffers_full__SWIG_1(self, args);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_packet_header_parser_alix_sptr_pc_output_buffers_full__SWIG_0(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'packet_header_parser_alix_sptr_pc_output_buffers_full'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::pc_output_buffers_full(int)\n"
+    "    gr::block::pc_output_buffers_full()\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr_pc_output_buffers_full_avg__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"packet_header_parser_alix_sptr_pc_output_buffers_full_avg",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "packet_header_parser_alix_sptr_pc_output_buffers_full_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "packet_header_parser_alix_sptr_pc_output_buffers_full_avg" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (float)(*arg1)->pc_output_buffers_full_avg(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr_pc_output_buffers_full_avg__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< float,std::allocator< float > > result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"packet_header_parser_alix_sptr_pc_output_buffers_full_avg",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "packet_header_parser_alix_sptr_pc_output_buffers_full_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > * >(argp1);
+  {
+    try {
+      result = (*arg1)->pc_output_buffers_full_avg();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = swig::from(static_cast< std::vector< float,std::allocator< float > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr_pc_output_buffers_full_avg(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_packet_header_parser_alix_sptr_pc_output_buffers_full_avg__SWIG_1(self, args);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_packet_header_parser_alix_sptr_pc_output_buffers_full_avg__SWIG_0(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'packet_header_parser_alix_sptr_pc_output_buffers_full_avg'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::pc_output_buffers_full_avg(int)\n"
+    "    gr::block::pc_output_buffers_full_avg()\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr_pc_output_buffers_full_var__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"packet_header_parser_alix_sptr_pc_output_buffers_full_var",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "packet_header_parser_alix_sptr_pc_output_buffers_full_var" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "packet_header_parser_alix_sptr_pc_output_buffers_full_var" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (float)(*arg1)->pc_output_buffers_full_var(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr_pc_output_buffers_full_var__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< float,std::allocator< float > > result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"packet_header_parser_alix_sptr_pc_output_buffers_full_var",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "packet_header_parser_alix_sptr_pc_output_buffers_full_var" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > * >(argp1);
+  {
+    try {
+      result = (*arg1)->pc_output_buffers_full_var();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = swig::from(static_cast< std::vector< float,std::allocator< float > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr_pc_output_buffers_full_var(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_packet_header_parser_alix_sptr_pc_output_buffers_full_var__SWIG_1(self, args);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_packet_header_parser_alix_sptr_pc_output_buffers_full_var__SWIG_0(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'packet_header_parser_alix_sptr_pc_output_buffers_full_var'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::pc_output_buffers_full_var(int)\n"
+    "    gr::block::pc_output_buffers_full_var()\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr_pc_work_time(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"packet_header_parser_alix_sptr_pc_work_time",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "packet_header_parser_alix_sptr_pc_work_time" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_work_time();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr_pc_work_time_avg(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"packet_header_parser_alix_sptr_pc_work_time_avg",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "packet_header_parser_alix_sptr_pc_work_time_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_work_time_avg();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr_pc_work_time_var(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"packet_header_parser_alix_sptr_pc_work_time_var",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "packet_header_parser_alix_sptr_pc_work_time_var" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_work_time_var();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr_pc_work_time_total(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"packet_header_parser_alix_sptr_pc_work_time_total",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "packet_header_parser_alix_sptr_pc_work_time_total" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_work_time_total();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr_pc_throughput_avg(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"packet_header_parser_alix_sptr_pc_throughput_avg",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "packet_header_parser_alix_sptr_pc_throughput_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_throughput_avg();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr_set_processor_affinity(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *) 0 ;
+  std::vector< int,std::allocator< int > > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "mask", NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:packet_header_parser_alix_sptr_set_processor_affinity",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "packet_header_parser_alix_sptr_set_processor_affinity" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > * >(argp1);
+  {
+    std::vector< int,std::allocator< int > > *ptr = (std::vector< int,std::allocator< int > > *)0;
+    res2 = swig::asptr(obj1, &ptr);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "packet_header_parser_alix_sptr_set_processor_affinity" "', argument " "2"" of type '" "std::vector< int,std::allocator< int > > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "packet_header_parser_alix_sptr_set_processor_affinity" "', argument " "2"" of type '" "std::vector< int,std::allocator< int > > const &""'"); 
+    }
+    arg2 = ptr;
+  }
+  {
+    try {
+      (*arg1)->set_processor_affinity((std::vector< int,std::allocator< int > > const &)*arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr_unset_processor_affinity(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"packet_header_parser_alix_sptr_unset_processor_affinity",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "packet_header_parser_alix_sptr_unset_processor_affinity" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > * >(argp1);
+  {
+    try {
+      (*arg1)->unset_processor_affinity();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr_processor_affinity(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< int,std::allocator< int > > result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"packet_header_parser_alix_sptr_processor_affinity",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "packet_header_parser_alix_sptr_processor_affinity" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > * >(argp1);
+  {
+    try {
+      result = (*arg1)->processor_affinity();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = swig::from(static_cast< std::vector< int,std::allocator< int > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr_active_thread_priority(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"packet_header_parser_alix_sptr_active_thread_priority",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "packet_header_parser_alix_sptr_active_thread_priority" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > * >(argp1);
+  {
+    try {
+      result = (int)(*arg1)->active_thread_priority();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr_thread_priority(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"packet_header_parser_alix_sptr_thread_priority",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "packet_header_parser_alix_sptr_thread_priority" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > * >(argp1);
+  {
+    try {
+      result = (int)(*arg1)->thread_priority();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr_set_thread_priority(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "priority", NULL 
+  };
+  int result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:packet_header_parser_alix_sptr_set_thread_priority",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "packet_header_parser_alix_sptr_set_thread_priority" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "packet_header_parser_alix_sptr_set_thread_priority" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (int)(*arg1)->set_thread_priority(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr_name(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"packet_header_parser_alix_sptr_name",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "packet_header_parser_alix_sptr_name" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > * >(argp1);
+  {
+    try {
+      result = (*arg1)->name();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr_symbol_name(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"packet_header_parser_alix_sptr_symbol_name",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "packet_header_parser_alix_sptr_symbol_name" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > * >(argp1);
+  {
+    try {
+      result = (*arg1)->symbol_name();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr_input_signature(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  gr::io_signature::sptr result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"packet_header_parser_alix_sptr_input_signature",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "packet_header_parser_alix_sptr_input_signature" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > * >(argp1);
+  {
+    try {
+      result = (*arg1)->input_signature();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new gr::io_signature::sptr(static_cast< const gr::io_signature::sptr& >(result))), SWIGTYPE_p_boost__shared_ptrT_gr__io_signature_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr_output_signature(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  gr::io_signature::sptr result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"packet_header_parser_alix_sptr_output_signature",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "packet_header_parser_alix_sptr_output_signature" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > * >(argp1);
+  {
+    try {
+      result = (*arg1)->output_signature();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new gr::io_signature::sptr(static_cast< const gr::io_signature::sptr& >(result))), SWIGTYPE_p_boost__shared_ptrT_gr__io_signature_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr_unique_id(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  long result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"packet_header_parser_alix_sptr_unique_id",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "packet_header_parser_alix_sptr_unique_id" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > * >(argp1);
+  {
+    try {
+      result = (long)(*arg1)->unique_id();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_long(static_cast< long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr_to_basic_block(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  gr::basic_block_sptr result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"packet_header_parser_alix_sptr_to_basic_block",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "packet_header_parser_alix_sptr_to_basic_block" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > * >(argp1);
+  {
+    try {
+      result = (*arg1)->to_basic_block();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new gr::basic_block_sptr(static_cast< const gr::basic_block_sptr& >(result))), SWIGTYPE_p_boost__shared_ptrT_gr__basic_block_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr_check_topology(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *) 0 ;
+  int arg2 ;
+  int arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "ninputs",(char *) "noutputs", NULL 
+  };
+  bool result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OOO:packet_header_parser_alix_sptr_check_topology",kwnames,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "packet_header_parser_alix_sptr_check_topology" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "packet_header_parser_alix_sptr_check_topology" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_int(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "packet_header_parser_alix_sptr_check_topology" "', argument " "3"" of type '" "int""'");
+  } 
+  arg3 = static_cast< int >(val3);
+  {
+    try {
+      result = (bool)(*arg1)->check_topology(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr_alias(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"packet_header_parser_alix_sptr_alias",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "packet_header_parser_alix_sptr_alias" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > * >(argp1);
+  {
+    try {
+      result = (*arg1)->alias();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr_set_block_alias(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *) 0 ;
+  std::string arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "name", NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:packet_header_parser_alix_sptr_set_block_alias",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "packet_header_parser_alix_sptr_set_block_alias" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > * >(argp1);
+  {
+    std::string *ptr = (std::string *)0;
+    int res = SWIG_AsPtr_std_string(obj1, &ptr);
+    if (!SWIG_IsOK(res) || !ptr) {
+      SWIG_exception_fail(SWIG_ArgError((ptr ? res : SWIG_TypeError)), "in method '" "packet_header_parser_alix_sptr_set_block_alias" "', argument " "2"" of type '" "std::string""'"); 
+    }
+    arg2 = *ptr;
+    if (SWIG_IsNewObj(res)) delete ptr;
+  }
+  {
+    try {
+      (*arg1)->set_block_alias(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr__post(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *) 0 ;
+  pmt::pmt_t arg2 ;
+  pmt::pmt_t arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  void *argp3 ;
+  int res3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "which_port",(char *) "msg", NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OOO:packet_header_parser_alix_sptr__post",kwnames,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "packet_header_parser_alix_sptr__post" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t,  0  | 0);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "packet_header_parser_alix_sptr__post" "', argument " "2"" of type '" "pmt::pmt_t""'"); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "packet_header_parser_alix_sptr__post" "', argument " "2"" of type '" "pmt::pmt_t""'");
+    } else {
+      pmt::pmt_t * temp = reinterpret_cast< pmt::pmt_t * >(argp2);
+      arg2 = *temp;
+      if (SWIG_IsNewObj(res2)) delete temp;
+    }
+  }
+  {
+    res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t,  0  | 0);
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "packet_header_parser_alix_sptr__post" "', argument " "3"" of type '" "pmt::pmt_t""'"); 
+    }  
+    if (!argp3) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "packet_header_parser_alix_sptr__post" "', argument " "3"" of type '" "pmt::pmt_t""'");
+    } else {
+      pmt::pmt_t * temp = reinterpret_cast< pmt::pmt_t * >(argp3);
+      arg3 = *temp;
+      if (SWIG_IsNewObj(res3)) delete temp;
+    }
+  }
+  {
+    try {
+      (*arg1)->_post(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr_message_ports_in(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  pmt::pmt_t result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"packet_header_parser_alix_sptr_message_ports_in",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "packet_header_parser_alix_sptr_message_ports_in" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > * >(argp1);
+  {
+    try {
+      result = (*arg1)->message_ports_in();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new pmt::pmt_t(static_cast< const pmt::pmt_t& >(result))), SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr_message_ports_out(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  pmt::pmt_t result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"packet_header_parser_alix_sptr_message_ports_out",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "packet_header_parser_alix_sptr_message_ports_out" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > * >(argp1);
+  {
+    try {
+      result = (*arg1)->message_ports_out();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new pmt::pmt_t(static_cast< const pmt::pmt_t& >(result))), SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_packet_header_parser_alix_sptr_message_subscribers(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *arg1 = (boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *) 0 ;
+  pmt::pmt_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "which_port", NULL 
+  };
+  pmt::pmt_t result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:packet_header_parser_alix_sptr_message_subscribers",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "packet_header_parser_alix_sptr_message_subscribers" "', argument " "1"" of type '" "boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t,  0  | 0);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "packet_header_parser_alix_sptr_message_subscribers" "', argument " "2"" of type '" "pmt::pmt_t""'"); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "packet_header_parser_alix_sptr_message_subscribers" "', argument " "2"" of type '" "pmt::pmt_t""'");
+    } else {
+      pmt::pmt_t * temp = reinterpret_cast< pmt::pmt_t * >(argp2);
+      arg2 = *temp;
+      if (SWIG_IsNewObj(res2)) delete temp;
+    }
+  }
+  {
+    try {
+      result = (*arg1)->message_subscribers(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new pmt::pmt_t(static_cast< const pmt::pmt_t& >(result))), SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *packet_header_parser_alix_sptr_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!PyArg_UnpackTuple(args,(char*)"swigregister", 1, 1,&obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
 static PyMethodDef SwigMethods[] = {
 	 { (char *)"SWIG_PyInstanceMethod_New", (PyCFunction)SWIG_PyInstanceMethod_New, METH_O, NULL},
 	 { (char *)"high_res_timer_now", _wrap_high_res_timer_now, METH_VARARGS, (char *)"high_res_timer_now() -> gr::high_res_timer_type"},
@@ -47299,13 +51362,13 @@ static PyMethodDef SwigMethods[] = {
 	 { (char *)"high_res_timer_tps", _wrap_high_res_timer_tps, METH_VARARGS, (char *)"high_res_timer_tps() -> gr::high_res_timer_type"},
 	 { (char *)"high_res_timer_epoch", _wrap_high_res_timer_epoch, METH_VARARGS, (char *)"high_res_timer_epoch() -> gr::high_res_timer_type"},
 	 { (char *)"vector_source_tagged_make", (PyCFunction) _wrap_vector_source_tagged_make, METH_VARARGS | METH_KEYWORDS, (char *)"\n"
-		"vector_source_tagged_make(std::vector< int,std::allocator< int > > const & data, bool repeat=False, int vlen=1, bool fixed_data=False, int fft_len=64, int max_len_data_subcarr=48, int max_len_pilot_subcarr=10, int max_vector_data_subcarr=4, int max_vector_pilot_subcarr=1, bool fixed_pilot=False, std::vector< int,std::allocator< int > > const & pilot, std::string const & length_tag_key, tags_vector_t tags) -> vector_source_tagged_sptr\n"
+		"vector_source_tagged_make(std::vector< int,std::allocator< int > > const & data, bool repeat=False, int vlen=1, bool fixed_data=False, int fft_len=64, int max_len_data_subcarr=48, int max_len_pilot_subcarr=10, int max_vector_data_subcarr=4, int max_vector_pilot_subcarr=1, bool fixed_pilot=False, std::vector< int,std::allocator< int > > const & pilot, std::string const & length_tag_key, std::string const & length_tag_key_2, tags_vector_t tags) -> vector_source_tagged_sptr\n"
 		"\n"
 		"Return a shared_ptr to a new instance of ofdm_allocator::vector_source_tagged.\n"
 		"\n"
 		"To avoid accidental use of raw pointers, ofdm_allocator::vector_source_tagged's constructor is in a private implementation class. ofdm_allocator::vector_source_tagged::make is the public interface for creating new instances.\n"
 		"\n"
-		"Params: (data, repeat, vlen, fixed_data, fft_len, max_len_data_subcarr, max_len_pilot_subcarr, max_vector_data_subcarr, max_vector_pilot_subcarr, fixed_pilot, pilot, length_tag_key, tags)\n"
+		"Params: (data, repeat, vlen, fixed_data, fft_len, max_len_data_subcarr, max_len_pilot_subcarr, max_vector_data_subcarr, max_vector_pilot_subcarr, fixed_pilot, pilot, length_tag_key, length_tag_key_2, tags)\n"
 		""},
 	 { (char *)"vector_source_tagged_rewind", _wrap_vector_source_tagged_rewind, METH_VARARGS, (char *)"\n"
 		"vector_source_tagged_rewind(vector_source_tagged self)\n"
@@ -47358,13 +51421,13 @@ static PyMethodDef SwigMethods[] = {
 	 { (char *)"vector_source_tagged_sptr___deref__", _wrap_vector_source_tagged_sptr___deref__, METH_VARARGS, (char *)"vector_source_tagged_sptr___deref__(vector_source_tagged_sptr self) -> vector_source_tagged"},
 	 { (char *)"delete_vector_source_tagged_sptr", _wrap_delete_vector_source_tagged_sptr, METH_VARARGS, (char *)"delete_vector_source_tagged_sptr(vector_source_tagged_sptr self)"},
 	 { (char *)"vector_source_tagged_sptr_make", (PyCFunction) _wrap_vector_source_tagged_sptr_make, METH_VARARGS | METH_KEYWORDS, (char *)"\n"
-		"vector_source_tagged_sptr_make(vector_source_tagged_sptr self, std::vector< int,std::allocator< int > > const & data, bool repeat=False, int vlen=1, bool fixed_data=False, int fft_len=64, int max_len_data_subcarr=48, int max_len_pilot_subcarr=10, int max_vector_data_subcarr=4, int max_vector_pilot_subcarr=1, bool fixed_pilot=False, std::vector< int,std::allocator< int > > const & pilot, std::string const & length_tag_key, tags_vector_t tags) -> vector_source_tagged_sptr\n"
+		"vector_source_tagged_sptr_make(vector_source_tagged_sptr self, std::vector< int,std::allocator< int > > const & data, bool repeat=False, int vlen=1, bool fixed_data=False, int fft_len=64, int max_len_data_subcarr=48, int max_len_pilot_subcarr=10, int max_vector_data_subcarr=4, int max_vector_pilot_subcarr=1, bool fixed_pilot=False, std::vector< int,std::allocator< int > > const & pilot, std::string const & length_tag_key, std::string const & length_tag_key_2, tags_vector_t tags) -> vector_source_tagged_sptr\n"
 		"\n"
 		"Return a shared_ptr to a new instance of ofdm_allocator::vector_source_tagged.\n"
 		"\n"
 		"To avoid accidental use of raw pointers, ofdm_allocator::vector_source_tagged's constructor is in a private implementation class. ofdm_allocator::vector_source_tagged::make is the public interface for creating new instances.\n"
 		"\n"
-		"Params: (data, repeat, vlen, fixed_data, fft_len, max_len_data_subcarr, max_len_pilot_subcarr, max_vector_data_subcarr, max_vector_pilot_subcarr, fixed_pilot, pilot, length_tag_key, tags)\n"
+		"Params: (data, repeat, vlen, fixed_data, fft_len, max_len_data_subcarr, max_len_pilot_subcarr, max_vector_data_subcarr, max_vector_pilot_subcarr, fixed_pilot, pilot, length_tag_key, length_tag_key_2, tags)\n"
 		""},
 	 { (char *)"vector_source_tagged_sptr_rewind", _wrap_vector_source_tagged_sptr_rewind, METH_VARARGS, (char *)"\n"
 		"vector_source_tagged_sptr_rewind(vector_source_tagged_sptr self)\n"
@@ -47629,13 +51692,13 @@ static PyMethodDef SwigMethods[] = {
 	 { (char *)"allocator_subcarrier_sptr_message_subscribers", (PyCFunction) _wrap_allocator_subcarrier_sptr_message_subscribers, METH_VARARGS | METH_KEYWORDS, (char *)"allocator_subcarrier_sptr_message_subscribers(allocator_subcarrier_sptr self, swig_int_ptr which_port) -> swig_int_ptr"},
 	 { (char *)"allocator_subcarrier_sptr_swigregister", allocator_subcarrier_sptr_swigregister, METH_VARARGS, NULL},
 	 { (char *)"serializer_subcarrier_make", (PyCFunction) _wrap_serializer_subcarrier_make, METH_VARARGS | METH_KEYWORDS, (char *)"\n"
-		"serializer_subcarrier_make(int fft_len, int vector_len, std::string const & len_tag_key, std::string const & packet_len_tag_key, int symbols_skipped=0, std::string const & carr_offset_key, bool input_is_shifted=True) -> serializer_subcarrier_sptr\n"
+		"serializer_subcarrier_make(int fft_len, int vector_len, bool fixed_pilot=True, bool fixed_data=True, int max_len_data_subcarr=48, int max_len_pilot_subcarr=4, int max_vector_data_subcarr=1, int max_vector_pilot_subcarr=1, std::string const & len_tag_key, std::string const & packet_len_tag_key, int symbols_skipped=0, std::string const & carr_offset_key, bool input_is_shifted=True) -> serializer_subcarrier_sptr\n"
 		"\n"
 		"Return a shared_ptr to a new instance of ofdm_allocator::serializer_subcarrier.\n"
 		"\n"
 		"To avoid accidental use of raw pointers, ofdm_allocator::serializer_subcarrier's constructor is in a private implementation class. ofdm_allocator::serializer_subcarrier::make is the public interface for creating new instances.\n"
 		"\n"
-		"Params: (fft_len, vector_len, len_tag_key, packet_len_tag_key, symbols_skipped, carr_offset_key, input_is_shifted)\n"
+		"Params: (fft_len, vector_len, fixed_pilot, fixed_data, max_len_data_subcarr, max_len_pilot_subcarr, max_vector_data_subcarr, max_vector_pilot_subcarr, len_tag_key, packet_len_tag_key, symbols_skipped, carr_offset_key, input_is_shifted)\n"
 		""},
 	 { (char *)"delete_serializer_subcarrier", _wrap_delete_serializer_subcarrier, METH_VARARGS, (char *)"delete_serializer_subcarrier(serializer_subcarrier self)"},
 	 { (char *)"serializer_subcarrier_swigregister", serializer_subcarrier_swigregister, METH_VARARGS, NULL},
@@ -47646,13 +51709,13 @@ static PyMethodDef SwigMethods[] = {
 	 { (char *)"serializer_subcarrier_sptr___deref__", _wrap_serializer_subcarrier_sptr___deref__, METH_VARARGS, (char *)"serializer_subcarrier_sptr___deref__(serializer_subcarrier_sptr self) -> serializer_subcarrier"},
 	 { (char *)"delete_serializer_subcarrier_sptr", _wrap_delete_serializer_subcarrier_sptr, METH_VARARGS, (char *)"delete_serializer_subcarrier_sptr(serializer_subcarrier_sptr self)"},
 	 { (char *)"serializer_subcarrier_sptr_make", (PyCFunction) _wrap_serializer_subcarrier_sptr_make, METH_VARARGS | METH_KEYWORDS, (char *)"\n"
-		"serializer_subcarrier_sptr_make(serializer_subcarrier_sptr self, int fft_len, int vector_len, std::string const & len_tag_key, std::string const & packet_len_tag_key, int symbols_skipped=0, std::string const & carr_offset_key, bool input_is_shifted=True) -> serializer_subcarrier_sptr\n"
+		"serializer_subcarrier_sptr_make(serializer_subcarrier_sptr self, int fft_len, int vector_len, bool fixed_pilot=True, bool fixed_data=True, int max_len_data_subcarr=48, int max_len_pilot_subcarr=4, int max_vector_data_subcarr=1, int max_vector_pilot_subcarr=1, std::string const & len_tag_key, std::string const & packet_len_tag_key, int symbols_skipped=0, std::string const & carr_offset_key, bool input_is_shifted=True) -> serializer_subcarrier_sptr\n"
 		"\n"
 		"Return a shared_ptr to a new instance of ofdm_allocator::serializer_subcarrier.\n"
 		"\n"
 		"To avoid accidental use of raw pointers, ofdm_allocator::serializer_subcarrier's constructor is in a private implementation class. ofdm_allocator::serializer_subcarrier::make is the public interface for creating new instances.\n"
 		"\n"
-		"Params: (fft_len, vector_len, len_tag_key, packet_len_tag_key, symbols_skipped, carr_offset_key, input_is_shifted)\n"
+		"Params: (fft_len, vector_len, fixed_pilot, fixed_data, max_len_data_subcarr, max_len_pilot_subcarr, max_vector_data_subcarr, max_vector_pilot_subcarr, len_tag_key, packet_len_tag_key, symbols_skipped, carr_offset_key, input_is_shifted)\n"
 		""},
 	 { (char *)"serializer_subcarrier_sptr_history", _wrap_serializer_subcarrier_sptr_history, METH_VARARGS, (char *)"serializer_subcarrier_sptr_history(serializer_subcarrier_sptr self) -> unsigned int"},
 	 { (char *)"serializer_subcarrier_sptr_declare_sample_delay", _wrap_serializer_subcarrier_sptr_declare_sample_delay, METH_VARARGS, (char *)"\n"
@@ -47786,6 +51849,13 @@ static PyMethodDef SwigMethods[] = {
 		"\n"
 		"Params: (NONE)\n"
 		""},
+	 { (char *)"packet_header_default_alix_num_tag_key", _wrap_packet_header_default_alix_num_tag_key, METH_VARARGS, (char *)"\n"
+		"packet_header_default_alix_num_tag_key(packet_header_default_alix self) -> swig_int_ptr\n"
+		"\n"
+		"\n"
+		"\n"
+		"Params: (NONE)\n"
+		""},
 	 { (char *)"packet_header_default_alix_header_formatter", (PyCFunction) _wrap_packet_header_default_alix_header_formatter, METH_VARARGS | METH_KEYWORDS, (char *)"\n"
 		"packet_header_default_alix_header_formatter(packet_header_default_alix self, long packet_len, unsigned char * out, tags_vector_t tags) -> bool\n"
 		"\n"
@@ -47800,13 +51870,13 @@ static PyMethodDef SwigMethods[] = {
 		"Params: (packet_len, out, tags)\n"
 		""},
 	 { (char *)"packet_header_default_alix_header_parser", (PyCFunction) _wrap_packet_header_default_alix_header_parser, METH_VARARGS | METH_KEYWORDS, (char *)"\n"
-		"packet_header_default_alix_header_parser(packet_header_default_alix self, unsigned char const * header, tags_vector_t tags) -> bool\n"
+		"packet_header_default_alix_header_parser(packet_header_default_alix self, unsigned char const * header, int header_length, tags_vector_t tags) -> bool\n"
 		"\n"
 		"Inverse function to header_formatter().\n"
 		"\n"
 		"Reads the bit stream in  and writes a corresponding tag into .\n"
 		"\n"
-		"Params: (header, tags)\n"
+		"Params: (header, header_length, tags)\n"
 		""},
 	 { (char *)"packet_header_default_alix_make", (PyCFunction) _wrap_packet_header_default_alix_make, METH_VARARGS | METH_KEYWORDS, (char *)"\n"
 		"packet_header_default_alix_make(long header_len, std::string const & len_tag_key, std::string const & num_tag_key, int bits_per_byte=1) -> packet_header_default_alix_sptr\n"
@@ -47970,19 +52040,19 @@ static PyMethodDef SwigMethods[] = {
 		"\n"
 		"Params: (NONE)\n"
 		""},
-	 { (char *)"ofdm_equalizer_base_alix_reset", _wrap_ofdm_equalizer_base_alix_reset, METH_VARARGS, (char *)"\n"
-		"ofdm_equalizer_base_alix_reset(ofdm_equalizer_base_alix self)\n"
+	 { (char *)"ofdm_equalizer_base_alix_reset", (PyCFunction) _wrap_ofdm_equalizer_base_alix_reset, METH_VARARGS | METH_KEYWORDS, (char *)"\n"
+		"ofdm_equalizer_base_alix_reset(ofdm_equalizer_base_alix self, std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const & pilot_carriers)\n"
 		"\n"
 		"Reset the channel information state knowledge.\n"
 		"\n"
-		"Params: (NONE)\n"
+		"Params: (pilot_carriers)\n"
 		""},
 	 { (char *)"ofdm_equalizer_base_alix_equalize", (PyCFunction) _wrap_ofdm_equalizer_base_alix_equalize, METH_VARARGS | METH_KEYWORDS, (char *)"\n"
-		"ofdm_equalizer_base_alix_equalize(ofdm_equalizer_base_alix self, gr_complex * frame, int n_sym, pmt_vector_cfloat initial_taps, std::vector< bool,std::allocator< bool > > const & occupied_carriers, tags_vector_t tags)\n"
+		"ofdm_equalizer_base_alix_equalize(ofdm_equalizer_base_alix self, gr_complex * frame, int n_sym, pmt_vector_cfloat initial_taps, std::vector< bool,std::allocator< bool > > const & occupied_carriers, std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const & pilot_carriers, gr_vector_vector_complexf pilot_symbols, tags_vector_t tags)\n"
 		"\n"
 		"Run the actual equalization.\n"
 		"\n"
-		"Params: (frame, n_sym, initial_taps, occupied_carriers, tags)\n"
+		"Params: (frame, n_sym, initial_taps, occupied_carriers, pilot_carriers, pilot_symbols, tags)\n"
 		""},
 	 { (char *)"ofdm_equalizer_base_alix_get_channel_state", (PyCFunction) _wrap_ofdm_equalizer_base_alix_get_channel_state, METH_VARARGS | METH_KEYWORDS, (char *)"\n"
 		"ofdm_equalizer_base_alix_get_channel_state(ofdm_equalizer_base_alix self, pmt_vector_cfloat taps)\n"
@@ -48015,13 +52085,13 @@ static PyMethodDef SwigMethods[] = {
 		""},
 	 { (char *)"ofdm_equalizer_1d_pilots_alix_swigregister", ofdm_equalizer_1d_pilots_alix_swigregister, METH_VARARGS, NULL},
 	 { (char *)"frame_equalizer_alix_make", (PyCFunction) _wrap_frame_equalizer_alix_make, METH_VARARGS | METH_KEYWORDS, (char *)"\n"
-		"frame_equalizer_alix_make(ofdm_equalizer_base_alix_sptr equalizer, int vector_len, int cp_len, bool fixed_pilot, int max_len_data_subcarr, int max_len_pilot_subcarr, int max_vector_pilot_subcarr, std::string const & tsb_key, bool propagate_channel_state=False, int fixed_frame_len=0, bool input_is_shifted=True) -> frame_equalizer_alix_sptr\n"
+		"frame_equalizer_alix_make(ofdm_equalizer_base_alix_sptr equalizer, int vector_len, int cp_len, bool fixed_data, bool fixed_pilot, int max_len_data_subcarr, int max_len_pilot_subcarr, int max_vector_data_subcarr, int max_vector_pilot_subcarr, gr_vector_vector_complexf pilot_symbols, std::string const & tsb_key, bool propagate_channel_state=False, int fixed_frame_len=0, bool input_is_shifted=True) -> frame_equalizer_alix_sptr\n"
 		"\n"
 		"Return a shared_ptr to a new instance of ofdm_allocator::frame_equalizer_alix.\n"
 		"\n"
 		"To avoid accidental use of raw pointers, ofdm_allocator::frame_equalizer_alix's constructor is in a private implementation class. ofdm_allocator::frame_equalizer_alix::make is the public interface for creating new instances.\n"
 		"\n"
-		"Params: (equalizer, vector_len, cp_len, fixed_pilot, max_len_data_subcarr, max_len_pilot_subcarr, max_vector_pilot_subcarr, tsb_key, propagate_channel_state, fixed_frame_len, input_is_shifted)\n"
+		"Params: (equalizer, vector_len, cp_len, fixed_data, fixed_pilot, max_len_data_subcarr, max_len_pilot_subcarr, max_vector_data_subcarr, max_vector_pilot_subcarr, pilot_symbols, tsb_key, propagate_channel_state, fixed_frame_len, input_is_shifted)\n"
 		""},
 	 { (char *)"delete_frame_equalizer_alix", _wrap_delete_frame_equalizer_alix, METH_VARARGS, (char *)"delete_frame_equalizer_alix(frame_equalizer_alix self)"},
 	 { (char *)"frame_equalizer_alix_swigregister", frame_equalizer_alix_swigregister, METH_VARARGS, NULL},
@@ -48032,13 +52102,13 @@ static PyMethodDef SwigMethods[] = {
 	 { (char *)"frame_equalizer_alix_sptr___deref__", _wrap_frame_equalizer_alix_sptr___deref__, METH_VARARGS, (char *)"frame_equalizer_alix_sptr___deref__(frame_equalizer_alix_sptr self) -> frame_equalizer_alix"},
 	 { (char *)"delete_frame_equalizer_alix_sptr", _wrap_delete_frame_equalizer_alix_sptr, METH_VARARGS, (char *)"delete_frame_equalizer_alix_sptr(frame_equalizer_alix_sptr self)"},
 	 { (char *)"frame_equalizer_alix_sptr_make", (PyCFunction) _wrap_frame_equalizer_alix_sptr_make, METH_VARARGS | METH_KEYWORDS, (char *)"\n"
-		"frame_equalizer_alix_sptr_make(frame_equalizer_alix_sptr self, ofdm_equalizer_base_alix_sptr equalizer, int vector_len, int cp_len, bool fixed_pilot, int max_len_data_subcarr, int max_len_pilot_subcarr, int max_vector_pilot_subcarr, std::string const & tsb_key, bool propagate_channel_state=False, int fixed_frame_len=0, bool input_is_shifted=True) -> frame_equalizer_alix_sptr\n"
+		"frame_equalizer_alix_sptr_make(frame_equalizer_alix_sptr self, ofdm_equalizer_base_alix_sptr equalizer, int vector_len, int cp_len, bool fixed_data, bool fixed_pilot, int max_len_data_subcarr, int max_len_pilot_subcarr, int max_vector_data_subcarr, int max_vector_pilot_subcarr, gr_vector_vector_complexf pilot_symbols, std::string const & tsb_key, bool propagate_channel_state=False, int fixed_frame_len=0, bool input_is_shifted=True) -> frame_equalizer_alix_sptr\n"
 		"\n"
 		"Return a shared_ptr to a new instance of ofdm_allocator::frame_equalizer_alix.\n"
 		"\n"
 		"To avoid accidental use of raw pointers, ofdm_allocator::frame_equalizer_alix's constructor is in a private implementation class. ofdm_allocator::frame_equalizer_alix::make is the public interface for creating new instances.\n"
 		"\n"
-		"Params: (equalizer, vector_len, cp_len, fixed_pilot, max_len_data_subcarr, max_len_pilot_subcarr, max_vector_pilot_subcarr, tsb_key, propagate_channel_state, fixed_frame_len, input_is_shifted)\n"
+		"Params: (equalizer, vector_len, cp_len, fixed_data, fixed_pilot, max_len_data_subcarr, max_len_pilot_subcarr, max_vector_data_subcarr, max_vector_pilot_subcarr, pilot_symbols, tsb_key, propagate_channel_state, fixed_frame_len, input_is_shifted)\n"
 		""},
 	 { (char *)"frame_equalizer_alix_sptr_history", _wrap_frame_equalizer_alix_sptr_history, METH_VARARGS, (char *)"frame_equalizer_alix_sptr_history(frame_equalizer_alix_sptr self) -> unsigned int"},
 	 { (char *)"frame_equalizer_alix_sptr_declare_sample_delay", _wrap_frame_equalizer_alix_sptr_declare_sample_delay, METH_VARARGS, (char *)"\n"
@@ -48186,6 +52256,13 @@ static PyMethodDef SwigMethods[] = {
 		"\n"
 		"Params: (NONE)\n"
 		""},
+	 { (char *)"packet_header_default_alix_sptr_num_tag_key", _wrap_packet_header_default_alix_sptr_num_tag_key, METH_VARARGS, (char *)"\n"
+		"packet_header_default_alix_sptr_num_tag_key(packet_header_default_alix_sptr self) -> swig_int_ptr\n"
+		"\n"
+		"\n"
+		"\n"
+		"Params: (NONE)\n"
+		""},
 	 { (char *)"packet_header_default_alix_sptr_header_formatter", (PyCFunction) _wrap_packet_header_default_alix_sptr_header_formatter, METH_VARARGS | METH_KEYWORDS, (char *)"\n"
 		"packet_header_default_alix_sptr_header_formatter(packet_header_default_alix_sptr self, long packet_len, unsigned char * out, tags_vector_t tags) -> bool\n"
 		"\n"
@@ -48200,13 +52277,13 @@ static PyMethodDef SwigMethods[] = {
 		"Params: (packet_len, out, tags)\n"
 		""},
 	 { (char *)"packet_header_default_alix_sptr_header_parser", (PyCFunction) _wrap_packet_header_default_alix_sptr_header_parser, METH_VARARGS | METH_KEYWORDS, (char *)"\n"
-		"packet_header_default_alix_sptr_header_parser(packet_header_default_alix_sptr self, unsigned char const * header, tags_vector_t tags) -> bool\n"
+		"packet_header_default_alix_sptr_header_parser(packet_header_default_alix_sptr self, unsigned char const * header, int header_length, tags_vector_t tags) -> bool\n"
 		"\n"
 		"Inverse function to header_formatter().\n"
 		"\n"
 		"Reads the bit stream in  and writes a corresponding tag into .\n"
 		"\n"
-		"Params: (header, tags)\n"
+		"Params: (header, header_length, tags)\n"
 		""},
 	 { (char *)"packet_header_default_alix_sptr_make", (PyCFunction) _wrap_packet_header_default_alix_sptr_make, METH_VARARGS | METH_KEYWORDS, (char *)"\n"
 		"packet_header_default_alix_sptr_make(packet_header_default_alix_sptr self, long header_len, std::string const & len_tag_key, std::string const & num_tag_key, int bits_per_byte=1) -> packet_header_default_alix_sptr\n"
@@ -48264,6 +52341,13 @@ static PyMethodDef SwigMethods[] = {
 		"\n"
 		"Params: (NONE)\n"
 		""},
+	 { (char *)"packet_header_ofdm_alix_sptr_num_tag_key", _wrap_packet_header_ofdm_alix_sptr_num_tag_key, METH_VARARGS, (char *)"\n"
+		"packet_header_ofdm_alix_sptr_num_tag_key(packet_header_ofdm_alix_sptr self) -> swig_int_ptr\n"
+		"\n"
+		"\n"
+		"\n"
+		"Params: (NONE)\n"
+		""},
 	 { (char *)"packet_header_ofdm_alix_sptr_header_formatter", (PyCFunction) _wrap_packet_header_ofdm_alix_sptr_header_formatter, METH_VARARGS | METH_KEYWORDS, (char *)"\n"
 		"packet_header_ofdm_alix_sptr_header_formatter(packet_header_ofdm_alix_sptr self, long packet_len, unsigned char * out, tags_vector_t tags) -> bool\n"
 		"\n"
@@ -48278,13 +52362,13 @@ static PyMethodDef SwigMethods[] = {
 		"Params: (packet_len, out, tags)\n"
 		""},
 	 { (char *)"packet_header_ofdm_alix_sptr_header_parser", (PyCFunction) _wrap_packet_header_ofdm_alix_sptr_header_parser, METH_VARARGS | METH_KEYWORDS, (char *)"\n"
-		"packet_header_ofdm_alix_sptr_header_parser(packet_header_ofdm_alix_sptr self, unsigned char const * header, tags_vector_t tags) -> bool\n"
+		"packet_header_ofdm_alix_sptr_header_parser(packet_header_ofdm_alix_sptr self, unsigned char const * header, int header_length, tags_vector_t tags) -> bool\n"
 		"\n"
 		"Inverse function to header_formatter().\n"
 		"\n"
 		"Reads the bit stream in  and writes a corresponding tag into .\n"
 		"\n"
-		"Params: (header, tags)\n"
+		"Params: (header, header_length, tags)\n"
 		""},
 	 { (char *)"packet_header_ofdm_alix_sptr_swigregister", packet_header_ofdm_alix_sptr_swigregister, METH_VARARGS, NULL},
 	 { (char *)"new_ofdm_equalizer_base_alix_sptr", _wrap_new_ofdm_equalizer_base_alix_sptr, METH_VARARGS, (char *)"\n"
@@ -48293,19 +52377,19 @@ static PyMethodDef SwigMethods[] = {
 		""},
 	 { (char *)"ofdm_equalizer_base_alix_sptr___deref__", _wrap_ofdm_equalizer_base_alix_sptr___deref__, METH_VARARGS, (char *)"ofdm_equalizer_base_alix_sptr___deref__(ofdm_equalizer_base_alix_sptr self) -> ofdm_equalizer_base_alix"},
 	 { (char *)"delete_ofdm_equalizer_base_alix_sptr", _wrap_delete_ofdm_equalizer_base_alix_sptr, METH_VARARGS, (char *)"delete_ofdm_equalizer_base_alix_sptr(ofdm_equalizer_base_alix_sptr self)"},
-	 { (char *)"ofdm_equalizer_base_alix_sptr_reset", _wrap_ofdm_equalizer_base_alix_sptr_reset, METH_VARARGS, (char *)"\n"
-		"ofdm_equalizer_base_alix_sptr_reset(ofdm_equalizer_base_alix_sptr self)\n"
+	 { (char *)"ofdm_equalizer_base_alix_sptr_reset", (PyCFunction) _wrap_ofdm_equalizer_base_alix_sptr_reset, METH_VARARGS | METH_KEYWORDS, (char *)"\n"
+		"ofdm_equalizer_base_alix_sptr_reset(ofdm_equalizer_base_alix_sptr self, std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const & pilot_carriers)\n"
 		"\n"
 		"Reset the channel information state knowledge.\n"
 		"\n"
-		"Params: (NONE)\n"
+		"Params: (pilot_carriers)\n"
 		""},
 	 { (char *)"ofdm_equalizer_base_alix_sptr_equalize", (PyCFunction) _wrap_ofdm_equalizer_base_alix_sptr_equalize, METH_VARARGS | METH_KEYWORDS, (char *)"\n"
-		"ofdm_equalizer_base_alix_sptr_equalize(ofdm_equalizer_base_alix_sptr self, gr_complex * frame, int n_sym, pmt_vector_cfloat initial_taps, std::vector< bool,std::allocator< bool > > const & occupied_carriers, tags_vector_t tags)\n"
+		"ofdm_equalizer_base_alix_sptr_equalize(ofdm_equalizer_base_alix_sptr self, gr_complex * frame, int n_sym, pmt_vector_cfloat initial_taps, std::vector< bool,std::allocator< bool > > const & occupied_carriers, std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const & pilot_carriers, gr_vector_vector_complexf pilot_symbols, tags_vector_t tags)\n"
 		"\n"
 		"Run the actual equalization.\n"
 		"\n"
-		"Params: (frame, n_sym, initial_taps, occupied_carriers, tags)\n"
+		"Params: (frame, n_sym, initial_taps, occupied_carriers, pilot_carriers, pilot_symbols, tags)\n"
 		""},
 	 { (char *)"ofdm_equalizer_base_alix_sptr_get_channel_state", (PyCFunction) _wrap_ofdm_equalizer_base_alix_sptr_get_channel_state, METH_VARARGS | METH_KEYWORDS, (char *)"\n"
 		"ofdm_equalizer_base_alix_sptr_get_channel_state(ofdm_equalizer_base_alix_sptr self, pmt_vector_cfloat taps)\n"
@@ -48335,19 +52419,19 @@ static PyMethodDef SwigMethods[] = {
 		""},
 	 { (char *)"ofdm_equalizer_1d_pilots_alix_sptr___deref__", _wrap_ofdm_equalizer_1d_pilots_alix_sptr___deref__, METH_VARARGS, (char *)"ofdm_equalizer_1d_pilots_alix_sptr___deref__(ofdm_equalizer_1d_pilots_alix_sptr self) -> ofdm_equalizer_1d_pilots_alix"},
 	 { (char *)"delete_ofdm_equalizer_1d_pilots_alix_sptr", _wrap_delete_ofdm_equalizer_1d_pilots_alix_sptr, METH_VARARGS, (char *)"delete_ofdm_equalizer_1d_pilots_alix_sptr(ofdm_equalizer_1d_pilots_alix_sptr self)"},
-	 { (char *)"ofdm_equalizer_1d_pilots_alix_sptr_reset", _wrap_ofdm_equalizer_1d_pilots_alix_sptr_reset, METH_VARARGS, (char *)"\n"
-		"ofdm_equalizer_1d_pilots_alix_sptr_reset(ofdm_equalizer_1d_pilots_alix_sptr self)\n"
+	 { (char *)"ofdm_equalizer_1d_pilots_alix_sptr_reset", (PyCFunction) _wrap_ofdm_equalizer_1d_pilots_alix_sptr_reset, METH_VARARGS | METH_KEYWORDS, (char *)"\n"
+		"ofdm_equalizer_1d_pilots_alix_sptr_reset(ofdm_equalizer_1d_pilots_alix_sptr self, std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const & pilot_carriers)\n"
 		"\n"
 		"Reset the channel information state knowledge.\n"
 		"\n"
-		"Params: (NONE)\n"
+		"Params: (pilot_carriers)\n"
 		""},
 	 { (char *)"ofdm_equalizer_1d_pilots_alix_sptr_equalize", (PyCFunction) _wrap_ofdm_equalizer_1d_pilots_alix_sptr_equalize, METH_VARARGS | METH_KEYWORDS, (char *)"\n"
-		"ofdm_equalizer_1d_pilots_alix_sptr_equalize(ofdm_equalizer_1d_pilots_alix_sptr self, gr_complex * frame, int n_sym, pmt_vector_cfloat initial_taps, std::vector< bool,std::allocator< bool > > const & occupied_carriers, tags_vector_t tags)\n"
+		"ofdm_equalizer_1d_pilots_alix_sptr_equalize(ofdm_equalizer_1d_pilots_alix_sptr self, gr_complex * frame, int n_sym, pmt_vector_cfloat initial_taps, std::vector< bool,std::allocator< bool > > const & occupied_carriers, std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const & pilot_carriers, gr_vector_vector_complexf pilot_symbols, tags_vector_t tags)\n"
 		"\n"
 		"Run the actual equalization.\n"
 		"\n"
-		"Params: (frame, n_sym, initial_taps, occupied_carriers, tags)\n"
+		"Params: (frame, n_sym, initial_taps, occupied_carriers, pilot_carriers, pilot_symbols, tags)\n"
 		""},
 	 { (char *)"ofdm_equalizer_1d_pilots_alix_sptr_get_channel_state", (PyCFunction) _wrap_ofdm_equalizer_1d_pilots_alix_sptr_get_channel_state, METH_VARARGS | METH_KEYWORDS, (char *)"\n"
 		"ofdm_equalizer_1d_pilots_alix_sptr_get_channel_state(ofdm_equalizer_1d_pilots_alix_sptr self, pmt_vector_cfloat taps)\n"
@@ -48384,19 +52468,19 @@ static PyMethodDef SwigMethods[] = {
 		"\n"
 		"Params: (fft_len, constellation, occupied_carriers, pilot_carriers, pilot_symbols, symbols_skipped, alpha, input_is_shifted)\n"
 		""},
-	 { (char *)"ofdm_equalizer_simpledfe_alix_sptr_reset", _wrap_ofdm_equalizer_simpledfe_alix_sptr_reset, METH_VARARGS, (char *)"\n"
-		"ofdm_equalizer_simpledfe_alix_sptr_reset(ofdm_equalizer_simpledfe_alix_sptr self)\n"
+	 { (char *)"ofdm_equalizer_simpledfe_alix_sptr_reset", (PyCFunction) _wrap_ofdm_equalizer_simpledfe_alix_sptr_reset, METH_VARARGS | METH_KEYWORDS, (char *)"\n"
+		"ofdm_equalizer_simpledfe_alix_sptr_reset(ofdm_equalizer_simpledfe_alix_sptr self, std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const & pilot_carriers)\n"
 		"\n"
 		"Reset the channel information state knowledge.\n"
 		"\n"
-		"Params: (NONE)\n"
+		"Params: (pilot_carriers)\n"
 		""},
 	 { (char *)"ofdm_equalizer_simpledfe_alix_sptr_equalize", (PyCFunction) _wrap_ofdm_equalizer_simpledfe_alix_sptr_equalize, METH_VARARGS | METH_KEYWORDS, (char *)"\n"
-		"ofdm_equalizer_simpledfe_alix_sptr_equalize(ofdm_equalizer_simpledfe_alix_sptr self, gr_complex * frame, int n_sym, pmt_vector_cfloat initial_taps, std::vector< bool,std::allocator< bool > > const & occupied_carriers, tags_vector_t tags)\n"
+		"ofdm_equalizer_simpledfe_alix_sptr_equalize(ofdm_equalizer_simpledfe_alix_sptr self, gr_complex * frame, int n_sym, pmt_vector_cfloat initial_taps, std::vector< bool,std::allocator< bool > > const & occupied_carriers, std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const & pilot_carriers, gr_vector_vector_complexf pilot_symbols, tags_vector_t tags)\n"
 		"\n"
 		"Run the actual equalization.\n"
 		"\n"
-		"Params: (frame, n_sym, initial_taps, occupied_carriers, tags)\n"
+		"Params: (frame, n_sym, initial_taps, occupied_carriers, pilot_carriers, pilot_symbols, tags)\n"
 		""},
 	 { (char *)"ofdm_equalizer_simpledfe_alix_sptr_get_channel_state", (PyCFunction) _wrap_ofdm_equalizer_simpledfe_alix_sptr_get_channel_state, METH_VARARGS | METH_KEYWORDS, (char *)"\n"
 		"ofdm_equalizer_simpledfe_alix_sptr_get_channel_state(ofdm_equalizer_simpledfe_alix_sptr self, pmt_vector_cfloat taps)\n"
@@ -51251,6 +55335,117 @@ static PyMethodDef SwigMethods[] = {
 	 { (char *)"constellation_decoder_alix_sptr_message_ports_out", _wrap_constellation_decoder_alix_sptr_message_ports_out, METH_VARARGS, (char *)"constellation_decoder_alix_sptr_message_ports_out(constellation_decoder_alix_sptr self) -> swig_int_ptr"},
 	 { (char *)"constellation_decoder_alix_sptr_message_subscribers", (PyCFunction) _wrap_constellation_decoder_alix_sptr_message_subscribers, METH_VARARGS | METH_KEYWORDS, (char *)"constellation_decoder_alix_sptr_message_subscribers(constellation_decoder_alix_sptr self, swig_int_ptr which_port) -> swig_int_ptr"},
 	 { (char *)"constellation_decoder_alix_sptr_swigregister", constellation_decoder_alix_sptr_swigregister, METH_VARARGS, NULL},
+	 { (char *)"packet_header_parser_alix_make", _wrap_packet_header_parser_alix_make, METH_VARARGS, (char *)"\n"
+		"make(packet_header_default_alix_sptr header_formatter, std::string const & len_tag_key, std::string const & num_tag_key) -> packet_header_parser_alix_sptr\n"
+		"packet_header_parser_alix_make(long header_len, std::string const & len_tag_key, std::string const & num_tag_key) -> packet_header_parser_alix_sptr\n"
+		"\n"
+		"Return a shared_ptr to a new instance of ofdm_allocator::packet_header_parser_alix.\n"
+		"\n"
+		"To avoid accidental use of raw pointers, ofdm_allocator::packet_header_parser_alix's constructor is in a private implementation class. ofdm_allocator::packet_header_parser_alix::make is the public interface for creating new instances.\n"
+		"\n"
+		"Params: (header_formatter, len_tag_key, num_tag_key)\n"
+		""},
+	 { (char *)"delete_packet_header_parser_alix", _wrap_delete_packet_header_parser_alix, METH_VARARGS, (char *)"delete_packet_header_parser_alix(packet_header_parser_alix self)"},
+	 { (char *)"packet_header_parser_alix_swigregister", packet_header_parser_alix_swigregister, METH_VARARGS, NULL},
+	 { (char *)"new_packet_header_parser_alix_sptr", _wrap_new_packet_header_parser_alix_sptr, METH_VARARGS, (char *)"\n"
+		"packet_header_parser_alix_sptr()\n"
+		"new_packet_header_parser_alix_sptr(packet_header_parser_alix p) -> packet_header_parser_alix_sptr\n"
+		""},
+	 { (char *)"packet_header_parser_alix_sptr___deref__", _wrap_packet_header_parser_alix_sptr___deref__, METH_VARARGS, (char *)"packet_header_parser_alix_sptr___deref__(packet_header_parser_alix_sptr self) -> packet_header_parser_alix"},
+	 { (char *)"delete_packet_header_parser_alix_sptr", _wrap_delete_packet_header_parser_alix_sptr, METH_VARARGS, (char *)"delete_packet_header_parser_alix_sptr(packet_header_parser_alix_sptr self)"},
+	 { (char *)"packet_header_parser_alix_sptr_make", _wrap_packet_header_parser_alix_sptr_make, METH_VARARGS, (char *)"\n"
+		"make(packet_header_default_alix_sptr header_formatter, std::string const & len_tag_key, std::string const & num_tag_key) -> packet_header_parser_alix_sptr\n"
+		"packet_header_parser_alix_sptr_make(packet_header_parser_alix_sptr self, long header_len, std::string const & len_tag_key, std::string const & num_tag_key) -> packet_header_parser_alix_sptr\n"
+		"\n"
+		"Return a shared_ptr to a new instance of ofdm_allocator::packet_header_parser_alix.\n"
+		"\n"
+		"To avoid accidental use of raw pointers, ofdm_allocator::packet_header_parser_alix's constructor is in a private implementation class. ofdm_allocator::packet_header_parser_alix::make is the public interface for creating new instances.\n"
+		"\n"
+		"Params: (header_formatter, len_tag_key, num_tag_key)\n"
+		""},
+	 { (char *)"packet_header_parser_alix_sptr_history", _wrap_packet_header_parser_alix_sptr_history, METH_VARARGS, (char *)"packet_header_parser_alix_sptr_history(packet_header_parser_alix_sptr self) -> unsigned int"},
+	 { (char *)"packet_header_parser_alix_sptr_declare_sample_delay", _wrap_packet_header_parser_alix_sptr_declare_sample_delay, METH_VARARGS, (char *)"\n"
+		"declare_sample_delay(int which, int delay)\n"
+		"packet_header_parser_alix_sptr_declare_sample_delay(packet_header_parser_alix_sptr self, unsigned int delay)\n"
+		""},
+	 { (char *)"packet_header_parser_alix_sptr_sample_delay", (PyCFunction) _wrap_packet_header_parser_alix_sptr_sample_delay, METH_VARARGS | METH_KEYWORDS, (char *)"packet_header_parser_alix_sptr_sample_delay(packet_header_parser_alix_sptr self, int which) -> unsigned int"},
+	 { (char *)"packet_header_parser_alix_sptr_output_multiple", _wrap_packet_header_parser_alix_sptr_output_multiple, METH_VARARGS, (char *)"packet_header_parser_alix_sptr_output_multiple(packet_header_parser_alix_sptr self) -> int"},
+	 { (char *)"packet_header_parser_alix_sptr_relative_rate", _wrap_packet_header_parser_alix_sptr_relative_rate, METH_VARARGS, (char *)"packet_header_parser_alix_sptr_relative_rate(packet_header_parser_alix_sptr self) -> double"},
+	 { (char *)"packet_header_parser_alix_sptr_start", _wrap_packet_header_parser_alix_sptr_start, METH_VARARGS, (char *)"packet_header_parser_alix_sptr_start(packet_header_parser_alix_sptr self) -> bool"},
+	 { (char *)"packet_header_parser_alix_sptr_stop", _wrap_packet_header_parser_alix_sptr_stop, METH_VARARGS, (char *)"packet_header_parser_alix_sptr_stop(packet_header_parser_alix_sptr self) -> bool"},
+	 { (char *)"packet_header_parser_alix_sptr_nitems_read", (PyCFunction) _wrap_packet_header_parser_alix_sptr_nitems_read, METH_VARARGS | METH_KEYWORDS, (char *)"packet_header_parser_alix_sptr_nitems_read(packet_header_parser_alix_sptr self, unsigned int which_input) -> uint64_t"},
+	 { (char *)"packet_header_parser_alix_sptr_nitems_written", (PyCFunction) _wrap_packet_header_parser_alix_sptr_nitems_written, METH_VARARGS | METH_KEYWORDS, (char *)"packet_header_parser_alix_sptr_nitems_written(packet_header_parser_alix_sptr self, unsigned int which_output) -> uint64_t"},
+	 { (char *)"packet_header_parser_alix_sptr_max_noutput_items", _wrap_packet_header_parser_alix_sptr_max_noutput_items, METH_VARARGS, (char *)"packet_header_parser_alix_sptr_max_noutput_items(packet_header_parser_alix_sptr self) -> int"},
+	 { (char *)"packet_header_parser_alix_sptr_set_max_noutput_items", (PyCFunction) _wrap_packet_header_parser_alix_sptr_set_max_noutput_items, METH_VARARGS | METH_KEYWORDS, (char *)"packet_header_parser_alix_sptr_set_max_noutput_items(packet_header_parser_alix_sptr self, int m)"},
+	 { (char *)"packet_header_parser_alix_sptr_unset_max_noutput_items", _wrap_packet_header_parser_alix_sptr_unset_max_noutput_items, METH_VARARGS, (char *)"packet_header_parser_alix_sptr_unset_max_noutput_items(packet_header_parser_alix_sptr self)"},
+	 { (char *)"packet_header_parser_alix_sptr_is_set_max_noutput_items", _wrap_packet_header_parser_alix_sptr_is_set_max_noutput_items, METH_VARARGS, (char *)"packet_header_parser_alix_sptr_is_set_max_noutput_items(packet_header_parser_alix_sptr self) -> bool"},
+	 { (char *)"packet_header_parser_alix_sptr_set_min_noutput_items", (PyCFunction) _wrap_packet_header_parser_alix_sptr_set_min_noutput_items, METH_VARARGS | METH_KEYWORDS, (char *)"packet_header_parser_alix_sptr_set_min_noutput_items(packet_header_parser_alix_sptr self, int m)"},
+	 { (char *)"packet_header_parser_alix_sptr_min_noutput_items", _wrap_packet_header_parser_alix_sptr_min_noutput_items, METH_VARARGS, (char *)"packet_header_parser_alix_sptr_min_noutput_items(packet_header_parser_alix_sptr self) -> int"},
+	 { (char *)"packet_header_parser_alix_sptr_max_output_buffer", (PyCFunction) _wrap_packet_header_parser_alix_sptr_max_output_buffer, METH_VARARGS | METH_KEYWORDS, (char *)"packet_header_parser_alix_sptr_max_output_buffer(packet_header_parser_alix_sptr self, int i) -> long"},
+	 { (char *)"packet_header_parser_alix_sptr_set_max_output_buffer", _wrap_packet_header_parser_alix_sptr_set_max_output_buffer, METH_VARARGS, (char *)"\n"
+		"set_max_output_buffer(long max_output_buffer)\n"
+		"packet_header_parser_alix_sptr_set_max_output_buffer(packet_header_parser_alix_sptr self, int port, long max_output_buffer)\n"
+		""},
+	 { (char *)"packet_header_parser_alix_sptr_min_output_buffer", (PyCFunction) _wrap_packet_header_parser_alix_sptr_min_output_buffer, METH_VARARGS | METH_KEYWORDS, (char *)"packet_header_parser_alix_sptr_min_output_buffer(packet_header_parser_alix_sptr self, int i) -> long"},
+	 { (char *)"packet_header_parser_alix_sptr_set_min_output_buffer", _wrap_packet_header_parser_alix_sptr_set_min_output_buffer, METH_VARARGS, (char *)"\n"
+		"set_min_output_buffer(long min_output_buffer)\n"
+		"packet_header_parser_alix_sptr_set_min_output_buffer(packet_header_parser_alix_sptr self, int port, long min_output_buffer)\n"
+		""},
+	 { (char *)"packet_header_parser_alix_sptr_pc_noutput_items", _wrap_packet_header_parser_alix_sptr_pc_noutput_items, METH_VARARGS, (char *)"packet_header_parser_alix_sptr_pc_noutput_items(packet_header_parser_alix_sptr self) -> float"},
+	 { (char *)"packet_header_parser_alix_sptr_pc_noutput_items_avg", _wrap_packet_header_parser_alix_sptr_pc_noutput_items_avg, METH_VARARGS, (char *)"packet_header_parser_alix_sptr_pc_noutput_items_avg(packet_header_parser_alix_sptr self) -> float"},
+	 { (char *)"packet_header_parser_alix_sptr_pc_noutput_items_var", _wrap_packet_header_parser_alix_sptr_pc_noutput_items_var, METH_VARARGS, (char *)"packet_header_parser_alix_sptr_pc_noutput_items_var(packet_header_parser_alix_sptr self) -> float"},
+	 { (char *)"packet_header_parser_alix_sptr_pc_nproduced", _wrap_packet_header_parser_alix_sptr_pc_nproduced, METH_VARARGS, (char *)"packet_header_parser_alix_sptr_pc_nproduced(packet_header_parser_alix_sptr self) -> float"},
+	 { (char *)"packet_header_parser_alix_sptr_pc_nproduced_avg", _wrap_packet_header_parser_alix_sptr_pc_nproduced_avg, METH_VARARGS, (char *)"packet_header_parser_alix_sptr_pc_nproduced_avg(packet_header_parser_alix_sptr self) -> float"},
+	 { (char *)"packet_header_parser_alix_sptr_pc_nproduced_var", _wrap_packet_header_parser_alix_sptr_pc_nproduced_var, METH_VARARGS, (char *)"packet_header_parser_alix_sptr_pc_nproduced_var(packet_header_parser_alix_sptr self) -> float"},
+	 { (char *)"packet_header_parser_alix_sptr_pc_input_buffers_full", _wrap_packet_header_parser_alix_sptr_pc_input_buffers_full, METH_VARARGS, (char *)"\n"
+		"pc_input_buffers_full(int which) -> float\n"
+		"packet_header_parser_alix_sptr_pc_input_buffers_full(packet_header_parser_alix_sptr self) -> pmt_vector_float\n"
+		""},
+	 { (char *)"packet_header_parser_alix_sptr_pc_input_buffers_full_avg", _wrap_packet_header_parser_alix_sptr_pc_input_buffers_full_avg, METH_VARARGS, (char *)"\n"
+		"pc_input_buffers_full_avg(int which) -> float\n"
+		"packet_header_parser_alix_sptr_pc_input_buffers_full_avg(packet_header_parser_alix_sptr self) -> pmt_vector_float\n"
+		""},
+	 { (char *)"packet_header_parser_alix_sptr_pc_input_buffers_full_var", _wrap_packet_header_parser_alix_sptr_pc_input_buffers_full_var, METH_VARARGS, (char *)"\n"
+		"pc_input_buffers_full_var(int which) -> float\n"
+		"packet_header_parser_alix_sptr_pc_input_buffers_full_var(packet_header_parser_alix_sptr self) -> pmt_vector_float\n"
+		""},
+	 { (char *)"packet_header_parser_alix_sptr_pc_output_buffers_full", _wrap_packet_header_parser_alix_sptr_pc_output_buffers_full, METH_VARARGS, (char *)"\n"
+		"pc_output_buffers_full(int which) -> float\n"
+		"packet_header_parser_alix_sptr_pc_output_buffers_full(packet_header_parser_alix_sptr self) -> pmt_vector_float\n"
+		""},
+	 { (char *)"packet_header_parser_alix_sptr_pc_output_buffers_full_avg", _wrap_packet_header_parser_alix_sptr_pc_output_buffers_full_avg, METH_VARARGS, (char *)"\n"
+		"pc_output_buffers_full_avg(int which) -> float\n"
+		"packet_header_parser_alix_sptr_pc_output_buffers_full_avg(packet_header_parser_alix_sptr self) -> pmt_vector_float\n"
+		""},
+	 { (char *)"packet_header_parser_alix_sptr_pc_output_buffers_full_var", _wrap_packet_header_parser_alix_sptr_pc_output_buffers_full_var, METH_VARARGS, (char *)"\n"
+		"pc_output_buffers_full_var(int which) -> float\n"
+		"packet_header_parser_alix_sptr_pc_output_buffers_full_var(packet_header_parser_alix_sptr self) -> pmt_vector_float\n"
+		""},
+	 { (char *)"packet_header_parser_alix_sptr_pc_work_time", _wrap_packet_header_parser_alix_sptr_pc_work_time, METH_VARARGS, (char *)"packet_header_parser_alix_sptr_pc_work_time(packet_header_parser_alix_sptr self) -> float"},
+	 { (char *)"packet_header_parser_alix_sptr_pc_work_time_avg", _wrap_packet_header_parser_alix_sptr_pc_work_time_avg, METH_VARARGS, (char *)"packet_header_parser_alix_sptr_pc_work_time_avg(packet_header_parser_alix_sptr self) -> float"},
+	 { (char *)"packet_header_parser_alix_sptr_pc_work_time_var", _wrap_packet_header_parser_alix_sptr_pc_work_time_var, METH_VARARGS, (char *)"packet_header_parser_alix_sptr_pc_work_time_var(packet_header_parser_alix_sptr self) -> float"},
+	 { (char *)"packet_header_parser_alix_sptr_pc_work_time_total", _wrap_packet_header_parser_alix_sptr_pc_work_time_total, METH_VARARGS, (char *)"packet_header_parser_alix_sptr_pc_work_time_total(packet_header_parser_alix_sptr self) -> float"},
+	 { (char *)"packet_header_parser_alix_sptr_pc_throughput_avg", _wrap_packet_header_parser_alix_sptr_pc_throughput_avg, METH_VARARGS, (char *)"packet_header_parser_alix_sptr_pc_throughput_avg(packet_header_parser_alix_sptr self) -> float"},
+	 { (char *)"packet_header_parser_alix_sptr_set_processor_affinity", (PyCFunction) _wrap_packet_header_parser_alix_sptr_set_processor_affinity, METH_VARARGS | METH_KEYWORDS, (char *)"packet_header_parser_alix_sptr_set_processor_affinity(packet_header_parser_alix_sptr self, std::vector< int,std::allocator< int > > const & mask)"},
+	 { (char *)"packet_header_parser_alix_sptr_unset_processor_affinity", _wrap_packet_header_parser_alix_sptr_unset_processor_affinity, METH_VARARGS, (char *)"packet_header_parser_alix_sptr_unset_processor_affinity(packet_header_parser_alix_sptr self)"},
+	 { (char *)"packet_header_parser_alix_sptr_processor_affinity", _wrap_packet_header_parser_alix_sptr_processor_affinity, METH_VARARGS, (char *)"packet_header_parser_alix_sptr_processor_affinity(packet_header_parser_alix_sptr self) -> std::vector< int,std::allocator< int > >"},
+	 { (char *)"packet_header_parser_alix_sptr_active_thread_priority", _wrap_packet_header_parser_alix_sptr_active_thread_priority, METH_VARARGS, (char *)"packet_header_parser_alix_sptr_active_thread_priority(packet_header_parser_alix_sptr self) -> int"},
+	 { (char *)"packet_header_parser_alix_sptr_thread_priority", _wrap_packet_header_parser_alix_sptr_thread_priority, METH_VARARGS, (char *)"packet_header_parser_alix_sptr_thread_priority(packet_header_parser_alix_sptr self) -> int"},
+	 { (char *)"packet_header_parser_alix_sptr_set_thread_priority", (PyCFunction) _wrap_packet_header_parser_alix_sptr_set_thread_priority, METH_VARARGS | METH_KEYWORDS, (char *)"packet_header_parser_alix_sptr_set_thread_priority(packet_header_parser_alix_sptr self, int priority) -> int"},
+	 { (char *)"packet_header_parser_alix_sptr_name", _wrap_packet_header_parser_alix_sptr_name, METH_VARARGS, (char *)"packet_header_parser_alix_sptr_name(packet_header_parser_alix_sptr self) -> std::string"},
+	 { (char *)"packet_header_parser_alix_sptr_symbol_name", _wrap_packet_header_parser_alix_sptr_symbol_name, METH_VARARGS, (char *)"packet_header_parser_alix_sptr_symbol_name(packet_header_parser_alix_sptr self) -> std::string"},
+	 { (char *)"packet_header_parser_alix_sptr_input_signature", _wrap_packet_header_parser_alix_sptr_input_signature, METH_VARARGS, (char *)"packet_header_parser_alix_sptr_input_signature(packet_header_parser_alix_sptr self) -> io_signature_sptr"},
+	 { (char *)"packet_header_parser_alix_sptr_output_signature", _wrap_packet_header_parser_alix_sptr_output_signature, METH_VARARGS, (char *)"packet_header_parser_alix_sptr_output_signature(packet_header_parser_alix_sptr self) -> io_signature_sptr"},
+	 { (char *)"packet_header_parser_alix_sptr_unique_id", _wrap_packet_header_parser_alix_sptr_unique_id, METH_VARARGS, (char *)"packet_header_parser_alix_sptr_unique_id(packet_header_parser_alix_sptr self) -> long"},
+	 { (char *)"packet_header_parser_alix_sptr_to_basic_block", _wrap_packet_header_parser_alix_sptr_to_basic_block, METH_VARARGS, (char *)"packet_header_parser_alix_sptr_to_basic_block(packet_header_parser_alix_sptr self) -> basic_block_sptr"},
+	 { (char *)"packet_header_parser_alix_sptr_check_topology", (PyCFunction) _wrap_packet_header_parser_alix_sptr_check_topology, METH_VARARGS | METH_KEYWORDS, (char *)"packet_header_parser_alix_sptr_check_topology(packet_header_parser_alix_sptr self, int ninputs, int noutputs) -> bool"},
+	 { (char *)"packet_header_parser_alix_sptr_alias", _wrap_packet_header_parser_alix_sptr_alias, METH_VARARGS, (char *)"packet_header_parser_alix_sptr_alias(packet_header_parser_alix_sptr self) -> std::string"},
+	 { (char *)"packet_header_parser_alix_sptr_set_block_alias", (PyCFunction) _wrap_packet_header_parser_alix_sptr_set_block_alias, METH_VARARGS | METH_KEYWORDS, (char *)"packet_header_parser_alix_sptr_set_block_alias(packet_header_parser_alix_sptr self, std::string name)"},
+	 { (char *)"packet_header_parser_alix_sptr__post", (PyCFunction) _wrap_packet_header_parser_alix_sptr__post, METH_VARARGS | METH_KEYWORDS, (char *)"packet_header_parser_alix_sptr__post(packet_header_parser_alix_sptr self, swig_int_ptr which_port, swig_int_ptr msg)"},
+	 { (char *)"packet_header_parser_alix_sptr_message_ports_in", _wrap_packet_header_parser_alix_sptr_message_ports_in, METH_VARARGS, (char *)"packet_header_parser_alix_sptr_message_ports_in(packet_header_parser_alix_sptr self) -> swig_int_ptr"},
+	 { (char *)"packet_header_parser_alix_sptr_message_ports_out", _wrap_packet_header_parser_alix_sptr_message_ports_out, METH_VARARGS, (char *)"packet_header_parser_alix_sptr_message_ports_out(packet_header_parser_alix_sptr self) -> swig_int_ptr"},
+	 { (char *)"packet_header_parser_alix_sptr_message_subscribers", (PyCFunction) _wrap_packet_header_parser_alix_sptr_message_subscribers, METH_VARARGS | METH_KEYWORDS, (char *)"packet_header_parser_alix_sptr_message_subscribers(packet_header_parser_alix_sptr self, swig_int_ptr which_port) -> swig_int_ptr"},
+	 { (char *)"packet_header_parser_alix_sptr_swigregister", packet_header_parser_alix_sptr_swigregister, METH_VARARGS, NULL},
 	 { NULL, NULL, 0, NULL }
 };
 
@@ -51299,6 +55494,9 @@ static void *_p_gr__ofdm_allocator__constellation_decoder_alixTo_p_gr__basic_blo
 static void *_p_gr__ofdm_allocator__frame_equalizer_alixTo_p_gr__basic_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((gr::basic_block *) (gr::block *)(gr::tagged_stream_block *) ((gr::ofdm_allocator::frame_equalizer_alix *) x));
 }
+static void *_p_gr__ofdm_allocator__packet_header_parser_alixTo_p_gr__basic_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((gr::basic_block *) (gr::block *)(gr::sync_block *) ((gr::ofdm_allocator::packet_header_parser_alix *) x));
+}
 static void *_p_gr__tagged_stream_blockTo_p_gr__basic_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((gr::basic_block *) (gr::block *) ((gr::tagged_stream_block *) x));
 }
@@ -51335,6 +55533,9 @@ static void *_p_gr__sync_decimatorTo_p_gr__basic_block(void *x, int *SWIGUNUSEDP
 static void *_p_gr__ofdm_allocator__vector_source_taggedTo_p_gr__sync_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((gr::sync_block *)  ((gr::ofdm_allocator::vector_source_tagged *) x));
 }
+static void *_p_gr__ofdm_allocator__packet_header_parser_alixTo_p_gr__sync_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((gr::sync_block *)  ((gr::ofdm_allocator::packet_header_parser_alix *) x));
+}
 static void *_p_gr__sync_decimatorTo_p_gr__sync_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((gr::sync_block *)  ((gr::sync_decimator *) x));
 }
@@ -51352,6 +55553,9 @@ static void *_p_gr__ofdm_allocator__frame_equalizer_alixTo_p_gr__block(void *x, 
 }
 static void *_p_gr__ofdm_allocator__constellation_decoder_alixTo_p_gr__block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((gr::block *)  ((gr::ofdm_allocator::constellation_decoder_alix *) x));
+}
+static void *_p_gr__ofdm_allocator__packet_header_parser_alixTo_p_gr__block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((gr::block *) (gr::sync_block *) ((gr::ofdm_allocator::packet_header_parser_alix *) x));
 }
 static void *_p_gr__sync_decimatorTo_p_gr__block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((gr::block *) (gr::sync_block *) ((gr::sync_decimator *) x));
@@ -51441,6 +55645,7 @@ static swig_type_info _swigt__p_boost__shared_ptrT_gr__ofdm_allocator__ofdm_equa
 static swig_type_info _swigt__p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_default_alix_t = {"_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_default_alix_t", "boost::shared_ptr< gr::ofdm_allocator::packet_header_default_alix > *|gr::ofdm_allocator::packet_header_default_alix::sptr *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_gen_t = {"_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_gen_t", "gr::ofdm_allocator::packet_header_gen::sptr *|boost::shared_ptr< gr::ofdm_allocator::packet_header_gen > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_ofdm_alix_t = {"_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_ofdm_alix_t", "gr::ofdm_allocator::packet_header_ofdm_alix::sptr *|boost::shared_ptr< gr::ofdm_allocator::packet_header_ofdm_alix > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t = {"_p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t", "boost::shared_ptr< gr::ofdm_allocator::packet_header_parser_alix > *|gr::ofdm_allocator::packet_header_parser_alix::sptr *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_boost__shared_ptrT_gr__ofdm_allocator__serializer_subcarrier_t = {"_p_boost__shared_ptrT_gr__ofdm_allocator__serializer_subcarrier_t", "gr::ofdm_allocator::serializer_subcarrier::sptr *|boost::shared_ptr< gr::ofdm_allocator::serializer_subcarrier > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_boost__shared_ptrT_gr__ofdm_allocator__vector_source_tagged_t = {"_p_boost__shared_ptrT_gr__ofdm_allocator__vector_source_tagged_t", "gr::ofdm_allocator::vector_source_tagged::sptr *|boost::shared_ptr< gr::ofdm_allocator::vector_source_tagged > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_boost__shared_ptrT_gr__top_block_t = {"_p_boost__shared_ptrT_gr__top_block_t", "boost::shared_ptr< gr::top_block > *|gr::top_block_sptr *", 0, 0, (void*)0, 0};
@@ -51477,6 +55682,7 @@ static swig_type_info _swigt__p_gr__ofdm_allocator__ofdm_equalizer_simpledfe_ali
 static swig_type_info _swigt__p_gr__ofdm_allocator__packet_header_default_alix = {"_p_gr__ofdm_allocator__packet_header_default_alix", "gr::ofdm_allocator::packet_header_default_alix *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_gr__ofdm_allocator__packet_header_gen = {"_p_gr__ofdm_allocator__packet_header_gen", "gr::ofdm_allocator::packet_header_gen *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_gr__ofdm_allocator__packet_header_ofdm_alix = {"_p_gr__ofdm_allocator__packet_header_ofdm_alix", "gr::ofdm_allocator::packet_header_ofdm_alix *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_gr__ofdm_allocator__packet_header_parser_alix = {"_p_gr__ofdm_allocator__packet_header_parser_alix", "gr::ofdm_allocator::packet_header_parser_alix *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_gr__ofdm_allocator__serializer_subcarrier = {"_p_gr__ofdm_allocator__serializer_subcarrier", "gr::ofdm_allocator::serializer_subcarrier *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_gr__ofdm_allocator__trellis_metric_type_t = {"_p_gr__ofdm_allocator__trellis_metric_type_t", "enum gr::ofdm_allocator::trellis_metric_type_t *|gr::ofdm_allocator::trellis_metric_type_t *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_gr__ofdm_allocator__vector_source_tagged = {"_p_gr__ofdm_allocator__vector_source_tagged", "gr::ofdm_allocator::vector_source_tagged *", 0, 0, (void*)0, 0};
@@ -51495,6 +55701,7 @@ static swig_type_info _swigt__p_std__complexT_float_t = {"_p_std__complexT_float
 static swig_type_info _swigt__p_std__vectorT_bool_std__allocatorT_bool_t_t = {"_p_std__vectorT_bool_std__allocatorT_bool_t_t", "std::vector< bool,std::allocator< bool > > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__vectorT_gr__tag_t_std__allocatorT_gr__tag_t_t_t = {"_p_std__vectorT_gr__tag_t_std__allocatorT_gr__tag_t_t_t", "std::vector< gr::tag_t,std::allocator< gr::tag_t > > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__vectorT_std__complexT_float_t_std__allocatorT_std__complexT_float_t_t_t = {"_p_std__vectorT_std__complexT_float_t_std__allocatorT_std__complexT_float_t_t_t", "std::vector< std::complex< float >,std::allocator< std::complex< float > > > *|std::vector< gr_complex,std::allocator< gr_complex > > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_std__vectorT_std__vectorT_bool_std__allocatorT_bool_t_t_std__allocatorT_std__vectorT_bool_std__allocatorT_bool_t_t_t_t = {"_p_std__vectorT_std__vectorT_bool_std__allocatorT_bool_t_t_std__allocatorT_std__vectorT_bool_std__allocatorT_bool_t_t_t_t", "std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_unsigned_char = {"_p_unsigned_char", "unsigned char *|uint_least8_t *|uint_fast8_t *|uint8_t *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_unsigned_int = {"_p_unsigned_int", "uintptr_t *|uint_least32_t *|uint_fast32_t *|uint32_t *|unsigned int *|uint_fast16_t *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_unsigned_long_long = {"_p_unsigned_long_long", "uint_least64_t *|uint_fast64_t *|uint64_t *|unsigned long long *|uintmax_t *", 0, 0, (void*)0, 0};
@@ -51533,6 +55740,7 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_default_alix_t,
   &_swigt__p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_gen_t,
   &_swigt__p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_ofdm_alix_t,
+  &_swigt__p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t,
   &_swigt__p_boost__shared_ptrT_gr__ofdm_allocator__serializer_subcarrier_t,
   &_swigt__p_boost__shared_ptrT_gr__ofdm_allocator__vector_source_tagged_t,
   &_swigt__p_boost__shared_ptrT_gr__top_block_t,
@@ -51566,6 +55774,7 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_gr__ofdm_allocator__packet_header_default_alix,
   &_swigt__p_gr__ofdm_allocator__packet_header_gen,
   &_swigt__p_gr__ofdm_allocator__packet_header_ofdm_alix,
+  &_swigt__p_gr__ofdm_allocator__packet_header_parser_alix,
   &_swigt__p_gr__ofdm_allocator__serializer_subcarrier,
   &_swigt__p_gr__ofdm_allocator__trellis_metric_type_t,
   &_swigt__p_gr__ofdm_allocator__vector_source_tagged,
@@ -51587,6 +55796,7 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_std__vectorT_bool_std__allocatorT_bool_t_t,
   &_swigt__p_std__vectorT_gr__tag_t_std__allocatorT_gr__tag_t_t_t,
   &_swigt__p_std__vectorT_std__complexT_float_t_std__allocatorT_std__complexT_float_t_t_t,
+  &_swigt__p_std__vectorT_std__vectorT_bool_std__allocatorT_bool_t_t_std__allocatorT_std__vectorT_bool_std__allocatorT_bool_t_t_t_t,
   &_swigt__p_unsigned_char,
   &_swigt__p_unsigned_int,
   &_swigt__p_unsigned_long_long,
@@ -51625,6 +55835,7 @@ static swig_cast_info _swigc__p_boost__shared_ptrT_gr__ofdm_allocator__ofdm_equa
 static swig_cast_info _swigc__p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_default_alix_t[] = {  {&_swigt__p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_default_alix_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_gen_t[] = {  {&_swigt__p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_gen_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_ofdm_alix_t[] = {  {&_swigt__p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_ofdm_alix_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t[] = {  {&_swigt__p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_boost__shared_ptrT_gr__ofdm_allocator__serializer_subcarrier_t[] = {  {&_swigt__p_boost__shared_ptrT_gr__ofdm_allocator__serializer_subcarrier_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_boost__shared_ptrT_gr__ofdm_allocator__vector_source_tagged_t[] = {  {&_swigt__p_boost__shared_ptrT_gr__ofdm_allocator__vector_source_tagged_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_boost__shared_ptrT_gr__top_block_t[] = {  {&_swigt__p_boost__shared_ptrT_gr__top_block_t, 0, 0, 0},{0, 0, 0, 0}};
@@ -51637,8 +55848,8 @@ static swig_cast_info _swigc__p_gr__sync_interpolator[] = {{&_swigt__p_gr__sync_
 static swig_cast_info _swigc__p_gr__block_gateway[] = {{&_swigt__p_gr__block_gateway, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_gr__top_block[] = {{&_swigt__p_gr__top_block, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_gr__sync_decimator[] = {{&_swigt__p_gr__sync_decimator, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_gr__basic_block[] = {  {&_swigt__p_gr__ofdm_allocator__constellation_decoder_alix, _p_gr__ofdm_allocator__constellation_decoder_alixTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__ofdm_allocator__frame_equalizer_alix, _p_gr__ofdm_allocator__frame_equalizer_alixTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__block, _p_gr__blockTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__tagged_stream_block, _p_gr__tagged_stream_blockTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__sync_block, _p_gr__sync_blockTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__basic_block, 0, 0, 0},  {&_swigt__p_gr__hier_block2, _p_gr__hier_block2To_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__ofdm_allocator__serializer_subcarrier, _p_gr__ofdm_allocator__serializer_subcarrierTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__ofdm_allocator__allocator_subcarrier, _p_gr__ofdm_allocator__allocator_subcarrierTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__ofdm_allocator__vector_source_tagged, _p_gr__ofdm_allocator__vector_source_taggedTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__sync_interpolator, _p_gr__sync_interpolatorTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__block_gateway, _p_gr__block_gatewayTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__ofdm_allocator__packet_header_gen, _p_gr__ofdm_allocator__packet_header_genTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__top_block, _p_gr__top_blockTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__sync_decimator, _p_gr__sync_decimatorTo_p_gr__basic_block, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_gr__block[] = {  {&_swigt__p_gr__ofdm_allocator__packet_header_gen, _p_gr__ofdm_allocator__packet_header_genTo_p_gr__block, 0, 0},  {&_swigt__p_gr__ofdm_allocator__vector_source_tagged, _p_gr__ofdm_allocator__vector_source_taggedTo_p_gr__block, 0, 0},  {&_swigt__p_gr__ofdm_allocator__frame_equalizer_alix, _p_gr__ofdm_allocator__frame_equalizer_alixTo_p_gr__block, 0, 0},  {&_swigt__p_gr__ofdm_allocator__constellation_decoder_alix, _p_gr__ofdm_allocator__constellation_decoder_alixTo_p_gr__block, 0, 0},  {&_swigt__p_gr__sync_decimator, _p_gr__sync_decimatorTo_p_gr__block, 0, 0},  {&_swigt__p_gr__block, 0, 0, 0},  {&_swigt__p_gr__sync_block, _p_gr__sync_blockTo_p_gr__block, 0, 0},  {&_swigt__p_gr__tagged_stream_block, _p_gr__tagged_stream_blockTo_p_gr__block, 0, 0},  {&_swigt__p_gr__ofdm_allocator__allocator_subcarrier, _p_gr__ofdm_allocator__allocator_subcarrierTo_p_gr__block, 0, 0},  {&_swigt__p_gr__ofdm_allocator__serializer_subcarrier, _p_gr__ofdm_allocator__serializer_subcarrierTo_p_gr__block, 0, 0},  {&_swigt__p_gr__block_gateway, _p_gr__block_gatewayTo_p_gr__block, 0, 0},  {&_swigt__p_gr__sync_interpolator, _p_gr__sync_interpolatorTo_p_gr__block, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_gr__basic_block[] = {  {&_swigt__p_gr__ofdm_allocator__constellation_decoder_alix, _p_gr__ofdm_allocator__constellation_decoder_alixTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__ofdm_allocator__frame_equalizer_alix, _p_gr__ofdm_allocator__frame_equalizer_alixTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__ofdm_allocator__packet_header_parser_alix, _p_gr__ofdm_allocator__packet_header_parser_alixTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__block, _p_gr__blockTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__tagged_stream_block, _p_gr__tagged_stream_blockTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__sync_block, _p_gr__sync_blockTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__basic_block, 0, 0, 0},  {&_swigt__p_gr__ofdm_allocator__serializer_subcarrier, _p_gr__ofdm_allocator__serializer_subcarrierTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__ofdm_allocator__allocator_subcarrier, _p_gr__ofdm_allocator__allocator_subcarrierTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__hier_block2, _p_gr__hier_block2To_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__ofdm_allocator__vector_source_tagged, _p_gr__ofdm_allocator__vector_source_taggedTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__sync_interpolator, _p_gr__sync_interpolatorTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__block_gateway, _p_gr__block_gatewayTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__ofdm_allocator__packet_header_gen, _p_gr__ofdm_allocator__packet_header_genTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__top_block, _p_gr__top_blockTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__sync_decimator, _p_gr__sync_decimatorTo_p_gr__basic_block, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_gr__block[] = {  {&_swigt__p_gr__ofdm_allocator__packet_header_gen, _p_gr__ofdm_allocator__packet_header_genTo_p_gr__block, 0, 0},  {&_swigt__p_gr__ofdm_allocator__vector_source_tagged, _p_gr__ofdm_allocator__vector_source_taggedTo_p_gr__block, 0, 0},  {&_swigt__p_gr__ofdm_allocator__frame_equalizer_alix, _p_gr__ofdm_allocator__frame_equalizer_alixTo_p_gr__block, 0, 0},  {&_swigt__p_gr__ofdm_allocator__constellation_decoder_alix, _p_gr__ofdm_allocator__constellation_decoder_alixTo_p_gr__block, 0, 0},  {&_swigt__p_gr__ofdm_allocator__packet_header_parser_alix, _p_gr__ofdm_allocator__packet_header_parser_alixTo_p_gr__block, 0, 0},  {&_swigt__p_gr__sync_decimator, _p_gr__sync_decimatorTo_p_gr__block, 0, 0},  {&_swigt__p_gr__block, 0, 0, 0},  {&_swigt__p_gr__sync_block, _p_gr__sync_blockTo_p_gr__block, 0, 0},  {&_swigt__p_gr__tagged_stream_block, _p_gr__tagged_stream_blockTo_p_gr__block, 0, 0},  {&_swigt__p_gr__ofdm_allocator__allocator_subcarrier, _p_gr__ofdm_allocator__allocator_subcarrierTo_p_gr__block, 0, 0},  {&_swigt__p_gr__ofdm_allocator__serializer_subcarrier, _p_gr__ofdm_allocator__serializer_subcarrierTo_p_gr__block, 0, 0},  {&_swigt__p_gr__block_gateway, _p_gr__block_gatewayTo_p_gr__block, 0, 0},  {&_swigt__p_gr__sync_interpolator, _p_gr__sync_interpolatorTo_p_gr__block, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_gr__endianness_t[] = {  {&_swigt__p_gr__endianness_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_gr__ofdm_allocator__allocator_subcarrier[] = {  {&_swigt__p_gr__ofdm_allocator__allocator_subcarrier, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_gr__ofdm_allocator__constellation_16qam[] = {  {&_swigt__p_gr__ofdm_allocator__constellation_16qam, 0, 0, 0},{0, 0, 0, 0}};
@@ -51661,11 +55872,12 @@ static swig_cast_info _swigc__p_gr__ofdm_allocator__ofdm_equalizer_simpledfe_ali
 static swig_cast_info _swigc__p_gr__ofdm_allocator__packet_header_default_alix[] = {  {&_swigt__p_gr__ofdm_allocator__packet_header_default_alix, 0, 0, 0},  {&_swigt__p_gr__ofdm_allocator__packet_header_ofdm_alix, _p_gr__ofdm_allocator__packet_header_ofdm_alixTo_p_gr__ofdm_allocator__packet_header_default_alix, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_gr__ofdm_allocator__packet_header_gen[] = {  {&_swigt__p_gr__ofdm_allocator__packet_header_gen, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_gr__ofdm_allocator__packet_header_ofdm_alix[] = {  {&_swigt__p_gr__ofdm_allocator__packet_header_ofdm_alix, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_gr__ofdm_allocator__packet_header_parser_alix[] = {  {&_swigt__p_gr__ofdm_allocator__packet_header_parser_alix, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_gr__ofdm_allocator__serializer_subcarrier[] = {  {&_swigt__p_gr__ofdm_allocator__serializer_subcarrier, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_gr__ofdm_allocator__trellis_metric_type_t[] = {  {&_swigt__p_gr__ofdm_allocator__trellis_metric_type_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_gr__ofdm_allocator__vector_source_tagged[] = {  {&_swigt__p_gr__ofdm_allocator__vector_source_tagged, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_gr__rt_status_t[] = {  {&_swigt__p_gr__rt_status_t, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_gr__sync_block[] = {  {&_swigt__p_gr__ofdm_allocator__vector_source_tagged, _p_gr__ofdm_allocator__vector_source_taggedTo_p_gr__sync_block, 0, 0},  {&_swigt__p_gr__sync_decimator, _p_gr__sync_decimatorTo_p_gr__sync_block, 0, 0},  {&_swigt__p_gr__sync_block, 0, 0, 0},  {&_swigt__p_gr__sync_interpolator, _p_gr__sync_interpolatorTo_p_gr__sync_block, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_gr__sync_block[] = {  {&_swigt__p_gr__ofdm_allocator__vector_source_tagged, _p_gr__ofdm_allocator__vector_source_taggedTo_p_gr__sync_block, 0, 0},  {&_swigt__p_gr__ofdm_allocator__packet_header_parser_alix, _p_gr__ofdm_allocator__packet_header_parser_alixTo_p_gr__sync_block, 0, 0},  {&_swigt__p_gr__sync_decimator, _p_gr__sync_decimatorTo_p_gr__sync_block, 0, 0},  {&_swigt__p_gr__sync_block, 0, 0, 0},  {&_swigt__p_gr__sync_interpolator, _p_gr__sync_interpolatorTo_p_gr__sync_block, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_gr__tagged_stream_block[] = {  {&_swigt__p_gr__ofdm_allocator__packet_header_gen, _p_gr__ofdm_allocator__packet_header_genTo_p_gr__tagged_stream_block, 0, 0},  {&_swigt__p_gr__ofdm_allocator__frame_equalizer_alix, _p_gr__ofdm_allocator__frame_equalizer_alixTo_p_gr__tagged_stream_block, 0, 0},  {&_swigt__p_gr__tagged_stream_block, 0, 0, 0},  {&_swigt__p_gr__ofdm_allocator__allocator_subcarrier, _p_gr__ofdm_allocator__allocator_subcarrierTo_p_gr__tagged_stream_block, 0, 0},  {&_swigt__p_gr__ofdm_allocator__serializer_subcarrier, _p_gr__ofdm_allocator__serializer_subcarrierTo_p_gr__tagged_stream_block, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_int[] = {  {&_swigt__p_int, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_long_long[] = {  {&_swigt__p_long_long, 0, 0, 0},{0, 0, 0, 0}};
@@ -51679,6 +55891,7 @@ static swig_cast_info _swigc__p_std__complexT_float_t[] = {  {&_swigt__p_std__co
 static swig_cast_info _swigc__p_std__vectorT_bool_std__allocatorT_bool_t_t[] = {  {&_swigt__p_std__vectorT_bool_std__allocatorT_bool_t_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__vectorT_gr__tag_t_std__allocatorT_gr__tag_t_t_t[] = {  {&_swigt__p_std__vectorT_gr__tag_t_std__allocatorT_gr__tag_t_t_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__vectorT_std__complexT_float_t_std__allocatorT_std__complexT_float_t_t_t[] = {  {&_swigt__p_std__vectorT_std__complexT_float_t_std__allocatorT_std__complexT_float_t_t_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_std__vectorT_std__vectorT_bool_std__allocatorT_bool_t_t_std__allocatorT_std__vectorT_bool_std__allocatorT_bool_t_t_t_t[] = {  {&_swigt__p_std__vectorT_std__vectorT_bool_std__allocatorT_bool_t_t_std__allocatorT_std__vectorT_bool_std__allocatorT_bool_t_t_t_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_unsigned_char[] = {  {&_swigt__p_unsigned_char, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_unsigned_int[] = {  {&_swigt__p_unsigned_int, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_unsigned_long_long[] = {  {&_swigt__p_unsigned_long_long, 0, 0, 0},{0, 0, 0, 0}};
@@ -51717,6 +55930,7 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_default_alix_t,
   _swigc__p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_gen_t,
   _swigc__p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_ofdm_alix_t,
+  _swigc__p_boost__shared_ptrT_gr__ofdm_allocator__packet_header_parser_alix_t,
   _swigc__p_boost__shared_ptrT_gr__ofdm_allocator__serializer_subcarrier_t,
   _swigc__p_boost__shared_ptrT_gr__ofdm_allocator__vector_source_tagged_t,
   _swigc__p_boost__shared_ptrT_gr__top_block_t,
@@ -51750,6 +55964,7 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_gr__ofdm_allocator__packet_header_default_alix,
   _swigc__p_gr__ofdm_allocator__packet_header_gen,
   _swigc__p_gr__ofdm_allocator__packet_header_ofdm_alix,
+  _swigc__p_gr__ofdm_allocator__packet_header_parser_alix,
   _swigc__p_gr__ofdm_allocator__serializer_subcarrier,
   _swigc__p_gr__ofdm_allocator__trellis_metric_type_t,
   _swigc__p_gr__ofdm_allocator__vector_source_tagged,
@@ -51771,6 +55986,7 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_std__vectorT_bool_std__allocatorT_bool_t_t,
   _swigc__p_std__vectorT_gr__tag_t_std__allocatorT_gr__tag_t_t_t,
   _swigc__p_std__vectorT_std__complexT_float_t_std__allocatorT_std__complexT_float_t_t_t,
+  _swigc__p_std__vectorT_std__vectorT_bool_std__allocatorT_bool_t_t_std__allocatorT_std__vectorT_bool_std__allocatorT_bool_t_t_t_t,
   _swigc__p_unsigned_char,
   _swigc__p_unsigned_int,
   _swigc__p_unsigned_long_long,

@@ -6,15 +6,13 @@
     <includes refid="constellation__alix_8h" local="no">ofdm_allocator/constellation_alix.h</includes>
     <includes local="no">gnuradio/block.h</includes>
     <incdepgraph>
-      <node id="33">
+      <node id="34">
         <label>gnuradio/attributes.h</label>
       </node>
-      <node id="34">
+      <node id="35">
         <label>ofdm_allocator/constellation_alix.h</label>
         <link refid="constellation__alix_8h"/>
-        <childnode refid="32" relation="include">
-        </childnode>
-        <childnode refid="35" relation="include">
+        <childnode refid="33" relation="include">
         </childnode>
         <childnode refid="36" relation="include">
         </childnode>
@@ -26,42 +24,44 @@
         </childnode>
         <childnode refid="40" relation="include">
         </childnode>
-      </node>
-      <node id="37">
-        <label>boost/any.hpp</label>
-      </node>
-      <node id="40">
-        <label>vector</label>
-      </node>
-      <node id="41">
-        <label>gnuradio/block.h</label>
-      </node>
-      <node id="38">
-        <label>gnuradio/gr_complex.h</label>
-      </node>
-      <node id="39">
-        <label>pmt/pmt.h</label>
-      </node>
-      <node id="36">
-        <label>boost/enable_shared_from_this.hpp</label>
-      </node>
-      <node id="32">
-        <label>ofdm_allocator/api.h</label>
-        <link refid="api_8h"/>
-        <childnode refid="33" relation="include">
-        </childnode>
-      </node>
-      <node id="31">
-        <label>/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/constellation_decoder_alix.h</label>
-        <link refid="constellation_decoder_alix.h"/>
-        <childnode refid="32" relation="include">
-        </childnode>
-        <childnode refid="34" relation="include">
-        </childnode>
         <childnode refid="41" relation="include">
         </childnode>
       </node>
-      <node id="35">
+      <node id="38">
+        <label>boost/any.hpp</label>
+      </node>
+      <node id="41">
+        <label>vector</label>
+      </node>
+      <node id="42">
+        <label>gnuradio/block.h</label>
+      </node>
+      <node id="39">
+        <label>gnuradio/gr_complex.h</label>
+      </node>
+      <node id="40">
+        <label>pmt/pmt.h</label>
+      </node>
+      <node id="37">
+        <label>boost/enable_shared_from_this.hpp</label>
+      </node>
+      <node id="33">
+        <label>ofdm_allocator/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="34" relation="include">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/constellation_decoder_alix.h</label>
+        <link refid="constellation_decoder_alix.h"/>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+      </node>
+      <node id="36">
         <label>ofdm_allocator/metric_type_alix.h</label>
         <link refid="metric__type__alix_8h"/>
       </node>

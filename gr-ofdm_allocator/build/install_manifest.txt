@@ -12,6 +12,7 @@
 /usr/local/include/ofdm_allocator/constellation_alix.h
 /usr/local/include/ofdm_allocator/metric_type_alix.h
 /usr/local/include/ofdm_allocator/constellation_decoder_alix.h
+/usr/local/include/ofdm_allocator/packet_header_parser_alix.h
 /usr/local/lib/libgnuradio-ofdm_allocator.so
 /usr/local/lib/python2.7/dist-packages/ofdm_allocator/_ofdm_allocator_swig.so
 /usr/local/lib/python2.7/dist-packages/ofdm_allocator/ofdm_allocator_swig.py
@@ -38,10 +39,12 @@
 /usr/local/share/gnuradio/grc/blocks/ofdm_allocator_constellation_alix.xml
 /usr/local/share/gnuradio/grc/blocks/ofdm_allocator_metric_type_alix.xml
 /usr/local/share/gnuradio/grc/blocks/ofdm_allocator_constellation_decoder_alix.xml
+/usr/local/share/gnuradio/grc/blocks/ofdm_allocator_packet_header_parser_alix.xml
 /usr/local/share/doc/gr-ofdm_allocator/xml/vector__source__tagged__impl_8h.xml
 /usr/local/share/doc/gr-ofdm_allocator/xml/frame__equalizer__alix__impl_8h.xml
 /usr/local/share/doc/gr-ofdm_allocator/xml/classgr_1_1ofdm__allocator_1_1allocator__subcarrier__impl.xml
 /usr/local/share/doc/gr-ofdm_allocator/xml/classgr_1_1ofdm__allocator_1_1ofdm__equalizer__simpledfe__alix.xml
+/usr/local/share/doc/gr-ofdm_allocator/xml/packet__header__parser__alix__impl_8h.xml
 /usr/local/share/doc/gr-ofdm_allocator/xml/classgr_1_1ofdm__allocator_1_1constellation__16qam.xml
 /usr/local/share/doc/gr-ofdm_allocator/xml/frame__equalizer__alix_8h.xml
 /usr/local/share/doc/gr-ofdm_allocator/xml/metric__type__alix_8h.xml
@@ -80,6 +83,7 @@
 /usr/local/share/doc/gr-ofdm_allocator/xml/constellation__decoder__alix_8h.xml
 /usr/local/share/doc/gr-ofdm_allocator/xml/classgr_1_1ofdm__allocator_1_1constellation__8psk__natural.xml
 /usr/local/share/doc/gr-ofdm_allocator/xml/constellation__alix_8h.xml
+/usr/local/share/doc/gr-ofdm_allocator/xml/packet__header__parser__alix_8h.xml
 /usr/local/share/doc/gr-ofdm_allocator/xml/classgr_1_1ofdm__allocator_1_1constellation__rect.xml
 /usr/local/share/doc/gr-ofdm_allocator/xml/classgr_1_1ofdm__allocator_1_1constellation__calcdist.xml
 /usr/local/share/doc/gr-ofdm_allocator/xml/classgr_1_1ofdm__allocator_1_1constellation__psk.xml
@@ -113,6 +117,7 @@
 /usr/local/share/doc/gr-ofdm_allocator/html/functions_m.html
 /usr/local/share/doc/gr-ofdm_allocator/html/classgr_1_1ofdm__allocator_1_1constellation__8psk-members.html
 /usr/local/share/doc/gr-ofdm_allocator/html/allocator__subcarrier_8h.html
+/usr/local/share/doc/gr-ofdm_allocator/html/packet__header__parser__alix__impl_8h_source.html
 /usr/local/share/doc/gr-ofdm_allocator/html/folderclosed.png
 /usr/local/share/doc/gr-ofdm_allocator/html/functions_u.html
 /usr/local/share/doc/gr-ofdm_allocator/html/tab_s.png
@@ -235,6 +240,7 @@
 /usr/local/share/doc/gr-ofdm_allocator/html/classgr_1_1ofdm__allocator_1_1constellation__alix.js
 /usr/local/share/doc/gr-ofdm_allocator/html/classgr_1_1ofdm__allocator_1_1serializer__subcarrier__impl.html
 /usr/local/share/doc/gr-ofdm_allocator/html/classgr_1_1ofdm__allocator_1_1ofdm__equalizer__simpledfe__alix.png
+/usr/local/share/doc/gr-ofdm_allocator/html/packet__header__parser__alix__impl_8h.html
 /usr/local/share/doc/gr-ofdm_allocator/html/functions_dup.js
 /usr/local/share/doc/gr-ofdm_allocator/html/tab_b.png
 /usr/local/share/doc/gr-ofdm_allocator/html/vector__source__tagged__impl_8h_source.html
@@ -255,6 +261,7 @@
 /usr/local/share/doc/gr-ofdm_allocator/html/classgr_1_1ofdm__allocator_1_1constellation__qpsk.js
 /usr/local/share/doc/gr-ofdm_allocator/html/classgr_1_1ofdm__allocator_1_1serializer__subcarrier.png
 /usr/local/share/doc/gr-ofdm_allocator/html/classgr_1_1ofdm__allocator_1_1constellation__rect-members.html
+/usr/local/share/doc/gr-ofdm_allocator/html/packet__header__parser__alix_8h.html
 /usr/local/share/doc/gr-ofdm_allocator/html/classgr_1_1ofdm__allocator_1_1constellation__8psk__natural.js
 /usr/local/share/doc/gr-ofdm_allocator/html/namespacegr.html
 /usr/local/share/doc/gr-ofdm_allocator/html/group__block.html
@@ -323,6 +330,7 @@
 /usr/local/share/doc/gr-ofdm_allocator/html/classgr_1_1ofdm__allocator_1_1constellation__expl__rect.html
 /usr/local/share/doc/gr-ofdm_allocator/html/classgr_1_1ofdm__allocator_1_1constellation__decoder__alix.js
 /usr/local/share/doc/gr-ofdm_allocator/html/index.html
+/usr/local/share/doc/gr-ofdm_allocator/html/packet__header__parser__alix_8h_source.html
 /usr/local/share/doc/gr-ofdm_allocator/html/classgr_1_1ofdm__allocator_1_1serializer__subcarrier__impl.js
 /usr/local/share/doc/gr-ofdm_allocator/html/classgr_1_1ofdm__allocator_1_1vector__source__tagged__impl.js
 /usr/local/share/doc/gr-ofdm_allocator/html/classgr_1_1ofdm__allocator_1_1constellation__8psk__natural.html

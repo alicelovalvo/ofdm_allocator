@@ -109,6 +109,19 @@
         </inbodydescription>
         <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h" line="40" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h" bodystart="40" bodyend="-1"/>
       </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1vector__source__tagged__impl_1a3c5ea3ddbb616c57d7b24985b43f1432" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::ofdm_allocator::vector_source_tagged_impl::d_header_len</definition>
+        <argsstring></argsstring>
+        <name>d_header_len</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h" line="41" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
       <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1vector__source__tagged__impl_1ad0519a23f6567cc19c150a5ceac69fc4" prot="private" static="no" mutable="no">
         <type>std::vector&lt; int &gt;</type>
         <definition>std::vector&lt;int&gt; gr::ofdm_allocator::vector_source_tagged_impl::d_final_subcarrier</definition>
@@ -120,7 +133,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h" line="41" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h" bodystart="41" bodyend="-1"/>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h" line="42" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h" bodystart="42" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1vector__source__tagged__impl_1ad0d13f14e22a8e5887d09a538e8785df" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -133,7 +146,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h" line="42" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h" bodystart="42" bodyend="-1"/>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h" line="43" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h" bodystart="43" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1vector__source__tagged__impl_1a1cdd32ac6ce9f1b6be4a4d2cbf3c409f" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -146,7 +159,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h" line="43" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h" bodystart="43" bodyend="-1"/>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h" line="44" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h" bodystart="44" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1vector__source__tagged__impl_1af6c08ed773a8cdf6ca84ab3dcbf5418f" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -159,7 +172,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h" line="44" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h" bodystart="44" bodyend="-1"/>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h" line="45" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h" bodystart="45" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1vector__source__tagged__impl_1a8c0cd24152eb96546c3e25b81f01d633" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -172,7 +185,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h" line="45" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h" bodystart="45" bodyend="-1"/>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h" line="46" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h" bodystart="46" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1vector__source__tagged__impl_1a69f7799941063d83c2757cd8790bea47" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -185,7 +198,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h" line="46" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h" bodystart="46" bodyend="-1"/>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h" line="47" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h" bodystart="47" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1vector__source__tagged__impl_1aca27f5f90a9af7908ac6d48c3b88b87e" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -198,7 +211,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h" line="47" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h" bodystart="47" bodyend="-1"/>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h" line="48" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h" bodystart="48" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1vector__source__tagged__impl_1a7dc4c69a87c17586346843fddc8cf1f1" prot="private" static="no" mutable="no">
         <type>pmt::pmt_t</type>
@@ -211,7 +224,20 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h" line="48" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h" bodystart="48" bodyend="-1"/>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h" line="49" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1vector__source__tagged__impl_1aac1499b8b59e1b02e8231452eef45b1a" prot="private" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::ofdm_allocator::vector_source_tagged_impl::d_len_tag_key_2</definition>
+        <argsstring></argsstring>
+        <name>d_len_tag_key_2</name>
+        <briefdescription>
+<para>Key of length tag. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h" line="50" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h" bodystart="50" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1vector__source__tagged__impl_1a66bfa519ff829cfeb39ec40a7e206795" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -224,7 +250,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h" line="49" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h" bodystart="49" bodyend="-1"/>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h" line="51" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h" bodystart="51" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1vector__source__tagged__impl_1a27abe8f6bfbd6e08c0f79b10768f0aa1" prot="private" static="no" mutable="no">
         <type>std::vector&lt; tag_t &gt;</type>
@@ -237,7 +263,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h" line="50" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h" bodystart="50" bodyend="-1"/>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h" line="52" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h" bodystart="52" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1vector__source__tagged__impl_1a73abe09f55e5eed02e123acbc8aed10d" prot="private" static="no" mutable="no">
         <type>unsigned int</type>
@@ -250,14 +276,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h" line="51" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h" bodystart="51" bodyend="-1"/>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h" line="53" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h" bodystart="53" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
-      <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1vector__source__tagged__impl_1ab4b6fa6be1c6529b93d3855094ab5921" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1vector__source__tagged__impl_1adde21586887e191b035790d7ef68faed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
         <definition>gr::ofdm_allocator::vector_source_tagged_impl::vector_source_tagged_impl</definition>
-        <argsstring>(const std::vector&lt; int &gt; &amp;data, bool repeat, int vlen, bool fixed_data, int fft_len, int max_len_data_subcarr, int max_len_pilot_subcarr, int max_vector_data_subcarr, int max_vector_pilot_subcarr, bool fixed_pilot, const std::vector&lt; int &gt; &amp;pilot, const std::string &amp;length_tag_key, const std::vector&lt; tag_t &gt; &amp;tags)</argsstring>
+        <argsstring>(const std::vector&lt; int &gt; &amp;data, bool repeat, int vlen, bool fixed_data, int fft_len, int max_len_data_subcarr, int max_len_pilot_subcarr, int max_vector_data_subcarr, int max_vector_pilot_subcarr, bool fixed_pilot, const std::vector&lt; int &gt; &amp;pilot, const std::string &amp;length_tag_key, const std::string &amp;length_tag_key_2, const std::vector&lt; tag_t &gt; &amp;tags)</argsstring>
         <name>vector_source_tagged_impl</name>
         <param>
           <type>const std::vector&lt; int &gt; &amp;</type>
@@ -308,6 +334,10 @@
           <declname>length_tag_key</declname>
         </param>
         <param>
+          <type>const std::string &amp;</type>
+          <declname>length_tag_key_2</declname>
+        </param>
+        <param>
           <type>const std::vector&lt; tag_t &gt; &amp;</type>
           <declname>tags</declname>
         </param>
@@ -317,7 +347,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h" line="54" column="1"/>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h" line="56" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1vector__source__tagged__impl_1a68225501172546d3d7d4c76037c886ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -330,7 +360,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h" line="61" column="1"/>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h" line="64" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1vector__source__tagged__impl_1a4f54213a7fb4a6edfd2a9f478521b781" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -344,7 +374,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h" line="63" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h" bodystart="63" bodyend="63"/>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h" line="66" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h" bodystart="66" bodyend="66"/>
         <references refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged__impl_1a19f1192c8bb2cc72005ec11c7b670a74">final_update</references>
         <references refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged__impl_1aed37eafbb63cc37e53c4b8284bf2c5ad">set_data</references>
         <references refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged__impl_1a064b34b2b7c62f5b7cdf3de8dc668372">set_random_vector_data</references>
@@ -370,8 +400,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h" line="64" column="1"/>
-        <referencedby refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged__impl_1a4f54213a7fb4a6edfd2a9f478521b781" compoundref="vector__source__tagged__impl_8h" startline="63" endline="63">rewind</referencedby>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h" line="67" column="1"/>
+        <referencedby refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged__impl_1a4f54213a7fb4a6edfd2a9f478521b781" compoundref="vector__source__tagged__impl_8h" startline="66" endline="66">rewind</referencedby>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1vector__source__tagged__impl_1a19f1192c8bb2cc72005ec11c7b670a74" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -385,8 +415,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h" line="67" column="1"/>
-        <referencedby refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged__impl_1a4f54213a7fb4a6edfd2a9f478521b781" compoundref="vector__source__tagged__impl_8h" startline="63" endline="63">rewind</referencedby>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h" line="70" column="1"/>
+        <referencedby refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged__impl_1a4f54213a7fb4a6edfd2a9f478521b781" compoundref="vector__source__tagged__impl_8h" startline="66" endline="66">rewind</referencedby>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1vector__source__tagged__impl_1a064b34b2b7c62f5b7cdf3de8dc668372" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -400,8 +430,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h" line="68" column="1"/>
-        <referencedby refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged__impl_1a4f54213a7fb4a6edfd2a9f478521b781" compoundref="vector__source__tagged__impl_8h" startline="63" endline="63">rewind</referencedby>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h" line="71" column="1"/>
+        <referencedby refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged__impl_1a4f54213a7fb4a6edfd2a9f478521b781" compoundref="vector__source__tagged__impl_8h" startline="66" endline="66">rewind</referencedby>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1vector__source__tagged__impl_1a37f006aadfc8523e42c1b1da948b3d39" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -415,8 +445,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h" line="69" column="1"/>
-        <referencedby refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged__impl_1a4f54213a7fb4a6edfd2a9f478521b781" compoundref="vector__source__tagged__impl_8h" startline="63" endline="63">rewind</referencedby>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h" line="72" column="1"/>
+        <referencedby refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged__impl_1a4f54213a7fb4a6edfd2a9f478521b781" compoundref="vector__source__tagged__impl_8h" startline="66" endline="66">rewind</referencedby>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1vector__source__tagged__impl_1add56d67f2dc6f82bff9a7a83d8e7c092" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -434,7 +464,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h" line="70" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h" bodystart="70" bodyend="70"/>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h" line="73" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h" bodystart="73" bodyend="73"/>
         <references refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged__impl_1a3fb3b803d682961214ca28b24a4473f5">work</references>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1vector__source__tagged__impl_1a3fb3b803d682961214ca28b24a4473f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -460,8 +490,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h" line="73" column="1"/>
-        <referencedby refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged__impl_1add56d67f2dc6f82bff9a7a83d8e7c092" compoundref="vector__source__tagged__impl_8h" startline="70" endline="70">set_repeat</referencedby>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h" line="76" column="1"/>
+        <referencedby refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged__impl_1add56d67f2dc6f82bff9a7a83d8e7c092" compoundref="vector__source__tagged__impl_8h" startline="73" endline="73">set_repeat</referencedby>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -475,14 +505,14 @@
         <childnode refid="233" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="234">
-        <label>gr::sync_block</label>
-      </node>
       <node id="233">
         <label>gr::ofdm_allocator::vector_source_tagged</label>
         <link refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged"/>
         <childnode refid="234" relation="public-inheritance">
         </childnode>
+      </node>
+      <node id="234">
+        <label>sync_block</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
@@ -492,17 +522,17 @@
         <childnode refid="236" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="237">
-        <label>gr::sync_block</label>
-      </node>
       <node id="236">
         <label>gr::ofdm_allocator::vector_source_tagged</label>
         <link refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged"/>
         <childnode refid="237" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="237">
+        <label>sync_block</label>
+      </node>
     </collaborationgraph>
-    <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h" line="30" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h" bodystart="29" bodyend="76"/>
+    <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h" line="30" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h" bodystart="29" bodyend="79"/>
     <listofallmembers>
       <member refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged__impl_1aee572485c603ff6da20bc573ab16ef04" prot="private" virt="non-virtual"><scope>gr::ofdm_allocator::vector_source_tagged_impl</scope><name>d_data</name></member>
       <member refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged__impl_1af6c08ed773a8cdf6ca84ab3dcbf5418f" prot="private" virt="non-virtual"><scope>gr::ofdm_allocator::vector_source_tagged_impl</scope><name>d_data_sub</name></member>
@@ -510,8 +540,10 @@
       <member refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged__impl_1ad0519a23f6567cc19c150a5ceac69fc4" prot="private" virt="non-virtual"><scope>gr::ofdm_allocator::vector_source_tagged_impl</scope><name>d_final_subcarrier</name></member>
       <member refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged__impl_1a722622ad4dc0839cea162537e946cdad" prot="private" virt="non-virtual"><scope>gr::ofdm_allocator::vector_source_tagged_impl</scope><name>d_fixed_data</name></member>
       <member refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged__impl_1ae9d3ec039604238dcd09685089fd1ced" prot="private" virt="non-virtual"><scope>gr::ofdm_allocator::vector_source_tagged_impl</scope><name>d_fixed_pilot</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged__impl_1a3c5ea3ddbb616c57d7b24985b43f1432" prot="private" virt="non-virtual"><scope>gr::ofdm_allocator::vector_source_tagged_impl</scope><name>d_header_len</name></member>
       <member refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged__impl_1a3439517a095cf6b27a1be32d8083f83a" prot="private" virt="non-virtual"><scope>gr::ofdm_allocator::vector_source_tagged_impl</scope><name>d_i</name></member>
       <member refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged__impl_1a7dc4c69a87c17586346843fddc8cf1f1" prot="private" virt="non-virtual"><scope>gr::ofdm_allocator::vector_source_tagged_impl</scope><name>d_len_tag_key</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged__impl_1aac1499b8b59e1b02e8231452eef45b1a" prot="private" virt="non-virtual"><scope>gr::ofdm_allocator::vector_source_tagged_impl</scope><name>d_len_tag_key_2</name></member>
       <member refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged__impl_1a196ab495b30a37a10897ce4b56fbc68e" prot="private" virt="non-virtual"><scope>gr::ofdm_allocator::vector_source_tagged_impl</scope><name>d_offset</name></member>
       <member refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged__impl_1a38f13ee7e221b775464e4f7473591971" prot="private" virt="non-virtual"><scope>gr::ofdm_allocator::vector_source_tagged_impl</scope><name>d_pilot</name></member>
       <member refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged__impl_1a8c0cd24152eb96546c3e25b81f01d633" prot="private" virt="non-virtual"><scope>gr::ofdm_allocator::vector_source_tagged_impl</scope><name>d_pilot_sub</name></member>
@@ -524,14 +556,14 @@
       <member refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged__impl_1aca27f5f90a9af7908ac6d48c3b88b87e" prot="private" virt="non-virtual"><scope>gr::ofdm_allocator::vector_source_tagged_impl</scope><name>d_vector_pilot</name></member>
       <member refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged__impl_1a05a8c4a56131f8f558e42747abe17289" prot="private" virt="non-virtual"><scope>gr::ofdm_allocator::vector_source_tagged_impl</scope><name>d_vlen</name></member>
       <member refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged__impl_1a19f1192c8bb2cc72005ec11c7b670a74" prot="public" virt="virtual"><scope>gr::ofdm_allocator::vector_source_tagged_impl</scope><name>final_update</name></member>
-      <member refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged_1abce033ad8733c61bad3b37ceafbbe0fb" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::vector_source_tagged_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged_1a5530376837aeb110794df61213911ff1" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::vector_source_tagged_impl</scope><name>make</name></member>
       <member refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged__impl_1a4f54213a7fb4a6edfd2a9f478521b781" prot="public" virt="virtual"><scope>gr::ofdm_allocator::vector_source_tagged_impl</scope><name>rewind</name></member>
       <member refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged__impl_1aed37eafbb63cc37e53c4b8284bf2c5ad" prot="public" virt="virtual"><scope>gr::ofdm_allocator::vector_source_tagged_impl</scope><name>set_data</name></member>
       <member refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged__impl_1a064b34b2b7c62f5b7cdf3de8dc668372" prot="public" virt="virtual"><scope>gr::ofdm_allocator::vector_source_tagged_impl</scope><name>set_random_vector_data</name></member>
       <member refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged__impl_1a37f006aadfc8523e42c1b1da948b3d39" prot="public" virt="virtual"><scope>gr::ofdm_allocator::vector_source_tagged_impl</scope><name>set_random_vector_pilot</name></member>
       <member refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged__impl_1add56d67f2dc6f82bff9a7a83d8e7c092" prot="public" virt="virtual"><scope>gr::ofdm_allocator::vector_source_tagged_impl</scope><name>set_repeat</name></member>
       <member refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged_1aebd68bd56130611327e2ff5f25b90eeb" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::vector_source_tagged_impl</scope><name>sptr</name></member>
-      <member refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged__impl_1ab4b6fa6be1c6529b93d3855094ab5921" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::vector_source_tagged_impl</scope><name>vector_source_tagged_impl</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged__impl_1adde21586887e191b035790d7ef68faed" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::vector_source_tagged_impl</scope><name>vector_source_tagged_impl</name></member>
       <member refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged__impl_1a3fb3b803d682961214ca28b24a4473f5" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::vector_source_tagged_impl</scope><name>work</name></member>
       <member refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged__impl_1a68225501172546d3d7d4c76037c886ae" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::vector_source_tagged_impl</scope><name>~vector_source_tagged_impl</name></member>
     </listofallmembers>

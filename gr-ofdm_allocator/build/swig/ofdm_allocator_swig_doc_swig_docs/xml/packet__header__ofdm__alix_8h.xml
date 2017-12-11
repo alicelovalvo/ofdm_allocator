@@ -6,47 +6,47 @@
     <includes refid="api_8h" local="no">ofdm_allocator/api.h</includes>
     <includes refid="packet__header__default__alix_8h" local="no">ofdm_allocator/packet_header_default_alix.h</includes>
     <incdepgraph>
-      <node id="102">
+      <node id="104">
         <label>gnuradio/tags.h</label>
       </node>
-      <node id="100">
+      <node id="102">
         <label>gnuradio/attributes.h</label>
       </node>
-      <node id="101">
+      <node id="103">
         <label>ofdm_allocator/packet_header_default_alix.h</label>
         <link refid="packet__header__default__alix_8h"/>
-        <childnode refid="102" relation="include">
-        </childnode>
-        <childnode refid="99" relation="include">
-        </childnode>
-        <childnode refid="103" relation="include">
-        </childnode>
         <childnode refid="104" relation="include">
         </childnode>
+        <childnode refid="101" relation="include">
+        </childnode>
+        <childnode refid="105" relation="include">
+        </childnode>
+        <childnode refid="106" relation="include">
+        </childnode>
       </node>
-      <node id="104">
+      <node id="106">
         <label>boost/crc.hpp</label>
       </node>
-      <node id="98">
+      <node id="100">
         <label>vector</label>
       </node>
-      <node id="103">
+      <node id="105">
         <label>boost/enable_shared_from_this.hpp</label>
       </node>
-      <node id="99">
+      <node id="101">
         <label>ofdm_allocator/api.h</label>
         <link refid="api_8h"/>
-        <childnode refid="100" relation="include">
+        <childnode refid="102" relation="include">
         </childnode>
       </node>
-      <node id="97">
+      <node id="99">
         <label>/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h</label>
         <link refid="packet_header_ofdm_alix.h"/>
-        <childnode refid="98" relation="include">
-        </childnode>
-        <childnode refid="99" relation="include">
+        <childnode refid="100" relation="include">
         </childnode>
         <childnode refid="101" relation="include">
+        </childnode>
+        <childnode refid="103" relation="include">
         </childnode>
       </node>
     </incdepgraph>
@@ -113,32 +113,33 @@
 <codeline lineno="64"><highlight class="normal"></highlight></codeline>
 <codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>header_parser(</highlight></codeline>
 <codeline lineno="76"><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*header,</highlight></codeline>
-<codeline lineno="77"><highlight class="normal"><sp/>std::vector&lt;tag_t&gt;<sp/>&amp;tags);</highlight></codeline>
-<codeline lineno="78"><highlight class="normal"></highlight></codeline>
-<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>sptr<sp/>make(</highlight></codeline>
-<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;std::vector&lt;int&gt;<sp/>&gt;<sp/>&amp;occupied_carriers,</highlight></codeline>
-<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>n_syms,</highlight></codeline>
-<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;len_tag_key=</highlight><highlight class="stringliteral">&quot;packet_len&quot;</highlight><highlight class="normal">,</highlight></codeline>
-<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;frame_len_tag_key=</highlight><highlight class="stringliteral">&quot;frame_len&quot;</highlight><highlight class="normal">,</highlight></codeline>
-<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;num_tag_key=</highlight><highlight class="stringliteral">&quot;packet_num&quot;</highlight><highlight class="normal">,</highlight></codeline>
-<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>bits_per_header_sym=1,</highlight></codeline>
-<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>bits_per_payload_sym=1,</highlight></codeline>
-<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>scramble_header=</highlight><highlight class="keyword">false</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
-<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>header_length,</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/>std::vector&lt;tag_t&gt;<sp/>&amp;tags);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>sptr<sp/>make(</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;std::vector&lt;int&gt;<sp/>&gt;<sp/>&amp;occupied_carriers,</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>n_syms,</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;len_tag_key=</highlight><highlight class="stringliteral">&quot;packet_len&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;frame_len_tag_key=</highlight><highlight class="stringliteral">&quot;frame_len&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;num_tag_key=</highlight><highlight class="stringliteral">&quot;packet_num&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>bits_per_header_sym=1,</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>bits_per_payload_sym=1,</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>scramble_header=</highlight><highlight class="keyword">false</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
 <codeline lineno="108"><highlight class="normal"></highlight></codeline>
-<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="110" refid="classgr_1_1ofdm__allocator_1_1packet__header__ofdm__alix_1a949bff96401b74d141c516121765c9f0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>pmt::pmt_t<sp/><ref refid="classgr_1_1ofdm__allocator_1_1packet__header__ofdm__alix_1a949bff96401b74d141c516121765c9f0" kindref="member">d_frame_len_tag_key</ref>;<sp/></highlight></codeline>
-<codeline lineno="111" refid="classgr_1_1ofdm__allocator_1_1packet__header__ofdm__alix_1a18600432d1b21cbaf1f7723f6cfaf707" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;std::vector&lt;int&gt;<sp/>&gt;<sp/><ref refid="classgr_1_1ofdm__allocator_1_1packet__header__ofdm__alix_1a18600432d1b21cbaf1f7723f6cfaf707" kindref="member">d_occupied_carriers</ref>;<sp/></highlight></codeline>
-<codeline lineno="112" refid="classgr_1_1ofdm__allocator_1_1packet__header__ofdm__alix_1afc582d3d4be6ba0f933d92a0b6cb5338" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classgr_1_1ofdm__allocator_1_1packet__header__ofdm__alix_1afc582d3d4be6ba0f933d92a0b6cb5338" kindref="member">d_syms_per_set</ref>;<sp/></highlight></codeline>
-<codeline lineno="113" refid="classgr_1_1ofdm__allocator_1_1packet__header__ofdm__alix_1ad5b4c7574b16cbedc9be8a474a78f2d3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classgr_1_1ofdm__allocator_1_1packet__header__ofdm__alix_1ad5b4c7574b16cbedc9be8a474a78f2d3" kindref="member">d_bits_per_payload_sym</ref>;</highlight></codeline>
-<codeline lineno="114" refid="classgr_1_1ofdm__allocator_1_1packet__header__ofdm__alix_1a55d5f5767bbfe6503f44e60efa6d385c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>std::vector&lt;unsigned<sp/>char&gt;<sp/><ref refid="classgr_1_1ofdm__allocator_1_1packet__header__ofdm__alix_1a55d5f5767bbfe6503f44e60efa6d385c" kindref="member">d_scramble_mask</ref>;<sp/></highlight></codeline>
-<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/>};</highlight></codeline>
-<codeline lineno="116"><highlight class="normal"></highlight></codeline>
-<codeline lineno="117"><highlight class="normal"><sp/><sp/>}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>ofdm_allocator</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="118"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>gr</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="119"><highlight class="normal"></highlight></codeline>
-<codeline lineno="120"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>INCLUDED_OFDM_ALLOCATOR_PACKET_HEADER_OFDM_ALIX_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="111" refid="classgr_1_1ofdm__allocator_1_1packet__header__ofdm__alix_1a949bff96401b74d141c516121765c9f0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>pmt::pmt_t<sp/><ref refid="classgr_1_1ofdm__allocator_1_1packet__header__ofdm__alix_1a949bff96401b74d141c516121765c9f0" kindref="member">d_frame_len_tag_key</ref>;<sp/></highlight></codeline>
+<codeline lineno="112" refid="classgr_1_1ofdm__allocator_1_1packet__header__ofdm__alix_1a18600432d1b21cbaf1f7723f6cfaf707" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;std::vector&lt;int&gt;<sp/>&gt;<sp/><ref refid="classgr_1_1ofdm__allocator_1_1packet__header__ofdm__alix_1a18600432d1b21cbaf1f7723f6cfaf707" kindref="member">d_occupied_carriers</ref>;<sp/></highlight></codeline>
+<codeline lineno="113" refid="classgr_1_1ofdm__allocator_1_1packet__header__ofdm__alix_1afc582d3d4be6ba0f933d92a0b6cb5338" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classgr_1_1ofdm__allocator_1_1packet__header__ofdm__alix_1afc582d3d4be6ba0f933d92a0b6cb5338" kindref="member">d_syms_per_set</ref>;<sp/></highlight></codeline>
+<codeline lineno="114" refid="classgr_1_1ofdm__allocator_1_1packet__header__ofdm__alix_1ad5b4c7574b16cbedc9be8a474a78f2d3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classgr_1_1ofdm__allocator_1_1packet__header__ofdm__alix_1ad5b4c7574b16cbedc9be8a474a78f2d3" kindref="member">d_bits_per_payload_sym</ref>;</highlight></codeline>
+<codeline lineno="115" refid="classgr_1_1ofdm__allocator_1_1packet__header__ofdm__alix_1a55d5f5767bbfe6503f44e60efa6d385c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>std::vector&lt;unsigned<sp/>char&gt;<sp/><ref refid="classgr_1_1ofdm__allocator_1_1packet__header__ofdm__alix_1a55d5f5767bbfe6503f44e60efa6d385c" kindref="member">d_scramble_mask</ref>;<sp/></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/>}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>ofdm_allocator</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>gr</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>INCLUDED_OFDM_ALLOCATOR_PACKET_HEADER_OFDM_ALIX_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
     </programlisting>
     <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h"/>
   </compounddef>

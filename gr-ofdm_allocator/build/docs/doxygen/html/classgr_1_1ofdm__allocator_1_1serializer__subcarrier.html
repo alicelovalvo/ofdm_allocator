@@ -80,9 +80,9 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a6cabce7c2d2fd89e0322f7bda15e3fc4"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classgr_1_1ofdm__allocator_1_1serializer__subcarrier.html#a54dccc15bc1eb99dcb0919633f745913">sptr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgr_1_1ofdm__allocator_1_1serializer__subcarrier.html#a6cabce7c2d2fd89e0322f7bda15e3fc4">make</a> (int fft_len, int vector_len, const std::string &amp;len_tag_key=&quot;frame_len&quot;, const std::string &amp;packet_len_tag_key=&quot;&quot;, int symbols_skipped=0, const std::string &amp;carr_offset_key=&quot;&quot;, bool input_is_shifted=true)</td></tr>
-<tr class="memdesc:a6cabce7c2d2fd89e0322f7bda15e3fc4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a shared_ptr to a new instance of <a class="el" href="classgr_1_1ofdm__allocator_1_1serializer__subcarrier.html" title="&lt;+description of block+&gt; ">ofdm_allocator::serializer_subcarrier</a>.  <a href="#a6cabce7c2d2fd89e0322f7bda15e3fc4">More...</a><br /></td></tr>
-<tr class="separator:a6cabce7c2d2fd89e0322f7bda15e3fc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27269028ca71e67973713b348ebc10db"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classgr_1_1ofdm__allocator_1_1serializer__subcarrier.html#a54dccc15bc1eb99dcb0919633f745913">sptr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgr_1_1ofdm__allocator_1_1serializer__subcarrier.html#a27269028ca71e67973713b348ebc10db">make</a> (int fft_len, int vector_len, bool fixed_pilot=true, bool fixed_data=true, int max_len_data_subcarr=48, int max_len_pilot_subcarr=4, int max_vector_data_subcarr=1, int max_vector_pilot_subcarr=1, const std::string &amp;len_tag_key=&quot;frame_len&quot;, const std::string &amp;packet_len_tag_key=&quot;&quot;, int symbols_skipped=0, const std::string &amp;carr_offset_key=&quot;&quot;, bool input_is_shifted=true)</td></tr>
+<tr class="memdesc:a27269028ca71e67973713b348ebc10db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a shared_ptr to a new instance of <a class="el" href="classgr_1_1ofdm__allocator_1_1serializer__subcarrier.html" title="&lt;+description of block+&gt; ">ofdm_allocator::serializer_subcarrier</a>.  <a href="#a27269028ca71e67973713b348ebc10db">More...</a><br /></td></tr>
+<tr class="separator:a27269028ca71e67973713b348ebc10db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>&lt;+description of block+&gt; </p>
@@ -100,7 +100,7 @@ Static Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a6cabce7c2d2fd89e0322f7bda15e3fc4"></a>
+<a class="anchor" id="a27269028ca71e67973713b348ebc10db"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -118,6 +118,42 @@ Static Public Member Functions</h2></td></tr>
           <td></td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>vector_len</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>fixed_pilot</em> = <code>true</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>fixed_data</em> = <code>true</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>max_len_data_subcarr</em> = <code>48</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>max_len_pilot_subcarr</em> = <code>4</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>max_vector_data_subcarr</em> = <code>1</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>max_vector_pilot_subcarr</em> = <code>1</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -163,7 +199,7 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Return a shared_ptr to a new instance of <a class="el" href="classgr_1_1ofdm__allocator_1_1serializer__subcarrier.html" title="&lt;+description of block+&gt; ">ofdm_allocator::serializer_subcarrier</a>. </p>
-<p>To avoid accidental use of raw pointers, <a class="el" href="classgr_1_1ofdm__allocator_1_1serializer__subcarrier.html" title="&lt;+description of block+&gt; ">ofdm_allocator::serializer_subcarrier</a>'s constructor is in a private implementation class. <a class="el" href="classgr_1_1ofdm__allocator_1_1serializer__subcarrier.html#a6cabce7c2d2fd89e0322f7bda15e3fc4" title="Return a shared_ptr to a new instance of ofdm_allocator::serializer_subcarrier. ">ofdm_allocator::serializer_subcarrier::make</a> is the public interface for creating new instances. </p>
+<p>To avoid accidental use of raw pointers, <a class="el" href="classgr_1_1ofdm__allocator_1_1serializer__subcarrier.html" title="&lt;+description of block+&gt; ">ofdm_allocator::serializer_subcarrier</a>'s constructor is in a private implementation class. <a class="el" href="classgr_1_1ofdm__allocator_1_1serializer__subcarrier.html#a27269028ca71e67973713b348ebc10db" title="Return a shared_ptr to a new instance of ofdm_allocator::serializer_subcarrier. ">ofdm_allocator::serializer_subcarrier::make</a> is the public interface for creating new instances. </p>
 
 </div>
 </div>
@@ -176,7 +212,7 @@ Static Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacegr.html">gr</a></li><li class="navelem"><a class="el" href="namespacegr_1_1ofdm__allocator.html">ofdm_allocator</a></li><li class="navelem"><a class="el" href="classgr_1_1ofdm__allocator_1_1serializer__subcarrier.html">serializer_subcarrier</a></li>
-    <li class="footer">Generated on Sat Dec 9 2017 11:50:06 for GNU Radio&#39;s OFDM_ALLOCATOR Package by
+    <li class="footer">Generated on Mon Dec 11 2017 16:44:13 for GNU Radio&#39;s OFDM_ALLOCATOR Package by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

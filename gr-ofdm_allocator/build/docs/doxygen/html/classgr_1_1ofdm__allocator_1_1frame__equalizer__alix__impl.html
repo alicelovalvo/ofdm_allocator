@@ -71,8 +71,8 @@ Inheritance diagram for gr::ofdm_allocator::frame_equalizer_alix_impl:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a809b589464c6dfa38ee5787f226790f4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix__impl.html#a809b589464c6dfa38ee5787f226790f4">frame_equalizer_alix_impl</a> (<a class="el" href="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__base__alix.html#abe2c213a9836080a479aba4abc45e6ae">ofdm_equalizer_base_alix::sptr</a> equalizer, int vector_len, int cp_len, bool fixed_pilot, int max_len_data_subcarr, int max_len_pilot_subcarr, int max_vector_pilot_subcarr, const std::string &amp;tsb_key, bool propagate_channel_state, int fixed_frame_len, bool input_is_shifted)</td></tr>
-<tr class="separator:a809b589464c6dfa38ee5787f226790f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad38413356456630d5c12f1b7aa185331"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix__impl.html#ad38413356456630d5c12f1b7aa185331">frame_equalizer_alix_impl</a> (<a class="el" href="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__base__alix.html#abe2c213a9836080a479aba4abc45e6ae">ofdm_equalizer_base_alix::sptr</a> equalizer, int vector_len, int cp_len, bool fixed_pilot, bool fixed_data, int max_len_data_subcarr, int max_len_pilot_subcarr, int max_vector_data_subcarrier, int max_vector_pilot_subcarr, const std::vector&lt; std::vector&lt; gr_complex &gt; &gt; &amp;pilot_symbols, const std::string &amp;tsb_key, bool propagate_channel_state, int fixed_frame_len, bool input_is_shifted)</td></tr>
+<tr class="separator:ad38413356456630d5c12f1b7aa185331"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac244d91b1d8f03d7c9eaca69e4a50706"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix__impl.html#ac244d91b1d8f03d7c9eaca69e4a50706">~frame_equalizer_alix_impl</a> ()</td></tr>
 <tr class="separator:ac244d91b1d8f03d7c9eaca69e4a50706"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad7bca096abb8a1b37c67d70771ec38a1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix__impl.html#ad7bca096abb8a1b37c67d70771ec38a1">work</a> (int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</td></tr>
@@ -84,12 +84,12 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a25ae200123440ea6c6e1ff089e095e2a inherit pub_types_classgr_1_1ofdm__allocator_1_1frame__equalizer__alix"><td class="memItemLeft" align="right" valign="top">typedef boost::shared_ptr&lt; <a class="el" href="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix.html">frame_equalizer_alix</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix.html#a25ae200123440ea6c6e1ff089e095e2a">sptr</a></td></tr>
 <tr class="separator:a25ae200123440ea6c6e1ff089e095e2a inherit pub_types_classgr_1_1ofdm__allocator_1_1frame__equalizer__alix"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_static_methods_classgr_1_1ofdm__allocator_1_1frame__equalizer__alix"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_classgr_1_1ofdm__allocator_1_1frame__equalizer__alix')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix.html">gr::ofdm_allocator::frame_equalizer_alix</a></td></tr>
-<tr class="memitem:aeb1a1a063cd2217a436758b816e0d7ab inherit pub_static_methods_classgr_1_1ofdm__allocator_1_1frame__equalizer__alix"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix.html#a25ae200123440ea6c6e1ff089e095e2a">sptr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix.html#aeb1a1a063cd2217a436758b816e0d7ab">make</a> (<a class="el" href="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__base__alix.html#abe2c213a9836080a479aba4abc45e6ae">ofdm_equalizer_base_alix::sptr</a> equalizer, int vector_len, int cp_len, bool fixed_pilot, int max_len_data_subcarr, int max_len_pilot_subcarr, int max_vector_pilot_subcarr, const std::string &amp;tsb_key=&quot;frame_len&quot;, bool propagate_channel_state=false, int fixed_frame_len=0, bool input_is_shifted=true)</td></tr>
-<tr class="memdesc:aeb1a1a063cd2217a436758b816e0d7ab inherit pub_static_methods_classgr_1_1ofdm__allocator_1_1frame__equalizer__alix"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a shared_ptr to a new instance of <a class="el" href="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix.html" title="&lt;+description of block+&gt; ">ofdm_allocator::frame_equalizer_alix</a>.  <a href="#aeb1a1a063cd2217a436758b816e0d7ab">More...</a><br /></td></tr>
-<tr class="separator:aeb1a1a063cd2217a436758b816e0d7ab inherit pub_static_methods_classgr_1_1ofdm__allocator_1_1frame__equalizer__alix"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18ea1f682cc43cec1c0d13ae7f416fa0 inherit pub_static_methods_classgr_1_1ofdm__allocator_1_1frame__equalizer__alix"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix.html#a25ae200123440ea6c6e1ff089e095e2a">sptr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix.html#a18ea1f682cc43cec1c0d13ae7f416fa0">make</a> (<a class="el" href="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__base__alix.html#abe2c213a9836080a479aba4abc45e6ae">ofdm_equalizer_base_alix::sptr</a> equalizer, int vector_len, int cp_len, bool fixed_data, bool fixed_pilot, int max_len_data_subcarr, int max_len_pilot_subcarr, int max_vector_data_subcarr, int max_vector_pilot_subcarr, const std::vector&lt; std::vector&lt; gr_complex &gt; &gt; &amp;pilot_symbols, const std::string &amp;tsb_key=&quot;frame_len&quot;, bool propagate_channel_state=false, int fixed_frame_len=0, bool input_is_shifted=true)</td></tr>
+<tr class="memdesc:a18ea1f682cc43cec1c0d13ae7f416fa0 inherit pub_static_methods_classgr_1_1ofdm__allocator_1_1frame__equalizer__alix"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a shared_ptr to a new instance of <a class="el" href="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix.html" title="&lt;+description of block+&gt; ">ofdm_allocator::frame_equalizer_alix</a>.  <a href="#a18ea1f682cc43cec1c0d13ae7f416fa0">More...</a><br /></td></tr>
+<tr class="separator:a18ea1f682cc43cec1c0d13ae7f416fa0 inherit pub_static_methods_classgr_1_1ofdm__allocator_1_1frame__equalizer__alix"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a809b589464c6dfa38ee5787f226790f4"></a>
+<a class="anchor" id="ad38413356456630d5c12f1b7aa185331"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -120,6 +120,12 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>fixed_data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>max_len_data_subcarr</em>, </td>
         </tr>
@@ -133,7 +139,19 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>max_vector_data_subcarrier</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>max_vector_pilot_subcarr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; std::vector&lt; gr_complex &gt; &gt; &amp;&#160;</td>
+          <td class="paramname"><em>pilot_symbols</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -232,7 +250,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacegr.html">gr</a></li><li class="navelem"><a class="el" href="namespacegr_1_1ofdm__allocator.html">ofdm_allocator</a></li><li class="navelem"><a class="el" href="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix__impl.html">frame_equalizer_alix_impl</a></li>
-    <li class="footer">Generated on Sat Dec 9 2017 11:50:06 for GNU Radio&#39;s OFDM_ALLOCATOR Package by
+    <li class="footer">Generated on Mon Dec 11 2017 16:44:13 for GNU Radio&#39;s OFDM_ALLOCATOR Package by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

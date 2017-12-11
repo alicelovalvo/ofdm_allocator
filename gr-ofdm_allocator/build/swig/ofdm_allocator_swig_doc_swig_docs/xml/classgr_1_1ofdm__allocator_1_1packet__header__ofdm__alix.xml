@@ -31,7 +31,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h" line="110" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h" bodystart="110" bodyend="-1"/>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h" line="111" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h" bodystart="111" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1packet__header__ofdm__alix_1a18600432d1b21cbaf1f7723f6cfaf707" prot="protected" static="no" mutable="no">
         <type>const std::vector&lt; std::vector&lt; int &gt; &gt;</type>
@@ -44,7 +44,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h" line="111" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h" bodystart="111" bodyend="-1"/>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h" line="112" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h" bodystart="112" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1packet__header__ofdm__alix_1afc582d3d4be6ba0f933d92a0b6cb5338" prot="protected" static="no" mutable="no">
         <type>int</type>
@@ -57,7 +57,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h" line="112" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h" bodystart="112" bodyend="-1"/>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h" line="113" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h" bodystart="113" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1packet__header__ofdm__alix_1ad5b4c7574b16cbedc9be8a474a78f2d3" prot="protected" static="no" mutable="no">
         <type>int</type>
@@ -70,7 +70,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h" line="113" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h" bodystart="113" bodyend="-1"/>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h" line="114" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h" bodystart="114" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1packet__header__ofdm__alix_1a55d5f5767bbfe6503f44e60efa6d385c" prot="protected" static="no" mutable="no">
         <type>std::vector&lt; unsigned char &gt;</type>
@@ -83,7 +83,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h" line="114" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h" bodystart="114" bodyend="-1"/>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h" line="115" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h" bodystart="115" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -171,15 +171,19 @@
         </inbodydescription>
         <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h" line="59" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1packet__header__ofdm__alix_1af75e94dbe33272e8e3ab1b9d0ad17252" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+      <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1packet__header__ofdm__alix_1a0ef4cfd01472c9dace14771293e7c678" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
         <definition>bool gr::ofdm_allocator::packet_header_ofdm_alix::header_parser</definition>
-        <argsstring>(const unsigned char *header, std::vector&lt; tag_t &gt; &amp;tags)</argsstring>
+        <argsstring>(const unsigned char *header, int header_length, std::vector&lt; tag_t &gt; &amp;tags)</argsstring>
         <name>header_parser</name>
-        <reimplements refid="classgr_1_1ofdm__allocator_1_1packet__header__default__alix_1ae84021bfd98e0edb0efdee19739ac68e">header_parser</reimplements>
+        <reimplements refid="classgr_1_1ofdm__allocator_1_1packet__header__default__alix_1ad01d71c282c4090465abe98d38bc29d2">header_parser</reimplements>
         <param>
           <type>const unsigned char *</type>
           <declname>header</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>header_length</declname>
         </param>
         <param>
           <type>std::vector&lt; tag_t &gt; &amp;</type>
@@ -301,7 +305,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h" line="97" column="1"/>
+        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h" line="98" column="1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -360,7 +364,7 @@
         <label>std::vector&lt; int &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h" line="37" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h" bodystart="36" bodyend="115"/>
+    <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h" line="37" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h" bodystart="36" bodyend="116"/>
     <listofallmembers>
       <member refid="classgr_1_1ofdm__allocator_1_1packet__header__default__alix_1aeeeb16f0faaca1c108497adabd1b0567" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::packet_header_ofdm_alix</scope><name>base</name></member>
       <member refid="classgr_1_1ofdm__allocator_1_1packet__header__default__alix_1abb6cbe76b5a7e377e03feaa8bc07de0f" prot="protected" virt="non-virtual"><scope>gr::ofdm_allocator::packet_header_ofdm_alix</scope><name>d_bits_per_byte</name></member>
@@ -378,10 +382,11 @@
       <member refid="classgr_1_1ofdm__allocator_1_1packet__header__default__alix_1a4e6f32aa15633ff9e518017ac74e5775" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::packet_header_ofdm_alix</scope><name>formatter</name></member>
       <member refid="classgr_1_1ofdm__allocator_1_1packet__header__ofdm__alix_1a5d420067209f94fa561c083ab523b739" prot="public" virt="virtual"><scope>gr::ofdm_allocator::packet_header_ofdm_alix</scope><name>header_formatter</name></member>
       <member refid="classgr_1_1ofdm__allocator_1_1packet__header__default__alix_1aaa7f0eef5f08301ed2a970de42446762" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::packet_header_ofdm_alix</scope><name>header_len</name></member>
-      <member refid="classgr_1_1ofdm__allocator_1_1packet__header__ofdm__alix_1af75e94dbe33272e8e3ab1b9d0ad17252" prot="public" virt="virtual"><scope>gr::ofdm_allocator::packet_header_ofdm_alix</scope><name>header_parser</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1packet__header__ofdm__alix_1a0ef4cfd01472c9dace14771293e7c678" prot="public" virt="virtual"><scope>gr::ofdm_allocator::packet_header_ofdm_alix</scope><name>header_parser</name></member>
       <member refid="classgr_1_1ofdm__allocator_1_1packet__header__default__alix_1acc47acfcf676ea3c279de79ef35aff19" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::packet_header_ofdm_alix</scope><name>len_tag_key</name></member>
       <member refid="classgr_1_1ofdm__allocator_1_1packet__header__ofdm__alix_1a2631e726de342cd81c76607aaf310e6c" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::packet_header_ofdm_alix</scope><name>make</name></member>
       <member refid="classgr_1_1ofdm__allocator_1_1packet__header__default__alix_1adb5000eb2466cc1ac8ee5d240c40a9eb" prot="public" virt="non-virtual" ambiguityscope="gr::ofdm_allocator::packet_header_default_alix::"><scope>gr::ofdm_allocator::packet_header_ofdm_alix</scope><name>make</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1packet__header__default__alix_1ab40f7869460e1475c3d4f7ff0f598bf0" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::packet_header_ofdm_alix</scope><name>num_tag_key</name></member>
       <member refid="classgr_1_1ofdm__allocator_1_1packet__header__default__alix_1ab9716a90e2e0c2cfd3415578ca73a6f0" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::packet_header_ofdm_alix</scope><name>packet_header_default_alix</name></member>
       <member refid="classgr_1_1ofdm__allocator_1_1packet__header__ofdm__alix_1aef2a51246623eea2ce35dcdec92b1361" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::packet_header_ofdm_alix</scope><name>packet_header_ofdm_alix</name></member>
       <member refid="classgr_1_1ofdm__allocator_1_1packet__header__default__alix_1a912954afd7ee3a1dd897d4e36195d278" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::packet_header_ofdm_alix</scope><name>set_header_num</name></member>

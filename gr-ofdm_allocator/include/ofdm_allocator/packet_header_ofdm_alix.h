@@ -74,6 +74,7 @@ namespace gr {
       */
      bool header_parser(
  const unsigned char *header,
+ int header_length,
  std::vector<tag_t> &tags);
 
      /*!

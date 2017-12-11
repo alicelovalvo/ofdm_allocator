@@ -20,6 +20,7 @@
 #include "ofdm_allocator/constellation_alix.h"
 #include "ofdm_allocator/metric_type_alix.h"
 #include "ofdm_allocator/constellation_decoder_alix.h"
+#include "ofdm_allocator/packet_header_parser_alix.h"
 %}
 
 
@@ -134,3 +135,5 @@ constellation_16qam = constellation_16qam.make;
 %}
 %include "ofdm_allocator/constellation_decoder_alix.h"
 GR_SWIG_BLOCK_MAGIC2(ofdm_allocator, constellation_decoder_alix);
+%include "ofdm_allocator/packet_header_parser_alix.h"
+GR_SWIG_BLOCK_MAGIC2(ofdm_allocator, packet_header_parser_alix);

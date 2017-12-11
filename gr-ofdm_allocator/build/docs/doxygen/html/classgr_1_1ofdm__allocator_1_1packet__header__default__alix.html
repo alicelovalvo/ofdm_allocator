@@ -82,7 +82,7 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ab9716a90e2e0c2cfd3415578ca73a6f0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgr_1_1ofdm__allocator_1_1packet__header__default__alix.html#ab9716a90e2e0c2cfd3415578ca73a6f0">packet_header_default_alix</a> (long <a class="el" href="classgr_1_1ofdm__allocator_1_1packet__header__default__alix.html#aaa7f0eef5f08301ed2a970de42446762">header_len</a>, const std::string &amp;<a class="el" href="classgr_1_1ofdm__allocator_1_1packet__header__default__alix.html#acc47acfcf676ea3c279de79ef35aff19">len_tag_key</a>=&quot;packet_len&quot;, const std::string &amp;num_tag_key=&quot;packet_num&quot;, int bits_per_byte=1)</td></tr>
+<tr class="memitem:ab9716a90e2e0c2cfd3415578ca73a6f0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgr_1_1ofdm__allocator_1_1packet__header__default__alix.html#ab9716a90e2e0c2cfd3415578ca73a6f0">packet_header_default_alix</a> (long <a class="el" href="classgr_1_1ofdm__allocator_1_1packet__header__default__alix.html#aaa7f0eef5f08301ed2a970de42446762">header_len</a>, const std::string &amp;<a class="el" href="classgr_1_1ofdm__allocator_1_1packet__header__default__alix.html#acc47acfcf676ea3c279de79ef35aff19">len_tag_key</a>=&quot;packet_len&quot;, const std::string &amp;<a class="el" href="classgr_1_1ofdm__allocator_1_1packet__header__default__alix.html#ab40f7869460e1475c3d4f7ff0f598bf0">num_tag_key</a>=&quot;packet_num&quot;, int bits_per_byte=1)</td></tr>
 <tr class="separator:ab9716a90e2e0c2cfd3415578ca73a6f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a00fbd2bef3479d214b756d45ce86e7e5"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgr_1_1ofdm__allocator_1_1packet__header__default__alix.html#a00fbd2bef3479d214b756d45ce86e7e5">~packet_header_default_alix</a> ()</td></tr>
 <tr class="separator:a00fbd2bef3479d214b756d45ce86e7e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -96,13 +96,15 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aaa7f0eef5f08301ed2a970de42446762"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acc47acfcf676ea3c279de79ef35aff19"><td class="memItemLeft" align="right" valign="top">pmt::pmt_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgr_1_1ofdm__allocator_1_1packet__header__default__alix.html#acc47acfcf676ea3c279de79ef35aff19">len_tag_key</a> ()</td></tr>
 <tr class="separator:acc47acfcf676ea3c279de79ef35aff19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab40f7869460e1475c3d4f7ff0f598bf0"><td class="memItemLeft" align="right" valign="top">pmt::pmt_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgr_1_1ofdm__allocator_1_1packet__header__default__alix.html#ab40f7869460e1475c3d4f7ff0f598bf0">num_tag_key</a> ()</td></tr>
+<tr class="separator:ab40f7869460e1475c3d4f7ff0f598bf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0fe3ab1a6b1103f702daa979b909c3d6"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgr_1_1ofdm__allocator_1_1packet__header__default__alix.html#a0fe3ab1a6b1103f702daa979b909c3d6">header_formatter</a> (long packet_len, unsigned char *out, const std::vector&lt; tag_t &gt; &amp;tags=std::vector&lt; tag_t &gt;())</td></tr>
 <tr class="memdesc:a0fe3ab1a6b1103f702daa979b909c3d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Encodes the header information in the given tags into bits and places them into <code>out</code>.  <a href="#a0fe3ab1a6b1103f702daa979b909c3d6">More...</a><br /></td></tr>
 <tr class="separator:a0fe3ab1a6b1103f702daa979b909c3d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:adb5000eb2466cc1ac8ee5d240c40a9eb"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classgr_1_1ofdm__allocator_1_1packet__header__default__alix.html#ad85cda2d2a111ccdd8ec5fc892fd6413">sptr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgr_1_1ofdm__allocator_1_1packet__header__default__alix.html#adb5000eb2466cc1ac8ee5d240c40a9eb">make</a> (long <a class="el" href="classgr_1_1ofdm__allocator_1_1packet__header__default__alix.html#aaa7f0eef5f08301ed2a970de42446762">header_len</a>, const std::string &amp;<a class="el" href="classgr_1_1ofdm__allocator_1_1packet__header__default__alix.html#acc47acfcf676ea3c279de79ef35aff19">len_tag_key</a>=&quot;packet_len&quot;, const std::string &amp;num_tag_key=&quot;packet_num&quot;, int bits_per_byte=1)</td></tr>
+<tr class="memitem:adb5000eb2466cc1ac8ee5d240c40a9eb"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classgr_1_1ofdm__allocator_1_1packet__header__default__alix.html#ad85cda2d2a111ccdd8ec5fc892fd6413">sptr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgr_1_1ofdm__allocator_1_1packet__header__default__alix.html#adb5000eb2466cc1ac8ee5d240c40a9eb">make</a> (long <a class="el" href="classgr_1_1ofdm__allocator_1_1packet__header__default__alix.html#aaa7f0eef5f08301ed2a970de42446762">header_len</a>, const std::string &amp;<a class="el" href="classgr_1_1ofdm__allocator_1_1packet__header__default__alix.html#acc47acfcf676ea3c279de79ef35aff19">len_tag_key</a>=&quot;packet_len&quot;, const std::string &amp;<a class="el" href="classgr_1_1ofdm__allocator_1_1packet__header__default__alix.html#ab40f7869460e1475c3d4f7ff0f598bf0">num_tag_key</a>=&quot;packet_num&quot;, int bits_per_byte=1)</td></tr>
 <tr class="separator:adb5000eb2466cc1ac8ee5d240c40a9eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
@@ -385,6 +387,29 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ab40f7869460e1475c3d4f7ff0f598bf0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">pmt::pmt_t gr::ofdm_allocator::packet_header_default_alix::num_tag_key </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a912954afd7ee3a1dd897d4e36195d278"></a>
 <div class="memitem">
 <div class="memproto">
@@ -559,7 +584,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacegr.html">gr</a></li><li class="navelem"><a class="el" href="namespacegr_1_1ofdm__allocator.html">ofdm_allocator</a></li><li class="navelem"><a class="el" href="classgr_1_1ofdm__allocator_1_1packet__header__default__alix.html">packet_header_default_alix</a></li>
-    <li class="footer">Generated on Sat Dec 9 2017 11:50:06 for GNU Radio&#39;s OFDM_ALLOCATOR Package by
+    <li class="footer">Generated on Mon Dec 11 2017 16:44:13 for GNU Radio&#39;s OFDM_ALLOCATOR Package by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

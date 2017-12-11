@@ -23,6 +23,7 @@
 #endif
 
 #include <string.h>
+#include <iostream>
 #include <ofdm_allocator/packet_header_default_alix.h>
 
 namespace gr {
@@ -93,6 +94,7 @@ namespace gr {
 
         bool packet_header_default_alix::header_parser(
     	const unsigned char *in,
+      int header_length,
     	std::vector<tag_t> &tags)
         {
           unsigned header_len = 0;
@@ -100,26 +102,28 @@ namespace gr {
           tag_t tag;
 
           int k = 0; // Position in "in"
-          for (int i = 0; i < 12 && k < d_header_len; i += d_bits_per_byte, k++) {
+          for (int i = 0; i < 12 && k < header_length; i += d_bits_per_byte, k++) {
     	header_len |= (((int) in[k]) & d_mask) << i;
           }
           tag.key = d_len_tag_key;
           tag.value = pmt::from_long(header_len);
           tags.push_back(tag);
-          if (k >= d_header_len) {
+          if (k >= header_length) {
     	return true;
           }
+          // std::cout << "/* message */" << d_num_tag_key << '\n';
           if (d_num_tag_key == pmt::PMT_NIL) {
     	k += 12;
           } else {
-    	for (int i = 0; i < 12 && k < d_header_len; i += d_bits_per_byte, k++) {
+            // std::cout << "/* qua dentro */" << '\n';
+    	for (int i = 0; i < 12 && k < header_length; i += d_bits_per_byte, k++) {
     	  header_num |= (((int) in[k]) & d_mask) << i;
     	}
     	tag.key = d_num_tag_key;
     	tag.value = pmt::from_long(header_num);
     	tags.push_back(tag);
           }
-          if (k >= d_header_len) {
+          if (k >= header_length) {
     	return true;
           }
 
@@ -127,7 +131,7 @@ namespace gr {
           d_crc_impl.process_bytes((void const *) &header_len, 2);
           d_crc_impl.process_bytes((void const *) &header_num, 2);
           unsigned char crc_calcd = d_crc_impl();
-          for (int i = 0; i < 8 && k < d_header_len; i += d_bits_per_byte, k++) {
+          for (int i = 0; i < 8 && k < header_length; i += d_bits_per_byte, k++) {
     	  if ( (((int) in[k]) & d_mask) != (((int) crc_calcd >> i) & d_mask) ) {
     	    return false;
     	  }

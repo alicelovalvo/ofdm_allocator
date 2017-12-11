@@ -49,13 +49,15 @@ namespace gr {
      ~ofdm_equalizer_base_alix();
 
      //! Reset the channel information state knowledge
-     virtual void reset() = 0;
+     virtual void reset(const std::vector<std::vector<bool> > &pilot_carriers) = 0;
      //! Run the actual equalization
      virtual void equalize(
          gr_complex *frame,
          int n_sym,
          const std::vector<gr_complex> &initial_taps = std::vector<gr_complex>(),
   	 const std::vector<bool> &occupied_carriers = std::vector<bool> (),
+	 const std::vector<std::vector<bool> > &pilot_carriers = std::vector<std::vector<bool> > (),
+         const std::vector<std::vector<gr_complex> > &pilot_symbols = std::vector<std::vector<gr_complex> >(),
          const std::vector<tag_t> &tags = std::vector<tag_t>()) = 0;
      //! Return the current channel state
      virtual void get_channel_state(std::vector<gr_complex> &taps) = 0;
@@ -99,7 +101,7 @@ namespace gr {
    bool input_is_shifted);
      ~ofdm_equalizer_1d_pilots_alix();
 
-     void reset();
+     void reset(const std::vector<std::vector<bool> > &pilot_carriers);
      void get_channel_state(std::vector<gr_complex> &taps);
    };
 

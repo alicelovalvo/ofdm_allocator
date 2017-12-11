@@ -54,6 +54,8 @@ namespace gr {
 		      int n_sym,
 		      const std::vector<gr_complex> &initial_taps = std::vector<gr_complex>(),
 		      const std::vector<bool> &occupied_carriers = std::vector<bool> (),
+		      const std::vector<std::vector<bool> > &pilot_carriers = std::vector<std::vector<bool> > (),
+                      const std::vector<std::vector<gr_complex> > &pilot_symbols = std::vector<std::vector<gr_complex> >(),
 		      const std::vector<tag_t> &tags = std::vector<tag_t>());
 
 
