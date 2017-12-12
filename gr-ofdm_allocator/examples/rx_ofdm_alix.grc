@@ -159,7 +159,7 @@
     </param>
     <param>
       <key>value</key>
-      <value>digital.packet_header_ofdm((variable_0,), n_syms=1, len_tag_key=packet_length_tag_key, frame_len_tag_key=length_tag_key, bits_per_header_sym=header_mod.bits_per_symbol(), bits_per_payload_sym=payload_mod.bits_per_symbol(), scramble_header=False)</value>
+      <value>ofdm_allocator.packet_header_ofdm_alix((variable_0,), n_syms=1, len_tag_key=packet_length_tag_key, frame_len_tag_key=length_tag_key, bits_per_header_sym=header_mod.bits_per_symbol(), bits_per_payload_sym=payload_mod.bits_per_symbol(), scramble_header=False)</value>
     </param>
   </block>
   <block>
@@ -2041,7 +2041,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>1</value>
+      <value>0</value>
     </param>
     <param>
       <key>header_formatter</key>
@@ -2667,7 +2667,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>0</value>
+      <value>1</value>
     </param>
     <param>
       <key>header_formatter</key>
