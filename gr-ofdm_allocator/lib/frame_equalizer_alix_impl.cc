@@ -178,42 +178,44 @@ namespace gr {
        if (!d_fixed_pilot){
          interval = (ninput_items[1]-(d_pilot_sub*d_vector_pilot))/d_data_sub;
        }
-	std::cout << "ninput: " << ninput_items[1] << '\n';
-	std::cout << "interval" << interval << '\n';
+
+       for (int i=0; i< interval; i++){
+          std::cout << i << " in2 aaaa: " ;
+         for(int j=0; j < d_data_sub; j++){
+           int cycle = i*d_data_sub;
+           if (in2[j+cycle] == 0){
+             continue;
+           }
+           else{
+
+             //   std::cout << "j: " <<j << '\n';
+             //  // for(int i=0; i < in2[j].size(); i++){
+              std::cout << in2[j+cycle]  <<", ";
+             //   // }
+             // std::fill (vector_sub.begin()+j,vector_sub.begin()+j+1,in2[j]);
+             vector_sub.push_back(in2[j+cycle]);
+           }
+         }
+         std::cout << '\n';
+         if (vector_sub.size()!=0){
+           vector_vector_sub.push_back(vector_sub);
+           // std::cout << "##############################" << '\n';
+           vector_sub.erase(vector_sub.begin(),vector_sub.end());
+         }
+       }
+	// std::cout << "ninput: " << ninput_items[1] << '\n';
+	// std::cout << "interval" << interval << '\n';
       if (d_input_is_shifted) {
         fft_shift_width = d_fft_len/2;
       }
       // if (!occupied_carriers.size()) {
 	//TODO: sistemare questo controllo -non proprio corretto
-      if (!ninput_items[1]){
+      if (!vector_vector_sub.size()){
           std::fill(data_carriers.begin(), data_carriers.end(), true);
         // }
         //   std::fill(d_occupied_carriers.begin(), d_occupied_carriers.end(), true);
       } else {
-        for (int i=0; i< interval; i++){
-           std::cout << i << " in2 aaaa: " ;
-          for(int j=0; j < d_data_sub; j++){
-            int cycle = i*d_data_sub;
-            if (in2[j+cycle] == 0){
-              continue;
-            }
-            else{
 
-              //   std::cout << "j: " <<j << '\n';
-              //  // for(int i=0; i < in2[j].size(); i++){
-               std::cout << in2[j+cycle]  <<", ";
-              //   // }
-              // std::fill (vector_sub.begin()+j,vector_sub.begin()+j+1,in2[j]);
-              vector_sub.push_back(in2[j+cycle]);
-            }
-          }
-	std::cout << '\n';
-          if (vector_sub.size()!=0){
-            vector_vector_sub.push_back(vector_sub);
-            // std::cout << "##############################" << '\n';
-            vector_sub.erase(vector_sub.begin(),vector_sub.end());
-          }
-        }
 
         for (unsigned i = 0; i < vector_vector_sub.size(); i++) {
           for (unsigned k = 0; k < vector_vector_sub[i].size(); k++) {
@@ -228,12 +230,12 @@ namespace gr {
           }
         }
       }
-	// std::cout << "data_carriers: ";
-	// for(int i=0; i<data_carriers.size(); i++){
-	// std::cout << data_carriers[i] << ", ";
-  //
-	// }
-	// std::cout << '\n';
+	std::cout << "data_carriers: ";
+	for(int i=0; i<data_carriers.size(); i++){
+	std::cout << data_carriers[i] << ", ";
+
+	}
+	std::cout << '\n';
       int interval_pilot = (ninput_items[1]-d_data_sub)/d_pilot_sub;;
       if (!d_fixed_data){
          interval_pilot = (ninput_items[1]-(d_data_sub*d_vector_data))/d_pilot_sub;

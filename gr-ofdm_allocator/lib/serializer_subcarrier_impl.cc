@@ -170,7 +170,7 @@ namespace gr {
          }
 	// std::cout << "interval " << interval << '\n';
         for (int i=0; i< interval; i++){
-           // std::cout << "in2 : " ;
+           std::cout << "in2 : " ;
          for(int j=0; j < d_data_sub; j++){
            int cycle = i*d_data_sub;
            if (in2[j+cycle] == 0){
@@ -191,7 +191,7 @@ namespace gr {
          }
         //   std::cout << "j: " <<j << '\n';
         //  // for(int i=0; i < in2[j].size(); i++){
-            // std::cout << in2[j+cycle] - 32 <<", ";
+            std::cout << in2[j+cycle] - 32 <<", ";
         //   // }
           // std::fill (vector_sub.begin()+j,vector_sub.begin()+j+1,in2[j]);
           vector_sub.push_back(in2[j+cycle]);
@@ -214,7 +214,7 @@ namespace gr {
 //        for (int i=0; i<vector_vector_sub[l].size(); i++){
 //          std::cout << vector_vector_sub[l][i] - 32 << ", ";
 //        }
-//        std::cout << '\n';
+       std::cout << '\n';
 //      }
       // std::cout << vector_vector_sub.size() <<"/* message */" << '\n';
 

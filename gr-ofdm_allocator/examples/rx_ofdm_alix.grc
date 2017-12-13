@@ -587,7 +587,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(920, 171)</value>
+      <value>(912, 172)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1501,7 +1501,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(768, 354)</value>
+      <value>(768, 322)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -2386,7 +2386,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(656, 536)</value>
+      <value>(648, 536)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -2426,7 +2426,7 @@
     </param>
     <param>
       <key>minoutbuf</key>
-      <value>0</value>
+      <value>1000</value>
     </param>
     <param>
       <key>pilot_symbols</key>
@@ -2525,7 +2525,7 @@
     </param>
     <param>
       <key>minoutbuf</key>
-      <value>0</value>
+      <value>1000</value>
     </param>
     <param>
       <key>pilot_symbols</key>
@@ -2675,7 +2675,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(680, 478)</value>
+      <value>(680, 462)</value>
     </param>
     <param>
       <key>_rotation</key>
