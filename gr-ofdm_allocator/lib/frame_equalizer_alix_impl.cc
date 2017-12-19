@@ -168,7 +168,6 @@ namespace gr {
         }
       }
       // ***************************************************** //
-      std::vector<bool> data_carriers(d_fft_len, false);
       std::vector<int> vector_sub;
       std::vector<int> vector_sub_pilot;
       std::vector<std::vector<int> > vector_vector_sub;
@@ -178,6 +177,7 @@ namespace gr {
        if (!d_fixed_pilot){
          interval = (ninput_items[1]-(d_pilot_sub*d_vector_pilot))/d_data_sub;
        }
+       std::vector<std::vector<bool> > data_carriers(interval,  std::vector<bool>(d_fft_len, false));
 
        for (int i=0; i< interval; i++){
           std::cout << i << " in2 aaaa: " ;
@@ -211,7 +211,7 @@ namespace gr {
       // if (!occupied_carriers.size()) {
 	//TODO: sistemare questo controllo -non proprio corretto
       if (!vector_vector_sub.size()){
-          std::fill(data_carriers.begin(), data_carriers.end(), true);
+          std::fill(data_carriers[0].begin(), data_carriers[0].end(), true);
         // }
         //   std::fill(d_occupied_carriers.begin(), d_occupied_carriers.end(), true);
       } else {
@@ -226,15 +226,15 @@ namespace gr {
             if (carr_index >= d_fft_len || carr_index < 0) {
               throw std::invalid_argument("data carrier index out of bounds.");
             }
-            data_carriers[(carr_index + fft_shift_width) % d_fft_len] = true;
+            data_carriers[i][(carr_index + fft_shift_width) % d_fft_len] = true;
           }
         }
       }
-	std::cout << "data_carriers: ";
-	for(int i=0; i<data_carriers.size(); i++){
-	std::cout << data_carriers[i] << ", ";
-
-	}
+	// std::cout << "data_carriers: ";
+	// for(int i=0; i<data_carriers.size(); i++){
+	// std::cout << data_carriers[i] << ", ";
+  //
+	// }
 	std::cout << '\n';
       int interval_pilot = (ninput_items[1]-d_data_sub)/d_pilot_sub;;
       if (!d_fixed_data){
@@ -246,7 +246,7 @@ namespace gr {
       if (ninput_items[1]) {
         for (unsigned i = 0; i < interval_pilot; i++) {
 	// std::cout << "in2 pilot aaa: ";
-	for(int j=0; j < d_pilot_sub; j++){
+	     for(int j=0; j < d_pilot_sub; j++){
             int cycle = i*d_pilot_sub;
             if (in2[j+cycle+(d_data_sub*d_vector_data)] == 0){
               continue;

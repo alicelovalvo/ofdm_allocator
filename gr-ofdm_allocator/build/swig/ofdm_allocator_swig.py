@@ -2064,7 +2064,7 @@ class ofdm_equalizer_base_alix(object):
 
     def equalize(self, *args, **kwargs):
         """
-        equalize(ofdm_equalizer_base_alix self, gr_complex * frame, int n_sym, pmt_vector_cfloat initial_taps, std::vector< bool,std::allocator< bool > > const & occupied_carriers, std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const & pilot_carriers, gr_vector_vector_complexf pilot_symbols, tags_vector_t tags)
+        equalize(ofdm_equalizer_base_alix self, gr_complex * frame, int n_sym, pmt_vector_cfloat initial_taps, std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const & occupied_carriers, std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const & pilot_carriers, gr_vector_vector_complexf pilot_symbols, tags_vector_t tags)
 
         Run the actual equalization.
 
@@ -2862,7 +2862,7 @@ class ofdm_equalizer_base_alix_sptr(object):
 
     def equalize(self, *args, **kwargs):
         """
-        equalize(ofdm_equalizer_base_alix_sptr self, gr_complex * frame, int n_sym, pmt_vector_cfloat initial_taps, std::vector< bool,std::allocator< bool > > const & occupied_carriers, std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const & pilot_carriers, gr_vector_vector_complexf pilot_symbols, tags_vector_t tags)
+        equalize(ofdm_equalizer_base_alix_sptr self, gr_complex * frame, int n_sym, pmt_vector_cfloat initial_taps, std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const & occupied_carriers, std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const & pilot_carriers, gr_vector_vector_complexf pilot_symbols, tags_vector_t tags)
 
         Run the actual equalization.
 
@@ -2943,7 +2943,7 @@ class ofdm_equalizer_1d_pilots_alix_sptr(object):
 
     def equalize(self, *args, **kwargs):
         """
-        equalize(ofdm_equalizer_1d_pilots_alix_sptr self, gr_complex * frame, int n_sym, pmt_vector_cfloat initial_taps, std::vector< bool,std::allocator< bool > > const & occupied_carriers, std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const & pilot_carriers, gr_vector_vector_complexf pilot_symbols, tags_vector_t tags)
+        equalize(ofdm_equalizer_1d_pilots_alix_sptr self, gr_complex * frame, int n_sym, pmt_vector_cfloat initial_taps, std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const & occupied_carriers, std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const & pilot_carriers, gr_vector_vector_complexf pilot_symbols, tags_vector_t tags)
 
         Run the actual equalization.
 
@@ -3038,7 +3038,7 @@ class ofdm_equalizer_simpledfe_alix_sptr(object):
 
     def equalize(self, *args, **kwargs):
         """
-        equalize(ofdm_equalizer_simpledfe_alix_sptr self, gr_complex * frame, int n_sym, pmt_vector_cfloat initial_taps, std::vector< bool,std::allocator< bool > > const & occupied_carriers, std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const & pilot_carriers, gr_vector_vector_complexf pilot_symbols, tags_vector_t tags)
+        equalize(ofdm_equalizer_simpledfe_alix_sptr self, gr_complex * frame, int n_sym, pmt_vector_cfloat initial_taps, std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const & occupied_carriers, std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const & pilot_carriers, gr_vector_vector_complexf pilot_symbols, tags_vector_t tags)
 
         Run the actual equalization.
 

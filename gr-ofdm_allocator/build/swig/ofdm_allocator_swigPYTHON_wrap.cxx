@@ -3093,17 +3093,16 @@ SWIG_Python_NonDynamicSetAttr(PyObject *obj, PyObject *name, PyObject *value) {
 #define SWIGTYPE_p_sptr swig_types[81]
 #define SWIGTYPE_p_std__complexT_double_t swig_types[82]
 #define SWIGTYPE_p_std__complexT_float_t swig_types[83]
-#define SWIGTYPE_p_std__vectorT_bool_std__allocatorT_bool_t_t swig_types[84]
-#define SWIGTYPE_p_std__vectorT_gr__tag_t_std__allocatorT_gr__tag_t_t_t swig_types[85]
-#define SWIGTYPE_p_std__vectorT_std__complexT_float_t_std__allocatorT_std__complexT_float_t_t_t swig_types[86]
-#define SWIGTYPE_p_std__vectorT_std__vectorT_bool_std__allocatorT_bool_t_t_std__allocatorT_std__vectorT_bool_std__allocatorT_bool_t_t_t_t swig_types[87]
-#define SWIGTYPE_p_unsigned_char swig_types[88]
-#define SWIGTYPE_p_unsigned_int swig_types[89]
-#define SWIGTYPE_p_unsigned_long_long swig_types[90]
-#define SWIGTYPE_p_unsigned_short swig_types[91]
-#define SWIGTYPE_p_value_type swig_types[92]
-static swig_type_info *swig_types[94];
-static swig_module_info swig_module = {swig_types, 93, 0, 0, 0, 0};
+#define SWIGTYPE_p_std__vectorT_gr__tag_t_std__allocatorT_gr__tag_t_t_t swig_types[84]
+#define SWIGTYPE_p_std__vectorT_std__complexT_float_t_std__allocatorT_std__complexT_float_t_t_t swig_types[85]
+#define SWIGTYPE_p_std__vectorT_std__vectorT_bool_std__allocatorT_bool_t_t_std__allocatorT_std__vectorT_bool_std__allocatorT_bool_t_t_t_t swig_types[86]
+#define SWIGTYPE_p_unsigned_char swig_types[87]
+#define SWIGTYPE_p_unsigned_int swig_types[88]
+#define SWIGTYPE_p_unsigned_long_long swig_types[89]
+#define SWIGTYPE_p_unsigned_short swig_types[90]
+#define SWIGTYPE_p_value_type swig_types[91]
+static swig_type_info *swig_types[93];
+static swig_module_info swig_module = {swig_types, 92, 0, 0, 0, 0};
 #define SWIG_TypeQuery(name) SWIG_TypeQueryModule(&swig_module, &swig_module, name)
 #define SWIG_MangledTypeQuery(name) SWIG_MangledTypeQueryModule(&swig_module, &swig_module, name)
 
@@ -21254,8 +21253,8 @@ SWIGINTERN PyObject *_wrap_ofdm_equalizer_base_alix_equalize(PyObject *SWIGUNUSE
   int arg3 ;
   std::vector< gr_complex,std::allocator< gr_complex > > const &arg4_defvalue = std::vector< gr_complex >() ;
   std::vector< gr_complex,std::allocator< gr_complex > > *arg4 = (std::vector< gr_complex,std::allocator< gr_complex > > *) &arg4_defvalue ;
-  std::vector< bool,std::allocator< bool > > const &arg5_defvalue = std::vector< bool >() ;
-  std::vector< bool,std::allocator< bool > > *arg5 = (std::vector< bool,std::allocator< bool > > *) &arg5_defvalue ;
+  std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const &arg5_defvalue = std::vector< std::vector< bool > >() ;
+  std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > *arg5 = (std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > *) &arg5_defvalue ;
   std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const &arg6_defvalue = std::vector< std::vector< bool > >() ;
   std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > *arg6 = (std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > *) &arg6_defvalue ;
   std::vector< std::vector< gr_complex,std::allocator< gr_complex > >,std::allocator< std::vector< gr_complex,std::allocator< gr_complex > > > > const &arg7_defvalue = std::vector< std::vector< gr_complex > >() ;
@@ -21317,14 +21316,14 @@ SWIGINTERN PyObject *_wrap_ofdm_equalizer_base_alix_equalize(PyObject *SWIGUNUSE
     }
   }
   if (obj4) {
-    res5 = SWIG_ConvertPtr(obj4, &argp5, SWIGTYPE_p_std__vectorT_bool_std__allocatorT_bool_t_t,  0  | 0);
+    res5 = SWIG_ConvertPtr(obj4, &argp5, SWIGTYPE_p_std__vectorT_std__vectorT_bool_std__allocatorT_bool_t_t_std__allocatorT_std__vectorT_bool_std__allocatorT_bool_t_t_t_t,  0  | 0);
     if (!SWIG_IsOK(res5)) {
-      SWIG_exception_fail(SWIG_ArgError(res5), "in method '" "ofdm_equalizer_base_alix_equalize" "', argument " "5"" of type '" "std::vector< bool,std::allocator< bool > > const &""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res5), "in method '" "ofdm_equalizer_base_alix_equalize" "', argument " "5"" of type '" "std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const &""'"); 
     }
     if (!argp5) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ofdm_equalizer_base_alix_equalize" "', argument " "5"" of type '" "std::vector< bool,std::allocator< bool > > const &""'"); 
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ofdm_equalizer_base_alix_equalize" "', argument " "5"" of type '" "std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const &""'"); 
     }
-    arg5 = reinterpret_cast< std::vector< bool,std::allocator< bool > > * >(argp5);
+    arg5 = reinterpret_cast< std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > * >(argp5);
   }
   if (obj5) {
     res6 = SWIG_ConvertPtr(obj5, &argp6, SWIGTYPE_p_std__vectorT_std__vectorT_bool_std__allocatorT_bool_t_t_std__allocatorT_std__vectorT_bool_std__allocatorT_bool_t_t_t_t,  0  | 0);
@@ -21364,7 +21363,7 @@ SWIGINTERN PyObject *_wrap_ofdm_equalizer_base_alix_equalize(PyObject *SWIGUNUSE
   }
   {
     try {
-      (arg1)->equalize(arg2,arg3,(std::vector< gr_complex,std::allocator< gr_complex > > const &)*arg4,(std::vector< bool,std::allocator< bool > > const &)*arg5,(std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const &)*arg6,(std::vector< std::vector< gr_complex,std::allocator< gr_complex > >,std::allocator< std::vector< gr_complex,std::allocator< gr_complex > > > > const &)*arg7,(std::vector< gr::tag_t,std::allocator< gr::tag_t > > const &)*arg8);
+      (arg1)->equalize(arg2,arg3,(std::vector< gr_complex,std::allocator< gr_complex > > const &)*arg4,(std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const &)*arg5,(std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const &)*arg6,(std::vector< std::vector< gr_complex,std::allocator< gr_complex > >,std::allocator< std::vector< gr_complex,std::allocator< gr_complex > > > > const &)*arg7,(std::vector< gr::tag_t,std::allocator< gr::tag_t > > const &)*arg8);
     }
     catch(std::exception &e) {
       SWIG_exception(SWIG_RuntimeError, e.what());
@@ -26808,8 +26807,8 @@ SWIGINTERN PyObject *_wrap_ofdm_equalizer_base_alix_sptr_equalize(PyObject *SWIG
   int arg3 ;
   std::vector< gr_complex,std::allocator< gr_complex > > const &arg4_defvalue = std::vector< gr_complex >() ;
   std::vector< gr_complex,std::allocator< gr_complex > > *arg4 = (std::vector< gr_complex,std::allocator< gr_complex > > *) &arg4_defvalue ;
-  std::vector< bool,std::allocator< bool > > const &arg5_defvalue = std::vector< bool >() ;
-  std::vector< bool,std::allocator< bool > > *arg5 = (std::vector< bool,std::allocator< bool > > *) &arg5_defvalue ;
+  std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const &arg5_defvalue = std::vector< std::vector< bool > >() ;
+  std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > *arg5 = (std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > *) &arg5_defvalue ;
   std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const &arg6_defvalue = std::vector< std::vector< bool > >() ;
   std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > *arg6 = (std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > *) &arg6_defvalue ;
   std::vector< std::vector< gr_complex,std::allocator< gr_complex > >,std::allocator< std::vector< gr_complex,std::allocator< gr_complex > > > > const &arg7_defvalue = std::vector< std::vector< gr_complex > >() ;
@@ -26871,14 +26870,14 @@ SWIGINTERN PyObject *_wrap_ofdm_equalizer_base_alix_sptr_equalize(PyObject *SWIG
     }
   }
   if (obj4) {
-    res5 = SWIG_ConvertPtr(obj4, &argp5, SWIGTYPE_p_std__vectorT_bool_std__allocatorT_bool_t_t,  0  | 0);
+    res5 = SWIG_ConvertPtr(obj4, &argp5, SWIGTYPE_p_std__vectorT_std__vectorT_bool_std__allocatorT_bool_t_t_std__allocatorT_std__vectorT_bool_std__allocatorT_bool_t_t_t_t,  0  | 0);
     if (!SWIG_IsOK(res5)) {
-      SWIG_exception_fail(SWIG_ArgError(res5), "in method '" "ofdm_equalizer_base_alix_sptr_equalize" "', argument " "5"" of type '" "std::vector< bool,std::allocator< bool > > const &""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res5), "in method '" "ofdm_equalizer_base_alix_sptr_equalize" "', argument " "5"" of type '" "std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const &""'"); 
     }
     if (!argp5) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ofdm_equalizer_base_alix_sptr_equalize" "', argument " "5"" of type '" "std::vector< bool,std::allocator< bool > > const &""'"); 
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ofdm_equalizer_base_alix_sptr_equalize" "', argument " "5"" of type '" "std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const &""'"); 
     }
-    arg5 = reinterpret_cast< std::vector< bool,std::allocator< bool > > * >(argp5);
+    arg5 = reinterpret_cast< std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > * >(argp5);
   }
   if (obj5) {
     res6 = SWIG_ConvertPtr(obj5, &argp6, SWIGTYPE_p_std__vectorT_std__vectorT_bool_std__allocatorT_bool_t_t_std__allocatorT_std__vectorT_bool_std__allocatorT_bool_t_t_t_t,  0  | 0);
@@ -26918,7 +26917,7 @@ SWIGINTERN PyObject *_wrap_ofdm_equalizer_base_alix_sptr_equalize(PyObject *SWIG
   }
   {
     try {
-      (*arg1)->equalize(arg2,arg3,(std::vector< gr_complex,std::allocator< gr_complex > > const &)*arg4,(std::vector< bool,std::allocator< bool > > const &)*arg5,(std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const &)*arg6,(std::vector< std::vector< gr_complex,std::allocator< gr_complex > >,std::allocator< std::vector< gr_complex,std::allocator< gr_complex > > > > const &)*arg7,(std::vector< gr::tag_t,std::allocator< gr::tag_t > > const &)*arg8);
+      (*arg1)->equalize(arg2,arg3,(std::vector< gr_complex,std::allocator< gr_complex > > const &)*arg4,(std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const &)*arg5,(std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const &)*arg6,(std::vector< std::vector< gr_complex,std::allocator< gr_complex > >,std::allocator< std::vector< gr_complex,std::allocator< gr_complex > > > > const &)*arg7,(std::vector< gr::tag_t,std::allocator< gr::tag_t > > const &)*arg8);
     }
     catch(std::exception &e) {
       SWIG_exception(SWIG_RuntimeError, e.what());
@@ -27271,8 +27270,8 @@ SWIGINTERN PyObject *_wrap_ofdm_equalizer_1d_pilots_alix_sptr_equalize(PyObject 
   int arg3 ;
   std::vector< gr_complex,std::allocator< gr_complex > > const &arg4_defvalue = std::vector< gr_complex >() ;
   std::vector< gr_complex,std::allocator< gr_complex > > *arg4 = (std::vector< gr_complex,std::allocator< gr_complex > > *) &arg4_defvalue ;
-  std::vector< bool,std::allocator< bool > > const &arg5_defvalue = std::vector< bool >() ;
-  std::vector< bool,std::allocator< bool > > *arg5 = (std::vector< bool,std::allocator< bool > > *) &arg5_defvalue ;
+  std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const &arg5_defvalue = std::vector< std::vector< bool > >() ;
+  std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > *arg5 = (std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > *) &arg5_defvalue ;
   std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const &arg6_defvalue = std::vector< std::vector< bool > >() ;
   std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > *arg6 = (std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > *) &arg6_defvalue ;
   std::vector< std::vector< gr_complex,std::allocator< gr_complex > >,std::allocator< std::vector< gr_complex,std::allocator< gr_complex > > > > const &arg7_defvalue = std::vector< std::vector< gr_complex > >() ;
@@ -27334,14 +27333,14 @@ SWIGINTERN PyObject *_wrap_ofdm_equalizer_1d_pilots_alix_sptr_equalize(PyObject 
     }
   }
   if (obj4) {
-    res5 = SWIG_ConvertPtr(obj4, &argp5, SWIGTYPE_p_std__vectorT_bool_std__allocatorT_bool_t_t,  0  | 0);
+    res5 = SWIG_ConvertPtr(obj4, &argp5, SWIGTYPE_p_std__vectorT_std__vectorT_bool_std__allocatorT_bool_t_t_std__allocatorT_std__vectorT_bool_std__allocatorT_bool_t_t_t_t,  0  | 0);
     if (!SWIG_IsOK(res5)) {
-      SWIG_exception_fail(SWIG_ArgError(res5), "in method '" "ofdm_equalizer_1d_pilots_alix_sptr_equalize" "', argument " "5"" of type '" "std::vector< bool,std::allocator< bool > > const &""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res5), "in method '" "ofdm_equalizer_1d_pilots_alix_sptr_equalize" "', argument " "5"" of type '" "std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const &""'"); 
     }
     if (!argp5) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ofdm_equalizer_1d_pilots_alix_sptr_equalize" "', argument " "5"" of type '" "std::vector< bool,std::allocator< bool > > const &""'"); 
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ofdm_equalizer_1d_pilots_alix_sptr_equalize" "', argument " "5"" of type '" "std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const &""'"); 
     }
-    arg5 = reinterpret_cast< std::vector< bool,std::allocator< bool > > * >(argp5);
+    arg5 = reinterpret_cast< std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > * >(argp5);
   }
   if (obj5) {
     res6 = SWIG_ConvertPtr(obj5, &argp6, SWIGTYPE_p_std__vectorT_std__vectorT_bool_std__allocatorT_bool_t_t_std__allocatorT_std__vectorT_bool_std__allocatorT_bool_t_t_t_t,  0  | 0);
@@ -27381,7 +27380,7 @@ SWIGINTERN PyObject *_wrap_ofdm_equalizer_1d_pilots_alix_sptr_equalize(PyObject 
   }
   {
     try {
-      (*arg1)->equalize(arg2,arg3,(std::vector< gr_complex,std::allocator< gr_complex > > const &)*arg4,(std::vector< bool,std::allocator< bool > > const &)*arg5,(std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const &)*arg6,(std::vector< std::vector< gr_complex,std::allocator< gr_complex > >,std::allocator< std::vector< gr_complex,std::allocator< gr_complex > > > > const &)*arg7,(std::vector< gr::tag_t,std::allocator< gr::tag_t > > const &)*arg8);
+      (*arg1)->equalize(arg2,arg3,(std::vector< gr_complex,std::allocator< gr_complex > > const &)*arg4,(std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const &)*arg5,(std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const &)*arg6,(std::vector< std::vector< gr_complex,std::allocator< gr_complex > >,std::allocator< std::vector< gr_complex,std::allocator< gr_complex > > > > const &)*arg7,(std::vector< gr::tag_t,std::allocator< gr::tag_t > > const &)*arg8);
     }
     catch(std::exception &e) {
       SWIG_exception(SWIG_RuntimeError, e.what());
@@ -27881,8 +27880,8 @@ SWIGINTERN PyObject *_wrap_ofdm_equalizer_simpledfe_alix_sptr_equalize(PyObject 
   int arg3 ;
   std::vector< gr_complex,std::allocator< gr_complex > > const &arg4_defvalue = std::vector< gr_complex >() ;
   std::vector< gr_complex,std::allocator< gr_complex > > *arg4 = (std::vector< gr_complex,std::allocator< gr_complex > > *) &arg4_defvalue ;
-  std::vector< bool,std::allocator< bool > > const &arg5_defvalue = std::vector< bool >() ;
-  std::vector< bool,std::allocator< bool > > *arg5 = (std::vector< bool,std::allocator< bool > > *) &arg5_defvalue ;
+  std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const &arg5_defvalue = std::vector< std::vector< bool > >() ;
+  std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > *arg5 = (std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > *) &arg5_defvalue ;
   std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const &arg6_defvalue = std::vector< std::vector< bool > >() ;
   std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > *arg6 = (std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > *) &arg6_defvalue ;
   std::vector< std::vector< gr_complex,std::allocator< gr_complex > >,std::allocator< std::vector< gr_complex,std::allocator< gr_complex > > > > const &arg7_defvalue = std::vector< std::vector< gr_complex > >() ;
@@ -27944,14 +27943,14 @@ SWIGINTERN PyObject *_wrap_ofdm_equalizer_simpledfe_alix_sptr_equalize(PyObject 
     }
   }
   if (obj4) {
-    res5 = SWIG_ConvertPtr(obj4, &argp5, SWIGTYPE_p_std__vectorT_bool_std__allocatorT_bool_t_t,  0  | 0);
+    res5 = SWIG_ConvertPtr(obj4, &argp5, SWIGTYPE_p_std__vectorT_std__vectorT_bool_std__allocatorT_bool_t_t_std__allocatorT_std__vectorT_bool_std__allocatorT_bool_t_t_t_t,  0  | 0);
     if (!SWIG_IsOK(res5)) {
-      SWIG_exception_fail(SWIG_ArgError(res5), "in method '" "ofdm_equalizer_simpledfe_alix_sptr_equalize" "', argument " "5"" of type '" "std::vector< bool,std::allocator< bool > > const &""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res5), "in method '" "ofdm_equalizer_simpledfe_alix_sptr_equalize" "', argument " "5"" of type '" "std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const &""'"); 
     }
     if (!argp5) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ofdm_equalizer_simpledfe_alix_sptr_equalize" "', argument " "5"" of type '" "std::vector< bool,std::allocator< bool > > const &""'"); 
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ofdm_equalizer_simpledfe_alix_sptr_equalize" "', argument " "5"" of type '" "std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const &""'"); 
     }
-    arg5 = reinterpret_cast< std::vector< bool,std::allocator< bool > > * >(argp5);
+    arg5 = reinterpret_cast< std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > * >(argp5);
   }
   if (obj5) {
     res6 = SWIG_ConvertPtr(obj5, &argp6, SWIGTYPE_p_std__vectorT_std__vectorT_bool_std__allocatorT_bool_t_t_std__allocatorT_std__vectorT_bool_std__allocatorT_bool_t_t_t_t,  0  | 0);
@@ -27991,7 +27990,7 @@ SWIGINTERN PyObject *_wrap_ofdm_equalizer_simpledfe_alix_sptr_equalize(PyObject 
   }
   {
     try {
-      (*arg1)->equalize(arg2,arg3,(std::vector< gr_complex,std::allocator< gr_complex > > const &)*arg4,(std::vector< bool,std::allocator< bool > > const &)*arg5,(std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const &)*arg6,(std::vector< std::vector< gr_complex,std::allocator< gr_complex > >,std::allocator< std::vector< gr_complex,std::allocator< gr_complex > > > > const &)*arg7,(std::vector< gr::tag_t,std::allocator< gr::tag_t > > const &)*arg8);
+      (*arg1)->equalize(arg2,arg3,(std::vector< gr_complex,std::allocator< gr_complex > > const &)*arg4,(std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const &)*arg5,(std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const &)*arg6,(std::vector< std::vector< gr_complex,std::allocator< gr_complex > >,std::allocator< std::vector< gr_complex,std::allocator< gr_complex > > > > const &)*arg7,(std::vector< gr::tag_t,std::allocator< gr::tag_t > > const &)*arg8);
     }
     catch(std::exception &e) {
       SWIG_exception(SWIG_RuntimeError, e.what());
@@ -52048,7 +52047,7 @@ static PyMethodDef SwigMethods[] = {
 		"Params: (pilot_carriers)\n"
 		""},
 	 { (char *)"ofdm_equalizer_base_alix_equalize", (PyCFunction) _wrap_ofdm_equalizer_base_alix_equalize, METH_VARARGS | METH_KEYWORDS, (char *)"\n"
-		"ofdm_equalizer_base_alix_equalize(ofdm_equalizer_base_alix self, gr_complex * frame, int n_sym, pmt_vector_cfloat initial_taps, std::vector< bool,std::allocator< bool > > const & occupied_carriers, std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const & pilot_carriers, gr_vector_vector_complexf pilot_symbols, tags_vector_t tags)\n"
+		"ofdm_equalizer_base_alix_equalize(ofdm_equalizer_base_alix self, gr_complex * frame, int n_sym, pmt_vector_cfloat initial_taps, std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const & occupied_carriers, std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const & pilot_carriers, gr_vector_vector_complexf pilot_symbols, tags_vector_t tags)\n"
 		"\n"
 		"Run the actual equalization.\n"
 		"\n"
@@ -52385,7 +52384,7 @@ static PyMethodDef SwigMethods[] = {
 		"Params: (pilot_carriers)\n"
 		""},
 	 { (char *)"ofdm_equalizer_base_alix_sptr_equalize", (PyCFunction) _wrap_ofdm_equalizer_base_alix_sptr_equalize, METH_VARARGS | METH_KEYWORDS, (char *)"\n"
-		"ofdm_equalizer_base_alix_sptr_equalize(ofdm_equalizer_base_alix_sptr self, gr_complex * frame, int n_sym, pmt_vector_cfloat initial_taps, std::vector< bool,std::allocator< bool > > const & occupied_carriers, std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const & pilot_carriers, gr_vector_vector_complexf pilot_symbols, tags_vector_t tags)\n"
+		"ofdm_equalizer_base_alix_sptr_equalize(ofdm_equalizer_base_alix_sptr self, gr_complex * frame, int n_sym, pmt_vector_cfloat initial_taps, std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const & occupied_carriers, std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const & pilot_carriers, gr_vector_vector_complexf pilot_symbols, tags_vector_t tags)\n"
 		"\n"
 		"Run the actual equalization.\n"
 		"\n"
@@ -52427,7 +52426,7 @@ static PyMethodDef SwigMethods[] = {
 		"Params: (pilot_carriers)\n"
 		""},
 	 { (char *)"ofdm_equalizer_1d_pilots_alix_sptr_equalize", (PyCFunction) _wrap_ofdm_equalizer_1d_pilots_alix_sptr_equalize, METH_VARARGS | METH_KEYWORDS, (char *)"\n"
-		"ofdm_equalizer_1d_pilots_alix_sptr_equalize(ofdm_equalizer_1d_pilots_alix_sptr self, gr_complex * frame, int n_sym, pmt_vector_cfloat initial_taps, std::vector< bool,std::allocator< bool > > const & occupied_carriers, std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const & pilot_carriers, gr_vector_vector_complexf pilot_symbols, tags_vector_t tags)\n"
+		"ofdm_equalizer_1d_pilots_alix_sptr_equalize(ofdm_equalizer_1d_pilots_alix_sptr self, gr_complex * frame, int n_sym, pmt_vector_cfloat initial_taps, std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const & occupied_carriers, std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const & pilot_carriers, gr_vector_vector_complexf pilot_symbols, tags_vector_t tags)\n"
 		"\n"
 		"Run the actual equalization.\n"
 		"\n"
@@ -52476,7 +52475,7 @@ static PyMethodDef SwigMethods[] = {
 		"Params: (pilot_carriers)\n"
 		""},
 	 { (char *)"ofdm_equalizer_simpledfe_alix_sptr_equalize", (PyCFunction) _wrap_ofdm_equalizer_simpledfe_alix_sptr_equalize, METH_VARARGS | METH_KEYWORDS, (char *)"\n"
-		"ofdm_equalizer_simpledfe_alix_sptr_equalize(ofdm_equalizer_simpledfe_alix_sptr self, gr_complex * frame, int n_sym, pmt_vector_cfloat initial_taps, std::vector< bool,std::allocator< bool > > const & occupied_carriers, std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const & pilot_carriers, gr_vector_vector_complexf pilot_symbols, tags_vector_t tags)\n"
+		"ofdm_equalizer_simpledfe_alix_sptr_equalize(ofdm_equalizer_simpledfe_alix_sptr self, gr_complex * frame, int n_sym, pmt_vector_cfloat initial_taps, std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const & occupied_carriers, std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > const & pilot_carriers, gr_vector_vector_complexf pilot_symbols, tags_vector_t tags)\n"
 		"\n"
 		"Run the actual equalization.\n"
 		"\n"
@@ -55698,7 +55697,6 @@ static swig_type_info _swigt__p_size_type = {"_p_size_type", "size_type *", 0, 0
 static swig_type_info _swigt__p_sptr = {"_p_sptr", "sptr *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__complexT_double_t = {"_p_std__complexT_double_t", "gr_complexd *|std::complex< double > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__complexT_float_t = {"_p_std__complexT_float_t", "std::complex< float > *|gr_complex *", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_std__vectorT_bool_std__allocatorT_bool_t_t = {"_p_std__vectorT_bool_std__allocatorT_bool_t_t", "std::vector< bool,std::allocator< bool > > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__vectorT_gr__tag_t_std__allocatorT_gr__tag_t_t_t = {"_p_std__vectorT_gr__tag_t_std__allocatorT_gr__tag_t_t_t", "std::vector< gr::tag_t,std::allocator< gr::tag_t > > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__vectorT_std__complexT_float_t_std__allocatorT_std__complexT_float_t_t_t = {"_p_std__vectorT_std__complexT_float_t_std__allocatorT_std__complexT_float_t_t_t", "std::vector< std::complex< float >,std::allocator< std::complex< float > > > *|std::vector< gr_complex,std::allocator< gr_complex > > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__vectorT_std__vectorT_bool_std__allocatorT_bool_t_t_std__allocatorT_std__vectorT_bool_std__allocatorT_bool_t_t_t_t = {"_p_std__vectorT_std__vectorT_bool_std__allocatorT_bool_t_t_std__allocatorT_std__vectorT_bool_std__allocatorT_bool_t_t_t_t", "std::vector< std::vector< bool,std::allocator< bool > >,std::allocator< std::vector< bool,std::allocator< bool > > > > *", 0, 0, (void*)0, 0};
@@ -55793,7 +55791,6 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_sptr,
   &_swigt__p_std__complexT_double_t,
   &_swigt__p_std__complexT_float_t,
-  &_swigt__p_std__vectorT_bool_std__allocatorT_bool_t_t,
   &_swigt__p_std__vectorT_gr__tag_t_std__allocatorT_gr__tag_t_t_t,
   &_swigt__p_std__vectorT_std__complexT_float_t_std__allocatorT_std__complexT_float_t_t_t,
   &_swigt__p_std__vectorT_std__vectorT_bool_std__allocatorT_bool_t_t_std__allocatorT_std__vectorT_bool_std__allocatorT_bool_t_t_t_t,
@@ -55888,7 +55885,6 @@ static swig_cast_info _swigc__p_size_type[] = {  {&_swigt__p_size_type, 0, 0, 0}
 static swig_cast_info _swigc__p_sptr[] = {  {&_swigt__p_sptr, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__complexT_double_t[] = {  {&_swigt__p_std__complexT_double_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__complexT_float_t[] = {  {&_swigt__p_std__complexT_float_t, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_std__vectorT_bool_std__allocatorT_bool_t_t[] = {  {&_swigt__p_std__vectorT_bool_std__allocatorT_bool_t_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__vectorT_gr__tag_t_std__allocatorT_gr__tag_t_t_t[] = {  {&_swigt__p_std__vectorT_gr__tag_t_std__allocatorT_gr__tag_t_t_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__vectorT_std__complexT_float_t_std__allocatorT_std__complexT_float_t_t_t[] = {  {&_swigt__p_std__vectorT_std__complexT_float_t_std__allocatorT_std__complexT_float_t_t_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__vectorT_std__vectorT_bool_std__allocatorT_bool_t_t_std__allocatorT_std__vectorT_bool_std__allocatorT_bool_t_t_t_t[] = {  {&_swigt__p_std__vectorT_std__vectorT_bool_std__allocatorT_bool_t_t_std__allocatorT_std__vectorT_bool_std__allocatorT_bool_t_t_t_t, 0, 0, 0},{0, 0, 0, 0}};
@@ -55983,7 +55979,6 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_sptr,
   _swigc__p_std__complexT_double_t,
   _swigc__p_std__complexT_float_t,
-  _swigc__p_std__vectorT_bool_std__allocatorT_bool_t_t,
   _swigc__p_std__vectorT_gr__tag_t_std__allocatorT_gr__tag_t_t_t,
   _swigc__p_std__vectorT_std__complexT_float_t_std__allocatorT_std__complexT_float_t_t_t,
   _swigc__p_std__vectorT_std__vectorT_bool_std__allocatorT_bool_t_t_std__allocatorT_std__vectorT_bool_std__allocatorT_bool_t_t_t_t,

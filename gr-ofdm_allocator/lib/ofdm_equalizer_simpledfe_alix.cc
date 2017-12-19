@@ -23,7 +23,7 @@
 #endif
 
 #include <gnuradio/io_signature.h>
-//#include <iostream>
+#include <iostream>
 #include <ofdm_allocator/ofdm_equalizer_simpledfe_alix.h>
 
 namespace gr {
@@ -78,7 +78,7 @@ namespace gr {
     ofdm_equalizer_simpledfe_alix::equalize(gr_complex *frame,
 	      int n_sym,
 	      const std::vector<gr_complex> &initial_taps,
-	      const std::vector<bool> &occupied_carriers,
+	      const std::vector<std::vector<bool> > &occupied_carriers,
 	      const std::vector<std::vector<bool> > &pilot_carriers,
 	      const std::vector<std::vector<gr_complex> > &pilot_symbols,
 	      const std::vector<tag_t> &tags)
@@ -88,16 +88,17 @@ namespace gr {
       }
       gr_complex sym_eq, sym_est;
 
+      std::cout << "/* message */" << d_data_carr_set << '\n';
+      std::cout << "/* size */" << occupied_carriers.size() << '\n';
       for (int i = 0; i < n_sym; i++) {
 	for (int k = 0; k < d_fft_len; k++) {
-	  if (!occupied_carriers[k]) {
+	  if (!occupied_carriers[d_data_carr_set][k]) {
 	    continue;
 	  }
 	  if (!pilot_carriers.empty() && pilot_carriers[d_pilot_carr_set][k]) {
 	    d_channel_state[k] = d_alpha * d_channel_state[k]
 			       + (1-d_alpha) * frame[i*d_fft_len + k] / pilot_symbols[d_pilot_carr_set][k];
 	    frame[i*d_fft_len+k] = pilot_symbols[d_pilot_carr_set][k];
-//       std::cout << "sono dentro" << '\n';
 	  } else {
 	    sym_eq = frame[i*d_fft_len+k] / d_channel_state[k];
             // The `map_to_points` function will treat `sym_est` as an array
@@ -107,12 +108,13 @@ namespace gr {
             // dimensionality value to `1`. Thus, Only the single `gr_complex`
             // value will be dereferenced.
 	    d_constellation->map_to_points(d_constellation->decision_maker(&sym_eq), &sym_est);
-//	std::cout << "sono dentro qui invece!" << '\n';
-      // map_to_points(decision_maker(&sym_eq), &sym_est);
 	    d_channel_state[k] = d_alpha * d_channel_state[k]
                                + (1-d_alpha) * frame[i*d_fft_len + k] / sym_est;
 	    frame[i*d_fft_len+k] = sym_est;
 	  }
+	}
+  if (!occupied_carriers.empty()) {
+	  d_data_carr_set = (d_data_carr_set + 1) % occupied_carriers.size();
 	}
 	if (!pilot_carriers.empty()) {
 	  d_pilot_carr_set = (d_pilot_carr_set + 1) % pilot_carriers.size();

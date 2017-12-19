@@ -55,7 +55,7 @@ namespace gr {
          gr_complex *frame,
          int n_sym,
          const std::vector<gr_complex> &initial_taps = std::vector<gr_complex>(),
-  	 const std::vector<bool> &occupied_carriers = std::vector<bool> (),
+  	 const std::vector<std::vector<bool> > &occupied_carriers = std::vector<std::vector<bool> > (),
 	 const std::vector<std::vector<bool> > &pilot_carriers = std::vector<std::vector<bool> > (),
          const std::vector<std::vector<gr_complex> > &pilot_symbols = std::vector<std::vector<gr_complex> >(),
          const std::vector<tag_t> &tags = std::vector<tag_t>()) = 0;
@@ -84,6 +84,7 @@ namespace gr {
      std::vector<std::vector<gr_complex> > d_pilot_symbols;
      //! In case the frame doesn't begin with OFDM symbol 0, this is the index of the first symbol
      int d_symbols_skipped;
+     int d_data_carr_set;
      //! The current position in the set of pilot symbols
      int d_pilot_carr_set;
      //! Vector of length d_fft_len saving the current channel state (on the occupied carriers)

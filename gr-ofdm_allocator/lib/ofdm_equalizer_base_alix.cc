@@ -54,6 +54,7 @@ namespace gr {
 	  d_pilot_symbols(pilot_symbols.size(), std::vector<gr_complex>(fft_len, gr_complex(0, 0))),
 	  d_symbols_skipped(symbols_skipped),
 	  d_pilot_carr_set(pilot_carriers.empty() ? 0 : symbols_skipped % pilot_carriers.size()),
+    d_data_carr_set(occupied_carriers.empty() ? 0 : symbols_skipped % occupied_carriers.size()),
 	  d_channel_state(fft_len, gr_complex(1, 0))
     {
       int fft_shift_width = 0;

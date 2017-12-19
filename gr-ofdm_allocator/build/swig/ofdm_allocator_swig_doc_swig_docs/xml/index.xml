@@ -169,7 +169,7 @@
     <member refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__base__alix_1a2d1ecc940a342274daf8e967fb02e6bf" kind="function"><name>ofdm_equalizer_base_alix</name></member>
     <member refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__base__alix_1ad7f89b48ec0bcb6785451d2138639905" kind="function"><name>~ofdm_equalizer_base_alix</name></member>
     <member refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__base__alix_1ad302ebfdd8ec2a1c1b2b18ed0a35fdcb" kind="function"><name>reset</name></member>
-    <member refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__base__alix_1abb307145957c3710a16f3c682088cd4d" kind="function"><name>equalize</name></member>
+    <member refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__base__alix_1a50107791a6d0ecf81fd7e8b8e47418ba" kind="function"><name>equalize</name></member>
     <member refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__base__alix_1a179d8dc94cc6a0a71399c52d8d67873f" kind="function"><name>get_channel_state</name></member>
     <member refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__base__alix_1a4d8e3789a81c714a1c21e02e190ba9cc" kind="function"><name>fft_len</name></member>
     <member refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__base__alix_1a67e1b0098c9bd45f690b2585ef97f8a2" kind="function"><name>base</name></member>
@@ -180,7 +180,7 @@
     <member refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__simpledfe__alix_1a523b938e3a769980894a76d2d5504787" kind="variable"><name>d_alpha</name></member>
     <member refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__simpledfe__alix_1a462bba10b515370242c81b8c9b12e277" kind="function"><name>ofdm_equalizer_simpledfe_alix</name></member>
     <member refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__simpledfe__alix_1a53c6b9abae5eca5139b02f477d694ef4" kind="function"><name>~ofdm_equalizer_simpledfe_alix</name></member>
-    <member refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__simpledfe__alix_1a9e94b48df3035dbb52c54ceb5cb9c6f4" kind="function"><name>equalize</name></member>
+    <member refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__simpledfe__alix_1a445645efc6aef29d9d67574540f64d56" kind="function"><name>equalize</name></member>
     <member refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__simpledfe__alix_1ae32da57bff762088607de50113ba3f91" kind="function"><name>make</name></member>
   </compound>
   <compound refid="classgr_1_1ofdm__allocator_1_1packet__header__default__alix" kind="class"><name>gr::ofdm_allocator::packet_header_default_alix</name>
