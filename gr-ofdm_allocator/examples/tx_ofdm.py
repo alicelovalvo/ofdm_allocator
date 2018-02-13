@@ -4,7 +4,7 @@
 # GNU Radio Python Flow Graph
 # Title: OFDM Tx
 # Description: Example of an OFDM Transmitter
-# Generated: Tue Feb 13 16:24:59 2018
+# Generated: Tue Feb 13 16:27:08 2018
 ##################################################
 
 if __name__ == '__main__':
@@ -100,7 +100,6 @@ class tx_ofdm(gr.top_block, Qt.QWidget):
         # Blocks
         ##################################################
         self.ofdm_allocator_per_measure_0 = ofdm_allocator.per_measure(gr.sizeof_char*1, 1000)
-        self.ofdm_allocator_crc_alix_0 = ofdm_allocator.crc_alix(True, length_tag_key, True)
         self.fft_vxx_1 = fft.fft_vcc(fft_len, True, (), True, 1)
         self.fft_vxx_0_0 = fft.fft_vcc(fft_len, True, (()), True, 1)
         self.fft_vxx_0 = fft.fft_vcc(fft_len, False, (()), True, 1)
@@ -129,6 +128,7 @@ class tx_ofdm(gr.top_block, Qt.QWidget):
                   (),
                   0,
             )
+        self.digital_crc32_bb_0_0 = digital.crc32_bb(True, length_tag_key, True)
         self.digital_crc32_bb_0 = digital.crc32_bb(False, length_tag_key, True)
         self.digital_constellation_decoder_cb_1 = digital.constellation_decoder_cb(payload_mod.base())
         self.digital_constellation_decoder_cb_0 = digital.constellation_decoder_cb(header_mod.base())
@@ -186,6 +186,8 @@ class tx_ofdm(gr.top_block, Qt.QWidget):
         self.connect((self.digital_constellation_decoder_cb_0, 0), (self.digital_packet_headerparser_b_0, 0))
         self.connect((self.digital_constellation_decoder_cb_1, 0), (self.blocks_repack_bits_bb_0_1, 0))
         self.connect((self.digital_crc32_bb_0, 0), (self.fec_extended_tagged_encoder_0, 0))
+        self.connect((self.digital_crc32_bb_0_0, 0), (self.blocks_tag_debug_1_1, 0))
+        self.connect((self.digital_crc32_bb_0_0, 0), (self.ofdm_allocator_per_measure_0, 0))
         self.connect((self.digital_header_payload_demux_0, 0), (self.fft_vxx_0_0, 0))
         self.connect((self.digital_header_payload_demux_0, 1), (self.fft_vxx_1, 0))
         self.connect((self.digital_ofdm_carrier_allocator_cvc_0, 0), (self.fft_vxx_0, 0))
@@ -198,14 +200,12 @@ class tx_ofdm(gr.top_block, Qt.QWidget):
         self.connect((self.digital_ofdm_sync_sc_cfb_0, 0), (self.analog_frequency_modulator_fc_0, 0))
         self.connect((self.digital_ofdm_sync_sc_cfb_0, 1), (self.digital_header_payload_demux_0, 1))
         self.connect((self.digital_protocol_formatter_bb_0, 0), (self.blocks_repack_bits_bb_0_0, 0))
-        self.connect((self.fec_extended_tagged_decoder_0_0, 0), (self.ofdm_allocator_crc_alix_0, 0))
+        self.connect((self.fec_extended_tagged_decoder_0_0, 0), (self.digital_crc32_bb_0_0, 0))
         self.connect((self.fec_extended_tagged_encoder_0, 0), (self.blocks_repack_bits_bb_0, 0))
         self.connect((self.fec_extended_tagged_encoder_0, 0), (self.digital_protocol_formatter_bb_0, 0))
         self.connect((self.fft_vxx_0, 0), (self.digital_ofdm_cyclic_prefixer_0, 0))
         self.connect((self.fft_vxx_0_0, 0), (self.digital_ofdm_chanest_vcvc_0, 0))
         self.connect((self.fft_vxx_1, 0), (self.digital_ofdm_frame_equalizer_vcvc_1, 0))
-        self.connect((self.ofdm_allocator_crc_alix_0, 0), (self.blocks_tag_debug_1_1, 0))
-        self.connect((self.ofdm_allocator_crc_alix_0, 0), (self.ofdm_allocator_per_measure_0, 0))
         self.connect((self.ofdm_allocator_per_measure_0, 0), (self.blocks_tag_debug_1_0, 0))
 
     def closeEvent(self, event):
