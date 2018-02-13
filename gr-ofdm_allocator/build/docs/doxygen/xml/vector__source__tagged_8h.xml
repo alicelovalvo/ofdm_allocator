@@ -1,42 +1,42 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
   <compounddef id="vector__source__tagged_8h" kind="file" language="C++">
     <compoundname>vector_source_tagged.h</compoundname>
     <includes refid="api_8h" local="no">ofdm_allocator/api.h</includes>
     <includes local="no">gnuradio/sync_block.h</includes>
     <includedby refid="vector__source__tagged__impl_8h" local="no">vector_source_tagged_impl.h</includedby>
     <incdepgraph>
-      <node id="216">
+      <node id="256">
+        <label>vector_source_tagged.h</label>
+        <link refid="vector__source__tagged_8h"/>
+        <childnode refid="257" relation="include">
+        </childnode>
+        <childnode refid="259" relation="include">
+        </childnode>
+      </node>
+      <node id="259">
         <label>gnuradio/sync_block.h</label>
       </node>
-      <node id="215">
+      <node id="258">
         <label>gnuradio/attributes.h</label>
       </node>
-      <node id="214">
+      <node id="257">
         <label>ofdm_allocator/api.h</label>
         <link refid="api_8h"/>
-        <childnode refid="215" relation="include">
-        </childnode>
-      </node>
-      <node id="213">
-        <label>vector_source_tagged.h</label>
-        <link refid="vector_source_tagged.h"/>
-        <childnode refid="214" relation="include">
-        </childnode>
-        <childnode refid="216" relation="include">
+        <childnode refid="258" relation="include">
         </childnode>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="218">
+      <node id="260">
+        <label>vector_source_tagged.h</label>
+        <link refid="vector__source__tagged_8h"/>
+        <childnode refid="261" relation="include">
+        </childnode>
+      </node>
+      <node id="261">
         <label>vector_source_tagged_impl.h</label>
         <link refid="vector__source__tagged__impl_8h"/>
-      </node>
-      <node id="217">
-        <label>vector_source_tagged.h</label>
-        <link refid="vector_source_tagged.h"/>
-        <childnode refid="218" relation="include">
-        </childnode>
       </node>
     </invincdepgraph>
     <innerclass refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged" prot="public">gr::ofdm_allocator::vector_source_tagged</innerclass>
@@ -46,6 +46,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/vector_source_tagged.h"/>
+    <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/vector_source_tagged.h"/>
   </compounddef>
 </doxygen>

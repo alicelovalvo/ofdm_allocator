@@ -1,19 +1,22 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
   <compounddef id="dir_97aefd0d527b934f1d99a682da8fe6a9" kind="dir">
     <compoundname>lib</compoundname>
     <innerfile refid="allocator__subcarrier__impl_8h">allocator_subcarrier_impl.h</innerfile>
     <innerfile refid="constellation__decoder__alix__impl_8h">constellation_decoder_alix_impl.h</innerfile>
+    <innerfile refid="crc__alix__impl_8h">crc_alix_impl.h</innerfile>
     <innerfile refid="frame__equalizer__alix__impl_8h">frame_equalizer_alix_impl.h</innerfile>
     <innerfile refid="packet__header__gen__impl_8h">packet_header_gen_impl.h</innerfile>
     <innerfile refid="packet__header__parser__alix__impl_8h">packet_header_parser_alix_impl.h</innerfile>
+    <innerfile refid="per__measure__decimator__impl_8h">per_measure_decimator_impl.h</innerfile>
     <innerfile refid="per__measure__impl_8h">per_measure_impl.h</innerfile>
+    <innerfile refid="pkt__err__measure__impl_8h">pkt_err_measure_impl.h</innerfile>
     <innerfile refid="serializer__subcarrier__impl_8h">serializer_subcarrier_impl.h</innerfile>
     <innerfile refid="vector__source__tagged__impl_8h">vector_source_tagged_impl.h</innerfile>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/"/>
+    <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/"/>
   </compounddef>
 </doxygen>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
   <compounddef id="classgr_1_1ofdm__allocator_1_1packet__header__gen__impl" kind="class" language="C++" prot="public">
     <compoundname>gr::ofdm_allocator::packet_header_gen_impl</compoundname>
     <basecompoundref refid="classgr_1_1ofdm__allocator_1_1packet__header__gen" prot="public" virt="non-virtual">gr::ofdm_allocator::packet_header_gen</basecompoundref>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/packet_header_gen_impl.h" line="33" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/packet_header_gen_impl.h" bodystart="33" bodyend="-1"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/packet_header_gen_impl.h" line="33" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/packet_header_gen_impl.h" bodystart="33" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1packet__header__gen__impl_1a0182dc0b837ef22d28c2cef40b7ffd85" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/packet_header_gen_impl.h" line="34" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/packet_header_gen_impl.h" bodystart="34" bodyend="-1"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/packet_header_gen_impl.h" line="34" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/packet_header_gen_impl.h" bodystart="34" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1packet__header__gen__impl_1a28b3b012180266673689e01a43482567" prot="private" static="no" mutable="no">
         <type>unsigned</type>
@@ -42,7 +42,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/packet_header_gen_impl.h" line="35" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/packet_header_gen_impl.h" bodystart="35" bodyend="-1"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/packet_header_gen_impl.h" line="35" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/packet_header_gen_impl.h" bodystart="35" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1packet__header__gen__impl_1a502d56d6e9706bc9454dddffc2318cdc" prot="private" static="no" mutable="no">
         <type>unsigned</type>
@@ -55,7 +55,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/packet_header_gen_impl.h" line="36" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/packet_header_gen_impl.h" bodystart="36" bodyend="-1"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/packet_header_gen_impl.h" line="36" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/packet_header_gen_impl.h" bodystart="36" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1packet__header__gen__impl_1a014ccfcdf03ec3f1b4c724c399644379" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -68,7 +68,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/packet_header_gen_impl.h" line="37" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/packet_header_gen_impl.h" bodystart="37" bodyend="-1"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/packet_header_gen_impl.h" line="37" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/packet_header_gen_impl.h" bodystart="37" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1packet__header__gen__impl_1ad3c5a0cb532ed90883358b1f17b7226d" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -81,7 +81,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/packet_header_gen_impl.h" line="38" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/packet_header_gen_impl.h" bodystart="38" bodyend="-1"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/packet_header_gen_impl.h" line="38" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/packet_header_gen_impl.h" bodystart="38" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1packet__header__gen__impl_1a03997dda1fab00f4f70fa24421e54b5b" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -94,7 +94,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/packet_header_gen_impl.h" line="39" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/packet_header_gen_impl.h" bodystart="39" bodyend="-1"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/packet_header_gen_impl.h" line="39" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/packet_header_gen_impl.h" bodystart="39" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1packet__header__gen__impl_1a0207a8c89f5c4e52e1a4cb2bbf6d4dbc" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -107,7 +107,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/packet_header_gen_impl.h" line="40" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/packet_header_gen_impl.h" bodystart="40" bodyend="-1"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/packet_header_gen_impl.h" line="40" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/packet_header_gen_impl.h" bodystart="40" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1packet__header__gen__impl_1a6d2187a6a95f2e6068089377727ae693" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -120,7 +120,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/packet_header_gen_impl.h" line="41" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/packet_header_gen_impl.h" bodystart="41" bodyend="-1"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/packet_header_gen_impl.h" line="41" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/packet_header_gen_impl.h" bodystart="41" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1packet__header__gen__impl_1aae36dec56ce0997b68709a1f42ac8b02" prot="private" static="no" mutable="no">
         <type>boost::crc_optimal&lt; 8, 0x07, 0xFF, 0x00, false, false &gt;</type>
@@ -133,7 +133,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/packet_header_gen_impl.h" line="42" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/packet_header_gen_impl.h" bodystart="42" bodyend="-1"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/packet_header_gen_impl.h" line="42" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/packet_header_gen_impl.h" bodystart="42" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -180,7 +180,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/packet_header_gen_impl.h" line="47" column="1"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/packet_header_gen_impl.h" line="47" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1packet__header__gen__impl_1a4b11c599e1c2600d04506045799967fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -193,7 +193,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/packet_header_gen_impl.h" line="55" column="1"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/packet_header_gen_impl.h" line="55" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1packet__header__gen__impl_1a131f0e0e5f9383889fc104adcf6fb913" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -214,7 +214,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/packet_header_gen_impl.h" line="57" column="1"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/packet_header_gen_impl.h" line="57" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1packet__header__gen__impl_1accf4daacd0b0dd52fdc56f554f243142" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -243,7 +243,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/packet_header_gen_impl.h" line="58" column="1"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/packet_header_gen_impl.h" line="58" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1packet__header__gen__impl_1a650c98765641bfbcc8c9970fd54d5657" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -261,7 +261,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/packet_header_gen_impl.h" line="59" column="1"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/packet_header_gen_impl.h" line="59" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1packet__header__gen__impl_1af863c6a7bc6dcc1965bf9320aed0fd51" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -278,7 +278,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/packet_header_gen_impl.h" line="61" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/packet_header_gen_impl.h" bodystart="61" bodyend="61"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/packet_header_gen_impl.h" line="61" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/packet_header_gen_impl.h" bodystart="61" bodyend="61"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1packet__header__gen__impl_1abc84c9b1c280f5fb614eaf0f353fb628" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>int</type>
@@ -295,7 +295,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/packet_header_gen_impl.h" line="62" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/packet_header_gen_impl.h" bodystart="62" bodyend="62"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/packet_header_gen_impl.h" line="62" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/packet_header_gen_impl.h" bodystart="62" bodyend="62"/>
         <references refid="classgr_1_1ofdm__allocator_1_1packet__header__gen__impl_1a0b7be4aee43a02a999c574c98fe98259">work</references>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1packet__header__gen__impl_1a0b7be4aee43a02a999c574c98fe98259" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -325,7 +325,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/packet_header_gen_impl.h" line="64" column="1"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/packet_header_gen_impl.h" line="64" column="1"/>
         <referencedby refid="classgr_1_1ofdm__allocator_1_1packet__header__gen__impl_1abc84c9b1c280f5fb614eaf0f353fb628" compoundref="packet__header__gen__impl_8h" startline="62" endline="62">calculate_output_stream_length</referencedby>
       </memberdef>
       </sectiondef>
@@ -334,40 +334,40 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="202">
+      <node id="213">
         <label>gr::ofdm_allocator::packet_header_gen</label>
         <link refid="classgr_1_1ofdm__allocator_1_1packet__header__gen"/>
-        <childnode refid="203" relation="public-inheritance">
+        <childnode refid="214" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="203">
+      <node id="214">
         <label>tagged_stream_block</label>
       </node>
-      <node id="201">
+      <node id="212">
         <label>gr::ofdm_allocator::packet_header_gen_impl</label>
         <link refid="classgr_1_1ofdm__allocator_1_1packet__header__gen__impl"/>
-        <childnode refid="202" relation="public-inheritance">
+        <childnode refid="213" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="205">
+      <node id="216">
         <label>gr::ofdm_allocator::packet_header_gen</label>
         <link refid="classgr_1_1ofdm__allocator_1_1packet__header__gen"/>
-        <childnode refid="206" relation="public-inheritance">
+        <childnode refid="217" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="206">
+      <node id="217">
         <label>tagged_stream_block</label>
       </node>
-      <node id="204">
+      <node id="215">
         <label>gr::ofdm_allocator::packet_header_gen_impl</label>
         <link refid="classgr_1_1ofdm__allocator_1_1packet__header__gen__impl"/>
-        <childnode refid="205" relation="public-inheritance">
+        <childnode refid="216" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/packet_header_gen_impl.h" line="31" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/packet_header_gen_impl.h" bodystart="30" bodyend="68"/>
+    <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/packet_header_gen_impl.h" line="31" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/packet_header_gen_impl.h" bodystart="30" bodyend="68"/>
     <listofallmembers>
       <member refid="classgr_1_1ofdm__allocator_1_1packet__header__gen__impl_1abc84c9b1c280f5fb614eaf0f353fb628" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::packet_header_gen_impl</scope><name>calculate_output_stream_length</name></member>
       <member refid="classgr_1_1ofdm__allocator_1_1packet__header__gen__impl_1a0182dc0b837ef22d28c2cef40b7ffd85" prot="private" virt="non-virtual"><scope>gr::ofdm_allocator::packet_header_gen_impl</scope><name>d_bits_per_byte</name></member>

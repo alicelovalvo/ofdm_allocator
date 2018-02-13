@@ -427,6 +427,14 @@ Params: (sector)"
 
 Params: (NONE)"
 
+%feature("docstring") gr::ofdm_allocator::crc_alix "<+description of block+>"
+
+%feature("docstring") gr::ofdm_allocator::crc_alix::make "Return a shared_ptr to a new instance of ofdm_allocator::crc_alix.
+
+To avoid accidental use of raw pointers, ofdm_allocator::crc_alix's constructor is in a private implementation class. ofdm_allocator::crc_alix::make is the public interface for creating new instances.
+
+Params: (check, lengthtagname, packed)"
+
 %feature("docstring") gr::ofdm_allocator::frame_equalizer_alix "<+description of block+>"
 
 %feature("docstring") gr::ofdm_allocator::frame_equalizer_alix::make "Return a shared_ptr to a new instance of ofdm_allocator::frame_equalizer_alix.
@@ -614,6 +622,38 @@ Params: (sizeof_stream_item, window)"
 Params: (NONE)"
 
 %feature("docstring") gr::ofdm_allocator::per_measure::num_tags "Return the total number of tags in the tag queue.
+
+Params: (NONE)"
+
+%feature("docstring") gr::ofdm_allocator::per_measure_decimator "<+description of block+>"
+
+%feature("docstring") gr::ofdm_allocator::per_measure_decimator::make "Return a shared_ptr to a new instance of ofdm_allocator::per_measure_decimator.
+
+To avoid accidental use of raw pointers, ofdm_allocator::per_measure_decimator's constructor is in a private implementation class. ofdm_allocator::per_measure_decimator::make is the public interface for creating new instances.
+
+Params: (sizeof_stream_item, window)"
+
+%feature("docstring") gr::ofdm_allocator::per_measure_decimator::current_tags "
+
+Params: (NONE)"
+
+%feature("docstring") gr::ofdm_allocator::per_measure_decimator::num_tags "Return the total number of tags in the tag queue.
+
+Params: (NONE)"
+
+%feature("docstring") gr::ofdm_allocator::pkt_err_measure "<+description of block+>"
+
+%feature("docstring") gr::ofdm_allocator::pkt_err_measure::make "Return a shared_ptr to a new instance of ofdm_allocator::pkt_err_measure.
+
+To avoid accidental use of raw pointers, ofdm_allocator::pkt_err_measure's constructor is in a private implementation class. ofdm_allocator::pkt_err_measure::make is the public interface for creating new instances.
+
+Params: (sizeof_stream_item, window)"
+
+%feature("docstring") gr::ofdm_allocator::pkt_err_measure::current_tags "
+
+Params: (NONE)"
+
+%feature("docstring") gr::ofdm_allocator::pkt_err_measure::num_tags "Return the total number of tags in the tag queue.
 
 Params: (NONE)"
 

@@ -27,6 +27,12 @@ var files =
     [ "constellation_decoder_alix_impl.h", "constellation__decoder__alix__impl_8h.html", [
       [ "constellation_decoder_alix_impl", "classgr_1_1ofdm__allocator_1_1constellation__decoder__alix__impl.html", "classgr_1_1ofdm__allocator_1_1constellation__decoder__alix__impl" ]
     ] ],
+    [ "crc_alix.h", "crc__alix_8h.html", [
+      [ "crc_alix", "classgr_1_1ofdm__allocator_1_1crc__alix.html", "classgr_1_1ofdm__allocator_1_1crc__alix" ]
+    ] ],
+    [ "crc_alix_impl.h", "crc__alix__impl_8h.html", [
+      [ "crc_alix_impl", "classgr_1_1ofdm__allocator_1_1crc__alix__impl.html", "classgr_1_1ofdm__allocator_1_1crc__alix__impl" ]
+    ] ],
     [ "frame_equalizer_alix.h", "frame__equalizer__alix_8h.html", [
       [ "frame_equalizer_alix", "classgr_1_1ofdm__allocator_1_1frame__equalizer__alix.html", "classgr_1_1ofdm__allocator_1_1frame__equalizer__alix" ]
     ] ],
@@ -58,8 +64,20 @@ var files =
     [ "per_measure.h", "per__measure_8h.html", [
       [ "per_measure", "classgr_1_1ofdm__allocator_1_1per__measure.html", "classgr_1_1ofdm__allocator_1_1per__measure" ]
     ] ],
+    [ "per_measure_decimator.h", "per__measure__decimator_8h.html", [
+      [ "per_measure_decimator", "classgr_1_1ofdm__allocator_1_1per__measure__decimator.html", "classgr_1_1ofdm__allocator_1_1per__measure__decimator" ]
+    ] ],
+    [ "per_measure_decimator_impl.h", "per__measure__decimator__impl_8h.html", [
+      [ "per_measure_decimator_impl", "classgr_1_1ofdm__allocator_1_1per__measure__decimator__impl.html", "classgr_1_1ofdm__allocator_1_1per__measure__decimator__impl" ]
+    ] ],
     [ "per_measure_impl.h", "per__measure__impl_8h.html", [
       [ "per_measure_impl", "classgr_1_1ofdm__allocator_1_1per__measure__impl.html", "classgr_1_1ofdm__allocator_1_1per__measure__impl" ]
+    ] ],
+    [ "pkt_err_measure.h", "pkt__err__measure_8h.html", [
+      [ "pkt_err_measure", "classgr_1_1ofdm__allocator_1_1pkt__err__measure.html", "classgr_1_1ofdm__allocator_1_1pkt__err__measure" ]
+    ] ],
+    [ "pkt_err_measure_impl.h", "pkt__err__measure__impl_8h.html", [
+      [ "pkt_err_measure_impl", "classgr_1_1ofdm__allocator_1_1pkt__err__measure__impl.html", "classgr_1_1ofdm__allocator_1_1pkt__err__measure__impl" ]
     ] ],
     [ "serializer_subcarrier.h", "serializer__subcarrier_8h.html", [
       [ "serializer_subcarrier", "classgr_1_1ofdm__allocator_1_1serializer__subcarrier.html", "classgr_1_1ofdm__allocator_1_1serializer__subcarrier" ]

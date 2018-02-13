@@ -1,35 +1,35 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
   <compounddef id="metric__type__alix_8h" kind="file" language="C++">
     <compoundname>metric_type_alix.h</compoundname>
     <includedby refid="constellation__alix_8h" local="no">constellation_alix.h</includedby>
     <invincdepgraph>
-      <node id="102">
-        <label>constellation_decoder_alix.h</label>
-        <link refid="constellation__decoder__alix_8h"/>
-        <childnode refid="103" relation="include">
-        </childnode>
-      </node>
-      <node id="100">
-        <label>metric_type_alix.h</label>
-        <link refid="metric_type_alix.h"/>
-        <childnode refid="101" relation="include">
-        </childnode>
-      </node>
-      <node id="104">
+      <node id="123">
         <label>ofdm_equalizer_simpledfe_alix.h</label>
         <link refid="ofdm__equalizer__simpledfe__alix_8h"/>
       </node>
-      <node id="103">
+      <node id="119">
+        <label>metric_type_alix.h</label>
+        <link refid="metric__type__alix_8h"/>
+        <childnode refid="120" relation="include">
+        </childnode>
+      </node>
+      <node id="120">
+        <label>constellation_alix.h</label>
+        <link refid="constellation__alix_8h"/>
+        <childnode refid="121" relation="include">
+        </childnode>
+        <childnode refid="123" relation="include">
+        </childnode>
+      </node>
+      <node id="122">
         <label>constellation_decoder_alix_impl.h</label>
         <link refid="constellation__decoder__alix__impl_8h"/>
       </node>
-      <node id="101">
-        <label>constellation_alix.h</label>
-        <link refid="constellation__alix_8h"/>
-        <childnode refid="102" relation="include">
-        </childnode>
-        <childnode refid="104" relation="include">
+      <node id="121">
+        <label>constellation_decoder_alix.h</label>
+        <link refid="constellation__decoder__alix_8h"/>
+        <childnode refid="122" relation="include">
         </childnode>
       </node>
     </invincdepgraph>
@@ -39,6 +39,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/metric_type_alix.h"/>
+    <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/metric_type_alix.h"/>
   </compounddef>
 </doxygen>

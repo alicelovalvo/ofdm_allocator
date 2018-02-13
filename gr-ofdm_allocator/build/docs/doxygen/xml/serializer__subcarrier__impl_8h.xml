@@ -1,34 +1,34 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
   <compounddef id="serializer__subcarrier__impl_8h" kind="file" language="C++">
     <compoundname>serializer_subcarrier_impl.h</compoundname>
     <includes refid="serializer__subcarrier_8h" local="no">ofdm_allocator/serializer_subcarrier.h</includes>
     <incdepgraph>
-      <node id="210">
+      <node id="253">
         <label>gnuradio/attributes.h</label>
       </node>
-      <node id="208">
-        <label>ofdm_allocator/serializer_subcarrier.h</label>
-        <link refid="serializer__subcarrier_8h"/>
-        <childnode refid="209" relation="include">
-        </childnode>
-        <childnode refid="211" relation="include">
-        </childnode>
-      </node>
-      <node id="211">
-        <label>gnuradio/tagged_stream_block.h</label>
-      </node>
-      <node id="207">
-        <label>serializer_subcarrier_impl.h</label>
-        <link refid="serializer_subcarrier_impl.h"/>
-        <childnode refid="208" relation="include">
-        </childnode>
-      </node>
-      <node id="209">
+      <node id="252">
         <label>ofdm_allocator/api.h</label>
         <link refid="api_8h"/>
-        <childnode refid="210" relation="include">
+        <childnode refid="253" relation="include">
         </childnode>
+      </node>
+      <node id="250">
+        <label>serializer_subcarrier_impl.h</label>
+        <link refid="serializer__subcarrier__impl_8h"/>
+        <childnode refid="251" relation="include">
+        </childnode>
+      </node>
+      <node id="251">
+        <label>ofdm_allocator/serializer_subcarrier.h</label>
+        <link refid="serializer__subcarrier_8h"/>
+        <childnode refid="252" relation="include">
+        </childnode>
+        <childnode refid="254" relation="include">
+        </childnode>
+      </node>
+      <node id="254">
+        <label>gnuradio/tagged_stream_block.h</label>
       </node>
     </incdepgraph>
     <innerclass refid="classgr_1_1ofdm__allocator_1_1serializer__subcarrier__impl" prot="public">gr::ofdm_allocator::serializer_subcarrier_impl</innerclass>
@@ -38,6 +38,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/serializer_subcarrier_impl.h"/>
+    <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/serializer_subcarrier_impl.h"/>
   </compounddef>
 </doxygen>

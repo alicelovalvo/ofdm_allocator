@@ -3,6 +3,9 @@ var hierarchy =
     [ "block", null, [
       [ "gr::ofdm_allocator::constellation_decoder_alix", "classgr_1_1ofdm__allocator_1_1constellation__decoder__alix.html", [
         [ "gr::ofdm_allocator::constellation_decoder_alix_impl", "classgr_1_1ofdm__allocator_1_1constellation__decoder__alix__impl.html", null ]
+      ] ],
+      [ "gr::ofdm_allocator::pkt_err_measure", "classgr_1_1ofdm__allocator_1_1pkt__err__measure.html", [
+        [ "gr::ofdm_allocator::pkt_err_measure_impl", "classgr_1_1ofdm__allocator_1_1pkt__err__measure__impl.html", null ]
       ] ]
     ] ],
     [ "enable_shared_from_this", null, [
@@ -38,9 +41,17 @@ var hierarchy =
         [ "gr::ofdm_allocator::vector_source_tagged_impl", "classgr_1_1ofdm__allocator_1_1vector__source__tagged__impl.html", null ]
       ] ]
     ] ],
+    [ "sync_decimator", null, [
+      [ "gr::ofdm_allocator::per_measure_decimator", "classgr_1_1ofdm__allocator_1_1per__measure__decimator.html", [
+        [ "gr::ofdm_allocator::per_measure_decimator_impl", "classgr_1_1ofdm__allocator_1_1per__measure__decimator__impl.html", null ]
+      ] ]
+    ] ],
     [ "tagged_stream_block", null, [
       [ "gr::ofdm_allocator::allocator_subcarrier", "classgr_1_1ofdm__allocator_1_1allocator__subcarrier.html", [
         [ "gr::ofdm_allocator::allocator_subcarrier_impl", "classgr_1_1ofdm__allocator_1_1allocator__subcarrier__impl.html", null ]
+      ] ],
+      [ "gr::ofdm_allocator::crc_alix", "classgr_1_1ofdm__allocator_1_1crc__alix.html", [
+        [ "gr::ofdm_allocator::crc_alix_impl", "classgr_1_1ofdm__allocator_1_1crc__alix__impl.html", null ]
       ] ],
       [ "gr::ofdm_allocator::frame_equalizer_alix", "classgr_1_1ofdm__allocator_1_1frame__equalizer__alix.html", [
         [ "gr::ofdm_allocator::frame_equalizer_alix_impl", "classgr_1_1ofdm__allocator_1_1frame__equalizer__alix__impl.html", null ]

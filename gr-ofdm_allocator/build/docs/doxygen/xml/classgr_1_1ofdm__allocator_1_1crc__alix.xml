@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgr_1_1ofdm__allocator_1_1crc__alix" kind="class" language="C++" prot="public">
+    <compoundname>gr::ofdm_allocator::crc_alix</compoundname>
+    <basecompoundref prot="public" virt="virtual">tagged_stream_block</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1ofdm__allocator_1_1crc__alix__impl" prot="public" virt="non-virtual">gr::ofdm_allocator::crc_alix_impl</derivedcompoundref>
+    <includes refid="crc__alix_8h" local="no">crc_alix.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1ofdm__allocator_1_1crc__alix_1a982b3ff1a37bf335b3085d32ea8abd5b" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1ofdm__allocator_1_1crc__alix" kindref="compound">crc_alix</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;crc_alix&gt; gr::ofdm_allocator::crc_alix::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/crc_alix.h" line="39" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/crc_alix.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1crc__alix_1a454bb72fabf0e51509ae6002eb54685e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1ofdm__allocator_1_1crc__alix_1a982b3ff1a37bf335b3085d32ea8abd5b" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::ofdm_allocator::crc_alix::make</definition>
+        <argsstring>(bool check=false, const std::string &amp;lengthtagname=&quot;packet_len&quot;, bool packed=true)</argsstring>
+        <name>make</name>
+        <param>
+          <type>bool</type>
+          <declname>check</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>lengthtagname</declname>
+          <defval>&quot;packet_len&quot;</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>packed</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1ofdm__allocator_1_1crc__alix" kindref="compound">ofdm_allocator::crc_alix</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1ofdm__allocator_1_1crc__alix" kindref="compound">ofdm_allocator::crc_alix</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1ofdm__allocator_1_1crc__alix_1a454bb72fabf0e51509ae6002eb54685e" kindref="member">ofdm_allocator::crc_alix::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/crc_alix.h" line="49" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="151">
+        <label>gr::ofdm_allocator::crc_alix</label>
+        <link refid="classgr_1_1ofdm__allocator_1_1crc__alix"/>
+        <childnode refid="152" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="152">
+        <label>tagged_stream_block</label>
+      </node>
+      <node id="153">
+        <label>gr::ofdm_allocator::crc_alix_impl</label>
+        <link refid="classgr_1_1ofdm__allocator_1_1crc__alix__impl"/>
+        <childnode refid="151" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="154">
+        <label>gr::ofdm_allocator::crc_alix</label>
+        <link refid="classgr_1_1ofdm__allocator_1_1crc__alix"/>
+        <childnode refid="155" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="155">
+        <label>tagged_stream_block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/crc_alix.h" line="37" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/crc_alix.h" bodystart="36" bodyend="50"/>
+    <listofallmembers>
+      <member refid="classgr_1_1ofdm__allocator_1_1crc__alix_1a454bb72fabf0e51509ae6002eb54685e" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::crc_alix</scope><name>make</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1crc__alix_1a982b3ff1a37bf335b3085d32ea8abd5b" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::crc_alix</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

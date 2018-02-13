@@ -1,0 +1,13 @@
+<map id="gr::ofdm_allocator::constellation_alix" name="gr::ofdm_allocator::constellation_alix">
+<area shape="rect" id="node3" href="$classgr_1_1ofdm__allocator_1_1constellation__16qam.html" title="Digital constellation for 16qam. " alt="" coords="341,5,459,47"/>
+<area shape="rect" id="node4" href="$classgr_1_1ofdm__allocator_1_1constellation__8psk.html" title="Digital constellation for 8PSK. " alt="" coords="345,71,455,112"/>
+<area shape="rect" id="node5" href="$classgr_1_1ofdm__allocator_1_1constellation__8psk__natural.html" title="Digital constellation for natually mapped 8PSK. " alt="" coords="345,137,455,193"/>
+<area shape="rect" id="node6" href="$classgr_1_1ofdm__allocator_1_1constellation__bpsk.html" title="Digital constellation for BPSK . " alt="" coords="345,217,455,259"/>
+<area shape="rect" id="node7" href="$classgr_1_1ofdm__allocator_1_1constellation__calcdist.html" title="Calculate Euclidian distance for any constellation. " alt="" coords="339,283,461,324"/>
+<area shape="rect" id="node8" href="$classgr_1_1ofdm__allocator_1_1constellation__dqpsk.html" title="Digital constellation for DQPSK. " alt="" coords="342,348,458,389"/>
+<area shape="rect" id="node9" href="$classgr_1_1ofdm__allocator_1_1constellation__qpsk.html" title="Digital constellation for QPSK. " alt="" coords="345,413,455,455"/>
+<area shape="rect" id="node10" href="$classgr_1_1ofdm__allocator_1_1constellation__sector.html" title="Sectorized digital constellation. " alt="" coords="342,479,458,520"/>
+<area shape="rect" id="node11" href="$classgr_1_1ofdm__allocator_1_1constellation__psk.html" title="constellation_pskConstellation space is divided into pie slices sectors. " alt="" coords="510,445,614,487"/>
+<area shape="rect" id="node12" href="$classgr_1_1ofdm__allocator_1_1constellation__rect.html" title="Rectangular digital constellationOnly implemented for 1&#45;(complex)dimensional constellation. " alt="" coords="509,511,615,552"/>
+<area shape="rect" id="node13" href="$classgr_1_1ofdm__allocator_1_1constellation__expl__rect.html" title="Rectangular digital constellation. " alt="" coords="663,511,792,552"/>
+</map>

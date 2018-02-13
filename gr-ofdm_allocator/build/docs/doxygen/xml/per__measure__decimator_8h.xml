@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="per__measure__decimator_8h" kind="file" language="C++">
+    <compoundname>per_measure_decimator.h</compoundname>
+    <includes refid="api_8h" local="no">ofdm_allocator/api.h</includes>
+    <includes local="no">gnuradio/sync_decimator.h</includes>
+    <includedby refid="per__measure__decimator__impl_8h" local="no">per_measure_decimator_impl.h</includedby>
+    <incdepgraph>
+      <node id="217">
+        <label>gnuradio/sync_decimator.h</label>
+      </node>
+      <node id="216">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="215">
+        <label>ofdm_allocator/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="216" relation="include">
+        </childnode>
+      </node>
+      <node id="214">
+        <label>per_measure_decimator.h</label>
+        <link refid="per__measure__decimator_8h"/>
+        <childnode refid="215" relation="include">
+        </childnode>
+        <childnode refid="217" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="218">
+        <label>per_measure_decimator.h</label>
+        <link refid="per__measure__decimator_8h"/>
+        <childnode refid="219" relation="include">
+        </childnode>
+      </node>
+      <node id="219">
+        <label>per_measure_decimator_impl.h</label>
+        <link refid="per__measure__decimator__impl_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1ofdm__allocator_1_1per__measure__decimator" prot="public">gr::ofdm_allocator::per_measure_decimator</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1ofdm__allocator">gr::ofdm_allocator</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/per_measure_decimator.h"/>
+  </compounddef>
+</doxygen>

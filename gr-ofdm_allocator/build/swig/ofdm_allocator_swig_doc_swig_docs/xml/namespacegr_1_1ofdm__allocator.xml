@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
   <compounddef id="namespacegr_1_1ofdm__allocator" kind="namespace" language="C++">
     <compoundname>gr::ofdm_allocator</compoundname>
     <innerclass refid="classgr_1_1ofdm__allocator_1_1allocator__subcarrier" prot="public">gr::ofdm_allocator::allocator_subcarrier</innerclass>
@@ -16,6 +16,7 @@
     <innerclass refid="classgr_1_1ofdm__allocator_1_1constellation__qpsk" prot="public">gr::ofdm_allocator::constellation_qpsk</innerclass>
     <innerclass refid="classgr_1_1ofdm__allocator_1_1constellation__rect" prot="public">gr::ofdm_allocator::constellation_rect</innerclass>
     <innerclass refid="classgr_1_1ofdm__allocator_1_1constellation__sector" prot="public">gr::ofdm_allocator::constellation_sector</innerclass>
+    <innerclass refid="classgr_1_1ofdm__allocator_1_1crc__alix" prot="public">gr::ofdm_allocator::crc_alix</innerclass>
     <innerclass refid="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix" prot="public">gr::ofdm_allocator::frame_equalizer_alix</innerclass>
     <innerclass refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix" prot="public">gr::ofdm_allocator::ofdm_equalizer_1d_pilots_alix</innerclass>
     <innerclass refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__base__alix" prot="public">gr::ofdm_allocator::ofdm_equalizer_base_alix</innerclass>
@@ -25,6 +26,8 @@
     <innerclass refid="classgr_1_1ofdm__allocator_1_1packet__header__ofdm__alix" prot="public">gr::ofdm_allocator::packet_header_ofdm_alix</innerclass>
     <innerclass refid="classgr_1_1ofdm__allocator_1_1packet__header__parser__alix" prot="public">gr::ofdm_allocator::packet_header_parser_alix</innerclass>
     <innerclass refid="classgr_1_1ofdm__allocator_1_1per__measure" prot="public">gr::ofdm_allocator::per_measure</innerclass>
+    <innerclass refid="classgr_1_1ofdm__allocator_1_1per__measure__decimator" prot="public">gr::ofdm_allocator::per_measure_decimator</innerclass>
+    <innerclass refid="classgr_1_1ofdm__allocator_1_1pkt__err__measure" prot="public">gr::ofdm_allocator::pkt_err_measure</innerclass>
     <innerclass refid="classgr_1_1ofdm__allocator_1_1serializer__subcarrier" prot="public">gr::ofdm_allocator::serializer_subcarrier</innerclass>
     <innerclass refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged" prot="public">gr::ofdm_allocator::vector_source_tagged</innerclass>
       <sectiondef kind="enum">
@@ -58,7 +61,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/metric_type_alix.h" line="30" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/metric_type_alix.h" bodystart="30" bodyend="32"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/metric_type_alix.h" line="30" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/metric_type_alix.h" bodystart="30" bodyend="32"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="typedef">
@@ -73,13 +76,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/constellation_alix.h" line="41" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/constellation_alix.h" bodystart="40" bodyend="-1"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/constellation_alix.h" line="41" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/constellation_alix.h" bodystart="40" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/allocator_subcarrier.h" line="29" column="1"/>
+    <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/allocator_subcarrier.h" line="29" column="1"/>
   </compounddef>
 </doxygen>

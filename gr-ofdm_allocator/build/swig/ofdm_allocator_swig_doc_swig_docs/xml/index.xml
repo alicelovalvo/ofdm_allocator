@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.11">
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.13">
   <compound refid="classgr_1_1ofdm__allocator_1_1allocator__subcarrier" kind="class"><name>gr::ofdm_allocator::allocator_subcarrier</name>
     <member refid="classgr_1_1ofdm__allocator_1_1allocator__subcarrier_1ab6e5771d0fd1f766fd39bff1ef41b6bf" kind="typedef"><name>sptr</name></member>
     <member refid="classgr_1_1ofdm__allocator_1_1allocator__subcarrier_1aa01c8a9ebe407e302e4307a7617ff43e" kind="function"><name>len_tag_key</name></member>
@@ -146,6 +146,10 @@
     <member refid="classgr_1_1ofdm__allocator_1_1constellation__sector_1abe885dbe1e96be9c82f6fc361ae710ee" kind="function"><name>calc_sector_value</name></member>
     <member refid="classgr_1_1ofdm__allocator_1_1constellation__sector_1ab011c425bb64c4007a94eacf674cbaf2" kind="function"><name>find_sector_values</name></member>
   </compound>
+  <compound refid="classgr_1_1ofdm__allocator_1_1crc__alix" kind="class"><name>gr::ofdm_allocator::crc_alix</name>
+    <member refid="classgr_1_1ofdm__allocator_1_1crc__alix_1a982b3ff1a37bf335b3085d32ea8abd5b" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1ofdm__allocator_1_1crc__alix_1a454bb72fabf0e51509ae6002eb54685e" kind="function"><name>make</name></member>
+  </compound>
   <compound refid="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix" kind="class"><name>gr::ofdm_allocator::frame_equalizer_alix</name>
     <member refid="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix_1a25ae200123440ea6c6e1ff089e095e2a" kind="typedef"><name>sptr</name></member>
     <member refid="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix_1a18ea1f682cc43cec1c0d13ae7f416fa0" kind="function"><name>make</name></member>
@@ -235,6 +239,18 @@
     <member refid="classgr_1_1ofdm__allocator_1_1per__measure_1a74778608adc7304408e72023864eeddc" kind="function"><name>current_tags</name></member>
     <member refid="classgr_1_1ofdm__allocator_1_1per__measure_1a25d9b5cf1ffc38cc8b6ba007f6ddfe47" kind="function"><name>num_tags</name></member>
   </compound>
+  <compound refid="classgr_1_1ofdm__allocator_1_1per__measure__decimator" kind="class"><name>gr::ofdm_allocator::per_measure_decimator</name>
+    <member refid="classgr_1_1ofdm__allocator_1_1per__measure__decimator_1adb1494253eed794d3b983ef6c25dfa7b" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1ofdm__allocator_1_1per__measure__decimator_1aa64cf3ccb3503b31a39766ebb838c40e" kind="function"><name>make</name></member>
+    <member refid="classgr_1_1ofdm__allocator_1_1per__measure__decimator_1a0b2920ac726889cbab009171ec3b0940" kind="function"><name>current_tags</name></member>
+    <member refid="classgr_1_1ofdm__allocator_1_1per__measure__decimator_1afbd7677f6573274a6567670971f25fe9" kind="function"><name>num_tags</name></member>
+  </compound>
+  <compound refid="classgr_1_1ofdm__allocator_1_1pkt__err__measure" kind="class"><name>gr::ofdm_allocator::pkt_err_measure</name>
+    <member refid="classgr_1_1ofdm__allocator_1_1pkt__err__measure_1a61c8dec4583f47abd0fc4b77ce701fe0" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1ofdm__allocator_1_1pkt__err__measure_1a2fe8a3a153c281a48268d0899c53b777" kind="function"><name>make</name></member>
+    <member refid="classgr_1_1ofdm__allocator_1_1pkt__err__measure_1a6ef53674fcde2acf40edb826da15ab59" kind="function"><name>current_tags</name></member>
+    <member refid="classgr_1_1ofdm__allocator_1_1pkt__err__measure_1aefba5faafe7b959b417f1dfd4c039325" kind="function"><name>num_tags</name></member>
+  </compound>
   <compound refid="classgr_1_1ofdm__allocator_1_1serializer__subcarrier" kind="class"><name>gr::ofdm_allocator::serializer_subcarrier</name>
     <member refid="classgr_1_1ofdm__allocator_1_1serializer__subcarrier_1a54dccc15bc1eb99dcb0919633f745913" kind="typedef"><name>sptr</name></member>
     <member refid="classgr_1_1ofdm__allocator_1_1serializer__subcarrier_1a27269028ca71e67973713b348ebc10db" kind="function"><name>make</name></member>
@@ -269,6 +285,8 @@
   </compound>
   <compound refid="constellation__decoder__alix_8h" kind="file"><name>constellation_decoder_alix.h</name>
   </compound>
+  <compound refid="crc__alix_8h" kind="file"><name>crc_alix.h</name>
+  </compound>
   <compound refid="frame__equalizer__alix_8h" kind="file"><name>frame_equalizer_alix.h</name>
   </compound>
   <compound refid="metric__type__alix_8h" kind="file"><name>metric_type_alix.h</name>
@@ -287,12 +305,16 @@
   </compound>
   <compound refid="per__measure_8h" kind="file"><name>per_measure.h</name>
   </compound>
+  <compound refid="per__measure__decimator_8h" kind="file"><name>per_measure_decimator.h</name>
+  </compound>
+  <compound refid="pkt__err__measure_8h" kind="file"><name>pkt_err_measure.h</name>
+  </compound>
   <compound refid="serializer__subcarrier_8h" kind="file"><name>serializer_subcarrier.h</name>
   </compound>
   <compound refid="vector__source__tagged_8h" kind="file"><name>vector_source_tagged.h</name>
   </compound>
-  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include</name>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include</name>
   </compound>
-  <compound refid="dir_6d79e6258ac0cf50683a82e1c876981f" kind="dir"><name>/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator</name>
+  <compound refid="dir_6d79e6258ac0cf50683a82e1c876981f" kind="dir"><name>/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator</name>
   </compound>
 </doxygenindex>

@@ -1,72 +1,72 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
   <compounddef id="constellation__decoder__alix__impl_8h" kind="file" language="C++">
     <compoundname>constellation_decoder_alix_impl.h</compoundname>
     <includes refid="constellation__decoder__alix_8h" local="no">ofdm_allocator/constellation_decoder_alix.h</includes>
     <incdepgraph>
-      <node id="63">
-        <label>ofdm_allocator/constellation_decoder_alix.h</label>
-        <link refid="constellation__decoder__alix_8h"/>
-        <childnode refid="64" relation="include">
-        </childnode>
-        <childnode refid="66" relation="include">
-        </childnode>
-        <childnode refid="73" relation="include">
-        </childnode>
-      </node>
-      <node id="67">
+      <node id="73">
         <label>ofdm_allocator/metric_type_alix.h</label>
         <link refid="metric__type__alix_8h"/>
       </node>
-      <node id="65">
+      <node id="71">
         <label>gnuradio/attributes.h</label>
       </node>
-      <node id="69">
+      <node id="75">
         <label>boost/any.hpp</label>
       </node>
-      <node id="62">
-        <label>constellation_decoder_alix_impl.h</label>
-        <link refid="constellation_decoder_alix_impl.h"/>
-        <childnode refid="63" relation="include">
-        </childnode>
-      </node>
-      <node id="66">
-        <label>ofdm_allocator/constellation_alix.h</label>
-        <link refid="constellation__alix_8h"/>
-        <childnode refid="64" relation="include">
-        </childnode>
-        <childnode refid="67" relation="include">
-        </childnode>
-        <childnode refid="68" relation="include">
-        </childnode>
-        <childnode refid="69" relation="include">
-        </childnode>
-        <childnode refid="70" relation="include">
-        </childnode>
+      <node id="70">
+        <label>ofdm_allocator/api.h</label>
+        <link refid="api_8h"/>
         <childnode refid="71" relation="include">
-        </childnode>
-        <childnode refid="72" relation="include">
         </childnode>
       </node>
       <node id="72">
+        <label>ofdm_allocator/constellation_alix.h</label>
+        <link refid="constellation__alix_8h"/>
+        <childnode refid="70" relation="include">
+        </childnode>
+        <childnode refid="73" relation="include">
+        </childnode>
+        <childnode refid="74" relation="include">
+        </childnode>
+        <childnode refid="75" relation="include">
+        </childnode>
+        <childnode refid="76" relation="include">
+        </childnode>
+        <childnode refid="77" relation="include">
+        </childnode>
+        <childnode refid="78" relation="include">
+        </childnode>
+      </node>
+      <node id="78">
         <label>vector</label>
       </node>
-      <node id="73">
+      <node id="79">
         <label>gnuradio/block.h</label>
       </node>
-      <node id="70">
+      <node id="76">
         <label>gnuradio/gr_complex.h</label>
       </node>
-      <node id="71">
+      <node id="77">
         <label>pmt/pmt.h</label>
       </node>
-      <node id="68">
+      <node id="74">
         <label>boost/enable_shared_from_this.hpp</label>
       </node>
-      <node id="64">
-        <label>ofdm_allocator/api.h</label>
-        <link refid="api_8h"/>
-        <childnode refid="65" relation="include">
+      <node id="68">
+        <label>constellation_decoder_alix_impl.h</label>
+        <link refid="constellation__decoder__alix__impl_8h"/>
+        <childnode refid="69" relation="include">
+        </childnode>
+      </node>
+      <node id="69">
+        <label>ofdm_allocator/constellation_decoder_alix.h</label>
+        <link refid="constellation__decoder__alix_8h"/>
+        <childnode refid="70" relation="include">
+        </childnode>
+        <childnode refid="72" relation="include">
+        </childnode>
+        <childnode refid="79" relation="include">
         </childnode>
       </node>
     </incdepgraph>
@@ -77,6 +77,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/constellation_decoder_alix_impl.h"/>
+    <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/constellation_decoder_alix_impl.h"/>
   </compounddef>
 </doxygen>

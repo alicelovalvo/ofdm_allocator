@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgr_1_1ofdm__allocator_1_1per__measure__decimator" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>gr::ofdm_allocator::per_measure_decimator</compoundname>
+    <basecompoundref prot="public" virt="virtual">sync_decimator</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1ofdm__allocator_1_1per__measure__decimator__impl" prot="public" virt="non-virtual">gr::ofdm_allocator::per_measure_decimator_impl</derivedcompoundref>
+    <includes refid="per__measure__decimator_8h" local="no">per_measure_decimator.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1ofdm__allocator_1_1per__measure__decimator_1adb1494253eed794d3b983ef6c25dfa7b" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1ofdm__allocator_1_1per__measure__decimator" kindref="compound">per_measure_decimator</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;per_measure_decimator&gt; gr::ofdm_allocator::per_measure_decimator::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/per_measure_decimator.h" line="39" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/per_measure_decimator.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1per__measure__decimator_1aa64cf3ccb3503b31a39766ebb838c40e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1ofdm__allocator_1_1per__measure__decimator_1adb1494253eed794d3b983ef6c25dfa7b" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::ofdm_allocator::per_measure_decimator::make</definition>
+        <argsstring>(size_t sizeof_stream_item, int window)</argsstring>
+        <name>make</name>
+        <param>
+          <type>size_t</type>
+          <declname>sizeof_stream_item</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>window</declname>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1ofdm__allocator_1_1per__measure__decimator" kindref="compound">ofdm_allocator::per_measure_decimator</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1ofdm__allocator_1_1per__measure__decimator" kindref="compound">ofdm_allocator::per_measure_decimator</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1ofdm__allocator_1_1per__measure__decimator_1aa64cf3ccb3503b31a39766ebb838c40e" kindref="member">ofdm_allocator::per_measure_decimator::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/per_measure_decimator.h" line="49" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1per__measure__decimator_1a0b2920ac726889cbab009171ec3b0940" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>std::vector&lt; tag_t &gt;</type>
+        <definition>virtual std::vector&lt;tag_t&gt; gr::ofdm_allocator::per_measure_decimator::current_tags</definition>
+        <argsstring>()=0</argsstring>
+        <name>current_tags</name>
+        <reimplementedby refid="classgr_1_1ofdm__allocator_1_1per__measure__decimator__impl_1a2e8a5252cd90f75a4d816034c7e6334b">current_tags</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/per_measure_decimator.h" line="52" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1per__measure__decimator_1afbd7677f6573274a6567670971f25fe9" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>int</type>
+        <definition>virtual int gr::ofdm_allocator::per_measure_decimator::num_tags</definition>
+        <argsstring>()=0</argsstring>
+        <name>num_tags</name>
+        <reimplementedby refid="classgr_1_1ofdm__allocator_1_1per__measure__decimator__impl_1a752a4947a5f281edcc2ea43fd43ec9b7">num_tags</reimplementedby>
+        <briefdescription>
+<para>Return the total number of tags in the tag queue. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/per_measure_decimator.h" line="57" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="232">
+        <label>gr::ofdm_allocator::per_measure_decimator</label>
+        <link refid="classgr_1_1ofdm__allocator_1_1per__measure__decimator"/>
+        <childnode refid="233" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="233">
+        <label>gr::sync_decimator</label>
+      </node>
+      <node id="234">
+        <label>gr::ofdm_allocator::per_measure_decimator_impl</label>
+        <link refid="classgr_1_1ofdm__allocator_1_1per__measure__decimator__impl"/>
+        <childnode refid="232" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="235">
+        <label>gr::ofdm_allocator::per_measure_decimator</label>
+        <link refid="classgr_1_1ofdm__allocator_1_1per__measure__decimator"/>
+        <childnode refid="236" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="236">
+        <label>gr::sync_decimator</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/per_measure_decimator.h" line="37" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/per_measure_decimator.h" bodystart="36" bodyend="58"/>
+    <listofallmembers>
+      <member refid="classgr_1_1ofdm__allocator_1_1per__measure__decimator_1a0b2920ac726889cbab009171ec3b0940" prot="public" virt="pure-virtual"><scope>gr::ofdm_allocator::per_measure_decimator</scope><name>current_tags</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1per__measure__decimator_1aa64cf3ccb3503b31a39766ebb838c40e" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::per_measure_decimator</scope><name>make</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1per__measure__decimator_1afbd7677f6573274a6567670971f25fe9" prot="public" virt="pure-virtual"><scope>gr::ofdm_allocator::per_measure_decimator</scope><name>num_tags</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1per__measure__decimator_1adb1494253eed794d3b983ef6c25dfa7b" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::per_measure_decimator</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

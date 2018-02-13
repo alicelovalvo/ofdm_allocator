@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
   <compounddef id="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__base__alix" kind="class" language="C++" prot="public" abstract="yes">
     <compoundname>gr::ofdm_allocator::ofdm_equalizer_base_alix</compoundname>
     <basecompoundref prot="public" virt="non-virtual">boost::enable_shared_from_this&lt; ofdm_equalizer_base_alix &gt;</basecompoundref>
@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/ofdm_equalizer_base_alix.h" line="45" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/ofdm_equalizer_base_alix.h" bodystart="45" bodyend="-1"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/ofdm_equalizer_base_alix.h" line="45" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/ofdm_equalizer_base_alix.h" bodystart="45" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="protected-attrib">
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/ofdm_equalizer_base_alix.h" line="42" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/ofdm_equalizer_base_alix.h" bodystart="42" bodyend="-1"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/ofdm_equalizer_base_alix.h" line="42" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/ofdm_equalizer_base_alix.h" bodystart="42" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -51,7 +51,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/ofdm_equalizer_base_alix.h" line="47" column="1"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/ofdm_equalizer_base_alix.h" line="47" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__base__alix_1ad7f89b48ec0bcb6785451d2138639905" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -64,7 +64,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/ofdm_equalizer_base_alix.h" line="49" column="1"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/ofdm_equalizer_base_alix.h" line="49" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__base__alix_1ad302ebfdd8ec2a1c1b2b18ed0a35fdcb" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>void</type>
@@ -82,7 +82,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/ofdm_equalizer_base_alix.h" line="52" column="1"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/ofdm_equalizer_base_alix.h" line="52" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__base__alix_1a50107791a6d0ecf81fd7e8b8e47418ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>void</type>
@@ -129,7 +129,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/ofdm_equalizer_base_alix.h" line="54" column="1"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/ofdm_equalizer_base_alix.h" line="54" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__base__alix_1a179d8dc94cc6a0a71399c52d8d67873f" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>void</type>
@@ -147,7 +147,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/ofdm_equalizer_base_alix.h" line="63" column="1"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/ofdm_equalizer_base_alix.h" line="63" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__base__alix_1a4d8e3789a81c714a1c21e02e190ba9cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>int</type>
@@ -160,7 +160,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/ofdm_equalizer_base_alix.h" line="64" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/ofdm_equalizer_base_alix.h" bodystart="64" bodyend="64"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/ofdm_equalizer_base_alix.h" line="64" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/ofdm_equalizer_base_alix.h" bodystart="64" bodyend="64"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__base__alix_1a67e1b0098c9bd45f690b2585ef97f8a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__base__alix_1abe2c213a9836080a479aba4abc45e6ae" kindref="member">sptr</ref></type>
@@ -173,7 +173,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/ofdm_equalizer_base_alix.h" line="65" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/ofdm_equalizer_base_alix.h" bodystart="65" bodyend="65"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/ofdm_equalizer_base_alix.h" line="65" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/ofdm_equalizer_base_alix.h" bodystart="65" bodyend="65"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -181,40 +181,40 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="174">
+      <node id="185">
         <label>boost::enable_shared_from_this&lt; ofdm_equalizer_base_alix &gt;</label>
       </node>
-      <node id="176">
+      <node id="187">
         <label>gr::ofdm_allocator::ofdm_equalizer_simpledfe_alix</label>
         <link refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__simpledfe__alix"/>
-        <childnode refid="175" relation="public-inheritance">
+        <childnode refid="186" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="173">
+      <node id="184">
         <label>gr::ofdm_allocator::ofdm_equalizer_base_alix</label>
         <link refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__base__alix"/>
-        <childnode refid="174" relation="public-inheritance">
+        <childnode refid="185" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="175">
+      <node id="186">
         <label>gr::ofdm_allocator::ofdm_equalizer_1d_pilots_alix</label>
         <link refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix"/>
-        <childnode refid="173" relation="public-inheritance">
+        <childnode refid="184" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="178">
+      <node id="189">
         <label>boost::enable_shared_from_this&lt; ofdm_equalizer_base_alix &gt;</label>
       </node>
-      <node id="177">
+      <node id="188">
         <label>gr::ofdm_allocator::ofdm_equalizer_base_alix</label>
         <link refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__base__alix"/>
-        <childnode refid="178" relation="public-inheritance">
+        <childnode refid="189" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/ofdm_equalizer_base_alix.h" line="40" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/ofdm_equalizer_base_alix.h" bodystart="37" bodyend="66"/>
+    <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/ofdm_equalizer_base_alix.h" line="40" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/ofdm_equalizer_base_alix.h" bodystart="37" bodyend="66"/>
     <listofallmembers>
       <member refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__base__alix_1a67e1b0098c9bd45f690b2585ef97f8a2" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::ofdm_equalizer_base_alix</scope><name>base</name></member>
       <member refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__base__alix_1a033c8cdd57f3f64e4400f020a6e5a873" prot="protected" virt="non-virtual"><scope>gr::ofdm_allocator::ofdm_equalizer_base_alix</scope><name>d_fft_len</name></member>

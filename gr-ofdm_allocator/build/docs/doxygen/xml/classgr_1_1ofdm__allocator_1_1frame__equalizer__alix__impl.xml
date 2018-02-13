@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
   <compounddef id="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix__impl" kind="class" language="C++" prot="public">
     <compoundname>gr::ofdm_allocator::frame_equalizer_alix_impl</compoundname>
     <basecompoundref refid="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix" prot="public" virt="non-virtual">gr::ofdm_allocator::frame_equalizer_alix</basecompoundref>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.h" line="32" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.h" bodystart="32" bodyend="-1"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.h" line="32" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.h" bodystart="32" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix__impl_1a8200007cab2002abf04f304a17e936dd" prot="private" static="no" mutable="no">
         <type>const int</type>
@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.h" line="33" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.h" bodystart="33" bodyend="-1"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.h" line="33" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.h" bodystart="33" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix__impl_1a98d10a8a0f5118d9bb2f79ff7da6b1fe" prot="private" static="no" mutable="no">
         <type><ref refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__base__alix_1abe2c213a9836080a479aba4abc45e6ae" kindref="member">ofdm_equalizer_base_alix::sptr</ref></type>
@@ -42,7 +42,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.h" line="34" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.h" bodystart="34" bodyend="-1"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.h" line="34" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.h" bodystart="34" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix__impl_1a825e4fa635e708cd38f369b977deec95" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -55,7 +55,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.h" line="35" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.h" bodystart="35" bodyend="-1"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.h" line="35" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.h" bodystart="35" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix__impl_1a21c2ff6a53e11c5ae8016425f2217641" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -68,7 +68,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.h" line="36" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.h" bodystart="36" bodyend="-1"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.h" line="36" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.h" bodystart="36" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix__impl_1a391be095d8a545d3e6ea19b27958c276" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -81,7 +81,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.h" line="37" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.h" bodystart="37" bodyend="-1"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.h" line="37" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.h" bodystart="37" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix__impl_1abde063a675c68212eb8fab9d24c71645" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -94,7 +94,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.h" line="38" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.h" bodystart="38" bodyend="-1"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.h" line="38" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.h" bodystart="38" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix__impl_1a5be6cd45f4e05b644a1c93c96d692607" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -107,7 +107,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.h" line="39" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.h" bodystart="39" bodyend="-1"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.h" line="39" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.h" bodystart="39" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix__impl_1af3ee2f88e75dd5146f6fcc1a4a42f243" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -120,7 +120,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.h" line="40" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.h" bodystart="40" bodyend="-1"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.h" line="40" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.h" bodystart="40" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix__impl_1a9396c9c2708083943f784fefc3c950ea" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -133,7 +133,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.h" line="41" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.h" bodystart="41" bodyend="-1"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.h" line="41" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.h" bodystart="41" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix__impl_1a8d97b75f0c1cc2348649f874f6a89560" prot="private" static="no" mutable="no">
         <type>std::vector&lt; std::vector&lt; gr_complex &gt; &gt;</type>
@@ -146,7 +146,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.h" line="42" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.h" bodystart="42" bodyend="-1"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.h" line="42" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.h" bodystart="42" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix__impl_1ac6cbd4cf68e814502204798e281dee8d" prot="private" static="no" mutable="no">
         <type>std::vector&lt; std::vector&lt; gr_complex &gt; &gt;</type>
@@ -159,7 +159,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.h" line="43" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.h" bodystart="43" bodyend="-1"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.h" line="43" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.h" bodystart="43" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix__impl_1a96c72d1aefdfd0cb7cb6a9911f4f8963" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -172,7 +172,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.h" line="44" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.h" bodystart="44" bodyend="-1"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.h" line="44" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.h" bodystart="44" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix__impl_1a9ead8a84def0c34dcbbcb81aba31e3cc" prot="private" static="no" mutable="no">
         <type>const int</type>
@@ -185,7 +185,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.h" line="45" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.h" bodystart="45" bodyend="-1"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.h" line="45" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.h" bodystart="45" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix__impl_1ae4cc4c841e867358b10d29a0de44fcce" prot="private" static="no" mutable="no">
         <type>std::vector&lt; gr_complex &gt;</type>
@@ -198,7 +198,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.h" line="46" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.h" bodystart="46" bodyend="-1"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.h" line="46" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.h" bodystart="46" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -269,7 +269,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.h" line="57" column="1"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.h" line="57" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix__impl_1ac244d91b1d8f03d7c9eaca69e4a50706" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -282,7 +282,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.h" line="71" column="1"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.h" line="71" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix__impl_1ad7bca096abb8a1b37c67d70771ec38a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -311,7 +311,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.h" line="74" column="1"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.h" line="74" column="1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -319,40 +319,40 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="156">
+      <node id="167">
         <label>gr::ofdm_allocator::frame_equalizer_alix_impl</label>
         <link refid="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix__impl"/>
-        <childnode refid="157" relation="public-inheritance">
+        <childnode refid="168" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="157">
+      <node id="168">
         <label>gr::ofdm_allocator::frame_equalizer_alix</label>
         <link refid="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix"/>
-        <childnode refid="158" relation="public-inheritance">
+        <childnode refid="169" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="158">
+      <node id="169">
         <label>gr::tagged_stream_block</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="159">
+      <node id="170">
         <label>gr::ofdm_allocator::frame_equalizer_alix_impl</label>
         <link refid="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix__impl"/>
-        <childnode refid="160" relation="public-inheritance">
+        <childnode refid="171" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="160">
+      <node id="171">
         <label>gr::ofdm_allocator::frame_equalizer_alix</label>
         <link refid="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix"/>
-        <childnode refid="161" relation="public-inheritance">
+        <childnode refid="172" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="161">
+      <node id="172">
         <label>gr::tagged_stream_block</label>
       </node>
     </collaborationgraph>
-    <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.h" line="30" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.h" bodystart="29" bodyend="78"/>
+    <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.h" line="30" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.h" bodystart="29" bodyend="78"/>
     <listofallmembers>
       <member refid="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix__impl_1ae4cc4c841e867358b10d29a0de44fcce" prot="private" virt="non-virtual"><scope>gr::ofdm_allocator::frame_equalizer_alix_impl</scope><name>d_channel_state</name></member>
       <member refid="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix__impl_1a8200007cab2002abf04f304a17e936dd" prot="private" virt="non-virtual"><scope>gr::ofdm_allocator::frame_equalizer_alix_impl</scope><name>d_cp_len</name></member>

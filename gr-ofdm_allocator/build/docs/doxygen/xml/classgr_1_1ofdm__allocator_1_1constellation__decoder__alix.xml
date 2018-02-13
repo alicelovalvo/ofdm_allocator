@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
   <compounddef id="classgr_1_1ofdm__allocator_1_1constellation__decoder__alix" kind="class" language="C++" prot="public">
     <compoundname>gr::ofdm_allocator::constellation_decoder_alix</compoundname>
     <basecompoundref prot="public" virt="virtual">block</basecompoundref>
@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/constellation_decoder_alix.h" line="40" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/constellation_decoder_alix.h" bodystart="40" bodyend="-1"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/constellation_decoder_alix.h" line="40" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/constellation_decoder_alix.h" bodystart="40" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-func">
@@ -36,7 +36,7 @@
 <para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1ofdm__allocator_1_1constellation__decoder__alix" kindref="compound">ofdm_allocator::constellation_decoder_alix</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1ofdm__allocator_1_1constellation__decoder__alix_1ae3fa64f982e60459ef63809ae302f569" kindref="member">ofdm_allocator::constellation_decoder_alix::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/constellation_decoder_alix.h" line="50" column="1"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/constellation_decoder_alix.h" line="50" column="1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -71,7 +71,7 @@
         <label>gr::block</label>
       </node>
     </collaborationgraph>
-    <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/constellation_decoder_alix.h" line="38" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/constellation_decoder_alix.h" bodystart="37" bodyend="51"/>
+    <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/constellation_decoder_alix.h" line="38" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/constellation_decoder_alix.h" bodystart="37" bodyend="51"/>
     <listofallmembers>
       <member refid="classgr_1_1ofdm__allocator_1_1constellation__decoder__alix_1ae3fa64f982e60459ef63809ae302f569" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::constellation_decoder_alix</scope><name>make</name></member>
       <member refid="classgr_1_1ofdm__allocator_1_1constellation__decoder__alix_1ac9388e9efb453d317cb6ce93e9a6d71e" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::constellation_decoder_alix</scope><name>sptr</name></member>

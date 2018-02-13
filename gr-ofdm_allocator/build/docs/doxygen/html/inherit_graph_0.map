@@ -1,0 +1,12 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classgr_1_1ofdm__allocator_1_1allocator__subcarrier.html" title="&lt;+description of block+&gt; " alt="" coords="5,136,121,177"/>
+<area shape="rect" id="node2" href="$classgr_1_1ofdm__allocator_1_1allocator__subcarrier__impl.html" title="gr::ofdm_allocator\l::allocator_subcarrier_impl" alt="" coords="169,5,308,47"/>
+<area shape="rect" id="node3" href="$classgr_1_1ofdm__allocator_1_1crc__alix.html" title="&lt;+description of block+&gt; " alt="" coords="187,71,290,112"/>
+<area shape="rect" id="node5" href="$classgr_1_1ofdm__allocator_1_1frame__equalizer__alix.html" title="&lt;+description of block+&gt; " alt="" coords="179,136,299,177"/>
+<area shape="rect" id="node7" href="$classgr_1_1ofdm__allocator_1_1packet__header__gen.html" title="&lt;+description of block+&gt; " alt="" coords="181,201,297,243"/>
+<area shape="rect" id="node9" href="$classgr_1_1ofdm__allocator_1_1serializer__subcarrier.html" title="&lt;+description of block+&gt; " alt="" coords="180,267,297,308"/>
+<area shape="rect" id="node4" href="$classgr_1_1ofdm__allocator_1_1crc__alix__impl.html" title="gr::ofdm_allocator\l::crc_alix_impl" alt="" coords="377,71,479,112"/>
+<area shape="rect" id="node6" href="$classgr_1_1ofdm__allocator_1_1frame__equalizer__alix__impl.html" title="gr::ofdm_allocator\l::frame_equalizer_alix_impl" alt="" coords="356,136,500,177"/>
+<area shape="rect" id="node8" href="$classgr_1_1ofdm__allocator_1_1packet__header__gen__impl.html" title="gr::ofdm_allocator\l::packet_header_gen_impl" alt="" coords="358,201,498,243"/>
+<area shape="rect" id="node10" href="$classgr_1_1ofdm__allocator_1_1serializer__subcarrier__impl.html" title="gr::ofdm_allocator\l::serializer_subcarrier_impl" alt="" coords="357,267,499,308"/>
+</map>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
   <compounddef id="classgr_1_1ofdm__allocator_1_1constellation__rect" kind="class" language="C++" prot="public">
     <compoundname>gr::ofdm_allocator::constellation_rect</compoundname>
     <basecompoundref refid="classgr_1_1ofdm__allocator_1_1constellation__sector" prot="public" virt="non-virtual">gr::ofdm_allocator::constellation_sector</basecompoundref>
@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/constellation_alix.h" line="341" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/constellation_alix.h" bodystart="341" bodyend="-1"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/constellation_alix.h" line="341" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/constellation_alix.h" bodystart="341" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-attrib">
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/constellation_alix.h" line="379" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/constellation_alix.h" bodystart="379" bodyend="-1"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/constellation_alix.h" line="379" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/constellation_alix.h" bodystart="379" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1constellation__rect_1a29e36f9532b667ee111d381638c57a3a" prot="private" static="no" mutable="no">
         <type>unsigned int</type>
@@ -45,7 +45,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/constellation_alix.h" line="380" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/constellation_alix.h" bodystart="380" bodyend="-1"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/constellation_alix.h" line="380" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/constellation_alix.h" bodystart="380" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1constellation__rect_1a5cf305496d9968040f56dc0355145d49" prot="private" static="no" mutable="no">
         <type>float</type>
@@ -58,7 +58,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/constellation_alix.h" line="381" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/constellation_alix.h" bodystart="381" bodyend="-1"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/constellation_alix.h" line="381" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/constellation_alix.h" bodystart="381" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1constellation__rect_1a23d237a3f4e98cf8885b5b5596535e18" prot="private" static="no" mutable="no">
         <type>float</type>
@@ -71,7 +71,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/constellation_alix.h" line="382" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/constellation_alix.h" bodystart="382" bodyend="-1"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/constellation_alix.h" line="382" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/constellation_alix.h" bodystart="382" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-func">
@@ -164,7 +164,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/constellation_alix.h" line="355" column="1"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/constellation_alix.h" line="355" column="1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -179,7 +179,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/constellation_alix.h" line="362" column="1"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/constellation_alix.h" line="362" column="1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="protected-func">
@@ -222,7 +222,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/constellation_alix.h" line="366" column="1"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/constellation_alix.h" line="366" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1constellation__rect_1ac60c725cc48b7226d14cacb60226cc0c" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>unsigned int</type>
@@ -240,7 +240,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/constellation_alix.h" line="374" column="1"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/constellation_alix.h" line="374" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1constellation__rect_1a112407b297097acf29e4c033b972dfa8" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>gr_complex</type>
@@ -257,7 +257,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/constellation_alix.h" line="375" column="1"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/constellation_alix.h" line="375" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1constellation__rect_1a49d2a4e647dad4546ba5cf77622e2566" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>unsigned int</type>
@@ -276,7 +276,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/constellation_alix.h" line="376" column="1"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/constellation_alix.h" line="376" column="1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -353,7 +353,7 @@
         <label>std::vector&lt; int &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/constellation_alix.h" line="339" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/constellation_alix.h" bodystart="337" bodyend="383"/>
+    <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/constellation_alix.h" line="339" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/constellation_alix.h" bodystart="337" bodyend="383"/>
     <listofallmembers>
       <member refid="classgr_1_1ofdm__allocator_1_1constellation__alix_1a7d6a88426759d6b7411ac7eb60189eff" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::constellation_rect</scope><name>apply_pre_diff_code</name></member>
       <member refid="classgr_1_1ofdm__allocator_1_1constellation__alix_1a86ca9887c4893892cc4df01840c9896c" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::constellation_rect</scope><name>arity</name></member>

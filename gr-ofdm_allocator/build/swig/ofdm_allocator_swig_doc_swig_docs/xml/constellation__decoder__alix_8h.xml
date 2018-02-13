@@ -1,41 +1,31 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
   <compounddef id="constellation__decoder__alix_8h" kind="file" language="C++">
     <compoundname>constellation_decoder_alix.h</compoundname>
     <includes refid="api_8h" local="no">ofdm_allocator/api.h</includes>
     <includes refid="constellation__alix_8h" local="no">ofdm_allocator/constellation_alix.h</includes>
     <includes local="no">gnuradio/block.h</includes>
     <incdepgraph>
-      <node id="33">
-        <label>/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/constellation_decoder_alix.h</label>
-        <link refid="constellation_decoder_alix.h"/>
-        <childnode refid="34" relation="include">
-        </childnode>
-        <childnode refid="36" relation="include">
-        </childnode>
-        <childnode refid="43" relation="include">
-        </childnode>
-      </node>
-      <node id="37">
+      <node id="40">
         <label>ofdm_allocator/metric_type_alix.h</label>
         <link refid="metric__type__alix_8h"/>
       </node>
-      <node id="35">
+      <node id="38">
         <label>gnuradio/attributes.h</label>
       </node>
-      <node id="39">
+      <node id="42">
         <label>boost/any.hpp</label>
       </node>
-      <node id="36">
-        <label>ofdm_allocator/constellation_alix.h</label>
-        <link refid="constellation__alix_8h"/>
-        <childnode refid="34" relation="include">
-        </childnode>
-        <childnode refid="37" relation="include">
-        </childnode>
+      <node id="37">
+        <label>ofdm_allocator/api.h</label>
+        <link refid="api_8h"/>
         <childnode refid="38" relation="include">
         </childnode>
-        <childnode refid="39" relation="include">
+      </node>
+      <node id="39">
+        <label>ofdm_allocator/constellation_alix.h</label>
+        <link refid="constellation__alix_8h"/>
+        <childnode refid="37" relation="include">
         </childnode>
         <childnode refid="40" relation="include">
         </childnode>
@@ -43,26 +33,36 @@
         </childnode>
         <childnode refid="42" relation="include">
         </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+        <childnode refid="44" relation="include">
+        </childnode>
+        <childnode refid="45" relation="include">
+        </childnode>
       </node>
-      <node id="42">
+      <node id="45">
         <label>vector</label>
       </node>
-      <node id="43">
+      <node id="46">
         <label>gnuradio/block.h</label>
       </node>
-      <node id="40">
+      <node id="43">
         <label>gnuradio/gr_complex.h</label>
       </node>
-      <node id="41">
+      <node id="44">
         <label>pmt/pmt.h</label>
       </node>
-      <node id="38">
+      <node id="41">
         <label>boost/enable_shared_from_this.hpp</label>
       </node>
-      <node id="34">
-        <label>ofdm_allocator/api.h</label>
-        <link refid="api_8h"/>
-        <childnode refid="35" relation="include">
+      <node id="36">
+        <label>/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/constellation_decoder_alix.h</label>
+        <link refid="constellation__decoder__alix_8h"/>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
         </childnode>
       </node>
     </incdepgraph>
@@ -118,6 +118,6 @@
 <codeline lineno="55"><highlight class="normal"></highlight></codeline>
 <codeline lineno="56"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>INCLUDED_OFDM_ALLOCATOR_CONSTELLATION_DECODER_ALIX_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
     </programlisting>
-    <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/constellation_decoder_alix.h"/>
+    <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/constellation_decoder_alix.h"/>
   </compounddef>
 </doxygen>

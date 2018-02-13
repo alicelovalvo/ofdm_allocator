@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
   <compounddef id="classgr_1_1ofdm__allocator_1_1serializer__subcarrier" kind="class" language="C++" prot="public">
     <compoundname>gr::ofdm_allocator::serializer_subcarrier</compoundname>
     <basecompoundref prot="public" virt="virtual">tagged_stream_block</basecompoundref>
@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/serializer_subcarrier.h" line="39" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/serializer_subcarrier.h" bodystart="39" bodyend="-1"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/serializer_subcarrier.h" line="39" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/serializer_subcarrier.h" bodystart="39" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-func">
@@ -95,7 +95,7 @@
 <para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1ofdm__allocator_1_1serializer__subcarrier" kindref="compound">ofdm_allocator::serializer_subcarrier</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1ofdm__allocator_1_1serializer__subcarrier_1a27269028ca71e67973713b348ebc10db" kindref="member">ofdm_allocator::serializer_subcarrier::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/serializer_subcarrier.h" line="49" column="1"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/serializer_subcarrier.h" line="49" column="1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -103,34 +103,34 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="229">
+      <node id="262">
         <label>gr::ofdm_allocator::serializer_subcarrier_impl</label>
         <link refid="classgr_1_1ofdm__allocator_1_1serializer__subcarrier__impl"/>
-        <childnode refid="227" relation="public-inheritance">
+        <childnode refid="260" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="227">
+      <node id="260">
         <label>gr::ofdm_allocator::serializer_subcarrier</label>
         <link refid="classgr_1_1ofdm__allocator_1_1serializer__subcarrier"/>
-        <childnode refid="228" relation="public-inheritance">
+        <childnode refid="261" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="228">
+      <node id="261">
         <label>tagged_stream_block</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="230">
+      <node id="263">
         <label>gr::ofdm_allocator::serializer_subcarrier</label>
         <link refid="classgr_1_1ofdm__allocator_1_1serializer__subcarrier"/>
-        <childnode refid="231" relation="public-inheritance">
+        <childnode refid="264" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="231">
+      <node id="264">
         <label>tagged_stream_block</label>
       </node>
     </collaborationgraph>
-    <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/serializer_subcarrier.h" line="37" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/serializer_subcarrier.h" bodystart="36" bodyend="62"/>
+    <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/serializer_subcarrier.h" line="37" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/serializer_subcarrier.h" bodystart="36" bodyend="62"/>
     <listofallmembers>
       <member refid="classgr_1_1ofdm__allocator_1_1serializer__subcarrier_1a27269028ca71e67973713b348ebc10db" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::serializer_subcarrier</scope><name>make</name></member>
       <member refid="classgr_1_1ofdm__allocator_1_1serializer__subcarrier_1a54dccc15bc1eb99dcb0919633f745913" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::serializer_subcarrier</scope><name>sptr</name></member>

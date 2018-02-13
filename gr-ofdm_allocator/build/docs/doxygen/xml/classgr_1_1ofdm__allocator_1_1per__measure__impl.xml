@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
   <compounddef id="classgr_1_1ofdm__allocator_1_1per__measure__impl" kind="class" language="C++" prot="public">
     <compoundname>gr::ofdm_allocator::per_measure_impl</compoundname>
     <basecompoundref refid="classgr_1_1ofdm__allocator_1_1per__measure" prot="public" virt="non-virtual">gr::ofdm_allocator::per_measure</basecompoundref>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/per_measure_impl.h" line="32" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/per_measure_impl.h" bodystart="32" bodyend="-1"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/per_measure_impl.h" line="32" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/per_measure_impl.h" bodystart="32" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1per__measure__impl_1a0c7d524a7b4dea46e18a7b7ff757daf7" prot="private" static="no" mutable="no">
         <type>std::vector&lt; tag_t &gt;</type>
@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/per_measure_impl.h" line="33" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/per_measure_impl.h" bodystart="33" bodyend="-1"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/per_measure_impl.h" line="33" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/per_measure_impl.h" bodystart="33" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1per__measure__impl_1adc4768005d6c4764a101400f6d95d4ef" prot="private" static="no" mutable="no">
         <type>std::vector&lt; tag_t &gt;::iterator</type>
@@ -42,7 +42,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/per_measure_impl.h" line="34" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/per_measure_impl.h" bodystart="34" bodyend="-1"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/per_measure_impl.h" line="34" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/per_measure_impl.h" bodystart="34" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1per__measure__impl_1ae36560d30a8e9f5224c569a3735bdff7" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -55,7 +55,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/per_measure_impl.h" line="35" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/per_measure_impl.h" bodystart="35" bodyend="-1"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/per_measure_impl.h" line="35" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/per_measure_impl.h" bodystart="35" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1per__measure__impl_1a78cdbac54ccc4585a37a2d86cba1cdce" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -68,7 +68,20 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/per_measure_impl.h" line="36" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/per_measure_impl.h" bodystart="36" bodyend="-1"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/per_measure_impl.h" line="36" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/per_measure_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1per__measure__impl_1a51da91f9b2c58e61c2885fdf330b331a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::ofdm_allocator::per_measure_impl::d_packet_number</definition>
+        <argsstring></argsstring>
+        <name>d_packet_number</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/per_measure_impl.h" line="37" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/per_measure_impl.h" bodystart="37" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1per__measure__impl_1a0256293d00b125264775782436eaff79" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -81,7 +94,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/per_measure_impl.h" line="37" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/per_measure_impl.h" bodystart="37" bodyend="-1"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/per_measure_impl.h" line="38" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/per_measure_impl.h" bodystart="38" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1per__measure__impl_1a437dd359aedb6cae0e79201007adeef6" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -94,7 +107,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/per_measure_impl.h" line="38" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/per_measure_impl.h" bodystart="38" bodyend="-1"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/per_measure_impl.h" line="39" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/per_measure_impl.h" bodystart="39" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1per__measure__impl_1a32789204b856130d59d445d51e2a85f8" prot="private" static="no" mutable="no">
         <type>pmt::pmt_t</type>
@@ -107,7 +120,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/per_measure_impl.h" line="39" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/per_measure_impl.h" bodystart="39" bodyend="-1"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/per_measure_impl.h" line="40" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/per_measure_impl.h" bodystart="40" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1per__measure__impl_1a4e64e8da962edfdf384926d2675c83ef" prot="private" static="no" mutable="no">
         <type>gr::thread::mutex</type>
@@ -120,7 +133,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/per_measure_impl.h" line="40" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/per_measure_impl.h" bodystart="40" bodyend="-1"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/per_measure_impl.h" line="41" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/per_measure_impl.h" bodystart="41" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -143,7 +156,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/per_measure_impl.h" line="43" column="1"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/per_measure_impl.h" line="44" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1per__measure__impl_1a6ad55482ec4aadf6f85c21f441e3f301" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -156,7 +169,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/per_measure_impl.h" line="44" column="1"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/per_measure_impl.h" line="45" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1per__measure__impl_1a7d15eb880a2f4bccc9255234e3620d28" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -169,7 +182,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/per_measure_impl.h" line="46" column="1"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/per_measure_impl.h" line="47" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1per__measure__impl_1a608c881d179305dd345c5d5168f4f30f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>std::vector&lt; tag_t &gt;</type>
@@ -183,7 +196,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/per_measure_impl.h" line="48" column="1"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/per_measure_impl.h" line="49" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1per__measure__impl_1a7f0f2715dea2e60b928be9612573cfe0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>int</type>
@@ -197,7 +210,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/per_measure_impl.h" line="49" column="1"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/per_measure_impl.h" line="50" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1per__measure__impl_1a665b1eb29ba3481d373fee9209f87f15" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -222,7 +235,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/per_measure_impl.h" line="58" column="1"/>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/per_measure_impl.h" line="60" column="1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -230,40 +243,40 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="222">
+      <node id="244">
         <label>gr::ofdm_allocator::per_measure</label>
         <link refid="classgr_1_1ofdm__allocator_1_1per__measure"/>
-        <childnode refid="223" relation="public-inheritance">
+        <childnode refid="245" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="223">
+      <node id="245">
         <label>gr::sync_block</label>
       </node>
-      <node id="221">
+      <node id="243">
         <label>gr::ofdm_allocator::per_measure_impl</label>
         <link refid="classgr_1_1ofdm__allocator_1_1per__measure__impl"/>
-        <childnode refid="222" relation="public-inheritance">
+        <childnode refid="244" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="225">
+      <node id="247">
         <label>gr::ofdm_allocator::per_measure</label>
         <link refid="classgr_1_1ofdm__allocator_1_1per__measure"/>
-        <childnode refid="226" relation="public-inheritance">
+        <childnode refid="248" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="226">
+      <node id="248">
         <label>gr::sync_block</label>
       </node>
-      <node id="224">
+      <node id="246">
         <label>gr::ofdm_allocator::per_measure_impl</label>
         <link refid="classgr_1_1ofdm__allocator_1_1per__measure__impl"/>
-        <childnode refid="225" relation="public-inheritance">
+        <childnode refid="247" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/per_measure_impl.h" line="30" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/per_measure_impl.h" bodystart="29" bodyend="61"/>
+    <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/per_measure_impl.h" line="30" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/per_measure_impl.h" bodystart="29" bodyend="63"/>
     <listofallmembers>
       <member refid="classgr_1_1ofdm__allocator_1_1per__measure__impl_1a608c881d179305dd345c5d5168f4f30f" prot="public" virt="virtual"><scope>gr::ofdm_allocator::per_measure_impl</scope><name>current_tags</name></member>
       <member refid="classgr_1_1ofdm__allocator_1_1per__measure__impl_1ae36560d30a8e9f5224c569a3735bdff7" prot="private" virt="non-virtual"><scope>gr::ofdm_allocator::per_measure_impl</scope><name>d_display</name></member>
@@ -272,6 +285,7 @@
       <member refid="classgr_1_1ofdm__allocator_1_1per__measure__impl_1a772b967b29364f6e74236ac67222e093" prot="private" virt="non-virtual"><scope>gr::ofdm_allocator::per_measure_impl</scope><name>d_name</name></member>
       <member refid="classgr_1_1ofdm__allocator_1_1per__measure__impl_1a0256293d00b125264775782436eaff79" prot="private" virt="non-virtual"><scope>gr::ofdm_allocator::per_measure_impl</scope><name>d_num_pkt_rcv</name></member>
       <member refid="classgr_1_1ofdm__allocator_1_1per__measure__impl_1a78cdbac54ccc4585a37a2d86cba1cdce" prot="private" virt="non-virtual"><scope>gr::ofdm_allocator::per_measure_impl</scope><name>d_packet_init</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1per__measure__impl_1a51da91f9b2c58e61c2885fdf330b331a" prot="private" virt="non-virtual"><scope>gr::ofdm_allocator::per_measure_impl</scope><name>d_packet_number</name></member>
       <member refid="classgr_1_1ofdm__allocator_1_1per__measure__impl_1a0c7d524a7b4dea46e18a7b7ff757daf7" prot="private" virt="non-virtual"><scope>gr::ofdm_allocator::per_measure_impl</scope><name>d_tags</name></member>
       <member refid="classgr_1_1ofdm__allocator_1_1per__measure__impl_1adc4768005d6c4764a101400f6d95d4ef" prot="private" virt="non-virtual"><scope>gr::ofdm_allocator::per_measure_impl</scope><name>d_tags_itr</name></member>
       <member refid="classgr_1_1ofdm__allocator_1_1per__measure__impl_1a437dd359aedb6cae0e79201007adeef6" prot="private" virt="non-virtual"><scope>gr::ofdm_allocator::per_measure_impl</scope><name>d_window</name></member>

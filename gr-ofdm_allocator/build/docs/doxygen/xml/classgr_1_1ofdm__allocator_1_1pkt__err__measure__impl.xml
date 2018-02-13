@@ -1,0 +1,313 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgr_1_1ofdm__allocator_1_1pkt__err__measure__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::ofdm_allocator::pkt_err_measure_impl</compoundname>
+    <basecompoundref refid="classgr_1_1ofdm__allocator_1_1pkt__err__measure" prot="public" virt="non-virtual">gr::ofdm_allocator::pkt_err_measure</basecompoundref>
+    <includes refid="pkt__err__measure__impl_8h" local="no">pkt_err_measure_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1pkt__err__measure__impl_1a16ddf1979cbef830f24abc18007dabde" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string gr::ofdm_allocator::pkt_err_measure_impl::d_name</definition>
+        <argsstring></argsstring>
+        <name>d_name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/pkt_err_measure_impl.h" line="32" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/pkt_err_measure_impl.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1pkt__err__measure__impl_1acb8fd055a29dc022c659a4361658c78e" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; tag_t &gt;</type>
+        <definition>std::vector&lt;tag_t&gt; gr::ofdm_allocator::pkt_err_measure_impl::d_tags</definition>
+        <argsstring></argsstring>
+        <name>d_tags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/pkt_err_measure_impl.h" line="33" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/pkt_err_measure_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1pkt__err__measure__impl_1a52bfe1942cd1d62370aa14f10e20c6e9" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; tag_t &gt;::iterator</type>
+        <definition>std::vector&lt;tag_t&gt;::iterator gr::ofdm_allocator::pkt_err_measure_impl::d_tags_itr</definition>
+        <argsstring></argsstring>
+        <name>d_tags_itr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/pkt_err_measure_impl.h" line="34" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/pkt_err_measure_impl.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1pkt__err__measure__impl_1a3111944c1be67f2e35f87e4bea42f4fe" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::ofdm_allocator::pkt_err_measure_impl::d_display</definition>
+        <argsstring></argsstring>
+        <name>d_display</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/pkt_err_measure_impl.h" line="35" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/pkt_err_measure_impl.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1pkt__err__measure__impl_1a07f1bb94900a20e7716e30ee3249c075" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::ofdm_allocator::pkt_err_measure_impl::d_packet_init</definition>
+        <argsstring></argsstring>
+        <name>d_packet_init</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/pkt_err_measure_impl.h" line="36" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/pkt_err_measure_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1pkt__err__measure__impl_1ab42e0ffed042c68abece27c9480d5395" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::ofdm_allocator::pkt_err_measure_impl::d_num_pkt_rcv</definition>
+        <argsstring></argsstring>
+        <name>d_num_pkt_rcv</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/pkt_err_measure_impl.h" line="37" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/pkt_err_measure_impl.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1pkt__err__measure__impl_1a25bda0e647661d22e89128a50a6b7265" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::ofdm_allocator::pkt_err_measure_impl::d_window</definition>
+        <argsstring></argsstring>
+        <name>d_window</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/pkt_err_measure_impl.h" line="38" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/pkt_err_measure_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1pkt__err__measure__impl_1ac4a30a0430f4c8e98027239005ee0a15" prot="private" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::ofdm_allocator::pkt_err_measure_impl::d_filter</definition>
+        <argsstring></argsstring>
+        <name>d_filter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/pkt_err_measure_impl.h" line="39" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/pkt_err_measure_impl.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1pkt__err__measure__impl_1a396c70633d9211eab8fdba48e7b536e0" prot="private" static="no" mutable="no">
+        <type>gr::thread::mutex</type>
+        <definition>gr::thread::mutex gr::ofdm_allocator::pkt_err_measure_impl::d_mutex</definition>
+        <argsstring></argsstring>
+        <name>d_mutex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/pkt_err_measure_impl.h" line="40" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/pkt_err_measure_impl.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1pkt__err__measure__impl_1a960f89f55bcc11e1cf23f19237650bee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::ofdm_allocator::pkt_err_measure_impl::pkt_err_measure_impl</definition>
+        <argsstring>(size_t sizeof_stream_item, int window)</argsstring>
+        <name>pkt_err_measure_impl</name>
+        <param>
+          <type>size_t</type>
+          <declname>sizeof_stream_item</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>window</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/pkt_err_measure_impl.h" line="43" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1pkt__err__measure__impl_1a9ff58095a4a5c337be403134237f173b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::ofdm_allocator::pkt_err_measure_impl::~pkt_err_measure_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~pkt_err_measure_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/pkt_err_measure_impl.h" line="44" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1pkt__err__measure__impl_1a3de97ebb379130c1167a040120b92853" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::ofdm_allocator::pkt_err_measure_impl::setup_rpc</definition>
+        <argsstring>()</argsstring>
+        <name>setup_rpc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/pkt_err_measure_impl.h" line="46" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1pkt__err__measure__impl_1a9a7bd7d5858d2b4b3158130bc78c3505" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>std::vector&lt; tag_t &gt;</type>
+        <definition>std::vector&lt;tag_t&gt; gr::ofdm_allocator::pkt_err_measure_impl::current_tags</definition>
+        <argsstring>()</argsstring>
+        <name>current_tags</name>
+        <reimplements refid="classgr_1_1ofdm__allocator_1_1pkt__err__measure_1a6ef53674fcde2acf40edb826da15ab59">current_tags</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/pkt_err_measure_impl.h" line="48" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1pkt__err__measure__impl_1a882fdf11b2d60e124f9317e030797fd3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int gr::ofdm_allocator::pkt_err_measure_impl::num_tags</definition>
+        <argsstring>()</argsstring>
+        <name>num_tags</name>
+        <reimplements refid="classgr_1_1ofdm__allocator_1_1pkt__err__measure_1aefba5faafe7b959b417f1dfd4c039325">num_tags</reimplements>
+        <briefdescription>
+<para>Return the total number of tags in the tag queue. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/pkt_err_measure_impl.h" line="49" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1pkt__err__measure__impl_1ad9838a4a4ed5672021125f6078de07e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::ofdm_allocator::pkt_err_measure_impl::forecast</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items_required)</argsstring>
+        <name>forecast</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items_required</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/pkt_err_measure_impl.h" line="51" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1pkt__err__measure__impl_1a2e4f06774d7b3a10480d10dbc85d5e05" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::ofdm_allocator::pkt_err_measure_impl::general_work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>general_work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/pkt_err_measure_impl.h" line="53" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="256">
+        <label>block</label>
+      </node>
+      <node id="254">
+        <label>gr::ofdm_allocator::pkt_err_measure_impl</label>
+        <link refid="classgr_1_1ofdm__allocator_1_1pkt__err__measure__impl"/>
+        <childnode refid="255" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="255">
+        <label>gr::ofdm_allocator::pkt_err_measure</label>
+        <link refid="classgr_1_1ofdm__allocator_1_1pkt__err__measure"/>
+        <childnode refid="256" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="259">
+        <label>block</label>
+      </node>
+      <node id="257">
+        <label>gr::ofdm_allocator::pkt_err_measure_impl</label>
+        <link refid="classgr_1_1ofdm__allocator_1_1pkt__err__measure__impl"/>
+        <childnode refid="258" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="258">
+        <label>gr::ofdm_allocator::pkt_err_measure</label>
+        <link refid="classgr_1_1ofdm__allocator_1_1pkt__err__measure"/>
+        <childnode refid="259" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/pkt_err_measure_impl.h" line="30" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/pkt_err_measure_impl.h" bodystart="29" bodyend="57"/>
+    <listofallmembers>
+      <member refid="classgr_1_1ofdm__allocator_1_1pkt__err__measure__impl_1a9a7bd7d5858d2b4b3158130bc78c3505" prot="public" virt="virtual"><scope>gr::ofdm_allocator::pkt_err_measure_impl</scope><name>current_tags</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1pkt__err__measure__impl_1a3111944c1be67f2e35f87e4bea42f4fe" prot="private" virt="non-virtual"><scope>gr::ofdm_allocator::pkt_err_measure_impl</scope><name>d_display</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1pkt__err__measure__impl_1ac4a30a0430f4c8e98027239005ee0a15" prot="private" virt="non-virtual"><scope>gr::ofdm_allocator::pkt_err_measure_impl</scope><name>d_filter</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1pkt__err__measure__impl_1a396c70633d9211eab8fdba48e7b536e0" prot="private" virt="non-virtual"><scope>gr::ofdm_allocator::pkt_err_measure_impl</scope><name>d_mutex</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1pkt__err__measure__impl_1a16ddf1979cbef830f24abc18007dabde" prot="private" virt="non-virtual"><scope>gr::ofdm_allocator::pkt_err_measure_impl</scope><name>d_name</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1pkt__err__measure__impl_1ab42e0ffed042c68abece27c9480d5395" prot="private" virt="non-virtual"><scope>gr::ofdm_allocator::pkt_err_measure_impl</scope><name>d_num_pkt_rcv</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1pkt__err__measure__impl_1a07f1bb94900a20e7716e30ee3249c075" prot="private" virt="non-virtual"><scope>gr::ofdm_allocator::pkt_err_measure_impl</scope><name>d_packet_init</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1pkt__err__measure__impl_1acb8fd055a29dc022c659a4361658c78e" prot="private" virt="non-virtual"><scope>gr::ofdm_allocator::pkt_err_measure_impl</scope><name>d_tags</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1pkt__err__measure__impl_1a52bfe1942cd1d62370aa14f10e20c6e9" prot="private" virt="non-virtual"><scope>gr::ofdm_allocator::pkt_err_measure_impl</scope><name>d_tags_itr</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1pkt__err__measure__impl_1a25bda0e647661d22e89128a50a6b7265" prot="private" virt="non-virtual"><scope>gr::ofdm_allocator::pkt_err_measure_impl</scope><name>d_window</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1pkt__err__measure__impl_1ad9838a4a4ed5672021125f6078de07e8" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::pkt_err_measure_impl</scope><name>forecast</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1pkt__err__measure__impl_1a2e4f06774d7b3a10480d10dbc85d5e05" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::pkt_err_measure_impl</scope><name>general_work</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1pkt__err__measure_1a2fe8a3a153c281a48268d0899c53b777" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::pkt_err_measure_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1pkt__err__measure__impl_1a882fdf11b2d60e124f9317e030797fd3" prot="public" virt="virtual"><scope>gr::ofdm_allocator::pkt_err_measure_impl</scope><name>num_tags</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1pkt__err__measure__impl_1a960f89f55bcc11e1cf23f19237650bee" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::pkt_err_measure_impl</scope><name>pkt_err_measure_impl</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1pkt__err__measure__impl_1a3de97ebb379130c1167a040120b92853" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::pkt_err_measure_impl</scope><name>setup_rpc</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1pkt__err__measure_1a61c8dec4583f47abd0fc4b77ce701fe0" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::pkt_err_measure_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1pkt__err__measure__impl_1a9ff58095a4a5c337be403134237f173b" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::pkt_err_measure_impl</scope><name>~pkt_err_measure_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

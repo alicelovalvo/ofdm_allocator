@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.11">
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.13">
   <compound refid="classgr_1_1ofdm__allocator_1_1allocator__subcarrier" kind="class"><name>gr::ofdm_allocator::allocator_subcarrier</name>
     <member refid="classgr_1_1ofdm__allocator_1_1allocator__subcarrier_1ab6e5771d0fd1f766fd39bff1ef41b6bf" kind="typedef"><name>sptr</name></member>
     <member refid="classgr_1_1ofdm__allocator_1_1allocator__subcarrier_1aa01c8a9ebe407e302e4307a7617ff43e" kind="function"><name>len_tag_key</name></member>
@@ -174,6 +174,23 @@
     <member refid="classgr_1_1ofdm__allocator_1_1constellation__sector_1abe885dbe1e96be9c82f6fc361ae710ee" kind="function"><name>calc_sector_value</name></member>
     <member refid="classgr_1_1ofdm__allocator_1_1constellation__sector_1ab011c425bb64c4007a94eacf674cbaf2" kind="function"><name>find_sector_values</name></member>
   </compound>
+  <compound refid="classgr_1_1ofdm__allocator_1_1crc__alix" kind="class"><name>gr::ofdm_allocator::crc_alix</name>
+    <member refid="classgr_1_1ofdm__allocator_1_1crc__alix_1a982b3ff1a37bf335b3085d32ea8abd5b" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1ofdm__allocator_1_1crc__alix_1a454bb72fabf0e51509ae6002eb54685e" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1ofdm__allocator_1_1crc__alix__impl" kind="class"><name>gr::ofdm_allocator::crc_alix_impl</name>
+    <member refid="classgr_1_1ofdm__allocator_1_1crc__alix__impl_1ad35b99a78784291209832cb612611edf" kind="variable"><name>d_check</name></member>
+    <member refid="classgr_1_1ofdm__allocator_1_1crc__alix__impl_1a370f2fb9ff4a188d4beb15149e112216" kind="variable"><name>d_packed</name></member>
+    <member refid="classgr_1_1ofdm__allocator_1_1crc__alix__impl_1ac8d04f54a9f65200a0c123a4b4e9aeb4" kind="variable"><name>d_crc_impl</name></member>
+    <member refid="classgr_1_1ofdm__allocator_1_1crc__alix__impl_1a74ba42ff47e0c09aa603b63287010c0a" kind="variable"><name>d_crc_length</name></member>
+    <member refid="classgr_1_1ofdm__allocator_1_1crc__alix__impl_1adf1d24cb761afb3edf4447a683b88da9" kind="variable"><name>d_unpacked_crc</name></member>
+    <member refid="classgr_1_1ofdm__allocator_1_1crc__alix__impl_1ae9ca6b7d2d4f2b8168183e3e05f84326" kind="variable"><name>d_npass</name></member>
+    <member refid="classgr_1_1ofdm__allocator_1_1crc__alix__impl_1abc7bae02e1cb9ae944a7cc754e0a117c" kind="variable"><name>d_nfail</name></member>
+    <member refid="classgr_1_1ofdm__allocator_1_1crc__alix__impl_1a262391cdbdcfb00d59ab67e9ef35006b" kind="function"><name>calculate_output_stream_length</name></member>
+    <member refid="classgr_1_1ofdm__allocator_1_1crc__alix__impl_1a02eedfbe0a608aff66ce152460d801b2" kind="function"><name>crc_alix_impl</name></member>
+    <member refid="classgr_1_1ofdm__allocator_1_1crc__alix__impl_1a35d8e655cb694d2bd0112cf3a5617e23" kind="function"><name>~crc_alix_impl</name></member>
+    <member refid="classgr_1_1ofdm__allocator_1_1crc__alix__impl_1af96891cda694fd0379e9eb3739839e7f" kind="function"><name>work</name></member>
+  </compound>
   <compound refid="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix" kind="class"><name>gr::ofdm_allocator::frame_equalizer_alix</name>
     <member refid="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix_1a25ae200123440ea6c6e1ff089e095e2a" kind="typedef"><name>sptr</name></member>
     <member refid="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix_1a18ea1f682cc43cec1c0d13ae7f416fa0" kind="function"><name>make</name></member>
@@ -296,12 +313,37 @@
     <member refid="classgr_1_1ofdm__allocator_1_1per__measure_1a74778608adc7304408e72023864eeddc" kind="function"><name>current_tags</name></member>
     <member refid="classgr_1_1ofdm__allocator_1_1per__measure_1a25d9b5cf1ffc38cc8b6ba007f6ddfe47" kind="function"><name>num_tags</name></member>
   </compound>
+  <compound refid="classgr_1_1ofdm__allocator_1_1per__measure__decimator" kind="class"><name>gr::ofdm_allocator::per_measure_decimator</name>
+    <member refid="classgr_1_1ofdm__allocator_1_1per__measure__decimator_1adb1494253eed794d3b983ef6c25dfa7b" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1ofdm__allocator_1_1per__measure__decimator_1aa64cf3ccb3503b31a39766ebb838c40e" kind="function"><name>make</name></member>
+    <member refid="classgr_1_1ofdm__allocator_1_1per__measure__decimator_1a0b2920ac726889cbab009171ec3b0940" kind="function"><name>current_tags</name></member>
+    <member refid="classgr_1_1ofdm__allocator_1_1per__measure__decimator_1afbd7677f6573274a6567670971f25fe9" kind="function"><name>num_tags</name></member>
+  </compound>
+  <compound refid="classgr_1_1ofdm__allocator_1_1per__measure__decimator__impl" kind="class"><name>gr::ofdm_allocator::per_measure_decimator_impl</name>
+    <member refid="classgr_1_1ofdm__allocator_1_1per__measure__decimator__impl_1a0803d005242f0727aa5fc6d218fe69c2" kind="variable"><name>d_name</name></member>
+    <member refid="classgr_1_1ofdm__allocator_1_1per__measure__decimator__impl_1a50b25ccc5ee1ac31104df595f4aadeb8" kind="variable"><name>d_tags</name></member>
+    <member refid="classgr_1_1ofdm__allocator_1_1per__measure__decimator__impl_1a951aff8f51832d8eaac4339b2188a093" kind="variable"><name>d_tags_itr</name></member>
+    <member refid="classgr_1_1ofdm__allocator_1_1per__measure__decimator__impl_1a1fb4d0fd145762e4a85945c1b8bf2a6f" kind="variable"><name>d_display</name></member>
+    <member refid="classgr_1_1ofdm__allocator_1_1per__measure__decimator__impl_1acdc4b94517aeb0cf84164096e5876862" kind="variable"><name>d_packet_init</name></member>
+    <member refid="classgr_1_1ofdm__allocator_1_1per__measure__decimator__impl_1ae6f6986ddbc348f0feb9833b4def63ac" kind="variable"><name>d_packet_number</name></member>
+    <member refid="classgr_1_1ofdm__allocator_1_1per__measure__decimator__impl_1ac37c11521c81d52a523bc81c8928d398" kind="variable"><name>d_num_pkt_rcv</name></member>
+    <member refid="classgr_1_1ofdm__allocator_1_1per__measure__decimator__impl_1ac8a2978e8471d78a20a66bcc7c83d100" kind="variable"><name>d_window</name></member>
+    <member refid="classgr_1_1ofdm__allocator_1_1per__measure__decimator__impl_1ace898d8c0703383a30dd2112e7ea94f7" kind="variable"><name>d_filter</name></member>
+    <member refid="classgr_1_1ofdm__allocator_1_1per__measure__decimator__impl_1a519c1f246e5b4582a175b14d3803e80b" kind="variable"><name>d_mutex</name></member>
+    <member refid="classgr_1_1ofdm__allocator_1_1per__measure__decimator__impl_1a90290fffbfe0caaa35ca00890d59280c" kind="function"><name>per_measure_decimator_impl</name></member>
+    <member refid="classgr_1_1ofdm__allocator_1_1per__measure__decimator__impl_1aad59aee59662b3b7ee406438c2ba2451" kind="function"><name>~per_measure_decimator_impl</name></member>
+    <member refid="classgr_1_1ofdm__allocator_1_1per__measure__decimator__impl_1a93cb89258c338c539858bdd69c1605da" kind="function"><name>setup_rpc</name></member>
+    <member refid="classgr_1_1ofdm__allocator_1_1per__measure__decimator__impl_1a2e8a5252cd90f75a4d816034c7e6334b" kind="function"><name>current_tags</name></member>
+    <member refid="classgr_1_1ofdm__allocator_1_1per__measure__decimator__impl_1a752a4947a5f281edcc2ea43fd43ec9b7" kind="function"><name>num_tags</name></member>
+    <member refid="classgr_1_1ofdm__allocator_1_1per__measure__decimator__impl_1aff5be73076a5e4774af9618a9ac24d18" kind="function"><name>work</name></member>
+  </compound>
   <compound refid="classgr_1_1ofdm__allocator_1_1per__measure__impl" kind="class"><name>gr::ofdm_allocator::per_measure_impl</name>
     <member refid="classgr_1_1ofdm__allocator_1_1per__measure__impl_1a772b967b29364f6e74236ac67222e093" kind="variable"><name>d_name</name></member>
     <member refid="classgr_1_1ofdm__allocator_1_1per__measure__impl_1a0c7d524a7b4dea46e18a7b7ff757daf7" kind="variable"><name>d_tags</name></member>
     <member refid="classgr_1_1ofdm__allocator_1_1per__measure__impl_1adc4768005d6c4764a101400f6d95d4ef" kind="variable"><name>d_tags_itr</name></member>
     <member refid="classgr_1_1ofdm__allocator_1_1per__measure__impl_1ae36560d30a8e9f5224c569a3735bdff7" kind="variable"><name>d_display</name></member>
     <member refid="classgr_1_1ofdm__allocator_1_1per__measure__impl_1a78cdbac54ccc4585a37a2d86cba1cdce" kind="variable"><name>d_packet_init</name></member>
+    <member refid="classgr_1_1ofdm__allocator_1_1per__measure__impl_1a51da91f9b2c58e61c2885fdf330b331a" kind="variable"><name>d_packet_number</name></member>
     <member refid="classgr_1_1ofdm__allocator_1_1per__measure__impl_1a0256293d00b125264775782436eaff79" kind="variable"><name>d_num_pkt_rcv</name></member>
     <member refid="classgr_1_1ofdm__allocator_1_1per__measure__impl_1a437dd359aedb6cae0e79201007adeef6" kind="variable"><name>d_window</name></member>
     <member refid="classgr_1_1ofdm__allocator_1_1per__measure__impl_1a32789204b856130d59d445d51e2a85f8" kind="variable"><name>d_filter</name></member>
@@ -312,6 +354,30 @@
     <member refid="classgr_1_1ofdm__allocator_1_1per__measure__impl_1a608c881d179305dd345c5d5168f4f30f" kind="function"><name>current_tags</name></member>
     <member refid="classgr_1_1ofdm__allocator_1_1per__measure__impl_1a7f0f2715dea2e60b928be9612573cfe0" kind="function"><name>num_tags</name></member>
     <member refid="classgr_1_1ofdm__allocator_1_1per__measure__impl_1a665b1eb29ba3481d373fee9209f87f15" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="classgr_1_1ofdm__allocator_1_1pkt__err__measure" kind="class"><name>gr::ofdm_allocator::pkt_err_measure</name>
+    <member refid="classgr_1_1ofdm__allocator_1_1pkt__err__measure_1a61c8dec4583f47abd0fc4b77ce701fe0" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1ofdm__allocator_1_1pkt__err__measure_1a2fe8a3a153c281a48268d0899c53b777" kind="function"><name>make</name></member>
+    <member refid="classgr_1_1ofdm__allocator_1_1pkt__err__measure_1a6ef53674fcde2acf40edb826da15ab59" kind="function"><name>current_tags</name></member>
+    <member refid="classgr_1_1ofdm__allocator_1_1pkt__err__measure_1aefba5faafe7b959b417f1dfd4c039325" kind="function"><name>num_tags</name></member>
+  </compound>
+  <compound refid="classgr_1_1ofdm__allocator_1_1pkt__err__measure__impl" kind="class"><name>gr::ofdm_allocator::pkt_err_measure_impl</name>
+    <member refid="classgr_1_1ofdm__allocator_1_1pkt__err__measure__impl_1a16ddf1979cbef830f24abc18007dabde" kind="variable"><name>d_name</name></member>
+    <member refid="classgr_1_1ofdm__allocator_1_1pkt__err__measure__impl_1acb8fd055a29dc022c659a4361658c78e" kind="variable"><name>d_tags</name></member>
+    <member refid="classgr_1_1ofdm__allocator_1_1pkt__err__measure__impl_1a52bfe1942cd1d62370aa14f10e20c6e9" kind="variable"><name>d_tags_itr</name></member>
+    <member refid="classgr_1_1ofdm__allocator_1_1pkt__err__measure__impl_1a3111944c1be67f2e35f87e4bea42f4fe" kind="variable"><name>d_display</name></member>
+    <member refid="classgr_1_1ofdm__allocator_1_1pkt__err__measure__impl_1a07f1bb94900a20e7716e30ee3249c075" kind="variable"><name>d_packet_init</name></member>
+    <member refid="classgr_1_1ofdm__allocator_1_1pkt__err__measure__impl_1ab42e0ffed042c68abece27c9480d5395" kind="variable"><name>d_num_pkt_rcv</name></member>
+    <member refid="classgr_1_1ofdm__allocator_1_1pkt__err__measure__impl_1a25bda0e647661d22e89128a50a6b7265" kind="variable"><name>d_window</name></member>
+    <member refid="classgr_1_1ofdm__allocator_1_1pkt__err__measure__impl_1ac4a30a0430f4c8e98027239005ee0a15" kind="variable"><name>d_filter</name></member>
+    <member refid="classgr_1_1ofdm__allocator_1_1pkt__err__measure__impl_1a396c70633d9211eab8fdba48e7b536e0" kind="variable"><name>d_mutex</name></member>
+    <member refid="classgr_1_1ofdm__allocator_1_1pkt__err__measure__impl_1a960f89f55bcc11e1cf23f19237650bee" kind="function"><name>pkt_err_measure_impl</name></member>
+    <member refid="classgr_1_1ofdm__allocator_1_1pkt__err__measure__impl_1a9ff58095a4a5c337be403134237f173b" kind="function"><name>~pkt_err_measure_impl</name></member>
+    <member refid="classgr_1_1ofdm__allocator_1_1pkt__err__measure__impl_1a3de97ebb379130c1167a040120b92853" kind="function"><name>setup_rpc</name></member>
+    <member refid="classgr_1_1ofdm__allocator_1_1pkt__err__measure__impl_1a9a7bd7d5858d2b4b3158130bc78c3505" kind="function"><name>current_tags</name></member>
+    <member refid="classgr_1_1ofdm__allocator_1_1pkt__err__measure__impl_1a882fdf11b2d60e124f9317e030797fd3" kind="function"><name>num_tags</name></member>
+    <member refid="classgr_1_1ofdm__allocator_1_1pkt__err__measure__impl_1ad9838a4a4ed5672021125f6078de07e8" kind="function"><name>forecast</name></member>
+    <member refid="classgr_1_1ofdm__allocator_1_1pkt__err__measure__impl_1a2e4f06774d7b3a10480d10dbc85d5e05" kind="function"><name>general_work</name></member>
   </compound>
   <compound refid="classgr_1_1ofdm__allocator_1_1serializer__subcarrier" kind="class"><name>gr::ofdm_allocator::serializer_subcarrier</name>
     <member refid="classgr_1_1ofdm__allocator_1_1serializer__subcarrier_1a54dccc15bc1eb99dcb0919633f745913" kind="typedef"><name>sptr</name></member>
@@ -403,6 +469,10 @@
   </compound>
   <compound refid="constellation__decoder__alix__impl_8h" kind="file"><name>constellation_decoder_alix_impl.h</name>
   </compound>
+  <compound refid="crc__alix_8h" kind="file"><name>crc_alix.h</name>
+  </compound>
+  <compound refid="crc__alix__impl_8h" kind="file"><name>crc_alix_impl.h</name>
+  </compound>
   <compound refid="frame__equalizer__alix_8h" kind="file"><name>frame_equalizer_alix.h</name>
   </compound>
   <compound refid="frame__equalizer__alix__impl_8h" kind="file"><name>frame_equalizer_alix_impl.h</name>
@@ -431,7 +501,15 @@
   </compound>
   <compound refid="per__measure_8h" kind="file"><name>per_measure.h</name>
   </compound>
+  <compound refid="per__measure__decimator_8h" kind="file"><name>per_measure_decimator.h</name>
+  </compound>
+  <compound refid="per__measure__decimator__impl_8h" kind="file"><name>per_measure_decimator_impl.h</name>
+  </compound>
   <compound refid="per__measure__impl_8h" kind="file"><name>per_measure_impl.h</name>
+  </compound>
+  <compound refid="pkt__err__measure_8h" kind="file"><name>pkt_err_measure.h</name>
+  </compound>
+  <compound refid="pkt__err__measure__impl_8h" kind="file"><name>pkt_err_measure_impl.h</name>
   </compound>
   <compound refid="serializer__subcarrier_8h" kind="file"><name>serializer_subcarrier.h</name>
   </compound>
