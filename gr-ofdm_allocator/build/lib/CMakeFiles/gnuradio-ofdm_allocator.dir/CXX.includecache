@@ -40,6 +40,12 @@ ofdm_allocator/constellation_alix.h
 gnuradio/block.h
 -
 
+../include/ofdm_allocator/crc_alix.h
+ofdm_allocator/api.h
+-
+gnuradio/tagged_stream_block.h
+-
+
 ../include/ofdm_allocator/frame_equalizer_alix.h
 ofdm_allocator/api.h
 -
@@ -516,6 +522,20 @@ constellation_decoder_alix_impl.h
 
 /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/constellation_decoder_alix_impl.h
 ofdm_allocator/constellation_decoder_alix.h
+-
+
+/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/crc_alix_impl.cc
+config.h
+/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/config.h
+gnuradio/io_signature.h
+-
+crc_alix_impl.h
+/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/crc_alix_impl.h
+
+/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/crc_alix_impl.h
+ofdm_allocator/crc_alix.h
+-
+boost/crc.hpp
 -
 
 /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.cc

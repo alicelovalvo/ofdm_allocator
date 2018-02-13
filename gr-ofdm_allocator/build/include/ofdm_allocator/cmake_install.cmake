@@ -51,6 +51,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
     "/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/per_measure.h"
     "/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/pkt_err_measure.h"
     "/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/per_measure_decimator.h"
+    "/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/crc_alix.h"
     )
 endif()
 

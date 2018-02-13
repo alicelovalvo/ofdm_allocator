@@ -14,6 +14,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/gnuradio-ofdm_allocator.dir/per_measure_impl.cc.o"
   "CMakeFiles/gnuradio-ofdm_allocator.dir/pkt_err_measure_impl.cc.o"
   "CMakeFiles/gnuradio-ofdm_allocator.dir/per_measure_decimator_impl.cc.o"
+  "CMakeFiles/gnuradio-ofdm_allocator.dir/crc_alix_impl.cc.o"
   "libgnuradio-ofdm_allocator.pdb"
   "libgnuradio-ofdm_allocator.so"
 )

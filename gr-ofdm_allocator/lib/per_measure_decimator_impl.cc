@@ -43,11 +43,11 @@ namespace gr {
                                    int window)
       : gr::sync_decimator("per_measure_decimator",
               gr::io_signature::make(1, -1, sizeof_stream_item),
-              gr::io_signature::make(1, 1, sizeof(float)), 96),
+              gr::io_signature::make(1, 1, sizeof(float)), 1),
               // gr::io_signature::make(0, 0, 0)),
         d_packet_init(0), d_num_pkt_rcv(0), d_window(window), d_packet_number(0)
     {
-      set_relative_rate((double)1/96);
+      // set_relative_rate(1);
     }
 
     /*
@@ -89,7 +89,6 @@ namespace gr {
       //        << "----------------------------------------------------------------------";
       //   sout << std::endl << "Tag Debug: " << d_name << std::endl;
       // }
-
 
       uint64_t abs_N, end_N;
       for(size_t i = 0; i < input_items.size(); i++) {
@@ -134,22 +133,23 @@ namespace gr {
           // std::cout << "/* d_packet_init */" << d_packet_init << '\n';
           // std::cout << "/* packet_number */" << d_packet_number << '\n';
           d_packet_init = d_packet_number;
+          std::cout << "/* sub */" << sub << '\n';
           packet_error_rate = (double)(10000 - (double)((d_num_pkt_rcv*10000)/sub))/100;
           std::cout << "PER " << packet_error_rate << '\n';
-          // std::cout << "/* sub */" << sub << '\n';
-          // std::cout << "/* num_pkt_rcv */" << d_num_pkt_rcv << '\n';
-          // std::cout << "/*********************************************/" << '\n';
+          std::cout << "/* num_pkt_rcv */" << d_num_pkt_rcv << '\n';
           d_num_pkt_rcv = 0;
 
-          // std::cout << "/* noutput_items */" << noutput_items << '\n';
+
           for(int m = 0; m < noutput_items; m++) {
+            // std::cout << "PER " << packet_error_rate << '\n';
             out[m] = (float)packet_error_rate;
             std::cout << "/* out */" << out[m]  <<'\n';
-          }
+            std::cout << "/*********************************************/" << '\n';
+            }
 
         }
-
         // if(d_tags.size() > 0) {
+        // std::cout << "/* noutput_items */" << noutput_items << '\n';
         //   toprint = true;
         // }
         //
@@ -175,6 +175,7 @@ namespace gr {
       //     std::cout << sout.str();
       //   }
       // }
+      // return noutput_items;
       return noutput_items;
     }
 

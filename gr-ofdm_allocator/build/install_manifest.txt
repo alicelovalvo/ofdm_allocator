@@ -16,6 +16,7 @@
 /home/lab/prefix/default/include/ofdm_allocator/per_measure.h
 /home/lab/prefix/default/include/ofdm_allocator/pkt_err_measure.h
 /home/lab/prefix/default/include/ofdm_allocator/per_measure_decimator.h
+/home/lab/prefix/default/include/ofdm_allocator/crc_alix.h
 /home/lab/prefix/default/lib/libgnuradio-ofdm_allocator.so
 /home/lab/prefix/default/lib/python2.7/dist-packages/ofdm_allocator/_ofdm_allocator_swig.so
 /home/lab/prefix/default/lib/python2.7/dist-packages/ofdm_allocator/ofdm_allocator_swig.py
@@ -46,6 +47,7 @@
 /home/lab/prefix/default/share/gnuradio/grc/blocks/ofdm_allocator_per_measure.xml
 /home/lab/prefix/default/share/gnuradio/grc/blocks/ofdm_allocator_pkt_err_measure.xml
 /home/lab/prefix/default/share/gnuradio/grc/blocks/ofdm_allocator_per_measure_decimator.xml
+/home/lab/prefix/default/share/gnuradio/grc/blocks/ofdm_allocator_crc_alix.xml
 /home/lab/prefix/default/share/doc/gr-ofdm_allocator/xml/group__defs_8dox.xml
 /home/lab/prefix/default/share/doc/gr-ofdm_allocator/xml/dir_97aefd0d527b934f1d99a682da8fe6a9.xml
 /home/lab/prefix/default/share/doc/gr-ofdm_allocator/xml/indexpage.xml

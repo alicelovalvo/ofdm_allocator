@@ -24,6 +24,7 @@
 #include "ofdm_allocator/per_measure.h"
 #include "ofdm_allocator/pkt_err_measure.h"
 #include "ofdm_allocator/per_measure_decimator.h"
+#include "ofdm_allocator/crc_alix.h"
 %}
 
 
@@ -147,3 +148,6 @@ GR_SWIG_BLOCK_MAGIC2(ofdm_allocator, per_measure);
 GR_SWIG_BLOCK_MAGIC2(ofdm_allocator, pkt_err_measure);
 %include "ofdm_allocator/per_measure_decimator.h"
 GR_SWIG_BLOCK_MAGIC2(ofdm_allocator, per_measure_decimator);
+
+%include "ofdm_allocator/crc_alix.h"
+GR_SWIG_BLOCK_MAGIC2(ofdm_allocator, crc_alix);

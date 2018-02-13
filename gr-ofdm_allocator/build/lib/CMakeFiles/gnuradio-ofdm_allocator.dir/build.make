@@ -417,6 +417,30 @@ lib/CMakeFiles/gnuradio-ofdm_allocator.dir/per_measure_decimator_impl.cc.o.provi
 lib/CMakeFiles/gnuradio-ofdm_allocator.dir/per_measure_decimator_impl.cc.o.provides.build: lib/CMakeFiles/gnuradio-ofdm_allocator.dir/per_measure_decimator_impl.cc.o
 
 
+lib/CMakeFiles/gnuradio-ofdm_allocator.dir/crc_alix_impl.cc.o: lib/CMakeFiles/gnuradio-ofdm_allocator.dir/flags.make
+lib/CMakeFiles/gnuradio-ofdm_allocator.dir/crc_alix_impl.cc.o: ../lib/crc_alix_impl.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object lib/CMakeFiles/gnuradio-ofdm_allocator.dir/crc_alix_impl.cc.o"
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-ofdm_allocator.dir/crc_alix_impl.cc.o -c /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/crc_alix_impl.cc
+
+lib/CMakeFiles/gnuradio-ofdm_allocator.dir/crc_alix_impl.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gnuradio-ofdm_allocator.dir/crc_alix_impl.cc.i"
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/crc_alix_impl.cc > CMakeFiles/gnuradio-ofdm_allocator.dir/crc_alix_impl.cc.i
+
+lib/CMakeFiles/gnuradio-ofdm_allocator.dir/crc_alix_impl.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gnuradio-ofdm_allocator.dir/crc_alix_impl.cc.s"
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/crc_alix_impl.cc -o CMakeFiles/gnuradio-ofdm_allocator.dir/crc_alix_impl.cc.s
+
+lib/CMakeFiles/gnuradio-ofdm_allocator.dir/crc_alix_impl.cc.o.requires:
+
+.PHONY : lib/CMakeFiles/gnuradio-ofdm_allocator.dir/crc_alix_impl.cc.o.requires
+
+lib/CMakeFiles/gnuradio-ofdm_allocator.dir/crc_alix_impl.cc.o.provides: lib/CMakeFiles/gnuradio-ofdm_allocator.dir/crc_alix_impl.cc.o.requires
+	$(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/crc_alix_impl.cc.o.provides.build
+.PHONY : lib/CMakeFiles/gnuradio-ofdm_allocator.dir/crc_alix_impl.cc.o.provides
+
+lib/CMakeFiles/gnuradio-ofdm_allocator.dir/crc_alix_impl.cc.o.provides.build: lib/CMakeFiles/gnuradio-ofdm_allocator.dir/crc_alix_impl.cc.o
+
+
 # Object files for target gnuradio-ofdm_allocator
 gnuradio__ofdm_allocator_OBJECTS = \
 "CMakeFiles/gnuradio-ofdm_allocator.dir/vector_source_tagged_impl.cc.o" \
@@ -433,7 +457,8 @@ gnuradio__ofdm_allocator_OBJECTS = \
 "CMakeFiles/gnuradio-ofdm_allocator.dir/packet_header_parser_alix_impl.cc.o" \
 "CMakeFiles/gnuradio-ofdm_allocator.dir/per_measure_impl.cc.o" \
 "CMakeFiles/gnuradio-ofdm_allocator.dir/pkt_err_measure_impl.cc.o" \
-"CMakeFiles/gnuradio-ofdm_allocator.dir/per_measure_decimator_impl.cc.o"
+"CMakeFiles/gnuradio-ofdm_allocator.dir/per_measure_decimator_impl.cc.o" \
+"CMakeFiles/gnuradio-ofdm_allocator.dir/crc_alix_impl.cc.o"
 
 # External object files for target gnuradio-ofdm_allocator
 gnuradio__ofdm_allocator_EXTERNAL_OBJECTS =
@@ -453,6 +478,7 @@ lib/libgnuradio-ofdm_allocator.so: lib/CMakeFiles/gnuradio-ofdm_allocator.dir/pa
 lib/libgnuradio-ofdm_allocator.so: lib/CMakeFiles/gnuradio-ofdm_allocator.dir/per_measure_impl.cc.o
 lib/libgnuradio-ofdm_allocator.so: lib/CMakeFiles/gnuradio-ofdm_allocator.dir/pkt_err_measure_impl.cc.o
 lib/libgnuradio-ofdm_allocator.so: lib/CMakeFiles/gnuradio-ofdm_allocator.dir/per_measure_decimator_impl.cc.o
+lib/libgnuradio-ofdm_allocator.so: lib/CMakeFiles/gnuradio-ofdm_allocator.dir/crc_alix_impl.cc.o
 lib/libgnuradio-ofdm_allocator.so: lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make
 lib/libgnuradio-ofdm_allocator.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
 lib/libgnuradio-ofdm_allocator.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
@@ -460,7 +486,7 @@ lib/libgnuradio-ofdm_allocator.so: /home/lab/prefix/default/lib/libgnuradio-runt
 lib/libgnuradio-ofdm_allocator.so: /home/lab/prefix/default/lib/libgnuradio-pmt.so
 lib/libgnuradio-ofdm_allocator.so: /usr/lib/liblog4cpp.so
 lib/libgnuradio-ofdm_allocator.so: lib/CMakeFiles/gnuradio-ofdm_allocator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX shared library libgnuradio-ofdm_allocator.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX shared library libgnuradio-ofdm_allocator.so"
 	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build/lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gnuradio-ofdm_allocator.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -483,6 +509,7 @@ lib/CMakeFiles/gnuradio-ofdm_allocator.dir/requires: lib/CMakeFiles/gnuradio-ofd
 lib/CMakeFiles/gnuradio-ofdm_allocator.dir/requires: lib/CMakeFiles/gnuradio-ofdm_allocator.dir/per_measure_impl.cc.o.requires
 lib/CMakeFiles/gnuradio-ofdm_allocator.dir/requires: lib/CMakeFiles/gnuradio-ofdm_allocator.dir/pkt_err_measure_impl.cc.o.requires
 lib/CMakeFiles/gnuradio-ofdm_allocator.dir/requires: lib/CMakeFiles/gnuradio-ofdm_allocator.dir/per_measure_decimator_impl.cc.o.requires
+lib/CMakeFiles/gnuradio-ofdm_allocator.dir/requires: lib/CMakeFiles/gnuradio-ofdm_allocator.dir/crc_alix_impl.cc.o.requires
 
 .PHONY : lib/CMakeFiles/gnuradio-ofdm_allocator.dir/requires
 

@@ -88,6 +88,41 @@ lib/CMakeFiles/gnuradio-ofdm_allocator.dir/constellation_decoder_alix_impl.cc.o
  /home/lab/prefix/default/include/pmt/pmt_sugar.h
  /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/constellation_decoder_alix_impl.cc
  /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/constellation_decoder_alix_impl.h
+lib/CMakeFiles/gnuradio-ofdm_allocator.dir/crc_alix_impl.cc.o
+ ../include/ofdm_allocator/api.h
+ ../include/ofdm_allocator/crc_alix.h
+ /home/lab/prefix/default/include/gnuradio/api.h
+ /home/lab/prefix/default/include/gnuradio/attributes.h
+ /home/lab/prefix/default/include/gnuradio/basic_block.h
+ /home/lab/prefix/default/include/gnuradio/block.h
+ /home/lab/prefix/default/include/gnuradio/block_registry.h
+ /home/lab/prefix/default/include/gnuradio/config.h
+ /home/lab/prefix/default/include/gnuradio/gr_complex.h
+ /home/lab/prefix/default/include/gnuradio/io_signature.h
+ /home/lab/prefix/default/include/gnuradio/logger.h
+ /home/lab/prefix/default/include/gnuradio/messages/msg_accepter.h
+ /home/lab/prefix/default/include/gnuradio/messages/msg_producer.h
+ /home/lab/prefix/default/include/gnuradio/msg_accepter.h
+ /home/lab/prefix/default/include/gnuradio/rpccallbackregister_base.h
+ /home/lab/prefix/default/include/gnuradio/rpcmanager.h
+ /home/lab/prefix/default/include/gnuradio/rpcmanager_base.h
+ /home/lab/prefix/default/include/gnuradio/rpcregisterhelpers.h
+ /home/lab/prefix/default/include/gnuradio/rpcserver_aggregator.h
+ /home/lab/prefix/default/include/gnuradio/rpcserver_base.h
+ /home/lab/prefix/default/include/gnuradio/rpcserver_booter_aggregator.h
+ /home/lab/prefix/default/include/gnuradio/rpcserver_booter_base.h
+ /home/lab/prefix/default/include/gnuradio/rpcserver_selector.h
+ /home/lab/prefix/default/include/gnuradio/runtime_types.h
+ /home/lab/prefix/default/include/gnuradio/sptr_magic.h
+ /home/lab/prefix/default/include/gnuradio/tagged_stream_block.h
+ /home/lab/prefix/default/include/gnuradio/tags.h
+ /home/lab/prefix/default/include/gnuradio/thread/thread.h
+ /home/lab/prefix/default/include/gnuradio/types.h
+ /home/lab/prefix/default/include/pmt/api.h
+ /home/lab/prefix/default/include/pmt/pmt.h
+ /home/lab/prefix/default/include/pmt/pmt_sugar.h
+ /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/crc_alix_impl.cc
+ /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/crc_alix_impl.h
 lib/CMakeFiles/gnuradio-ofdm_allocator.dir/frame_equalizer_alix_impl.cc.o
  ../include/ofdm_allocator/api.h
  ../include/ofdm_allocator/frame_equalizer_alix.h

@@ -37,5 +37,6 @@ install(FILES
     packet_header_parser_alix.h
     per_measure.h
     pkt_err_measure.h
-    per_measure_decimator.h DESTINATION include/ofdm_allocator
+    per_measure_decimator.h
+    crc_alix.h DESTINATION include/ofdm_allocator
 )

@@ -147,11 +147,12 @@ namespace gr {
           // std::cout << "/*********************************************/" << '\n';
           d_num_pkt_rcv = 0;
 
-          std::cout << "/* noutput_items */" << noutput_items << '\n';
-          // for(int m = 0; m < noutput_items; m++) {
-            out[0] = (float)packet_error_rate;
+          // std::cout << "/* noutput_items_1 */" << noutput_items << '\n';
+          for(int m = 0; m < noutput_items; m++) {
+            out[m] = (float)packet_error_rate;
+            // return noutput_items;
             // std::cout << "/* out */" << out[m]  <<'\n';
-          // }
+          }
 
         }
 
@@ -182,6 +183,7 @@ namespace gr {
       //   }
       // }
       return noutput_items;
+      // return 0;
     }
 
     void

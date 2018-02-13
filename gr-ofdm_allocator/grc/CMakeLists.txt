@@ -33,5 +33,6 @@ install(FILES
     ofdm_allocator_packet_header_parser_alix.xml
     ofdm_allocator_per_measure.xml
     ofdm_allocator_pkt_err_measure.xml
-    ofdm_allocator_per_measure_decimator.xml DESTINATION share/gnuradio/grc/blocks
+    ofdm_allocator_per_measure_decimator.xml
+    ofdm_allocator_crc_alix.xml DESTINATION share/gnuradio/grc/blocks
 )

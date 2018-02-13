@@ -276,6 +276,33 @@ constellation_decoder_alix_impl.cc.s:
 	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/constellation_decoder_alix_impl.cc.s
 .PHONY : constellation_decoder_alix_impl.cc.s
 
+crc_alix_impl.o: crc_alix_impl.cc.o
+
+.PHONY : crc_alix_impl.o
+
+# target to build an object file
+crc_alix_impl.cc.o:
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/crc_alix_impl.cc.o
+.PHONY : crc_alix_impl.cc.o
+
+crc_alix_impl.i: crc_alix_impl.cc.i
+
+.PHONY : crc_alix_impl.i
+
+# target to preprocess a source file
+crc_alix_impl.cc.i:
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/crc_alix_impl.cc.i
+.PHONY : crc_alix_impl.cc.i
+
+crc_alix_impl.s: crc_alix_impl.cc.s
+
+.PHONY : crc_alix_impl.s
+
+# target to generate assembly for a file
+crc_alix_impl.cc.s:
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/crc_alix_impl.cc.s
+.PHONY : crc_alix_impl.cc.s
+
 frame_equalizer_alix_impl.o: frame_equalizer_alix_impl.cc.o
 
 .PHONY : frame_equalizer_alix_impl.o
@@ -678,6 +705,9 @@ help:
 	@echo "... constellation_decoder_alix_impl.o"
 	@echo "... constellation_decoder_alix_impl.i"
 	@echo "... constellation_decoder_alix_impl.s"
+	@echo "... crc_alix_impl.o"
+	@echo "... crc_alix_impl.i"
+	@echo "... crc_alix_impl.s"
 	@echo "... frame_equalizer_alix_impl.o"
 	@echo "... frame_equalizer_alix_impl.i"
 	@echo "... frame_equalizer_alix_impl.s"

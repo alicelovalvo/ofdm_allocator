@@ -39,7 +39,8 @@ list(APPEND ofdm_allocator_sources
     packet_header_parser_alix_impl.cc
     per_measure_impl.cc
     pkt_err_measure_impl.cc
-    per_measure_decimator_impl.cc )
+    per_measure_decimator_impl.cc
+    crc_alix_impl.cc )
 
 set(ofdm_allocator_sources "${ofdm_allocator_sources}" PARENT_SCOPE)
 if(NOT ofdm_allocator_sources)
