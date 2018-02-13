@@ -156,6 +156,7 @@
     <member refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix_1a210620287ce954d0ecc4a56416fe2a7b" kind="variable"><name>d_pilot_carriers</name></member>
     <member refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix_1a7cc369365e82378964c38490dbb72a4c" kind="variable"><name>d_pilot_symbols</name></member>
     <member refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix_1a7344a8919f08e12c7025b6f9ac89392d" kind="variable"><name>d_symbols_skipped</name></member>
+    <member refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix_1ac7f5a6faebf72714abe884c37f03aef0" kind="variable"><name>d_data_carr_set</name></member>
     <member refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix_1a24151393c1f8f190eb9a15a71ff7cd56" kind="variable"><name>d_pilot_carr_set</name></member>
     <member refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix_1adc166f8c1c006ceee9742a618fffd535" kind="variable"><name>d_channel_state</name></member>
     <member refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__1d__pilots__alix_1a7c83cbeb0eecb2be763928c59d1d6d74" kind="function"><name>ofdm_equalizer_1d_pilots_alix</name></member>
@@ -228,6 +229,12 @@
     <member refid="classgr_1_1ofdm__allocator_1_1packet__header__parser__alix_1abc2c4ac9e8a752c1de9d8e9ecffbd43e" kind="function"><name>make</name></member>
     <member refid="classgr_1_1ofdm__allocator_1_1packet__header__parser__alix_1a11e39e4a1c912ebf79ecdddf48ff9a17" kind="function"><name>make</name></member>
   </compound>
+  <compound refid="classgr_1_1ofdm__allocator_1_1per__measure" kind="class"><name>gr::ofdm_allocator::per_measure</name>
+    <member refid="classgr_1_1ofdm__allocator_1_1per__measure_1a598ddacab602614d9d7bc0a63287bc41" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1ofdm__allocator_1_1per__measure_1a97e820aa6549b4c806bcbe7ca31d432e" kind="function"><name>make</name></member>
+    <member refid="classgr_1_1ofdm__allocator_1_1per__measure_1a74778608adc7304408e72023864eeddc" kind="function"><name>current_tags</name></member>
+    <member refid="classgr_1_1ofdm__allocator_1_1per__measure_1a25d9b5cf1ffc38cc8b6ba007f6ddfe47" kind="function"><name>num_tags</name></member>
+  </compound>
   <compound refid="classgr_1_1ofdm__allocator_1_1serializer__subcarrier" kind="class"><name>gr::ofdm_allocator::serializer_subcarrier</name>
     <member refid="classgr_1_1ofdm__allocator_1_1serializer__subcarrier_1a54dccc15bc1eb99dcb0919633f745913" kind="typedef"><name>sptr</name></member>
     <member refid="classgr_1_1ofdm__allocator_1_1serializer__subcarrier_1a27269028ca71e67973713b348ebc10db" kind="function"><name>make</name></member>
@@ -278,12 +285,14 @@
   </compound>
   <compound refid="packet__header__parser__alix_8h" kind="file"><name>packet_header_parser_alix.h</name>
   </compound>
+  <compound refid="per__measure_8h" kind="file"><name>per_measure.h</name>
+  </compound>
   <compound refid="serializer__subcarrier_8h" kind="file"><name>serializer_subcarrier.h</name>
   </compound>
   <compound refid="vector__source__tagged_8h" kind="file"><name>vector_source_tagged.h</name>
   </compound>
-  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/alice/rfnoc/src/gr-ofdm_allocator/include</name>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include</name>
   </compound>
-  <compound refid="dir_6d79e6258ac0cf50683a82e1c876981f" kind="dir"><name>/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator</name>
+  <compound refid="dir_6d79e6258ac0cf50683a82e1c876981f" kind="dir"><name>/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator</name>
   </compound>
 </doxygenindex>

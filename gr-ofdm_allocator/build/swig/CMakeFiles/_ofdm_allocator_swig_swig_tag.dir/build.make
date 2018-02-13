@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alice/rfnoc/src/gr-ofdm_allocator
+CMAKE_SOURCE_DIR = /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alice/rfnoc/src/gr-ofdm_allocator/build
+CMAKE_BINARY_DIR = /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build
 
 # Include any dependencies generated for this target.
 include swig/CMakeFiles/_ofdm_allocator_swig_swig_tag.dir/depend.make
@@ -59,16 +59,16 @@ include swig/CMakeFiles/_ofdm_allocator_swig_swig_tag.dir/flags.make
 
 swig/CMakeFiles/_ofdm_allocator_swig_swig_tag.dir/_ofdm_allocator_swig_swig_tag.cpp.o: swig/CMakeFiles/_ofdm_allocator_swig_swig_tag.dir/flags.make
 swig/CMakeFiles/_ofdm_allocator_swig_swig_tag.dir/_ofdm_allocator_swig_swig_tag.cpp.o: swig/_ofdm_allocator_swig_swig_tag.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alice/rfnoc/src/gr-ofdm_allocator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object swig/CMakeFiles/_ofdm_allocator_swig_swig_tag.dir/_ofdm_allocator_swig_swig_tag.cpp.o"
-	cd /home/alice/rfnoc/src/gr-ofdm_allocator/build/swig && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/_ofdm_allocator_swig_swig_tag.dir/_ofdm_allocator_swig_swig_tag.cpp.o -c /home/alice/rfnoc/src/gr-ofdm_allocator/build/swig/_ofdm_allocator_swig_swig_tag.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object swig/CMakeFiles/_ofdm_allocator_swig_swig_tag.dir/_ofdm_allocator_swig_swig_tag.cpp.o"
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build/swig && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/_ofdm_allocator_swig_swig_tag.dir/_ofdm_allocator_swig_swig_tag.cpp.o -c /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build/swig/_ofdm_allocator_swig_swig_tag.cpp
 
 swig/CMakeFiles/_ofdm_allocator_swig_swig_tag.dir/_ofdm_allocator_swig_swig_tag.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/_ofdm_allocator_swig_swig_tag.dir/_ofdm_allocator_swig_swig_tag.cpp.i"
-	cd /home/alice/rfnoc/src/gr-ofdm_allocator/build/swig && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alice/rfnoc/src/gr-ofdm_allocator/build/swig/_ofdm_allocator_swig_swig_tag.cpp > CMakeFiles/_ofdm_allocator_swig_swig_tag.dir/_ofdm_allocator_swig_swig_tag.cpp.i
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build/swig && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build/swig/_ofdm_allocator_swig_swig_tag.cpp > CMakeFiles/_ofdm_allocator_swig_swig_tag.dir/_ofdm_allocator_swig_swig_tag.cpp.i
 
 swig/CMakeFiles/_ofdm_allocator_swig_swig_tag.dir/_ofdm_allocator_swig_swig_tag.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/_ofdm_allocator_swig_swig_tag.dir/_ofdm_allocator_swig_swig_tag.cpp.s"
-	cd /home/alice/rfnoc/src/gr-ofdm_allocator/build/swig && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alice/rfnoc/src/gr-ofdm_allocator/build/swig/_ofdm_allocator_swig_swig_tag.cpp -o CMakeFiles/_ofdm_allocator_swig_swig_tag.dir/_ofdm_allocator_swig_swig_tag.cpp.s
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build/swig && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build/swig/_ofdm_allocator_swig_swig_tag.cpp -o CMakeFiles/_ofdm_allocator_swig_swig_tag.dir/_ofdm_allocator_swig_swig_tag.cpp.s
 
 swig/CMakeFiles/_ofdm_allocator_swig_swig_tag.dir/_ofdm_allocator_swig_swig_tag.cpp.o.requires:
 
@@ -91,8 +91,8 @@ _ofdm_allocator_swig_swig_tag_EXTERNAL_OBJECTS =
 swig/_ofdm_allocator_swig_swig_tag: swig/CMakeFiles/_ofdm_allocator_swig_swig_tag.dir/_ofdm_allocator_swig_swig_tag.cpp.o
 swig/_ofdm_allocator_swig_swig_tag: swig/CMakeFiles/_ofdm_allocator_swig_swig_tag.dir/build.make
 swig/_ofdm_allocator_swig_swig_tag: swig/CMakeFiles/_ofdm_allocator_swig_swig_tag.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/alice/rfnoc/src/gr-ofdm_allocator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable _ofdm_allocator_swig_swig_tag"
-	cd /home/alice/rfnoc/src/gr-ofdm_allocator/build/swig && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/_ofdm_allocator_swig_swig_tag.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable _ofdm_allocator_swig_swig_tag"
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build/swig && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/_ofdm_allocator_swig_swig_tag.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 swig/CMakeFiles/_ofdm_allocator_swig_swig_tag.dir/build: swig/_ofdm_allocator_swig_swig_tag
@@ -104,10 +104,10 @@ swig/CMakeFiles/_ofdm_allocator_swig_swig_tag.dir/requires: swig/CMakeFiles/_ofd
 .PHONY : swig/CMakeFiles/_ofdm_allocator_swig_swig_tag.dir/requires
 
 swig/CMakeFiles/_ofdm_allocator_swig_swig_tag.dir/clean:
-	cd /home/alice/rfnoc/src/gr-ofdm_allocator/build/swig && $(CMAKE_COMMAND) -P CMakeFiles/_ofdm_allocator_swig_swig_tag.dir/cmake_clean.cmake
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build/swig && $(CMAKE_COMMAND) -P CMakeFiles/_ofdm_allocator_swig_swig_tag.dir/cmake_clean.cmake
 .PHONY : swig/CMakeFiles/_ofdm_allocator_swig_swig_tag.dir/clean
 
 swig/CMakeFiles/_ofdm_allocator_swig_swig_tag.dir/depend:
-	cd /home/alice/rfnoc/src/gr-ofdm_allocator/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alice/rfnoc/src/gr-ofdm_allocator /home/alice/rfnoc/src/gr-ofdm_allocator/swig /home/alice/rfnoc/src/gr-ofdm_allocator/build /home/alice/rfnoc/src/gr-ofdm_allocator/build/swig /home/alice/rfnoc/src/gr-ofdm_allocator/build/swig/CMakeFiles/_ofdm_allocator_swig_swig_tag.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/swig /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build/swig /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build/swig/CMakeFiles/_ofdm_allocator_swig_swig_tag.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : swig/CMakeFiles/_ofdm_allocator_swig_swig_tag.dir/depend
 

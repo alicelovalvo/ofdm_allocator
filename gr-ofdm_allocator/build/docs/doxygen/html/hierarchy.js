@@ -31,6 +31,9 @@ var hierarchy =
       ] ]
     ] ],
     [ "sync_block", null, [
+      [ "gr::ofdm_allocator::per_measure", "classgr_1_1ofdm__allocator_1_1per__measure.html", [
+        [ "gr::ofdm_allocator::per_measure_impl", "classgr_1_1ofdm__allocator_1_1per__measure__impl.html", null ]
+      ] ],
       [ "gr::ofdm_allocator::vector_source_tagged", "classgr_1_1ofdm__allocator_1_1vector__source__tagged.html", [
         [ "gr::ofdm_allocator::vector_source_tagged_impl", "classgr_1_1ofdm__allocator_1_1vector__source__tagged__impl.html", null ]
       ] ]

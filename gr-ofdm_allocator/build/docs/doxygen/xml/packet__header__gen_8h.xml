@@ -7,60 +7,60 @@
     <includes refid="packet__header__default__alix_8h" local="no">ofdm_allocator/packet_header_default_alix.h</includes>
     <includedby refid="packet__header__gen__impl_8h" local="no">packet_header_gen_impl.h</includedby>
     <incdepgraph>
-      <node id="138">
-        <label>packet_header_gen.h</label>
-        <link refid="packet_header_gen.h"/>
-        <childnode refid="139" relation="include">
-        </childnode>
-        <childnode refid="141" relation="include">
-        </childnode>
-        <childnode refid="142" relation="include">
-        </childnode>
-      </node>
-      <node id="143">
+      <node id="145">
         <label>gnuradio/tags.h</label>
       </node>
-      <node id="140">
+      <node id="142">
         <label>gnuradio/attributes.h</label>
       </node>
-      <node id="142">
-        <label>ofdm_allocator/packet_header_default_alix.h</label>
-        <link refid="packet__header__default__alix_8h"/>
-        <childnode refid="143" relation="include">
+      <node id="140">
+        <label>packet_header_gen.h</label>
+        <link refid="packet_header_gen.h"/>
+        <childnode refid="141" relation="include">
         </childnode>
-        <childnode refid="139" relation="include">
+        <childnode refid="143" relation="include">
         </childnode>
         <childnode refid="144" relation="include">
         </childnode>
-        <childnode refid="145" relation="include">
-        </childnode>
       </node>
-      <node id="145">
+      <node id="147">
         <label>boost/crc.hpp</label>
       </node>
-      <node id="144">
+      <node id="146">
         <label>boost/enable_shared_from_this.hpp</label>
       </node>
-      <node id="139">
-        <label>ofdm_allocator/api.h</label>
-        <link refid="api_8h"/>
-        <childnode refid="140" relation="include">
-        </childnode>
-      </node>
-      <node id="141">
+      <node id="143">
         <label>gnuradio/tagged_stream_block.h</label>
       </node>
-    </incdepgraph>
-    <invincdepgraph>
-      <node id="146">
-        <label>packet_header_gen.h</label>
-        <link refid="packet_header_gen.h"/>
+      <node id="144">
+        <label>ofdm_allocator/packet_header_default_alix.h</label>
+        <link refid="packet__header__default__alix_8h"/>
+        <childnode refid="145" relation="include">
+        </childnode>
+        <childnode refid="141" relation="include">
+        </childnode>
+        <childnode refid="146" relation="include">
+        </childnode>
         <childnode refid="147" relation="include">
         </childnode>
       </node>
-      <node id="147">
+      <node id="141">
+        <label>ofdm_allocator/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="142" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="149">
         <label>packet_header_gen_impl.h</label>
         <link refid="packet__header__gen__impl_8h"/>
+      </node>
+      <node id="148">
+        <label>packet_header_gen.h</label>
+        <link refid="packet_header_gen.h"/>
+        <childnode refid="149" relation="include">
+        </childnode>
       </node>
     </invincdepgraph>
     <innerclass refid="classgr_1_1ofdm__allocator_1_1packet__header__gen" prot="public">gr::ofdm_allocator::packet_header_gen</innerclass>
@@ -70,6 +70,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/packet_header_gen.h"/>
+    <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/packet_header_gen.h"/>
   </compounddef>
 </doxygen>

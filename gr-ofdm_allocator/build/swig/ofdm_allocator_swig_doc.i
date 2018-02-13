@@ -601,6 +601,22 @@ To avoid accidental use of raw pointers, ofdm_allocator::packet_header_parser_al
 
 Params: (header_formatter, len_tag_key, num_tag_key)"
 
+%feature("docstring") gr::ofdm_allocator::per_measure "<+description of block+>"
+
+%feature("docstring") gr::ofdm_allocator::per_measure::make "Return a shared_ptr to a new instance of ofdm_allocator::per_measure.
+
+To avoid accidental use of raw pointers, ofdm_allocator::per_measure's constructor is in a private implementation class. ofdm_allocator::per_measure::make is the public interface for creating new instances.
+
+Params: (sizeof_stream_item, window)"
+
+%feature("docstring") gr::ofdm_allocator::per_measure::current_tags "Returns a vector of tag_t items as of the last call to work.
+
+Params: (NONE)"
+
+%feature("docstring") gr::ofdm_allocator::per_measure::num_tags "Return the total number of tags in the tag queue.
+
+Params: (NONE)"
+
 %feature("docstring") gr::ofdm_allocator::serializer_subcarrier "<+description of block+>"
 
 %feature("docstring") gr::ofdm_allocator::serializer_subcarrier::make "Return a shared_ptr to a new instance of ofdm_allocator::serializer_subcarrier.

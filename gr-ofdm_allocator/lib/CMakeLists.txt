@@ -36,7 +36,10 @@ list(APPEND ofdm_allocator_sources
     frame_equalizer_alix_impl.cc
     constellation_alix.cc
     constellation_decoder_alix_impl.cc
-    packet_header_parser_alix_impl.cc )
+    packet_header_parser_alix_impl.cc
+    per_measure_impl.cc
+    pkt_err_measure_impl.cc
+    per_measure_decimator_impl.cc )
 
 set(ofdm_allocator_sources "${ofdm_allocator_sources}" PARENT_SCOPE)
 if(NOT ofdm_allocator_sources)

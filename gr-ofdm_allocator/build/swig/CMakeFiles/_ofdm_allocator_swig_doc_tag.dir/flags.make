@@ -6,5 +6,5 @@ CXX_FLAGS = -O3 -DNDEBUG   -fvisibility=hidden
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/alice/rfnoc/src/gr-ofdm_allocator/lib -I/home/alice/rfnoc/src/gr-ofdm_allocator/include -I/home/alice/rfnoc/src/gr-ofdm_allocator/build/lib -I/home/alice/rfnoc/src/gr-ofdm_allocator/build/include -I/home/alice/rfnoc/src/gr-ofdm_allocator/build/swig -I/home/alice/rfnoc/src/gr-ofdm_allocator/swig -I/usr/include/gnuradio/swig -I/usr/include/python2.7 
+CXX_INCLUDES = -I/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib -I/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include -I/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build/lib -I/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build/include -I/home/lab/prefix/default/include -I/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build/swig -I/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/swig -I/home/lab/prefix/default/include/gnuradio/swig -I/usr/include/python2.7 
 

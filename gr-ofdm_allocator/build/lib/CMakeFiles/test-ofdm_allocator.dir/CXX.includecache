@@ -6,19 +6,47 @@
 
 #IncludeRegexTransform: 
 
-/home/alice/rfnoc/src/gr-ofdm_allocator/lib/qa_ofdm_allocator.cc
-qa_ofdm_allocator.h
-/home/alice/rfnoc/src/gr-ofdm_allocator/lib/qa_ofdm_allocator.h
+/home/lab/prefix/default/include/gnuradio/api.h
+gnuradio/attributes.h
+-
 
-/home/alice/rfnoc/src/gr-ofdm_allocator/lib/qa_ofdm_allocator.h
+/home/lab/prefix/default/include/gnuradio/attributes.h
+
+/home/lab/prefix/default/include/gnuradio/unittests.h
+gnuradio/api.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+sys/types.h
+-
+sys/stat.h
+-
+unistd.h
+-
+string
+-
+boost/filesystem/operations.hpp
+-
+boost/filesystem/path.hpp
+-
+
+/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/qa_ofdm_allocator.cc
+qa_ofdm_allocator.h
+/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/qa_ofdm_allocator.h
+
+/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/qa_ofdm_allocator.h
 gnuradio/attributes.h
 -
 cppunit/TestSuite.h
 -
 
-/home/alice/rfnoc/src/gr-ofdm_allocator/lib/test_ofdm_allocator.cc
+/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/test_ofdm_allocator.cc
 config.h
-/home/alice/rfnoc/src/gr-ofdm_allocator/lib/config.h
+/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/config.h
 cppunit/TextTestRunner.h
 -
 cppunit/XmlOutputter.h
@@ -26,7 +54,7 @@ cppunit/XmlOutputter.h
 gnuradio/unittests.h
 -
 qa_ofdm_allocator.h
-/home/alice/rfnoc/src/gr-ofdm_allocator/lib/qa_ofdm_allocator.h
+/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/qa_ofdm_allocator.h
 iostream
 -
 fstream

@@ -14,10 +14,50 @@ swig/CMakeFiles/_ofdm_allocator_swig.dir/ofdm_allocator_swigPYTHON_wrap.cxx.o
  ../include/ofdm_allocator/packet_header_gen.h
  ../include/ofdm_allocator/packet_header_ofdm_alix.h
  ../include/ofdm_allocator/packet_header_parser_alix.h
+ ../include/ofdm_allocator/per_measure.h
+ ../include/ofdm_allocator/per_measure_decimator.h
+ ../include/ofdm_allocator/pkt_err_measure.h
  ../include/ofdm_allocator/serializer_subcarrier.h
  ../include/ofdm_allocator/vector_source_tagged.h
- /home/alice/rfnoc/src/gr-ofdm_allocator/build/swig/ofdm_allocator_swigPYTHON_wrap.cxx
- /usr/include/gnuradio/swig/gnuradio_swig_bug_workaround.h
+ /home/lab/prefix/default/include/gnuradio/api.h
+ /home/lab/prefix/default/include/gnuradio/attributes.h
+ /home/lab/prefix/default/include/gnuradio/basic_block.h
+ /home/lab/prefix/default/include/gnuradio/block.h
+ /home/lab/prefix/default/include/gnuradio/block_gateway.h
+ /home/lab/prefix/default/include/gnuradio/block_registry.h
+ /home/lab/prefix/default/include/gnuradio/config.h
+ /home/lab/prefix/default/include/gnuradio/feval.h
+ /home/lab/prefix/default/include/gnuradio/gr_complex.h
+ /home/lab/prefix/default/include/gnuradio/high_res_timer.h
+ /home/lab/prefix/default/include/gnuradio/io_signature.h
+ /home/lab/prefix/default/include/gnuradio/logger.h
+ /home/lab/prefix/default/include/gnuradio/messages/msg_accepter.h
+ /home/lab/prefix/default/include/gnuradio/messages/msg_producer.h
+ /home/lab/prefix/default/include/gnuradio/msg_accepter.h
+ /home/lab/prefix/default/include/gnuradio/py_feval.h
+ /home/lab/prefix/default/include/gnuradio/rpccallbackregister_base.h
+ /home/lab/prefix/default/include/gnuradio/rpcmanager.h
+ /home/lab/prefix/default/include/gnuradio/rpcmanager_base.h
+ /home/lab/prefix/default/include/gnuradio/rpcregisterhelpers.h
+ /home/lab/prefix/default/include/gnuradio/rpcserver_aggregator.h
+ /home/lab/prefix/default/include/gnuradio/rpcserver_base.h
+ /home/lab/prefix/default/include/gnuradio/rpcserver_booter_aggregator.h
+ /home/lab/prefix/default/include/gnuradio/rpcserver_booter_base.h
+ /home/lab/prefix/default/include/gnuradio/rpcserver_selector.h
+ /home/lab/prefix/default/include/gnuradio/runtime_types.h
+ /home/lab/prefix/default/include/gnuradio/sptr_magic.h
+ /home/lab/prefix/default/include/gnuradio/swig/gnuradio_swig_bug_workaround.h
+ /home/lab/prefix/default/include/gnuradio/sync_block.h
+ /home/lab/prefix/default/include/gnuradio/sync_decimator.h
+ /home/lab/prefix/default/include/gnuradio/sync_interpolator.h
+ /home/lab/prefix/default/include/gnuradio/tagged_stream_block.h
+ /home/lab/prefix/default/include/gnuradio/tags.h
+ /home/lab/prefix/default/include/gnuradio/thread/thread.h
+ /home/lab/prefix/default/include/gnuradio/types.h
+ /home/lab/prefix/default/include/pmt/api.h
+ /home/lab/prefix/default/include/pmt/pmt.h
+ /home/lab/prefix/default/include/pmt/pmt_sugar.h
+ /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build/swig/ofdm_allocator_swigPYTHON_wrap.cxx
  /usr/include/python2.7/Python.h
  /usr/include/python2.7/abstract.h
  /usr/include/python2.7/boolobject.h

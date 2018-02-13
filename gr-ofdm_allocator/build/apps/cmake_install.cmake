@@ -1,8 +1,8 @@
-# Install script for directory: /home/alice/rfnoc/src/gr-ofdm_allocator/apps
+# Install script for directory: /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/apps
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr/local")
+  set(CMAKE_INSTALL_PREFIX "/home/lab/prefix/default")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

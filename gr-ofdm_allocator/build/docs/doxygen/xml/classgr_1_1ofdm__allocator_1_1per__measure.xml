@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1ofdm__allocator_1_1per__measure" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>gr::ofdm_allocator::per_measure</compoundname>
+    <basecompoundref prot="public" virt="virtual">sync_block</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1ofdm__allocator_1_1per__measure__impl" prot="public" virt="non-virtual">gr::ofdm_allocator::per_measure_impl</derivedcompoundref>
+    <includes refid="per__measure_8h" local="no">per_measure.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1ofdm__allocator_1_1per__measure_1a598ddacab602614d9d7bc0a63287bc41" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1ofdm__allocator_1_1per__measure" kindref="compound">per_measure</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;per_measure&gt; gr::ofdm_allocator::per_measure::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/per_measure.h" line="39" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/per_measure.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1per__measure_1a97e820aa6549b4c806bcbe7ca31d432e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1ofdm__allocator_1_1per__measure_1a598ddacab602614d9d7bc0a63287bc41" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::ofdm_allocator::per_measure::make</definition>
+        <argsstring>(size_t sizeof_stream_item, int window)</argsstring>
+        <name>make</name>
+        <param>
+          <type>size_t</type>
+          <declname>sizeof_stream_item</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>window</declname>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1ofdm__allocator_1_1per__measure" kindref="compound">ofdm_allocator::per_measure</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1ofdm__allocator_1_1per__measure" kindref="compound">ofdm_allocator::per_measure</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1ofdm__allocator_1_1per__measure_1a97e820aa6549b4c806bcbe7ca31d432e" kindref="member">ofdm_allocator::per_measure::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/per_measure.h" line="49" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1per__measure_1a74778608adc7304408e72023864eeddc" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>std::vector&lt; tag_t &gt;</type>
+        <definition>virtual std::vector&lt;tag_t&gt; gr::ofdm_allocator::per_measure::current_tags</definition>
+        <argsstring>()=0</argsstring>
+        <name>current_tags</name>
+        <reimplementedby refid="classgr_1_1ofdm__allocator_1_1per__measure__impl_1a608c881d179305dd345c5d5168f4f30f">current_tags</reimplementedby>
+        <briefdescription>
+<para>Returns a vector of tag_t items as of the last call to work. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/per_measure.h" line="56" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1per__measure_1a25d9b5cf1ffc38cc8b6ba007f6ddfe47" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>int</type>
+        <definition>virtual int gr::ofdm_allocator::per_measure::num_tags</definition>
+        <argsstring>()=0</argsstring>
+        <name>num_tags</name>
+        <reimplementedby refid="classgr_1_1ofdm__allocator_1_1per__measure__impl_1a7f0f2715dea2e60b928be9612573cfe0">num_tags</reimplementedby>
+        <briefdescription>
+<para>Return the total number of tags in the tag queue. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/per_measure.h" line="61" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="216">
+        <label>gr::ofdm_allocator::per_measure</label>
+        <link refid="classgr_1_1ofdm__allocator_1_1per__measure"/>
+        <childnode refid="217" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="217">
+        <label>gr::sync_block</label>
+      </node>
+      <node id="218">
+        <label>gr::ofdm_allocator::per_measure_impl</label>
+        <link refid="classgr_1_1ofdm__allocator_1_1per__measure__impl"/>
+        <childnode refid="216" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="219">
+        <label>gr::ofdm_allocator::per_measure</label>
+        <link refid="classgr_1_1ofdm__allocator_1_1per__measure"/>
+        <childnode refid="220" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="220">
+        <label>gr::sync_block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/per_measure.h" line="37" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/per_measure.h" bodystart="36" bodyend="77"/>
+    <listofallmembers>
+      <member refid="classgr_1_1ofdm__allocator_1_1per__measure_1a74778608adc7304408e72023864eeddc" prot="public" virt="pure-virtual"><scope>gr::ofdm_allocator::per_measure</scope><name>current_tags</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1per__measure_1a97e820aa6549b4c806bcbe7ca31d432e" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::per_measure</scope><name>make</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1per__measure_1a25d9b5cf1ffc38cc8b6ba007f6ddfe47" prot="public" virt="pure-virtual"><scope>gr::ofdm_allocator::per_measure</scope><name>num_tags</name></member>
+      <member refid="classgr_1_1ofdm__allocator_1_1per__measure_1a598ddacab602614d9d7bc0a63287bc41" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::per_measure</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

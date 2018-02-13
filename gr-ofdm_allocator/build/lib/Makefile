@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alice/rfnoc/src/gr-ofdm_allocator
+CMAKE_SOURCE_DIR = /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alice/rfnoc/src/gr-ofdm_allocator/build
+CMAKE_BINARY_DIR = /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,14 +135,14 @@ install/local/fast: install/local
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/alice/rfnoc/src/gr-ofdm_allocator/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/alice/rfnoc/src/gr-ofdm_allocator/build/CMakeFiles /home/alice/rfnoc/src/gr-ofdm_allocator/build/lib/CMakeFiles/progress.marks
-	cd /home/alice/rfnoc/src/gr-ofdm_allocator/build && $(MAKE) -f CMakeFiles/Makefile2 lib/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alice/rfnoc/src/gr-ofdm_allocator/build/CMakeFiles 0
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build/CMakeFiles /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build/lib/CMakeFiles/progress.marks
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build && $(MAKE) -f CMakeFiles/Makefile2 lib/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/alice/rfnoc/src/gr-ofdm_allocator/build && $(MAKE) -f CMakeFiles/Makefile2 lib/clean
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build && $(MAKE) -f CMakeFiles/Makefile2 lib/clean
 .PHONY : clean
 
 # The main clean target
@@ -152,22 +152,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/alice/rfnoc/src/gr-ofdm_allocator/build && $(MAKE) -f CMakeFiles/Makefile2 lib/preinstall
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build && $(MAKE) -f CMakeFiles/Makefile2 lib/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/alice/rfnoc/src/gr-ofdm_allocator/build && $(MAKE) -f CMakeFiles/Makefile2 lib/preinstall
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build && $(MAKE) -f CMakeFiles/Makefile2 lib/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/alice/rfnoc/src/gr-ofdm_allocator/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/CMakeFiles/gnuradio-ofdm_allocator.dir/rule:
-	cd /home/alice/rfnoc/src/gr-ofdm_allocator/build && $(MAKE) -f CMakeFiles/Makefile2 lib/CMakeFiles/gnuradio-ofdm_allocator.dir/rule
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build && $(MAKE) -f CMakeFiles/Makefile2 lib/CMakeFiles/gnuradio-ofdm_allocator.dir/rule
 .PHONY : lib/CMakeFiles/gnuradio-ofdm_allocator.dir/rule
 
 # Convenience name for target.
@@ -177,12 +177,12 @@ gnuradio-ofdm_allocator: lib/CMakeFiles/gnuradio-ofdm_allocator.dir/rule
 
 # fast build rule for target.
 gnuradio-ofdm_allocator/fast:
-	cd /home/alice/rfnoc/src/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build
 .PHONY : gnuradio-ofdm_allocator/fast
 
 # Convenience name for target.
 lib/CMakeFiles/test-ofdm_allocator.dir/rule:
-	cd /home/alice/rfnoc/src/gr-ofdm_allocator/build && $(MAKE) -f CMakeFiles/Makefile2 lib/CMakeFiles/test-ofdm_allocator.dir/rule
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build && $(MAKE) -f CMakeFiles/Makefile2 lib/CMakeFiles/test-ofdm_allocator.dir/rule
 .PHONY : lib/CMakeFiles/test-ofdm_allocator.dir/rule
 
 # Convenience name for target.
@@ -192,7 +192,7 @@ test-ofdm_allocator: lib/CMakeFiles/test-ofdm_allocator.dir/rule
 
 # fast build rule for target.
 test-ofdm_allocator/fast:
-	cd /home/alice/rfnoc/src/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/test-ofdm_allocator.dir/build.make lib/CMakeFiles/test-ofdm_allocator.dir/build
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/test-ofdm_allocator.dir/build.make lib/CMakeFiles/test-ofdm_allocator.dir/build
 .PHONY : test-ofdm_allocator/fast
 
 allocator_subcarrier_impl.o: allocator_subcarrier_impl.cc.o
@@ -201,7 +201,7 @@ allocator_subcarrier_impl.o: allocator_subcarrier_impl.cc.o
 
 # target to build an object file
 allocator_subcarrier_impl.cc.o:
-	cd /home/alice/rfnoc/src/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/allocator_subcarrier_impl.cc.o
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/allocator_subcarrier_impl.cc.o
 .PHONY : allocator_subcarrier_impl.cc.o
 
 allocator_subcarrier_impl.i: allocator_subcarrier_impl.cc.i
@@ -210,7 +210,7 @@ allocator_subcarrier_impl.i: allocator_subcarrier_impl.cc.i
 
 # target to preprocess a source file
 allocator_subcarrier_impl.cc.i:
-	cd /home/alice/rfnoc/src/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/allocator_subcarrier_impl.cc.i
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/allocator_subcarrier_impl.cc.i
 .PHONY : allocator_subcarrier_impl.cc.i
 
 allocator_subcarrier_impl.s: allocator_subcarrier_impl.cc.s
@@ -219,7 +219,7 @@ allocator_subcarrier_impl.s: allocator_subcarrier_impl.cc.s
 
 # target to generate assembly for a file
 allocator_subcarrier_impl.cc.s:
-	cd /home/alice/rfnoc/src/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/allocator_subcarrier_impl.cc.s
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/allocator_subcarrier_impl.cc.s
 .PHONY : allocator_subcarrier_impl.cc.s
 
 constellation_alix.o: constellation_alix.cc.o
@@ -228,7 +228,7 @@ constellation_alix.o: constellation_alix.cc.o
 
 # target to build an object file
 constellation_alix.cc.o:
-	cd /home/alice/rfnoc/src/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/constellation_alix.cc.o
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/constellation_alix.cc.o
 .PHONY : constellation_alix.cc.o
 
 constellation_alix.i: constellation_alix.cc.i
@@ -237,7 +237,7 @@ constellation_alix.i: constellation_alix.cc.i
 
 # target to preprocess a source file
 constellation_alix.cc.i:
-	cd /home/alice/rfnoc/src/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/constellation_alix.cc.i
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/constellation_alix.cc.i
 .PHONY : constellation_alix.cc.i
 
 constellation_alix.s: constellation_alix.cc.s
@@ -246,7 +246,7 @@ constellation_alix.s: constellation_alix.cc.s
 
 # target to generate assembly for a file
 constellation_alix.cc.s:
-	cd /home/alice/rfnoc/src/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/constellation_alix.cc.s
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/constellation_alix.cc.s
 .PHONY : constellation_alix.cc.s
 
 constellation_decoder_alix_impl.o: constellation_decoder_alix_impl.cc.o
@@ -255,7 +255,7 @@ constellation_decoder_alix_impl.o: constellation_decoder_alix_impl.cc.o
 
 # target to build an object file
 constellation_decoder_alix_impl.cc.o:
-	cd /home/alice/rfnoc/src/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/constellation_decoder_alix_impl.cc.o
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/constellation_decoder_alix_impl.cc.o
 .PHONY : constellation_decoder_alix_impl.cc.o
 
 constellation_decoder_alix_impl.i: constellation_decoder_alix_impl.cc.i
@@ -264,7 +264,7 @@ constellation_decoder_alix_impl.i: constellation_decoder_alix_impl.cc.i
 
 # target to preprocess a source file
 constellation_decoder_alix_impl.cc.i:
-	cd /home/alice/rfnoc/src/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/constellation_decoder_alix_impl.cc.i
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/constellation_decoder_alix_impl.cc.i
 .PHONY : constellation_decoder_alix_impl.cc.i
 
 constellation_decoder_alix_impl.s: constellation_decoder_alix_impl.cc.s
@@ -273,7 +273,7 @@ constellation_decoder_alix_impl.s: constellation_decoder_alix_impl.cc.s
 
 # target to generate assembly for a file
 constellation_decoder_alix_impl.cc.s:
-	cd /home/alice/rfnoc/src/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/constellation_decoder_alix_impl.cc.s
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/constellation_decoder_alix_impl.cc.s
 .PHONY : constellation_decoder_alix_impl.cc.s
 
 frame_equalizer_alix_impl.o: frame_equalizer_alix_impl.cc.o
@@ -282,7 +282,7 @@ frame_equalizer_alix_impl.o: frame_equalizer_alix_impl.cc.o
 
 # target to build an object file
 frame_equalizer_alix_impl.cc.o:
-	cd /home/alice/rfnoc/src/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/frame_equalizer_alix_impl.cc.o
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/frame_equalizer_alix_impl.cc.o
 .PHONY : frame_equalizer_alix_impl.cc.o
 
 frame_equalizer_alix_impl.i: frame_equalizer_alix_impl.cc.i
@@ -291,7 +291,7 @@ frame_equalizer_alix_impl.i: frame_equalizer_alix_impl.cc.i
 
 # target to preprocess a source file
 frame_equalizer_alix_impl.cc.i:
-	cd /home/alice/rfnoc/src/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/frame_equalizer_alix_impl.cc.i
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/frame_equalizer_alix_impl.cc.i
 .PHONY : frame_equalizer_alix_impl.cc.i
 
 frame_equalizer_alix_impl.s: frame_equalizer_alix_impl.cc.s
@@ -300,7 +300,7 @@ frame_equalizer_alix_impl.s: frame_equalizer_alix_impl.cc.s
 
 # target to generate assembly for a file
 frame_equalizer_alix_impl.cc.s:
-	cd /home/alice/rfnoc/src/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/frame_equalizer_alix_impl.cc.s
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/frame_equalizer_alix_impl.cc.s
 .PHONY : frame_equalizer_alix_impl.cc.s
 
 ofdm_equalizer_base_alix.o: ofdm_equalizer_base_alix.cc.o
@@ -309,7 +309,7 @@ ofdm_equalizer_base_alix.o: ofdm_equalizer_base_alix.cc.o
 
 # target to build an object file
 ofdm_equalizer_base_alix.cc.o:
-	cd /home/alice/rfnoc/src/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/ofdm_equalizer_base_alix.cc.o
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/ofdm_equalizer_base_alix.cc.o
 .PHONY : ofdm_equalizer_base_alix.cc.o
 
 ofdm_equalizer_base_alix.i: ofdm_equalizer_base_alix.cc.i
@@ -318,7 +318,7 @@ ofdm_equalizer_base_alix.i: ofdm_equalizer_base_alix.cc.i
 
 # target to preprocess a source file
 ofdm_equalizer_base_alix.cc.i:
-	cd /home/alice/rfnoc/src/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/ofdm_equalizer_base_alix.cc.i
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/ofdm_equalizer_base_alix.cc.i
 .PHONY : ofdm_equalizer_base_alix.cc.i
 
 ofdm_equalizer_base_alix.s: ofdm_equalizer_base_alix.cc.s
@@ -327,7 +327,7 @@ ofdm_equalizer_base_alix.s: ofdm_equalizer_base_alix.cc.s
 
 # target to generate assembly for a file
 ofdm_equalizer_base_alix.cc.s:
-	cd /home/alice/rfnoc/src/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/ofdm_equalizer_base_alix.cc.s
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/ofdm_equalizer_base_alix.cc.s
 .PHONY : ofdm_equalizer_base_alix.cc.s
 
 ofdm_equalizer_simpledfe_alix.o: ofdm_equalizer_simpledfe_alix.cc.o
@@ -336,7 +336,7 @@ ofdm_equalizer_simpledfe_alix.o: ofdm_equalizer_simpledfe_alix.cc.o
 
 # target to build an object file
 ofdm_equalizer_simpledfe_alix.cc.o:
-	cd /home/alice/rfnoc/src/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/ofdm_equalizer_simpledfe_alix.cc.o
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/ofdm_equalizer_simpledfe_alix.cc.o
 .PHONY : ofdm_equalizer_simpledfe_alix.cc.o
 
 ofdm_equalizer_simpledfe_alix.i: ofdm_equalizer_simpledfe_alix.cc.i
@@ -345,7 +345,7 @@ ofdm_equalizer_simpledfe_alix.i: ofdm_equalizer_simpledfe_alix.cc.i
 
 # target to preprocess a source file
 ofdm_equalizer_simpledfe_alix.cc.i:
-	cd /home/alice/rfnoc/src/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/ofdm_equalizer_simpledfe_alix.cc.i
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/ofdm_equalizer_simpledfe_alix.cc.i
 .PHONY : ofdm_equalizer_simpledfe_alix.cc.i
 
 ofdm_equalizer_simpledfe_alix.s: ofdm_equalizer_simpledfe_alix.cc.s
@@ -354,7 +354,7 @@ ofdm_equalizer_simpledfe_alix.s: ofdm_equalizer_simpledfe_alix.cc.s
 
 # target to generate assembly for a file
 ofdm_equalizer_simpledfe_alix.cc.s:
-	cd /home/alice/rfnoc/src/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/ofdm_equalizer_simpledfe_alix.cc.s
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/ofdm_equalizer_simpledfe_alix.cc.s
 .PHONY : ofdm_equalizer_simpledfe_alix.cc.s
 
 packet_header_default_alix.o: packet_header_default_alix.cc.o
@@ -363,7 +363,7 @@ packet_header_default_alix.o: packet_header_default_alix.cc.o
 
 # target to build an object file
 packet_header_default_alix.cc.o:
-	cd /home/alice/rfnoc/src/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/packet_header_default_alix.cc.o
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/packet_header_default_alix.cc.o
 .PHONY : packet_header_default_alix.cc.o
 
 packet_header_default_alix.i: packet_header_default_alix.cc.i
@@ -372,7 +372,7 @@ packet_header_default_alix.i: packet_header_default_alix.cc.i
 
 # target to preprocess a source file
 packet_header_default_alix.cc.i:
-	cd /home/alice/rfnoc/src/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/packet_header_default_alix.cc.i
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/packet_header_default_alix.cc.i
 .PHONY : packet_header_default_alix.cc.i
 
 packet_header_default_alix.s: packet_header_default_alix.cc.s
@@ -381,7 +381,7 @@ packet_header_default_alix.s: packet_header_default_alix.cc.s
 
 # target to generate assembly for a file
 packet_header_default_alix.cc.s:
-	cd /home/alice/rfnoc/src/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/packet_header_default_alix.cc.s
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/packet_header_default_alix.cc.s
 .PHONY : packet_header_default_alix.cc.s
 
 packet_header_gen_impl.o: packet_header_gen_impl.cc.o
@@ -390,7 +390,7 @@ packet_header_gen_impl.o: packet_header_gen_impl.cc.o
 
 # target to build an object file
 packet_header_gen_impl.cc.o:
-	cd /home/alice/rfnoc/src/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/packet_header_gen_impl.cc.o
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/packet_header_gen_impl.cc.o
 .PHONY : packet_header_gen_impl.cc.o
 
 packet_header_gen_impl.i: packet_header_gen_impl.cc.i
@@ -399,7 +399,7 @@ packet_header_gen_impl.i: packet_header_gen_impl.cc.i
 
 # target to preprocess a source file
 packet_header_gen_impl.cc.i:
-	cd /home/alice/rfnoc/src/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/packet_header_gen_impl.cc.i
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/packet_header_gen_impl.cc.i
 .PHONY : packet_header_gen_impl.cc.i
 
 packet_header_gen_impl.s: packet_header_gen_impl.cc.s
@@ -408,7 +408,7 @@ packet_header_gen_impl.s: packet_header_gen_impl.cc.s
 
 # target to generate assembly for a file
 packet_header_gen_impl.cc.s:
-	cd /home/alice/rfnoc/src/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/packet_header_gen_impl.cc.s
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/packet_header_gen_impl.cc.s
 .PHONY : packet_header_gen_impl.cc.s
 
 packet_header_ofdm_alix.o: packet_header_ofdm_alix.cc.o
@@ -417,7 +417,7 @@ packet_header_ofdm_alix.o: packet_header_ofdm_alix.cc.o
 
 # target to build an object file
 packet_header_ofdm_alix.cc.o:
-	cd /home/alice/rfnoc/src/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/packet_header_ofdm_alix.cc.o
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/packet_header_ofdm_alix.cc.o
 .PHONY : packet_header_ofdm_alix.cc.o
 
 packet_header_ofdm_alix.i: packet_header_ofdm_alix.cc.i
@@ -426,7 +426,7 @@ packet_header_ofdm_alix.i: packet_header_ofdm_alix.cc.i
 
 # target to preprocess a source file
 packet_header_ofdm_alix.cc.i:
-	cd /home/alice/rfnoc/src/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/packet_header_ofdm_alix.cc.i
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/packet_header_ofdm_alix.cc.i
 .PHONY : packet_header_ofdm_alix.cc.i
 
 packet_header_ofdm_alix.s: packet_header_ofdm_alix.cc.s
@@ -435,7 +435,7 @@ packet_header_ofdm_alix.s: packet_header_ofdm_alix.cc.s
 
 # target to generate assembly for a file
 packet_header_ofdm_alix.cc.s:
-	cd /home/alice/rfnoc/src/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/packet_header_ofdm_alix.cc.s
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/packet_header_ofdm_alix.cc.s
 .PHONY : packet_header_ofdm_alix.cc.s
 
 packet_header_parser_alix_impl.o: packet_header_parser_alix_impl.cc.o
@@ -444,7 +444,7 @@ packet_header_parser_alix_impl.o: packet_header_parser_alix_impl.cc.o
 
 # target to build an object file
 packet_header_parser_alix_impl.cc.o:
-	cd /home/alice/rfnoc/src/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/packet_header_parser_alix_impl.cc.o
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/packet_header_parser_alix_impl.cc.o
 .PHONY : packet_header_parser_alix_impl.cc.o
 
 packet_header_parser_alix_impl.i: packet_header_parser_alix_impl.cc.i
@@ -453,7 +453,7 @@ packet_header_parser_alix_impl.i: packet_header_parser_alix_impl.cc.i
 
 # target to preprocess a source file
 packet_header_parser_alix_impl.cc.i:
-	cd /home/alice/rfnoc/src/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/packet_header_parser_alix_impl.cc.i
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/packet_header_parser_alix_impl.cc.i
 .PHONY : packet_header_parser_alix_impl.cc.i
 
 packet_header_parser_alix_impl.s: packet_header_parser_alix_impl.cc.s
@@ -462,8 +462,89 @@ packet_header_parser_alix_impl.s: packet_header_parser_alix_impl.cc.s
 
 # target to generate assembly for a file
 packet_header_parser_alix_impl.cc.s:
-	cd /home/alice/rfnoc/src/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/packet_header_parser_alix_impl.cc.s
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/packet_header_parser_alix_impl.cc.s
 .PHONY : packet_header_parser_alix_impl.cc.s
+
+per_measure_decimator_impl.o: per_measure_decimator_impl.cc.o
+
+.PHONY : per_measure_decimator_impl.o
+
+# target to build an object file
+per_measure_decimator_impl.cc.o:
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/per_measure_decimator_impl.cc.o
+.PHONY : per_measure_decimator_impl.cc.o
+
+per_measure_decimator_impl.i: per_measure_decimator_impl.cc.i
+
+.PHONY : per_measure_decimator_impl.i
+
+# target to preprocess a source file
+per_measure_decimator_impl.cc.i:
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/per_measure_decimator_impl.cc.i
+.PHONY : per_measure_decimator_impl.cc.i
+
+per_measure_decimator_impl.s: per_measure_decimator_impl.cc.s
+
+.PHONY : per_measure_decimator_impl.s
+
+# target to generate assembly for a file
+per_measure_decimator_impl.cc.s:
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/per_measure_decimator_impl.cc.s
+.PHONY : per_measure_decimator_impl.cc.s
+
+per_measure_impl.o: per_measure_impl.cc.o
+
+.PHONY : per_measure_impl.o
+
+# target to build an object file
+per_measure_impl.cc.o:
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/per_measure_impl.cc.o
+.PHONY : per_measure_impl.cc.o
+
+per_measure_impl.i: per_measure_impl.cc.i
+
+.PHONY : per_measure_impl.i
+
+# target to preprocess a source file
+per_measure_impl.cc.i:
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/per_measure_impl.cc.i
+.PHONY : per_measure_impl.cc.i
+
+per_measure_impl.s: per_measure_impl.cc.s
+
+.PHONY : per_measure_impl.s
+
+# target to generate assembly for a file
+per_measure_impl.cc.s:
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/per_measure_impl.cc.s
+.PHONY : per_measure_impl.cc.s
+
+pkt_err_measure_impl.o: pkt_err_measure_impl.cc.o
+
+.PHONY : pkt_err_measure_impl.o
+
+# target to build an object file
+pkt_err_measure_impl.cc.o:
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/pkt_err_measure_impl.cc.o
+.PHONY : pkt_err_measure_impl.cc.o
+
+pkt_err_measure_impl.i: pkt_err_measure_impl.cc.i
+
+.PHONY : pkt_err_measure_impl.i
+
+# target to preprocess a source file
+pkt_err_measure_impl.cc.i:
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/pkt_err_measure_impl.cc.i
+.PHONY : pkt_err_measure_impl.cc.i
+
+pkt_err_measure_impl.s: pkt_err_measure_impl.cc.s
+
+.PHONY : pkt_err_measure_impl.s
+
+# target to generate assembly for a file
+pkt_err_measure_impl.cc.s:
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/pkt_err_measure_impl.cc.s
+.PHONY : pkt_err_measure_impl.cc.s
 
 qa_ofdm_allocator.o: qa_ofdm_allocator.cc.o
 
@@ -471,7 +552,7 @@ qa_ofdm_allocator.o: qa_ofdm_allocator.cc.o
 
 # target to build an object file
 qa_ofdm_allocator.cc.o:
-	cd /home/alice/rfnoc/src/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/test-ofdm_allocator.dir/build.make lib/CMakeFiles/test-ofdm_allocator.dir/qa_ofdm_allocator.cc.o
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/test-ofdm_allocator.dir/build.make lib/CMakeFiles/test-ofdm_allocator.dir/qa_ofdm_allocator.cc.o
 .PHONY : qa_ofdm_allocator.cc.o
 
 qa_ofdm_allocator.i: qa_ofdm_allocator.cc.i
@@ -480,7 +561,7 @@ qa_ofdm_allocator.i: qa_ofdm_allocator.cc.i
 
 # target to preprocess a source file
 qa_ofdm_allocator.cc.i:
-	cd /home/alice/rfnoc/src/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/test-ofdm_allocator.dir/build.make lib/CMakeFiles/test-ofdm_allocator.dir/qa_ofdm_allocator.cc.i
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/test-ofdm_allocator.dir/build.make lib/CMakeFiles/test-ofdm_allocator.dir/qa_ofdm_allocator.cc.i
 .PHONY : qa_ofdm_allocator.cc.i
 
 qa_ofdm_allocator.s: qa_ofdm_allocator.cc.s
@@ -489,7 +570,7 @@ qa_ofdm_allocator.s: qa_ofdm_allocator.cc.s
 
 # target to generate assembly for a file
 qa_ofdm_allocator.cc.s:
-	cd /home/alice/rfnoc/src/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/test-ofdm_allocator.dir/build.make lib/CMakeFiles/test-ofdm_allocator.dir/qa_ofdm_allocator.cc.s
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/test-ofdm_allocator.dir/build.make lib/CMakeFiles/test-ofdm_allocator.dir/qa_ofdm_allocator.cc.s
 .PHONY : qa_ofdm_allocator.cc.s
 
 serializer_subcarrier_impl.o: serializer_subcarrier_impl.cc.o
@@ -498,7 +579,7 @@ serializer_subcarrier_impl.o: serializer_subcarrier_impl.cc.o
 
 # target to build an object file
 serializer_subcarrier_impl.cc.o:
-	cd /home/alice/rfnoc/src/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/serializer_subcarrier_impl.cc.o
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/serializer_subcarrier_impl.cc.o
 .PHONY : serializer_subcarrier_impl.cc.o
 
 serializer_subcarrier_impl.i: serializer_subcarrier_impl.cc.i
@@ -507,7 +588,7 @@ serializer_subcarrier_impl.i: serializer_subcarrier_impl.cc.i
 
 # target to preprocess a source file
 serializer_subcarrier_impl.cc.i:
-	cd /home/alice/rfnoc/src/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/serializer_subcarrier_impl.cc.i
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/serializer_subcarrier_impl.cc.i
 .PHONY : serializer_subcarrier_impl.cc.i
 
 serializer_subcarrier_impl.s: serializer_subcarrier_impl.cc.s
@@ -516,7 +597,7 @@ serializer_subcarrier_impl.s: serializer_subcarrier_impl.cc.s
 
 # target to generate assembly for a file
 serializer_subcarrier_impl.cc.s:
-	cd /home/alice/rfnoc/src/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/serializer_subcarrier_impl.cc.s
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/serializer_subcarrier_impl.cc.s
 .PHONY : serializer_subcarrier_impl.cc.s
 
 test_ofdm_allocator.o: test_ofdm_allocator.cc.o
@@ -525,7 +606,7 @@ test_ofdm_allocator.o: test_ofdm_allocator.cc.o
 
 # target to build an object file
 test_ofdm_allocator.cc.o:
-	cd /home/alice/rfnoc/src/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/test-ofdm_allocator.dir/build.make lib/CMakeFiles/test-ofdm_allocator.dir/test_ofdm_allocator.cc.o
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/test-ofdm_allocator.dir/build.make lib/CMakeFiles/test-ofdm_allocator.dir/test_ofdm_allocator.cc.o
 .PHONY : test_ofdm_allocator.cc.o
 
 test_ofdm_allocator.i: test_ofdm_allocator.cc.i
@@ -534,7 +615,7 @@ test_ofdm_allocator.i: test_ofdm_allocator.cc.i
 
 # target to preprocess a source file
 test_ofdm_allocator.cc.i:
-	cd /home/alice/rfnoc/src/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/test-ofdm_allocator.dir/build.make lib/CMakeFiles/test-ofdm_allocator.dir/test_ofdm_allocator.cc.i
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/test-ofdm_allocator.dir/build.make lib/CMakeFiles/test-ofdm_allocator.dir/test_ofdm_allocator.cc.i
 .PHONY : test_ofdm_allocator.cc.i
 
 test_ofdm_allocator.s: test_ofdm_allocator.cc.s
@@ -543,7 +624,7 @@ test_ofdm_allocator.s: test_ofdm_allocator.cc.s
 
 # target to generate assembly for a file
 test_ofdm_allocator.cc.s:
-	cd /home/alice/rfnoc/src/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/test-ofdm_allocator.dir/build.make lib/CMakeFiles/test-ofdm_allocator.dir/test_ofdm_allocator.cc.s
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/test-ofdm_allocator.dir/build.make lib/CMakeFiles/test-ofdm_allocator.dir/test_ofdm_allocator.cc.s
 .PHONY : test_ofdm_allocator.cc.s
 
 vector_source_tagged_impl.o: vector_source_tagged_impl.cc.o
@@ -552,7 +633,7 @@ vector_source_tagged_impl.o: vector_source_tagged_impl.cc.o
 
 # target to build an object file
 vector_source_tagged_impl.cc.o:
-	cd /home/alice/rfnoc/src/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/vector_source_tagged_impl.cc.o
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/vector_source_tagged_impl.cc.o
 .PHONY : vector_source_tagged_impl.cc.o
 
 vector_source_tagged_impl.i: vector_source_tagged_impl.cc.i
@@ -561,7 +642,7 @@ vector_source_tagged_impl.i: vector_source_tagged_impl.cc.i
 
 # target to preprocess a source file
 vector_source_tagged_impl.cc.i:
-	cd /home/alice/rfnoc/src/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/vector_source_tagged_impl.cc.i
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/vector_source_tagged_impl.cc.i
 .PHONY : vector_source_tagged_impl.cc.i
 
 vector_source_tagged_impl.s: vector_source_tagged_impl.cc.s
@@ -570,7 +651,7 @@ vector_source_tagged_impl.s: vector_source_tagged_impl.cc.s
 
 # target to generate assembly for a file
 vector_source_tagged_impl.cc.s:
-	cd /home/alice/rfnoc/src/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/vector_source_tagged_impl.cc.s
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ofdm_allocator.dir/build.make lib/CMakeFiles/gnuradio-ofdm_allocator.dir/vector_source_tagged_impl.cc.s
 .PHONY : vector_source_tagged_impl.cc.s
 
 # Help Target
@@ -618,6 +699,15 @@ help:
 	@echo "... packet_header_parser_alix_impl.o"
 	@echo "... packet_header_parser_alix_impl.i"
 	@echo "... packet_header_parser_alix_impl.s"
+	@echo "... per_measure_decimator_impl.o"
+	@echo "... per_measure_decimator_impl.i"
+	@echo "... per_measure_decimator_impl.s"
+	@echo "... per_measure_impl.o"
+	@echo "... per_measure_impl.i"
+	@echo "... per_measure_impl.s"
+	@echo "... pkt_err_measure_impl.o"
+	@echo "... pkt_err_measure_impl.i"
+	@echo "... pkt_err_measure_impl.s"
 	@echo "... qa_ofdm_allocator.o"
 	@echo "... qa_ofdm_allocator.i"
 	@echo "... qa_ofdm_allocator.s"
@@ -641,6 +731,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/alice/rfnoc/src/gr-ofdm_allocator/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

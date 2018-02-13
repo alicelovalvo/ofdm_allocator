@@ -4,65 +4,434 @@
 lib/CMakeFiles/gnuradio-ofdm_allocator.dir/allocator_subcarrier_impl.cc.o
  ../include/ofdm_allocator/allocator_subcarrier.h
  ../include/ofdm_allocator/api.h
- /home/alice/rfnoc/src/gr-ofdm_allocator/lib/allocator_subcarrier_impl.cc
- /home/alice/rfnoc/src/gr-ofdm_allocator/lib/allocator_subcarrier_impl.h
+ /home/lab/prefix/default/include/gnuradio/api.h
+ /home/lab/prefix/default/include/gnuradio/attributes.h
+ /home/lab/prefix/default/include/gnuradio/basic_block.h
+ /home/lab/prefix/default/include/gnuradio/block.h
+ /home/lab/prefix/default/include/gnuradio/block_registry.h
+ /home/lab/prefix/default/include/gnuradio/config.h
+ /home/lab/prefix/default/include/gnuradio/gr_complex.h
+ /home/lab/prefix/default/include/gnuradio/io_signature.h
+ /home/lab/prefix/default/include/gnuradio/logger.h
+ /home/lab/prefix/default/include/gnuradio/messages/msg_accepter.h
+ /home/lab/prefix/default/include/gnuradio/messages/msg_producer.h
+ /home/lab/prefix/default/include/gnuradio/msg_accepter.h
+ /home/lab/prefix/default/include/gnuradio/rpccallbackregister_base.h
+ /home/lab/prefix/default/include/gnuradio/rpcmanager.h
+ /home/lab/prefix/default/include/gnuradio/rpcmanager_base.h
+ /home/lab/prefix/default/include/gnuradio/rpcregisterhelpers.h
+ /home/lab/prefix/default/include/gnuradio/rpcserver_aggregator.h
+ /home/lab/prefix/default/include/gnuradio/rpcserver_base.h
+ /home/lab/prefix/default/include/gnuradio/rpcserver_booter_aggregator.h
+ /home/lab/prefix/default/include/gnuradio/rpcserver_booter_base.h
+ /home/lab/prefix/default/include/gnuradio/rpcserver_selector.h
+ /home/lab/prefix/default/include/gnuradio/runtime_types.h
+ /home/lab/prefix/default/include/gnuradio/sptr_magic.h
+ /home/lab/prefix/default/include/gnuradio/tagged_stream_block.h
+ /home/lab/prefix/default/include/gnuradio/tags.h
+ /home/lab/prefix/default/include/gnuradio/thread/thread.h
+ /home/lab/prefix/default/include/gnuradio/types.h
+ /home/lab/prefix/default/include/pmt/api.h
+ /home/lab/prefix/default/include/pmt/pmt.h
+ /home/lab/prefix/default/include/pmt/pmt_sugar.h
+ /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/allocator_subcarrier_impl.cc
+ /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/allocator_subcarrier_impl.h
 lib/CMakeFiles/gnuradio-ofdm_allocator.dir/constellation_alix.cc.o
  ../include/ofdm_allocator/api.h
  ../include/ofdm_allocator/constellation_alix.h
  ../include/ofdm_allocator/metric_type_alix.h
- /home/alice/rfnoc/src/gr-ofdm_allocator/lib/constellation_alix.cc
+ /home/lab/prefix/default/include/gnuradio/api.h
+ /home/lab/prefix/default/include/gnuradio/attributes.h
+ /home/lab/prefix/default/include/gnuradio/gr_complex.h
+ /home/lab/prefix/default/include/gnuradio/io_signature.h
+ /home/lab/prefix/default/include/gnuradio/math.h
+ /home/lab/prefix/default/include/gnuradio/messages/msg_accepter.h
+ /home/lab/prefix/default/include/gnuradio/runtime_types.h
+ /home/lab/prefix/default/include/gnuradio/types.h
+ /home/lab/prefix/default/include/pmt/api.h
+ /home/lab/prefix/default/include/pmt/pmt.h
+ /home/lab/prefix/default/include/pmt/pmt_sugar.h
+ /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/constellation_alix.cc
 lib/CMakeFiles/gnuradio-ofdm_allocator.dir/constellation_decoder_alix_impl.cc.o
  ../include/ofdm_allocator/api.h
  ../include/ofdm_allocator/constellation_alix.h
  ../include/ofdm_allocator/constellation_decoder_alix.h
  ../include/ofdm_allocator/metric_type_alix.h
- /home/alice/rfnoc/src/gr-ofdm_allocator/lib/constellation_decoder_alix_impl.cc
- /home/alice/rfnoc/src/gr-ofdm_allocator/lib/constellation_decoder_alix_impl.h
+ /home/lab/prefix/default/include/gnuradio/api.h
+ /home/lab/prefix/default/include/gnuradio/attributes.h
+ /home/lab/prefix/default/include/gnuradio/basic_block.h
+ /home/lab/prefix/default/include/gnuradio/block.h
+ /home/lab/prefix/default/include/gnuradio/block_registry.h
+ /home/lab/prefix/default/include/gnuradio/config.h
+ /home/lab/prefix/default/include/gnuradio/gr_complex.h
+ /home/lab/prefix/default/include/gnuradio/io_signature.h
+ /home/lab/prefix/default/include/gnuradio/logger.h
+ /home/lab/prefix/default/include/gnuradio/messages/msg_accepter.h
+ /home/lab/prefix/default/include/gnuradio/messages/msg_producer.h
+ /home/lab/prefix/default/include/gnuradio/msg_accepter.h
+ /home/lab/prefix/default/include/gnuradio/rpccallbackregister_base.h
+ /home/lab/prefix/default/include/gnuradio/rpcmanager.h
+ /home/lab/prefix/default/include/gnuradio/rpcmanager_base.h
+ /home/lab/prefix/default/include/gnuradio/rpcregisterhelpers.h
+ /home/lab/prefix/default/include/gnuradio/rpcserver_aggregator.h
+ /home/lab/prefix/default/include/gnuradio/rpcserver_base.h
+ /home/lab/prefix/default/include/gnuradio/rpcserver_booter_aggregator.h
+ /home/lab/prefix/default/include/gnuradio/rpcserver_booter_base.h
+ /home/lab/prefix/default/include/gnuradio/rpcserver_selector.h
+ /home/lab/prefix/default/include/gnuradio/runtime_types.h
+ /home/lab/prefix/default/include/gnuradio/sptr_magic.h
+ /home/lab/prefix/default/include/gnuradio/tags.h
+ /home/lab/prefix/default/include/gnuradio/thread/thread.h
+ /home/lab/prefix/default/include/gnuradio/types.h
+ /home/lab/prefix/default/include/pmt/api.h
+ /home/lab/prefix/default/include/pmt/pmt.h
+ /home/lab/prefix/default/include/pmt/pmt_sugar.h
+ /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/constellation_decoder_alix_impl.cc
+ /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/constellation_decoder_alix_impl.h
 lib/CMakeFiles/gnuradio-ofdm_allocator.dir/frame_equalizer_alix_impl.cc.o
  ../include/ofdm_allocator/api.h
  ../include/ofdm_allocator/frame_equalizer_alix.h
  ../include/ofdm_allocator/ofdm_equalizer_base_alix.h
- /home/alice/rfnoc/src/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.cc
- /home/alice/rfnoc/src/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.h
+ /home/lab/prefix/default/include/gnuradio/api.h
+ /home/lab/prefix/default/include/gnuradio/attributes.h
+ /home/lab/prefix/default/include/gnuradio/basic_block.h
+ /home/lab/prefix/default/include/gnuradio/block.h
+ /home/lab/prefix/default/include/gnuradio/block_registry.h
+ /home/lab/prefix/default/include/gnuradio/config.h
+ /home/lab/prefix/default/include/gnuradio/expj.h
+ /home/lab/prefix/default/include/gnuradio/gr_complex.h
+ /home/lab/prefix/default/include/gnuradio/io_signature.h
+ /home/lab/prefix/default/include/gnuradio/logger.h
+ /home/lab/prefix/default/include/gnuradio/messages/msg_accepter.h
+ /home/lab/prefix/default/include/gnuradio/messages/msg_producer.h
+ /home/lab/prefix/default/include/gnuradio/msg_accepter.h
+ /home/lab/prefix/default/include/gnuradio/rpccallbackregister_base.h
+ /home/lab/prefix/default/include/gnuradio/rpcmanager.h
+ /home/lab/prefix/default/include/gnuradio/rpcmanager_base.h
+ /home/lab/prefix/default/include/gnuradio/rpcregisterhelpers.h
+ /home/lab/prefix/default/include/gnuradio/rpcserver_aggregator.h
+ /home/lab/prefix/default/include/gnuradio/rpcserver_base.h
+ /home/lab/prefix/default/include/gnuradio/rpcserver_booter_aggregator.h
+ /home/lab/prefix/default/include/gnuradio/rpcserver_booter_base.h
+ /home/lab/prefix/default/include/gnuradio/rpcserver_selector.h
+ /home/lab/prefix/default/include/gnuradio/runtime_types.h
+ /home/lab/prefix/default/include/gnuradio/sincos.h
+ /home/lab/prefix/default/include/gnuradio/sptr_magic.h
+ /home/lab/prefix/default/include/gnuradio/tagged_stream_block.h
+ /home/lab/prefix/default/include/gnuradio/tags.h
+ /home/lab/prefix/default/include/gnuradio/thread/thread.h
+ /home/lab/prefix/default/include/gnuradio/types.h
+ /home/lab/prefix/default/include/pmt/api.h
+ /home/lab/prefix/default/include/pmt/pmt.h
+ /home/lab/prefix/default/include/pmt/pmt_sugar.h
+ /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.cc
+ /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.h
 lib/CMakeFiles/gnuradio-ofdm_allocator.dir/ofdm_equalizer_base_alix.cc.o
  ../include/ofdm_allocator/api.h
  ../include/ofdm_allocator/ofdm_equalizer_base_alix.h
- /home/alice/rfnoc/src/gr-ofdm_allocator/lib/ofdm_equalizer_base_alix.cc
+ /home/lab/prefix/default/include/gnuradio/api.h
+ /home/lab/prefix/default/include/gnuradio/attributes.h
+ /home/lab/prefix/default/include/gnuradio/gr_complex.h
+ /home/lab/prefix/default/include/gnuradio/io_signature.h
+ /home/lab/prefix/default/include/gnuradio/messages/msg_accepter.h
+ /home/lab/prefix/default/include/gnuradio/runtime_types.h
+ /home/lab/prefix/default/include/gnuradio/tags.h
+ /home/lab/prefix/default/include/gnuradio/types.h
+ /home/lab/prefix/default/include/pmt/api.h
+ /home/lab/prefix/default/include/pmt/pmt.h
+ /home/lab/prefix/default/include/pmt/pmt_sugar.h
+ /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/ofdm_equalizer_base_alix.cc
 lib/CMakeFiles/gnuradio-ofdm_allocator.dir/ofdm_equalizer_simpledfe_alix.cc.o
  ../include/ofdm_allocator/api.h
  ../include/ofdm_allocator/constellation_alix.h
  ../include/ofdm_allocator/metric_type_alix.h
  ../include/ofdm_allocator/ofdm_equalizer_base_alix.h
  ../include/ofdm_allocator/ofdm_equalizer_simpledfe_alix.h
- /home/alice/rfnoc/src/gr-ofdm_allocator/lib/ofdm_equalizer_simpledfe_alix.cc
+ /home/lab/prefix/default/include/gnuradio/api.h
+ /home/lab/prefix/default/include/gnuradio/attributes.h
+ /home/lab/prefix/default/include/gnuradio/gr_complex.h
+ /home/lab/prefix/default/include/gnuradio/io_signature.h
+ /home/lab/prefix/default/include/gnuradio/messages/msg_accepter.h
+ /home/lab/prefix/default/include/gnuradio/runtime_types.h
+ /home/lab/prefix/default/include/gnuradio/tags.h
+ /home/lab/prefix/default/include/gnuradio/types.h
+ /home/lab/prefix/default/include/pmt/api.h
+ /home/lab/prefix/default/include/pmt/pmt.h
+ /home/lab/prefix/default/include/pmt/pmt_sugar.h
+ /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/ofdm_equalizer_simpledfe_alix.cc
 lib/CMakeFiles/gnuradio-ofdm_allocator.dir/packet_header_default_alix.cc.o
  ../include/ofdm_allocator/api.h
  ../include/ofdm_allocator/packet_header_default_alix.h
- /home/alice/rfnoc/src/gr-ofdm_allocator/lib/packet_header_default_alix.cc
+ /home/lab/prefix/default/include/gnuradio/api.h
+ /home/lab/prefix/default/include/gnuradio/attributes.h
+ /home/lab/prefix/default/include/gnuradio/messages/msg_accepter.h
+ /home/lab/prefix/default/include/gnuradio/tags.h
+ /home/lab/prefix/default/include/pmt/api.h
+ /home/lab/prefix/default/include/pmt/pmt.h
+ /home/lab/prefix/default/include/pmt/pmt_sugar.h
+ /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/packet_header_default_alix.cc
 lib/CMakeFiles/gnuradio-ofdm_allocator.dir/packet_header_gen_impl.cc.o
  ../include/ofdm_allocator/api.h
  ../include/ofdm_allocator/packet_header_default_alix.h
  ../include/ofdm_allocator/packet_header_gen.h
- /home/alice/rfnoc/src/gr-ofdm_allocator/lib/packet_header_gen_impl.cc
- /home/alice/rfnoc/src/gr-ofdm_allocator/lib/packet_header_gen_impl.h
+ /home/lab/prefix/default/include/gnuradio/api.h
+ /home/lab/prefix/default/include/gnuradio/attributes.h
+ /home/lab/prefix/default/include/gnuradio/basic_block.h
+ /home/lab/prefix/default/include/gnuradio/block.h
+ /home/lab/prefix/default/include/gnuradio/block_registry.h
+ /home/lab/prefix/default/include/gnuradio/config.h
+ /home/lab/prefix/default/include/gnuradio/gr_complex.h
+ /home/lab/prefix/default/include/gnuradio/io_signature.h
+ /home/lab/prefix/default/include/gnuradio/logger.h
+ /home/lab/prefix/default/include/gnuradio/messages/msg_accepter.h
+ /home/lab/prefix/default/include/gnuradio/messages/msg_producer.h
+ /home/lab/prefix/default/include/gnuradio/msg_accepter.h
+ /home/lab/prefix/default/include/gnuradio/rpccallbackregister_base.h
+ /home/lab/prefix/default/include/gnuradio/rpcmanager.h
+ /home/lab/prefix/default/include/gnuradio/rpcmanager_base.h
+ /home/lab/prefix/default/include/gnuradio/rpcregisterhelpers.h
+ /home/lab/prefix/default/include/gnuradio/rpcserver_aggregator.h
+ /home/lab/prefix/default/include/gnuradio/rpcserver_base.h
+ /home/lab/prefix/default/include/gnuradio/rpcserver_booter_aggregator.h
+ /home/lab/prefix/default/include/gnuradio/rpcserver_booter_base.h
+ /home/lab/prefix/default/include/gnuradio/rpcserver_selector.h
+ /home/lab/prefix/default/include/gnuradio/runtime_types.h
+ /home/lab/prefix/default/include/gnuradio/sptr_magic.h
+ /home/lab/prefix/default/include/gnuradio/tagged_stream_block.h
+ /home/lab/prefix/default/include/gnuradio/tags.h
+ /home/lab/prefix/default/include/gnuradio/thread/thread.h
+ /home/lab/prefix/default/include/gnuradio/types.h
+ /home/lab/prefix/default/include/pmt/api.h
+ /home/lab/prefix/default/include/pmt/pmt.h
+ /home/lab/prefix/default/include/pmt/pmt_sugar.h
+ /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/packet_header_gen_impl.cc
+ /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/packet_header_gen_impl.h
 lib/CMakeFiles/gnuradio-ofdm_allocator.dir/packet_header_ofdm_alix.cc.o
  ../include/ofdm_allocator/api.h
  ../include/ofdm_allocator/packet_header_default_alix.h
  ../include/ofdm_allocator/packet_header_ofdm_alix.h
- /home/alice/rfnoc/src/gr-ofdm_allocator/lib/packet_header_ofdm_alix.cc
+ /home/lab/prefix/default/include/gnuradio/api.h
+ /home/lab/prefix/default/include/gnuradio/attributes.h
+ /home/lab/prefix/default/include/gnuradio/digital/api.h
+ /home/lab/prefix/default/include/gnuradio/digital/lfsr.h
+ /home/lab/prefix/default/include/gnuradio/gr_complex.h
+ /home/lab/prefix/default/include/gnuradio/io_signature.h
+ /home/lab/prefix/default/include/gnuradio/messages/msg_accepter.h
+ /home/lab/prefix/default/include/gnuradio/runtime_types.h
+ /home/lab/prefix/default/include/gnuradio/tags.h
+ /home/lab/prefix/default/include/gnuradio/types.h
+ /home/lab/prefix/default/include/pmt/api.h
+ /home/lab/prefix/default/include/pmt/pmt.h
+ /home/lab/prefix/default/include/pmt/pmt_sugar.h
+ /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/packet_header_ofdm_alix.cc
 lib/CMakeFiles/gnuradio-ofdm_allocator.dir/packet_header_parser_alix_impl.cc.o
  ../include/ofdm_allocator/api.h
  ../include/ofdm_allocator/packet_header_default_alix.h
  ../include/ofdm_allocator/packet_header_parser_alix.h
- /home/alice/rfnoc/src/gr-ofdm_allocator/lib/packet_header_parser_alix_impl.cc
- /home/alice/rfnoc/src/gr-ofdm_allocator/lib/packet_header_parser_alix_impl.h
+ /home/lab/prefix/default/include/gnuradio/api.h
+ /home/lab/prefix/default/include/gnuradio/attributes.h
+ /home/lab/prefix/default/include/gnuradio/basic_block.h
+ /home/lab/prefix/default/include/gnuradio/block.h
+ /home/lab/prefix/default/include/gnuradio/block_registry.h
+ /home/lab/prefix/default/include/gnuradio/config.h
+ /home/lab/prefix/default/include/gnuradio/gr_complex.h
+ /home/lab/prefix/default/include/gnuradio/io_signature.h
+ /home/lab/prefix/default/include/gnuradio/logger.h
+ /home/lab/prefix/default/include/gnuradio/messages/msg_accepter.h
+ /home/lab/prefix/default/include/gnuradio/messages/msg_producer.h
+ /home/lab/prefix/default/include/gnuradio/msg_accepter.h
+ /home/lab/prefix/default/include/gnuradio/rpccallbackregister_base.h
+ /home/lab/prefix/default/include/gnuradio/rpcmanager.h
+ /home/lab/prefix/default/include/gnuradio/rpcmanager_base.h
+ /home/lab/prefix/default/include/gnuradio/rpcregisterhelpers.h
+ /home/lab/prefix/default/include/gnuradio/rpcserver_aggregator.h
+ /home/lab/prefix/default/include/gnuradio/rpcserver_base.h
+ /home/lab/prefix/default/include/gnuradio/rpcserver_booter_aggregator.h
+ /home/lab/prefix/default/include/gnuradio/rpcserver_booter_base.h
+ /home/lab/prefix/default/include/gnuradio/rpcserver_selector.h
+ /home/lab/prefix/default/include/gnuradio/runtime_types.h
+ /home/lab/prefix/default/include/gnuradio/sptr_magic.h
+ /home/lab/prefix/default/include/gnuradio/sync_block.h
+ /home/lab/prefix/default/include/gnuradio/tags.h
+ /home/lab/prefix/default/include/gnuradio/thread/thread.h
+ /home/lab/prefix/default/include/gnuradio/types.h
+ /home/lab/prefix/default/include/pmt/api.h
+ /home/lab/prefix/default/include/pmt/pmt.h
+ /home/lab/prefix/default/include/pmt/pmt_sugar.h
+ /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/packet_header_parser_alix_impl.cc
+ /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/packet_header_parser_alix_impl.h
+lib/CMakeFiles/gnuradio-ofdm_allocator.dir/per_measure_decimator_impl.cc.o
+ ../include/ofdm_allocator/api.h
+ ../include/ofdm_allocator/per_measure_decimator.h
+ /home/lab/prefix/default/include/gnuradio/api.h
+ /home/lab/prefix/default/include/gnuradio/attributes.h
+ /home/lab/prefix/default/include/gnuradio/basic_block.h
+ /home/lab/prefix/default/include/gnuradio/block.h
+ /home/lab/prefix/default/include/gnuradio/block_registry.h
+ /home/lab/prefix/default/include/gnuradio/config.h
+ /home/lab/prefix/default/include/gnuradio/gr_complex.h
+ /home/lab/prefix/default/include/gnuradio/io_signature.h
+ /home/lab/prefix/default/include/gnuradio/logger.h
+ /home/lab/prefix/default/include/gnuradio/messages/msg_accepter.h
+ /home/lab/prefix/default/include/gnuradio/messages/msg_producer.h
+ /home/lab/prefix/default/include/gnuradio/msg_accepter.h
+ /home/lab/prefix/default/include/gnuradio/rpccallbackregister_base.h
+ /home/lab/prefix/default/include/gnuradio/rpcmanager.h
+ /home/lab/prefix/default/include/gnuradio/rpcmanager_base.h
+ /home/lab/prefix/default/include/gnuradio/rpcregisterhelpers.h
+ /home/lab/prefix/default/include/gnuradio/rpcserver_aggregator.h
+ /home/lab/prefix/default/include/gnuradio/rpcserver_base.h
+ /home/lab/prefix/default/include/gnuradio/rpcserver_booter_aggregator.h
+ /home/lab/prefix/default/include/gnuradio/rpcserver_booter_base.h
+ /home/lab/prefix/default/include/gnuradio/rpcserver_selector.h
+ /home/lab/prefix/default/include/gnuradio/runtime_types.h
+ /home/lab/prefix/default/include/gnuradio/sptr_magic.h
+ /home/lab/prefix/default/include/gnuradio/sync_block.h
+ /home/lab/prefix/default/include/gnuradio/sync_decimator.h
+ /home/lab/prefix/default/include/gnuradio/tags.h
+ /home/lab/prefix/default/include/gnuradio/thread/thread.h
+ /home/lab/prefix/default/include/gnuradio/types.h
+ /home/lab/prefix/default/include/pmt/api.h
+ /home/lab/prefix/default/include/pmt/pmt.h
+ /home/lab/prefix/default/include/pmt/pmt_sugar.h
+ /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/per_measure_decimator_impl.cc
+ /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/per_measure_decimator_impl.h
+lib/CMakeFiles/gnuradio-ofdm_allocator.dir/per_measure_impl.cc.o
+ ../include/ofdm_allocator/api.h
+ ../include/ofdm_allocator/per_measure.h
+ /home/lab/prefix/default/include/gnuradio/api.h
+ /home/lab/prefix/default/include/gnuradio/attributes.h
+ /home/lab/prefix/default/include/gnuradio/basic_block.h
+ /home/lab/prefix/default/include/gnuradio/block.h
+ /home/lab/prefix/default/include/gnuradio/block_registry.h
+ /home/lab/prefix/default/include/gnuradio/config.h
+ /home/lab/prefix/default/include/gnuradio/gr_complex.h
+ /home/lab/prefix/default/include/gnuradio/io_signature.h
+ /home/lab/prefix/default/include/gnuradio/logger.h
+ /home/lab/prefix/default/include/gnuradio/messages/msg_accepter.h
+ /home/lab/prefix/default/include/gnuradio/messages/msg_producer.h
+ /home/lab/prefix/default/include/gnuradio/msg_accepter.h
+ /home/lab/prefix/default/include/gnuradio/rpccallbackregister_base.h
+ /home/lab/prefix/default/include/gnuradio/rpcmanager.h
+ /home/lab/prefix/default/include/gnuradio/rpcmanager_base.h
+ /home/lab/prefix/default/include/gnuradio/rpcregisterhelpers.h
+ /home/lab/prefix/default/include/gnuradio/rpcserver_aggregator.h
+ /home/lab/prefix/default/include/gnuradio/rpcserver_base.h
+ /home/lab/prefix/default/include/gnuradio/rpcserver_booter_aggregator.h
+ /home/lab/prefix/default/include/gnuradio/rpcserver_booter_base.h
+ /home/lab/prefix/default/include/gnuradio/rpcserver_selector.h
+ /home/lab/prefix/default/include/gnuradio/runtime_types.h
+ /home/lab/prefix/default/include/gnuradio/sptr_magic.h
+ /home/lab/prefix/default/include/gnuradio/sync_block.h
+ /home/lab/prefix/default/include/gnuradio/tags.h
+ /home/lab/prefix/default/include/gnuradio/thread/thread.h
+ /home/lab/prefix/default/include/gnuradio/types.h
+ /home/lab/prefix/default/include/pmt/api.h
+ /home/lab/prefix/default/include/pmt/pmt.h
+ /home/lab/prefix/default/include/pmt/pmt_sugar.h
+ /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/per_measure_impl.cc
+ /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/per_measure_impl.h
+lib/CMakeFiles/gnuradio-ofdm_allocator.dir/pkt_err_measure_impl.cc.o
+ ../include/ofdm_allocator/api.h
+ ../include/ofdm_allocator/pkt_err_measure.h
+ /home/lab/prefix/default/include/gnuradio/api.h
+ /home/lab/prefix/default/include/gnuradio/attributes.h
+ /home/lab/prefix/default/include/gnuradio/basic_block.h
+ /home/lab/prefix/default/include/gnuradio/block.h
+ /home/lab/prefix/default/include/gnuradio/block_registry.h
+ /home/lab/prefix/default/include/gnuradio/config.h
+ /home/lab/prefix/default/include/gnuradio/gr_complex.h
+ /home/lab/prefix/default/include/gnuradio/io_signature.h
+ /home/lab/prefix/default/include/gnuradio/logger.h
+ /home/lab/prefix/default/include/gnuradio/messages/msg_accepter.h
+ /home/lab/prefix/default/include/gnuradio/messages/msg_producer.h
+ /home/lab/prefix/default/include/gnuradio/msg_accepter.h
+ /home/lab/prefix/default/include/gnuradio/rpccallbackregister_base.h
+ /home/lab/prefix/default/include/gnuradio/rpcmanager.h
+ /home/lab/prefix/default/include/gnuradio/rpcmanager_base.h
+ /home/lab/prefix/default/include/gnuradio/rpcregisterhelpers.h
+ /home/lab/prefix/default/include/gnuradio/rpcserver_aggregator.h
+ /home/lab/prefix/default/include/gnuradio/rpcserver_base.h
+ /home/lab/prefix/default/include/gnuradio/rpcserver_booter_aggregator.h
+ /home/lab/prefix/default/include/gnuradio/rpcserver_booter_base.h
+ /home/lab/prefix/default/include/gnuradio/rpcserver_selector.h
+ /home/lab/prefix/default/include/gnuradio/runtime_types.h
+ /home/lab/prefix/default/include/gnuradio/sptr_magic.h
+ /home/lab/prefix/default/include/gnuradio/tags.h
+ /home/lab/prefix/default/include/gnuradio/thread/thread.h
+ /home/lab/prefix/default/include/gnuradio/types.h
+ /home/lab/prefix/default/include/pmt/api.h
+ /home/lab/prefix/default/include/pmt/pmt.h
+ /home/lab/prefix/default/include/pmt/pmt_sugar.h
+ /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/pkt_err_measure_impl.cc
+ /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/pkt_err_measure_impl.h
 lib/CMakeFiles/gnuradio-ofdm_allocator.dir/serializer_subcarrier_impl.cc.o
  ../include/ofdm_allocator/api.h
  ../include/ofdm_allocator/serializer_subcarrier.h
- /home/alice/rfnoc/src/gr-ofdm_allocator/lib/serializer_subcarrier_impl.cc
- /home/alice/rfnoc/src/gr-ofdm_allocator/lib/serializer_subcarrier_impl.h
+ /home/lab/prefix/default/include/gnuradio/api.h
+ /home/lab/prefix/default/include/gnuradio/attributes.h
+ /home/lab/prefix/default/include/gnuradio/basic_block.h
+ /home/lab/prefix/default/include/gnuradio/block.h
+ /home/lab/prefix/default/include/gnuradio/block_registry.h
+ /home/lab/prefix/default/include/gnuradio/config.h
+ /home/lab/prefix/default/include/gnuradio/gr_complex.h
+ /home/lab/prefix/default/include/gnuradio/io_signature.h
+ /home/lab/prefix/default/include/gnuradio/logger.h
+ /home/lab/prefix/default/include/gnuradio/messages/msg_accepter.h
+ /home/lab/prefix/default/include/gnuradio/messages/msg_producer.h
+ /home/lab/prefix/default/include/gnuradio/msg_accepter.h
+ /home/lab/prefix/default/include/gnuradio/rpccallbackregister_base.h
+ /home/lab/prefix/default/include/gnuradio/rpcmanager.h
+ /home/lab/prefix/default/include/gnuradio/rpcmanager_base.h
+ /home/lab/prefix/default/include/gnuradio/rpcregisterhelpers.h
+ /home/lab/prefix/default/include/gnuradio/rpcserver_aggregator.h
+ /home/lab/prefix/default/include/gnuradio/rpcserver_base.h
+ /home/lab/prefix/default/include/gnuradio/rpcserver_booter_aggregator.h
+ /home/lab/prefix/default/include/gnuradio/rpcserver_booter_base.h
+ /home/lab/prefix/default/include/gnuradio/rpcserver_selector.h
+ /home/lab/prefix/default/include/gnuradio/runtime_types.h
+ /home/lab/prefix/default/include/gnuradio/sptr_magic.h
+ /home/lab/prefix/default/include/gnuradio/tagged_stream_block.h
+ /home/lab/prefix/default/include/gnuradio/tags.h
+ /home/lab/prefix/default/include/gnuradio/thread/thread.h
+ /home/lab/prefix/default/include/gnuradio/types.h
+ /home/lab/prefix/default/include/pmt/api.h
+ /home/lab/prefix/default/include/pmt/pmt.h
+ /home/lab/prefix/default/include/pmt/pmt_sugar.h
+ /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/serializer_subcarrier_impl.cc
+ /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/serializer_subcarrier_impl.h
 lib/CMakeFiles/gnuradio-ofdm_allocator.dir/vector_source_tagged_impl.cc.o
  ../include/ofdm_allocator/api.h
  ../include/ofdm_allocator/vector_source_tagged.h
- /home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.cc
- /home/alice/rfnoc/src/gr-ofdm_allocator/lib/vector_source_tagged_impl.h
+ /home/lab/prefix/default/include/gnuradio/api.h
+ /home/lab/prefix/default/include/gnuradio/attributes.h
+ /home/lab/prefix/default/include/gnuradio/basic_block.h
+ /home/lab/prefix/default/include/gnuradio/block.h
+ /home/lab/prefix/default/include/gnuradio/block_registry.h
+ /home/lab/prefix/default/include/gnuradio/config.h
+ /home/lab/prefix/default/include/gnuradio/gr_complex.h
+ /home/lab/prefix/default/include/gnuradio/io_signature.h
+ /home/lab/prefix/default/include/gnuradio/logger.h
+ /home/lab/prefix/default/include/gnuradio/messages/msg_accepter.h
+ /home/lab/prefix/default/include/gnuradio/messages/msg_producer.h
+ /home/lab/prefix/default/include/gnuradio/msg_accepter.h
+ /home/lab/prefix/default/include/gnuradio/rpccallbackregister_base.h
+ /home/lab/prefix/default/include/gnuradio/rpcmanager.h
+ /home/lab/prefix/default/include/gnuradio/rpcmanager_base.h
+ /home/lab/prefix/default/include/gnuradio/rpcregisterhelpers.h
+ /home/lab/prefix/default/include/gnuradio/rpcserver_aggregator.h
+ /home/lab/prefix/default/include/gnuradio/rpcserver_base.h
+ /home/lab/prefix/default/include/gnuradio/rpcserver_booter_aggregator.h
+ /home/lab/prefix/default/include/gnuradio/rpcserver_booter_base.h
+ /home/lab/prefix/default/include/gnuradio/rpcserver_selector.h
+ /home/lab/prefix/default/include/gnuradio/runtime_types.h
+ /home/lab/prefix/default/include/gnuradio/sptr_magic.h
+ /home/lab/prefix/default/include/gnuradio/sync_block.h
+ /home/lab/prefix/default/include/gnuradio/tags.h
+ /home/lab/prefix/default/include/gnuradio/thread/thread.h
+ /home/lab/prefix/default/include/gnuradio/types.h
+ /home/lab/prefix/default/include/pmt/api.h
+ /home/lab/prefix/default/include/pmt/pmt.h
+ /home/lab/prefix/default/include/pmt/pmt_sugar.h
+ /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/vector_source_tagged_impl.cc
+ /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/vector_source_tagged_impl.h

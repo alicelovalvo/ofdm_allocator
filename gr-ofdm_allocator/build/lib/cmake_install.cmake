@@ -1,8 +1,8 @@
-# Install script for directory: /home/alice/rfnoc/src/gr-ofdm_allocator/lib
+# Install script for directory: /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr/local")
+  set(CMAKE_INSTALL_PREFIX "/home/lab/prefix/default")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,7 +39,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgnuradio-ofdm_allocator.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/alice/rfnoc/src/gr-ofdm_allocator/build/lib/libgnuradio-ofdm_allocator.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build/lib/libgnuradio-ofdm_allocator.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgnuradio-ofdm_allocator.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgnuradio-ofdm_allocator.so")
     if(CMAKE_INSTALL_DO_STRIP)

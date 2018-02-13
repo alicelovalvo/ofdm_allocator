@@ -34,5 +34,8 @@ install(FILES
     constellation_alix.h
     metric_type_alix.h
     constellation_decoder_alix.h
-    packet_header_parser_alix.h DESTINATION include/ofdm_allocator
+    packet_header_parser_alix.h
+    per_measure.h
+    pkt_err_measure.h
+    per_measure_decimator.h DESTINATION include/ofdm_allocator
 )

@@ -1,8 +1,8 @@
-# Install script for directory: /home/alice/rfnoc/src/gr-ofdm_allocator/swig
+# Install script for directory: /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/swig
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr/local")
+  set(CMAKE_INSTALL_PREFIX "/home/lab/prefix/default")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,12 +39,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/ofdm_allocator/_ofdm_allocator_swig.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/ofdm_allocator" TYPE MODULE FILES "/home/alice/rfnoc/src/gr-ofdm_allocator/build/swig/_ofdm_allocator_swig.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/ofdm_allocator" TYPE MODULE FILES "/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build/swig/_ofdm_allocator_swig.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/ofdm_allocator/_ofdm_allocator_swig.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/ofdm_allocator/_ofdm_allocator_swig.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/ofdm_allocator/_ofdm_allocator_swig.so"
-         OLD_RPATH "/home/alice/rfnoc/src/gr-ofdm_allocator/build/lib:"
+         OLD_RPATH "/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/ofdm_allocator/_ofdm_allocator_swig.so")
@@ -53,20 +53,20 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/ofdm_allocator" TYPE FILE FILES "/home/alice/rfnoc/src/gr-ofdm_allocator/build/swig/ofdm_allocator_swig.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/ofdm_allocator" TYPE FILE FILES "/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build/swig/ofdm_allocator_swig.py")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/ofdm_allocator" TYPE FILE FILES
-    "/home/alice/rfnoc/src/gr-ofdm_allocator/build/swig/ofdm_allocator_swig.pyc"
-    "/home/alice/rfnoc/src/gr-ofdm_allocator/build/swig/ofdm_allocator_swig.pyo"
+    "/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build/swig/ofdm_allocator_swig.pyc"
+    "/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build/swig/ofdm_allocator_swig.pyo"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ofdm_allocator/ofdm_allocator/swig" TYPE FILE FILES
-    "/home/alice/rfnoc/src/gr-ofdm_allocator/swig/ofdm_allocator_swig.i"
-    "/home/alice/rfnoc/src/gr-ofdm_allocator/build/swig/ofdm_allocator_swig_doc.i"
+    "/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/swig/ofdm_allocator_swig.i"
+    "/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build/swig/ofdm_allocator_swig_doc.i"
     )
 endif()
 

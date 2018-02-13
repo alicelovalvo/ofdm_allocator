@@ -6,5 +6,5 @@ CXX_FLAGS = -O3 -DNDEBUG   -fvisibility=hidden
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/alice/rfnoc/src/gr-ofdm_allocator/lib -I/home/alice/rfnoc/src/gr-ofdm_allocator/include -I/home/alice/rfnoc/src/gr-ofdm_allocator/build/lib -I/home/alice/rfnoc/src/gr-ofdm_allocator/build/include 
+CXX_INCLUDES = -I/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib -I/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include -I/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build/lib -I/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build/include -I/home/lab/prefix/default/include 
 

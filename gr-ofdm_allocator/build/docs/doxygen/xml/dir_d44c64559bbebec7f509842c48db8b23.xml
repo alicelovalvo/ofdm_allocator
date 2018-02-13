@@ -7,6 +7,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/"/>
+    <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/"/>
   </compounddef>
 </doxygen>

@@ -1,8 +1,8 @@
-# Install script for directory: /home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator
+# Install script for directory: /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr/local")
+  set(CMAKE_INSTALL_PREFIX "/home/lab/prefix/default")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,20 +34,23 @@ endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ofdm_allocator" TYPE FILE FILES
-    "/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/api.h"
-    "/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/vector_source_tagged.h"
-    "/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/allocator_subcarrier.h"
-    "/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/serializer_subcarrier.h"
-    "/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/packet_header_default_alix.h"
-    "/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/packet_header_gen.h"
-    "/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h"
-    "/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/ofdm_equalizer_base_alix.h"
-    "/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/ofdm_equalizer_simpledfe_alix.h"
-    "/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/frame_equalizer_alix.h"
-    "/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/constellation_alix.h"
-    "/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/metric_type_alix.h"
-    "/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/constellation_decoder_alix.h"
-    "/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/packet_header_parser_alix.h"
+    "/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/api.h"
+    "/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/vector_source_tagged.h"
+    "/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/allocator_subcarrier.h"
+    "/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/serializer_subcarrier.h"
+    "/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/packet_header_default_alix.h"
+    "/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/packet_header_gen.h"
+    "/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h"
+    "/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/ofdm_equalizer_base_alix.h"
+    "/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/ofdm_equalizer_simpledfe_alix.h"
+    "/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/frame_equalizer_alix.h"
+    "/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/constellation_alix.h"
+    "/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/metric_type_alix.h"
+    "/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/constellation_decoder_alix.h"
+    "/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/packet_header_parser_alix.h"
+    "/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/per_measure.h"
+    "/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/pkt_err_measure.h"
+    "/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/per_measure_decimator.h"
     )
 endif()
 

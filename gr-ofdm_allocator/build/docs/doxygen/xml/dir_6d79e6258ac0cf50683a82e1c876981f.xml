@@ -14,12 +14,13 @@
     <innerfile refid="packet__header__gen_8h">packet_header_gen.h</innerfile>
     <innerfile refid="packet__header__ofdm__alix_8h">packet_header_ofdm_alix.h</innerfile>
     <innerfile refid="packet__header__parser__alix_8h">packet_header_parser_alix.h</innerfile>
+    <innerfile refid="per__measure_8h">per_measure.h</innerfile>
     <innerfile refid="serializer__subcarrier_8h">serializer_subcarrier.h</innerfile>
     <innerfile refid="vector__source__tagged_8h">vector_source_tagged.h</innerfile>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/"/>
+    <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/"/>
   </compounddef>
 </doxygen>

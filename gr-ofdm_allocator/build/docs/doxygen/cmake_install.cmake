@@ -1,8 +1,8 @@
-# Install script for directory: /home/alice/rfnoc/src/gr-ofdm_allocator/docs/doxygen
+# Install script for directory: /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/docs/doxygen
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr/local")
+  set(CMAKE_INSTALL_PREFIX "/home/lab/prefix/default")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,8 +34,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/doc/gr-ofdm_allocator" TYPE DIRECTORY FILES
-    "/home/alice/rfnoc/src/gr-ofdm_allocator/build/docs/doxygen/xml"
-    "/home/alice/rfnoc/src/gr-ofdm_allocator/build/docs/doxygen/html"
+    "/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build/docs/doxygen/xml"
+    "/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build/docs/doxygen/html"
     )
 endif()
 

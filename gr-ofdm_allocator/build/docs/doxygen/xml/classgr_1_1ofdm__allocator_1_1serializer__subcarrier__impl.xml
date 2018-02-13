@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/serializer_subcarrier_impl.h" line="32" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/serializer_subcarrier_impl.h" bodystart="32" bodyend="-1"/>
+        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/serializer_subcarrier_impl.h" line="32" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/serializer_subcarrier_impl.h" bodystart="32" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1serializer__subcarrier__impl_1a7a0563054353db011f4aaaa0cc5e6f48" prot="private" static="no" mutable="no">
         <type>pmt::pmt_t</type>
@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/serializer_subcarrier_impl.h" line="33" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/serializer_subcarrier_impl.h" bodystart="33" bodyend="-1"/>
+        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/serializer_subcarrier_impl.h" line="33" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/serializer_subcarrier_impl.h" bodystart="33" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1serializer__subcarrier__impl_1a5e40e6b822510999673e23c47118f26e" prot="private" static="no" mutable="no">
         <type>pmt::pmt_t</type>
@@ -42,7 +42,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/serializer_subcarrier_impl.h" line="34" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/serializer_subcarrier_impl.h" bodystart="34" bodyend="-1"/>
+        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/serializer_subcarrier_impl.h" line="34" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/serializer_subcarrier_impl.h" bodystart="34" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1serializer__subcarrier__impl_1ae16f402f7b3a2d9664b7c38e9d3b9922" prot="private" static="no" mutable="no">
         <type>const int</type>
@@ -55,7 +55,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/serializer_subcarrier_impl.h" line="35" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/serializer_subcarrier_impl.h" bodystart="35" bodyend="-1"/>
+        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/serializer_subcarrier_impl.h" line="35" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/serializer_subcarrier_impl.h" bodystart="35" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1serializer__subcarrier__impl_1ac761785896296339d447e6bda695489f" prot="private" static="no" mutable="no">
         <type>pmt::pmt_t</type>
@@ -68,7 +68,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/serializer_subcarrier_impl.h" line="36" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/serializer_subcarrier_impl.h" bodystart="36" bodyend="-1"/>
+        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/serializer_subcarrier_impl.h" line="36" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/serializer_subcarrier_impl.h" bodystart="36" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1serializer__subcarrier__impl_1a5389b50aae835310f6304d41f961c313" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -81,7 +81,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/serializer_subcarrier_impl.h" line="37" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/serializer_subcarrier_impl.h" bodystart="37" bodyend="-1"/>
+        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/serializer_subcarrier_impl.h" line="37" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/serializer_subcarrier_impl.h" bodystart="37" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1serializer__subcarrier__impl_1a1ad4245da719afb1186b766d1b5663c0" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -94,7 +94,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/serializer_subcarrier_impl.h" line="38" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/serializer_subcarrier_impl.h" bodystart="38" bodyend="-1"/>
+        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/serializer_subcarrier_impl.h" line="38" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/serializer_subcarrier_impl.h" bodystart="38" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1serializer__subcarrier__impl_1a0f606b672d4bed95281a674141b173d4" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -107,7 +107,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/serializer_subcarrier_impl.h" line="39" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/serializer_subcarrier_impl.h" bodystart="39" bodyend="-1"/>
+        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/serializer_subcarrier_impl.h" line="39" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/serializer_subcarrier_impl.h" bodystart="39" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1serializer__subcarrier__impl_1a657194a5afe387b965e408ac1e9dbab7" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -120,7 +120,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/serializer_subcarrier_impl.h" line="40" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/serializer_subcarrier_impl.h" bodystart="40" bodyend="-1"/>
+        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/serializer_subcarrier_impl.h" line="40" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/serializer_subcarrier_impl.h" bodystart="40" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1serializer__subcarrier__impl_1a5f59130c9cd34a430166493a665e6c91" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -133,7 +133,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/serializer_subcarrier_impl.h" line="41" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/serializer_subcarrier_impl.h" bodystart="41" bodyend="-1"/>
+        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/serializer_subcarrier_impl.h" line="41" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/serializer_subcarrier_impl.h" bodystart="41" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1serializer__subcarrier__impl_1ae89947d914341876f43f46307f2135f2" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -146,7 +146,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/serializer_subcarrier_impl.h" line="42" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/serializer_subcarrier_impl.h" bodystart="42" bodyend="-1"/>
+        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/serializer_subcarrier_impl.h" line="42" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/serializer_subcarrier_impl.h" bodystart="42" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1serializer__subcarrier__impl_1ab267012025ca3f6016f5ce188da24eb4" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -159,7 +159,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/serializer_subcarrier_impl.h" line="43" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/serializer_subcarrier_impl.h" bodystart="43" bodyend="-1"/>
+        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/serializer_subcarrier_impl.h" line="43" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/serializer_subcarrier_impl.h" bodystart="43" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1serializer__subcarrier__impl_1ae8faca7b7646dcbeaef26fef8e1261e8" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -172,7 +172,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/serializer_subcarrier_impl.h" line="44" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/serializer_subcarrier_impl.h" bodystart="44" bodyend="-1"/>
+        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/serializer_subcarrier_impl.h" line="44" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/serializer_subcarrier_impl.h" bodystart="44" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1serializer__subcarrier__impl_1a27a94912e70cc042ec77dcb520ddce55" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -185,7 +185,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/serializer_subcarrier_impl.h" line="45" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/serializer_subcarrier_impl.h" bodystart="45" bodyend="-1"/>
+        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/serializer_subcarrier_impl.h" line="45" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/serializer_subcarrier_impl.h" bodystart="45" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="protected-func">
@@ -204,7 +204,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/serializer_subcarrier_impl.h" line="48" column="1"/>
+        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/serializer_subcarrier_impl.h" line="48" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1serializer__subcarrier__impl_1a56b47f13472e0c35c7f93c8c0b5f85ee" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -225,7 +225,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/serializer_subcarrier_impl.h" line="49" column="1"/>
+        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/serializer_subcarrier_impl.h" line="49" column="1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -292,7 +292,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/serializer_subcarrier_impl.h" line="52" column="1"/>
+        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/serializer_subcarrier_impl.h" line="52" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1serializer__subcarrier__impl_1a3eb04884fc76ce69798c99fee83c3b2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -305,7 +305,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/serializer_subcarrier_impl.h" line="64" column="1"/>
+        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/serializer_subcarrier_impl.h" line="64" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1serializer__subcarrier__impl_1ad61bd5160e3cbc037eeca3976b692fd0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -334,7 +334,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/serializer_subcarrier_impl.h" line="67" column="1"/>
+        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/serializer_subcarrier_impl.h" line="67" column="1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -342,40 +342,40 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="221">
+      <node id="232">
         <label>gr::ofdm_allocator::serializer_subcarrier_impl</label>
         <link refid="classgr_1_1ofdm__allocator_1_1serializer__subcarrier__impl"/>
-        <childnode refid="222" relation="public-inheritance">
+        <childnode refid="233" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="222">
+      <node id="233">
         <label>gr::ofdm_allocator::serializer_subcarrier</label>
         <link refid="classgr_1_1ofdm__allocator_1_1serializer__subcarrier"/>
-        <childnode refid="223" relation="public-inheritance">
+        <childnode refid="234" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="223">
+      <node id="234">
         <label>tagged_stream_block</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="224">
+      <node id="235">
         <label>gr::ofdm_allocator::serializer_subcarrier_impl</label>
         <link refid="classgr_1_1ofdm__allocator_1_1serializer__subcarrier__impl"/>
-        <childnode refid="225" relation="public-inheritance">
+        <childnode refid="236" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="225">
+      <node id="236">
         <label>gr::ofdm_allocator::serializer_subcarrier</label>
         <link refid="classgr_1_1ofdm__allocator_1_1serializer__subcarrier"/>
-        <childnode refid="226" relation="public-inheritance">
+        <childnode refid="237" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="226">
+      <node id="237">
         <label>tagged_stream_block</label>
       </node>
     </collaborationgraph>
-    <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/serializer_subcarrier_impl.h" line="30" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/lib/serializer_subcarrier_impl.h" bodystart="29" bodyend="71"/>
+    <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/serializer_subcarrier_impl.h" line="30" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/lib/serializer_subcarrier_impl.h" bodystart="29" bodyend="71"/>
     <listofallmembers>
       <member refid="classgr_1_1ofdm__allocator_1_1serializer__subcarrier__impl_1af576d0ebad80997b21d5b7c934253a72" prot="protected" virt="non-virtual"><scope>gr::ofdm_allocator::serializer_subcarrier_impl</scope><name>calculate_output_stream_length</name></member>
       <member refid="classgr_1_1ofdm__allocator_1_1serializer__subcarrier__impl_1ac761785896296339d447e6bda695489f" prot="private" virt="non-virtual"><scope>gr::ofdm_allocator::serializer_subcarrier_impl</scope><name>d_carr_offset_key</name></member>

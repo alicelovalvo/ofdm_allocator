@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alice/rfnoc/src/gr-ofdm_allocator
+CMAKE_SOURCE_DIR = /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alice/rfnoc/src/gr-ofdm_allocator/build
+CMAKE_BINARY_DIR = /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build
 
 # Utility rule file for uninstall.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/alice/rfnoc/src/gr-ofdm_allocator/build
 include CMakeFiles/uninstall.dir/progress.make
 
 CMakeFiles/uninstall:
-	/usr/bin/cmake -P /home/alice/rfnoc/src/gr-ofdm_allocator/build/cmake_uninstall.cmake
+	/usr/bin/cmake -P /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build/cmake_uninstall.cmake
 
 uninstall: CMakeFiles/uninstall
 uninstall: CMakeFiles/uninstall.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/alice/rfnoc/src/gr-ofdm_allocator/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alice/rfnoc/src/gr-ofdm_allocator /home/alice/rfnoc/src/gr-ofdm_allocator /home/alice/rfnoc/src/gr-ofdm_allocator/build /home/alice/rfnoc/src/gr-ofdm_allocator/build /home/alice/rfnoc/src/gr-ofdm_allocator/build/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

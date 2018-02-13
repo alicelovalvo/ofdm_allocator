@@ -6,40 +6,33 @@
     <includes refid="constellation__alix_8h" local="no">ofdm_allocator/constellation_alix.h</includes>
     <includes refid="ofdm__equalizer__base__alix_8h" local="no">ofdm_allocator/ofdm_equalizer_base_alix.h</includes>
     <incdepgraph>
-      <node id="78">
+      <node id="79">
         <label>gnuradio/tags.h</label>
       </node>
-      <node id="67">
-        <label>/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/ofdm_equalizer_simpledfe_alix.h</label>
-        <link refid="ofdm_equalizer_simpledfe_alix.h"/>
-        <childnode refid="68" relation="include">
-        </childnode>
-        <childnode refid="70" relation="include">
-        </childnode>
-        <childnode refid="77" relation="include">
-        </childnode>
+      <node id="72">
+        <label>ofdm_allocator/metric_type_alix.h</label>
+        <link refid="metric__type__alix_8h"/>
       </node>
-      <node id="69">
+      <node id="70">
         <label>gnuradio/attributes.h</label>
       </node>
-      <node id="77">
-        <label>ofdm_allocator/ofdm_equalizer_base_alix.h</label>
-        <link refid="ofdm__equalizer__base__alix_8h"/>
-        <childnode refid="68" relation="include">
+      <node id="68">
+        <label>/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/ofdm_equalizer_simpledfe_alix.h</label>
+        <link refid="ofdm_equalizer_simpledfe_alix.h"/>
+        <childnode refid="69" relation="include">
+        </childnode>
+        <childnode refid="71" relation="include">
         </childnode>
         <childnode refid="78" relation="include">
         </childnode>
-        <childnode refid="74" relation="include">
-        </childnode>
-        <childnode refid="72" relation="include">
-        </childnode>
       </node>
-      <node id="70">
+      <node id="74">
+        <label>boost/any.hpp</label>
+      </node>
+      <node id="71">
         <label>ofdm_allocator/constellation_alix.h</label>
         <link refid="constellation__alix_8h"/>
-        <childnode refid="68" relation="include">
-        </childnode>
-        <childnode refid="71" relation="include">
+        <childnode refid="69" relation="include">
         </childnode>
         <childnode refid="72" relation="include">
         </childnode>
@@ -51,31 +44,38 @@
         </childnode>
         <childnode refid="76" relation="include">
         </childnode>
-      </node>
-      <node id="73">
-        <label>boost/any.hpp</label>
-      </node>
-      <node id="76">
-        <label>vector</label>
-      </node>
-      <node id="74">
-        <label>gnuradio/gr_complex.h</label>
-      </node>
-      <node id="75">
-        <label>pmt/pmt.h</label>
-      </node>
-      <node id="72">
-        <label>boost/enable_shared_from_this.hpp</label>
-      </node>
-      <node id="68">
-        <label>ofdm_allocator/api.h</label>
-        <link refid="api_8h"/>
-        <childnode refid="69" relation="include">
+        <childnode refid="77" relation="include">
         </childnode>
       </node>
-      <node id="71">
-        <label>ofdm_allocator/metric_type_alix.h</label>
-        <link refid="metric__type__alix_8h"/>
+      <node id="78">
+        <label>ofdm_allocator/ofdm_equalizer_base_alix.h</label>
+        <link refid="ofdm__equalizer__base__alix_8h"/>
+        <childnode refid="69" relation="include">
+        </childnode>
+        <childnode refid="79" relation="include">
+        </childnode>
+        <childnode refid="75" relation="include">
+        </childnode>
+        <childnode refid="73" relation="include">
+        </childnode>
+      </node>
+      <node id="77">
+        <label>vector</label>
+      </node>
+      <node id="75">
+        <label>gnuradio/gr_complex.h</label>
+      </node>
+      <node id="76">
+        <label>pmt/pmt.h</label>
+      </node>
+      <node id="73">
+        <label>boost/enable_shared_from_this.hpp</label>
+      </node>
+      <node id="69">
+        <label>ofdm_allocator/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="70" relation="include">
+        </childnode>
       </node>
     </incdepgraph>
     <innerclass refid="classgr_1_1ofdm__allocator_1_1ofdm__equalizer__simpledfe__alix" prot="public">gr::ofdm_allocator::ofdm_equalizer_simpledfe_alix</innerclass>
@@ -201,6 +201,6 @@
 <codeline lineno="118"><highlight class="normal"></highlight></codeline>
 <codeline lineno="119"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>INCLUDED_OFDM_ALLOCATOR_OFDM_EQUALIZER_SIMPLEDFE_ALIX_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
     </programlisting>
-    <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/ofdm_equalizer_simpledfe_alix.h"/>
+    <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/ofdm_equalizer_simpledfe_alix.h"/>
   </compounddef>
 </doxygen>

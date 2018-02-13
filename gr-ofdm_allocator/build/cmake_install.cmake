@@ -1,8 +1,8 @@
-# Install script for directory: /home/alice/rfnoc/src/gr-ofdm_allocator
+# Install script for directory: /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr/local")
+  set(CMAKE_INSTALL_PREFIX "/home/lab/prefix/default")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,18 +33,18 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/ofdm_allocator" TYPE FILE FILES "/home/alice/rfnoc/src/gr-ofdm_allocator/cmake/Modules/ofdm_allocatorConfig.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/ofdm_allocator" TYPE FILE FILES "/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/cmake/Modules/ofdm_allocatorConfig.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/alice/rfnoc/src/gr-ofdm_allocator/build/include/ofdm_allocator/cmake_install.cmake")
-  include("/home/alice/rfnoc/src/gr-ofdm_allocator/build/lib/cmake_install.cmake")
-  include("/home/alice/rfnoc/src/gr-ofdm_allocator/build/swig/cmake_install.cmake")
-  include("/home/alice/rfnoc/src/gr-ofdm_allocator/build/python/cmake_install.cmake")
-  include("/home/alice/rfnoc/src/gr-ofdm_allocator/build/grc/cmake_install.cmake")
-  include("/home/alice/rfnoc/src/gr-ofdm_allocator/build/apps/cmake_install.cmake")
-  include("/home/alice/rfnoc/src/gr-ofdm_allocator/build/docs/cmake_install.cmake")
+  include("/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build/include/ofdm_allocator/cmake_install.cmake")
+  include("/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build/lib/cmake_install.cmake")
+  include("/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build/swig/cmake_install.cmake")
+  include("/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build/python/cmake_install.cmake")
+  include("/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build/grc/cmake_install.cmake")
+  include("/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build/apps/cmake_install.cmake")
+  include("/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build/docs/cmake_install.cmake")
 
 endif()
 
@@ -56,5 +56,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/alice/rfnoc/src/gr-ofdm_allocator/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

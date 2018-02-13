@@ -1,8 +1,8 @@
-# Install script for directory: /home/alice/rfnoc/src/gr-ofdm_allocator/docs
+# Install script for directory: /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/docs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr/local")
+  set(CMAKE_INSTALL_PREFIX "/home/lab/prefix/default")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/alice/rfnoc/src/gr-ofdm_allocator/build/docs/doxygen/cmake_install.cmake")
+  include("/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build/docs/doxygen/cmake_install.cmake")
 
 endif()
 

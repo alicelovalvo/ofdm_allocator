@@ -1,8 +1,8 @@
-# Install script for directory: /home/alice/rfnoc/src/gr-ofdm_allocator/python
+# Install script for directory: /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/python
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr/local")
+  set(CMAKE_INSTALL_PREFIX "/home/lab/prefix/default")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,17 +34,17 @@ endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/ofdm_allocator" TYPE FILE FILES
-    "/home/alice/rfnoc/src/gr-ofdm_allocator/python/__init__.py"
-    "/home/alice/rfnoc/src/gr-ofdm_allocator/python/ofdm_tx.py"
+    "/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/python/__init__.py"
+    "/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/python/ofdm_tx.py"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/ofdm_allocator" TYPE FILE FILES
-    "/home/alice/rfnoc/src/gr-ofdm_allocator/build/python/__init__.pyc"
-    "/home/alice/rfnoc/src/gr-ofdm_allocator/build/python/ofdm_tx.pyc"
-    "/home/alice/rfnoc/src/gr-ofdm_allocator/build/python/__init__.pyo"
-    "/home/alice/rfnoc/src/gr-ofdm_allocator/build/python/ofdm_tx.pyo"
+    "/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build/python/__init__.pyc"
+    "/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build/python/ofdm_tx.pyc"
+    "/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build/python/__init__.pyo"
+    "/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build/python/ofdm_tx.pyo"
     )
 endif()
 

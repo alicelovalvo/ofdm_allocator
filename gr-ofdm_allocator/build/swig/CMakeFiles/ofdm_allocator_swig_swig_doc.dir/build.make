@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alice/rfnoc/src/gr-ofdm_allocator
+CMAKE_SOURCE_DIR = /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alice/rfnoc/src/gr-ofdm_allocator/build
+CMAKE_BINARY_DIR = /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build
 
 # Utility rule file for ofdm_allocator_swig_swig_doc.
 
@@ -57,13 +57,13 @@ swig/CMakeFiles/ofdm_allocator_swig_swig_doc: swig/ofdm_allocator_swig_doc.i
 
 
 swig/ofdm_allocator_swig_doc.i: swig/ofdm_allocator_swig_doc_swig_docs/xml/index.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/alice/rfnoc/src/gr-ofdm_allocator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating python docstrings for ofdm_allocator_swig_doc"
-	cd /home/alice/rfnoc/src/gr-ofdm_allocator/docs/doxygen && /usr/bin/python2 -B /home/alice/rfnoc/src/gr-ofdm_allocator/docs/doxygen/swig_doc.py /home/alice/rfnoc/src/gr-ofdm_allocator/build/swig/ofdm_allocator_swig_doc_swig_docs/xml /home/alice/rfnoc/src/gr-ofdm_allocator/build/swig/ofdm_allocator_swig_doc.i
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating python docstrings for ofdm_allocator_swig_doc"
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/docs/doxygen && /usr/bin/python2 -B /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/docs/doxygen/swig_doc.py /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build/swig/ofdm_allocator_swig_doc_swig_docs/xml /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build/swig/ofdm_allocator_swig_doc.i
 
 swig/ofdm_allocator_swig_doc_swig_docs/xml/index.xml: swig/_ofdm_allocator_swig_doc_tag
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/alice/rfnoc/src/gr-ofdm_allocator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating doxygen xml for ofdm_allocator_swig_doc docs"
-	cd /home/alice/rfnoc/src/gr-ofdm_allocator/build/swig && ./_ofdm_allocator_swig_doc_tag
-	cd /home/alice/rfnoc/src/gr-ofdm_allocator/build/swig && /usr/bin/doxygen /home/alice/rfnoc/src/gr-ofdm_allocator/build/swig/ofdm_allocator_swig_doc_swig_docs/Doxyfile
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating doxygen xml for ofdm_allocator_swig_doc docs"
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build/swig && ./_ofdm_allocator_swig_doc_tag
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build/swig && /usr/bin/doxygen /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build/swig/ofdm_allocator_swig_doc_swig_docs/Doxyfile
 
 ofdm_allocator_swig_swig_doc: swig/CMakeFiles/ofdm_allocator_swig_swig_doc
 ofdm_allocator_swig_swig_doc: swig/ofdm_allocator_swig_doc.i
@@ -78,10 +78,10 @@ swig/CMakeFiles/ofdm_allocator_swig_swig_doc.dir/build: ofdm_allocator_swig_swig
 .PHONY : swig/CMakeFiles/ofdm_allocator_swig_swig_doc.dir/build
 
 swig/CMakeFiles/ofdm_allocator_swig_swig_doc.dir/clean:
-	cd /home/alice/rfnoc/src/gr-ofdm_allocator/build/swig && $(CMAKE_COMMAND) -P CMakeFiles/ofdm_allocator_swig_swig_doc.dir/cmake_clean.cmake
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build/swig && $(CMAKE_COMMAND) -P CMakeFiles/ofdm_allocator_swig_swig_doc.dir/cmake_clean.cmake
 .PHONY : swig/CMakeFiles/ofdm_allocator_swig_swig_doc.dir/clean
 
 swig/CMakeFiles/ofdm_allocator_swig_swig_doc.dir/depend:
-	cd /home/alice/rfnoc/src/gr-ofdm_allocator/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alice/rfnoc/src/gr-ofdm_allocator /home/alice/rfnoc/src/gr-ofdm_allocator/swig /home/alice/rfnoc/src/gr-ofdm_allocator/build /home/alice/rfnoc/src/gr-ofdm_allocator/build/swig /home/alice/rfnoc/src/gr-ofdm_allocator/build/swig/CMakeFiles/ofdm_allocator_swig_swig_doc.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/swig /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build/swig /home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/build/swig/CMakeFiles/ofdm_allocator_swig_swig_doc.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : swig/CMakeFiles/ofdm_allocator_swig_swig_doc.dir/depend
 

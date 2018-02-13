@@ -25,6 +25,8 @@ var namespacegr_1_1ofdm__allocator =
     [ "packet_header_gen", "classgr_1_1ofdm__allocator_1_1packet__header__gen.html", "classgr_1_1ofdm__allocator_1_1packet__header__gen" ],
     [ "packet_header_gen_impl", "classgr_1_1ofdm__allocator_1_1packet__header__gen__impl.html", "classgr_1_1ofdm__allocator_1_1packet__header__gen__impl" ],
     [ "packet_header_ofdm_alix", "classgr_1_1ofdm__allocator_1_1packet__header__ofdm__alix.html", "classgr_1_1ofdm__allocator_1_1packet__header__ofdm__alix" ],
+    [ "per_measure", "classgr_1_1ofdm__allocator_1_1per__measure.html", "classgr_1_1ofdm__allocator_1_1per__measure" ],
+    [ "per_measure_impl", "classgr_1_1ofdm__allocator_1_1per__measure__impl.html", "classgr_1_1ofdm__allocator_1_1per__measure__impl" ],
     [ "serializer_subcarrier", "classgr_1_1ofdm__allocator_1_1serializer__subcarrier.html", "classgr_1_1ofdm__allocator_1_1serializer__subcarrier" ],
     [ "serializer_subcarrier_impl", "classgr_1_1ofdm__allocator_1_1serializer__subcarrier__impl.html", "classgr_1_1ofdm__allocator_1_1serializer__subcarrier__impl" ],
     [ "vector_source_tagged", "classgr_1_1ofdm__allocator_1_1vector__source__tagged.html", "classgr_1_1ofdm__allocator_1_1vector__source__tagged" ],

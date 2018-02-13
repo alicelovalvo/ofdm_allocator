@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h" line="39" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h" bodystart="39" bodyend="-1"/>
+        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h" line="39" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h" bodystart="39" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="protected-attrib">
@@ -31,7 +31,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h" line="111" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h" bodystart="111" bodyend="-1"/>
+        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h" line="111" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h" bodystart="111" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1packet__header__ofdm__alix_1a18600432d1b21cbaf1f7723f6cfaf707" prot="protected" static="no" mutable="no">
         <type>const std::vector&lt; std::vector&lt; int &gt; &gt;</type>
@@ -44,7 +44,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h" line="112" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h" bodystart="112" bodyend="-1"/>
+        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h" line="112" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h" bodystart="112" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1packet__header__ofdm__alix_1afc582d3d4be6ba0f933d92a0b6cb5338" prot="protected" static="no" mutable="no">
         <type>int</type>
@@ -57,7 +57,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h" line="113" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h" bodystart="113" bodyend="-1"/>
+        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h" line="113" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h" bodystart="113" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1packet__header__ofdm__alix_1ad5b4c7574b16cbedc9be8a474a78f2d3" prot="protected" static="no" mutable="no">
         <type>int</type>
@@ -70,7 +70,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h" line="114" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h" bodystart="114" bodyend="-1"/>
+        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h" line="114" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h" bodystart="114" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1ofdm__allocator_1_1packet__header__ofdm__alix_1a55d5f5767bbfe6503f44e60efa6d385c" prot="protected" static="no" mutable="no">
         <type>std::vector&lt; unsigned char &gt;</type>
@@ -83,7 +83,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h" line="115" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h" bodystart="115" bodyend="-1"/>
+        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h" line="115" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h" bodystart="115" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -130,7 +130,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h" line="41" column="1"/>
+        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h" line="41" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1packet__header__ofdm__alix_1a7fd9a9b8e3cd3b469b43e262c81757b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -143,7 +143,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h" line="50" column="1"/>
+        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h" line="50" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1packet__header__ofdm__alix_1a5d420067209f94fa561c083ab523b739" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
@@ -169,7 +169,7 @@
 <para>Does the same as packet_header_default::header_formatter(), but optionally scrambles the bits (this is more important for OFDM to avoid PAPR spikes). </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h" line="59" column="1"/>
+        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h" line="59" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1packet__header__ofdm__alix_1a0ef4cfd01472c9dace14771293e7c678" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
@@ -195,7 +195,7 @@
 <para>Does the same as packet_header_default::header_parser(), but adds another tag that stores the number of OFDM symbols in the packet. Note that there is usually no linear connection between the number of OFDM symbols and the packet length because a packet might finish mid-OFDM-symbol. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h" line="75" column="1"/>
+        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h" line="75" column="1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-func">
@@ -305,7 +305,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h" line="98" column="1"/>
+        <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h" line="98" column="1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -364,7 +364,7 @@
         <label>std::vector&lt; int &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h" line="37" column="1" bodyfile="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h" bodystart="36" bodyend="116"/>
+    <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h" line="37" column="1" bodyfile="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h" bodystart="36" bodyend="116"/>
     <listofallmembers>
       <member refid="classgr_1_1ofdm__allocator_1_1packet__header__default__alix_1aeeeb16f0faaca1c108497adabd1b0567" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::packet_header_ofdm_alix</scope><name>base</name></member>
       <member refid="classgr_1_1ofdm__allocator_1_1packet__header__default__alix_1abb6cbe76b5a7e377e03feaa8bc07de0f" prot="protected" virt="non-virtual"><scope>gr::ofdm_allocator::packet_header_ofdm_alix</scope><name>d_bits_per_byte</name></member>

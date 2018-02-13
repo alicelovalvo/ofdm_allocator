@@ -5,31 +5,31 @@
     <includedby refid="constellation__alix_8h" local="no">constellation_alix.h</includedby>
     <invincdepgraph>
       <node id="102">
-        <label>ofdm_equalizer_simpledfe_alix.h</label>
-        <link refid="ofdm__equalizer__simpledfe__alix_8h"/>
-      </node>
-      <node id="99">
-        <label>constellation_alix.h</label>
-        <link refid="constellation__alix_8h"/>
-        <childnode refid="100" relation="include">
-        </childnode>
-        <childnode refid="102" relation="include">
-        </childnode>
-      </node>
-      <node id="101">
-        <label>constellation_decoder_alix_impl.h</label>
-        <link refid="constellation__decoder__alix__impl_8h"/>
-      </node>
-      <node id="100">
         <label>constellation_decoder_alix.h</label>
         <link refid="constellation__decoder__alix_8h"/>
+        <childnode refid="103" relation="include">
+        </childnode>
+      </node>
+      <node id="100">
+        <label>metric_type_alix.h</label>
+        <link refid="metric_type_alix.h"/>
         <childnode refid="101" relation="include">
         </childnode>
       </node>
-      <node id="98">
-        <label>metric_type_alix.h</label>
-        <link refid="metric_type_alix.h"/>
-        <childnode refid="99" relation="include">
+      <node id="104">
+        <label>ofdm_equalizer_simpledfe_alix.h</label>
+        <link refid="ofdm__equalizer__simpledfe__alix_8h"/>
+      </node>
+      <node id="103">
+        <label>constellation_decoder_alix_impl.h</label>
+        <link refid="constellation__decoder__alix__impl_8h"/>
+      </node>
+      <node id="101">
+        <label>constellation_alix.h</label>
+        <link refid="constellation__alix_8h"/>
+        <childnode refid="102" relation="include">
+        </childnode>
+        <childnode refid="104" relation="include">
         </childnode>
       </node>
     </invincdepgraph>
@@ -39,6 +39,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/alice/rfnoc/src/gr-ofdm_allocator/include/ofdm_allocator/metric_type_alix.h"/>
+    <location file="/home/lab/prefix/default/src/gnuradio/gr-ofdm_allocator/include/ofdm_allocator/metric_type_alix.h"/>
   </compounddef>
 </doxygen>
