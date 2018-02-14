@@ -87,18 +87,28 @@ swig/ofdm_allocator_swig_swig_2d0df.cpp: /opt/local/include/gnuradio/swig/msg_ha
 swig/ofdm_allocator_swig_swig_2d0df.cpp: /opt/local/include/gnuradio/swig/io_signature.i
 swig/ofdm_allocator_swig_swig_2d0df.cpp: /opt/local/include/gnuradio/swig/gr_swig_block_magic.i
 swig/ofdm_allocator_swig_swig_2d0df.cpp: /opt/local/include/gnuradio/swig/tagged_stream_block.i
+swig/ofdm_allocator_swig_swig_2d0df.cpp: swig/ofdm_allocator_swig_doc.i
 swig/ofdm_allocator_swig_swig_2d0df.cpp: /opt/local/include/gnuradio/swig/sync_decimator.i
 swig/ofdm_allocator_swig_swig_2d0df.cpp: swig/ofdm_allocator_swig.tag
 	cd /Users/Alice/ofdm_allocator/gr-ofdm_allocator/build/swig && /opt/local/bin/cmake -E copy /Users/Alice/ofdm_allocator/gr-ofdm_allocator/build/swig/ofdm_allocator_swig_swig_2d0df.cpp.in /Users/Alice/ofdm_allocator/gr-ofdm_allocator/build/swig/ofdm_allocator_swig_swig_2d0df.cpp
 
+swig/ofdm_allocator_swig_doc.i: swig/ofdm_allocator_swig_doc_swig_docs/xml/index.xml
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/Alice/ofdm_allocator/gr-ofdm_allocator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating python docstrings for ofdm_allocator_swig_doc"
+	cd /Users/Alice/ofdm_allocator/gr-ofdm_allocator/docs/doxygen && /opt/local/bin/python2.7 -B /Users/Alice/ofdm_allocator/gr-ofdm_allocator/docs/doxygen/swig_doc.py /Users/Alice/ofdm_allocator/gr-ofdm_allocator/build/swig/ofdm_allocator_swig_doc_swig_docs/xml /Users/Alice/ofdm_allocator/gr-ofdm_allocator/build/swig/ofdm_allocator_swig_doc.i
+
 swig/ofdm_allocator_swig.tag: swig/_ofdm_allocator_swig_swig_tag
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/Alice/ofdm_allocator/gr-ofdm_allocator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ofdm_allocator_swig.tag"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/Alice/ofdm_allocator/gr-ofdm_allocator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ofdm_allocator_swig.tag"
 	cd /Users/Alice/ofdm_allocator/gr-ofdm_allocator/build/swig && ./_ofdm_allocator_swig_swig_tag
 	cd /Users/Alice/ofdm_allocator/gr-ofdm_allocator/build/swig && /opt/local/bin/cmake -E touch /Users/Alice/ofdm_allocator/gr-ofdm_allocator/build/swig/ofdm_allocator_swig.tag
 
+swig/ofdm_allocator_swig_doc_swig_docs/xml/index.xml: swig/_ofdm_allocator_swig_doc_tag
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/Alice/ofdm_allocator/gr-ofdm_allocator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating doxygen xml for ofdm_allocator_swig_doc docs"
+	cd /Users/Alice/ofdm_allocator/gr-ofdm_allocator/build/swig && ./_ofdm_allocator_swig_doc_tag
+	cd /Users/Alice/ofdm_allocator/gr-ofdm_allocator/build/swig && /opt/local/bin/doxygen /Users/Alice/ofdm_allocator/gr-ofdm_allocator/build/swig/ofdm_allocator_swig_doc_swig_docs/Doxyfile
+
 swig/CMakeFiles/ofdm_allocator_swig_swig_2d0df.dir/ofdm_allocator_swig_swig_2d0df.cpp.o: swig/CMakeFiles/ofdm_allocator_swig_swig_2d0df.dir/flags.make
 swig/CMakeFiles/ofdm_allocator_swig_swig_2d0df.dir/ofdm_allocator_swig_swig_2d0df.cpp.o: swig/ofdm_allocator_swig_swig_2d0df.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Alice/ofdm_allocator/gr-ofdm_allocator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object swig/CMakeFiles/ofdm_allocator_swig_swig_2d0df.dir/ofdm_allocator_swig_swig_2d0df.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Alice/ofdm_allocator/gr-ofdm_allocator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object swig/CMakeFiles/ofdm_allocator_swig_swig_2d0df.dir/ofdm_allocator_swig_swig_2d0df.cpp.o"
 	cd /Users/Alice/ofdm_allocator/gr-ofdm_allocator/build/swig && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ofdm_allocator_swig_swig_2d0df.dir/ofdm_allocator_swig_swig_2d0df.cpp.o -c /Users/Alice/ofdm_allocator/gr-ofdm_allocator/build/swig/ofdm_allocator_swig_swig_2d0df.cpp
 
 swig/CMakeFiles/ofdm_allocator_swig_swig_2d0df.dir/ofdm_allocator_swig_swig_2d0df.cpp.i: cmake_force
@@ -130,7 +140,7 @@ ofdm_allocator_swig_swig_2d0df_EXTERNAL_OBJECTS =
 swig/ofdm_allocator_swig_swig_2d0df: swig/CMakeFiles/ofdm_allocator_swig_swig_2d0df.dir/ofdm_allocator_swig_swig_2d0df.cpp.o
 swig/ofdm_allocator_swig_swig_2d0df: swig/CMakeFiles/ofdm_allocator_swig_swig_2d0df.dir/build.make
 swig/ofdm_allocator_swig_swig_2d0df: swig/CMakeFiles/ofdm_allocator_swig_swig_2d0df.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Alice/ofdm_allocator/gr-ofdm_allocator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ofdm_allocator_swig_swig_2d0df"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Alice/ofdm_allocator/gr-ofdm_allocator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ofdm_allocator_swig_swig_2d0df"
 	cd /Users/Alice/ofdm_allocator/gr-ofdm_allocator/build/swig && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ofdm_allocator_swig_swig_2d0df.dir/link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Swig source"
 	cd /Users/Alice/ofdm_allocator/gr-ofdm_allocator/build/swig && /opt/local/bin/cmake -E make_directory /Users/Alice/ofdm_allocator/gr-ofdm_allocator/build/swig
@@ -150,7 +160,9 @@ swig/CMakeFiles/ofdm_allocator_swig_swig_2d0df.dir/clean:
 .PHONY : swig/CMakeFiles/ofdm_allocator_swig_swig_2d0df.dir/clean
 
 swig/CMakeFiles/ofdm_allocator_swig_swig_2d0df.dir/depend: swig/ofdm_allocator_swig_swig_2d0df.cpp
+swig/CMakeFiles/ofdm_allocator_swig_swig_2d0df.dir/depend: swig/ofdm_allocator_swig_doc.i
 swig/CMakeFiles/ofdm_allocator_swig_swig_2d0df.dir/depend: swig/ofdm_allocator_swig.tag
+swig/CMakeFiles/ofdm_allocator_swig_swig_2d0df.dir/depend: swig/ofdm_allocator_swig_doc_swig_docs/xml/index.xml
 	cd /Users/Alice/ofdm_allocator/gr-ofdm_allocator/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/Alice/ofdm_allocator/gr-ofdm_allocator /Users/Alice/ofdm_allocator/gr-ofdm_allocator/swig /Users/Alice/ofdm_allocator/gr-ofdm_allocator/build /Users/Alice/ofdm_allocator/gr-ofdm_allocator/build/swig /Users/Alice/ofdm_allocator/gr-ofdm_allocator/build/swig/CMakeFiles/ofdm_allocator_swig_swig_2d0df.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : swig/CMakeFiles/ofdm_allocator_swig_swig_2d0df.dir/depend
 

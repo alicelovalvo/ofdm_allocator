@@ -90,7 +90,21 @@ namespace gr {
         d_crc_impl.process_bytes(in, packet_length - d_crc_length);
         crc = d_crc_impl();
         if (d_packed) {
+          std::cout << "/*********** SUCCESS *************/" << '\n';
+          std::cout << "/* crc */" << crc << '\n';
+          std::cout << "/* message */" << *(unsigned int *)(in + packet_length - d_crc_length) << '\n';
+          std::cout << "/* packet_length */" << packet_length << '\n';
+          std::cout << "/* d_crc_length */" << d_crc_length <<'\n';
+          std::cout << "/* in */" << *(unsigned int *)in << '\n';
+          std::cout << "/*********** SUCCESS END *************/" << '\n';
           if (crc != *(unsigned int *) (in + packet_length - d_crc_length)) { // Drop package
+            std::cout << "/*********** FAIL *************/" << '\n';
+            std::cout << "/* crc */" << crc << '\n';
+            std::cout << "/* message */" << *(unsigned int *)(in + packet_length - d_crc_length) << '\n';
+            std::cout << "/* packet_length */" << packet_length << '\n';
+            std::cout << "/* d_crc_length */" << d_crc_length <<'\n';
+            std::cout << "/* in */" << *(unsigned int *)in << '\n';
+            std::cout << "/*************** FAIL END ***********************/" << '\n';
             d_nfail++;
             return 0;
           }
