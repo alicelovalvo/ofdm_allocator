@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/Alice/ofdm_allocator/gr-ofdm_allocator/build/swig/_ofdm_allocator_swig_doc_tag.cpp" "/Users/Alice/ofdm_allocator/gr-ofdm_allocator/build/swig/CMakeFiles/_ofdm_allocator_swig_doc_tag.dir/_ofdm_allocator_swig_doc_tag.cpp.o"
+  "/home/lab/ofdm_allocator/gr-ofdm_allocator/build/swig/_ofdm_allocator_swig_doc_tag.cpp" "/home/lab/ofdm_allocator/gr-ofdm_allocator/build/swig/CMakeFiles/_ofdm_allocator_swig_doc_tag.dir/_ofdm_allocator_swig_doc_tag.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "Clang")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
@@ -14,10 +14,10 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../include"
   "lib"
   "include"
-  "/opt/local/include"
+  "/home/lab/prefix/stable/include"
   "swig"
   "../swig"
-  "/opt/local/include/gnuradio/swig"
+  "/home/lab/prefix/stable/include/gnuradio/swig"
   "/usr/include/python2.7"
   )
 

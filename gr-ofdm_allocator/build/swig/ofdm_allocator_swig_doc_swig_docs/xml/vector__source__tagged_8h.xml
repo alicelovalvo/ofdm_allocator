@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
   <compounddef id="vector__source__tagged_8h" kind="file" language="C++">
     <compoundname>vector_source_tagged.h</compoundname>
     <includes refid="api_8h" local="no">ofdm_allocator/api.h</includes>
     <includes local="no">gnuradio/sync_block.h</includes>
     <incdepgraph>
       <node id="146">
-        <label>/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/vector_source_tagged.h</label>
-        <link refid="vector__source__tagged_8h"/>
+        <label>/home/lab/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/vector_source_tagged.h</label>
+        <link refid="vector_source_tagged.h"/>
         <childnode refid="147" relation="include">
         </childnode>
         <childnode refid="149" relation="include">
@@ -92,6 +92,6 @@
 <codeline lineno="69"><highlight class="normal"></highlight></codeline>
 <codeline lineno="70"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>INCLUDED_OFDM_ALLOCATOR_VECTOR_SOURCE_TAGGED_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
     </programlisting>
-    <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/vector_source_tagged.h"/>
+    <location file="/home/lab/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/vector_source_tagged.h"/>
   </compounddef>
 </doxygen>

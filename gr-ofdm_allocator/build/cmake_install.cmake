@@ -1,8 +1,8 @@
-# Install script for directory: /Users/Alice/ofdm_allocator/gr-ofdm_allocator
+# Install script for directory: /home/lab/ofdm_allocator/gr-ofdm_allocator
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/opt/local")
+  set(CMAKE_INSTALL_PREFIX "/home/lab/prefix/stable")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -27,24 +27,24 @@ if(NOT CMAKE_INSTALL_COMPONENT)
   endif()
 endif()
 
-# Is this installation the result of a crosscompile?
-if(NOT DEFINED CMAKE_CROSSCOMPILING)
-  set(CMAKE_CROSSCOMPILING "FALSE")
+# Install shared libraries without execute permission?
+if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
+  set(CMAKE_INSTALL_SO_NO_EXE "1")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/ofdm_allocator" TYPE FILE FILES "/Users/Alice/ofdm_allocator/gr-ofdm_allocator/cmake/Modules/ofdm_allocatorConfig.cmake")
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/ofdm_allocator" TYPE FILE FILES "/home/lab/ofdm_allocator/gr-ofdm_allocator/cmake/Modules/ofdm_allocatorConfig.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/Alice/ofdm_allocator/gr-ofdm_allocator/build/include/ofdm_allocator/cmake_install.cmake")
-  include("/Users/Alice/ofdm_allocator/gr-ofdm_allocator/build/lib/cmake_install.cmake")
-  include("/Users/Alice/ofdm_allocator/gr-ofdm_allocator/build/swig/cmake_install.cmake")
-  include("/Users/Alice/ofdm_allocator/gr-ofdm_allocator/build/python/cmake_install.cmake")
-  include("/Users/Alice/ofdm_allocator/gr-ofdm_allocator/build/grc/cmake_install.cmake")
-  include("/Users/Alice/ofdm_allocator/gr-ofdm_allocator/build/apps/cmake_install.cmake")
-  include("/Users/Alice/ofdm_allocator/gr-ofdm_allocator/build/docs/cmake_install.cmake")
+  include("/home/lab/ofdm_allocator/gr-ofdm_allocator/build/include/ofdm_allocator/cmake_install.cmake")
+  include("/home/lab/ofdm_allocator/gr-ofdm_allocator/build/lib/cmake_install.cmake")
+  include("/home/lab/ofdm_allocator/gr-ofdm_allocator/build/swig/cmake_install.cmake")
+  include("/home/lab/ofdm_allocator/gr-ofdm_allocator/build/python/cmake_install.cmake")
+  include("/home/lab/ofdm_allocator/gr-ofdm_allocator/build/grc/cmake_install.cmake")
+  include("/home/lab/ofdm_allocator/gr-ofdm_allocator/build/apps/cmake_install.cmake")
+  include("/home/lab/ofdm_allocator/gr-ofdm_allocator/build/docs/cmake_install.cmake")
 
 endif()
 
@@ -56,5 +56,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/Alice/ofdm_allocator/gr-ofdm_allocator/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/lab/ofdm_allocator/gr-ofdm_allocator/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -4,30 +4,66 @@
 # GNU Radio Python Flow Graph
 # Title: OFDM Tx
 # Description: Example of an OFDM Transmitter
-# Generated: Wed Feb 14 09:22:14 2018
+# Generated: Fri Feb 16 17:28:18 2018
 ##################################################
 
+if __name__ == '__main__':
+    import ctypes
+    import sys
+    if sys.platform.startswith('linux'):
+        try:
+            x11 = ctypes.cdll.LoadLibrary('libX11.so')
+            x11.XInitThreads()
+        except:
+            print "Warning: failed to XInitThreads()"
+
+from PyQt4 import Qt
 from gnuradio import analog
 from gnuradio import blocks
-from gnuradio import channels
 from gnuradio import digital
 from gnuradio import eng_notation
 from gnuradio import fec
 from gnuradio import fft
 from gnuradio import gr
+from gnuradio import uhd
 from gnuradio.eng_option import eng_option
 from gnuradio.fft import window
 from gnuradio.filter import firdes
+from gnuradio.qtgui import Range, RangeWidget
 from optparse import OptionParser
 import math
 import numpy
 import ofdm_allocator
+import sys
+import time
+from gnuradio import qtgui
 
 
-class tx_ofdm(gr.top_block):
+class tx_ofdm(gr.top_block, Qt.QWidget):
 
     def __init__(self):
         gr.top_block.__init__(self, "OFDM Tx")
+        Qt.QWidget.__init__(self)
+        self.setWindowTitle("OFDM Tx")
+        qtgui.util.check_set_qss()
+        try:
+            self.setWindowIcon(Qt.QIcon.fromTheme('gnuradio-grc'))
+        except:
+            pass
+        self.top_scroll_layout = Qt.QVBoxLayout()
+        self.setLayout(self.top_scroll_layout)
+        self.top_scroll = Qt.QScrollArea()
+        self.top_scroll.setFrameStyle(Qt.QFrame.NoFrame)
+        self.top_scroll_layout.addWidget(self.top_scroll)
+        self.top_scroll.setWidgetResizable(True)
+        self.top_widget = Qt.QWidget()
+        self.top_scroll.setWidget(self.top_widget)
+        self.top_layout = Qt.QVBoxLayout(self.top_widget)
+        self.top_grid_layout = Qt.QGridLayout()
+        self.top_layout.addLayout(self.top_grid_layout)
+
+        self.settings = Qt.QSettings("GNU Radio", "tx_ofdm")
+        self.restoreGeometry(self.settings.value("geometry").toByteArray())
 
         ##################################################
         # Variables
@@ -43,6 +79,7 @@ class tx_ofdm(gr.top_block):
         self.header_mod = header_mod = digital.constellation_bpsk()
         self.frame_length = frame_length = "frame_len"
         self.fft_len = fft_len = 64
+        self.MTU = MTU = 100000
         self.sync_word2 = sync_word2 = [0, 0, 0, 0, 0, 0, -1, -1, -1, -1, 1, 1, -1, -1, -1, 1, -1, 1, 1, 1, 1, 1, -1, -1, -1, -1, -1, 1, -1, -1, 1, -1, 0, 1, -1, 1, 1, 1, -1, 1, 1, 1, -1, 1, 1, 1, 1, -1, 1, -1, -1, -1, 1, -1, 1, -1, -1, -1, -1, 0, 0, 0, 0, 0]
         self.sync_word1 = sync_word1 = [0., 0., 0., 0., 0., 0., 0., 1.41421356, 0., -1.41421356, 0., 1.41421356, 0., -1.41421356, 0., -1.41421356, 0., -1.41421356, 0., 1.41421356, 0., -1.41421356, 0., 1.41421356, 0., -1.41421356, 0., -1.41421356, 0., -1.41421356, 0., -1.41421356, 0., 1.41421356, 0., -1.41421356, 0., 1.41421356, 0., 1.41421356, 0., 1.41421356, 0., -1.41421356, 0., 1.41421356, 0., 1.41421356, 0., 1.41421356, 0., -1.41421356, 0., 1.41421356, 0., 1.41421356, 0., 1.41421356, 0., 0., 0., 0., 0., 0.]
         self.samp_rate = samp_rate = 1000000
@@ -54,22 +91,52 @@ class tx_ofdm(gr.top_block):
         self.hdr_format = hdr_format = digital.header_format_ofdm(occupied_carriers, 1, length_tag_key,)
 
 
-        self.enc_cc = enc_cc = fec.cc_encoder_make(800000, k, rate, (polys), 0, fec.CC_STREAMING, True)
+        self.enc_cc = enc_cc = fec.cc_encoder_make(MTU*8, k, rate, (polys), 0, fec.CC_TERMINATED, True)
 
 
 
-        self.dec_cc = dec_cc = map( (lambda a: fec.cc_decoder.make(800000, k, rate, (polys), 0, -1, fec.CC_STREAMING, True)), range(0,1) );
+        self.dec_cc = dec_cc = fec.cc_decoder.make(MTU*8, k, rate, (polys), 0, -1, fec.CC_TERMINATED, True)
+
         self.addr_2 = addr_2 = "addr=192.168.10.3"
         self.addr = addr = "addr=192.168.10.2"
+        self.Gain = Gain = 8
 
         ##################################################
         # Blocks
         ##################################################
+        self._Gain_range = Range(0, 18, 0.1, 8, 200)
+        self._Gain_win = RangeWidget(self._Gain_range, self.set_Gain, "Noise", "counter_slider", float)
+        self.top_layout.addWidget(self._Gain_win)
+        self.uhd_usrp_source_0 = uhd.usrp_source(
+        	",".join((addr_2, '')),
+        	uhd.stream_args(
+        		cpu_format="fc32",
+        		channels=range(1),
+        	),
+        )
+        self.uhd_usrp_source_0.set_samp_rate(samp_rate)
+        self.uhd_usrp_source_0.set_center_freq(500e6, 0)
+        self.uhd_usrp_source_0.set_gain(0, 0)
+        self.uhd_usrp_source_0.set_antenna('RX2', 0)
+        self.uhd_usrp_source_0.set_bandwidth(samp_rate, 0)
+        self.uhd_usrp_sink_0 = uhd.usrp_sink(
+        	",".join((addr, '')),
+        	uhd.stream_args(
+        		cpu_format="fc32",
+        		channels=range(1),
+        	),
+        )
+        self.uhd_usrp_sink_0.set_samp_rate(samp_rate)
+        self.uhd_usrp_sink_0.set_center_freq(500e6, 0)
+        self.uhd_usrp_sink_0.set_gain(Gain, 0)
+        self.uhd_usrp_sink_0.set_antenna('TX/RX', 0)
+        self.uhd_usrp_sink_0.set_bandwidth(samp_rate, 0)
         self.ofdm_allocator_per_measure_0 = ofdm_allocator.per_measure(gr.sizeof_char*1, 1000)
-        self.ofdm_allocator_crc_alix_0 = ofdm_allocator.crc_alix(True, length_tag_key, True)
         self.fft_vxx_1 = fft.fft_vcc(fft_len, True, (), True, 1)
         self.fft_vxx_0_0 = fft.fft_vcc(fft_len, True, (()), True, 1)
         self.fft_vxx_0 = fft.fft_vcc(fft_len, False, (()), True, 1)
+        self.fec_extended_tagged_encoder_0 = fec.extended_tagged_encoder(encoder_obj_list=enc_cc, puncpat='11', lentagname=length_tag_key, mtu=MTU)
+        self.fec_extended_tagged_decoder_0_0 = self.fec_extended_tagged_decoder_0_0 = fec_extended_tagged_decoder_0_0 = fec.extended_tagged_decoder(decoder_obj_list=dec_cc, ann=None, puncpat='11', integration_period=10000, lentagname=length_tag_key, mtu=MTU)
         self.digital_protocol_formatter_bb_0 = digital.protocol_formatter_bb(hdr_format, length_tag_key)
         self.digital_packet_headerparser_b_0 = digital.packet_headerparser_b(header_formatter.base())
         self.digital_ofdm_sync_sc_cfb_0 = digital.ofdm_sync_sc_cfb(fft_len, fft_len/4, False)
@@ -80,6 +147,7 @@ class tx_ofdm(gr.top_block):
         self.digital_ofdm_cyclic_prefixer_0 = digital.ofdm_cyclic_prefixer(fft_len, fft_len+fft_len/4, rolloff, length_tag_key)
         self.digital_ofdm_chanest_vcvc_0 = digital.ofdm_chanest_vcvc((sync_word1), (sync_word2), 1, 0, 3, False)
         self.digital_ofdm_carrier_allocator_cvc_0 = digital.ofdm_carrier_allocator_cvc(fft_len, occupied_carriers, pilot_carriers, pilot_symbols, (sync_word1, sync_word2), length_tag_key)
+        self.digital_map_bb_0 = digital.map_bb((-1,1))
         self.digital_header_payload_demux_0 = digital.header_payload_demux(
         	  3,
         	  fft_len,
@@ -93,34 +161,30 @@ class tx_ofdm(gr.top_block):
                   (),
                   0,
             )
+        self.digital_crc32_bb_0_0 = digital.crc32_bb(True, length_tag_key, True)
         self.digital_crc32_bb_0 = digital.crc32_bb(False, length_tag_key, True)
         self.digital_constellation_decoder_cb_1 = digital.constellation_decoder_cb(payload_mod.base())
         self.digital_constellation_decoder_cb_0 = digital.constellation_decoder_cb(header_mod.base())
         self.digital_chunks_to_symbols_xx_0_0 = digital.chunks_to_symbols_bc((payload_mod.points()), 1)
         self.digital_chunks_to_symbols_xx_0 = digital.chunks_to_symbols_bc((header_mod.points()), 1)
-        self.channels_channel_model_0 = channels.channel_model(
-        	noise_voltage=0.0,
-        	frequency_offset=0.0,
-        	epsilon=1.0,
-        	taps=(1.0 + 1.0j, ),
-        	noise_seed=0,
-        	block_tags=True
-        )
-        self.blocks_throttle_0 = blocks.throttle(gr.sizeof_gr_complex*1, samp_rate,True)
         self.blocks_tagged_stream_mux_0 = blocks.tagged_stream_mux(gr.sizeof_gr_complex*1, length_tag_key, 0)
-        self.blocks_tag_gate_0 = blocks.tag_gate(gr.sizeof_gr_complex * 1, False)
-        self.blocks_tag_debug_1_1 = blocks.tag_debug(gr.sizeof_char*1, 'Rx Bytes_1', 'packet_len'); self.blocks_tag_debug_1_1.set_display(False)
+        self.blocks_tag_debug_1_1 = blocks.tag_debug(gr.sizeof_char*1, 'Rx Bytes_1', ''); self.blocks_tag_debug_1_1.set_display(False)
         self.blocks_tag_debug_1_0 = blocks.tag_debug(gr.sizeof_float*1, 'Rx Bytes', ""); self.blocks_tag_debug_1_0.set_display(False)
         self.blocks_stream_to_tagged_stream_0 = blocks.stream_to_tagged_stream(gr.sizeof_char, 1, packet_len, length_tag_key)
+        self.blocks_repack_bits_bb_0_2_0 = blocks.repack_bits_bb(1, 8, length_tag_key, False, gr.GR_LSB_FIRST)
+        self.blocks_repack_bits_bb_0_2 = blocks.repack_bits_bb(8, 1, length_tag_key, False, gr.GR_LSB_FIRST)
+        self.blocks_repack_bits_bb_0_1_1 = blocks.repack_bits_bb(8, 1, length_tag_key, True, gr.GR_LSB_FIRST)
+        self.blocks_repack_bits_bb_0_1_0 = blocks.repack_bits_bb(1, 8, length_tag_key, True, gr.GR_LSB_FIRST)
         self.blocks_repack_bits_bb_0_1 = blocks.repack_bits_bb(payload_mod.bits_per_symbol(), 8, length_tag_key, True, gr.GR_LSB_FIRST)
         self.blocks_repack_bits_bb_0_0 = blocks.repack_bits_bb(8, 1, length_tag_key, False, gr.GR_LSB_FIRST)
         self.blocks_repack_bits_bb_0 = blocks.repack_bits_bb(8, payload_mod.bits_per_symbol(), length_tag_key, False, gr.GR_LSB_FIRST)
         self.blocks_multiply_xx_0 = blocks.multiply_vcc(1)
         self.blocks_multiply_const_vxx_0 = blocks.multiply_const_vcc((0.05, ))
+        self.blocks_file_sink_0_0 = blocks.file_sink(gr.sizeof_gr_complex*1, '/home/lab/Test/OFDM_SNR/No_FEC/signal_8dB', False)
+        self.blocks_file_sink_0_0.set_unbuffered(False)
         self.blocks_delay_0 = blocks.delay(gr.sizeof_gr_complex*1, fft_len+fft_len/4)
-        self.blocks_add_xx_0 = blocks.add_vcc(1)
+        self.blocks_char_to_float_1_0 = blocks.char_to_float(1, 1)
         self.analog_random_source_x_0 = blocks.vector_source_b(map(int, numpy.random.randint(0, 255, 1000)), True)
-        self.analog_noise_source_x_0 = analog.noise_source_c(analog.GR_GAUSSIAN, 0.1, 0)
         self.analog_frequency_modulator_fc_0 = analog.frequency_modulator_fc(-2.0/fft_len)
 
         ##################################################
@@ -128,29 +192,31 @@ class tx_ofdm(gr.top_block):
         ##################################################
         self.msg_connect((self.digital_packet_headerparser_b_0, 'header_data'), (self.digital_header_payload_demux_0, 'header_data'))
         self.connect((self.analog_frequency_modulator_fc_0, 0), (self.blocks_multiply_xx_0, 0))
-        self.connect((self.analog_noise_source_x_0, 0), (self.blocks_add_xx_0, 1))
         self.connect((self.analog_random_source_x_0, 0), (self.blocks_stream_to_tagged_stream_0, 0))
-        self.connect((self.blocks_add_xx_0, 0), (self.blocks_delay_0, 0))
-        self.connect((self.blocks_add_xx_0, 0), (self.digital_ofdm_sync_sc_cfb_0, 0))
+        self.connect((self.blocks_char_to_float_1_0, 0), (self.fec_extended_tagged_decoder_0_0, 0))
         self.connect((self.blocks_delay_0, 0), (self.blocks_multiply_xx_0, 1))
-        self.connect((self.blocks_multiply_const_vxx_0, 0), (self.blocks_tag_gate_0, 0))
+        self.connect((self.blocks_multiply_const_vxx_0, 0), (self.uhd_usrp_sink_0, 0))
         self.connect((self.blocks_multiply_xx_0, 0), (self.digital_header_payload_demux_0, 0))
         self.connect((self.blocks_repack_bits_bb_0, 0), (self.digital_chunks_to_symbols_xx_0_0, 0))
         self.connect((self.blocks_repack_bits_bb_0_0, 0), (self.digital_chunks_to_symbols_xx_0, 0))
-        self.connect((self.blocks_repack_bits_bb_0_1, 0), (self.ofdm_allocator_crc_alix_0, 0))
+        self.connect((self.blocks_repack_bits_bb_0_1, 0), (self.blocks_repack_bits_bb_0_1_1, 0))
+        self.connect((self.blocks_repack_bits_bb_0_1_0, 0), (self.digital_crc32_bb_0_0, 0))
+        self.connect((self.blocks_repack_bits_bb_0_1_1, 0), (self.digital_map_bb_0, 0))
+        self.connect((self.blocks_repack_bits_bb_0_2, 0), (self.fec_extended_tagged_encoder_0, 0))
+        self.connect((self.blocks_repack_bits_bb_0_2_0, 0), (self.blocks_repack_bits_bb_0, 0))
+        self.connect((self.blocks_repack_bits_bb_0_2_0, 0), (self.digital_protocol_formatter_bb_0, 0))
         self.connect((self.blocks_stream_to_tagged_stream_0, 0), (self.digital_crc32_bb_0, 0))
-        self.connect((self.blocks_tag_gate_0, 0), (self.blocks_throttle_0, 0))
         self.connect((self.blocks_tagged_stream_mux_0, 0), (self.digital_ofdm_carrier_allocator_cvc_0, 0))
-        self.connect((self.blocks_throttle_0, 0), (self.channels_channel_model_0, 0))
-        self.connect((self.channels_channel_model_0, 0), (self.blocks_add_xx_0, 0))
         self.connect((self.digital_chunks_to_symbols_xx_0, 0), (self.blocks_tagged_stream_mux_0, 0))
         self.connect((self.digital_chunks_to_symbols_xx_0_0, 0), (self.blocks_tagged_stream_mux_0, 1))
         self.connect((self.digital_constellation_decoder_cb_0, 0), (self.digital_packet_headerparser_b_0, 0))
         self.connect((self.digital_constellation_decoder_cb_1, 0), (self.blocks_repack_bits_bb_0_1, 0))
-        self.connect((self.digital_crc32_bb_0, 0), (self.blocks_repack_bits_bb_0, 0))
-        self.connect((self.digital_crc32_bb_0, 0), (self.digital_protocol_formatter_bb_0, 0))
+        self.connect((self.digital_crc32_bb_0, 0), (self.blocks_repack_bits_bb_0_2, 0))
+        self.connect((self.digital_crc32_bb_0_0, 0), (self.blocks_tag_debug_1_1, 0))
+        self.connect((self.digital_crc32_bb_0_0, 0), (self.ofdm_allocator_per_measure_0, 0))
         self.connect((self.digital_header_payload_demux_0, 0), (self.fft_vxx_0_0, 0))
         self.connect((self.digital_header_payload_demux_0, 1), (self.fft_vxx_1, 0))
+        self.connect((self.digital_map_bb_0, 0), (self.blocks_char_to_float_1_0, 0))
         self.connect((self.digital_ofdm_carrier_allocator_cvc_0, 0), (self.fft_vxx_0, 0))
         self.connect((self.digital_ofdm_chanest_vcvc_0, 0), (self.digital_ofdm_frame_equalizer_vcvc_0, 0))
         self.connect((self.digital_ofdm_cyclic_prefixer_0, 0), (self.blocks_multiply_const_vxx_0, 0))
@@ -161,12 +227,20 @@ class tx_ofdm(gr.top_block):
         self.connect((self.digital_ofdm_sync_sc_cfb_0, 0), (self.analog_frequency_modulator_fc_0, 0))
         self.connect((self.digital_ofdm_sync_sc_cfb_0, 1), (self.digital_header_payload_demux_0, 1))
         self.connect((self.digital_protocol_formatter_bb_0, 0), (self.blocks_repack_bits_bb_0_0, 0))
+        self.connect((self.fec_extended_tagged_decoder_0_0, 0), (self.blocks_repack_bits_bb_0_1_0, 0))
+        self.connect((self.fec_extended_tagged_encoder_0, 0), (self.blocks_repack_bits_bb_0_2_0, 0))
         self.connect((self.fft_vxx_0, 0), (self.digital_ofdm_cyclic_prefixer_0, 0))
         self.connect((self.fft_vxx_0_0, 0), (self.digital_ofdm_chanest_vcvc_0, 0))
         self.connect((self.fft_vxx_1, 0), (self.digital_ofdm_frame_equalizer_vcvc_1, 0))
-        self.connect((self.ofdm_allocator_crc_alix_0, 0), (self.blocks_tag_debug_1_1, 0))
-        self.connect((self.ofdm_allocator_crc_alix_0, 0), (self.ofdm_allocator_per_measure_0, 0))
         self.connect((self.ofdm_allocator_per_measure_0, 0), (self.blocks_tag_debug_1_0, 0))
+        self.connect((self.uhd_usrp_source_0, 0), (self.blocks_delay_0, 0))
+        self.connect((self.uhd_usrp_source_0, 0), (self.blocks_file_sink_0_0, 0))
+        self.connect((self.uhd_usrp_source_0, 0), (self.digital_ofdm_sync_sc_cfb_0, 0))
+
+    def closeEvent(self, event):
+        self.settings = Qt.QSettings("GNU Radio", "tx_ofdm")
+        self.settings.setValue("geometry", self.saveGeometry())
+        event.accept()
 
     def get_rate(self):
         return self.rate
@@ -249,6 +323,12 @@ class tx_ofdm(gr.top_block):
         self.blocks_delay_0.set_dly(self.fft_len+self.fft_len/4)
         self.analog_frequency_modulator_fc_0.set_sensitivity(-2.0/self.fft_len)
 
+    def get_MTU(self):
+        return self.MTU
+
+    def set_MTU(self, MTU):
+        self.MTU = MTU
+
     def get_sync_word2(self):
         return self.sync_word2
 
@@ -266,7 +346,10 @@ class tx_ofdm(gr.top_block):
 
     def set_samp_rate(self, samp_rate):
         self.samp_rate = samp_rate
-        self.blocks_throttle_0.set_sample_rate(self.samp_rate)
+        self.uhd_usrp_source_0.set_samp_rate(self.samp_rate)
+        self.uhd_usrp_source_0.set_bandwidth(self.samp_rate, 0)
+        self.uhd_usrp_sink_0.set_samp_rate(self.samp_rate)
+        self.uhd_usrp_sink_0.set_bandwidth(self.samp_rate, 0)
 
     def get_rolloff(self):
         return self.rolloff
@@ -330,14 +413,32 @@ class tx_ofdm(gr.top_block):
     def set_addr(self, addr):
         self.addr = addr
 
+    def get_Gain(self):
+        return self.Gain
+
+    def set_Gain(self, Gain):
+        self.Gain = Gain
+        self.uhd_usrp_sink_0.set_gain(self.Gain, 0)
+
+
 
 def main(top_block_cls=tx_ofdm, options=None):
-    if gr.enable_realtime_scheduling() != gr.RT_OK:
-        print "Error: failed to enable real-time scheduling."
+
+    from distutils.version import StrictVersion
+    if StrictVersion(Qt.qVersion()) >= StrictVersion("4.5.0"):
+        style = gr.prefs().get_string('qtgui', 'style', 'raster')
+        Qt.QApplication.setGraphicsSystem(style)
+    qapp = Qt.QApplication(sys.argv)
 
     tb = top_block_cls()
     tb.start()
-    tb.wait()
+    tb.show()
+
+    def quitting():
+        tb.stop()
+        tb.wait()
+    qapp.connect(qapp, Qt.SIGNAL("aboutToQuit()"), quitting)
+    qapp.exec_()
 
 
 if __name__ == '__main__':

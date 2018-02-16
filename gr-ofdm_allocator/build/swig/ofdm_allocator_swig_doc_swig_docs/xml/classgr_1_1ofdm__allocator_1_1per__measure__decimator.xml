@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
   <compounddef id="classgr_1_1ofdm__allocator_1_1per__measure__decimator" kind="class" language="C++" prot="public" abstract="yes">
     <compoundname>gr::ofdm_allocator::per_measure_decimator</compoundname>
     <basecompoundref prot="public" virt="virtual">sync_decimator</basecompoundref>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/per_measure_decimator.h" line="39" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/per_measure_decimator.h" bodystart="39" bodyend="-1"/>
+        <location file="/home/lab/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/per_measure_decimator.h" line="39" column="1" bodyfile="/home/lab/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/per_measure_decimator.h" bodystart="39" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-func">
@@ -39,7 +39,7 @@
 <para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1ofdm__allocator_1_1per__measure__decimator" kindref="compound">ofdm_allocator::per_measure_decimator</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1ofdm__allocator_1_1per__measure__decimator_1aa64cf3ccb3503b31a39766ebb838c40e" kindref="member">ofdm_allocator::per_measure_decimator::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/per_measure_decimator.h" line="49" column="1"/>
+        <location file="/home/lab/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/per_measure_decimator.h" line="49" column="1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -54,7 +54,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/per_measure_decimator.h" line="52" column="1"/>
+        <location file="/home/lab/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/per_measure_decimator.h" line="52" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1per__measure__decimator_1afbd7677f6573274a6567670971f25fe9" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>int</type>
@@ -67,7 +67,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/per_measure_decimator.h" line="57" column="1"/>
+        <location file="/home/lab/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/per_measure_decimator.h" line="57" column="1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -96,7 +96,7 @@
         <label>gr::sync_decimator</label>
       </node>
     </collaborationgraph>
-    <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/per_measure_decimator.h" line="37" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/per_measure_decimator.h" bodystart="36" bodyend="58"/>
+    <location file="/home/lab/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/per_measure_decimator.h" line="37" column="1" bodyfile="/home/lab/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/per_measure_decimator.h" bodystart="36" bodyend="58"/>
     <listofallmembers>
       <member refid="classgr_1_1ofdm__allocator_1_1per__measure__decimator_1a0b2920ac726889cbab009171ec3b0940" prot="public" virt="pure-virtual"><scope>gr::ofdm_allocator::per_measure_decimator</scope><name>current_tags</name></member>
       <member refid="classgr_1_1ofdm__allocator_1_1per__measure__decimator_1aa64cf3ccb3503b31a39766ebb838c40e" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::per_measure_decimator</scope><name>make</name></member>

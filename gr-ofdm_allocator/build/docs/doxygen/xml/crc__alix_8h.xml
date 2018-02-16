@@ -1,13 +1,24 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
   <compounddef id="crc__alix_8h" kind="file" language="C++">
     <compoundname>crc_alix.h</compoundname>
     <includes refid="api_8h" local="no">ofdm_allocator/api.h</includes>
     <includes local="no">gnuradio/tagged_stream_block.h</includes>
     <includedby refid="crc__alix__impl_8h" local="no">crc_alix_impl.h</includedby>
     <incdepgraph>
+      <node id="81">
+        <label>crc_alix.h</label>
+        <link refid="crc_alix.h"/>
+        <childnode refid="82" relation="include">
+        </childnode>
+        <childnode refid="84" relation="include">
+        </childnode>
+      </node>
       <node id="83">
         <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="84">
+        <label>gnuradio/tagged_stream_block.h</label>
       </node>
       <node id="82">
         <label>ofdm_allocator/api.h</label>
@@ -15,28 +26,17 @@
         <childnode refid="83" relation="include">
         </childnode>
       </node>
-      <node id="84">
-        <label>gnuradio/tagged_stream_block.h</label>
-      </node>
-      <node id="81">
-        <label>crc_alix.h</label>
-        <link refid="crc__alix_8h"/>
-        <childnode refid="82" relation="include">
-        </childnode>
-        <childnode refid="84" relation="include">
-        </childnode>
-      </node>
     </incdepgraph>
     <invincdepgraph>
+      <node id="85">
+        <label>crc_alix.h</label>
+        <link refid="crc_alix.h"/>
+        <childnode refid="86" relation="include">
+        </childnode>
+      </node>
       <node id="86">
         <label>crc_alix_impl.h</label>
         <link refid="crc__alix__impl_8h"/>
-      </node>
-      <node id="85">
-        <label>crc_alix.h</label>
-        <link refid="crc__alix_8h"/>
-        <childnode refid="86" relation="include">
-        </childnode>
       </node>
     </invincdepgraph>
     <innerclass refid="classgr_1_1ofdm__allocator_1_1crc__alix" prot="public">gr::ofdm_allocator::crc_alix</innerclass>
@@ -46,6 +46,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/crc_alix.h"/>
+    <location file="/home/lab/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/crc_alix.h"/>
   </compounddef>
 </doxygen>

@@ -1,23 +1,17 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
   <compounddef id="serializer__subcarrier__impl_8h" kind="file" language="C++">
     <compoundname>serializer_subcarrier_impl.h</compoundname>
     <includes refid="serializer__subcarrier_8h" local="no">ofdm_allocator/serializer_subcarrier.h</includes>
     <incdepgraph>
-      <node id="253">
-        <label>gnuradio/attributes.h</label>
-      </node>
-      <node id="252">
-        <label>ofdm_allocator/api.h</label>
-        <link refid="api_8h"/>
-        <childnode refid="253" relation="include">
-        </childnode>
-      </node>
       <node id="250">
         <label>serializer_subcarrier_impl.h</label>
-        <link refid="serializer__subcarrier__impl_8h"/>
+        <link refid="serializer_subcarrier_impl.h"/>
         <childnode refid="251" relation="include">
         </childnode>
+      </node>
+      <node id="253">
+        <label>gnuradio/attributes.h</label>
       </node>
       <node id="251">
         <label>ofdm_allocator/serializer_subcarrier.h</label>
@@ -30,6 +24,12 @@
       <node id="254">
         <label>gnuradio/tagged_stream_block.h</label>
       </node>
+      <node id="252">
+        <label>ofdm_allocator/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="253" relation="include">
+        </childnode>
+      </node>
     </incdepgraph>
     <innerclass refid="classgr_1_1ofdm__allocator_1_1serializer__subcarrier__impl" prot="public">gr::ofdm_allocator::serializer_subcarrier_impl</innerclass>
     <innernamespace refid="namespacegr">gr</innernamespace>
@@ -38,6 +38,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/serializer_subcarrier_impl.h"/>
+    <location file="/home/lab/ofdm_allocator/gr-ofdm_allocator/lib/serializer_subcarrier_impl.h"/>
   </compounddef>
 </doxygen>

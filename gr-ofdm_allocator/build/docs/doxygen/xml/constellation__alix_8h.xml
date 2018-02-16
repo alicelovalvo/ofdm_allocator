@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
   <compounddef id="constellation__alix_8h" kind="file" language="C++">
     <compoundname>constellation_alix.h</compoundname>
     <includes refid="api_8h" local="no">ofdm_allocator/api.h</includes>
@@ -12,15 +12,27 @@
     <includedby refid="constellation__decoder__alix_8h" local="no">constellation_decoder_alix.h</includedby>
     <includedby refid="ofdm__equalizer__simpledfe__alix_8h" local="no">ofdm_equalizer_simpledfe_alix.h</includedby>
     <incdepgraph>
-      <node id="45">
-        <label>ofdm_allocator/metric_type_alix.h</label>
-        <link refid="metric__type__alix_8h"/>
-      </node>
       <node id="44">
         <label>gnuradio/attributes.h</label>
       </node>
       <node id="47">
         <label>boost/any.hpp</label>
+      </node>
+      <node id="50">
+        <label>vector</label>
+      </node>
+      <node id="48">
+        <label>gnuradio/gr_complex.h</label>
+      </node>
+      <node id="49">
+        <label>pmt/pmt.h</label>
+      </node>
+      <node id="46">
+        <label>boost/enable_shared_from_this.hpp</label>
+      </node>
+      <node id="45">
+        <label>ofdm_allocator/metric_type_alix.h</label>
+        <link refid="metric__type__alix_8h"/>
       </node>
       <node id="43">
         <label>ofdm_allocator/api.h</label>
@@ -30,7 +42,7 @@
       </node>
       <node id="42">
         <label>constellation_alix.h</label>
-        <link refid="constellation__alix_8h"/>
+        <link refid="constellation_alix.h"/>
         <childnode refid="43" relation="include">
         </childnode>
         <childnode refid="45" relation="include">
@@ -46,31 +58,11 @@
         <childnode refid="50" relation="include">
         </childnode>
       </node>
-      <node id="50">
-        <label>vector</label>
-      </node>
-      <node id="48">
-        <label>gnuradio/gr_complex.h</label>
-      </node>
-      <node id="49">
-        <label>pmt/pmt.h</label>
-      </node>
-      <node id="46">
-        <label>boost/enable_shared_from_this.hpp</label>
-      </node>
     </incdepgraph>
     <invincdepgraph>
       <node id="54">
         <label>ofdm_equalizer_simpledfe_alix.h</label>
         <link refid="ofdm__equalizer__simpledfe__alix_8h"/>
-      </node>
-      <node id="51">
-        <label>constellation_alix.h</label>
-        <link refid="constellation__alix_8h"/>
-        <childnode refid="52" relation="include">
-        </childnode>
-        <childnode refid="54" relation="include">
-        </childnode>
       </node>
       <node id="53">
         <label>constellation_decoder_alix_impl.h</label>
@@ -80,6 +72,14 @@
         <label>constellation_decoder_alix.h</label>
         <link refid="constellation__decoder__alix_8h"/>
         <childnode refid="53" relation="include">
+        </childnode>
+      </node>
+      <node id="51">
+        <label>constellation_alix.h</label>
+        <link refid="constellation_alix.h"/>
+        <childnode refid="52" relation="include">
+        </childnode>
+        <childnode refid="54" relation="include">
         </childnode>
       </node>
     </invincdepgraph>
@@ -101,6 +101,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/constellation_alix.h"/>
+    <location file="/home/lab/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/constellation_alix.h"/>
   </compounddef>
 </doxygen>

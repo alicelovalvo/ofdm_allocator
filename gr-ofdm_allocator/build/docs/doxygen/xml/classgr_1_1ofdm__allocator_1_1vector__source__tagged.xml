@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
   <compounddef id="classgr_1_1ofdm__allocator_1_1vector__source__tagged" kind="class" language="C++" prot="public" abstract="yes">
     <compoundname>gr::ofdm_allocator::vector_source_tagged</compoundname>
     <basecompoundref prot="public" virt="virtual">sync_block</basecompoundref>
@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/vector_source_tagged.h" line="39" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/vector_source_tagged.h" bodystart="39" bodyend="-1"/>
+        <location file="/home/lab/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/vector_source_tagged.h" line="39" column="1" bodyfile="/home/lab/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/vector_source_tagged.h" bodystart="39" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-func">
@@ -101,7 +101,7 @@
 <para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged" kindref="compound">ofdm_allocator::vector_source_tagged</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged_1a5530376837aeb110794df61213911ff1" kindref="member">ofdm_allocator::vector_source_tagged::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/vector_source_tagged.h" line="49" column="1"/>
+        <location file="/home/lab/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/vector_source_tagged.h" line="49" column="1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -117,7 +117,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/vector_source_tagged.h" line="58" column="1"/>
+        <location file="/home/lab/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/vector_source_tagged.h" line="58" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1vector__source__tagged_1aa42bbb1c80384ca617db6094b74a0d8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>void</type>
@@ -140,7 +140,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/vector_source_tagged.h" line="59" column="1"/>
+        <location file="/home/lab/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/vector_source_tagged.h" line="59" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1vector__source__tagged_1a322223aecfc7f4495152a1d650c4f8a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>void</type>
@@ -154,7 +154,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/vector_source_tagged.h" line="62" column="1"/>
+        <location file="/home/lab/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/vector_source_tagged.h" line="62" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1vector__source__tagged_1a28340b49bc65cecf0db484a142694aa5" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>void</type>
@@ -168,7 +168,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/vector_source_tagged.h" line="63" column="1"/>
+        <location file="/home/lab/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/vector_source_tagged.h" line="63" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1vector__source__tagged_1a472a1eab6aea19fe5b3ac6e76ab66e81" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>void</type>
@@ -182,7 +182,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/vector_source_tagged.h" line="64" column="1"/>
+        <location file="/home/lab/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/vector_source_tagged.h" line="64" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1vector__source__tagged_1aad1f50b85cfc3d57e89739c4a154a632" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>void</type>
@@ -200,7 +200,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/vector_source_tagged.h" line="65" column="1"/>
+        <location file="/home/lab/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/vector_source_tagged.h" line="65" column="1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -235,7 +235,7 @@
         <label>sync_block</label>
       </node>
     </collaborationgraph>
-    <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/vector_source_tagged.h" line="37" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/vector_source_tagged.h" bodystart="36" bodyend="65"/>
+    <location file="/home/lab/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/vector_source_tagged.h" line="37" column="1" bodyfile="/home/lab/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/vector_source_tagged.h" bodystart="36" bodyend="65"/>
     <listofallmembers>
       <member refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged_1a322223aecfc7f4495152a1d650c4f8a8" prot="public" virt="pure-virtual"><scope>gr::ofdm_allocator::vector_source_tagged</scope><name>final_update</name></member>
       <member refid="classgr_1_1ofdm__allocator_1_1vector__source__tagged_1a5530376837aeb110794df61213911ff1" prot="public" virt="non-virtual"><scope>gr::ofdm_allocator::vector_source_tagged</scope><name>make</name></member>

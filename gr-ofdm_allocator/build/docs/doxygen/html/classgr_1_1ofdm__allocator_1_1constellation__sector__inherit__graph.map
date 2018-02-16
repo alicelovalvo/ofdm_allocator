@@ -1,6 +1,0 @@
-<map id="gr::ofdm_allocator::constellation_sector" name="gr::ofdm_allocator::constellation_sector">
-<area shape="rect" id="node4" href="$classgr_1_1ofdm__allocator_1_1constellation__psk.html" title="constellation_pskConstellation space is divided into pie slices sectors. " alt="" coords="5,288,109,329"/>
-<area shape="rect" id="node5" href="$classgr_1_1ofdm__allocator_1_1constellation__rect.html" title="Rectangular digital constellationOnly implemented for 1&#45;(complex)dimensional constellation. " alt="" coords="134,288,239,329"/>
-<area shape="rect" id="node2" href="$classgr_1_1ofdm__allocator_1_1constellation__alix.html" title="An abstracted constellation object. " alt="" coords="69,109,173,151"/>
-<area shape="rect" id="node6" href="$classgr_1_1ofdm__allocator_1_1constellation__expl__rect.html" title="Rectangular digital constellation. " alt="" coords="122,377,251,419"/>
-</map>

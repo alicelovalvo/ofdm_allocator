@@ -1,8 +1,8 @@
-# Install script for directory: /Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator
+# Install script for directory: /home/lab/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/opt/local")
+  set(CMAKE_INSTALL_PREFIX "/home/lab/prefix/stable")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -27,31 +27,31 @@ if(NOT CMAKE_INSTALL_COMPONENT)
   endif()
 endif()
 
-# Is this installation the result of a crosscompile?
-if(NOT DEFINED CMAKE_CROSSCOMPILING)
-  set(CMAKE_CROSSCOMPILING "FALSE")
+# Install shared libraries without execute permission?
+if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
+  set(CMAKE_INSTALL_SO_NO_EXE "1")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ofdm_allocator" TYPE FILE FILES
-    "/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/api.h"
-    "/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/vector_source_tagged.h"
-    "/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/allocator_subcarrier.h"
-    "/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/serializer_subcarrier.h"
-    "/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/packet_header_default_alix.h"
-    "/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/packet_header_gen.h"
-    "/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h"
-    "/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/ofdm_equalizer_base_alix.h"
-    "/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/ofdm_equalizer_simpledfe_alix.h"
-    "/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/frame_equalizer_alix.h"
-    "/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/constellation_alix.h"
-    "/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/metric_type_alix.h"
-    "/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/constellation_decoder_alix.h"
-    "/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/packet_header_parser_alix.h"
-    "/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/per_measure.h"
-    "/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/pkt_err_measure.h"
-    "/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/per_measure_decimator.h"
-    "/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/crc_alix.h"
+    "/home/lab/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/api.h"
+    "/home/lab/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/vector_source_tagged.h"
+    "/home/lab/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/allocator_subcarrier.h"
+    "/home/lab/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/serializer_subcarrier.h"
+    "/home/lab/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/packet_header_default_alix.h"
+    "/home/lab/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/packet_header_gen.h"
+    "/home/lab/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h"
+    "/home/lab/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/ofdm_equalizer_base_alix.h"
+    "/home/lab/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/ofdm_equalizer_simpledfe_alix.h"
+    "/home/lab/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/frame_equalizer_alix.h"
+    "/home/lab/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/constellation_alix.h"
+    "/home/lab/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/metric_type_alix.h"
+    "/home/lab/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/constellation_decoder_alix.h"
+    "/home/lab/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/packet_header_parser_alix.h"
+    "/home/lab/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/per_measure.h"
+    "/home/lab/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/pkt_err_measure.h"
+    "/home/lab/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/per_measure_decimator.h"
+    "/home/lab/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/crc_alix.h"
     )
 endif()
 

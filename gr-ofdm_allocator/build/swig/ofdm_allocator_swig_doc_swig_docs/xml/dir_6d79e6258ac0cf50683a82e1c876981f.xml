@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
   <compounddef id="dir_6d79e6258ac0cf50683a82e1c876981f" kind="dir">
-    <compoundname>/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator</compoundname>
+    <compoundname>/home/lab/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator</compoundname>
     <innerfile refid="allocator__subcarrier_8h">allocator_subcarrier.h</innerfile>
     <innerfile refid="api_8h">api.h</innerfile>
     <innerfile refid="constellation__alix_8h">constellation_alix.h</innerfile>
@@ -24,6 +24,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/"/>
+    <location file="/home/lab/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/"/>
   </compounddef>
 </doxygen>

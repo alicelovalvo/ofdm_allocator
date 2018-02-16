@@ -141,7 +141,7 @@ namespace gr {
           // std::cout << "/* packet_number */" << d_packet_number << '\n';
           d_packet_init = d_packet_number;
           packet_error_rate = (double)(10000 - (double)((d_num_pkt_rcv*10000)/sub))/100;
-          std::cout << "PER " << packet_error_rate << '\n';
+          std::cout << '\n' << "PER " << packet_error_rate << '\n';
           // std::cout << "/* sub */" << sub << '\n';
           // std::cout << "/* num_pkt_rcv */" << d_num_pkt_rcv << '\n';
           // std::cout << "/*********************************************/" << '\n';

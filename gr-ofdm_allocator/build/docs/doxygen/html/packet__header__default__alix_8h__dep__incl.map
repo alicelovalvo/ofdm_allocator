@@ -1,7 +1,0 @@
-<map id="packet_header_default_alix.h" name="packet_header_default_alix.h">
-<area shape="rect" id="node2" href="$packet__header__gen_8h.html" title="packet_header_gen.h" alt="" coords="17,102,136,129"/>
-<area shape="rect" id="node4" href="$packet__header__ofdm__alix_8h.html" title="packet_header_ofdm\l_alix.h" alt="" coords="160,95,276,136"/>
-<area shape="rect" id="node5" href="$packet__header__parser__alix_8h_source.html" title="packet_header_parser\l_alix.h" alt="" coords="301,95,423,136"/>
-<area shape="rect" id="node3" href="$packet__header__gen__impl_8h.html" title="packet_header_gen_impl.h" alt="" coords="5,191,148,218"/>
-<area shape="rect" id="node6" href="$packet__header__parser__alix__impl_8h_source.html" title="packet_header_parser\l_alix_impl.h" alt="" coords="301,184,423,225"/>
-</map>

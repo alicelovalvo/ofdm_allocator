@@ -1,15 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
   <compounddef id="frame__equalizer__alix__impl_8h" kind="file" language="C++">
     <compoundname>frame_equalizer_alix_impl.h</compoundname>
     <includes refid="frame__equalizer__alix_8h" local="no">ofdm_allocator/frame_equalizer_alix.h</includes>
     <incdepgraph>
-      <node id="109">
-        <label>gnuradio/tags.h</label>
-      </node>
-      <node id="107">
-        <label>gnuradio/attributes.h</label>
-      </node>
       <node id="108">
         <label>ofdm_allocator/ofdm_equalizer_base_alix.h</label>
         <link refid="ofdm__equalizer__base__alix_8h"/>
@@ -22,20 +16,14 @@
         <childnode refid="111" relation="include">
         </childnode>
       </node>
-      <node id="106">
-        <label>ofdm_allocator/api.h</label>
-        <link refid="api_8h"/>
-        <childnode refid="107" relation="include">
-        </childnode>
+      <node id="109">
+        <label>gnuradio/tags.h</label>
+      </node>
+      <node id="107">
+        <label>gnuradio/attributes.h</label>
       </node>
       <node id="110">
         <label>gnuradio/gr_complex.h</label>
-      </node>
-      <node id="104">
-        <label>frame_equalizer_alix_impl.h</label>
-        <link refid="frame__equalizer__alix__impl_8h"/>
-        <childnode refid="105" relation="include">
-        </childnode>
       </node>
       <node id="111">
         <label>boost/enable_shared_from_this.hpp</label>
@@ -53,6 +41,18 @@
         <childnode refid="112" relation="include">
         </childnode>
       </node>
+      <node id="106">
+        <label>ofdm_allocator/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="107" relation="include">
+        </childnode>
+      </node>
+      <node id="104">
+        <label>frame_equalizer_alix_impl.h</label>
+        <link refid="frame_equalizer_alix_impl.h"/>
+        <childnode refid="105" relation="include">
+        </childnode>
+      </node>
     </incdepgraph>
     <innerclass refid="classgr_1_1ofdm__allocator_1_1frame__equalizer__alix__impl" prot="public">gr::ofdm_allocator::frame_equalizer_alix_impl</innerclass>
     <innernamespace refid="namespacegr">gr</innernamespace>
@@ -61,6 +61,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.h"/>
+    <location file="/home/lab/ofdm_allocator/gr-ofdm_allocator/lib/frame_equalizer_alix_impl.h"/>
   </compounddef>
 </doxygen>

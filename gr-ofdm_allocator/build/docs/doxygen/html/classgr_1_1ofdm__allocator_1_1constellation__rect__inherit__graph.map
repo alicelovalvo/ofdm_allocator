@@ -1,5 +1,0 @@
-<map id="gr::ofdm_allocator::constellation_rect" name="gr::ofdm_allocator::constellation_rect">
-<area shape="rect" id="node5" href="$classgr_1_1ofdm__allocator_1_1constellation__expl__rect.html" title="Rectangular digital constellation. " alt="" coords="7,377,137,419"/>
-<area shape="rect" id="node2" href="$classgr_1_1ofdm__allocator_1_1constellation__sector.html" title="Sectorized digital constellation. " alt="" coords="14,199,130,240"/>
-<area shape="rect" id="node3" href="$classgr_1_1ofdm__allocator_1_1constellation__alix.html" title="An abstracted constellation object. " alt="" coords="20,109,124,151"/>
-</map>

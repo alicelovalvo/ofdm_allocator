@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
   <compounddef id="serializer__subcarrier_8h" kind="file" language="C++">
     <compoundname>serializer_subcarrier.h</compoundname>
     <includes refid="api_8h" local="no">ofdm_allocator/api.h</includes>
@@ -8,15 +8,9 @@
       <node id="143">
         <label>gnuradio/attributes.h</label>
       </node>
-      <node id="142">
-        <label>ofdm_allocator/api.h</label>
-        <link refid="api_8h"/>
-        <childnode refid="143" relation="include">
-        </childnode>
-      </node>
       <node id="141">
-        <label>/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/serializer_subcarrier.h</label>
-        <link refid="serializer__subcarrier_8h"/>
+        <label>/home/lab/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/serializer_subcarrier.h</label>
+        <link refid="serializer_subcarrier.h"/>
         <childnode refid="142" relation="include">
         </childnode>
         <childnode refid="144" relation="include">
@@ -24,6 +18,12 @@
       </node>
       <node id="144">
         <label>gnuradio/tagged_stream_block.h</label>
+      </node>
+      <node id="142">
+        <label>ofdm_allocator/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="143" relation="include">
+        </childnode>
       </node>
     </incdepgraph>
     <innerclass refid="classgr_1_1ofdm__allocator_1_1serializer__subcarrier" prot="public">gr::ofdm_allocator::serializer_subcarrier</innerclass>
@@ -89,6 +89,6 @@
 <codeline lineno="66"><highlight class="normal"></highlight></codeline>
 <codeline lineno="67"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>INCLUDED_OFDM_ALLOCATOR_SERIALIZER_SUBCARRIER_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
     </programlisting>
-    <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/serializer_subcarrier.h"/>
+    <location file="/home/lab/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/serializer_subcarrier.h"/>
   </compounddef>
 </doxygen>

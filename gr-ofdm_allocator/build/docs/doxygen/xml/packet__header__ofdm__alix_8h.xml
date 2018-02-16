@@ -1,41 +1,16 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
   <compounddef id="packet__header__ofdm__alix_8h" kind="file" language="C++">
     <compoundname>packet_header_ofdm_alix.h</compoundname>
     <includes local="no">vector</includes>
     <includes refid="api_8h" local="no">ofdm_allocator/api.h</includes>
     <includes refid="packet__header__default__alix_8h" local="no">ofdm_allocator/packet_header_default_alix.h</includes>
     <incdepgraph>
-      <node id="179">
-        <label>packet_header_ofdm_alix.h</label>
-        <link refid="packet__header__ofdm__alix_8h"/>
-        <childnode refid="180" relation="include">
-        </childnode>
-        <childnode refid="181" relation="include">
-        </childnode>
-        <childnode refid="183" relation="include">
-        </childnode>
-      </node>
       <node id="184">
         <label>gnuradio/tags.h</label>
       </node>
       <node id="182">
         <label>gnuradio/attributes.h</label>
-      </node>
-      <node id="181">
-        <label>ofdm_allocator/api.h</label>
-        <link refid="api_8h"/>
-        <childnode refid="182" relation="include">
-        </childnode>
-      </node>
-      <node id="186">
-        <label>boost/crc.hpp</label>
-      </node>
-      <node id="180">
-        <label>vector</label>
-      </node>
-      <node id="185">
-        <label>boost/enable_shared_from_this.hpp</label>
       </node>
       <node id="183">
         <label>ofdm_allocator/packet_header_default_alix.h</label>
@@ -49,6 +24,31 @@
         <childnode refid="186" relation="include">
         </childnode>
       </node>
+      <node id="186">
+        <label>boost/crc.hpp</label>
+      </node>
+      <node id="180">
+        <label>vector</label>
+      </node>
+      <node id="179">
+        <label>packet_header_ofdm_alix.h</label>
+        <link refid="packet_header_ofdm_alix.h"/>
+        <childnode refid="180" relation="include">
+        </childnode>
+        <childnode refid="181" relation="include">
+        </childnode>
+        <childnode refid="183" relation="include">
+        </childnode>
+      </node>
+      <node id="185">
+        <label>boost/enable_shared_from_this.hpp</label>
+      </node>
+      <node id="181">
+        <label>ofdm_allocator/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="182" relation="include">
+        </childnode>
+      </node>
     </incdepgraph>
     <innerclass refid="classgr_1_1ofdm__allocator_1_1packet__header__ofdm__alix" prot="public">gr::ofdm_allocator::packet_header_ofdm_alix</innerclass>
     <innernamespace refid="namespacegr">gr</innernamespace>
@@ -57,6 +57,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h"/>
+    <location file="/home/lab/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/packet_header_ofdm_alix.h"/>
   </compounddef>
 </doxygen>

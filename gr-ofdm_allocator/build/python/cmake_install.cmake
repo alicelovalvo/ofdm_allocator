@@ -1,8 +1,8 @@
-# Install script for directory: /Users/Alice/ofdm_allocator/gr-ofdm_allocator/python
+# Install script for directory: /home/lab/ofdm_allocator/gr-ofdm_allocator/python
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/opt/local")
+  set(CMAKE_INSTALL_PREFIX "/home/lab/prefix/stable")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -27,24 +27,24 @@ if(NOT CMAKE_INSTALL_COMPONENT)
   endif()
 endif()
 
-# Is this installation the result of a crosscompile?
-if(NOT DEFINED CMAKE_CROSSCOMPILING)
-  set(CMAKE_CROSSCOMPILING "FALSE")
+# Install shared libraries without execute permission?
+if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
+  set(CMAKE_INSTALL_SO_NO_EXE "1")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/site-packages/ofdm_allocator" TYPE FILE FILES
-    "/Users/Alice/ofdm_allocator/gr-ofdm_allocator/python/__init__.py"
-    "/Users/Alice/ofdm_allocator/gr-ofdm_allocator/python/ofdm_tx.py"
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/ofdm_allocator" TYPE FILE FILES
+    "/home/lab/ofdm_allocator/gr-ofdm_allocator/python/__init__.py"
+    "/home/lab/ofdm_allocator/gr-ofdm_allocator/python/ofdm_tx.py"
     )
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/site-packages/ofdm_allocator" TYPE FILE FILES
-    "/Users/Alice/ofdm_allocator/gr-ofdm_allocator/build/python/__init__.pyc"
-    "/Users/Alice/ofdm_allocator/gr-ofdm_allocator/build/python/ofdm_tx.pyc"
-    "/Users/Alice/ofdm_allocator/gr-ofdm_allocator/build/python/__init__.pyo"
-    "/Users/Alice/ofdm_allocator/gr-ofdm_allocator/build/python/ofdm_tx.pyo"
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/ofdm_allocator" TYPE FILE FILES
+    "/home/lab/ofdm_allocator/gr-ofdm_allocator/build/python/__init__.pyc"
+    "/home/lab/ofdm_allocator/gr-ofdm_allocator/build/python/ofdm_tx.pyc"
+    "/home/lab/ofdm_allocator/gr-ofdm_allocator/build/python/__init__.pyo"
+    "/home/lab/ofdm_allocator/gr-ofdm_allocator/build/python/ofdm_tx.pyo"
     )
 endif()
 

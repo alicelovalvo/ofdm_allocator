@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
   <compounddef id="classgr_1_1ofdm__allocator_1_1allocator__subcarrier" kind="class" language="C++" prot="public" abstract="yes">
     <compoundname>gr::ofdm_allocator::allocator_subcarrier</compoundname>
     <basecompoundref prot="public" virt="virtual">tagged_stream_block</basecompoundref>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/allocator_subcarrier.h" line="39" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/allocator_subcarrier.h" bodystart="39" bodyend="-1"/>
+        <location file="/home/lab/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/allocator_subcarrier.h" line="39" column="1" bodyfile="/home/lab/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/allocator_subcarrier.h" bodystart="39" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -31,7 +31,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/allocator_subcarrier.h" line="41" column="1"/>
+        <location file="/home/lab/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/allocator_subcarrier.h" line="41" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1ofdm__allocator_1_1allocator__subcarrier_1ac166debfd2b26e6ea9fc4b7de0471e1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>const int</type>
@@ -44,7 +44,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/allocator_subcarrier.h" line="42" column="1"/>
+        <location file="/home/lab/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/allocator_subcarrier.h" line="42" column="1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-func">
@@ -113,7 +113,7 @@
 <para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1ofdm__allocator_1_1allocator__subcarrier" kindref="compound">ofdm_allocator::allocator_subcarrier</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1ofdm__allocator_1_1allocator__subcarrier_1a4aced0322685e3f09c49f43725546e70" kindref="member">ofdm_allocator::allocator_subcarrier::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/allocator_subcarrier.h" line="54" column="1"/>
+        <location file="/home/lab/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/allocator_subcarrier.h" line="54" column="1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -142,7 +142,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/allocator_subcarrier.h" line="37" column="1" bodyfile="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/allocator_subcarrier.h" bodystart="36" bodyend="68"/>
+    <location file="/home/lab/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/allocator_subcarrier.h" line="37" column="1" bodyfile="/home/lab/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/allocator_subcarrier.h" bodystart="36" bodyend="68"/>
     <listofallmembers>
       <member refid="classgr_1_1ofdm__allocator_1_1allocator__subcarrier_1ac166debfd2b26e6ea9fc4b7de0471e1d" prot="public" virt="pure-virtual"><scope>gr::ofdm_allocator::allocator_subcarrier</scope><name>fft_len</name></member>
       <member refid="classgr_1_1ofdm__allocator_1_1allocator__subcarrier_1aa01c8a9ebe407e302e4307a7617ff43e" prot="public" virt="pure-virtual"><scope>gr::ofdm_allocator::allocator_subcarrier</scope><name>len_tag_key</name></member>

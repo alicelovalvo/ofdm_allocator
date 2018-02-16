@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
   <compounddef id="vector__source__tagged_8h" kind="file" language="C++">
     <compoundname>vector_source_tagged.h</compoundname>
     <includes refid="api_8h" local="no">ofdm_allocator/api.h</includes>
@@ -8,7 +8,7 @@
     <incdepgraph>
       <node id="256">
         <label>vector_source_tagged.h</label>
-        <link refid="vector__source__tagged_8h"/>
+        <link refid="vector_source_tagged.h"/>
         <childnode refid="257" relation="include">
         </childnode>
         <childnode refid="259" relation="include">
@@ -30,7 +30,7 @@
     <invincdepgraph>
       <node id="260">
         <label>vector_source_tagged.h</label>
-        <link refid="vector__source__tagged_8h"/>
+        <link refid="vector_source_tagged.h"/>
         <childnode refid="261" relation="include">
         </childnode>
       </node>
@@ -46,6 +46,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/vector_source_tagged.h"/>
+    <location file="/home/lab/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/vector_source_tagged.h"/>
   </compounddef>
 </doxygen>

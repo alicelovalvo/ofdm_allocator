@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
   <compounddef id="pkt__err__measure_8h" kind="file" language="C++">
     <compoundname>pkt_err_measure.h</compoundname>
     <includes refid="api_8h" local="no">ofdm_allocator/api.h</includes>
@@ -8,7 +8,7 @@
     <incdepgraph>
       <node id="232">
         <label>pkt_err_measure.h</label>
-        <link refid="pkt__err__measure_8h"/>
+        <link refid="pkt_err_measure.h"/>
         <childnode refid="233" relation="include">
         </childnode>
         <childnode refid="235" relation="include">
@@ -17,20 +17,20 @@
       <node id="234">
         <label>gnuradio/attributes.h</label>
       </node>
+      <node id="235">
+        <label>gnuradio/block.h</label>
+      </node>
       <node id="233">
         <label>ofdm_allocator/api.h</label>
         <link refid="api_8h"/>
         <childnode refid="234" relation="include">
         </childnode>
       </node>
-      <node id="235">
-        <label>gnuradio/block.h</label>
-      </node>
     </incdepgraph>
     <invincdepgraph>
       <node id="236">
         <label>pkt_err_measure.h</label>
-        <link refid="pkt__err__measure_8h"/>
+        <link refid="pkt_err_measure.h"/>
         <childnode refid="237" relation="include">
         </childnode>
       </node>
@@ -46,6 +46,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/Users/Alice/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/pkt_err_measure.h"/>
+    <location file="/home/lab/ofdm_allocator/gr-ofdm_allocator/include/ofdm_allocator/pkt_err_measure.h"/>
   </compounddef>
 </doxygen>

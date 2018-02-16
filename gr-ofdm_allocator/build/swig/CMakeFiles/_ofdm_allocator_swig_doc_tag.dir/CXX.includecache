@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -6,5 +6,5 @@
 
 #IncludeRegexTransform: 
 
-/Users/Alice/ofdm_allocator/gr-ofdm_allocator/build/swig/_ofdm_allocator_swig_doc_tag.cpp
+/home/lab/ofdm_allocator/gr-ofdm_allocator/build/swig/_ofdm_allocator_swig_doc_tag.cpp
 
